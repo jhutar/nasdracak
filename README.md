@@ -6,8 +6,14 @@ Development
 
 Dokumentace je v adresáři 
 
-Nainstaluju si nástroj na generování PDF (Sphinx):
+Nainstaluju (na Fedora Linux) si nástroj na generování PDF (Sphinx):
 
-    python -m venv venv
-    source venv/bin/activate
-    python -m pip install -r requirements.txt
+    dnf install python3-sphinx python3-sphinx-latex   # možná i python3-sphinxcontrib-svg2pdfconverter-common, uvidíme
+
+Sestavím PDF:
+
+    make -C docs/ latexpdf
+
+Výsledek je tady:
+
+    docs/build/latex/ndrak.pdf
