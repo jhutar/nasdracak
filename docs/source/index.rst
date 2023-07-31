@@ -1,14 +1,14 @@
-.. Náš "dračák" documentation master file, created by
-   sphinx-quickstart on Wed Jul 26 08:35:49 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Náš "dračák"
+============
 
-Welcome to Náš "dračák"'s documentation!
-========================================
+S dětmi občas hrajeme něco, čemu říkáme "dračák". Vyhýbám se bojům s lidmi (trpaslíky, elfy…), pravidla si hodně zjednodušujeme a vymýšlíme a když na to přijde, hráči dostanou výhodu pokud na poprvé dají vyjmenovaná slova po "v" nebo hlavní města sousedních států - jinak normálka. Děti jsou ale větší a větší a jsou jisté náznaky že už je to tak moc nebaví, tak jsem si řekl že bych něco sepsal pro někoho jiného. Takže tady to je.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Obsah:
+
+   pravidla
+   opustena_magova_vez
 
 
 
