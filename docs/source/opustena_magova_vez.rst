@@ -77,8 +77,8 @@ V jednu chvíli se družinka jistě dostane k tomu, aby věž prozkoumala.
 Přízemí
 =======
 
-(1) Strážnice
--------------
+① Strážnice
+-----------
 
 Tady asi hlídala někdejší posádka, čarodějovi sloužící. Pacholci pekaře Preclíka to tu už řádně probrali - je to jedna z místností kam jim strach dovolil vstoupit.
 
@@ -91,8 +91,8 @@ Tady asi hlídala někdejší posádka, čarodějovi sloužící. Pacholci peka�
 * Pod jednou z postelí se najdou trosky truhličky, prázdné. Ta není nijak schovaná. Najdou ji pokud aspoň trošku hledají a na to není potřeba házet.
 * Pokud zbytky truhličky někdo zkoumá, tak past na *INT 3, nic/všimne si že byla rozbita teprve nedávno*.
 
-(2) Audienční místnost
-----------------------
+② Audienční místnost
+--------------------
 
 Čaroděj si asi potrpěl na osobní auru a žadatele přijímal v této jistě krásné místnosti sedě na trůně jako král.
 
@@ -105,8 +105,8 @@ Tady asi hlídala někdejší posádka, čarodějovi sloužící. Pacholci peka�
 * Pokud se někdo pokusí na křeslo posadit, z opěradel vyskočí bodce a zaryjí se odvážlivci do stehen, jen málokomu se podaří ucuknout. Past na *OBR 8, zranění za 1-3 životy/ucuknutí*. Kdysi byl asi na bodcích jed což z nich dělalo smrtelé nebezpečí. Teď jsou už "jen" nebezpečné. Past se dá deaktivovat tlačítkem na područce křesla.
 * Pokud se pokusí nalézt vypínač pasti, tak se jedná o past *INT 9, nic/nalezen čudlík v čele pravé područky*. Jeho stisknutí umožní si do křesla bezpečně sednout.
 
-(3) Vykradená spižírna
-----------------------
+③ Vykradená spižírna
+--------------------
 
 Naši nezvaní hosté si dali práci na tom aby se nic nedostalo ze sklepa sem a pak taky na tom aby se odtud nedostalo nic do audienční síně. O žádnou pečlivou práci ale nešlo. Asi dost spěchali.
 
@@ -117,11 +117,11 @@ Naši nezvaní hosté si dali práci na tom aby se nic nedostalo ze sklepa sem a
 **Akce**
 
 * Pro vyražení nebo vypáčení dveří, aby se družina vůbec dostala do místnosti je past *SÍL 3/5, zranění hřebíkem za 1 život/dveře vydržely/dveře povolily*.
-* Pokud se družina dostane dovnitř, zaútočí na ně *2 Ploštice zelené (životy [][][] a [][], ÚČ: +1 (kusadla) + ochromení, OČ: +3, zkušenosti: 5)*.
+* Pokud se družina dostane dovnitř, zaútočí na ně *2 Ploštice zelené (životy ▢▢▢ a ▢▢, ÚČ: +1 (kusadla) + ochromení, OČ: +3, zkušenosti: 5)*.
 * Pokud se družina rozhodne vyčistit schody aby se tamtudy dalo projít do sklepa (a má lucernu aby si posvítila na práci), asi se nic extra nestane, jen to bude trvat třeba aspoň půlhodinu.
 
-(4) Záchod
-----------
+④ Záchod
+--------
 
 Doporučuji popsat neurčitě, ať si na to hráči přijdou sami. Otvor vede do stoky v nižším patře. V místnůstce je jediné, nezatarasené, okno - pravděpodobně kvůli větrání. Né že by to ale pomáhalo.
 
@@ -129,8 +129,8 @@ Doporučuji popsat neurčitě, ať si na to hráči přijdou sami. Otvor vede do
 
    Na konci této slepé chodbičky je něco jako velká dřevěná truhla s okrouhlým otvorem v její horní části. Dost to tu páchne i když okénko není ničím zatarasené.
 
-(5) Okno
---------
+⑤ Okno
+------
 
 V tomto okně Preclíkovi pohůnci svítí nejčastěji, protože je otočeno k městu a "strašení" tak vidí nejvíc lidí.
 
@@ -141,8 +141,8 @@ V tomto okně Preclíkovi pohůnci svítí nejčastěji, protože je otočeno k 
 Sklep
 =====
 
-(1) Krysí hnízdo
-----------------
+① Krysí hnízdo
+--------------
 
 Tady mají krysy klid. Mřížemi z městské stoky je sem nikdo pronásledovat nemůže a tak si tu shromažďují svoje poklady.
 
@@ -153,17 +153,19 @@ Tady mají krysy klid. Mřížemi z městské stoky je sem nikdo pronásledovat 
 **Akce**
 
 * Dřív než cokoli jiného si družina musí poradit s:
-   * *3 Krysy obří (životy [][][][][], [][][] a [][][], ÚČ: +2, OČ: +1, zkušenosti: 5)*
-   * *3 Krysy obyčejné (životy [][], [] a [], ÚČ: 0, OČ: 0, zkušenosti: 1)*
+
+  * *3 Krysy obří (životy ▢▢▢▢▢, ▢▢▢  a ▢▢▢, ÚČ: +2, OČ: +1, zkušenosti: 5)*
+  * *3 Krysy obyčejné (životy ▢▢, ▢▢ a ▢, ÚČ: 0, OČ: 0, zkušenosti: 1)*
+
 * Prohrabovat se v tom nepořádku je koledování si o otravu krve, takže je to past na *ODO 2/4, otrava/nic/nalezení krysího pokladu*. Pokud se prohledávající postava otráví, zasažené místo opuchne a zezelená, postava ztratí 1 život první den, 2 životy druhý den a 3 životy každý další den dokud nepodstoupí nějaký druh léčení (ať už u léčitele, nějaké vědmy nebo aspoň nevypije nějaké léčivý lektvar). V pokladu se najdou 2 prsteny a jedna náušnice (za 50, 80 a 40 zlatých).
 
-(2) Díra ve stropě
-------------------
+② Díra ve stropě
+----------------
 
 Ano, toto je ta díra ze záchodu. Pod ní protéká stoka. Nepředpokládám že se sem někdo dostane, protože to znamená brodění se stokou.
 
-(3) Mostek
-----------
+③ Mostek
+--------
 
 Dřív tu asi býval mostek, ten už je ale dávno pryč a cestu na druhou stranu představuje naplavené dřevo.
 
@@ -175,8 +177,8 @@ Dřív tu asi býval mostek, ten už je ale dávno pryč a cestu na druhou stran
 
 * Přejít přes kmen je past na *OBR 3, pád do stoky/přejití*. Pokud postava spadne do stoky, stupeň charisma klesne o 4 dokud se někde pořádně neumyje.
 
-(4) Starý sklad
----------------
+④ Starý sklad
+-------------
 
 Nic zajímavého, ale nenechavé družině jistě zabere nějaký čas tuto místnost prohledat.
 
@@ -187,8 +189,8 @@ Nic zajímavého, ale nenechavé družině jistě zabere nějaký čas tuto mís
 První patro
 ===========
 
-(1) Pracovna
-------------
+① Pracovna
+----------
 
 Dříve luxusní pracovna se spoustou skříní plných knih byla pravděpodobně vyhlášená a tak se stalo, že vykradena byla již brzo po zmizení původního majitele.
 
@@ -196,8 +198,8 @@ Dříve luxusní pracovna se spoustou skříní plných knih byla pravděpodobn�
 
    U stěn stojí staré prázdné zaprášené police, všechny prázdné. Pod velkým oknem rozpadlý stůl zničený deštěm a sněhem z již nechráněného okna.
 
-(2) Truhlice
-------------
+② Truhlice
+----------
 
 Pravděpodobně unikla pozornosti dávných vykradačů, protože obsahovala hlavně bezcenné šaty. Tedy než se o ně postaraly myši a moli.
 
@@ -219,7 +221,7 @@ Pravděpodobně unikla pozornosti dávných vykradačů, protože obsahovala hla
 
      Lahvička s temně rudou kapalinou.
 
-(3) Ložnice s krbem
+③ Ložnice s krbem
 -------------------
 
 Jistě byla krásná a pohodlná.
@@ -230,7 +232,7 @@ Jistě byla krásná a pohodlná.
 
 **Akce**
 
-* V posteli vyspávali 3 malí tvorečci kteří družinu už nějaký čas pozorovali. Ten rámus který druživa dělá by totiž vzbudil i mrtvého. Jsou to *Poletuchy (životy [][][], [][][] a [], ÚČ: +1, OČ: +3, zkušenosti: 5)*
+* V posteli vyspávali 3 malí tvorečci kteří družinu už nějaký čas pozorovali. Ten rámus který druživa dělá by totiž vzbudil i mrtvého. Jsou to *Poletuchy (životy ▢▢▢, ▢▢▢ a ▢, ÚČ: +1, OČ: +3, zkušenosti: 5)*
 
   * Pokud se s nimi někdo dá do řeči, celkem ochotně si povídají.
   * Do města přiletěli z nedaleké vesnice, protože doprovázely jednoho sedláka na trh. Chtěly mu nenápadně zajistit dobrý obchod protože jim doma s něčím pomohl.
@@ -244,8 +246,8 @@ Jistě byla krásná a pohodlná.
       Vevnitř ale pozor dej,
       na jednu barvu nešlapej.
 
-(4) Tajná místnost
-------------------
+④ Tajná místnost
+----------------
 
 Pravděpodobně kouzelníkova skrýš pro cenné věci. Před odchodem tam ale asi nechal jen nějaké drobky, které ale pro začínající dobrodruhy budou slušným pokladem.
 
@@ -261,13 +263,25 @@ Pravděpodobně kouzelníkova skrýš pro cenné věci. Před odchodem tam ale a
 * Pokud postava ví jak to s touto nášlapnou pastí funguje a pokusí se přejít jen po bílých kachličkách, je to past na OBR 2, přešlap na černou kachličku/přejití bez problémů. 
 * Ten kdo to umí, může v truhle na konci místnosti vycítit magenergii. Je v ní 20 magů jako jakési poplašné zařízení. Slouží k tomu aby vyslala mentální "budík" do mysli dávného majitele pokud ji otevře někdo jiný než on sám. Vzhledem k tomu že čaroděj je po smrti, při otevření jen s zapraskáním jako od statické elektřiny vyprchá a v příběhu nehraje roli. Družinku to ale možná znejistí.
 * V truhle je:
-   * 55 zlatých
-   * lektvar Megacloumák - alchymista by ho jistě poznal, ale pokud v družince alchymista není a nikdy se s ním nesetkali, můžeš použít tento popis:
-      * Popis pro hráče: Lahvička se skleněným špuntem po okrajích zalitých voskem. kapalina je průhledná, zbarvená do světle žluta.
-   * lektvar Rudého kříže
-      * Popis pro hráče: Lahvička s temně rudou kapalinou.
-   * svitek Ochrana před nemrtvými - alchymisté svitky poznávají podle pečetě jejímž rozlomením se svitek aktivuje, tento má však navíc na sobě nápovědu v obecné řeči
-      * Popis pro hráče: List papíru smotaný do ruličky zajištěný pečetí s nějakým složitým alchymistickým znakem který vám nic nepřipomíná. V rohu ale navíc vidíte uhlem psanou poznámku "ochrana před nemrtvými".
+
+  * 55 zlatých
+  * lektvar Megacloumák - alchymista by ho jistě poznal, ale pokud v družince alchymista není a nikdy se s ním nesetkali, můžeš použít tento popis:
+
+    .. admonition:: Popis pro hráče:
+
+       Lahvička se skleněným špuntem po okrajích zalitých voskem. kapalina je průhledná, zbarvená do světle žluta.
+
+  * lektvar Rudého kříže
+
+    .. admonition:: Popis pro hráče:
+
+       Lahvička s temně rudou kapalinou.
+
+  * svitek Ochrana před nemrtvými - alchymisté svitky poznávají podle pečetě jejímž rozlomením se svitek aktivuje, tento má však navíc na sobě nápovědu v obecné řeči
+
+    .. admonition:: Popis pro hráče:
+
+       List papíru smotaný do ruličky zajištěný pečetí s nějakým složitým alchymistickým znakem který vám nic nepřipomíná. V rohu ale navíc vidíte uhlem psanou poznámku "ochrana před nemrtvými".
 
 Druhé patro
 ===========

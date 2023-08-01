@@ -32,12 +32,14 @@ html_static_path = ['_static']
 
 latex_engine = 'xelatex'
 latex_elements = {
-###    'fontpkg': r'''
-###\setmainfont{DejaVu Serif}
-###\setsansfont{DejaVu Sans}
-###\setmonofont{DejaVu Sans Mono}
-###''',
+    'fontpkg': r'''
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+''',
     'preamble': r'''
+%\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{1}
 ''',
     'papersize': 'a5paper',
     'babel': r'\usepackage{babel}',
