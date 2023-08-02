@@ -29,7 +29,7 @@ V prvním patře družinka narazí na zmíněné poletuchy a možná najde tajno
 
 V dalším patře pak už je prázdno, jen rozbitý hvězdářský dalekohled a schody na plochou střechu se zbytky zábradlí prozrazují další vášeň dávného čaroděje.
 
-Teď už ale hurá do dobeodružství.
+Teď už ale hurá do dobrodružství.
 
 Zadání úkolu
 ============
@@ -77,6 +77,10 @@ V jednu chvíli se družinka jistě dostane k tomu, aby věž prozkoumala.
 Přízemí
 =======
 
+.. image:: img/opustena_magova_vez_0.svg
+   :alt: Přízemí
+   :align: center
+
 ① Strážnice
 -----------
 
@@ -102,7 +106,7 @@ Tady asi hlídala někdejší posádka, čarodějovi sloužící. Pacholci peka�
 
 **Akce**
 
-* Pokud se někdo pokusí na křeslo posadit, z opěradel vyskočí bodce a zaryjí se odvážlivci do stehen, jen málokomu se podaří ucuknout. Past na *OBR 8, zranění za 1-3 životy/ucuknutí*. Kdysi byl asi na bodcích jed což z nich dělalo smrtelé nebezpečí. Teď jsou už "jen" nebezpečné. Past se dá deaktivovat tlačítkem na područce křesla.
+* Pokud se někdo pokusí na křeslo posadit, z opěradel vyskočí bodce a zaryjí se odvážlivci do stehen, jen málokomu se podaří ucuknout. Past na *OBR 8, zranění za 1-3 životy/ucuknutí*. Kdysi byl asi na bodcích jed což z nich dělalo smrtelné nebezpečí. Teď jsou už "jen" nebezpečné. Past se dá deaktivovat tlačítkem na područce křesla.
 * Pokud se pokusí nalézt vypínač pasti, tak se jedná o past *INT 9, nic/nalezen čudlík v čele pravé područky*. Jeho stisknutí umožní si do křesla bezpečně sednout.
 
 ③ Vykradená spižírna
@@ -140,6 +144,10 @@ V tomto okně Preclíkovi pohůnci svítí nejčastěji, protože je otočeno k 
 
 Sklep
 =====
+
+.. image:: img/opustena_magova_vez_-1.svg
+   :alt: Sklep
+   :align: center
 
 ① Krysí hnízdo
 --------------
@@ -189,6 +197,10 @@ Nic zajímavého, ale nenechavé družině jistě zabere nějaký čas tuto mís
 První patro
 ===========
 
+.. image:: img/opustena_magova_vez_1.svg
+   :alt: První patro
+   :align: center
+
 ① Pracovna
 ----------
 
@@ -232,12 +244,12 @@ Jistě byla krásná a pohodlná.
 
 **Akce**
 
-* V posteli vyspávali 3 malí tvorečci kteří družinu už nějaký čas pozorovali. Ten rámus který druživa dělá by totiž vzbudil i mrtvého. Jsou to *Poletuchy (životy ▢▢▢, ▢▢▢ a ▢, ÚČ: +1, OČ: +3, zkušenosti: 5)*
+* V posteli vyspávali 3 malí tvorečci kteří družinu už nějaký čas pozorovali. Ten rámus který družina dělá by totiž vzbudil i mrtvého. Jsou to *Poletuchy (životy ▢▢▢, ▢▢▢ a ▢, ÚČ: +1, OČ: +3, zkušenosti: 5)*
 
   * Pokud se s nimi někdo dá do řeči, celkem ochotně si povídají.
   * Do města přiletěli z nedaleké vesnice, protože doprovázely jednoho sedláka na trh. Chtěly mu nenápadně zajistit dobrý obchod protože jim doma s něčím pomohl.
   * Po skončení trhu se vracejí domů, ale chtěly se někde prospat a tak vletěly do opuštěné věže a měly štěstí na pohodlnou a prázdnou postel.
-  * Postavám také rády prozradí, že včera večer bylo ve spodním patře rušno. Byli tam dva lidé, kteří tam u okna mávali lucernami a zjevně si dodávali odvahy nějakou pálenkou. To tyto sestry nemají rády, tak se před nimi raděj schovaly.
+  * Postavám také rády prozradí, že včera večer bylo ve spodním patře rušno. Byli tam dva lidé, kteří tam u okna mávali lucernami a zjevně si dodávali odvahy nějakou pálenkou. To tyto sestry nemají rády, tak se před nimi raději schovaly.
   * Pokud na ně skupina dobře zapůsobí, možná jim naznačí přítomnost tajných dveří (první rým) a možná i pasti v místnosti za nimi (druhý rým):
 
    .. centered::
@@ -260,7 +272,7 @@ Pravděpodobně kouzelníkova skrýš pro cenné věci. Před odchodem tam ale a
 * Nalezení dveří do tajné místnosti je past na INT 7, nic/objevení dveří. Při průzkumu stěny sis všiml(a) spáry ve stěně. Při dalším ohmatávání stěny způsobilo zatlačeni na jeden kámen jakési "cvak" a pootevřely se skryté dveře do malé místnůstky.
 * Pokud někdo prohledá stěny a hlavně podlahu (aniž by na ni vstoupil), možná si všimne pasti: INT 6, nic/nalezení pasti. Past funguje tak, že pokud někdo stoupne na černou kachli, z otvorů ve stěně vyletí salva šipek aby narušitele zasáhly.
 * Pokud někdo stoupne na černou kachličku, šance vyhnout se šipce je past na OBR 8, zranění za 1 - 4 životy/vyhnutí se šipkám.
-* Pokud postava ví jak to s touto nášlapnou pastí funguje a pokusí se přejít jen po bílých kachličkách, je to past na OBR 2, přešlap na černou kachličku/přejití bez problémů. 
+* Pokud postava ví jak to s touto nášlapnou pastí funguje a pokusí se přejít jen po bílých kachličkách, je to past na OBR 2, přešlápnutí na černou kachličku/přejití bez problémů. 
 * Ten kdo to umí, může v truhle na konci místnosti vycítit magenergii. Je v ní 20 magů jako jakési poplašné zařízení. Slouží k tomu aby vyslala mentální "budík" do mysli dávného majitele pokud ji otevře někdo jiný než on sám. Vzhledem k tomu že čaroděj je po smrti, při otevření jen s zapraskáním jako od statické elektřiny vyprchá a v příběhu nehraje roli. Družinku to ale možná znejistí.
 * V truhle je:
 
@@ -286,6 +298,10 @@ Pravděpodobně kouzelníkova skrýš pro cenné věci. Před odchodem tam ale a
 Druhé patro
 ===========
 
+.. image:: img/opustena_magova_vez_2.svg
+   :alt: Druhé patro
+   :align: center
+
 Tady si čaroděj skladoval svůj dalekohled na pozorování hvězd. Zbyla z něj ale jen hromádka nepořádku.
 
 .. admonition:: Popis pro hráče:
@@ -294,6 +310,10 @@ Tady si čaroděj skladoval svůj dalekohled na pozorování hvězd. Zbyla z ně
 
 Střecha
 =======
+
+.. image:: img/opustena_magova_vez_3.svg
+   :alt: Třetí patro
+   :align: center
 
 Na střeše nic zajímavého není, snad až na rozhled.
 
@@ -304,4 +324,6 @@ Na střeše nic zajímavého není, snad až na rozhled.
 Hlášení úspěchu
 ===============
 
-Pokud družinka zjistí jak to s tím strašením ve věži bylo…
+Pokud družinka zjistí jak to s tím strašením ve věži bylo, pravděpodobně vyhledají pekaře Žemličku aby si vyzvedli odměnu 30 zlatých (nebo jinak jestli se domluvili na jiné částce, pekař drží slovo).
+
+Pokud družinka předvede opravdu strhující líčení toho jaké hrůzy a nebezpečenství, mimo těch dvou pohůnků, ve věži vyřešili, jistě ještě něco přidá.
