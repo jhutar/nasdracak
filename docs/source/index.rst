@@ -9,4 +9,5 @@ Aktuální verzi tohoto textu, obrázků a podobně najdete na https://github.co
    :maxdepth: 2
    :caption: Obsah:
 
+   .. pravidla/index
    opustena_magova_vez/index
