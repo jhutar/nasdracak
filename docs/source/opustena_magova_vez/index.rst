@@ -252,11 +252,10 @@ Jistě byla krásná a pohodlná.
   * Postavám také rády prozradí, že včera večer bylo ve spodním patře rušno. Byli tam dva lidé, kteří tam u okna mávali lucernami a zjevně si dodávali odvahy nějakou pálenkou. To tyto sestry nemají rády, tak se před nimi raději schovaly.
   * Pokud na ně skupina dobře zapůsobí, možná jim naznačí přítomnost tajných dveří (první rým) a možná i pasti v místnosti za nimi (druhý rým):
 
-   .. centered::
-      Když se dobře rozhlédneš,
-      další dveře nalezneš.
-      Vevnitř ale pozor dej,
-      na jednu barvu nešlapej.
+    | Když se dobře rozhlédneš,
+    | další dveře nalezneš.
+    | Vevnitř ale pozor dej,
+    | na jednu barvu nešlapej.
 
 ④ Tajná místnost
 ----------------
