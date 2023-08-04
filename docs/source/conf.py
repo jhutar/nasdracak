@@ -19,8 +19,6 @@ extensions = ['sphinxcontrib.inkscapeconverter']
 templates_path = ['_templates']
 exclude_patterns = []
 
-master_doc = 'index'
-
 language = 'cs'
 
 # -- Options for HTML output -------------------------------------------------
