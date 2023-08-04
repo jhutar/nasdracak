@@ -1,6 +1,8 @@
 Moje poznámku k "dračáku" co občas hrajeme
 ==========================================
 
+Tento text v čitelné podobě najdete na https://nasdracak.readthedocs.io/
+
 Development
 -----------
 
