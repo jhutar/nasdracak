@@ -6,16 +6,18 @@ Tento text v čitelné podobě najdete na https://nasdracak.readthedocs.io/
 Development
 -----------
 
-Dokumentace je v adresáři 
+Zdrojové kódy textu jsou v adresáři `docs/source/`.
 
-Nainstaluju (na Fedora Linux) si nástroj na generování PDF (Sphinx):
+Pro lokální sestavení textu do čitelné podoby je potřeba nainstalovat potřebné nástroje (Sphinx a LaTeX). Na Fedora Linuxu to je tímto příkazem:
 
-    dnf install python3-sphinx python3-sphinx-latex python3-sphinxcontrib-inkscapeconverter latexmk texlive-babel-czech
+    # dnf install python3-sphinx python3-sphinx-latex python3-sphinxcontrib-inkscapeconverter latexmk texlive-babel-czech
 
-Sestavím PDF:
+Sestavení PDF verze:
 
-    make -C docs/ latexpdf
+    $ make -C docs/ latexpdf
+    $ ls docs/build/latex/ndrak.pdf
 
-Výsledek je tady:
+A HTML verze:
 
-    docs/build/latex/ndrak.pdf
+    $ make -C docs/ html
+    $ firefox docs/build/html/index.html
