@@ -8,7 +8,7 @@ Dokumentace je v adresáři
 
 Nainstaluju (na Fedora Linux) si nástroj na generování PDF (Sphinx):
 
-    dnf install python3-sphinx python3-sphinx-latex python3-sphinxcontrib-inkscapeconverter
+    dnf install python3-sphinx python3-sphinx-latex python3-sphinxcontrib-inkscapeconverter latexmk texlive-babel-czech
 
 Sestavím PDF:
 
