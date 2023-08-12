@@ -127,7 +127,7 @@ Pokud se družinka dostane dovnitř:
 **Akce**
 
 * Vyražení nebo vypáčení dveří, aby se družina vůbec dostala do místnosti je past *SÍL 3/5, zranění hřebíkem za 1 život/dveře vydržely/dveře povolily*.
-* Pokud se družina dostane dovnitř, zaútočí na ně *2 Ploštice zelené (životy ▢▢▢ a ▢▢, ÚČ: +1 (kusadla) + ochromení, OČ: +3, zkušenosti: 5)*.
+* Pokud se družina dostane dovnitř, zaútočí na ně 2 :ref:`Ploštice zelené <Ploštice zelená>` (životy ▢▢▢ a ▢▢, ÚČ: +1 (kusadla) + ochromení, OČ: +3, zkušenosti: 5).
 * Pokud se družina rozhodne vyčistit schody aby se tamtudy dalo projít do sklepa (a má lucernu aby si posvítila na práci), asi se nic extra nestane, jen to bude trvat třeba aspoň půlhodinu.
 
 ④ Záchod
@@ -168,8 +168,8 @@ Tady mají krysy klid. Mřížemi z městské stoky je sem nikdo pronásledovat 
 
 * Dřív než cokoli jiného si družina musí poradit s:
 
-  * *3 Krysy obří (životy ▢▢▢▢▢, ▢▢▢  a ▢▢▢, ÚČ: +2, OČ: +1, zkušenosti: 5)*
-  * *3 Krysy obyčejné (životy ▢▢, ▢▢ a ▢, ÚČ: 0, OČ: 0, zkušenosti: 1)*
+  * 3 :ref:`Krysy obří <Krysa obří>` (životy ▢▢▢▢▢, ▢▢▢  a ▢▢▢, ÚČ: +2, OČ: +1, zkušenosti: 5)
+  * 3 :ref:`Krysy obyčejné <Krysa obyčejná>` (životy ▢▢, ▢▢ a ▢, ÚČ: 0, OČ: 0, zkušenosti: 1)
 
 * Prohrabovat se v tom nepořádku je koledování si o otravu krve, takže je to past na *ODO 2/4, otrava/nic/nalezení krysího pokladu*. Pokud se prohledávající postava otráví, zasažené místo opuchne a zezelená, postava ztratí 1 život první den, 2 životy druhý den a 3 životy každý další den dokud nepodstoupí nějaký druh léčení (ať už u léčitele, nějaké vědmy nebo aspoň nevypije nějaké léčivý lektvar). V pokladu se najdou 2 prsteny a jedna náušnice (za 50, 80 a 40 zlatých).
 
@@ -250,7 +250,7 @@ Jistě byla krásná a pohodlná.
 
 **Akce**
 
-* V posteli vyspávali 3 malí tvorečci kteří družinu už nějaký čas pozorovali. Ten rámus který družina dělá by totiž vzbudil i mrtvého. Jsou to *Poletuchy (životy ▢▢▢, ▢▢▢ a ▢, ÚČ: +1, OČ: +3, zkušenosti: 5)*
+* V posteli vyspávali 3 malí tvorečci kteří družinu už nějaký čas pozorovali. Ten rámus který družina dělá by totiž vzbudil i mrtvého. Jsou to :ref:`Poletuchy <Poletuchy>` (životy ▢▢▢, ▢▢▢ a ▢, ÚČ: +1, OČ: +3, zkušenosti: 5).
 
   * Pokud se s nimi někdo dá do řeči, celkem ochotně si povídají.
   * Do města přiletěli z nedaleké vesnice, protože doprovázely jednoho sedláka na trh. Chtěly mu nenápadně zajistit dobrý obchod protože jim doma s čímsi pomohl.
