@@ -10,5 +10,7 @@ Aktuální verzi tohoto textu najdete na https://nasdracak.readthedocs.io/, zdro
    :caption: Obsah:
 
    .. pravidla/index
+   bestiar/index
+   predmety/index
    opustena_magova_vez/index
    duha_ve_meste/index
