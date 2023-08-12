@@ -11,3 +11,4 @@ Aktuální verzi tohoto textu najdete na https://nasdracak.readthedocs.io/, zdro
 
    .. pravidla/index
    opustena_magova_vez/index
+   duha_ve_meste/index
