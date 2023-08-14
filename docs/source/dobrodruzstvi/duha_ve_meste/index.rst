@@ -38,7 +38,7 @@ Družinku kolem poledne vyhledá úlisný rychtář, velitel městské stráže 
 
 .. epigraph::
 
-   Rychtář byl v období středověku představeným městské či vesnické obce (obdoba dnešního starosty). Ve středověku rychtář mohl být do své funkce buď dosazen vrchností, resp. panovníkem, obec si mohla vlastního rychtáře volit nebo se mohlo jednat o pozici děděnou v jednom rodě. Mezi povinnosti a práva rychtáře patřilo nižší soudnictví ve městě či vesnici, správní funkce, zastupoval obec vůči okolí a často také byl reprezentantem vrchnosti a ručil jí za dodržování povinností a příkazů a vybírání daní, poplatků a úroků.
+   **Rychtář** byl v období středověku představeným městské či vesnické obce (obdoba dnešního starosty). Ve středověku rychtář mohl být do své funkce buď dosazen vrchností, resp. panovníkem, obec si mohla vlastního rychtáře volit nebo se mohlo jednat o pozici děděnou v jednom rodě. Mezi povinnosti a práva rychtáře patřilo nižší soudnictví ve městě či vesnici, správní funkce, zastupoval obec vůči okolí a často také byl reprezentantem vrchnosti a ručil jí za dodržování povinností a příkazů a vybírání daní, poplatků a úroků.
 
    -- `Wikipedia: Rychtář <https://cs.wikipedia.org/wiki/Rycht%C3%A1%C5%99>`_
 

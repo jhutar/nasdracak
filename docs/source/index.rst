@@ -6,11 +6,8 @@ S dětmi občas hrajeme něco, čemu říkáme "dračák". Vyhýbám se bojům s
 Aktuální verzi tohoto textu najdete na https://nasdracak.readthedocs.io/, zdroj obrázků a všeho ostatního potom na https://github.com/jhutar/nasdracak.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Obsah:
 
-   .. pravidla/index
-   bestiar/index
-   predmety/index
-   opustena_magova_vez/index
-   duha_ve_meste/index
+   pravidla/index
+   dobrodruzstvi/index

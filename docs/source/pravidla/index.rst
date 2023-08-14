@@ -1,13 +1,9 @@
 Pravidla
 ========
 
-.. centered::
-   Jedna dva tři,
-   my jsme bratři.
+TODO
 
-.. note:: Abc
-   This is note
+.. toctree::
 
-.. admonition:: And, by the way...
-
-   You can make up your own admonition too.
+   bestiar/index
+   predmety/index
