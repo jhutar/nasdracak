@@ -41,3 +41,101 @@ Družinku kolem poledne vyhledá úlisný rychtář, velitel městské stráže 
    Rychtář byl v období středověku představeným městské či vesnické obce (obdoba dnešního starosty). Ve středověku rychtář mohl být do své funkce buď dosazen vrchností, resp. panovníkem, obec si mohla vlastního rychtáře volit nebo se mohlo jednat o pozici děděnou v jednom rodě. Mezi povinnosti a práva rychtáře patřilo nižší soudnictví ve městě či vesnici, správní funkce, zastupoval obec vůči okolí a často také byl reprezentantem vrchnosti a ručil jí za dodržování povinností a příkazů a vybírání daní, poplatků a úroků.
 
    -- `Wikipedia: Rychtář <https://cs.wikipedia.org/wiki/Rycht%C3%A1%C5%99>`_
+
+Vinárna pod lípou
+=================
+
+Sklep vinárny
+=============
+
+.. admonition:: Popis pro hráče:
+
+   Malý sklep s čtyřmi mohutnými sudy a několika poloprázdnými policemi s lahvovými víny. Sudy jsou povalené na bok, zajištěné proti kutálení a ve spodní části mají kohoutek pro napouštění vína do džbánu.
+
+① Točité schodiště
+------------------
+
+Točité schody vedoucí z vinárny se stáčí dolů. Dveře které je dole oddělují od sklepa jsou kvůli teplotě zavřené.
+
+**Akce**
+
+* I když je vinař součástí gangu, bojí se netvora a na schody tak rozmístil několik prázdných lahví aby ho zvuk rozbíjeného skla při případném pohybu netvora upozornil na nebezpečí. Podaří se projít bez upozornění na sebe? *OBR 3: některá lahev se rozbíjí/tichý průchod*.
+
+
+② Sud se skrýší
+---------------
+
+V tomto sudu není víno, ale zásoba pytlíčků s drogou Duha a měšec s tržbou pro gang.
+
+**Akce**
+
+* Pokud někdo bude prohledávat sklep, možná si všimne této tajné skrýše: *INT 6: nic/otevření tajné skrýše*.
+
+  * Ve skrýši se najde 8 pytlíků s dávkou "Duhy" a měšec s 125 st.
+
+③ Police
+--------
+
+Ve třech policích nejdete několik zaprášených lahvových vín.
+
+④ Dvířka
+--------
+
+Tady jsou oplechovaná dvířka vedoucí do podzemí. Při otevření nekladou odpor a družinka si možná to že ani nevrzla spojí s tím že jsou namazaná a často používaná.
+
+.. admonition:: Popis pro hráče:
+
+   Otevíráte nízká pevná dvířka vystužená solidním plechem. Na žádné pavučiny jste nenarazili a dokonce se neozvalo ani očekávané zaskřípění pantů. Prostě to šlo bez jediného zádrhele. Jen předklonit se musíte a můžete projít.
+
+Kanalizace
+==========
+
+Tato část městské kanalizace je jakési rozcestí našeho dobrodružství. Připojuje se do něj spousta velkých trubek pro odpadní vodu z domů, ale až na popsané výjimky se mříže žádné z nich nedá otevřít.
+
+.. admonition:: Popis pro hráče:
+
+   Do nosu vás udeřil koncentrovaný pach celáho města. Tři metry široká stoka, kterou teď, dlouho po nějakém větším dešti, protéká jen malý ale hustý potůček. Je asi metr široký, takže pokud vám nevadí se čas od času otřít o slizký kámen nebo si na hlavo nechat namotat hezkou pavučinu, můžete pohodlně, suchou nodou, chodit po obou stranách. Kromně občasného šplouchnutí nebo zabublání tu panuje úplné ticho.
+
+① Sklep vinárny
+---------------
+
+**Akce**
+
+* Pokud někoho napadne naslouchat, nic neuslyší, ale možná ho na tom něco trkne: *INT 8: nic/je ti podezřelé, že neslyšíš občasné zapištění krys*. Opravdu. V celé kanalizaci není vidět ani jedna.
+
+② Netvorovo vězení
+------------------
+
+Tady gang chová netvora. Mladého, ale vražedného krokodýla.
+
+.. admonition:: Popis pro hráče:
+
+   Vstupujete do nahrubo vyhloubené jeskyně která je mříží rozdělena na dvě části. Ta menší, volně přístupná u vchodu je zařízena stolem se židlí a naproti pak stojí sud. V mříži jsou dveře zamčené visacím zámkem. Pokud se vám daří osvětlit část jeskyně za mříží, vidíte jen černou hladinu podzemního jezírka, hladkou jako sklo.
+
+**Akce**
+
+* Pokud se někdo rozhodne prozkoumat sud a otevře jeho víko, pak je to past na *ODO 6: zatočí se hlava a 10 min se musí vzpamatovávat/nic*. Sud je totiž plný starého masa, netvorovy potravy.
+* K otevření dveří je možné se postavit dvěma způsoby. Jít na to silou, nebo rozumem, takže buď a nebo:
+
+  * *SÍL 4/10: zranění za 1 živ při vyrážení/nic/vyražení*
+  * *INT 4: nic/najdete klíč zavěšený na stěně*
+
+* Pokud se družince podaří otevřít dveře a vejdou dovnitř, zaútočí na ně :ref:`netvor <Krokodýl, mladý>` (životy ▢▢▢▢▢▢▢▢▢▢▢, ÚČ: +3 (tlama) + možnost dlouhého zakousnutí/+2 (ocas) + možnost podražení nohou, OČ: +3, zkušenosti: 30)
+
+③ Sklep soudcova domu
+---------------------
+
+④ Sklep varny
+-------------
+
+⑤ Mříž pod kašnou
+-----------------
+
+⑥ Zadní mříž
+------------
+
+Varna
+=====
+
+Hlášení
+=======
