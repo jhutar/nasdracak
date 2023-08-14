@@ -125,11 +125,11 @@ Tady gang chová netvora. Mladého, ale vražedného krokodýla.
 ③ Sklep soudcova domu
 ---------------------
 
-Tato mřížová dvířka se dají pohodlně otevřít. Když soudce zqačal být pro gang nepříjemný, přepilovaly mříže a netvora na soudce vypustili. Zpět ho nalákali jak obvykle: hromádka pěkně odleželých vnitřností od místního řezníka hned za drátěným okem na konci dlouhé tyče. Drát kolem krku a pak s netvorem hurá zpátky za mříže.
+Tato mřížová dvířka se dají pohodlně otevřít. Když soudce začal být pro gang nepříjemný, přepilovaly mříže a netvora na soudce vypustili. Zpět ho nalákali jak obvykle: hromádka pěkně odleželých vnitřností od místního řezníka hned za drátěným okem na konci dlouhé tyče. Drát kolem krku a pak s netvorem hurá zpátky za mříže.
 
 .. admonition:: Popis pro hráče:
 
-   Vstupujete do malého sklepa kam vede jen odpadní trubka z vrchního patra a dveře.
+   Vstupujete do malého sklepa, do místnůstky kam vede jen odpadní trubka z vrchního patra a dveře.
 
 **Akce**
 
@@ -138,7 +138,7 @@ Tato mřížová dvířka se dají pohodlně otevřít. Když soudce zqačal bý
 
   .. admonition:: Popis pro hráče:
 
-     Přišli jste do zcela prázdného, středně velkého domu. Dveře ven na ulici jsou zamčené, okna jsou zavřená okenicemi. Veškeré zařízení je pryč, nezbyl ani stůl. Jen uprostřed hlavní místnosti vidíte na pečlivě drhnuté podlaze velkou řernou skvrnu.
+     Přišli jste do zcela prázdného, středně velkého domu. Dveře ven na ulici jsou zamčené, okna jsou zavřená okenicemi. Veškeré zařízení je pryč, nezbyl ani stůl. Jen uprostřed hlavní místnosti vidíte na jinak pečlivě drhnuté podlaze velkou řernou skvrnu.
 
 ④ Sklep varny
 -------------
