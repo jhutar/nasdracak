@@ -13,7 +13,7 @@ Jakožto vypravěč si text předem prolítni ať víš do čeho jdete a pak mů
 Shrnutí
 =======
 
-V malém městě si družinku vyhledá místní rychtář a požádá je o pomoc s problémem se kterým si podle svých slov už dlouho láme hlavu. Ve městě někdo vyrábí (vaří) droga "Duha" a mu se varnu nedaří vypátrat.
+V malém městě si družinku vyhledá místní rychtář a požádá je o pomoc s problémem se kterým si podle svých slov prý už dlouho láme hlavu. Ve městě někdo vyrábí (vaří) droga "Duha" a mu se varnu nedaří vypátrat.
 
 Ve městě se o gangu vařícím Duhu tak nějak ví, jen nikdo neví nic určitého. Ví se o tom že se nevyplatí moc jim lézt do zelí. Nedávno to prý zkoušel místní soudce, ale pak zmizel. Jen v jeho domě se našla obrovská krvavá skvrna. Něco ho prý sežralo.
 
@@ -27,9 +27,9 @@ Snad také najdou mřížová dvířka s promazanými panty do domu alchymisty k
 
 Po nahlášení svého nálezu rychtáři, je čeká nemilé překvapení. Když po různých zdrženích do domu rychtář vtrhne, nic se tam nenajde. Ve skutečnosti je totiž právě rychtář hlavou zločineckého gangu a tak se ujistil, že varna bude vyklizena před zátahem městské stráže.
 
-Rychtář skupinku najal na naléhání městské rady, která ho dlouhodobě kritizovala pro pomalý postup v tomto případu. Doufal, že pár nezkušených a snad i neschopných dobrodruhů s případem nic nesvede a on získá další čas pro nerušenou práci gangu.
+Rychtář skupinku najal na naléhání městské rady, která ho dlouhodobě kritizovala pro pomalý postup v tomto případě. Doufal, že pár nezkušených a snad i neschopných dobrodruhů s případem nic nesvede a gang získá další čas pro nerušenou práci.
 
-S trochou štěstí se ale v družince mýlil a a ti neodtáhnou s prázdnou. Dojde jim jak to bylo, možná s nápovědou nějakého strážného nespokojeného s tím jak to na strážnici chodí. Potom se obrátí na městskou radu či přímo na starostu a celý příběh skončí uvězněním padouchů a odměněním hrdinů.
+S trochou štěstí se ale v družince mýlil a a ti neodtáhnou s prázdnou. Dojde jim jak to bylo, možná s nápovědou nějakého strážného nespokojeného s tím jak to na strážnici chodí. Potom se obrátí na městskou radu a celý příběh skončí uvězněním padouchů a odměněním hrdinů.
 
 Zadání úkolu
 ============
@@ -124,6 +124,21 @@ Tady gang chová netvora. Mladého, ale vražedného krokodýla.
 
 ③ Sklep soudcova domu
 ---------------------
+
+Tato mřížová dvířka se dají pohodlně otevřít. Když soudce zqačal být pro gang nepříjemný, přepilovaly mříže a netvora na soudce vypustili. Zpět ho nalákali jak obvykle: hromádka pěkně odleželých vnitřností od místního řezníka hned za drátěným okem na konci dlouhé tyče. Drát kolem krku a pak s netvorem hurá zpátky za mříže.
+
+.. admonition:: Popis pro hráče:
+
+   Vstupujete do malého sklepa kam vede jen odpadní trubka z vrchního patra a dveře.
+
+**Akce**
+
+* Pokud bude někdo vstupní mříž prohledávat, pak *INT 4: nic/všimne se čerstvě uřezané petlice kde asy býval zámek*.
+* Pokud družinka vystoupí po schodech, ocitne se v malém prázdném domě po soudci. Dveře na ulici jsou zamčené.
+
+  .. admonition:: Popis pro hráče:
+
+     Přišli jste do zcela prázdného, středně velkého domu. Dveře ven na ulici jsou zamčené, okna jsou zavřená okenicemi. Veškeré zařízení je pryč, nezbyl ani stůl. Jen uprostřed hlavní místnosti vidíte na pečlivě drhnuté podlaze velkou řernou skvrnu.
 
 ④ Sklep varny
 -------------
