@@ -143,14 +143,44 @@ Tato mřížová dvířka se dají pohodlně otevřít. Když soudce začal být
 ④ Sklep varny
 -------------
 
+Dveře ze stoky do sklepa i ze sklepa na schody nahoru do domu jsou otevřené. Přesto projít prázdným sklepem varny asi nebude tak jednoduché jak to vypadá. Alchymista který nahoře připravuje Duhu tu nachystal jedno překvapení pro všechny nezvané hosty. Členové gangu mají jednoduchý způsob jak projít. Odhalí ho i družinka?
+
+.. admonition:: Popis pro hráče:
+
+   Otevíráte od pohledu pevné dveře vedoucí do dalšího sklepa napojeného na kanalizaci. Dveře jsou nové, naolejované, asi aby odolaly lvhkosti která tady dole panuje i v nejteplejších měsících a skvěle sedí v rámu.
+
+**Akce**
+
+* TODO
+
+  .. admonition:: Popis pro hráče:
+
+     V temnoťe sklepa před vámi se rozsvítí dvě malá modrá světýlka a vás se začíná zmocňovat neklid. Ta světýlka se hýbou! Teď už to rozeznáte. Jsou to oči nějakého kolébavě se pohybujícího člověka. Ach ne, další čtyři páry stejných světýlek a všechny se k vám přibližují. Slyšíte jak šourají nohama. Teď už necítíte jen nějaký mírný neklid, ale potíte se a roztřásla se vám kolena.Postavy přišly blíž a dokážete rozeznat podrobnsti. Šaty potrhané, mrtvolně šedá kůže, různé údy v různě nepřirozených pozicích, nepřítomný pohled a slintající ústa plná černých vyceněných zubů. Zmocnila se vás úplná panika který se nedá nijak ovládnout. Berete nohy na ramena a utíkáte odkud jste přišli.
+
 ⑤ Mříž pod kašnou
 -----------------
+
+Silná mříž zabraňuje družince pokračovat v průzkumu kanalizace tímto směrem. Za ní se připojuje odtok z kašny na náměstí nahoře.
+
+.. admonition:: Popis pro hráče:
+
+   Masivní mříž vám nedovoluje pokračovat tímto směrem. Za ní je slyšet zurčení přítoku nějakého většího množzství vody. Něco jste ale vyrušili. Z temnoty za mříží se ozvalo zapleskání křídel a skrze ně něco prolétlo a vrhlo se přímo na vaše hlavy.
 
 ⑥ Zadní mříž
 ------------
 
+Další mříž která zabrání družince v průzkumu další části podzemí. Zde možná přijdou na kloub tomu, proč tu v podzemí nejsou žádné krysy. Něco je asi žere. Žije tu Hlen hnědý. Je to sice méně nebezpečný příbuzný Hlenu zeleného, přesto se může stát pro družinku smrtelným.
+
+.. admonition:: Popis pro hráče:
+
+   Průchod kanalizací dál je tu zatarasený mřížovým ze silných železných prutů. Sťeny jsou tu více než jinde pokryté vlhkým slizem. Ještě než dojdete až k mříži, všimnete se jakéhosi hnědého mechu rostoucího na stropě chodby. Nejsou to žádné malé ostrůvky uchycené na příhodných místech jak byste normálně čekali, ale velký porost roztahující se přes snad 2 metry čtvereční. Leskne se protože je celý obalený steným slizem jaký vidíte na stěnách kolem. Možná by to stálo za průzkum?
+
 Varna
 =====
+
+.. admonition:: Popis pro hráče:
+
+   Místnost má dvě okenicemi zavřená okna, takže i kdyby bylo venku pravé poledne, tady je jen přítmí. Páchne to tu tak, že si to nedokážete zařadit. Kolem stěn jsou rozestavěny stoly na kterých probíhá nějaký složitý alchymistický proces. Kahany zahřívají bachraté baňky s různobarevnými kapalinami. Co se z nich odpařuje se přivádí spirálovitými skleněnými trubičkami zase do jiných baněk. V některých se točí různá mýchátka, jiné se pohupují, v dalších něco bublá. Vypadá to jako dost složitý a nebezpečný proces.
 
 Hlášení
 =======
