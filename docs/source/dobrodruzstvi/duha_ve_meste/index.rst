@@ -138,24 +138,38 @@ Tato mřížová dvířka se dají pohodlně otevřít. Když soudce začal být
 
   .. admonition:: Popis pro hráče:
 
-     Přišli jste do zcela prázdného, středně velkého domu. Dveře ven na ulici jsou zamčené, okna jsou zavřená okenicemi. Veškeré zařízení je pryč, nezbyl ani stůl. Jen uprostřed hlavní místnosti vidíte na jinak pečlivě drhnuté podlaze velkou řernou skvrnu.
+     Přišli jste do zcela prázdného, středně velkého domu. Dveře ven na ulici jsou zamčené, okna jsou zavřená okenicemi. Veškeré zařízení je pryč, nezbyl ani stůl. Jen uprostřed hlavní místnosti vidíte na jinak pečlivě drhnuté podlaze velkou černou skvrnu.
 
 ④ Sklep varny
 -------------
 
-Dveře ze stoky do sklepa i ze sklepa na schody nahoru do domu jsou otevřené. Přesto projít prázdným sklepem varny asi nebude tak jednoduché jak to vypadá. Alchymista který nahoře připravuje Duhu tu nachystal jedno překvapení pro všechny nezvané hosty. Členové gangu mají jednoduchý způsob jak projít. Odhalí ho i družinka?
+Dveře ze stoky do sklepa i ze sklepa na schody nahoru do domu jsou odemčené. Přesto projít prázdným sklepem varny asi nebude tak jednoduché jak to vypadá. Alchymista který nahoře čas od času připravuje Duhu tu nachystal jedno překvapení pro všechny nezvané hosty - plyn který způsobí vystrašení těch co mu podlehnou. Členové gangu mají jednoduchý způsob jak projít. Odhalí i družinka že stačí chvíli nedýchat a proběhnout?
+
+Hráčům neříkej že jde o halucinaci. Možná někdo z nich nepodlehne a přesvědčí ostatní aby to zkusili znovu? Možná příjdou na to nedýchání nebo použijí mokrý šátek přes obličej? Každopádně si asi budou muset vyjasnit nesrovnalosti v tom kdo co viděl a nějak to vymyslet. Past je totiž poměrně silná.
 
 .. admonition:: Popis pro hráče:
 
-   Otevíráte od pohledu pevné dveře vedoucí do dalšího sklepa napojeného na kanalizaci. Dveře jsou nové, naolejované, asi aby odolaly lvhkosti která tady dole panuje i v nejteplejších měsících a skvěle sedí v rámu.
+   Otevíráte od pohledu pevné dveře vedoucí do dalšího sklepa napojeného na kanalizaci. Dveře jsou nové, naolejované, asi aby odolaly vlhkosti která tady dole panuje i v nejteplejších měsících.
 
 **Akce**
 
-* TODO
+* Pokud se pokusí (ještě zavřené) dveře někdo prozkoumat, pak je to past na *INT 4: nic/zpozorování kvality dveří, viz popisek níže*.
 
   .. admonition:: Popis pro hráče:
 
-     V temnoťe sklepa před vámi se rozsvítí dvě malá modrá světýlka a vás se začíná zmocňovat neklid. Ta světýlka se hýbou! Teď už to rozeznáte. Jsou to oči nějakého kolébavě se pohybujícího člověka. Ach ne, další čtyři páry stejných světýlek a všechny se k vám přibližují. Slyšíte jak šourají nohama. Teď už necítíte jen nějaký mírný neklid, ale potíte se a roztřásla se vám kolena.Postavy přišly blíž a dokážete rozeznat podrobnsti. Šaty potrhané, mrtvolně šedá kůže, různé údy v různě nepřirozených pozicích, nepřítomný pohled a slintající ústa plná černých vyceněných zubů. Zmocnila se vás úplná panika který se nedá nijak ovládnout. Berete nohy na ramena a utíkáte odkud jste přišli.
+     Skvěle sedí ve svých futrech z na hrubo přitesaného zdiva. Někdo si dal záležet aby perfektně doléhaly, taková pečlivost se nevidí.
+
+* Hned po vstupu do místnosti si každá postava musí hodit na past *ODO 8/10: zaůtočily na tebe zombie (viz popisek níže)/je ti velmi nevolno a vymotáš se zpět/cítíš divný smrad, jinak vše v pořádku*.
+
+  .. admonition:: Popis pro hráče:
+
+     V temnotě sklepa před vámi se rozsvítí dvě malá modrá světýlka a vás se začíná zmocňovat neklid. Ta světýlka se hýbou, přibližují se! Teď už rozeznáte o co jde. Jsou to oči nějakého kolébavě se pohybujícího člověka. Ach ne, další čtyři páry stejných světýlek a všechny se k vám přibližují. Slyšíte jak ty postavy šourají nohama. Teď už necítíte jen nějaký mírný neklid, ale potíte se a roztřásla se vám kolena.
+
+     Postavy přišly blíž a už dokážete rozeznat podrobnsti. Šaty potrhané, mrtvolně šedá kůže, různé údy v různě nepřirozených pozicích, nepřítomný pohled a slintající ústa plná černých vyceněných zubů. Zmocnila se vás úplná panika který se nedá nijak ovládnout. Berete nohy na ramena a utíkáte odkud jste přišli. Pět zombií je vám v patách.
+
+     Po pár krocích, zpět v kanalizaci se ti zdá že jsi je setřásl. Ještě teď se ale strachy potíš, ale s každým nádechem se pomalu uklidňuješ. Každopádně víš, že bez pořádného důvodu tě do toho sklepa už nic znovu nedostane.
+
+* Každá postava si proti pasti háže pokaždé, když do místnosti vstoupí - tedy pokud nepříjde na to, jak se před plynem brání členové gangu: stačí si zacpat nos a při probíhání místností nedýchat. Toto družinka nevymyslí hodem proti nějaké pasti, musí to vymyslet sami.
 
 ⑤ Mříž pod kašnou
 -----------------
@@ -166,14 +180,24 @@ Silná mříž zabraňuje družince pokračovat v průzkumu kanalizace tímto sm
 
    Masivní mříž vám nedovoluje pokračovat tímto směrem. Za ní je slyšet zurčení přítoku nějakého většího množzství vody. Něco jste ale vyrušili. Z temnoty za mříží se ozvalo zapleskání křídel a skrze ně něco prolétlo a vrhlo se přímo na vaše hlavy.
 
-⑥ Zadní mříž
-------------
+**Akce**
 
-Další mříž která zabrání družince v průzkumu další části podzemí. Zde možná přijdou na kloub tomu, proč tu v podzemí nejsou žádné krysy. Něco je asi žere. Žije tu Hlen hnědý. Je to sice méně nebezpečný příbuzný Hlenu zeleného, přesto se může stát pro družinku smrtelným.
+* Zaútočili na vás 5 netopýrů obecných (životy ▢▢, ▢, ▢▢, ▢, ▢▢, ÚČ: 0, OČ: +1, zkušenosti: 1).
+* Za mříží vidíte nějakou trubkou pritékat větší množství vody. *INT 6: nic/došlo ti, že to je asi z kašny na náměstí*.
+
+⑥ Západní mříž
+--------------
+
+Další mříž která zabrání družince v průzkumu další části podzemí. Zde možná přijdou na kloub tomu, proč tu v podzemí nejsou žádné krysy. Něco je asi žere. Žije tu totiž jeden menší exeplář hlen hnědého. Je sice méně nebezpečný než jeho příbuzný hlen zelený, přesto se může stát pro někoho z družinky smrtelným.
 
 .. admonition:: Popis pro hráče:
 
-   Průchod kanalizací dál je tu zatarasený mřížovým ze silných železných prutů. Sťeny jsou tu více než jinde pokryté vlhkým slizem. Ještě než dojdete až k mříži, všimnete se jakéhosi hnědého mechu rostoucího na stropě chodby. Nejsou to žádné malé ostrůvky uchycené na příhodných místech jak byste normálně čekali, ale velký porost roztahující se přes snad 2 metry čtvereční. Leskne se protože je celý obalený steným slizem jaký vidíte na stěnách kolem. Možná by to stálo za průzkum?
+   Průchod kanalizací dál je tu zatarasený mřížovým ze silných železných prutů. Sťeny jsou tu více než jinde pokryté vlhkým slizem. Ještě než dojdete až k mříži, všimnete se jakéhosi hnědého mechu rostoucího na stropě chodby. Nejsou to žádné malé ostrůvky uchycené na příhodných místech jak byste normálně čekali, ale velký porost roztahující se přes snad 2 metry čtvereční. Leskne se, protože je celý obalený stejným slizem jaký vidíte na stěnách kolem. Možná by to stálo za průzkum?
+
+**Akce**
+
+* Na někoho spadne/zaůtočí hlen. TODO
+* Křupající kostřičky krys. TODO
 
 Varna
 =====
@@ -182,5 +206,23 @@ Varna
 
    Místnost má dvě okenicemi zavřená okna, takže i kdyby bylo venku pravé poledne, tady je jen přítmí. Páchne to tu tak, že si to nedokážete zařadit. Kolem stěn jsou rozestavěny stoly na kterých probíhá nějaký složitý alchymistický proces. Kahany zahřívají bachraté baňky s různobarevnými kapalinami. Co se z nich odpařuje se přivádí spirálovitými skleněnými trubičkami zase do jiných baněk. V některých se točí různá mýchátka, jiné se pohupují, v dalších něco bublá. Vypadá to jako dost složitý a nebezpečný proces.
 
+① Spíž
+------
+
+② Dveře na ulici
+----------------
+
+③ Dveře na dvorek
+-----------------
+
+④ Hlavní místnost
+-----------------
+
 Hlášení
 =======
+
+① Hlášení rychtáři
+------------------
+
+② Hlášení radě konšelů
+----------------------
