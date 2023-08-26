@@ -5,6 +5,7 @@ Jako savci
 ----------
 
 .. _Krysa obyčejná:
+
 Krysa obyčejná
 ~~~~~~~~~~~~~~
 
@@ -12,6 +13,7 @@ Abc
 
 
 .. _Krysa obří:
+
 Krysa obří
 ~~~~~~~~~~
 
@@ -19,6 +21,7 @@ Abc
 
 
 .. _Netopýr obecný:
+
 Netopýr obecný
 ~~~~~~~~~~~~~~
 
@@ -29,6 +32,7 @@ Jako plazi
 ----------
 
 .. _Krokodýl, mladý:
+
 Krokodýl, mladý
 ~~~~~~~~~~~~~~~
 
@@ -78,6 +82,7 @@ Jako hmyz
 ---------
 
 .. _Ploštice zelená:
+
 Ploštice zelená
 ~~~~~~~~~~~~~~~
 
@@ -88,6 +93,7 @@ Jako rostliny
 -------------
 
 .. _Hlen hnědý:
+
 Hlen hnědý
 ~~~~~~~~~~
 
@@ -127,17 +133,11 @@ Pokud zaútočí na dobrodruha, v prvním kole provede tradiční útok (viz sí
 
 
 
-.. _Hlen zelený:
-Hlen zelený
-~~~~~~~~~~~
-
-Abc
-
-
 Postavy(čky)
 ------------
 
 .. _Poletuchy:
+
 Poletuchy
 ~~~~~~~~~
 
