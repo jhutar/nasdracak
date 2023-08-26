@@ -131,6 +131,9 @@ Vypadá jako souvislý porost hnědého mechu rostoucího na stropě vlhkých po
 
 Pokud zaútočí na dobrodruha, v prvním kole provede tradiční útok (viz síla útoku při pádu). Pak se ale bude snažit svou oběť zadusit. Vykroutit se z jeho slizkého sevření je past *SÍL 5 + 2 za každý m\ :sup:`2`: nic/vykroutí se*. Každé kolo kdy je postava uvězněna, přichází o dva životy. Vytáhnout oběť se může pokusit i kdokoli jiný z družinky, je to stejná past. Hlen je ale citlivý na zranění ohněm, mrazem či kouzly, ale většinou se zranění bude "dělit" půl na půl mezi hlen a jeho oběť (výpad mečem asi zraní i oběť, zatímco opalování hlenu pochodní ji zřejmě neohrozí).
 
+.. admonition:: Popis pro hráče:
+
+   Na stropě chodby roste jakýsi hnědý mech. Nejsou to žádné malé ostrůvky uchycené na příhodných místech jak byste normálně čekali, ale velký souvislý porost. Leskne se, protože je celý obalený stejným slizem jaký vidíte na stěnách kolem.
 
 
 Postavy(čky)
