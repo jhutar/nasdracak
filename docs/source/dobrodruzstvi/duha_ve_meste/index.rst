@@ -196,7 +196,7 @@ Další mříž která zabrání družince v průzkumu další části podzemí.
 
 **Akce**
 
-* Na někoho spadne/zaůtočí hlen. TODO
+* Pokud se někdo z družinky pokusí prozkoumat to co vypadá jako hnědý mech na stropě, nebo se pod ním pokusí projít, mech to vycítí a na postavu spadne. Začíná boj o čas s hlenem hnědým (životy ▢▢▢▢▢▢▢▢▢▢▢▢, ÚČ: +2 (při pádu), OČ: 0 (proti ohni, mrazu a kouzlům) a +5 (proti fyzickým zbraním), zkušenosti: 20).
 * Křupající kostřičky krys. TODO
 
 Varna
