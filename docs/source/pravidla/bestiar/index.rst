@@ -32,35 +32,42 @@ Jako plazi
 Krokodýl, mladý
 ~~~~~~~~~~~~~~~
 
-+-----------------+-----------------+
-| životaschopnost | 4               |
-+-----------------+-----------------+
-| útok (zuby)     | +3 + zakousnutí |
-+-----------------+-----------------+
-| útok (ocas)     | +2 + podražení  |
-+-----------------+-----------------+
-| obrana          | +3 (kůže)       |
-+-----------------+-----------------+
-| síla            | 14 (+1)         |
-+-----------------+-----------------+
-| obratnost       | 13 (+1)         |
-+-----------------+-----------------+
-| odolnost        | 16 (+2)         |
-+-----------------+-----------------+
-| inteligence     | 1 (-5)          |
-+-----------------+-----------------+
-| charisma        | -- (--)         |
-+-----------------+-----------------+
-| bojovnost       | 10              |
-+-----------------+-----------------+
-| poklady         | 0/0             |
-+-----------------+-----------------+
-| zkušenosti      | 30              |
-+-----------------+-----------------+
-| velikost        | C               |
-+-----------------+-----------------+
+.. list-table:: Krokodýl, mladý
+   :widths: 40 60
 
-Miluje stojatou vodu a bažiny kde může vyčkávat u břehu na nic netušící kořist. Umí rychle vystartovat a získat tak při prvním útoku překvapení (bonus +3).
+   * - životaschopnost
+     - 4
+   * - útok
+     - +1 (SÍL) +3 (zuby) +zakousnutí (1/3)
+
+       +1 (SÍL) +2 (ocas) +podražení (OBR 6)
+   * - obrana
+     - +1 (OBR) +3 (kůže)
+   * - síla
+     - 14 (+1)
+   * - obratnost
+     - 13 (+1)
+   * - odolnost
+     - 16 (+2)
+   * - inteligence
+     - 1 (-5)
+   * - charisma
+     - -- (--)
+   * - bojovnost
+     - 10
+   * - poklady
+     - 0/0
+   * - zkušenosti
+     - 30
+   * - velikost
+     - C
+
+
+Krokodýl má pevnou zeleno-šedou kůži a velkou tlamu plnou ostrých zubů. Miluje stojatou vodu a bažiny kde může u břehu vyčkávat na nic netušící kořist. Umí rychle vystartovat a získat tak při prvním útoku překvapení (bonus +3).
+
+Pokud útočí zuby, v třetině případů (hoď si kostkou, a pokud padne 5 nebo 6, zakousl se) se zakousne a oběť pustí až v příštím kole. To znamená že v příštím kole neútočí, jen se brání případným útokům na sebe a oběti se v dalším kole automaticky odečtou 2 životy.
+
+Pokud útočí ocasem, krom běžného útoku si oběť hází na past *OBR 6: podražení nohou/nic*. Pokud jsou oběti podrařeny nohy, v příštím kole se musí zvedat ze země, takže neútočí.
 
 .. admonition:: Popis pro hráče:
 
@@ -85,15 +92,16 @@ Hlen hnědý
 ~~~~~~~~~~
 
 .. list-table:: Hlen hnědý
+   :widths: 40 60
 
    * - životaschopnost
      - 1 za každý m\ :sup:`2`
-   * - útok (při pádu)
-     - +2
-   * - obrana (fyzické zbraně)
-     - +5
-   * - obrana (oheň, mráz a kouzla)
-     - -2
+   * - útok
+     - -2 (SÍL) +5 (při pádu)
+   * - obrana
+     - 0 (OBR) +5 (proti fyzickým zbraním)
+
+       0 (OBR) -2 (proti ohní, mrazu a kouzlům)
    * - síla
      - 5 (-3)
    * - obratnost
