@@ -226,3 +226,11 @@ Hlášení
 
 ② Hlášení radě konšelů
 ----------------------
+
+Bestiář tohoto dobrodružství
+============================
+
+.. toctree::
+
+   ../../pravidla/bestiar/plazi_krokodyl_mlady
+   ../../pravidla/bestiar/rostliny_hlen_hnedy
