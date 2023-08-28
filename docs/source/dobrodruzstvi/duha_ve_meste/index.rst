@@ -196,8 +196,18 @@ Další mříž která zabrání družince v průzkumu další části podzemí.
 
 **Akce**
 
-* Pokud se někdo z družinky pokusí prozkoumat to co vypadá jako hnědý mech na stropě, nebo se pod ním pokusí projít, mech to vycítí a na postavu spadne. Začíná boj o čas s hlenem hnědým (životy ▢▢▢▢▢▢▢▢▢▢▢▢, ÚČ: +2 (při pádu), OČ: 0 (proti ohni, mrazu a kouzlům) a +5 (proti fyzickým zbraním), zkušenosti: 20).
-* Křupající kostřičky krys. TODO
+* Pokud se někdo z družinky pokusí prozkoumat to co vypadá jako hnědý mech na stropě, nebo se pod ním pokusí projít, mech to vycítí a na postavu spadne. Začíná boj o čas s hlenem hnědým (životy ▢▢▢▢▢▢▢▢▢▢▢▢, ÚČ: +2 (při pádu), OČ: 0 (proti ohni, mrazu a kouzlům) a +5 (proti fyzickým zbraním), zkušenosti: 20). Na to jak přesně se bojuje s hlenem se podívej do bestiáře.
+* Pokud se družince podaří hlen zabít či jinak vystrnadit, možná se tam bude chtít trošku porozhlédnout:
+
+  .. admonition:: Popis pro hráče:
+
+     Když procházíte místem kde přebýval hlen, pod podrážkami vašich bot (máte-li je) při každém kroku něco zakřupe. Skloníte se a posvítíte si loučí či lucernou a když si uvědomíte, co to tak křupalo, zhnuseně se otřepete. Procházíte se po  hřbitově desítek krys a nohama drtíte jejich drobné kostřičky. Fuj.
+
+* Někdo se možná i potom pokusí to tam prohledat s vidinou nějakého toho zisku. Pak je to past na *ODO 6/8: postavě se udělá nevolno/nic/postava mezi kostmi našla zdobený obojek*. Pokud se podařilo najít šperk (je to bílá perla za 20 zlatých), pak:
+
+  .. admonition:: Popis pro hráče:
+
+     Nohou jsi kousek po kousku prohrabával vrstvičku kostí a když už si jsi toho chtěl nechat, usmálo se na tebe štěstí. Jedna z obětí hlenu byl/a patrně nějaký domácí mazlíček bohatých majitelů ozdobený obojkem s perlou. Zaběhl se do kanalizace a našel zde svůj konec. Perla je poměrně velká a, na kolik dokážeš při tomto světle posoudit, čistě bílá a pěkně kulatá. Ďřív byla asi zapletena do nějakého obojku, po tom ale nic nezbylo.
 
 Varna
 =====
@@ -209,14 +219,40 @@ Varna
 ① Spíž
 ------
 
+.. admonition:: Popis pro hráče:
+
+   Je to malá místnost ze které, schované za jednou policí, vedou schody do sklepa a pak ještě jedny dveře. Zjevně byla dřív využívána jako spíž. Krom police u schodů jsou tam ještě dvě police u protější stěny. Jednotlivá patra polic se prohýbají pod tíhou množství sklenic a hrnců. Nic lákavého v nich ale jisto jistě není. Páchne to tam nepřirozeným alchymistyckým smradem a už od pohledu všechno vypadá velmi nebezpečně.
+
+**Akce**
+
+* Pokud se družinka pokusí odnést něco co vyoadá dostatečně bezpečně, či to alchymista v družince pozná, může. Budou to alchymistické suroviny za 20 zlatých.
+* Pokud se to ale pozděj pokusí družinka prodat u alchymisty který ve městě přebývá (čistě náhodou hvned ve vedlejším domě), viz část "Návštěva alchymisty", protože to bude na delší povídání.
+
 ② Dveře na ulici
 ----------------
 
 ③ Dveře na dvorek
 -----------------
 
+.. admonition:: Popis pro hráče:
+
+   Když kouknete škvírou ven, poznáte ře tyto dveře vedou na dvorek domu. Místo kde v jiných domech mají nějaký ten záhonek na bylinky či zeleninu, sklad dřeva na zimu či kurník a pár slepic. Tady je ale dvorek zarostlý a nepoužívaný. Dveře samotné jsou zevnitř zavřené na petlici, takže není problém je otevřít.
+
+**Akce**
+
+* Při otevření dveře vrznou, ale to nezpůsobí žádný problém. Ostatně jsme uprostřed města a podobných zvuků je tam spousta.
+* Z dvorku se dá, po přelezení nízkého plotu, dá dostat buď na dvorek alchymisty (na západ), nebo ševce (na jih). Z jejich dvorků je ven na ulici potřeba projít domem.
+
+  * Nepozorovaně se proplížit nebude ani v jednom případě nic jednoduchého. Ten kdo bude otevírat dvojici zamčených dveří (z dvorku do domu a z domu ven) musí uspět v pasti na *OBR 5/9: zburcování majitele/nepodařilo se/zámky otevřeny*.
+  * Ten kdo bude po otevření dveří jen procházet to bude mít podstatně jednodušší: *OBR 4: zburcování majitele/nenápadné projití*.
+  * Pokud se někomu povede probudit majitele, ten zavolá městskou hlídku a družinka pravděpodobně spončí na noc v nepohodlném žaláři. Příští den je navštíví rychtář a propustí je. Družinka mu už možná mude chtít nahlásit svá zjištění, pak viz část "Hlášení rychtáři".
+  * Pokud družinku přistihne alchymista a podaří se jim ho přesvědčit aby nevolal městskou hlídku, pak se možná bude hodit sekce "Návštěva alchymisty".
+
 ④ Hlavní místnost
 -----------------
+
+Návštěva alchymisty
+===================
 
 Hlášení
 =======

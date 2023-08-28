@@ -25,7 +25,7 @@ Hlen hnědý
    * - bojovnost
      - 7
    * - poklady
-     - 1/0 za každý m\ :sup:`2`
+     - 10/0 za každý m\ :sup:`2`
    * - zkušenosti
      - 10 za každý m\ :sup:`2`
    * - velikost
