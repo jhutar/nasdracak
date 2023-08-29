@@ -23,7 +23,7 @@ Ve sklepě možná objeví prodejcovu zásobárnu a dvířka kterými je doplňo
 
 Je možné narazit na nedávno upilovanou mříž se vstupem do bývalého soudcova domu, nebo místo kde gang vězní hrozivou příšeru která se soudcem nakrmila. Družinka se ji možné pokusí zabít, nebude to ale nic jednoduchého.
 
-Snad také najdou mřížová dvířka s promazanými panty do domu alchymisty který drogu "vaří" a hned vedle vstup do opuštěného domu využívaného jako varna.
+Snad také najdou mřížová dvířka s promazanými panty do domu alchymistky která drogu "vaří" a hned vedle vstup do opuštěného domu využívaného jako varna.
 
 Po nahlášení svého nálezu rychtáři, je čeká nemilé překvapení. Když po různých zdrženích do domu rychtář vtrhne, nic se tam nenajde. Ve skutečnosti je totiž právě rychtář hlavou zločineckého gangu a tak se ujistil, že varna bude vyklizena před zátahem městské stráže.
 
@@ -226,7 +226,7 @@ Varna
 **Akce**
 
 * Pokud se družinka pokusí odnést něco co vyoadá dostatečně bezpečně, či to alchymista v družince pozná, může. Budou to alchymistické suroviny za 20 zlatých.
-* Pokud se to ale pozděj pokusí družinka prodat u alchymisty který ve městě přebývá (čistě náhodou hvned ve vedlejším domě), viz část "Návštěva alchymisty", protože to bude na delší povídání.
+* Pokud se to ale pozděj pokusí družinka prodat u alchymistky která ve městě přebývá (čistě náhodou hvned ve vedlejším domě), viz část "Návštěva alchymistky", protože to bude na delší povídání.
 
 ② Dveře na ulici
 ----------------
@@ -241,18 +241,26 @@ Varna
 **Akce**
 
 * Při otevření dveře vrznou, ale to nezpůsobí žádný problém. Ostatně jsme uprostřed města a podobných zvuků je tam spousta.
-* Z dvorku se dá, po přelezení nízkého plotu, dá dostat buď na dvorek alchymisty (na západ), nebo ševce (na jih). Z jejich dvorků je ven na ulici potřeba projít domem.
+* Z dvorku se dá, po přelezení nízkého plotu, dá dostat buď na dvorek alchymistky (na západ), nebo ševce (na jih). Z jejich dvorků je ven na ulici potřeba projít domem.
 
   * Nepozorovaně se proplížit nebude ani v jednom případě nic jednoduchého. Ten kdo bude otevírat dvojici zamčených dveří (z dvorku do domu a z domu ven) musí uspět v pasti na *OBR 5/9: zburcování majitele/nepodařilo se/zámky otevřeny*.
   * Ten kdo bude po otevření dveří jen procházet to bude mít podstatně jednodušší: *OBR 4: zburcování majitele/nenápadné projití*.
   * Pokud se někomu povede probudit majitele, ten zavolá městskou hlídku a družinka pravděpodobně spončí na noc v nepohodlném žaláři. Příští den je navštíví rychtář a propustí je. Družinka mu už možná mude chtít nahlásit svá zjištění, pak viz část "Hlášení rychtáři".
-  * Pokud družinku přistihne alchymista a podaří se jim ho přesvědčit aby nevolal městskou hlídku, pak se možná bude hodit sekce "Návštěva alchymisty".
+  * Pokud družinku přistihne alchymistka a podaří se jim ji přesvědčit aby nevolala městskou hlídku, pak se možná bude hodit sekce "Návštěva alchymistky".
 
 ④ Hlavní místnost
 -----------------
 
-Návštěva alchymisty
-===================
+Návštěva alchymistky
+====================
+
+Alchymistčina pracovna stoji téměř přímo naproti vinárny. Družinka ji možná navštíví zcela úmyslně, jako podezřelou z členství v gangu či přímo jako vařičku drogy, nebo více méně omylem prostě jako alchymistku. Pokud postavy nijak neprozradí že jdou po gangu, bude vystupovat jako běžná, snad mírně nerudná městská alchymistka. Pokud však družinka prozradí po čem pátrá, může proti nim podniknout nepřímé, ale rázné kroky.
+
+.. admonition:: Popis pro hráče:
+
+   Poznat že v tomto domě se nachází alchymistická laboratoř byste po většinu dní poznali i poslepu pěkných pár kroků od domu. Záleží na tom, kterým směrem fouká vítr. Lidé ve městě si už zvykli a nikdo si nestěžuje. Ono dobrého alchymistu občas potřebuje každý: na některé neduhy bylinkářka nestačí, někdy se hodí dobrý amulet či jen něco na vyhubení krys ve sklepě.
+
+   Domek vypadá úplně obyčejně, jen popraskaný vývěsní štít s obrázkem hmoždíře s paličkou dává jasně na jevo kdo v něm sídlí. Dveřmi projdete do malého krámku obestaveného policemi s různými lahvičkami, pytlíky a různými krabičkami. Po chvíli se objeví majitelka. Menší žena v děžkém koženém plášti, na mnoha místeh popáleném s vlasy přísně staženými do drdolu. Na nose má posazené malé brýle a vypadá jako někdo koho ten den od nějaké práce vyrušilo už příliš mnoho příliš málo platících zákazníků. "Co chcete?" vyštěkne na vás. "Na dluh nedávám aby bylo jasno."
 
 Hlášení
 =======
