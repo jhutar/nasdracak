@@ -268,6 +268,23 @@ Hlášení
 ① Hlášení rychtáři
 ------------------
 
+Družinka se snad již rozhodla že toho ví dost a vydá se vše říct rychtáři, aby s městskou stráží mohl gang rozprášit? Dobře. Najdou ho podle očekávání na radnici (v "pracovní době") nebo v hospodě či doma. Bude se tvářit spokojeně, pokud mu hráči dají alespoň tyto dvě informace:
+
+* Duhu prodává prodavač ve "Vinárně pod lípou".
+* Duha se připravuje v opuštěném domě naproti vinárně.
+
+Pokud tedy družinka alespoň toto zdělila, tak:
+
+.. admonition:: Popis pro hráče:
+
+   Já hned jak jsem vás poprvé uviděl věděl že mi dokážete pomoct. Pokud se vaše tvrzení potvrdí, osobně vám předám odměnu jakou si zasloužíte. Zorganizuju teď městskou stráž a ty doupata zločinu rozprášíme. Vy si teď odpočiňte a já si vás s odměnou brzo najdu!
+
+Pokud tyto základní informace družina nedodá, pak:
+
+.. admonition:: Popis pro hráče:
+
+   No počkat, domluvili jsme se přeci jinak. Já potřebuju víc informací, ne tyhle doměnky co mi tu podsouváte. Chci vědět kde se ta "duha", nebo jak se jí to říká, připravuje a kdo ji prodává. Přijďte za mnou znovu, až budete mít víc informací. Jinak se s odměnou rozlučte.
+
 ② Hlášení radě konšelů
 ----------------------
 
