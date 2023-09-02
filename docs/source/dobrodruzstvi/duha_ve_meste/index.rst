@@ -302,16 +302,10 @@ Hlášení
 ① Hlášení rychtáři
 ------------------
 
-Družinka se snad již rozhodla že toho ví dost a vydá se vše říct rychtáři, aby s městskou stráží mohl gang rozprášit? Dobře. Najdou ho podle očekávání na radnici (v "pracovní době") nebo v hospodě či doma. Bude se tvářit spokojeně, pokud mu hráči dají alespoň tyto dvě informace:
+Družinka se snad již rozhodla že toho ví dost a vydá se vše říct rychtáři, aby s městskou stráží mohl gang rozprášit? Dobře. Najdou ho podle očekávání na radnici. Bude se tvářit spokojeně, pokud mu hráči dají alespoň tyto dvě informace:
 
 * Duhu prodává prodavač ve "Vinárně pod lípou".
 * Duha se připravuje v opuštěném domě naproti vinárně.
-
-Pokud tedy družinka alespoň toto zdělila, tak:
-
-.. admonition:: Popis pro hráče:
-
-   Já hned jak jsem vás poprvé uviděl věděl že mi dokážete pomoct. Pokud se vaše tvrzení potvrdí, osobně vám předám odměnu jakou si zasloužíte. Zorganizuju teď městskou stráž a ty doupata zločinu rozprášíme. Vy si teď odpočiňte a já si vás s odměnou brzo najdu!
 
 Pokud tyto základní informace družina nedodá, pak:
 
@@ -319,7 +313,45 @@ Pokud tyto základní informace družina nedodá, pak:
 
    No počkat, domluvili jsme se přeci jinak. Já potřebuju víc informací, ne tyhle doměnky co mi tu podsouváte. Chci vědět kde se ta "duha", nebo jak se jí to říká, připravuje a kdo ji prodává. Přijďte za mnou znovu, až budete mít víc informací. Jinak se s odměnou rozlučte.
 
-Rychtář různě zdržuje a když se konečně odhodlá a jeho hlídka se vrátí, hlásí že nic nenašli a družinku s posměchem vyhodí.
+Pokud tedy družinka alespoň toto zdělila, tak:
+
+.. admonition:: Popis pro hráče:
+
+   "Hned jak jsem vás poprvé uviděl věděl že mi dokážete pomoct", řekl rychtář. "Pokud se vaše tvrzení potvrdí, osobně vám předám odměnu jakou si zasloužíte."
+
+   "Já si teď pro něco pošlu", a začal něco spěšně psát na kousek papíru, "a potom to sepíšeme. Tohle je totiž řádně vedené město". Potom zařval "Kaňko, pojďte sem!". Do dveří s podlézavou poklonou vešel úředník a hned k rychtářovu stolu. Rychtář mu vtiskl ten popsaný papír, něco mu zašeptal do ucha a už ho gestem ruky vyprovázel ven. "Spolehněte se pane, spolehněte, půjdu tam hned" zaslechli jste Kaňkovu odpověď.
+
+   Když pomocný písař Kaňka odešel, rychtář vzal čistý list papíru a začal psát: "Hlášení o možné výrobně drog...". Pečlivě a ukrutně pomalu zapsal jak vás požádal o pomoc, jakou slíbil odměnu, nechal si nadiktovat vaše jména a podrobný popis událostí a vaše podezření. Vše to sepisoval šnečím tempem toho nejpomalejšího úředníka. Nakonec si nechal dokument podepsat.
+
+   Už jste si mysleli že teď konečně vyrazíte, ale rychtář si dal zavolat strážné městské stráže, všechny vám je představil, nechal je nastoupit a pak jim snad čtvrt hodiny vysvětloval, jak je nadcházející akce důležitá, že musí mít oči na šťopkách, nesmí nic přehlédnout, mají být opatrní a tak dále a tak dále.
+
+   Byli jste z toho tak unavení, že jste si posedali kde se dalo a litovali nastoupenou jednotku která celý dlouhý proslov musela snášet v pozoru. Neunikl vám znechucený pohled strážníka Mrkvičky, který vypadal že je proti rychtáři zaujatý a to nejen kvůli délce proslovu.
+
+   Proslov nakonec ukončil Kaňka, který vešel do kanceláře a přinesl rychtáři nějaký vzkaz. Když si ho rychtář přečetl, na obličeji se mu usadil úsměv, asi to byly nějaké dobré zprávy. Pak šlo naráz všechno jako po drátkách.
+
+   Jednotka v čele s rychtářem se vydala do vinárny, kde zatkla prodavače. Ten se tvářil jako neviňátko a šel zcela bez potíží.
+
+Tady si možná družinka všimne, jak na něj rychtář při zatýkání mrkl a prodavač jak mu pokývnutím hlavy odpověděl.
+
+**Akce**
+
+* Všimne si družinka něčeho? Pas na *INT 10: nic/všiml jsi si mrknutí*. Pokud někdo uspěl, pak:
+
+  .. admonition:: Popis pro hráče:
+
+     Když jednotka strážných vedená rychtářem vtrhla do světničky u vinárny, prodavač tam zrovna seděl a klidně popíjel čaj. "Co si přejete, pánové?" zeptal se a pohládl na rychtáře. Zdálo se ti že jsi zahlédl jak na něj rychtář mrknul. Prodavač si mrknutí všiml a v odpověď se usmál a pohodil hlavou. Bylo to velmi rychlé, ale jsi si jistý že se to stalo.
+
+Po zatknutí prodavače ve vinárně akce pokračovala.
+
+.. admonition:: Popis pro hráče:
+
+   Zatčení prodavače proběhlo zcela hlasce a rychtář teď vedl snou malou jednotku k opuštěnému domu naproti vinárny. Jednoho strážného nechal hlídat zatčeného a ostatním nařídil vyrazit dveře do domu. Po menší strkanici to provedli a vtrhli dovnitř. Vy jste podle příkazu zůstali čekat venku. Za chvili vyšel ven rychtář a říká vám "Tak mi teda pojďte ukázat kde ta vaše varna jako je, no pojďte".
+
+   Vešli jse dovnitř a nemohli uvěřit svým očím. Tam kde byla ještě před několika hodinami místnost plná klokotajících baněk, trubiček a bublajících kapalin, byla teď perfektně uklizená, zcela prázdná místnost. Zůstali jste stás jako opaření. Tady prostě všechno chybělo!
+
+   Chvíli jste se zmateně rozhlíželi, potom zaběhli do předsklepí, ale to bylo taky prázdé. To už ale na vás začal dorážet rychtář. "Tak kde to teda je? To jste si to celé vymysleli? Jak si to představujete, já tu přeci nejsem pro legraci nějakým otrhanám budižkničemům. Táhněte mi z očí než vás nechám zavřít" zuřil.
+
+  Byli jste z toho dost otřesení a raděj se vzdálili. Už jste jen zaslechli jak rychtář nařizuje aby propustili zajatého prodavače. Co s tím teď budete dělat?
 
 ② Hlášení radě konšelů
 ----------------------
