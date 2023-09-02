@@ -42,8 +42,23 @@ Družinku kolem poledne vyhledá úlisný rychtář, velitel městské stráže 
 
    -- `Wikipedia: Rychtář <https://cs.wikipedia.org/wiki/Rycht%C3%A1%C5%99>`_
 
+Pátrání
+=======
+
+Družinka bude pátrt po nějakých stopách které ji dovedou dál.
+
+Výpovědi vyslíchaných.
+
 Vinárna pod lípou
 =================
+
+Družinka se pokusí zjistit jak se Duha prodává a následně se pokusí proklouznout do sklepa.
+
+Popis vynárny
+
+Popis prodeje duhy
+
+Akce na proplížení se do sklepa
 
 Sklep vinárny
 =============
@@ -231,6 +246,14 @@ Varna
 ② Dveře na ulici
 ----------------
 
+.. admonition:: Popis pro hráče::
+
+   Dveře vedoucí na ulici jsou zabarikádované, takže otevřít je tiše a nenápadně bude celkem těžké. Pokud je budete chtít otevřít, bude potřeba také vypáčit dvě desky kterými jsou zatlučené.
+
+**Akce**
+
+* Pokud se pokusí otevřít dveře a projít tak aby to nezpůsobilo rozruch: *OBR 7 (ve dne) nebo 3 (v noci): někdo zavolal hlídku s tím, že tam někdo krade/v tichosti otevřeno*.
+
 ③ Dveře na dvorek
 -----------------
 
@@ -250,6 +273,17 @@ Varna
 
 ④ Hlavní místnost
 -----------------
+
+Běžící alchymistický proces. Vypadá velmi složitě a nebezpečně.
+
+**Akce**
+
+* Zasáhnout do procesu: *INT 2/5: výbuch a všichni v místnosti příjdou o 2 životy/aktér se popálí za 1 život/zastavení reakce*.
+* Na poličce stojí 2 megacloumáky.
+* V podlaze je pod uvolněným prknem skrýš: *INT 8: nic-nalezena skrýš*.
+
+  * Ve skrýši je okovaná truhlička, otevření je *SÍL 15 (bez nástrojů)/7 (s nástroji): odolá otevření/otevřena*.
+  * V truhličce je měšec s 800 stříbrňáky.
 
 Návštěva alchymistky
 ====================
@@ -285,8 +319,12 @@ Pokud tyto základní informace družina nedodá, pak:
 
    No počkat, domluvili jsme se přeci jinak. Já potřebuju víc informací, ne tyhle doměnky co mi tu podsouváte. Chci vědět kde se ta "duha", nebo jak se jí to říká, připravuje a kdo ji prodává. Přijďte za mnou znovu, až budete mít víc informací. Jinak se s odměnou rozlučte.
 
+Rychtář různě zdržuje a když se konečně odhodlá a jeho hlídka se vrátí, hlásí že nic nenašli a družinku s posměchem vyhodí.
+
 ② Hlášení radě konšelů
 ----------------------
+
+Družinka si to nenechá líbit a promluví si s radou konšelů, snad budou mít i nějaký důkaz proti rychtáři. Ti se už potom o něj postarají.
 
 Bestiář tohoto dobrodružství
 ============================
