@@ -153,6 +153,12 @@ Tato mřížová dvířka se dají pohodlně otevřít. Když soudce začal být
 **Akce**
 
 * Pokud bude někdo vstupní mříž prohledávat, pak *INT 4: nic/všimne se čerstvě uřezané petlice kde asy býval zámek*.
+* Pokud se družinka rozhodne prohledat sklepní místnost či schody, pak *INT 6: nic/najde ulomený dráp*. Je to dráp který si tady ulomil netvor, když tudy prolézal aby sežral soudce.
+
+  .. admonition:: Popis pro hráče::
+
+     Našli jste něco co vypadá jako ulomený dráp nějakého zvířete. Je leskle černý, zahnutý a proklatě ostrý. S jeho původním majitelem by jste se jistě setkali jen velmi neradi.
+
 * Pokud družinka vystoupí po schodech, ocitne se v malém prázdném domě po soudci. Dveře na ulici jsou zamčené.
 
   .. admonition:: Popis pro hráče:
