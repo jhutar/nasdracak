@@ -105,6 +105,10 @@ Tady jsou oplechovaná dvířka vedoucí do podzemí. Při otevření nekladou o
 Kanalizace
 ==========
 
+.. image:: img/kanalizace.svg
+   :alt: Kanalizace
+   :align: center
+
 Tato část městské kanalizace je jakési rozcestí našeho dobrodružství. Připojuje se do něj spousta velkých trubek pro odpadní vodu z domů, ale až na popsané výjimky se mříže žádné z nich nedá otevřít.
 
 .. admonition:: Popis pro hráče:
