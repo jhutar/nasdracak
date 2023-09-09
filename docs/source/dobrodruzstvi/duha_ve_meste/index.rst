@@ -375,3 +375,4 @@ Bestiář tohoto dobrodružství
 
    ../../pravidla/bestiar/plazi_krokodyl_mlady
    ../../pravidla/bestiar/rostliny_hlen_hnedy
+   ../../pravidla/bestiar/savci_netopyr_obecny

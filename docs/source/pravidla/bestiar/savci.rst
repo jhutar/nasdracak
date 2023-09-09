@@ -3,23 +3,12 @@ Jako savci
 
 .. _Krysa obyčejná:
 
-Krysa obyčejná
-~~~~~~~~~~~~~~
-
-Abc
-
+.. include:: savci_krysa_obycejna.rst
 
 .. _Krysa obří:
 
-Krysa obří
-~~~~~~~~~~
-
-Abc
-
+.. include:: savci_krysa_obri.rst
 
 .. _Netopýr obecný:
 
-Netopýr obecný
-~~~~~~~~~~~~~~
-
-Abc
+.. include:: savci_netopyr_obecny.rst
