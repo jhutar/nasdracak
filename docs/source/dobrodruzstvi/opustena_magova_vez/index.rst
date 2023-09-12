@@ -70,6 +70,10 @@ U věže
 
 V jednu chvíli se družinka jistě dostane k tomu, aby věž prozkoumala. Popsat by se dala takto:
 
+.. image:: img/vez.svg
+   :alt: Věž při pohledu z venku
+   :align: center
+
 .. admonition:: Popis pro hráče:
 
    Kamenná čtvercová věž stojí na rovince, asi sto metrů od městských hradeb. Tři patra z velkých kamenných bloků se zvedají vysoko nad malou městskou palisádu a v rovné krajině poseté poli, sady a pastvinami na sebe zlověstně stahují pozornost. Obklopená je houštinou křoví a mladých stromků, které jsou oblíbenými odpočívadli černých havranů. Jediné dveře jsou zavřené a vypadají funkčně, otvory těch několika malých oken v přízemí jsou zahrazené deskami.
