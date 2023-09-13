@@ -45,9 +45,36 @@ Družinku kolem poledne vyhledá úlisný rychtář, velitel městské stráže 
 Pátrání
 =======
 
-Družinka bude pátrt po nějakých stopách které ji dovedou dál.
+Družinka se snad pokusí získat nějaké informace či stopy, které ji přiblíží nalezení varny. Předpokládám že nejdřív se budou dost vyptávat.
 
-Výpovědi vyslíchaných.
+Pokud se pokusí získat informace o droze samotné:
+
+.. admonition:: Popis pro hráče:
+
+   Děda kterého jste oslovili se na vás zkoumavě podívá. Přece jen o těchhle věcech se člověk s cizinci jen tak nebaví, ale asi usoudil že od vás mu žádné nebezpečí nehrozí, a tak začal: "Nó, to já když byl malej kluk, tak tyhle věci vůbec nebejvaly. Občas se někdo opil, to zase jo a to bych mohl povídat, ale to je něco úplně jinýho. Tahle Duha, jak jí říkají, si člověka úplně připoutá. Viděl jsem uplně zdravý kluky co to zkusili jednou, možná dvakrát a ta duha se pro ně naráz stala nejdůležitější věcí na světě. Takoví se potom akorát starají o to kde vzít peníze na další dávku. Jen málo komu se podaří s tím přestat. Většinou se jen rozhádají s rodinou, s těma jedinýma kdo by jim mohli pomoct".
+   "A jaké má vlastně ta Duha účinky?" přerušíte staříka otázkou.
+
+   Ten vypadá potěšeně že ho pořád posloucháte a tak pokračuje: "No slyšel sem, že to je jako by se člověk vznášel, jako by prý prolétal duhou a že u toho prý zapomene na všechny problémy. Tohle trvá pár hodin. Takovýho člověka poznáte tak že sedí a kouká do blba. No ale pak začne střízlivět. Ze začátku se nic hroznýho neděje, ale viděl jsem chlapy co to berou pár měsíců a ty pak najdete jak zvrací v příkopě nebo se drží za hlavu a vyjou bolestí. Čím dýl to bereš, tím horší. No ale tohle je takový blbý téma, nechcete rači slyšet o tom jak jednou švec vykoupal cestou na trh pytel nových škorní v rybníce? To bylo tak..."
+
+   Děda se zřejmě chystá vyprávět o něčem dalčím, takže ho rychle stopnete: "My už vlastně nutně potřebujeme jít, děkujeme dědečku". Odcházíte ale s lepší představou o droze.
+
+Možná zastaví nějakou dobře oblečenou měšťanku, která jim trošku objasní pozadí toho jak dosud probíhalo pátrání:
+
+.. admonition:: Popis pro hráče:
+
+   "No já normálně drby neroznáším, taková já nejsem" vykrucuje se nejdřív měšťanka kterou jste zastavili a zeptali se jí jak je to tady ve městě s rychtářem a jeho pátráním po zdroji Duhy, "ale možná, čistě z dobrého srdce bych vám mohla říct jak to tady chodí. Jen pro vaše dobro, samozřejmě, abyste nespadli do nějakého maléru, že ano."
+
+   "S tím hnusem to tu myslím začalo tak před pěti lety. Tehdy tu byl rychtář teprve chvíli. Předchozí rychtář odešel na odpočinek a náš kníže sem přivedl nového. Asi nečekal že bude muset hned řešit takovýhle problém. Rychtář se do toho pustil jako drak, ale až do teď nic pořádně nevypátral. Občas sebere pár chudáků co jsou na tom závislí, ale to nic neřeší".
+
+   Opatrně se rozhládla kolem: "Nedávno ale radě konšelů došla s rychtářem trpělivost a začali vyhrožovat, že knížete požádají o jiného rychtáře, nějakého který si s tím sviňstvem poradí". Ztišila hlas jak to jen šlo a pokračovala: "Prý se před týdnem na zasedání strašně pohádali, řekli mu že je nekňuba. To se povedlo, protože na celé radnici trošku chytrosti abys pohledam. No ale prý mu dali ultimátum. Prý to má do měsíce vyřešit, nebo jsou za knížetem."
+
+   "A to se rychtáří vážně nikdy nic nepovedlo?" zeptáte se. "No vlastně ano, i když nevím jestli to byla rychtářova zásluha. Městská hlídka jenou zathla nějaké měšťany a pár pobudů. Byli podezřelí z toho že jsou do toho zapletení, pak se stalo tam to našemu soudci a nebyl kdo by je soudil, tak je museli propustit."
+
+   "Počkejte, co se stalo soudci?" taháte z ní další informace. "No to bylo tehdy strašně divné. Večer odešel z hospody kam chodil na večeři. Jeden z hlídky co mu svítin na cestu říkal že doma se zamkl, ale ráno ho našli rozsápaného přímo v jeho pokoji. Prosťe hrůza". Zamyšleně pokývala hlavou, ale pak vyjekla: "Jejda, já se tady vykecávám a zatím mi zavřou u řezníka. Musím už jít!" Zamávala a v mžiku byla pryč.
+
+Kladďák z městské hlídky:
+
+Závislák:
 
 Vinárna pod lípou
 =================
