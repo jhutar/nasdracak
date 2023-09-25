@@ -45,7 +45,11 @@ Družinku kolem poledne vyhledá úlisný rychtář, velitel městské stráže 
 Pátrání
 =======
 
-Družinka se snad pokusí získat nějaké informace či stopy, které ji přiblíží nalezení varny. Předpokládám že nejdřív se budou dost vyptávat.
+Družinka se snad pokusí získat nějaké informace či stopy, které ji přiblíží nalezení varny. Předpokládám že nejdřív se budou dost vyptávat a nejvíc lidí se "v tuto hodinu" dá potkat na náměstí. Tady je slepá mapa kterou je bezpečné ukázat hráčům:
+
+.. image:: img/namesti-slepa.svg
+   :alt: Jak to vypadá kolem vinárny bez popisků
+   :align: center
 
 Pokud se pokusí získat informace o droze samotné:
 
@@ -80,6 +84,10 @@ Vinárna pod lípou
 =================
 
 Družinka se pokusí zjistit jak se Duha prodává a následně se pokusí proklouznout do sklepa.
+
+.. image:: img/namesti-popisky.svg
+   :alt: Jak to vypadá kolem vinárny s popisky
+   :align: center
 
 Popis vynárny
 
