@@ -91,7 +91,25 @@ Družinka se pokusí zjistit jak se Duha prodává a následně se pokusí prokl
 
 Popis vynárny
 
-Popis prodeje duhy
+Pokud bude družinka sledovat někoho kdo vypadá jako typický uživatel Duhy, dovede je až do vinárny. Tam můžou být svědky toho, jak se Duha prodává.
+
+**Akce**
+
+* Nenápadné sledování závysláka bude poměrně jednoduchá past na *CHAR 3: všiml si vás a utekl/nenápadně ho sledujete*.
+
+  .. admonition:: Popis pro hráče:
+
+     Nenápadně jste postávali ve vinárně a předstírali že dumáte o tom kterou z vystavených lahví koupit. U toho jste po očku sledovali jak se závislý otrapa blíží k pokladně. Byl to mladý muž, oblečený v roztrhaných šatech a říct že měl "zanedbaný vzhledem" by mu příliš fandilo. Zastavil se před prodavačem. Oči měl červené a byly jasně vidět nateklé žíly na krku.
+
+     Prodavač, vousatý muž v kožených kalhotách, se na něj jakoby vítězoslavně usmál. Jistě věděl co příjde. "Co pro tebe mohu udělat?"
+
+     Muž vytáhl z kapsy pět stříbrňáků. "Duha," řekl tichým hlasem a s prosebným pohledem je třesoucí se rukou je podával prdavači. "Prosím!"
+
+     Prodavač se ušklíbl a vzal si peníze. Pak se shýbl, otevřel velký poklop za barem a vešel dovnitř. Za okamžik se vrátil s něčím malým schovaným v dlani. Nedbale se rozhlédl kolem, jestli je někdo nepozoruje. Naštěstí jste to tušili a aspoň na tu chvíli na ně nezírali. Prodavač si byl ale zřejmě dost jistý tím že mu nic nehrozí. Potom svému zákazníkovy předal malou papírovou obálku.
+
+     Muž obálku rychle otevřel a na dlaň z ní odsypal několik fialových krystalů. Bez zaváhání, velmi nedočkavě je slízl a jeho oči se rozzářily a na tváři se mu rozšířil úsměv.
+
+     Pak už jste viděli jen jeho záda jak mizí na rušné ulici před vinárnou.
 
 Akce na proplížení se do sklepa
 
