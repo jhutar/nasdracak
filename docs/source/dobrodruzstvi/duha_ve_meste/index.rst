@@ -42,6 +42,18 @@ Družinku kolem poledne vyhledá úlisný rychtář, velitel městské stráže 
 
    -- `Wikipedia: Rychtář <https://cs.wikipedia.org/wiki/Rycht%C3%A1%C5%99>`_
 
+.. admonition:: Popis pro hráče:
+
+   Postáváte v malém obchůdku na náměstí. Venkovní vývěska jako název obchodu uvádí "Havraní pera a zahnutá pátá klika" s nápisem na dveřích "Odborník na obchod s věcmi, které si myslíte že nepotřebujete, ale věřte nám, potřebujete je". Zatímco si prohlížíte zboží, probíráte staré knihy a zkoumáte podivné artefakty, do místnosti vstoupí rychtář.
+
+   Když na vás promluví, obracíte se k němu s lehkým překvapením. Rozhodně jste nečekali že by s o vás mohl zajímat sám rychtář. "Mám pro vás nabídku, která by vás mohla zajímat. Slyšel jsem o vašich schopnostech a odvaze." říká rychtář. Zdálo se vám jako by jeho pohledem nakrátko projelo pobavení, ale to jste asi špatně viděli, protže hned pokračuje stejně vážným tónem jako předtím. "Jakýsi temný vliv působí na mé město. Rozmohli se nám tu nebezpečné drogy zvané Duha. Na původce táto zhouby jsou mé stráže krátké a právě proto potřebuji nezávislou pomoc."
+
+   Nakloní se blíže a ztiší hlas: "Neočekávám od vás že se sami postavíte celému gangu. Co od vás chci je, abyste odhalili místo kde se Duha prodává a místo kde ji vyrábí. Chápu že takové věci mohou být nebezpečné. Vaším úkolem je jen zjistit informace které našim strážím umožní ten gang zlikvidovat."
+
+   "A jak by to bylo s odměnou?" zeptáte se.
+
+   Na chvíli vypadal jako by ho vaše otázka překvapila, ale pak pokrčí ramena a povídá: "Peněžní odměna je prostředek, jak vám vyjádřit naši vděčnost za vaši odvážnou pomoc. Až mi informace přinesete, můžete se spolehnout na to že budete spravedlivě odměněni za vaše úsilí. Co takhle 100 zlatých?"
+
 Pátrání
 =======
 
