@@ -88,9 +88,9 @@ Možná zastaví nějakou dobře oblečenou měšťanku, která jim trošku obja
 
    "Počkejte, co se stalo soudci?" taháte z ní další informace. "No to bylo tehdy strašně divné. Večer odešel z hospody kam chodil na večeři. Jeden z hlídky co mu svítin na cestu říkal že doma se zamkl, ale ráno ho našli rozsápaného přímo v jeho pokoji. Prosťe hrůza". Zamyšleně pokývala hlavou, ale pak vyjekla: "Jejda, já se tady vykecávám a zatím mi zavřou u řezníka. Musím už jít!" Zamávala a v mžiku byla pryč.
 
-Kladďák z městské hlídky:
+TODO Klaďák z městské hlídky jim povi o konselich:
 
-Závislák:
+TODO Závislák:
 
 Vinárna pod lípou
 =================
@@ -101,7 +101,7 @@ Družinka se pokusí zjistit jak se Duha prodává a následně se pokusí prokl
    :alt: Jak to vypadá kolem vinárny s popisky
    :align: center
 
-Popis vynárny
+TODO Popis vinárny
 
 Pokud bude družinka sledovat někoho kdo vypadá jako typický uživatel Duhy, dovede je až do vinárny. Tam můžou být svědky toho, jak se Duha prodává.
 
@@ -123,7 +123,7 @@ Pokud bude družinka sledovat někoho kdo vypadá jako typický uživatel Duhy, 
 
      Pak už jste viděli jen jeho záda jak mizí na rušné ulici před vinárnou.
 
-Akce na proplížení se do sklepa
+TODO Akce na proplížení se do sklepa
 
 Sklep vinárny
 =============
@@ -339,7 +339,7 @@ Varna
 **Akce**
 
 * Při otevření dveře vrznou, ale to nezpůsobí žádný problém. Ostatně jsme uprostřed města a podobných zvuků je tam spousta.
-* Z dvorku se dá, po přelezení nízkého plotu, dá dostat buď na dvorek alchymistky (na západ), nebo ševce (na jih). Z jejich dvorků je ven na ulici potřeba projít domem.
+* Z dvorku se dá, po přelezení nízkého plotu, dostat buď na dvorek alchymistky (na západ), nebo ševce (na jih). Z jejich dvorků je ven na ulici potřeba projít domem.
 
   * Nepozorovaně se proplížit nebude ani v jednom případě nic jednoduchého. Ten kdo bude otevírat dvojici zamčených dveří (z dvorku do domu a z domu ven) musí uspět v pasti na *OBR 5/9: zburcování majitele/nepodařilo se/zámky otevřeny*.
   * Ten kdo bude po otevření dveří jen procházet to bude mít podstatně jednodušší: *OBR 4: zburcování majitele/nenápadné projití*.
@@ -349,7 +349,7 @@ Varna
 ④ Hlavní místnost
 -----------------
 
-Běžící alchymistický proces. Vypadá velmi složitě a nebezpečně.
+TODO Běžící alchymistický proces. Vypadá velmi složitě a nebezpečně.
 
 **Akce**
 
@@ -370,6 +370,24 @@ Alchymistčina pracovna stoji téměř přímo naproti vinárny. Družinka ji mo
    Poznat že v tomto domě se nachází alchymistická laboratoř byste po většinu dní poznali i poslepu pěkných pár kroků od domu. Záleží na tom, kterým směrem fouká vítr. Lidé ve městě si už zvykli a nikdo si nestěžuje. Ono dobrého alchymistu občas potřebuje každý: na některé neduhy bylinkářka nestačí, někdy se hodí dobrý amulet či jen něco na vyhubení krys ve sklepě.
 
    Domek vypadá úplně obyčejně, jen popraskaný vývěsní štít s obrázkem hmoždíře s paličkou dává jasně na jevo kdo v něm sídlí. Dveřmi projdete do malého krámku obestaveného policemi s různými lahvičkami, pytlíky a různými krabičkami. Po chvíli se objeví majitelka. Menší žena v děžkém koženém plášti, na mnoha místeh popáleném s vlasy přísně staženými do drdolu. Na nose má posazené malé brýle a vypadá jako někdo koho ten den od nějaké práce vyrušilo už příliš mnoho příliš málo platících zákazníků. "Co chcete?" vyštěkne na vás. "Na dluh nedávám aby bylo jasno."
+
+Pokud družinka při rozhovoru prozradila po čem pátrá, či se dokonce alchymistce pokusila prodat něco co získala ve varně, pravděpodobně se stane něco velmi nemilého.
+
+.. admonition:: Popis pro hráče:
+
+   "Tak to počkat milánkové", rozkřikla se alchymistka. "Tohle je slušnej podnik a s tímhle já nechci nic mít. Mazejte pryč, než zavolám stráže!"
+
+Nejbližší následující noc, pokud bude družinka spát v hospodě nebo jiném použitelném místě, pak družince dá gang nasměrovaný alchymistkou pořádně za vyučenou. Gang družinku zajme a aby je odradil od dalšího slídění vezme jim všechny zbraně svázané je odveze pár kilometrů od města do lesa. Je to jasný vzkaz "Táhněte, nevracejte se a buďte rádi že jste z toho vyšli tak jednoduše".
+
+.. admonition:: Popis pro hráče:
+
+   Nikdo z vás ve neslyšel přicházet. Oběvili se, vyloupli se ze stínů nečekaně jako když zjistíte že balíček s bonbóny je už prázdný. Maskované postavy s opravdu nepříjemnými obušky po kterých vás bolí hlava ještě teď. Omračili vás, svázali, strčili do pytlů a teď vás asi někam vesou na voze.
+
+**Akce**
+
+* Každá postava na voze si hodí na *ODO 4: zůstáváš v bezvědomí/probral jsi se*.
+* Pokud se někdo pokusí nepozorovaně zkutálet z vozu, bude to past na *OBR 7: nepodařilo se/nepozorovaně se dostal z vozu*.
+* Pokud se takto osvobozená postava pokusí dostat z pytle a z pout, pak *SÍL 2/6: poranění za 1 život/zůstává svázaná/podařilo se rozvázat se*.
 
 Hlášení
 =======
@@ -410,7 +428,7 @@ Tady si možná družinka všimne, jak na něj rychtář při zatýkání mrkl a
 
 **Akce**
 
-* Všimne si družinka něčeho? Pas na *INT 10: nic/všiml jsi si mrknutí*. Pokud někdo uspěl, pak:
+* Všimne si družinka něčeho? Past na *INT 10: nic/všiml jsi si mrknutí*. Pokud někdo uspěl, pak:
 
   .. admonition:: Popis pro hráče:
 
@@ -431,7 +449,19 @@ Po zatknutí prodavače ve vinárně akce pokračovala.
 ② Hlášení radě konšelů
 ----------------------
 
-Družinka si to nenechá líbit a promluví si s radou konšelů, snad budou mít i nějaký důkaz proti rychtáři. Ti se už potom o něj postarají.
+Družinka si blamáž s rychtářem nenechá líbit a promluví si s radou konšelů. Pokud je přesvědčí, konšelé se už o rychtáře postarají.
+
+.. admonition:: Popis pro hráče:
+
+   Hned příští den ráno jste se dozvěděli, že rychtář byl zatčen. Prý pro podezření že se zapletl s organizovaným zločinem. Brzo vás vyhledal posel z radnice a dovedl vás před radu konšelů. Vystoupil jeden z nich a slavnostně se na vás obrátí: "Celé město je vám zavázáno. Zasaili jste se o bezpečnost v načich ulicích! Děkujeme vám my i všichni obyvatelé města."
+
+   Když to vypadalo že tím by to rád ukončil, ozvali jste se. "Kdo nám vyplatí naši odměnu? Máme slíbeno sto zlatých."
+
+   Konšel se zatvářil překvapeně: "Tolik? Jistě, rychtář vás zřejmně ve své špinavé hře chtěl za každou cenu. To je ale dohoda se zločincem a je tey neplatná a pro nás není závazná. Máte ale pravdu, nějakou odměnu si zasloužíte." Zamyslel se. "Co byste řekli na zásobu vína z místní vinárny. Majitel ji teď nějakou dobu nebude potřebovat a ve vedlejším městě ji jistě dobře prodáte. Stejně bude dobré když se teď z města na nějakou dobu vytratíte. Není jisté že jsme gang pochytali celý. Bylo by nemylé kdyby se na vás chtěl někdo pomstít."
+
+   Pochopili jste že tady už víc nezmůžete a po nějakm papírování jste zkončili na náměstí před radnicí s rozhrkaným vozem na kterém byl naložen velký sud ave kterém to na každé nerovnosti cesty šplouchalo. Tohle jste si rozhoně jako odměnu nepředstavovali. Bude s tím spousta práce, ale místní úředník to odhadl tak, že ve vedlejším městě by se to za těch vysněných sto zlatých prodat dalo.
+
+A toto je závěr dobrodružstní. Na to co družinku potká cestou do sousedního města si snad povíme jindy.
 
 Bestiář tohoto dobrodružství
 ============================
