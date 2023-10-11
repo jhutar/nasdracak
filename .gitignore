@@ -2,3 +2,4 @@
 
 venv/
 docs/build/
+docs/source/__pycache__/

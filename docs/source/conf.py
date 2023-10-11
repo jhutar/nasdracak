@@ -31,6 +31,8 @@ html_static_path = ['_static']
 # https://www.sphinx-doc.org/en/master/latex.html
 
 latex_engine = 'xelatex'
+latex_theme = 'manual'
+latex_documents = [('index', 'nasdracak.tex', project, author, latex_theme, False)]
 latex_elements = {
     'fontpkg': r'''
 \setmainfont{DejaVu Serif}

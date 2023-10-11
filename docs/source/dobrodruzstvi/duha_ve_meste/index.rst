@@ -466,8 +466,6 @@ A toto je závěr dobrodružstní. Na to co družinku potká cestou do sousední
 Bestiář tohoto dobrodružství
 ============================
 
-.. toctree::
-
-   ../../pravidla/bestiar/plazi_krokodyl_mlady
-   ../../pravidla/bestiar/rostliny_hlen_hnedy
-   ../../pravidla/bestiar/savci_netopyr_obecny
+.. include:: ../../pravidla/bestiar/plazi_krokodyl_mlady.rst
+.. include:: ../../pravidla/bestiar/rostliny_hlen_hnedy.rst
+.. include:: ../../pravidla/bestiar/savci_netopyr_obecny.rst
