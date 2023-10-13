@@ -7,13 +7,13 @@ Aktuální verzi tohoto textu najdete na https://jhutar.github.io/nasdracak/, zd
 
 Pokud si chcete stáhnout PDF variantu tohoto dokumentu nebo jeho podčásti, tady to je:
 
- * Celý dokument, všechno: :download:`pdf <docs/build/latex/nasdracak.pdf>`
- * Pravidla: :download:`nasdracak-pravidla.pdf <docs/build/latex/nasdracak-pravidla.pdf>` (zatím prázdné)
- * Popisy předmětů: :download:`nasdracak-predmety.pdf <docs/build/latex/nasdracak-predmety.pdf>` (zatím prázdné)
- * Popisy nepřátel (a přátel): :download:`nasdracak-bestiar.pdf <docs/build/latex/nasdracak-bestiar.pdf>` (převážně prázdné)
- * Všechna (dvě) dobrodružství: :download:`nasdracak-dobrodruzstvi.pdf <docs/build/latex/nasdracak-dobrodruzstvi.pdf>`
- * Dobrodružství Opuštěná mágova věž: :download:`nasdracak-dobrodruzstvi-opustena_magova_vez.pdf <docs/build/latex/nasdracak-dobrodruzstvi-opustena_magova_vez.pdf>`
- * Dobrodružství Duha ve městě: :download:`nasdracak-dobrodruzstvi-duha_ve_meste.pdf <docs/build/latex/nasdracak-dobrodruzstvi-duha_ve_meste.pdf>`
+ * Celý dokument, všechno: :download:`pdf <_static/nasdracak.pdf>`
+ * Pravidla: :download:`nasdracak-pravidla.pdf <_static/nasdracak-pravidla.pdf>` (zatím prázdné)
+ * Popisy předmětů: :download:`nasdracak-predmety.pdf <_static/nasdracak-predmety.pdf>` (zatím prázdné)
+ * Popisy nepřátel (a přátel): :download:`nasdracak-bestiar.pdf <_static/nasdracak-bestiar.pdf>` (převážně prázdné)
+ * Všechna (dvě) dobrodružství: :download:`nasdracak-dobrodruzstvi.pdf <_static/nasdracak-dobrodruzstvi.pdf>`
+ * Dobrodružství Opuštěná mágova věž: :download:`nasdracak-dobrodruzstvi-opustena_magova_vez.pdf <_static/nasdracak-dobrodruzstvi-opustena_magova_vez.pdf>`
+ * Dobrodružství Duha ve městě: :download:`nasdracak-dobrodruzstvi-duha_ve_meste.pdf <_static/nasdracak-dobrodruzstvi-duha_ve_meste.pdf>`
 
 .. toctree::
    :maxdepth: 3
