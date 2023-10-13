@@ -1,5 +1,7 @@
+.. _Hlen hnědý:
+
 Hlen hnědý
-==========
+----------
 
 .. list-table:: Hlen hnědý
    :widths: 40 60

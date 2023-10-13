@@ -1,6 +1,6 @@
 Jako rostliny
--------------
+=============
 
-.. _Hlen hnědý:
+.. toctree::
 
-.. include:: rostliny_hlen_hnedy.rst
+   rostliny_hlen_hnedy.rst

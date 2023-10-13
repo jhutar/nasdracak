@@ -1,6 +1,6 @@
 Jako plazi
-----------
+==========
 
-.. _Krokodýl, mladý:
+.. toctree::
 
-.. include:: plazi_krokodyl_mlady.rst
+   plazi_krokodyl_mlady.rst

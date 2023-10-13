@@ -1,5 +1,7 @@
+.. _Krokodýl, mladý:
+
 Krokodýl, mladý
-===============
+---------------
 
 .. list-table:: Krokodýl, mladý
    :widths: 40 60

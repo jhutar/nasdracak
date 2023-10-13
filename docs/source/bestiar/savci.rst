@@ -1,14 +1,9 @@
 Jako savci
-----------
+==========
 
-.. _Krysa obyčejná:
 
-.. include:: savci_krysa_obycejna.rst
+.. toctree::
 
-.. _Krysa obří:
-
-.. include:: savci_krysa_obri.rst
-
-.. _Netopýr obecný:
-
-.. include:: savci_netopyr_obecny.rst
+   savci_krysa_obycejna.rst
+   savci_krysa_obri.rst
+   savci_netopyr_obecny.rst
