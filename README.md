@@ -35,3 +35,8 @@ Jednotlivé PDF soubory:
     $ sphinx-build -M latexpdf docs/source/dobrodruzstvi/ docs/build/
     $ sphinx-build -M latexpdf docs/source/dobrodruzstvi/opustena_magova_vez/ docs/build/
     $ sphinx-build -M latexpdf docs/source/dobrodruzstvi/duha_ve_meste/ docs/build/
+
+Licence
+-------
+
+[Náš "dračák"](https://github.com/jhutar/nasdracak/) © 2023 od [Jan Hutař](mailto:jhutar@seznam.cz) je licencován pod licencí [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
