@@ -1,4 +1,4 @@
-Moje poznámku k "dračáku" co občas hrajeme
+Moje poznámky k "dračáku" co občas hrajeme
 ==========================================
 
 Tento text v čitelné podobě najdete na https://jhutar.github.io/nasdracak/
