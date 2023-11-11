@@ -103,7 +103,75 @@ Teď se vraťte na [patrani_vyptavani].
 Teď se vraťte na [patrani_vyptavani].
 
 # vez_prichod
+Kamenná čtvercová věž stojí na rovince, asi sto metrů od městských hradeb. Tři patra z velkých kamenných bloků se zvedají vysoko nad malou městskou palisádu a v rovné krajině poseté poli, sady a pastvinami na sebe zlověstně stahují pozornost. Obklopená je houštinou křoví a mladých stromků, které jsou oblíbenými odpočívadli černých havranů. Jediné dveře jsou zavřené a vypadají funkčně, otvory těch několika malých oken v přízemí jsou zahrazené deskami.
+
+Pokud se chceš prodrat houštinou kolem věže a pokusit se najít nějakou jinou cestu dovnitř než hlavní dveře, jdi na [vez_pruzkum].
+
+Pokud se odvážíš jít přímo k hlavnímu vchodu, jdi na [vez_vstup].
+
+# vez_pruzkum
+Okolí věže je zarostlé pichlavými šípky a mladými stromky jejichž větvě rády šlehají do obličeje. Ze špiček stromů na vás hladově několik havranů, ale nevypadají že by byli vaší hlučnou přítomností rozrušení. po hodné chvíli se vám podařilo celou věž obejít. Dle očekávání má jen jedny dveře, ty které jste viděli už na začátku. Dále má tři malá okénka. Jen jedno vypadá, že by se jím dalo prolézt - je sice poměrně vysokol, ale jako jediné není zahrazené silnými deskami.
+
+Pokud se chceš pokusit prolézt tím otevřeným okénkem na zadní straně věže, jdi na [vez_zachodove_okno].
+
+Pokud se raději vrátíš k hlavním dveřím které jsi viděl při příchodu k věži, jdi na [vez_vstup].
+
+# vez_zachodove_okno
+
+[vez_zachodove_okno_selhani]
+[vez_zachodove_okno_prolezeni]
+
+# vez_zachodove_okno_selhani
+
+[vez_prichod]
+
+# vez_zachodove_okno_prolezeni
+
+[vez_prizemi_zachod]
+
+# vez_vstup
+
+[vez_dvere_otevrit]
+[vez_dvere_vyrazit]
+
+# vez_dvere_vyrazit
+
+[vez_dvere_vyrazit_zraneni]
+[vez_prizemi_chodba]
+
+# vez_otevrit
+
+[vez_prizemi_chodba]
+
+# vez_prizemi_chodba
+
+[vez_prizemi_chodba_naslouchat]
+[vez_prizemi_straznice]
+[vez_prizemi_hlavni]
+
+# vez_prizemi_chodba_naslouchat
+
+[vez_prizemi_chodba_naslouchat_nic]
+[vez_prizemi_chodba_naslouchat_nic2]
+
+# vez_prizemi_chodba_naslouchat_nic
+
+[vez_prizemi_chodba]
+
+# vez_prizemi_chodba_naslouchat_nic2
+
+[vez_prizemi_chodba]
+
+# vez_prizemi_straznice
 TODO
+
+# vez_prizemi_hlavni
+TODO
+
+# vez_prizemi_zachod
+TODO
+
+
 
 # Epilog
 TODO
