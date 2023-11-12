@@ -4,6 +4,7 @@ author: Jan Hutař
 lang: cs-CZ
 csquotes: true
 gamebook-gap: 1
+papersize: a5
 ---
 
 Dobrodružství je zamýšleno pro skupinku 3 dobrodruhů na první úrovni. Co se pravidel týče a způsobu popisu příšer či předmětů, vycházíme z prastarého Dračího doupěte. Myslím ale, že to půjde převést na libovolný systém.
@@ -163,13 +164,59 @@ Pokud se raději vrátíš k hlavním dveřím které jsi viděl při příchodu
 [vez_prizemi_chodba]
 
 # vez_prizemi_straznice
-TODO
+Malá místnost s oknem zatlučeným deskami přes které prosvítá nějaké to světlo. Vidíte tři rozbité postele se slamníky prolezlými plísní, trosky malých kamínek, stolu a tří židlí. Takhle na první pohled tu není nic zvláštního. Tady asi bydlelo čarodějovo služebnictvo.
+
+Pokud to tu chceš trochu prohledat, jdi na [vez_prizemi_straznice_prohledani].
+
+Pokud se chcete vrátit chodbu před místností, jděte na [vez_prizemi_chodba].
+
+# vez_prizemi_straznice_prohledani
+Obrátili jste naruby celou místnost, ale kromě spousty nepořádku a plesnivého sena ze slamníků jste narazili jen na jednu zajímavou věc. Malou rozbitou a prázdnou truhličku.
+
+Pokud se chcete vrátit na chodbu, jděte na [vez_prizemi_chodba].
+
+Pokud chcete zbytky truhličky pečlivě prohlédnout, vyberte jednoho z družiny a hoďte si na inteligenci. Pokud jste dostali méně než 3, jděte na [vez_prizemi_straznice_prohledani_neuspech]. Pokud více, jděte na [vez_prizemi_straznice_prohledani_uspech]
+
+# vez_prizemi_straznice_prohledani_uspech
+
+[vez_prizemi_chodba]
+
+# vez_prizemi_straznice_prohledani_neuspech
+
+[vez_prizemi_chodba]
 
 # vez_prizemi_hlavni
 TODO
 
 # vez_prizemi_zachod
-TODO
+Je to opravdu malinká místnost s oknem a dveřmi. Kupodivu to tu dost páchne i když okénko není ničím zatarasené a skvěle větrá. V jednom rohu místnůstky je něco jako velká dřevěná truhla s okrouhlým otvorem v její horní části. K čemu to asi sloužilo?
+
+Pokud chcete tu bednu prozkoumat, jděte na [vez_prizemi_zachod_pruzkum].
+
+Pokud chcete zkusit prolézt oknem ven, jděte na [vez_prizemi_zachod_vylezeni].
+
+Pokud chcete projít jedinými dveřmi v místnůstce, jděte na [vez_prizemi_hlavni].
+
+# vez_prizemi_zachod_pruzkum
+*Urči která postava z družinky provádí průzkum.*
+
+Bedna se nedá posunout, sedí pevně na zemi. Zdá se vám že puch přícází přímo z ní. Protože nic jiného se na ní nedá zkoumat, postava prohmatává vnitřek oné okrouhlé díry na horní straně bedny. "Ale tak to snad ne, že mě to nenapadlo hned" naráz zakleje a zhnuseně vytahuje ruku na které ulpělo něco hnědého a páchnoucího. Že on to je prevét?
+
+*Postava která prohledávala si zmenší stupeň charisma o 2. Na původní velikost si jej může vrátit až po pořádné koupeli.*
+
+> Prevét (z latinského locus privatus – soukromé místo) je typ středověkého záchodu.
+> Objevuje se na hradech, zámcích i jiných stavbách. ...
+> Žádný splachovací systém nebyl potřebný, neboť o patřičný odvod výkalů se zpravidla postarala sama gravitace.
+> Tento výraz, respektive jeho počeštěná forma "prevít", se stal nadávkou a synonymem pro nečestného člověka.
+>
+> -- [Wikipedie: Prevét]( https://cs.wikipedia.org/wiki/Prev%C3%A9t)
+
+Pokud chcete zkusit prolézt oknem ven, jděte na [vez_prizemi_zachod_vylezeni].
+
+Pokud chcete projít jedinými dveřmi v místnůstce, jděte na [vez_prizemi_hlavni].
+
+# vez_prizemi_zachod_vylezeni
+
 
 
 
