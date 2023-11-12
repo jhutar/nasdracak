@@ -7,7 +7,7 @@ Aktuální verzi tohoto textu najdete na https://jhutar.github.io/nasdracak/, zd
 
 Pokud si chcete stáhnout PDF variantu tohoto dokumentu nebo jeho podčásti, tady to je:
 
- * Celý dokument, všechno: :download:`pdf <_static/nasdracak.pdf>`
+ * Celý dokument, všechno: :download:`nasdracak.pdf <_static/nasdracak.pdf>`
  * Pravidla: :download:`nasdracak-pravidla.pdf <_static/nasdracak-pravidla.pdf>` (zatím prázdné)
  * Popisy předmětů: :download:`nasdracak-predmety.pdf <_static/nasdracak-predmety.pdf>` (zatím prázdné)
  * Popisy nepřátel (a přátel): :download:`nasdracak-bestiar.pdf <_static/nasdracak-bestiar.pdf>` (převážně prázdné)
