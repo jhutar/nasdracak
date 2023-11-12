@@ -68,6 +68,7 @@ jobs:
           sphinx-build -M latexpdf docs/source/dobrodruzstvi/opustena_magova_vez/ docs/build/
           sphinx-build -M latexpdf docs/source/dobrodruzstvi/duha_ve_meste/ docs/build/
           mv docs/build/latex/nasdracak*.pdf docs/build/html/_static/
+          mkdir -p docs/build/html/_static/
           ls -al docs/build/html/_static/
 
       - name: Build html docs
