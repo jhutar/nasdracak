@@ -58,11 +58,6 @@ jobs:
             xindy
           pip install sphinx sphinxcontrib-svg2pdfconverter
 
-      - name: Build html docs
-        run: |
-          sphinx-build -M html docs/source/ docs/build/
-          ls -al docs/build/html/
-
       - name: Build pdf docs
         run: |
           sphinx-build -M latexpdf docs/source/ docs/build/
@@ -74,6 +69,11 @@ jobs:
           sphinx-build -M latexpdf docs/source/dobrodruzstvi/duha_ve_meste/ docs/build/
           mv docs/build/latex/nasdracak*.pdf docs/build/html/_static/
           ls -al docs/build/html/_static/
+
+      - name: Build html docs
+        run: |
+          sphinx-build -M html docs/source/ docs/build/
+          ls -al docs/build/html/
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
