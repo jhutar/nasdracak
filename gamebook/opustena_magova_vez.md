@@ -43,7 +43,7 @@ TODO
 Jdi na [zemlicka_po_smlouvani]
 
 # zemlicka_po_smlouvani
-Jak budete pokračovat? Jste nedůvěřivý a pokusíte se o věži získat další informace od někoho jiného? Jděte na [patrani_vyptavani].
+Jak budete pokračovat? Jste nedůvěřiví a pokusíte se o věži získat další informace od někoho jiného? Jděte na [patrani_vyptavani].
 
 Pokud chcete vyrazit ke věži, jděte na [vez_prichod].
 
@@ -186,7 +186,57 @@ Pokud chcete zbytky truhličky pečlivě prohlédnout, vyberte jednoho z družin
 [vez_prizemi_chodba]
 
 # vez_prizemi_hlavni
-TODO
+Tato místnost asi měla zapůsobit na různé žadatele kteří asi kdysi přicházeli za majitelem věže. Nejvíc pozornosti na sebe strhává půlkruhové vyvýšené pódium se třemi schody uprostřed jižní zdi. Přímo proti hlavnímu vstupu na něm stojí sice zaprášené, ale krásné a zjevně pohodlné křeslo (pokud tě zajímá, jdi na [vez_prizemi_podium]). Podél stěn občas vidíte trosky polic a jiné harampádí.
+
+Z místnosti vedou celkem 4 dveře. Jedny uprostřed severní zdi (jdi na [vez_prizemi_chodba]), druhé v jiho-východním rohu (jdi na [vez_prizemi_zachod]), třetí v jiho-západním rohu (jdi na [vez_prizemi_nahoru]) a poslední v severo-západním rohu. Všechny vypadají použitelně, až na ty poslední. Tyto dveře jsou zatlučené, jen se hemží hřebíky a hala bala přitlučenými deskami (jdi na [vez_prizemi_spizirna_dvere]).
+
+Uprostřed západní zdi je jediné okno v místnosti. Pokud se tam chceš podívat, jdi na [vez_prizemi_okno].
+
+# vez_prizemi_okno
+Okno je a půli zatlučené, ale velkými škvírami je vidět že je otočené přímo na město. Na jeho parapetu leží mírně začouzená olejová lucerna. Zvednete ji a zatřesete s ní. Podle šplouchání usoudíte, že je v ní asi polovina oleje, což podle vašeho odhadu vystačí na dvě hodiny střízlivého svícení.
+
+*Pokud se rozhodnete lucernu si vzít, napište ji do inventáře jedné z postav.*
+
+Nyní se vraťte na [vez_prizemi_hlavni].
+
+# vez_prizemi_podium
+Na vyvýšeném půlkruhovém "pódiu" stojí krásné velké křeslo. Má čalouněný sedák a opěrku a područky složitě vyřezávané rostlinými motivy. Je sice notňe zaprášené, ale vypadá pohodlně a přímo vybízí k sednutí.
+
+Pokud ho budete ignorovat, vraťte se na [vez_prizemi_hlavni]. Pokud ho chcete prozkoumat, jděte na [vez_prizemi_podium_pruzkum]. Pokud si chcete vyzkoušet jaké to je seďet v tomto trůnu, jděte na [vez_prizemi_podium_sednout].
+
+# vez_prizemi_podium_pruzkum
+*Vyber postavu která chce křeslo prozkoumat a hoď za ni na inteligenci.*
+
+Pokud jste dostali 9 a méně, jděte na [vez_prizemi_podium_pruzkum_nic]. Pokud 10 nebo dokonce ještě více, jděte na [vez_prizemi_podium_pruzkum_ano].
+
+# vez_prizemi_podium_pruzkum_nic
+Pečlivě jsi celé křeslo prozkoumal. Dokonce jsi i vlezl pod něj. Klepal jsi na různých místech a hledal skryté pasti a kdo ví co ještě, každopádně nic zajímavého tam není. Vrať se na [vez_prizemi_podium].
+
+# vez_prizemi_podium_pruzkum_ano
+Tvá postava to už už chtěla vzdát, ale potom jí myslí proběhl poslední nápad. Ty područky. Celé jsou pečlivě drobně vyřezávané a tak ty malé kruhové hladké části působí podezřele. A opravdu. Po dalším dlouhém zkoumání příjdeš na to, že při dosednutí křeslo z opěrky na záda vystřeluje dva ostré bodce. Kdysi byly kravděpodobně napuštěny i nějakým jedem. Každopádně vyklopení těch bodců se dá zabránit právě zmáčknutím těch dvou kruhových tlačítek.
+
+Teď už se můžeš na křeslo posadit když víš jak vyřadit past, ale žádné příjemné posezení to není když víš že jen kousek od svých zad máš smrtící bodce. Raději toho necháš a vracíš se na [vez_prizemi_hlavni].
+
+# vez_prizemi_podium_sednout
+*Vyber postavu která se chce do křesla posadit.*
+
+Stoupneš si zády ke křeslu, rukama se opatrně dotkneš područek a pomalu si sedáš. Představuješ si jaké to je být mocným čarodějem a shlížet udsud na zástupy které tě přišli žádat o nejrůznější datry a přinášejí bohaté dary aby si tě naklonili.
+
+Když dosedneš tvé snění ale přeruší nečekané cvaknutí. Z opěradla vyskočí dva bodce přímo proti tvým zádům. Před nepříjemným poraněním či snad smrtí tě můžou zachránit jen kočičí reflexy.
+
+*Hoď si na obratnost.*
+
+Pokud jsi dostal(a) 7 a méně, jdi na [vez_prizemi_podium_sednout_auvajs]. Pokud 8 a více, jdi na [vez_prizemi_podium_sednout_ok].
+
+# vez_prizemi_podium_sednout_auvajs
+V křeslu cvaklo a do zad tvé postavy se zaryly dva ostré bodce. Ze zad ti stéká krev. Toto křeslo se o sebe asi umí postarat a sednou si na něj zjevně smí jen jeho právoplatný majitel.
+
+*Hoď si šesti-stěnnou kostkou a pokud ti padne 1 nebo 2, tvá postava přišla o 1 život, pokud padne 3 nebo 4 pak ztrácí 2 životy a pokud 5 nebo 6, přichází dokonce o 3 životy.*
+
+Vrať se na [vez_prizemi_podium].
+
+# vez_prizemi_podium_sednout_ok
+Tvé skvělé reflexy a každodenní tréning se vyplatily. Hned jak tvá postava zaslechla ono cvaknutí, téměř instinktivně z křesla vyskočila a vyhnula se tím dvěma nebezpečně vyhlížejícím bodcům. Zhluboka si oddechla a o sedání si do křesla ztratila zájem. Nyní jdi na [vez_prizemi_podium].
 
 # vez_prizemi_zachod
 Je to opravdu malinká místnost s oknem a dveřmi. Kupodivu to tu dost páchne i když okénko není ničím zatarasené a skvěle větrá. V jednom rohu místnůstky je něco jako velká dřevěná truhla s okrouhlým otvorem v její horní části. K čemu to asi sloužilo?
@@ -216,8 +266,15 @@ Pokud chcete zkusit prolézt oknem ven, jděte na [vez_prizemi_zachod_vylezeni].
 Pokud chcete projít jedinými dveřmi v místnůstce, jděte na [vez_prizemi_hlavni].
 
 # vez_prizemi_zachod_vylezeni
+Prolézáte úzkým okénkem. Spěcháte, protože v malé místnůstce odkud vede to právě nevoní abychom tak řekli. Venku je ale okno poměrně výš nad zemí a je potřeba šikovně seskočit. Podaří se seskočit beze zranění?
 
+*Za každou postavu si hoď na obratnost. Pokud je výsledná hodnota menší než 3, postava špatně doskočila a ztrácí jeden život.*
 
+Pokračuj na [vez_pruzkum].
+
+# vez_prizemi_spizirna_dvere
+
+# vez_prizemi_nahoru
 
 
 # Epilog
