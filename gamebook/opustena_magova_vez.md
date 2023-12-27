@@ -175,15 +175,13 @@ Obrátili jste naruby celou místnost, ale kromě spousty nepořádku a plesniv�
 
 Pokud se chcete vrátit na chodbu, jděte na [vez_prizemi_chodba].
 
-Pokud chcete zbytky truhličky pečlivě prohlédnout, vyberte jednoho z družiny a hoďte si na inteligenci. Pokud jste dostali méně než 3, jděte na [vez_prizemi_straznice_prohledani_neuspech]. Pokud více, jděte na [vez_prizemi_straznice_prohledani_uspech]
+Pokud chcete zbytky truhličky pečlivě prohlédnout, vyberte jednoho z družiny a *hoďte si na inteligenci*. Pokud jste dostali méně než 3, jděte na [vez_prizemi_straznice_prohledani_neuspech]. Pokud více, jděte na [vez_prizemi_straznice_prohledani_uspech]
 
 # vez_prizemi_straznice_prohledani_uspech
-
-[vez_prizemi_chodba]
+Zadny poklad jste nenasli pokud jste v nej doufali, ale alespon maly stripek informace: vsimli jste si, ze truhlicka byla asi rozbita teprve nedavno. Na zlomech ma drevo jinou barvu nez vsude jinde v mistnosti kdy bylo vystavene rokum samoty a chybi na nem jinak vsude pritomny prach. Doufate ze vam ta informace zapadne do nejakeho vetsiho obrazu tohoto mista pozdeji, protoze prave ted vam to nijak nepomaha. Vracite se na chodbu na [vez_prizemi_chodba].
 
 # vez_prizemi_straznice_prohledani_neuspech
-
-[vez_prizemi_chodba]
+Pri prohlizeni zbytku truhlicky jste si niceho zvlastniho nevsimli. Nyni se vratte na chobu na [vez_prizemi_chodba].
 
 # vez_prizemi_hlavni
 Tato místnost asi měla zapůsobit na různé žadatele kteří asi kdysi přicházeli za majitelem věže. Nejvíc pozornosti na sebe strhává půlkruhové vyvýšené pódium se třemi schody uprostřed jižní zdi. Přímo proti hlavnímu vstupu na něm stojí sice zaprášené, ale krásné a zjevně pohodlné křeslo (pokud tě zajímá, jdi na [vez_prizemi_podium]). Podél stěn občas vidíte trosky polic a jiné harampádí.
@@ -224,9 +222,7 @@ Stoupneš si zády ke křeslu, rukama se opatrně dotkneš područek a pomalu si
 
 Když dosedneš tvé snění ale přeruší nečekané cvaknutí. Z opěradla vyskočí dva bodce přímo proti tvým zádům. Před nepříjemným poraněním či snad smrtí tě můžou zachránit jen kočičí reflexy.
 
-*Hoď si na obratnost.*
-
-Pokud jsi dostal(a) 7 a méně, jdi na [vez_prizemi_podium_sednout_auvajs]. Pokud 8 a více, jdi na [vez_prizemi_podium_sednout_ok].
+*Hoď si na obratnost.* Pokud jsi dostal(a) 7 a méně, jdi na [vez_prizemi_podium_sednout_auvajs]. Pokud 8 a více, jdi na [vez_prizemi_podium_sednout_ok].
 
 # vez_prizemi_podium_sednout_auvajs
 V křeslu cvaklo a do zad tvé postavy se zaryly dva ostré bodce. Ze zad ti stéká krev. Toto křeslo se o sebe asi umí postarat a sednou si na něj zjevně smí jen jeho právoplatný majitel.
@@ -283,7 +279,25 @@ Muzes se vratit na [vez_prizemi_hlavni], nebo se pokusit dvere otevrit na [vez_p
 Pokud je vysledna hodnota mensi nez 3, postava se zranila za jeden zivot. Pokud je vysledek mensi nez 5, nepodarilo se dvere otevrit a musis to zkusit s jinym clenem druziny ci jinou postavou. Pokud je hodnota 5 a vetsi, desky zaprastely a dvere se zacali pomalu otevirat. Nyni muzes jit na [vez_prizemi_spizirna]. Pokud chcete otevírání vzdát, nebo se jen chcete vrátit, jděte na [vez_prizemi_hlavni].
 
 # vez_prizemi_spizirna
-TODO
+Mistnost kam jste prave vstoupily je pomerne temna nebot nema zadne okno a jedine svetlo do ni pronika z oterenych dveri. Z mistosti vedou schody dolu, asi do sklepa. Ty jsou ale halabala zaházené zbytky trámů a desek, jako by se nekdo snazil rychle zabarikadovat pruchod. Mistnost asi slouzila jako nějaký sklad nebo spižírna - stoji v ni dvojice dlouhych, prázdných, polic. Počkat, nepohlo se něco támhle pod jednou z nich?
+
+Pokud se chcete obratit na utek, vybehnout z mistnost a zabouchnout za sebou dvere, jdete na [vez_prizemi_spizirna_boj_uprk]. Pokud chcete skocit na schody a pokusit se protahnout dolu, jdete na [vez_prizemi_spizirna_boj_schody], pokud se na to citite a chcete se nebezpeci postavit celem, jdete na [vez_prizemi_spizirna_boj_priprava].
+
+# vez_prizemi_spizirna_boj_uprk
+Po zahlednuti pohybu ve stinu pod jednou pozici jste na nic necekali a vyhrnuli se z mistnosti. Zabouchli jste dvere a spesne je zaklinili nekolika deskama ktere jste z nich pred malou chvili vypacili. Chvili u dveri naslouchate a zaznamenali jste rychle klapani co znelo jako by se po kamenne podlaze pohybovalo nekolik nohou z velmi tvrdeho dreva, potom drobny naraz do dveri a chvilka jakehosi chresteni. Potom zase ty divne klapave kroky ktere se vzdalily ode dveri a pak uz byl klid.
+
+Pokud mate v druzine nekoho se schopnosti *znalost zivocichu* TODO, jdete na [vez_prizemi_spizirna_boj_uprk_znalost], jinak se vratte na [vez_prizemi_hlavni].
+
+# vez_prizemi_spizirna_boj_uprk_znalost
+Postava ktera ma schopnost *znalost zivocichu* TODO se otoci na vystrasenou druzinku a povida: "Poslouchejte, ja myslim ze jsem to poznal. Mozna se pletu, ale ty kroky a to chresteni, to znelo jako Plostice. Ne ty male co se v lete roji treba na vyhratych zidkach, ale jeji vetsi pribuzna. Je to stíhlý, nizky a asi metr dlouhý obří hmyz. Je zelena, šestinohá a chráněná pevným krunyrem. Ma velká kusadla a pokud se zakousne treba do nohy, dokaze vystriknout jed ktery celou nohu na nejaky cas ochromi. Vetsina lidi se z toho sice vzpamatuje, ale nic prijemneho to neni."
+
+Ted kdyz asi vite cemu jste se za dvermi vyhnuli, muzete se vratit do hlavni mistnosti v prizemi na [vez_prizemi_hlavni].
+
+# vez_prizemi_spizirna_boj_schody
+TODO skocili jste na schody ale neda se tam protahnout. Ztratili jste moznost pripravit se na boj, plostice na vas utoci jako prvni.
+
+# vez_prizemi_spizirna_boj_priprava
+TODO Pripravili jste se na boj a otocili sve pohledy k mistu kde jste videli pohyb. Z pod police vybehli dve zelene prisey. TODO
 
 # vez_prizemi_nahoru
 Dvere jsou zavrene, ale vypadaji plne funkcne. Kdyz vezmete za kliku a zatahnete, otevrou se jen s tichym zavrzanim. Za dvermi zataci uzka, asi metr siroka, chodba se schody vedoucimi serem kamsi nahoru.
@@ -296,6 +310,13 @@ Po dlouhych kamenych schodech jste serem vystoupali na podestu prvniho patra. Ve
 Muzete se vratit po schodech do prizemi [na vez_prizemi_hlavni], prozkoumat vyklenek na [vez_prvni_vstup_vyklenek] nebo otevrit dvere a pokracovat v pruzkumu na [vez_prvni_knihovna].
 
 # vez_prvni_vstup_vyklenek
+Družinka se rozhodla tuto malou chodbičku prozkoumat. Kdo ví co by se tady mohlo nacházet za poklady, že? Pokud na to chcete použít jednu pochodeň či jeden díl lampového oleje, jděte na [vez_prvni_vstup_vyklenek_svetlo], pokud plytvat nechcete, nebo zadne svetlo nemate, zkusite to po tme. Pokud mate v druzine trpaslika, jdete na [vez_prvni_vstup_vyklenek_tma_trpaslik] jdete na [vez_prvni_vstup_vyklenek_tma].
+
+# vez_prvni_vstup_vyklenek_svetlo
+Poctive jste hledali v obou rozich, nahore i dole, vyzkouseli jste zatlacit na vsechny podezrele kameny (i na nekolik nepodezrelych) jestli neskryvaji nejaky tajny mechanismus. Ale nic jste nenasli. Skrtnete si jednu pochoden ci jeden dil lampoveho oleje (protoze jste je vysvitili na pri hledani) a vratte se na [vez_prvni_vstup].
+
+# vez_prvni_vstup_vyklenek_tma
+Rozhodli jste se hledat po tme. Pokud mate v druzine trpaslika, pomohla vam jeho schopnost videni ve tme a pomerne rychle vam 
 
 # vez_prvni_knihovna
 

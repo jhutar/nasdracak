@@ -1,9 +1,6 @@
 Jako hmyz
----------
+=========
 
-.. _Ploštice zelená:
+.. toctree::
 
-Ploštice zelená
-~~~~~~~~~~~~~~~
-
-Abc
+   hmyz_plostice_zelena.rst
