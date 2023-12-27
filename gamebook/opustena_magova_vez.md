@@ -278,7 +278,12 @@ Dveře do této místnosti jsou zatlučené, jen se hemží hřebíky a hala bal
 Muzes se vratit na [vez_prizemi_hlavni], nebo se pokusit dvere otevrit na [vez_prizemi_spizirna_dvere_otevrit] nebo pokud je druzinka uz v minulosti otevrela, muzes vejit do mistnosti za jimi na [vez_prizemi_spizirna].
 
 # vez_prizemi_spizirna_dvere_otevrit
-*Vyber postavu (klidne muzes postupne zkouset vice postav z tve druzinky)*
+*Vyber postavu (klidne muzes postupne zkouset vice postav z tve druzinky) a hod za ni na obratnost.*
+
+Pokud je vysledna hodnota mensi nez 3, postava se zranila za jeden zivot. Pokud je vysledek mensi nez 5, nepodarilo se dvere otevrit a musis to zkusit s jinym clenem druziny ci jinou postavou. Pokud je hodnota 5 a vetsi, desky zaprastely a dvere se zacali pomalu otevirat. Nyni muzes jit na [vez_prizemi_spizirna]. Pokud chcete otevírání vzdát, nebo se jen chcete vrátit, jděte na [vez_prizemi_hlavni].
+
+# vez_prizemi_spizirna
+TODO
 
 # vez_prizemi_nahoru
 Dvere jsou zavrene, ale vypadaji plne funkcne. Kdyz vezmete za kliku a zatahnete, otevrou se jen s tichym zavrzanim. Za dvermi zataci uzka, asi metr siroka, chodba se schody vedoucimi serem kamsi nahoru.
