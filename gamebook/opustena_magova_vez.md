@@ -273,9 +273,26 @@ Prolézáte úzkým okénkem. Spěcháte, protože v malé místnůstce odkud ve
 Pokračuj na [vez_pruzkum].
 
 # vez_prizemi_spizirna_dvere
+Dveře do této místnosti jsou zatlučené, jen se hemží hřebíky a hala bala přitlučenými deskami. Nekdo asi hodne spechal aby je zavrel a aby zavrene i zustaly.
+
+Muzes se vratit na [vez_prizemi_hlavni], nebo se pokusit dvere otevrit na [vez_prizemi_spizirna_dvere_otevrit] nebo pokud je druzinka uz v minulosti otevrela, muzes vejit do mistnosti za jimi na [vez_prizemi_spizirna].
+
+# vez_prizemi_spizirna_dvere_otevrit
+*Vyber postavu (klidne muzes postupne zkouset vice postav z tve druzinky)*
 
 # vez_prizemi_nahoru
+Dvere jsou zavrene, ale vypadaji plne funkcne. Kdyz vezmete za kliku a zatahnete, otevrou se jen s tichym zavrzanim. Za dvermi zataci uzka, asi metr siroka, chodba se schody vedoucimi serem kamsi nahoru.
 
+Muzes bud pokracovat po schodech nahoru [vez_prvni_vstup], nebo se vratit na [vez_prizemi_hlavni].
+
+# vez_prvni_vstup
+Po dlouhych kamenych schodech jste serem vystoupali na podestu prvniho patra. Ve smeru schodu jeste dva metry pokracuje chodbicka ci jakysi vyklenek. Protoze nahore je uz vice mene tma, spise ho tusite nez ze byste tam videli. Po leve ruce mate dvere, pod kterymi prosvita trocha svetla.
+
+Muzete se vratit po schodech do prizemi [na vez_prizemi_hlavni], prozkoumat vyklenek na [vez_prvni_vstup_vyklenek] nebo otevrit dvere a pokracovat v pruzkumu na [vez_prvni_knihovna].
+
+# vez_prvni_vstup_vyklenek
+
+# vez_prvni_knihovna
 
 # Epilog
 TODO
