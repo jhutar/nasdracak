@@ -304,6 +304,8 @@ Dvere jsou zavrene, ale vypadaji plne funkcne. Kdyz vezmete za kliku a zatahnete
 
 Muzes bud pokracovat po schodech nahoru [vez_prvni_vstup], nebo se vratit na [vez_prizemi_hlavni].
 
+
+
 # vez_prvni_vstup
 Po dlouhych kamenych schodech jste serem vystoupali na podestu prvniho patra. Ve smeru schodu jeste dva metry pokracuje chodbicka ci jakysi vyklenek. Protoze nahore je uz vice mene tma, spise ho tusite nez ze byste tam videli. Po leve ruce mate dvere, pod kterymi prosvita trocha svetla.
 
@@ -316,9 +318,41 @@ Družinka se rozhodla tuto malou chodbičku prozkoumat. Kdo ví co by se tady mo
 Poctive jste hledali v obou rozich, nahore i dole, vyzkouseli jste zatlacit na vsechny podezrele kameny (i na nekolik nepodezrelych) jestli neskryvaji nejaky tajny mechanismus. Ale nic jste nenasli. Skrtnete si jednu pochoden ci jeden dil lampoveho oleje (protoze jste je vysvitili na pri hledani) a vratte se na [vez_prvni_vstup].
 
 # vez_prvni_vstup_vyklenek_tma
-Rozhodli jste se hledat po tme. Pokud mate v druzine trpaslika, pomohla vam jeho schopnost videni ve tme a pomerne rychle vam 
+Rozhodli jste se hledat po tme. Pokud mate v druzine trpaslika, jdete na [vez_prvni_vstup_vyklenek_tma_trpaslik], jinak jdete na [vez_prvni_vstup_vyklenek_tma_sami].
+
+# vez_prvni_vstup_vyklenek_tma_trpaslik
+Trpaslik je jiste velka pomoc v kazde druzince. Tentokrat vam pomohla jeho schopnost videni ve tme a pomerne rychle vam pomohl urcit, ze tady proste nic k videni ani neni. Sklamane se vracite na [vez_prvni_vstup].
+
+# vez_prvni_vstup_vyklenek_tma_sami
+Velmi pomalu jste po tme prohmatávali vyklenek a snazili se najit nejakou tajnou chodbu, ukryty pokld ci cokoli jineho uzitecneho. Ztravili jste tim spoustu casu a nakonec vas to prestalo bavit. Za tu dlouhou dobu vas ale dohnal uhlavni nepritel kazdeho dobrodruha: hlad. Pokud mate zasobu jidla, musite snist polovinu denni davky. Pokud nemate co jist, neustale kruceni v zaludku vas od ted bude rusit a tak si snizte inteligeci o 1. Jakmile se poradne najite, muzete si inteligenci obnovit na puvodni uroven,
+
+S prazdnyma rukama se vratte na [vez_prvni_vstup].
 
 # vez_prvni_knihovna
+Vstupujete do podlouhle mistnosti ktera se u severni steny zataci a nekam pokracuje. Ma dve malyme okna ve vychodni stene, dvere v zapadni a jizni stene. U sten stoji zaprasene a misty poskozene regaly, vsechny do jednoho ale prazdne. Steny jsou tu zda se ponekud lepe opracovane, asi to byly mistnosti kde mag travil nejvice sveho casu. Ti z druzinky kteri jiz nekd navstivily nejakou knihovnu si mozna vsimnou jiste podobnosti.
+
+Muzete prijit dvermi v jizni stene, potom jdete na [vez_prvni_vstup]. Pokud se rozhodnete pro dvere v zapadni stene, jdete na [vez_prvni_nahoru]. Muzete take pokracovat mistnosti jak zataci u sve severni casti, pak jdete na [vez_prvni_pracovna].
+
+# vez_prvni_nahoru
+Vstupujete do uzke tocite chodby se schody vedoucimi nahoru, asi do dalsiho patra veze. Schody jsou kamenne a je na nich nekolik mokrych mist, ale vyjit po nich neni zadny problem. Pokracujte na [vez_druhe_hlavni].
+
+# vez_prvni_pracovna
+Dalsi podlouhla mistnost ktera se dale zataci na jiho-vychod a jiho-zapad. V severni stene je velke, snad 4 metry siroke okno ktere ale po tech letech postrada zaskleni. Drive to ale musel byt zazrak moderniho stavitelstni a sklarstvi. Pod velkým oknem stoji rozpadlý stůl zničený deštěm a sněhem z již nechráněného okna.
+
+V severo-zapadnim rohu stoji velka okovana truhlice. Sice ma urazeny zamek a da se tedy predpokladat ze vsechno cenne z ni je davno pryc, pokud se do no chcete podivat, jdete na [vez_prvni_pracovna_truhlice].
+
+Muzete odsud pokracovat na jiho-vychod do [vez_prvni_knihovna], nebo na jiho-zapad na [vez_prvni_loznice].
+
+# vez_prvni_pracovna_truhlice
+
+
+# vez_prvni_loznice
+
+
+
+# vez_druhe_hlavni
+
+
 
 # Epilog
 TODO
