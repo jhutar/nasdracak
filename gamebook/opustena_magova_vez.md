@@ -307,43 +307,47 @@ Muzes bud pokracovat po schodech nahoru [vez_prvni_vstup], nebo se vratit na [ve
 
 
 # vez_prvni_vstup
-Po dlouhych kamenych schodech jste serem vystoupali na podestu prvniho patra. Ve smeru schodu jeste dva metry pokracuje chodbicka ci jakysi vyklenek. Protoze nahore je uz vice mene tma, spise ho tusite nez ze byste tam videli. Po leve ruce mate dvere, pod kterymi prosvita trocha svetla.
+Po dlouhých kamenných schodech jste vystoupali na podestu prvního patra. Ve směru schodů ještě dva metry pokračuje chodbička nebo nějaký výklenek. Protože nahoru je už víceméně tma, spíše ho tušíte, než že byste tam viděli. Po levé ruce máte dveře, pod kterými prosvítá trocha světla.
 
-Muzete se vratit po schodech do prizemi [na vez_prizemi_hlavni], prozkoumat vyklenek na [vez_prvni_vstup_vyklenek] nebo otevrit dvere a pokracovat v pruzkumu na [vez_prvni_knihovna].
+Můžete se vrátit po schodech do přízemí na [vez_prizemi_hlavni], prozkoumat výklenek na [vez_prvni_vstup_vyklenek] nebo otevřít dveře a pokračovat v průzkumu na [vez_prvni_knihovna].
 
 # vez_prvni_vstup_vyklenek
-Družinka se rozhodla tuto malou chodbičku prozkoumat. Kdo ví co by se tady mohlo nacházet za poklady, že? Pokud na to chcete použít jednu pochodeň či jeden díl lampového oleje, jděte na [vez_prvni_vstup_vyklenek_svetlo], pokud plytvat nechcete, nebo zadne svetlo nemate, zkusite to po tme. Pokud mate v druzine trpaslika, jdete na [vez_prvni_vstup_vyklenek_tma_trpaslik] jdete na [vez_prvni_vstup_vyklenek_tma].
+Družina se rozhodla tuto malou chodbičku prozkoumat. Kdo ví, co by se tady mohlo nacházet za poklady, že? Pokud chcete použít jednu pochodeň či jeden díl lampového oleje, jděte na [vez_prvni_vstup_vyklenek_svetlo]. Pokud nechcete plýtvat, nebo žádné světlo nemáte, zkuste to po tmě a jděte na [vez_prvni_vstup_vyklenek_tma].
 
 # vez_prvni_vstup_vyklenek_svetlo
-Poctive jste hledali v obou rozich, nahore i dole, vyzkouseli jste zatlacit na vsechny podezrele kameny (i na nekolik nepodezrelych) jestli neskryvaji nejaky tajny mechanismus. Ale nic jste nenasli. Skrtnete si jednu pochoden ci jeden dil lampoveho oleje (protoze jste je vysvitili na pri hledani) a vratte se na [vez_prvni_vstup].
+Poctivě jste hledali v obou rozích, nahoře i dole, vyzkoušeli jste zatlačit na všechny podezřelé kameny (i na několik nepodezřelých) jestli neskryvají nějaký tajný mechanismus. Nic jste ale nenašli. Škrtněte si jednu pochodeň či jeden díl lampového oleje (protože jste je použili při hledání) a vraťte se na [vez_prvni_vstup].
 
 # vez_prvni_vstup_vyklenek_tma
-Rozhodli jste se hledat po tme. Pokud mate v druzine trpaslika, jdete na [vez_prvni_vstup_vyklenek_tma_trpaslik], jinak jdete na [vez_prvni_vstup_vyklenek_tma_sami].
+Rozhodli jste se hledat po tmě. Pokud máte v družině trpaslíka, jděte na [vez_prvni_vstup_vyklenek_tma_trpaslik]. Pokud s vámi trpaslík není, jděte na [vez_prvni_vstup_vyklenek_tma_sami].
 
 # vez_prvni_vstup_vyklenek_tma_trpaslik
-Trpaslik je jiste velka pomoc v kazde druzince. Tentokrat vam pomohla jeho schopnost videni ve tme a pomerne rychle vam pomohl urcit, ze tady proste nic k videni ani neni. Sklamane se vracite na [vez_prvni_vstup].
+Trpaslík je jistě velká pomoc v každé družině. Tentokrát vám pomohla jeho schopnost vidění ve tmě a poměrně rychle vám pomohl určit, že tady prostě nic k vidění ani není. Sklamaně se vracíte na [vez_prvni_vstup].
 
 # vez_prvni_vstup_vyklenek_tma_sami
-Velmi pomalu jste po tme prohmatávali vyklenek a snazili se najit nejakou tajnou chodbu, ukryty pokld ci cokoli jineho uzitecneho. Ztravili jste tim spoustu casu a nakonec vas to prestalo bavit. Za tu dlouhou dobu vas ale dohnal uhlavni nepritel kazdeho dobrodruha: hlad. Pokud mate zasobu jidla, musite snist polovinu denni davky. Pokud nemate co jist, neustale kruceni v zaludku vas od ted bude rusit a tak si snizte inteligeci o 1. Jakmile se poradne najite, muzete si inteligenci obnovit na puvodni uroven,
+Velmi pomalu jste po tmě prohmatávali výklenek a snažili se najít nějakou tajnou chodbu, ukrytý poklad či cokoli jiného užitečného. Ztratili jste tím spoustu času a nakonec vás to přestalo bavit. Za tu dlouhou dobu vás ale dohnal hlavní nepřítel každého dobrodruha: hlad.
 
-S prazdnyma rukama se vratte na [vez_prvni_vstup].
+Pokud máte zásobu jídla, každá postava musí sníst polovinu denní dávky (škrtněte si ji). Pokud nemáte co jíst, neustálé kručení v žaludku vás odteď bude rušit a tak si snížte inteligenci o 1. Jakmile se pořádně najíte, můžete si inteligenci obnovit na původní úroveň.
+
+S prázdnými rukama se vracíte na [vez_prvni_vstup].
 
 # vez_prvni_knihovna
-Vstupujete do podlouhle mistnosti ktera se u severni steny zataci a nekam pokracuje. Ma dve malyme okna ve vychodni stene, dvere v zapadni a jizni stene. U sten stoji zaprasene a misty poskozene regaly, vsechny do jednoho ale prazdne. Steny jsou tu zda se ponekud lepe opracovane, asi to byly mistnosti kde mag travil nejvice sveho casu. Ti z druzinky kteri jiz nekd navstivily nejakou knihovnu si mozna vsimnou jiste podobnosti.
+Vstupujete do podlouhlé místnosti, která se u severní stěny zatáčí a někam pokračuje. Má dvě malá okna ve východní stěně, dveře v západní a další v jižní stěně. U stěn stojí zaprašené a místy poškozené regály, všechny do jednoho ale prázdné. Stěny jsou tu zdá se poněkud lépe opracované. Asi to byly místnosti, kde mág trávil nejvíce svého času. Ti z družiny, kteří již někdy navštívili nějakou knihovnu, si možná všimnou jisté podobnosti.
 
-Muzete prijit dvermi v jizni stene, potom jdete na [vez_prvni_vstup]. Pokud se rozhodnete pro dvere v zapadni stene, jdete na [vez_prvni_nahoru]. Muzete take pokracovat mistnosti jak zataci u sve severni casti, pak jdete na [vez_prvni_pracovna].
+Chcete-li projít dveřmi v jižní stěně, potom jděte na [vez_prvni_vstup]. Pokud se rozhodnete pro dveře v západní stěně, jdete na [vez_prvni_nahoru]. Můžete také pokračovat místností jak zatáčí u své severní části, pak jděte na [vez_prvni_pracovna].
 
 # vez_prvni_nahoru
-Vstupujete do uzke tocite chodby se schody vedoucimi nahoru, asi do dalsiho patra veze. Schody jsou kamenne a je na nich nekolik mokrych mist, ale vyjit po nich neni zadny problem. Pokracujte na [vez_druhe_hlavni].
+Vstupujete do úzké točité chodby se schody vedoucími nahoru, asi do dalšího patra věže. Schody jsou kamenné a je na nich několik mokrých míst, ale vyjít po nich není žádný problém. Pokračujte na [vez_druhe_hlavni].
 
 # vez_prvni_pracovna
-Dalsi podlouhla mistnost ktera se dale zataci na jiho-vychod a jiho-zapad. V severni stene je velke, snad 4 metry siroke okno ktere ale po tech letech postrada zaskleni. Drive to ale musel byt zazrak moderniho stavitelstni a sklarstvi. Pod velkým oknem stoji rozpadlý stůl zničený deštěm a sněhem z již nechráněného okna.
+Další podlouhlá místnost, která se dále zatáčí na jihovýchod a jihozápad. V severní stěně je velké, snad 4 metry široké okno, které ale po těch letech postrádá zasklení. Dříve ale muselo být tak velké okno zázrakem moderního stavitelství a sklářství. Pod velkým oknem stojí rozpadlý stůl zničený deštěm a sněhem z již nechráněného okna.
 
-V severo-zapadnim rohu stoji velka okovana truhlice. Sice ma urazeny zamek a da se tedy predpokladat ze vsechno cenne z ni je davno pryc, pokud se do no chcete podivat, jdete na [vez_prvni_pracovna_truhlice].
+V severozápadním rohu stojí velká okovaná truhlice. Má poškozený zámek a dá se tedy předpokládat, že vše cenné z ní je dávno pryč. Pokud se do ní přesto chcete podívat, jděte na [vez_prvni_pracovna_truhlice].
 
-Muzete odsud pokracovat na jiho-vychod do [vez_prvni_knihovna], nebo na jiho-zapad na [vez_prvni_loznice].
+Můžete odsud pokračovat na jihovýchod do [vez_prvni_knihovna], nebo na jihozápad na [vez_prvni_loznice].
 
 # vez_prvni_pracovna_truhlice
+
+
 
 
 # vez_prvni_loznice
