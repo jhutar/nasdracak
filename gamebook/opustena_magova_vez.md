@@ -346,13 +346,54 @@ V severozápadním rohu stojí velká okovaná truhlice. Má poškozený zámek 
 Můžete odsud pokračovat na jihovýchod do [vez_prvni_knihovna], nebo na jihozápad na [vez_prvni_loznice].
 
 # vez_prvni_pracovna_truhlice
+Za vybranou postavu *hoď na inteligenci*.
+
+Pokud je vysledek 3 a nize, jdi na [vez_prvni_pracovna_truhlice_nic], pokud je vysledne cislo vyssi, jdi na [vez_prvni_pracovna_truhlice_nalez].
+
+# vez_prvni_pracovna_truhlice_nic
+Postava se prehrabuje v pachnoucim obsahu truhli ponekud liknave, jaksi se nedokazala presvedcit jid poradne do hloubky. Nakonec popadla kus desky a pouzila ho jako lopatu. Vybirala s nim obsah truhly a rozsypavala kolem ni s tim ze cokoli ceneho by se tak obevilo. V dalsi z varek vytahovanych ven se zalesklo neco skleneneho. Zahledl to dalso clen druzinky postavajici opodal a vykrikl "pozor, je tam neco skleneneho", ale jeste nez to dopovedel, naklad na provizorni lopate spadl na zem. Cela druzinka sledovala, jak na tvrdou kamenou zem krome caru latky pada mala buclata lahvicka s temne rudou kapalinou. Dopadla na zem, roztristila se a cervena kapalina se dilem roztekla po spinave zaprasene zemi a dilem vsakla do smradlavuch kusu latek. No tak s timhle uz nic nevymislite a ve zbytku obsahu truhlicky nic dalsiho nenajdete. Muzete pokracovat v pruzkumu veze zpet na [vez_prvni_pracovna].
 
 
+# vez_prvni_pracovna_truhlice_nalez
+S premahanim se postava prehrabuje v pachnoucim obsahu stare truhly a ve chvili kdy to chce vzdat, konecne neco nahmatne. Ze zmeti hader a chlupu opatrne vytuje malou baculatou sklenenou lahvicku v niz sploucha temne ruda kapalina.
 
+Pokud ji nepoznavate, do deniku si ji zapiste treba jako "lektvar s temne rudou kapalinou". Pokud mate v druzince se schopnosti "vareni lektvaru" TODO, jdete na [vez_prvni_pracovna_truhlice_nalez_poznani], jinak se vratte na [vez_prvni_pracovna].
+
+# vez_prvni_pracovna_truhlice_nalez_poznani
+Postava alchymista se na lahvicku podiva a s usmevem se obrati na noveho majitele. "To je jiste lektvar Rudeho krize, skvely lek na vsemozna zraneni" rekne. "Barvou a skupenstvim je to jiste ono, ale uplne jisti si byt samozrejme nemuzeme. Da se to overit lakmusovym papirkem, ale to chce cas." Nyni se vratte na [vez_prvni_pracovna].
 
 # vez_prvni_loznice
+Dostavate se do casti zatocene mistnosti ktera asi drive slouzila jako loznice. Vevodi ji krb na jeji jizni stene a velká a dříve jistě pohodlná postel s nebesy. Naproti ní na vychodni stěně vysi zbytky velkého a dříve asi i barevného gobelínu ktery asi kdysi prostor pekne zutulnoval.
 
+[vez_prvni_loznice_krb]
+[vez_prvni_loznice_gobelin]
+[vez_prvni_loznice_postel]
 
+# vez_prvni_loznice_krb
+[vez_prvni_loznice]
+
+# vez_prvni_loznice_gobelin
+[vez_prvni_loznice_gobelin_neuspech]
+[vez_prvni_loznice_gobelin_uspech]
+
+# vez_prvni_loznice_gobelin_neuspech]
+[vez_prvni_loznice]
+
+# vez_prvni_loznice_gobelin_uspech
+Nalezeni tajnych dveri.
+
+# vez_prvni_loznice_postel
+[vez_prvni_loznice_postel_poletuchy]
+
+# vez_prvni_loznice_postel_poletuchy
+[vez_prvni_loznice_postel_poletuchy_utok]
+[vez_prvni_loznice_postel_poletuchy_povidani]
+
+# vez_prvni_loznice_postel_poletuchy_utok
+[vez_prvni_loznice]
+
+# vez_prvni_loznice_postel_poletuchy_povidani
+[vez_prvni_loznice]
 
 # vez_druhe_hlavni
 
