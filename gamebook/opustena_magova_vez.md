@@ -24,6 +24,8 @@ TODO
 ## Ceníky
 TODO
 
+
+
 # 1
 Na trhu k vám přistoupí cizí muž. Na hlavě má bílý baret, moukou zaprášenou kostkovanou košili a přes větší břicho bílou zástěru.
 
@@ -140,7 +142,7 @@ Pokud se raději vrátíš k hlavním dveřím které jsi viděl při příchodu
 [vez_dvere_vyrazit_zraneni]
 [vez_prizemi_chodba]
 
-# vez_otevrit
+# vez_dvere_otevrit
 
 [vez_prizemi_chodba]
 
@@ -395,7 +397,42 @@ Nalezeni tajnych dveri.
 # vez_prvni_loznice_postel_poletuchy_povidani
 [vez_prvni_loznice]
 
+
+
 # vez_druhe_hlavni
+Ocitáte se v jediné místnosti třetího podlaží. Je to vlhká místnost se čtyřmi okny, ze které v jihovýchodním rohu vedou nahoru jedny příkré schody a téměř uprostřed další schody sesupují dolů. V dalším rohu vidíte trosky nějakého přístroje. Jsou tam zbytky dřevěných nožek, pomačkané plechová trubka a skleněné střepy.
+
+Pokud chcete prozkoumat hromádku zbytků, jděte na [vez_druhe_hlavni_dalekohled]. Pokud chcete sejít po schodech dolů, jděte na [vez_prvni_knihovna]. Pokud chcete vyjít po schodech nahoru, jděte na [vez_treti_hlavni].
+
+# vez_druhe_hlavni_dalekohled
+Chvilku se prohrabujete zbytky jakéhosi dávného přístroje. Vzdělanější členové vaší družiny v nich na konec možná poznají dalekohled. V hromádce nevidíte nic co by se vám mohlo hodit a tak se vracíte na [vez_druhe_hlavni].
+
+
+
+# vez_treti_hlavni
+Vyšli jste na rovnou střechu věže. Je z ní krásný výhled do okolí a na město. Ve spárech mezi kameny roste mech a ve větru se třepetají listy několika semenáčků břízy které se usídlily ve spárách. Zábradlí je ztrouchnivělé a na několika místech zničené, takže pozor. Pád dolů by byl dlouhý a asi smrtelný.
+
+Rozhlížíte se po okolí. V dálce na východě vidíte mohutné horské štíty známé především pro trpasličí doly chrlící železnou rudu. Na severu se rozprostírají nízké kopce porostlé hlubokými lesy, město stojí na západě a jih před vás klade členitou zemědělskou krajinu s poli, pastvinami, remízky a rozesetými statky.
+
+Stromy kolem věže z této výšky výhledu nebrání a tak vidíte i bezprostřední okolí věže a cestičku která k ní vede. V tom se zarazíte. Po cestičce k věži se pohybují dvě postavy. Na to že je to vyhlášená strašitelná věž je tu nějak moc živo zapřemíšlíte.
+
+Pokud si myslíte že jsou to jen dva náhodní procházející a chcete na ně zamávat a zavolat by se vás nepolekali, jděte na [vez_konfrontace_mavani].
+
+Pokud ty dva příchozí podezíráte z toho že by mohli mít něco společného s vaším hlavním úkolem od mlynáře Žemličky, možná se chcete rychle přikrčit aby si vás náhodou nevšimli a potom opatrně seběhnout na schody z přízemí a pozorovat, jděte na [vez_konfrontace_pozorovani].
+
+Nebo možná chcete zvojit přímější metodu a prostě si na ně v přízení počíhat a lapnout je? Pak jděte na [vez_konfrontace_cihani].
+
+Můžete se také pokusit slézt dolů, ale bude velký risk pokud nemáte dostatečně dlouhé lano. Pokud máte alespoň 10ti metrové lano a chcete slézt dolů a pokusit se příchozím odříznout útěkovou cestu a chytit je, jděte na [vez_konfrontace_slezani].
+
+
+
+# vez_konfrontace_mavani
+
+# vez_konfrontace_pozorovani
+
+# vez_konfrontace_cihani
+
+# vez_konfrontace_slezani
 
 
 
