@@ -382,7 +382,56 @@ Dostavate se do casti zatocene mistnosti ktera asi drive slouzila jako loznice. 
 [vez_prvni_loznice]
 
 # vez_prvni_loznice_gobelin_uspech
-Nalezeni tajnych dveri.
+Nalezeni tajnych dveri. [vez_prvni_tajna_pruzkum] [vez_prvni_tajna_jdeme]
+
+# vez_prvni_tajna_pruzkum
+[vez_prvni_tajna_pruzkum_neuspech]
+[vez_prvni_tajna_pruzkum_uspech]
+
+# vez_prvni_tajna_pruzkum_neuspech
+[vez_prvni_tajna_jdeme]
+
+# vez_prvni_tajna_pruzkum_uspech
+[vez_prvni_tajna_jdeme]
+
+# vez_prvni_tajna_jdeme
+[vez_prvni_tajna_jdeme_bile]
+[vez_prvni_tajna_jdeme_cerne]
+
+# vez_prvni_tajna_jdeme_bile
+[vez_prvni_tajna_jdeme_bile_preslapnuti]
+[vez_prvni_tajna_jdeme_bile_nepreslapnuti]
+
+# vez_prvni_tajna_jdeme_bile_preslapnuti
+[vez_prvni_tajna_jdeme_cerne]
+
+# vez_prvni_tajna_jdeme_bile_nepreslapnuti
+[vez_prvni_tajna_truhla]
+
+# vez_prvni_tajna_jdeme_cerne
+[vez_prvni_tajna_jdeme_cerne_neuhnuti]
+[vez_prvni_tajna_jdeme_cerne_uhnuti]
+
+# vez_prvni_tajna_jdeme_cerne_neuhnuti
+[vez_prvni_tajna_truhla]
+
+# vez_prvni_tajna_jdeme_cerne_uhnuti
+[vez_prvni_tajna_truhla]
+
+# vez_prvni_tajna_truhla
+[vez_prvni_tajna_truhla_pruzkum]
+[vez_prvni_tajna_truhla_magenergie]
+[vez_prvni_tajna_truhla_otevreni]
+[vez_prvni_loznice]
+
+# vez_prvni_tajna_truhla_pruzkum
+[vez_prvni_tajna_truhla]
+
+# vez_prvni_tajna_truhla_magenergie
+[vez_prvni_tajna_truhla]
+
+# vez_prvni_tajna_truhla_otevreni
+[vez_prvni_loznice]
 
 # vez_prvni_loznice_postel
 [vez_prvni_loznice_postel_poletuchy]
@@ -427,12 +476,91 @@ Můžete se také pokusit slézt dolů, ale bude velký risk pokud nemáte dosta
 
 
 # vez_konfrontace_mavani
+[zemlicka_hlaseni_30p]
+[vez_treti_hlavni]
 
 # vez_konfrontace_pozorovani
+[vez_konfrontace_pozorovani_schody]
+
+# vez_konfrontace_pozorovani_schody
+[vez_konfrontace_pozorovani_schody_poslouchani]
+[vez_konfrontace_pozorovani_schody_chyceni]
+
+# vez_konfrontace_pozorovani_schody_poslouchani
+[zemlicka_hlaseni_50p]
+[vez_prizemi_hlavni]
+
+# vez_konfrontace_pozorovani_schody_chyceni
+[vez_konfrontace_vyslech]
 
 # vez_konfrontace_cihani
+[vez_konfrontace_cihani_dole]
+
+# vez_konfrontace_cihani_dole
+[vez_konfrontace_cihani_dole_uspech]
+[vez_konfrontace_cihani_dole_neuspech]
+
+# vez_konfrontace_cihani_dole_uspech
+[vez_konfrontace_vyslech]
+
+# vez_konfrontace_cihani_dole_neuspech
+[zemlicka_hlaseni_30p]
+[vez_prizemi_hlavni]
 
 # vez_konfrontace_slezani
+[vez_konfrontace_slezani_uspech]
+[vez_konfrontace_slezani_neuspech]
+
+# vez_konfrontace_slezani_uspech
+[vez_konfrontace_slezani_poslouchani]
+[vez_konfrontace_slezani_chyceni]
+
+# vez_konfrontace_slezani_poslouchani
+[zemlicka_hlaseni_50p]
+[vez_prichod]
+
+# vez_konfrontace_slezani_chyceni
+[vez_konfrontace_slezani_chyceni_uspech]
+[vez_konfrontace_slezani_chyceni_neuspech]
+
+# vez_konfrontace_slezani_chyceni_uspech
+[vez_konfrontace_vyslech]
+
+# vez_konfrontace_slezani_chyceni_neuspech
+[zemlicka_hlaseni_30p]
+[vez_prichod]
+
+# vez_konfrontace_slezani_neuspech
+[zemlicka_hlaseni_30p]
+[vez_prichod]
+
+# vez_konfrontace_vyslech
+[vez_konfrontace_vyslech_uspech]
+[vez_konfrontace_vyslech_neuspech]
+[vez_konfrontace_vyslech_uspech_nasilim]
+
+# vez_konfrontace_vyslech_uspech
+[zemlicka_hlaseni_100p]
+[vez_prizemi_hlavni]
+
+# vez_konfrontace_vyslech_neuspech
+[zemlicka_hlaseni_50p]
+[vez_prizemi_hlavni]
+[vez_konfrontace_vyslech_uspech_nasilim]
+
+# vez_konfrontace_vyslech_uspech_nasilim
+[zemlicka_hlaseni_100p_nasili]
+[vez_prizemi_hlavni]
+
+
+
+# zemlicka_hlaseni_30p
+
+# zemlicka_hlaseni_50p
+
+# zemlicka_hlaseni_100p
+
+# zemlicka_hlaseni_100p_nasili
 
 
 
