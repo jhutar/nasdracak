@@ -285,6 +285,34 @@ Mistnost kam jste prave vstoupily je pomerne temna nebot nema zadne okno a jedin
 
 Pokud se chcete obratit na utek, vybehnout z mistnost a zabouchnout za sebou dvere, jdete na [vez_prizemi_spizirna_boj_uprk]. Pokud chcete skocit na schody a pokusit se protahnout dolu, jdete na [vez_prizemi_spizirna_boj_schody], pokud se na to citite a chcete se nebezpeci postavit celem, jdete na [vez_prizemi_spizirna_boj_priprava].
 
+Pokud jste se uz s tim nebezpecim vyporadali v nejakem predchozim pruchodu touto mistnosti, muzete se tu v klidu porozhlednout. Na policich, pod nimi ci za nimi opravdu nic, ale pokud byste odtahali neporadek ze schodiste vedouciho asi do sklepa, dalo by se tudy projit. Pokud se tim chcete zaobirat, jdete na [vez_prizemi_spizirna_schody]. Pokud se tim nechcete unavovat, muzete se vratit do hlavni mistnosti v prizemi veze na [vez_prizemi_hlavni].
+
+Pokud jste uz schody drive vycistili, muzete po nich sejit do sklepa na [vez_sklep_vstup].
+
+# vez_prizemi_spizirna_schody
+Protoze v cele mistnosti je pomerne solidni pritmi, rozmyslete si jestli pouzijete nejaky zdroj svetla.
+
+Zabralo vam to dobrou pulhodinu. Schodiste bylo zavaleno zmeti tramku, starych desek a ruzneho neporadku. Na nekterych rostly jakesi slizke houby a nektere byly potrisnene holuby ci jinymi ptaky. To vam pripadlo divne, protoze sem se pres ty zavrene dvere zadni ptaci rozhodne nemohli dostat. Pokud mate nejakou teorii jak se na tramy holuby trus dostal, jdete na [vez_prizemi_spizirna_schody_teorie]. Pokud nad tim ale jen pokrcite rameny, nic se nedeje a muzete jit dal. Kazdopadne to byla prace spinava a umorna, ale nakonec jste pruchod uvolnili na tolik aby se tamtudy dalo projit dolu do sklepa.
+
+Pokud jste si u prace svitili at uz pochodni nebo lucernou, jdete na [vez_prizemi_spizirna_schody_sviceni]. Pokud nic z toho nemate a nebo jste tim nechteli plytvat, jdete na [vez_prizemi_spizirna_schody_potme].
+
+# vez_prizemi_spizirna_schody_teorie
+Tak co, jak myslite ze se do zavrene mistnosti bez oken dostaly tramy a desky potrisnene holuby? Pokud vas hraje vice, klidne se o tom poradte a zkuste prijit s nejakou teorii. Mate to? Shodli jste se? Pokud ano, overte si ji na [vez_prizemi_spizirna_schody_teorie_overeni].
+
+# vez_prizemi_spizirna_schody_teorie_overeni
+Takze bylo to takhle:
+
+> Ty tramy a desky pokryte tu a tam holubym trusem jsou ve skutecnosti z hlavni mistnosti v prizemi veze. Nekdo je sem prenesl pred tim nez dvere zatloukl. Bud tu tehdy jeste ty dve plostice zelene nebyly, nebo byly zrovna nekde zalezle, nebo je sem jen hazeli otevrenymy dvermi. Asi se pokouseli zjistit ze co je ve sklepe zustane ve sklepe. Kdo a proc to udelal se snad jeste ukaze.
+
+Pokud jste to trefili a odhadli jste ze tramy myly ze sousedni mistnosti, muzete kazde postave pridat jedeno bod zkusenosti. Pokud ne, nic se nedeje. Ted se vratte na [vez_prizemi_spizirna_schody] a pokracujte kde jste prestali.
+
+# vez_prizemi_spizirna_schody_sviceni
+Moudre jste pouzili svetlo a vyvarovali jste se moznych zraneni a schody jsou ted volne. Odepiste si jednu pochoden nebo jeden dil lampoveho oleje a jdete bud dolu po schodech na [vez_sklep_vstup], nebo se vratte do hlavni mistnosti veze na [vez_prizemi_hlavni].
+
+# vez_prizemi_spizirna_schody_potme
+Prace po tme na vycisteni schodu vam zabrala spoustu casu
+
+
 # vez_prizemi_spizirna_boj_uprk
 Po zahlednuti pohybu ve stinu pod jednou pozici jste na nic necekali a vyhrnuli se z mistnosti. Zabouchli jste dvere a spesne je zaklinili nekolika deskama ktere jste z nich pred malou chvili vypacili. Chvili u dveri naslouchate a zaznamenali jste rychle klapani co znelo jako by se po kamenne podlaze pohybovalo nekolik nohou z velmi tvrdeho dreva, potom drobny naraz do dveri a chvilka jakehosi chresteni. Potom zase ty divne klapave kroky ktere se vzdalily ode dveri a pak uz byl klid.
 
@@ -298,8 +326,12 @@ Ted kdyz asi vite cemu jste se za dvermi vyhnuli, muzete se vratit do hlavni mis
 # vez_prizemi_spizirna_boj_schody
 TODO skocili jste na schody ale neda se tam protahnout. Ztratili jste moznost pripravit se na boj, plostice na vas utoci jako prvni.
 
+[vez_prizemi_spizirna]
+
 # vez_prizemi_spizirna_boj_priprava
 TODO Pripravili jste se na boj a otocili sve pohledy k mistu kde jste videli pohyb. Z pod police vybehli dve zelene prisey. TODO
+
+[vez_prizemi_spizirna]
 
 # vez_prizemi_nahoru
 Dvere jsou zavrene, ale vypadaji plne funkcne. Kdyz vezmete za kliku a zatahnete, otevrou se jen s tichym zavrzanim. Za dvermi zataci uzka, asi metr siroka, chodba se schody vedoucimi serem kamsi nahoru.
@@ -354,7 +386,6 @@ Pokud je vysledek 3 a nize, jdi na [vez_prvni_pracovna_truhlice_nic], pokud je v
 
 # vez_prvni_pracovna_truhlice_nic
 Postava se prehrabuje v pachnoucim obsahu truhli ponekud liknave, jaksi se nedokazala presvedcit jid poradne do hloubky. Nakonec popadla kus desky a pouzila ho jako lopatu. Vybirala s nim obsah truhly a rozsypavala kolem ni s tim ze cokoli ceneho by se tak obevilo. V dalsi z varek vytahovanych ven se zalesklo neco skleneneho. Zahledl to dalso clen druzinky postavajici opodal a vykrikl "pozor, je tam neco skleneneho", ale jeste nez to dopovedel, naklad na provizorni lopate spadl na zem. Cela druzinka sledovala, jak na tvrdou kamenou zem krome caru latky pada mala buclata lahvicka s temne rudou kapalinou. Dopadla na zem, roztristila se a cervena kapalina se dilem roztekla po spinave zaprasene zemi a dilem vsakla do smradlavuch kusu latek. No tak s timhle uz nic nevymislite a ve zbytku obsahu truhlicky nic dalsiho nenajdete. Muzete pokracovat v pruzkumu veze zpet na [vez_prvni_pracovna].
-
 
 # vez_prvni_pracovna_truhlice_nalez
 S premahanim se postava prehrabuje v pachnoucim obsahu stare truhly a ve chvili kdy to chce vzdat, konecne neco nahmatne. Ze zmeti hader a chlupu opatrne vytuje malou baculatou sklenenou lahvicku v niz sploucha temne ruda kapalina.
