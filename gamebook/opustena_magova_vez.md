@@ -468,13 +468,33 @@ Nalezeni tajnych dveri. [vez_prvni_tajna_pruzkum] [vez_prvni_tajna_jdeme]
 [vez_prvni_loznice_postel_poletuchy]
 
 # vez_prvni_loznice_postel_poletuchy
+[vez_prvni_loznice_postel_poletuchy_znalost]
 [vez_prvni_loznice_postel_poletuchy_utok]
 [vez_prvni_loznice_postel_poletuchy_povidani]
+
+# vez_prvni_loznice_postel_poletuchy_znalost
+Ten z vasi druzinky kdo ma znalost "znalost zvirat" TODO se nenapadne nakloni k ostatnim clenum druzinky ktera ostrazite zira na nove nalezene tvory a septem se je bude snazit uklidnit: "Poslouchejte, ja myslim ze toto jsou uplne jasne poletuchy. Vetsinou to byvali uzitecna stvoreni. Pokud se sedlakovi nekde na vesnici usidli ve stodole a pokud je to chytry hospodar..." "Nebo pokud ma chytrou zenu, to spis" ozve se jedna z zen ve vasi druzince (mate li ji). "...vetsinou s nimi dokaze navazat oboustrane vyhodne pratelstvi. Byvaji vesele, loajalni a pro nas rozhodne nemuzou byt nebezpecne, prave naopak, mozna by nam mohli pomoct."
+
+To jsou ale zajimave informace. Nyni jdi zpet na [vez_prvni_loznice_postel_poletuchy].
 
 # vez_prvni_loznice_postel_poletuchy_utok
 [vez_prvni_loznice]
 
 # vez_prvni_loznice_postel_poletuchy_povidani
+[vez_prvni_loznice_postel_poletuchy_povidani_zhurta]
+[vez_prvni_loznice_postel_poletuchy_povidani_pomalu]
+
+# vez_prvni_loznice_postel_poletuchy_povidani_zhurta
+[vez_prvni_loznice]
+
+# vez_prvni_loznice_postel_poletuchy_povidani_pomalu
+[vez_prvni_loznice_postel_poletuchy_povidani_nic]
+[vez_prvni_loznice_postel_poletuchy_povidani_jidlo]
+
+# vez_prvni_loznice_postel_poletuchy_povidani_nic
+[vez_prvni_loznice]
+
+# vez_prvni_loznice_postel_poletuchy_povidani_jidlo
 [vez_prvni_loznice]
 
 
