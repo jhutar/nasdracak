@@ -40,14 +40,53 @@ Chcete s ním smlouvat o výši odměny? Pak jděte na [zemlicka_smlouvani].
 Nebo vám Žemlička připadá podezřelý a raděj se na věž ještě poptáte dalších lidí ve městě? Jděte na [patrani_vyptavani].
 
 # zemlicka_smlouvani
-TODO
+Žemlička je zjevně zkušený obchodník a na nějaké to handrkování je zvyklý a jen tak někdo ho k něčemu co nechce nepřesvědčí.
 
-Jdi na [zemlicka_po_smlouvani]
+"Cože? Třicet zlatých je vám málo?" ptá se se zděšeným pohledem když ho požádáte o navýšení odměny. "Víte že za to bych tu mohl najmout tucet takových jako jste vy?".
 
-# zemlicka_po_smlouvani
-Jak budete pokračovat? Jste nedůvěřiví a pokusíte se o věži získat další informace od někoho jiného? Jděte na [patrani_vyptavani].
+Vy na to: "No ale co všechno to riziko? Straší tam a takový duch nebo jiná magická havěť, to může být pěkně nepříjemné střetnutí, to my známe".
 
-Pokud chcete vyrazit ke věži, jděte na [vez_prichod].
+"Ale nic takováho tam nehrozí, to jen pověrčiví lidi se bojí a představují si kde co" odráží vaše argumenty Žemlička. "Prostě to tam občíhnete a vyženete nějakou tu kunu co se tam usídlila a dělá tam randál."
+
+"Kdyby to bylo tak jednoduchý, uděláte to sám otče. Nebo pošlete svoje učedníky." hádáte. "Ale ty jste tam asi ani za zlatý prase nedostal a vy se tam taky bojíte a o nás si myslíte že jsme tu cizí, tak že klidně kastavíme svoje krky za ubohých třicet zlaťáků."
+
+...a tak to pokračuje pěkných pár minut. Obě strany zkouší různé argumenty, zkouší toho druhého přesvědčit.
+
+*Vyberte postavu která bude s Žemličkou smlouvat. Hoďte za ni na charisma (pokud má postava dovednost "smlouvání" TODO, nezapomeňte za ni přičíst bonus).*
+
+Pokud je výsledek hodu 2, jděte na [zemlicka_smlouvani_dolu]. Pokud jste dostali 3 až 8, jděte na [zemlicka_smlouvani_stejne]. Pokud ale máte 9 a víc, jděte na [zemlicka_smlouvani_nahoru].
+
+# zemlicka_smlouvani_dolu
+Postava která za vaši družinu smlouvala se snažila jak mohla, ale v jednu chvíli Žemlička povídá "Víte co? Mě tohle už nebaví, najdu si někoho jiného, zapomeňte na to." Otočí se na podpadku a odchází.
+
+Skočíte za ním a popadnete ho za rameno. "Počketje, pane Žemlička. My jsme to tak nemysleli. Nám by se ty peníze opravdu hodily" vychrlíte na něj. "My to teda bereme."
+
+Otočí se na vás s vítězoslavným úsměvem. "A helemese. No dobře, ale teď už je odměna jen 25 zlatých. Berte, nebo odcházím!"
+
+Zkroušeně kývnete na souhlas, raději rychle než odměnu ještě sníží: "Tak teda jo, dojednáno."
+
+Žemlička se usměje, vesele na vás mávne a odchází.
+
+Teď když máte dojednáno, jděte na [zemlicka_smlouvani_hotovo].
+
+# zemlicka_smlouvani_stejne
+Smlouvání pokračovalo poměrně dlouho a žádná strana nedokázala přenést nic co by tu druhou přesvědčilo. Nakonec to vás i Žemličku přestalo bavit a tak povídáte: "Tohle nikam nevede. Máte pravdu, 30 zlatých vypadá jako dobrá cena. Nebudeme se tu zdržovat nějakým handrkováním. My jdeme na to, brzo na shledanou."
+
+Žemlička na vás kývne a přitaká: "Moje řeč. Snad to rychle vyřešíte. Pak se na mě doptejte, peníze budu mít připravené."
+
+Mávnete na sebe a rozcházíte se v dobrém. Nyní jděte na [zemlicka_smlouvani_hotovo].
+
+# zemlicka_smlouvani_nahoru
+Smlouvání pokračovalo několik dlouhých minut a v jednu chvíli se Žemlička usměje a uznale se na vás podívá. "No, vidím že nejednám s žádnými začátečníky. A taky se mi zamlouváte. Připomínáte mi mně když jsem býval mladý. No co s váma nadělám, tak tedy 40 zlatých. Souhlasíte?"
+
+Spokojeně kývnete a poděkujete mu "Děkujeme, pane Žemlička. A nemusíte se bát. Té záhadě příjdeme na kloub a pokud tam opravdu straší, tak se s tím pořádně popereme."
+
+Žemlička si s váma potřese rukou, prohodíte ještě několik frází a potom odejde za svými povinostmi. Nyní jděte na [zemlicka_smlouvani_hotovo].
+
+# zemlicka_smlouvani_hotovo
+Jak budete pokračovat? Jste nedůvěřiví nebo snad jen opatrní a pokusíte se o věži získat další informace od někoho jiného? Pak jděte na [patrani_vyptavani].
+
+Pokud se nechcete zdržovat nějakým povídáním a chcete vyrazit rovnou k věži, jděte na [vez_prichod].
 
 # patrani_vyptavani
 Koho se ale zeptat? Prodejci na trhu vypadají velmi zaměstnaně. Usmívají se, ale jak zjistí že se s nimi nechcete bavit o jejich zboží a vašem nákupu, brzo se vám přestanou věnovat. Stejně tak většina nakupujících. Nejsou tu za zábavou, ale pracovně. Učni a učnice vyřizují pochůzky pro své mistry a mistrové, co nejrychleji neboť příliš často zakusili jejich hbytou rákosku. Kuchařky pečlivě vybírají, smlouvají a nakupují aby ještě stihly uvařit. Městská hlídka sice postává, ale dává pozor na kapsáře a výtřžníky a zakecat se nenechá.
@@ -110,29 +149,29 @@ Kamenná čtvercová věž stojí na rovince, asi sto metrů od městských hrad
 
 Pokud se chceš prodrat houštinou kolem věže a pokusit se najít nějakou jinou cestu dovnitř než hlavní dveře, jdi na [vez_pruzkum].
 
-Pokud se odvážíš jít přímo k hlavnímu vchodu, jdi na [vez_vstup].
+Pokud se odvážíš jít přímo k hlavnímu vchodu, jdi na [vez_dvere].
 
 # vez_pruzkum
 Okolí věže je zarostlé pichlavými šípky a mladými stromky jejichž větvě rády šlehají do obličeje. Ze špiček stromů na vás hladově několik havranů, ale nevypadají že by byli vaší hlučnou přítomností rozrušení. po hodné chvíli se vám podařilo celou věž obejít. Dle očekávání má jen jedny dveře, ty které jste viděli už na začátku. Dále má tři malá okénka. Jen jedno vypadá, že by se jím dalo prolézt - je sice poměrně vysokol, ale jako jediné není zahrazené silnými deskami.
 
-Pokud se chceš pokusit prolézt tím otevřeným okénkem na zadní straně věže, jdi na [vez_zachodove_okno].
+Pokud se chceš pokusit prolézt tím otevřeným okénkem na zadní straně věže, jdi na [vez_pruzkum_zachodove_okno].
 
-Pokud se raději vrátíš k hlavním dveřím které jsi viděl při příchodu k věži, jdi na [vez_vstup].
+Pokud se raději vrátíš k hlavním dveřím které jsi viděl při příchodu k věži, jdi na [vez_dvere].
 
-# vez_zachodove_okno
+# vez_pruzkum_zachodove_okno
 
-[vez_zachodove_okno_selhani]
-[vez_zachodove_okno_prolezeni]
+[vez_pruzkum_zachodove_okno_selhani]
+[vez_pruzkum_zachodove_okno_prolezeni]
 
-# vez_zachodove_okno_selhani
+# vez_pruzkum_zachodove_okno_selhani
 
 [vez_prichod]
 
-# vez_zachodove_okno_prolezeni
+# vez_pruzkum_zachodove_okno_prolezeni
 
 [vez_prizemi_zachod]
 
-# vez_vstup
+# vez_dvere
 
 [vez_dvere_otevrit]
 [vez_dvere_vyrazit]
