@@ -152,24 +152,30 @@ Pokud se chceš prodrat houštinou kolem věže a pokusit se najít nějakou jin
 Pokud se odvážíš jít přímo k hlavnímu vchodu, jdi na [vez_dvere].
 
 # vez_pruzkum
-Okolí věže je zarostlé pichlavými šípky a mladými stromky jejichž větvě rády šlehají do obličeje. Ze špiček stromů na vás hladově několik havranů, ale nevypadají že by byli vaší hlučnou přítomností rozrušení. po hodné chvíli se vám podařilo celou věž obejít. Dle očekávání má jen jedny dveře, ty které jste viděli už na začátku. Dále má tři malá okénka. Jen jedno vypadá, že by se jím dalo prolézt - je sice poměrně vysokol, ale jako jediné není zahrazené silnými deskami.
+Okolí věže je zarostlé pichlavými šípky a mladými stromky jejichž větvě rády šlehají do obličeje. Ze špiček stromů na vás hladově zírá několik havranů. Nevypadají že by se vaší hlučnou přítomností nechali vyrušit ze své zádumčivé hlídky. Po hodné chvíli plné trnů a šlahounů se vám podařilo celou věž obejít. Dle očekávání má jen jedny dveře, a to ty které jste viděli už na začátku. Dále má tři malá okénka. Jen jedno vypadá, že by se jím dalo prolézt - je sice poměrně vysokol, ale jako jediné není zahrazené silnými deskami.
 
 Pokud se chceš pokusit prolézt tím otevřeným okénkem na zadní straně věže, jdi na [vez_pruzkum_zachodove_okno].
 
 Pokud se raději vrátíš k hlavním dveřím které jsi viděl při příchodu k věži, jdi na [vez_dvere].
 
 # vez_pruzkum_zachodove_okno
+Okénko je výšce mírně přesahující dospělého člověka. Je čtvercové, o straně asi tří čtvrtin metru. Pokud máte v družince vysokého barbara, bez větších obtíží dokáže nahládnout dovnitř, ale nic užitečného nevidí. Okénko ústí do malé místnůstky s jedněmi zavřenými dveřmi.
 
-[vez_pruzkum_zachodove_okno_selhani]
-[vez_pruzkum_zachodove_okno_prolezeni]
+Věž je postavená z dobře opracovaných kamenů, přesto se vám zdá že by se po ní vylézt dalo. Není to ani příliš vysoko, takže se domníváte že nic moc neriskujete.
+
+Družinka se chce pokusit nepozorovaně se protáhnout okénkem do věže. Vypadá to, že jakmile se to podaří jednomu z vás, ten či ta už ostatním pomůže dostat se nahoru.. Chvíli se šeptem dohadujete a nakonec vyberete postavu která poleze jako první.
+
+*Vyber jednu postavu z družinky která poleze jako první. Za vybranou postavu si hoďte na obratnost a nezaponeňte na bonus za dovednost akrobacie TODO pokud ji postava má.*
+
+Pokud jste dostali číslo 4 a menší, jděte na [vez_pruzkum_zachodove_okno_selhani]. Pokud 5 a více, jděte na [vez_pruzkum_zachodove_okno_prolezeni].
 
 # vez_pruzkum_zachodove_okno_selhani
+Možná to bylo tím jak je kámen stěny vlhký, nebo je to prostě příliš vysoko, každopádně se vylézt nepodařilo a pokus dokonce zkončil odřeným kolenem. Přesto nemusíte zoufat. Protože zrovna nikam nespěcháte, o vylezení se můžete pokusit s jinou postavou. S každým členem družinky však jenom jednou.
 
-[vez_prichod]
+Pokud to chcete zkusit s jinou postavou, jděte na [vez_pruzkum_zachodove_okno]. Pokud přijmete tuto nepodstatnou porážku, vraťte se na místo kudy jste k věži příšli na [vez_prichod].
 
 # vez_pruzkum_zachodove_okno_prolezeni
-
-[vez_prizemi_zachod]
+Vybraný člen družinky povyskočil, natáhl se a zacytil okraje okna, Ze spoda jste pomohli najít solidní stupy pro nohyi když stěna věže je porostlá mechem na kterém to pěkně klouž. Pak už jen pár šikovných pohybů a šup, první člen družinky se vyšvihl do místnástky za oknem. Vyklonil se z okna a podal ruce dalšímu lezoucímu. Ostatní to tímto měli mnohem jednodušší a tak se v malé místnosti za chvílí tísnila celá skupinka. Nyní pokračuj na [vez_prizemi_zachod].
 
 # vez_dvere
 
