@@ -9,9 +9,7 @@ papersize: a5
 
 Dobrodružství je zamýšleno pro skupinku 3 dobrodruhů na první úrovni. Co se pravidel týče a způsobu popisu příšer či předmětů, vycházíme z prastarého Dračího doupěte. Myslím ale, že to půjde převést na libovolný systém.
 
-Odstavečky uvozené textem "Popis pro hráče:" je bezpečné hráčům přímo přečíst. Zbytek slouží jen potřebám vypravěče. Popisy pro hráče neobsahují přesný popis tvaru místnosti a toho jaké dveře z ní vedou - předpokládá se, že to doplní vypravěč vlastními slovy podle přiložených mapek.
-
-Jakožto vypravěč si text předem prolítni ať víš do čeho jdete a pak můžete začít hrát.
+Text psaný skoloněným písmem (*italikou*) jsou instrukce pro hráče, zbytek je popis toho co se děje postavám za které hráč či hráči hrají.
 
 # Jak hrát
 
