@@ -3,7 +3,7 @@ title: Opuštěná mágova věž
 author: Jan Hutař
 lang: cs-CZ
 csquotes: true
-gamebook-gap: 1
+gamebook-gap: 5
 papersize: a5
 ---
 
