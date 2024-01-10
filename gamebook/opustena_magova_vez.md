@@ -178,18 +178,43 @@ Pokud to chcete zkusit s jinou postavou, jděte na [vez_pruzkum_zachodove_okno].
 Vybraný člen družinky povyskočil, natáhl se a zacytil okraje okna, Ze spoda jste pomohli najít solidní stupy pro nohyi když stěna věže je porostlá mechem na kterém to pěkně klouž. Pak už jen pár šikovných pohybů a šup, první člen družinky se vyšvihl do místnástky za oknem. Vyklonil se z okna a podal ruce dalšímu lezoucímu. Ostatní to tímto měli mnohem jednodušší a tak se v malé místnosti za chvílí tísnila celá skupinka. Nyní pokračuj na [vez_prizemi_zachod].
 
 # vez_dvere
+Konečně jste došli až k patě věže k solidním železem pobytým dveřím. Pro jistotu našlapujete potichu, aby jste na sebe neupozrnili její obyvatele. Dveře mají velkou zahnutou kliku, pod ní klíčovou dírku a uprostřed od pohledu těžké klepadlo. Klepadlo je stylizované do tvaru liščí hlavy s mírně potměšilým či tajemným výrazem - nemůžete se rozhodnout.
 
-[vez_dvere_otevrit]
-[vez_dvere_vyrazit]
+Pokud chcete prostě vzít za kliku a otevřít, jděte na [vez_dvere_otevrit]. Pokud o sobě raději dáte vědět a před vstupem spořádaně zaklepete klepadlem, jděte na [vez_dvere_klepadlo]. Pokud se chcete pokusit dveře vyrazit, jděte na [vez_dvere_vyrazit]. Pokud se pokusíte dveře odemknout, jděte na [vez_dvere_odemknout].
 
 # vez_dvere_vyrazit
+Rozhodli jste se jít do toho naplno. Všichni v družince jste se do sebe zaklesli, ke dveřím se natočili ramenem a chystáte se do nich pěkně s rozběhem vrazit.
 
-[vez_dvere_vyrazit_zraneni]
-[vez_prizemi_chodba]
+*Urči postavu která bude v čele a hoď za ni na sílu.*
+
+Pokud jste dostali číslo 5 a méně, jděte na [vez_dvere_vyrazit_nic]. Pokud 6 a více, jděte na [vez_dvere_vyrazit_zraneni].
+
+# vez_dvere_vyrazit_nic
+Zdá se že dveře, ač na to nevypadaly, vůbec nebyly zamčené. Dokonce ani moc neržely. Dlouhé roky a působení deště a rzi se k zavíracímu mechanismu nezachovaly nejlépe. A tak se váš vyrážecí klín rozběhl, o dveře se téměř ani nezpomalil a za hlasitého prásknutí ramenem otevíraných dveří jste vběhli do chodby za dveřmi kde jste popadali všichni na jednu hromadu.
+
+Naštěstí se nikomu nic nestalo, a tak se mírně zahanbeně zvedáte zase na nohy a jste rádi že vás nikdo cizí neviděl. Tohle by pověsti drsných dobrodruhů jistě neprozpělo.
+
+No, nebudeme to rozmazávat a družinka se tímto ocitá na [vez_prizemi_chodba].
+
+# vez_dvere_vyrazit_zraneni
+Zdá se že dveře, ač na to nevypadaly, vůbec nebyly zamčené. Dokonce ani moc neržely. Dlouhé roky a působení deště a rzi se k zavíracímu mechanismu nezachovaly nejlépe. A tak se váš vyrážecí klín rozběhl, o dveře se téměř ani nezpomalil a za hlasitého prásknutí ramenem otevíraných dveří jste vběhli do chodby za dveřmi kde jste popadali všichni na jednu hromadu.
+
+Protože se vám podařilo vyvinout opravdu pořádnou rychlost a sílu nárazu, přistání nebylo vůbec příjemné. Člen družinky v jejím čele se pořádně narazil o těžké okovaná dveře a potom na něj ještě těmi nejnepříjemnějšími způoby popadala celá družinka. Rameno je jistě naražené a v žebrech něco snad i křuplo.
+
+*Postava která byla v čele ztrácí jeden bod života.*
+
+Otřepete se, postavíte se a ocitáte se v chodbičce za dveřmi na [vez_prizemi_chodba].
 
 # vez_dvere_otevrit
+Opatrně vezmete za kliku a připravujete se na nutnost pořádně zabrat, ale ukázalo se že, že klika se celkem snadno pohybuje a bez problémů plní svůj úkol. Panty snad zázrakem nevržou a dveře se téměř neslyšně otevřely. Procházíte do chodbyčky na [vez_prizemi_chodba].
 
-[vez_prizemi_chodba]
+# vez_dvere_odemknout
+Pokud máte šperhák a umíte s ním zacházet, samozřejmě si tohoto luxusu můžete dopřát. S větší pravděpodobností se ale chystáte použít špičku nějaké tenké dýky, nebo možná máte kus drátu. Ať už jste jen nadšení amatéří či profesionélové nočních řemesel, stačilo se o dveře trošku opřít a ty se začaly rovnou otevírat.
+
+Překvapeně pohodíte hlavou a mírně překvapeně do dveří strčíte aby se otevřely úplně. Nekonalo se žádné vrzání stoletých pantů a závoje pavučin, dveře se prostě otevřely a vy tak vtupujete do věže na [vez_prizemi_chodba].
+
+# vez_dvere_klepadlo
+Zvednete klepadlo abyste upozornili obyvatele věže na svůj příchod a pořádně s ním třísknete do dveří. Ozval se hlasitý třesk. Půlka družinky čekala že se nic nestane, půlka že na vás vyrazí armáda nemrtvých příšer. Nestalo se ani jedno toho. Místo toho se dveře, asi po nárazu mohutného klepadla, sami pootevřeli. Tohle jste nečekali a hledíte na to s pootevřenou pusou a chvíli tam jen tak stojíte. Pak se otřepete, pokrčíte rameny, otevřete dveře a vstoupíte do chodby za dveřmi na [vez_prizemi_chodba].
 
 # vez_prizemi_chodba
 
