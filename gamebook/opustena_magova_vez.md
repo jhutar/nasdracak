@@ -479,7 +479,7 @@ Dostavate se do casti zatocene mistnosti ktera asi drive slouzila jako loznice. 
 [vez_prvni_loznice_gobelin_neuspech]
 [vez_prvni_loznice_gobelin_uspech]
 
-# vez_prvni_loznice_gobelin_neuspech]
+# vez_prvni_loznice_gobelin_neuspech
 [vez_prvni_loznice]
 
 # vez_prvni_loznice_gobelin_uspech
