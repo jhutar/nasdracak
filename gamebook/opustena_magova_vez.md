@@ -215,23 +215,22 @@ Překvapeně pohodíte hlavou a mírně překvapeně do dveří strčíte aby se
 Zvednete klepadlo abyste upozornili obyvatele věže na svůj příchod a pořádně s ním třísknete do dveří. Ozval se hlasitý třesk. Půlka družinky čekala že se nic nestane, půlka že na vás vyrazí armáda nemrtvých příšer. Nestalo se ani jedno toho. Místo toho se dveře, asi po nárazu mohutného klepadla, sami pootevřeli. Tohle jste nečekali a hledíte na to s pootevřenou pusou a chvíli tam jen tak stojíte. Pak se otřepete, pokrčíte rameny, otevřete dveře a vstoupíte do chodby za dveřmi na [vez_prizemi_chodba].
 
 # vez_prizemi_chodba
+Stojíte v dlouhé přímé chodbě vedoucí severo jižně, od dveří ke dveřím. Třetí dveře, dřevěné a bez zámku, jsou potom ve východní stěně. Čistě dřevěné jsou i ty jižní, severní dveře jsou těžké, pobyté plechem a opatřené zamykacím mechanismem. V chodbě toho moc k vidění není, takže co teď?
 
-[vez_prizemi_chodba_naslouchat]
-[vez_prizemi_straznice]
-[vez_prizemi_hlavni]
+Můžete se pokusit tiše naslouchat, jestli od někud neuslyšíte podezřelé zvuky. Pokud to chcete zkusit, jděte na [vez_prizemi_chodba_naslouchat]. Pokud chcete vejít do dveří ve východní stěně, jděte na [vez_prizemi_straznice], pokud zkusíte jižní dveře, jděte na [vez_prizemi_hlavni], pokud chcete projít těžkými severními dveřmi, jděte na [vez_dvere].
 
 # vez_prizemi_chodba_naslouchat
+Dorozumíváte se posuky abyste netropili žádný hluk. Všichni v družince se přestanou pohybovat a zaposloucháte se do zvuků okolí. Moc jich není. Věž je tichá a vy se soustředíte čím dál tím víc.
 
-[vez_prizemi_chodba_naslouchat_nic]
-[vez_prizemi_chodba_naslouchat_nic2]
+*Vybe postavu podle které se bude rozhodovat o úspěchu či neúspěchu a hoď si za ni na inteligenci.*
+
+Pokud jsi dostal číslo 1 nebo 2, jdi na [vez_prizemi_chodba_naslouchat_halucinace]. Pokud byl výsledek 3 a více, jdi na [vez_prizemi_chodba_naslouchat_nic].
+
+# vez_prizemi_chodba_naslouchat_halucinace
+Napjatě posloucháš, noříš hlouběji a hloubjeji do ticha, snažíš se vytěsnit zvuk vašeho dechu a zachytit cokoli podezřelého. V tom to píjde. Zcela zřetelně slyšíš jak za některými dveřmi, nedokážeš určit za kterými, bručí medvěd! Jsi si jistý že pokud se neprozradíte a rovnou se na něj vrhnete, můžete v nerovném boji zvítězit. Začneš rychle festikulovat na ostatní členy družinky, snažíč se naznačit velké chlupaté zvíře a jeho kolébavou chůzi. Nejdřív na tebe nechápavě koukají, ale pak se jeden z nic zatváří ublíženě a normálně nahlas povídá "No tak mi trošku kručí v břiše, co má jako bejt?". Naslouchající postava je tím zvukem tak překvapená že jí chvíli trvá než pochopí svůj omyl. Žádný medvěd, jen mohutné kručení v břiše to bylo. Uchechtnete se té situaci a rychle se od představy bručícího medvěda vrátíte do reality úzké chodbičky na [vez_prizemi_chodba].
 
 # vez_prizemi_chodba_naslouchat_nic
-
-[vez_prizemi_chodba]
-
-# vez_prizemi_chodba_naslouchat_nic2
-
-[vez_prizemi_chodba]
+Napjatě posloucháš, noříš hlouběji a hloubjeji do ticha, snažíš se vytěsnit zvuk vašeho dechu a zachytit cokoli podezřelého, ale ať se snažíš sebevíc, nic neslyšíš. Pokračuj na [vez_prizemi_chodba].
 
 # vez_prizemi_straznice
 Malá místnost s oknem zatlučeným deskami přes které prosvítá nějaké to světlo. Vidíte tři rozbité postele se slamníky prolezlými plísní, trosky malých kamínek, stolu a tří židlí. Takhle na první pohled tu není nic zvláštního. Tady asi bydlelo čarodějovo služebnictvo.
