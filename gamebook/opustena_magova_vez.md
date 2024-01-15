@@ -452,18 +452,21 @@ Za vybranou postavu *hoď na inteligenci*.
 Pokud je vysledek 3 a nize, jdi na [vez_prvni_pracovna_truhlice_nic], pokud je vysledne cislo vyssi, jdi na [vez_prvni_pracovna_truhlice_nalez].
 
 # vez_prvni_pracovna_truhlice_nic
-Postava se prehrabuje v pachnoucim obsahu truhli ponekud liknave, jaksi se nedokazala presvedcit jid poradne do hloubky. Nakonec popadla kus desky a pouzila ho jako lopatu. Vybirala s nim obsah truhly a rozsypavala kolem ni s tim ze cokoli ceneho by se tak obevilo. V dalsi z varek vytahovanych ven se zalesklo neco skleneneho. Zahledl to dalso clen druzinky postavajici opodal a vykrikl "pozor, je tam neco skleneneho", ale jeste nez to dopovedel, naklad na provizorni lopate spadl na zem. Cela druzinka sledovala, jak na tvrdou kamenou zem krome caru latky pada mala buclata lahvicka s temne rudou kapalinou. Dopadla na zem, roztristila se a cervena kapalina se dilem roztekla po spinave zaprasene zemi a dilem vsakla do smradlavuch kusu latek. No tak s timhle uz nic nevymislite a ve zbytku obsahu truhlicky nic dalsiho nenajdete. Muzete pokracovat v pruzkumu veze zpet na [vez_prvni_pracovna].
+Postava se přehrabuje v zapáchajícím obsahu truhly poněkud neochotně, jaksi se nedokáže přemoct, aby se podívala pořádně do hloubky. Nakonec popadla kus desky a použila ho jako lopatu. Vybírala s ním obsah truhly a rozsypávala kolem ní s tím, že cokoli cenného by se jistě objevilo. A konečně: v další várce vytahované hmoty se zalesklo něco skleněného. Zahlédl to další člen družinky stojící opodál a vykřikl: "Pozor, je tam něco skleněného!", ale ještě než to dořekl, náklad na provizorní lopatě spadl na zem. Celá družina sledovala, jak na tvrdou kamennou zem kromě cárů látky padá malá buclatá lahvička s temně rudou kapalinou. Dopadla na zem, roztříštila se a červená kapalina se zčásti roztekla po špinavé zaprášené zemi a zčásti vsákla do smradlavých kusů látek. No tak s tímhle už nic nevymyslíte a ve zbytku obsahu truhličky už nic dalšího nenajdete. Můžete pokračovat v průzkumu věže zpět na [vez_prvni_pracovna].
 
 # vez_prvni_pracovna_truhlice_nalez
-S premahanim se postava prehrabuje v pachnoucim obsahu stare truhly a ve chvili kdy to chce vzdat, konecne neco nahmatne. Ze zmeti hader a chlupu opatrne vytuje malou baculatou sklenenou lahvicku v niz sploucha temne ruda kapalina.
+S očividným přemáháním se postava přehrabuje v zapáchajícím obsahu staré truhly a ve chvíli, kdy to chce vzdát, konečně něco nahmatá. Ze změti hader a chlupů opatrně vytáhne malou baculatou skleněnou lahvičku. Asi do poloviny je naplněná temně rudou kapalinou.
 
-Pokud ji nepoznavate, do deniku si ji zapiste treba jako "lektvar s temne rudou kapalinou". Pokud mate v druzince se schopnosti "vareni lektvaru" TODO, jdete na [vez_prvni_pracovna_truhlice_nalez_poznani], jinak se vratte na [vez_prvni_pracovna].
+*Pokud ji nepoznáváte, do deníku si ji zapište třeba jako "lektvar s temně rudou kapalinou".*
+
+Pokud ji potřebujete určit a máte v družině někoho s dovedností "vaření lektvarů", jděte na [vez_prvni_pracovna_truhlice_nalez_poznani]. Pokud ne, vraťte se na [vez_prvni_pracovna].
 
 # vez_prvni_pracovna_truhlice_nalez_poznani
-Postava alchymista se na lahvicku podiva a s usmevem se obrati na noveho majitele. "To je jiste lektvar Rudeho krize, skvely lek na vsemozna zraneni" rekne. "Barvou a skupenstvim je to jiste ono, ale uplne jisti si byt samozrejme nemuzeme. Da se to overit lakmusovym papirkem, ale to chce cas." Nyni se vratte na [vez_prvni_pracovna].
+Váš alchymista se na lahvičku podívá a s úsměvem se obrátí na nového majitele. "To je jistě lektvar Rudého kříže, skvělý lék na všemožná zranění," řekne. "Barvou a skupenstvím je to jistě ono, ale úplně jistý si být samozřejmě nemůžu. Dá se to ověřit lakmusovým papírkem, ale na to bych potřeboval čas." Nyní se vraťte na [vez_prvni_pracovna].
 
 # vez_prvni_loznice
-Dostavate se do casti zatocene mistnosti ktera asi drive slouzila jako loznice. Vevodi ji krb na jeji jizni stene a velká a dříve jistě pohodlná postel s nebesy. Naproti ní na vychodni stěně vysi zbytky velkého a dříve asi i barevného gobelínu ktery asi kdysi prostor pekne zutulnoval.
+Dostáváte se do části zatočené místnosti, která asi dříve sloužila jako ložnice. Vévodí jí krb na její jižní stěně a velká a kdysi jistě pohodlná postel s nebesy u západní stěny. Naproti ní, na východní stěně, visí moly prolezlý velký a dříve asi i barevný gobelín, který asi kdysi prostor pěkně zůtulňoval.
+
 
 [vez_prvni_loznice_krb]
 [vez_prvni_loznice_gobelin]
