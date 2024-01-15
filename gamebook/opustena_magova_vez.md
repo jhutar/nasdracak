@@ -467,20 +467,30 @@ Váš alchymista se na lahvičku podívá a s úsměvem se obrátí na nového m
 # vez_prvni_loznice
 Dostáváte se do části zatočené místnosti, která asi dříve sloužila jako ložnice. Vévodí jí krb na její jižní stěně a velká a kdysi jistě pohodlná postel s nebesy u západní stěny. Naproti ní, na východní stěně, visí moly prolezlý velký a dříve asi i barevný gobelín, který asi kdysi prostor pěkně zůtulňoval.
 
-
-[vez_prvni_loznice_krb]
-[vez_prvni_loznice_gobelin]
-[vez_prvni_loznice_postel]
+Můžete se pokusit prohledat krb na [vez_prvni_loznice_krb]. Kdo ví jestli se v něm něco neskrývá? Nebo chcete propátrat gobelín a stěnu za ním? Je tam sice spousta pavučin, ale na [vez_prvni_loznice_gobelin] se můžete pokusit zjistit jestli se za nimi něco neschovává. No a poslední možnost je ta luxusní postel. Sláma v matraci je sice prolezlá myšmi takže na spaní zrovna neláká, ale třeba se v ní skrývá něco užitečného? Pro průzkum posltele jděte na [vez_prvni_loznice_postel]. Pokud vás tu nic nezaujalo, můžete se samozřejmě vrátit na [vez_prvni_pracovna].
 
 # vez_prvni_loznice_krb
-[vez_prvni_loznice]
+Krb je zaprášený, dokonce do něj asi komínem napadalo pár suchých listů. Zkoumáte ho, ale nic zajímavého jste neobjevili. Očistíte si ruce umazané od popela a sazí a vrátíte se k průzkumu ložnice na [vez_prvni_loznice].
 
 # vez_prvni_loznice_gobelin
-[vez_prvni_loznice_gobelin_neuspech]
-[vez_prvni_loznice_gobelin_uspech]
+Gobelín se při každém sebemenším doteku trhá a na zem v oblacích zvířeného prachu padají velké kusy látky. Ten se vám již jistě zachránit nepovede.
+
+> Tapiserie neboli gobelín je označení pro zvláštní techniku převodu obrazových předloh nebo jejich motivů do tkané plošné textilie a pro výrobky vzniklé touto technikou. V češtině je ekvivalentním termínem *nástěnný koberec*.
+>
+> -- [Wikipedie: Tapiserie](https://cs.wikipedia.org/wiki/Tapiserie)
+
+Ale co stěna za ním? Jako malé děti jste poslouchali spoustu příběhů o starých hradech a velkých jeskyních s tajnými místnosti napěchovanými poklady. Vždy jste si pak představovali jaké by to bylo, kdybyste taky takový tajný vchod někdy našli, takže se rozhodnete že to zkusíte tady. Proč ně, že?
+
+*Vyberte postavu, která se pokusí domnělý tajný vchod najít a hoďte za ni na inteligenci a pokud máte dovednost "hledání skrytého" TODO, nezapomeňte na bonus.*
+
+Pokud jste dostali číslo 7 a méně, jděte na [vez_prvni_loznice_gobelin_neuspech]. Pokud však máte 8 a více, jděte na  [vez_prvni_loznice_gobelin_uspech].
 
 # vez_prvni_loznice_gobelin_neuspech
-[vez_prvni_loznice]
+Hodnou chvíli prohledáváte dlouhou kamennou stěnu. Skáčete z jedno místa které vám připadá podezřelé na druhé ale nic na plat. Nic opravdu zajímavého neobjevujete. Navíc vám z toho dlouhého hledání a čekání všem vyhládlo.
+
+Pokud s sebou máte nějaké jídlo, každá postava musí sníst polovinu denní dávky (škrtněte si ji). Pokud nemáte co jíst, svíravý hlad vás připraví o jeden bod obratnosti. Jakmile se ale zase pořádně najíte, můžete si obratnost obnovit na původní úroveň.
+
+Teď se vraťte k prohledávání ložnice na [vez_prvni_loznice].
 
 # vez_prvni_loznice_gobelin_uspech
 Nalezeni tajnych dveri. [vez_prvni_tajna_pruzkum] [vez_prvni_tajna_jdeme]
