@@ -493,20 +493,34 @@ Pokud s sebou máte nějaké jídlo, každá postava musí sníst polovinu denn�
 Teď se vraťte k prohledávání ložnice na [vez_prvni_loznice].
 
 # vez_prvni_loznice_gobelin_uspech
-Nalezeni tajnych dveri. [vez_prvni_tajna_pruzkum] [vez_prvni_tajna_jdeme]
+Kámen po kameni, spáru po spáře prohledáváte dlouhou kamennou stěnu a doufáte v nějaký ten tajný výklenek který by ukrýval třeba pár dukátů. Zrovna přemýšlíte o tom, že všechny ty báchorky o tajných dveřích které jste poslouchali jako děti jsou jisto jistě nesmysl, když si všimnete podezřele dlouhé pukliny. Sledujete ji a zjistíte že se táhne od země nahoru, do boku a pak zase dolů, zhruba ve tvaru menších dveří. Rozbuší se vám srdce. To je mnohem víc než v co jste doufali!
+
+Jak ale dveře otevřít? Škvírka je příliš úzká aby se tam dalo strčit nějaké páčidlo, takže hledáte otevírací mechanismus. Nakonec si všimnete jednoho uvolněného kamene. Zatlačíte na něj. O dobré tři centimetry se zanořil do stěny a ozvalo se tiché cvaknutí. Kamenné dveře se tiše pootevřely tak že je teď můžete otevřít rukou. Nyní otevřete dveře, dříve prostě část stěny, na [vez_prvni_tajna].
+
+# vez_prvni_tajna
+Se zatajeným dechem otevíráte dveře. Dveře odhalí asi tři metry dlouhou a metr širokou slepou chodbu. Ze stropu visí cáry pavučin, ale jinak vypadá netknutá zubem času. Má krásnou podlahu tvořenou leštěnými čtvercovými dlaždicemi. Dlaždice jsou velké a v šachovnicovém vzoru se střídají bílé a černé. Na konci chodby, nejdál od dveří stojí dřevěná kovaná truhla. Nevidíte na ní žádný zámek. Nemůžete se dočkat až zjistíte co skrývá.
+
+Pokud chcete místnost prozkoumat než do ní vstoupíte, jděte na [vez_prvni_tajna_pruzkum]. Pokud se chcete jít rovnou podívat jaké poklady skrývá ona truhla, pokračujte na [vez_prvni_tajna_jdeme].
 
 # vez_prvni_tajna_pruzkum
-[vez_prvni_tajna_pruzkum_neuspech]
-[vez_prvni_tajna_pruzkum_uspech]
+*Vyberte postavu, která bude místnost prozkoumávat a hoďte za ni na inteligenci. Pokud má dovednost "hledání skrytého" TODO, nezapomeňte přičíst bonus.*
+
+Postava hledí do místnosti a chvíli přemýšlí. Potom pečlivě ohmatává stěny a naklání se dovnitř. Uvidíme jstli se povedlo něco najít. Pokud jste dostali 5 a méně, jděte na [vez_prvni_tajna_pruzkum_neuspech]. Pokud jste dostali 6 a více, jděte na [vez_prvni_tajna_pruzkum_uspech].
 
 # vez_prvni_tajna_pruzkum_neuspech
-[vez_prvni_tajna_jdeme]
+Prohmatáváte stěny, odhrnuli jste nějaké ty pavučiny a dokonce prohlédli podlahu a hledali natažená lanka. Po chvilce si oddechnete. Všechno vypadá úplně normálně a tak se konečně vydáte podívat se na truhlu na konci chodbičky na [vez_prvni_tajna_jdeme_nevi].
 
 # vez_prvni_tajna_pruzkum_uspech
 [vez_prvni_tajna_jdeme]
 
 # vez_prvni_tajna_jdeme
+*Vyberte která postava půjde jako první.*
+
 [vez_prvni_tajna_jdeme_bile]
+
+# vez_prvni_tajna_jdeme_nevi
+*Vyberte která postava půjde jako první.*
+
 [vez_prvni_tajna_jdeme_cerne]
 
 # vez_prvni_tajna_jdeme_bile
