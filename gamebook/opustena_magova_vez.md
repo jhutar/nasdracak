@@ -377,8 +377,8 @@ Pokud jste to trefili a odhadli jste ze tramy myly ze sousedni mistnosti, muzete
 Moudre jste pouzili svetlo a vyvarovali jste se moznych zraneni a schody jsou ted volne. Odepiste si jednu pochoden nebo jeden dil lampoveho oleje a jdete bud dolu po schodech na [vez_sklep_vstup], nebo se vratte do hlavni mistnosti veze na [vez_prizemi_hlavni].
 
 # vez_prizemi_spizirna_schody_potme
-Prace po tme na vycisteni schodu vam zabrala spoustu casu
-
+Prace po tme na vycisteni schodu vam zabrala spoustu casu TODO
+[vez_sklep_vstup]
 
 # vez_prizemi_spizirna_boj_uprk
 Po zahlednuti pohybu ve stinu pod jednou pozici jste na nic necekali a vyhrnuli se z mistnosti. Zabouchli jste dvere a spesne je zaklinili nekolika deskama ktere jste z nich pred malou chvili vypacili. Chvili u dveri naslouchate a zaznamenali jste rychle klapani co znelo jako by se po kamenne podlaze pohybovalo nekolik nohou z velmi tvrdeho dreva, potom drobny naraz do dveri a chvilka jakehosi chresteni. Potom zase ty divne klapave kroky ktere se vzdalily ode dveri a pak uz byl klid.
@@ -404,6 +404,78 @@ TODO Pripravili jste se na boj a otocili sve pohledy k mistu kde jste videli poh
 Dvere jsou zavrene, ale vypadaji plne funkcne. Kdyz vezmete za kliku a zatahnete, otevrou se jen s tichym zavrzanim. Za dvermi zataci uzka, asi metr siroka, chodba se schody vedoucimi serem kamsi nahoru.
 
 Muzes bud pokracovat po schodech nahoru [vez_prvni_vstup], nebo se vratit na [vez_prizemi_hlavni].
+
+
+
+# vez_sklep_vstup
+[vez_sklep_mistnost]
+[vez_sklep_pruchod]
+[vez_prizemi_spizirna]
+
+# vez_sklep_mistnost
+[vez_sklep_vstup]
+
+# vez_sklep_pruchod]
+[vez_sklep_prechod]
+[vez_sklep_vstup]
+
+# vez_sklep_prechod
+[vez_sklep_prechod_neuspech]
+[vez_sklep_prechod_uspech]
+
+# vez_sklep_prechod_neuspech
+[vez_sklep_hnizdo]
+Nebo se na to chcete vykašlat a vrátit se ke schodům do sklepa? Pak jděte na [vez_sklep_vstup].
+
+# vez_sklep_prechod_uspech
+[vez_sklep_hnizdo]
+[vez_sklep_vstup]
+
+# vez_sklep_hnizdo
+[vez_sklep_hnizdo_uprk]
+[vez_sklep_hnizdo_vytezstvi]
+
+# vez_sklep_hnizdo_uprk
+[vez_sklep_prechod_zpet]
+
+# vez_sklep_hnizdo_vytezstvi
+[vez_sklep_hnizdo_prohledavani]
+[vez_sklep_prechod_zpet]
+
+# vez_sklep_hnizdo_prohledavani
+[vez_sklep_hnizdo_prohledavani_otrava]
+[vez_sklep_hnizdo_prohledavani_nic]
+[vez_sklep_hnizdo_prohledavani_uspech]
+
+# vez_sklep_hnizdo_prohledavani_otrava
+[vez_sklep_hnizdo_vytezstvi]
+
+# vez_sklep_hnizdo_prohledavani_nic
+[vez_sklep_hnizdo_vytezstvi]
+
+# vez_sklep_hnizdo_prohledavani_uspech
+[vez_sklep_hnizdo_prohledavani_uspech_neodhadovani]
+[vez_sklep_hnizdo_prohledavani_uspech_odhadovani]
+
+# vez_sklep_hnizdo_prohledavani_uspech_neodhadovani
+2 prsteny a jedna náušnice s neznamou cenou. Zapiste si je do deniku a poznacte si ze pochazi z krysiho pokladu.
+Pozdeji je muzete prodat ve meste u sperkare na [mesto_sperkar_krysipoklad_neodhadnuty]. Ted si cislo jen zapiste, na konci dobrodruzstni na nej muzete jit a sperky prodat.
+[vez_sklep_prechod_zpet]
+
+# vez_sklep_hnizdo_prohledavani_uspech_odhadovani
+2 prsteny a jedna náušnice v cene 50, 80 a 40 zlatých. Zapiste si je i s cenou, budete mit bonus pri smlouvani o cene.
+Pozdeji je muzete prodat ve meste u sperkare na [mesto_sperkar_krysipoklad_odhadnuty]. Ted si cislo jen zapiste, na konci dobrodruzstni na nej muzete jit a sperky prodat.
+[vez_sklep_prechod_zpet]
+
+# vez_sklep_prechod_zpet
+[vez_sklep_prechod_zpet_neuspech]
+[vez_sklep_prechod_zpet_uspech]
+
+# vez_sklep_prechod_zpet_neuspech
+[vez_sklep_vstup]
+
+# vez_sklep_prechod_zpet_uspech
+[vez_sklep_vstup]
 
 
 
@@ -724,6 +796,12 @@ Pokud chcete ještě setrvat ve věži a porozhlédnout se tu ještě více, jd�
 # zemlicka_hlaseni_100p
 
 # zemlicka_hlaseni_100p_nasili
+
+
+
+# mesto_sperkar_krysipoklad_odhadnuty
+
+# mesto_sperkar_krysipoklad_neodhadnuty
 
 
 
