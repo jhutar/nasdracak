@@ -91,9 +91,9 @@ Koho se ale zeptat? Prodejci na trhu vypadají velmi zaměstnaně. Usmívají se
 
 Po chvíli hledání si všimnete několika lidí kteří by se s vámi snad bavili. U jednoho domku sedí na velkém poleně stařeček. Sedí, opírá se o zeď svého domu, bafá z fajfky a pozoruje šrumec na tržišti. Pokud to chcete zkusit a zajít za ním, jděte na [patrani_starecek].
 
-TODO [patrani_babicka].
+Také jste si všimli babičky která se asi vrací od pekaře. Z košíku jí čouhá pecen chleba, opírá se o hůlčičku a po každých pár krocích se zastaví aby si oddechla. Pokud se jí chcete zkusit na něco zeptat, teď je na to dobrá příležitost. Zkuste to na [patrani_babicka].
 
-TODO [patrani_sluzka].
+U kašny zase naplnila dvě vědra děvečka z nějakého měšťanského domu a teď tam postává a očividně se jí ještě nechce domů. Rozhlíží se a možná čeká na nějaké kamarádky, ale nikdo se neblíží. Pokud se jí chcete poptat na to co vás zajímá, zkuste to na [patrani_sluzka].
 
 Pokud už máte vyptávání dost, nebo jste změnili názor a dalčí informace nepotřebujete, jděte na [vez_prichod].
 
@@ -114,12 +114,12 @@ Jako zvolený muž z tvé družiny se vydáš promluvit si se stařečkem: "Dobr
 
 "Tož co nadělám chlapče. Co potřebuješ? Ale rovnou říkám, že nic nekoupím" říká děda.
 
-"Ne ne, nic neprodávám" usměješ se. "Rád bych se vás jen zeptal na tu věž co stojí před hradbama. Víte o ní něco?"
+"Ne ne, nic neprodávám" usměješ se. "Rád bych se vás jen zeptal na tu věž co stojí před hradbami. Víte o ní něco?"
 
 *Hoď si na charismu. Pokud to padlo 5 a víc, jdi na [patrani_starecek_uspech], pokud ti padlo míň, jdi na [patrani_starecek_neuspech]*.
 
 # patrani_starecek_neuspech
-Děda se zamračí. "Hele, já mám spoustu práce a nemám čas se tady s váma vybavovat. Běšte si otravovat někoho jinýho."
+Děda se zamračí. "Hele, já mám spoustu práce a nemám čas se tady s váma vybavovat. Běžte si otravovat někoho jinýho."
 
 To bylo poměrně jasné odmítnutí a zřejmě nemá smysl se ho dál vyptávat, běž tedy na [patrani_vyptavani].
 
@@ -128,7 +128,7 @@ Starý muž se se usměje a povídá:
 
 "To je věž ve které před dávnými věky bydlel jeden mocný čaroděj.", řekl stařeček. "Jednoho dne se ztratil a už se nikdy neobjevil. Prý je zakletá, ale já tomu samozřejmě nevěřím!", rychlý nervózní pohled ve směru kde věž stojí ale svědčí o opaku.
 
-"Děkuji, moc jste nám pomohl" poděkuješ a včichni odcházíte.
+"Děkuji, moc jste nám pomohl" poděkuješ a všichni odcházíte.
 
 "Ba ba, klidně zase přijďte. Vím třeba jak se stavěla naše radnice a kdo z toho co měl. To byste se divili..." volá za vámi ještě děda. Teď se vraťte na [patrani_vyptavani].
 
@@ -138,7 +138,7 @@ Starý muž se se usměje a povídá:
 Teď se vraťte na [patrani_vyptavani].
 
 # patrani_sluzka
-"Já bych řekla, že ty řeči o strašení jsou nesmysl. To jen nás naše mámy tak dlouho tou věží strašili, že tu už nikdo neví co je vlastně pravda. Když se tam potom nějakej opilec zatoulá, klidně uvidí i ďábla jak tancuje na střeše jestli víte jak to myslím, hahaha."
+"Já bych řekla, že ty řeči o strašení jsou nesmysl. To jen nás naše mámy tak dlouho tou věží strašily, že tu už nikdo neví co je vlastně pravda. Když se tam potom nějakej opilec zatoulá, klidně uvidí i ďábla jak tancuje na střeše jestli víte jak to myslím, hahaha."
 
 Teď se vraťte na [patrani_vyptavani].
 
@@ -377,28 +377,40 @@ Pokud jste to trefili a odhadli jste ze tramy myly ze sousedni mistnosti, muzete
 Moudre jste pouzili svetlo a vyvarovali jste se moznych zraneni a schody jsou ted volne. Odepiste si jednu pochoden nebo jeden dil lampoveho oleje a jdete bud dolu po schodech na [vez_sklep_vstup], nebo se vratte do hlavni mistnosti veze na [vez_prizemi_hlavni].
 
 # vez_prizemi_spizirna_schody_potme
-Prace po tme na vycisteni schodu vam zabrala spoustu casu TODO
-[vez_sklep_vstup]
+Pracujete potmě a v této místnosti není zrovna moc světla, takže vám všechno, i ty nejjednodušší činnosti, zaberou spoustu času. Je to namáhavá práce a brzo se potřebujete najíst.
+
+*Pokud máte alespoň třetinu denní dávky jídla, škrtněte si ji. Pokud ne, dočasně si snižte sílu a to až do doby než se zase pořádně najíte. Pak si sílu můžete obnovit na původní úroveň.*
+
+Práce se nám nakonec podařila a vy můžete pokračovat na [vez_sklep_vstup]
 
 # vez_prizemi_spizirna_boj_uprk
 Po zahlednuti pohybu ve stinu pod jednou pozici jste na nic necekali a vyhrnuli se z mistnosti. Zabouchli jste dvere a spesne je zaklinili nekolika deskama ktere jste z nich pred malou chvili vypacili. Chvili u dveri naslouchate a zaznamenali jste rychle klapani co znelo jako by se po kamenne podlaze pohybovalo nekolik nohou z velmi tvrdeho dreva, potom drobny naraz do dveri a chvilka jakehosi chresteni. Potom zase ty divne klapave kroky ktere se vzdalily ode dveri a pak uz byl klid.
 
-Pokud mate v druzine nekoho se schopnosti *znalost zivocichu* TODO, jdete na [vez_prizemi_spizirna_boj_uprk_znalost], jinak se vratte na [vez_prizemi_hlavni].
+Pokud mate v druzine nekoho se schopnosti *znalost zivych tvoru* TODO, jdete na [vez_prizemi_spizirna_boj_uprk_znalost], jinak se vratte na [vez_prizemi_hlavni].
 
 # vez_prizemi_spizirna_boj_uprk_znalost
-Postava ktera ma schopnost *znalost zivocichu* TODO se otoci na vystrasenou druzinku a povida: "Poslouchejte, ja myslim ze jsem to poznal. Mozna se pletu, ale ty kroky a to chresteni, to znelo jako Plostice. Ne ty male co se v lete roji treba na vyhratych zidkach, ale jeji vetsi pribuzna. Je to stíhlý, nizky a asi metr dlouhý obří hmyz. Je zelena, šestinohá a chráněná pevným krunyrem. Ma velká kusadla a pokud se zakousne treba do nohy, dokaze vystriknout jed ktery celou nohu na nejaky cas ochromi. Vetsina lidi se z toho sice vzpamatuje, ale nic prijemneho to neni."
+Postava ktera ma schopnost *znalost zivoych tvoru* TODO se otoci na vystrasenou druzinku a povida: "Poslouchejte, ja myslim ze jsem to poznal. Mozna se pletu, ale ty kroky a to chresteni, to znelo jako Plostice. Ne ty male co se v lete roji treba na vyhratych zidkach, ale jeji vetsi pribuzna. Je to stíhlý, nizky a asi metr dlouhý obří hmyz. Je zelena, šestinohá a chráněná pevným krunyrem. Ma velká kusadla a pokud se zakousne treba do nohy, dokaze vystriknout jed ktery celou nohu na nejaky cas ochromi. Vetsina lidi se z toho sice vzpamatuje, ale nic prijemneho to neni."
 
 Ted kdyz asi vite cemu jste se za dvermi vyhnuli, muzete se vratit do hlavni mistnosti v prizemi na [vez_prizemi_hlavni].
 
 # vez_prizemi_spizirna_boj_schody
-TODO skocili jste na schody ale neda se tam protahnout. Ztratili jste moznost pripravit se na boj, plostice na vas utoci jako prvni.
+Doufali jste, že se kolem barikády na schodech protáhnete a těm podivným stvořením se ztratíte. No a nebo aspoň na schodech najdete výhodnou pozici k boji. Ale nic nemohlo být dál od pravdy. Schody jsou kluzké, je na nich poházeno spousta nepořádku o který se snadno zakopává a tak jste si jenom přitížili.
 
-[vez_prizemi_spizirna]
+*Zpanikařili jste a váš nepřítel tak získal výhodu. V nadcházejícím boji si každý jeden nepřítel při prvním útoku přičte 2 body k hodu na útok.*
+
+Se schodů už nemáte kam ustoupit, takže se připravte na boj na [vez_prizemi_spizirna_boj].
 
 # vez_prizemi_spizirna_boj_priprava
-TODO Pripravili jste se na boj a otocili sve pohledy k mistu kde jste videli pohyb. Z pod police vybehli dve zelene prisey. TODO
+Zachovali jste klidnou hlavu a k nebezpečí se otočili čelem. Ostatně, v téhle zatuchlé tajemné věži jste nějakou tu nebezpečnou potvoru už dlouho čekali. Stoupnete si tak jak je to pro nás výhodné a připravte se na boj.
 
-[vez_prizemi_spizirna]
+* Díky tomu že jste se na boj připravili, získáváte východu. Budete začínat a k prvnímu hodu tohoto zápasu si přečtěte jedničku.*
+
+Střetnutí začíná na [vez_prizemi_spizirna_boj]
+
+# vez_prizemi_spizirna_boj
+TODO
+
+Pokud stále žijete, své dobrodružství pokračujte na [vez_prizemi_spizirna].
 
 # vez_prizemi_nahoru
 Dvere jsou zavrene, ale vypadaji plne funkcne. Kdyz vezmete za kliku a zatahnete, otevrou se jen s tichym zavrzanim. Za dvermi zataci uzka, asi metr siroka, chodba se schody vedoucimi serem kamsi nahoru.
@@ -799,10 +811,55 @@ Pokud chcete ještě setrvat ve věži a porozhlédnout se tu ještě více, jd�
 
 
 
+# mesto_rozcetnik
+
+
+
 # mesto_sperkar_krysipoklad_odhadnuty
+Přicházíte do šperkařské dílny. Když zabušíte na dveře, musíte poměrně dlouho čekat než zevnitř něco uslyšíte, ale nakonec se dveře přeci jen opatrně pootevřou. Zevnitř vykoukne trpasličí tvář s dlouhým vousem svázaným provázkem kousek pod bradou. "Neznám vás, co chcete?"
+
+"Přišli jsme prodat nějaké šperky, ale jestli nemáte zájem, půjdeme jinam." na oko se otáčíte a chystáte se odejít.
+
+Majitel dílny ale hned otočí. "Počkejte, počkejte, přece se nic nestalo. Říkají mi Valounek. Pojďte dovnitř, podíváme se na to vaše zboží."
+
+Dojdete do malé, ale dobře osvětlené místnosti. Valounek sedne za stůl uprostřed místnosti a rutinním pohybem shodí své vousy z pracovní plochy. Na stole stojí lampa a velká lupa na stojanu. Celá družinka se natěsná kolem stolu a podáte mu 2 prsteny a náušnici kterou jste našli v krysím doupěti pod věží.
+
+Valounek je chvíli obrací v ruce a dívá se na ně přes lupu a pak se na vás podívá a ptá se: "No, vypadá to dobře. Tak kolik byste si za to představovali?"
+
+Protože se vám podařilo odhadnout cenu šperků (na 50 a 80 za prsteny a 40 zlatých za náušnici), odpovíte "Mají cenu 170 zlatých, takže 20 procent dolů, to jsme na 136 zlatých."
+
+*Pokud chcete zkusit usmlouvat vyšší cenu, vyberte člena družinky a hoďte za něj na charisma. Pokud má postava dovednost "smlouvání", nezapomeňte na bonus.*
+
+Pokud jste dostali číslo 8 a menší, jdi na [mesto_sperkar_krysipoklad_odhadnuty_neuspech], pokud 9 a víc, pak jděte na [mesto_sperkar_krysipoklad_odhadnuty_uspech].
+
+# mesto_sperkar_krysipoklad_odhadnuty_neuspech
+S Valounkem jste se dlouho dohadovali, ale je vidět že to je zkušený obchodník. Neustoupil ani o píď a tak jste zkončili na těch 136 zlatých. To ale vám ale vůbec nepřipadá málo a tak odcházíte zcela spokojení. Vraťte se na městské náměstí na [mesto_rozcetnik].
+
+# mesto_sperkar_krysipoklad_odhadnuty_uspech
+S Valounkem jste se dlouho dohadovali a nakonec se vám podařilo usmlouvat cenu na 153 zlatých. Odcházíte nad míru spokojeni. Vraťte se na městské náměstí na [mesto_rozcetnik].
 
 # mesto_sperkar_krysipoklad_neodhadnuty
+Přicházíte do šperkařské dílny. Když zabušíte na dveře, musíte poměrně dlouho čekat než zevnitř něco uslyšíte, ale nakonec se dveře přeci jen opatrně pootevřou. Zevnitř vykoukne trpasličí tvář s dlouhým vousem svázaným provázkem kousek pod bradou. "Neznám vás, co chcete?"
 
+"Přišli jsme prodat nějaké šperky, ale jestli nemáte zájem, půjdeme jinam." na oko se otáčíte a chystáte se odejít.
+
+Majitel dílny ale hned otočí. "Počkejte, počkejte, přece se nic nestalo. Říkají mi Valounek. Pojďte dovnitř, podíváme se na to vaše zboží."
+
+Dojdete do malé, ale dobře osvětlené místnosti. Valounek sedne za stůl uprostřed místnosti a rutinním pohybem shodí své vousy z pracovní plochy. Na stole stojí lampa a velká lupa na stojanu. Celá družinka se natěsná kolem stolu a podáte mu 2 prsteny a náušnici kterou jste našli v krysím doupěti pod věží.
+
+Valounek je chvíli obrací v ruce a dívá se na ně přes lupu a pak se na vás podívá a ptá se: "No, vypadá to dobře. Tak kolik byste si za to představovali?"
+
+Protože se vám nepodařilo odhadnout cenu šperků, tipnete si "Co kdyby jste nám dal 100 zlatých?"
+
+*Pokud chcete zkusit usmlouvat vyšší cenu, vyberte člena družinky a hoďte za něj na charisma. Pokud má postava dovednost "smlouvání", nezapomeňte na bonus.*
+
+Pokud jste dostali číslo 8 a menší, jdi na [mesto_sperkar_krysipoklad_neodhadnuty_neuspech], pokud 9 a víc, pak jděte na [mesto_sperkar_krysipoklad_neodhadnuty_uspech].
+
+# mesto_sperkar_krysipoklad_odhadnuty_neuspech
+S Valounkem jste se dlouho dohadovali, ale je vidět že to je zkušený obchodník. Neustoupil ani o píď a tak jste zkončili na těch 136 zlatých. To ale vám ale vůbec nepřipadá málo a tak odcházíte zcela spokojení. Vraťte se na městské náměstí na [mesto_rozcetnik].
+
+# mesto_sperkar_krysipoklad_odhadnuty_uspech
+S Valounkem jste se dlouho dohadovali a nakonec se vám podařilo usmlouvat cenu na 153 zlatých. Odcházíte nad míru spokojeni. Vraťte se na městské náměstí na [mesto_rozcetnik].
 
 
 # Epilog
