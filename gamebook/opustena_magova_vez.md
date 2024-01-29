@@ -348,7 +348,7 @@ Muzes se vratit na [vez_prizemi_hlavni], nebo se pokusit dvere otevrit na [vez_p
 Pokud je vysledna hodnota mensi nez 3, postava se zranila za jeden zivot. Pokud je vysledek mensi nez 5, nepodarilo se dvere otevrit a musis to zkusit s jinym clenem druziny ci jinou postavou. Pokud je hodnota 5 a vetsi, desky zaprastely a dvere se zacali pomalu otevirat. Nyni muzes jit na [vez_prizemi_spizirna]. Pokud chcete otevírání vzdát, nebo se jen chcete vrátit, jděte na [vez_prizemi_hlavni].
 
 # vez_prizemi_spizirna
-Mistnost kam jste prave vstoupily je pomerne temna nebot nema zadne okno a jedine svetlo do ni pronika z oterenych dveri. Z mistosti vedou schody dolu, asi do sklepa. Ty jsou ale halabala zaházené zbytky trámů a desek, jako by se nekdo snazil rychle zabarikadovat pruchod. Mistnost asi slouzila jako nějaký sklad nebo spižírna - stoji v ni dvojice dlouhych, prázdných, polic. Počkat, nepohlo se něco támhle pod jednou z nich?
+Mistnost kam jste prave vstoupili je pomerne temna nebot nema zadne okno a jedine svetlo do ni pronika z oterenych dveri. Z mistosti vedou schody dolu, asi do sklepa. Ty jsou ale halabala zaházené zbytky trámů a desek, jako by se nekdo snazil rychle zabarikadovat pruchod. Mistnost asi slouzila jako nějaký sklad nebo spižírna - stoji v ni dvojice dlouhych, prázdných, polic. Počkat, nepohlo se něco támhle pod jednou z nich?
 
 Pokud se chcete obratit na utek, vybehnout z mistnost a zabouchnout za sebou dvere, jdete na [vez_prizemi_spizirna_boj_uprk]. Pokud chcete skocit na schody a pokusit se protahnout dolu, jdete na [vez_prizemi_spizirna_boj_schody], pokud se na to citite a chcete se nebezpeci postavit celem, jdete na [vez_prizemi_spizirna_boj_priprava].
 
@@ -420,20 +420,33 @@ Muzes bud pokracovat po schodech nahoru [vez_prvni_vstup], nebo se vratit na [ve
 
 
 # vez_sklep_vstup
-[vez_sklep_mistnost]
-[vez_sklep_pruchod]
-[vez_prizemi_spizirna]
+Jste na rozcestí tvaru písmena T. Na západ vede chodba se stoupajícími schody. Vyjít po nich znamená jít na [vez_prizemi_spizirna].
+
+Na východ vede temná chodba na [vez_sklep_mistnost].
+
+Na sever se chodba rozšiřuje a jít tam znamená jít na [vez_sklep_pruchod]. Jsou odtamtud slyšet tiché zvuky pomalé vody, nebo, pokud dobře čicháte, něčeho trošku horšího.
 
 # vez_sklep_mistnost
-[vez_sklep_vstup]
+Prošli jste asi tři metry dlouhou chodbou s otevřela se před vámi větší místnost. Už na první pohled tu není nic zajímavého, na zemi jen zbytky dřeva a prach. Možná to tady sloužilo jako sklad, ale není tu nic co by vás zaujalo a tak se raději co nejrychleji vracíte na rozcestí na [vez_sklep_vstup].
 
 # vez_sklep_pruchod]
-[vez_sklep_prechod]
-[vez_sklep_vstup]
+Prošli jste úzkým průchodem a zjistili že chodba se tady zatáčí na západ a notně rozšiřuje. U její západní stěny ústí chodba která vede na jih, u východní stěny je druhý průchod. V místnosti si všimnete nějakého naplaveného nepořádku: písek a větvičky, ale nijak vás to nezaujalo. Pokud si vyberete cestu u západní stěny odkuď je poměrně zřetelně slyšet tekoucí voda, jděte na [vez_sklep_prechod]. Pokud raděj cestu u východní stěny, jděte na [vez_sklep_vstup].
 
 # vez_sklep_prechod
-[vez_sklep_prechod_neuspech]
-[vez_sklep_prechod_uspech]
+Asi tři metry procházíte chodbou plnou pavučin a když se na chvíli zastavíte abyste se zaposlouchali, zvuky vody jsou teď úplně jasné. Došli jste do místa kde chodbu kříží široká stoka s tekoucím odpadem z celého města. Podle zbytků sloupků vidíte že tu kdysi byl mostek, ten je ale dávno pryč. Na přebrodění ani nemyslíte, ale možná by se dalo na druhou stranu dostat díky naplavené kládě která se zaklínila z jednoho na druhý břeh. Vypadá pevně, ale poměrně kluzce.
+
+Pokud se chcete vrátit, jděte na [vez_sklep_prechod], můžete se ale pokusit přejít na druhý břeh na [vez_sklep_prechod_pokus].
+
+# vez_sklep_prechod_pokus
+Pokud nemáte žádné světlo (nebo s ním nehodláte plýtvat), přechod bude téměř nemožný (pokud jsou všichni v družince trpaslíci, díky jejich schopnosti vidění ve tmě můžeš tento odstaveček ignorovat) a jdi na [vez_sklep_prechod_bez_svetla].
+
+Pokud světlo máte, spotřebujte jednu louč nebo jeden díl lampového oleje a vyberte postavu, která se o přechod pokusí jako první.
+
+*Za vybranou postavu hoďte na obratnost a má-li postava dovednost "akrobacie", nezapomeňte připočítat bonus.*
+
+Pokud jste dostali číslo 3 a méně, jděte na [vez_sklep_prechod_neuspech]. Pokud 4 a více, jděte na [vez_sklep_prechod_uspech].
+
+# vez_sklep_prechod_bez_svetla
 
 # vez_sklep_prechod_neuspech
 [vez_sklep_hnizdo]
@@ -812,8 +825,31 @@ Pokud chcete ještě setrvat ve věži a porozhlédnout se tu ještě více, jd�
 
 
 # mesto_rozcetnik
+Do města jste si buď odskočili z věže něco zařídit nebo po skončení dobrodružství něco málo utratit.
 
+Pokud si ale v městečku chcete něco dojednat, nabízí se vám tyto podniky:
 
+Hledáte-li odpočinek či dobré jídlo, určitě navštivte hospodu U bubnu. Pokud budete mít štěstí, možná tam zastihnete i potulného barda. Hostinská Bětuš vás ráda obslouží jen několik kroků daleko, na náměstí na [mesto_hospoda].
+
+Pokud potřebujete nakoupit zbraně, toto malé městečko žádným zbrojířem nemůže sloužit, ale místní kovář je prý šikovný a kde co opraví. Řekli vám o něm že kdysi býval vojákem a má slabost pro zbraně. Sbírá je a tak by se u něj nějaká ta palice snad našla. Dílnu má na ulici U spodní brány na [mesto_kovar].
+
+Hledáte-li zdravotní pomoc, snad každý vás posílá k místní babce kořenářce. Je to sice mladá holka a "babka" si nechá jenom říkat, ale ve městě prý už pomohla spoustě lidem a v tom co dělá se vyzná. Žije mimo městské hradby ale na dohled od města u lesa na [mesto_korenarka].
+
+Nějaké ty běžně dostupné zásoby pak určitě seženete v Koloniálu Pírko. "Rozličné zboží za rozumné ceny pro pána i kmána" jak hlásá cedule na druhé straně náměstí na [mesto_kolonial].
+
+Pokud tu už nic nepotřebujete, buď se vraťte tam kde jste přestali, nebo se budeme těšit u nějakého dalšího gamebooku.
+
+# mesto_hospoda
+[mesto_rozcetnik]
+
+# mesto_kovar
+[mesto_rozcetnik]
+
+# mesto_korenarka
+[mesto_rozcetnik]
+
+# mesto_kolonial
+[mesto_rozcetnik]
 
 # mesto_sperkar_krysipoklad_odhadnuty
 Přicházíte do šperkařské dílny. Když zabušíte na dveře, musíte poměrně dlouho čekat než zevnitř něco uslyšíte, ale nakonec se dveře přeci jen opatrně pootevřou. Zevnitř vykoukne trpasličí tvář s dlouhým vousem svázaným provázkem kousek pod bradou. "Neznám vás, co chcete?"
