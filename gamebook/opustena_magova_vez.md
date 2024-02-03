@@ -408,7 +408,28 @@ Zachovali jste klidnou hlavu a k nebezpečí se otočili čelem. Ostatně, v té
 Střetnutí začíná na [vez_prizemi_spizirna_boj]
 
 # vez_prizemi_spizirna_boj
-TODO
+TODO Boj se dvěma plošticemi zelenými.
+
+> * životaschopnost - 1/2
+> * útok - 0 (SÍL) +1 (kusadla) +ochromení (ODO 7)
+> * obrana - 0 (OBR) +3 (krunýř)
+> * síla - 11 (0)
+> * obratnost - 12 (0)
+> * odolnost - 14 (+1)
+> * inteligence - 1 (-5)
+> * charisma - -- (--)
+> * bojovnost - 9
+> * poklady - 0/0
+> * zkušenosti - 5
+> * velikost - C
+> 
+> Ploštice zelená je štíhlý, asi metr dlouhý obří hmyz. Je nízká (do 20 centimetrů), zelená, šestinohá a chráněná pevným chytinovým pancířem. Schovává se ve stínech a k boji používá svá silná kusadla. Zvukově se projevuje výrazným třeskavým zvukem vydávaným do sebe narážejícími tvrdými kusadly.
+> 
+> Doma je na savaně, kde se schovává v trávě či řídkých křovinách a loví králíky a jiné malé hlodavce. Je-li hladová nebo jich je víc, troufne si ale i na mnohem větší kořist.
+> 
+> Při jejím útoku kusadly je možnost, že při zakousnutí vystříkne svůj jed (*ODO 7: zasažení jedem/nic*). Pokud k tomu dojde, jejímu soupeři ochrne jedna končetina a kromě toho že ji potom půl hodiny nemůže pohnout (takže třeba při zasažení nohy nemůže nijak extra chodit), snižuje se postavě po dobu trvání účinků jedu bonus opratnosti o jedna. Během dne může jed použít až třikrát.
+
+
 
 Pokud stále žijete, své dobrodružství pokračujte na [vez_prizemi_spizirna].
 
