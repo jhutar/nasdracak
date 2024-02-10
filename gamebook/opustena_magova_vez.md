@@ -27,7 +27,7 @@ TODO
 # 1
 Na trhu k vám přistoupí cizí muž. Na hlavě má bílý baret, moukou zaprášenou kostkovanou košili a přes větší břicho bílou zástěru.
 
-Nesměle vás osloví: "Jmenuji se Žemlička, jsem tady radním a pekařem. Vypadáte jako zkušení dobrodruhové, tak jsem vás oslovil. Měl bych pro vás jistou prácičku."
+Nesměle vás osloví: "Jmenuji se Žemlička, jsem tady radním a pekařem. Vypadáte jako zkušení dobrodruhové, tak jsem se na vás dovolil obrátit. Měl bych pro vás jistou prácičku."
 
 Vybídnete ho ať pokračuje: "Za městem stojí stará opuštěná věž. Jistě jste si jí všimli, nedá se přehlédnout. Rád bych ji využil jako sklad obilí. Skladiště ve městě jsou strašně drahá. Lidi ale blekotají něco o tom že tam straší." Chvilku se odmlčel a se sklopenými zraky rychle dodal: "Já ale samozřejmě myslím že to je nesmysl. Pro někoho jako vy", poplácá jednoho z vás po silném rameni, "to nebude nejmenší problém. Pomůžete mi?"
 
@@ -95,12 +95,12 @@ Také jste si všimli babičky která se asi vrací od pekaře. Z košíku jí �
 
 U kašny zase naplnila dvě vědra děvečka z nějakého měšťanského domu a teď tam postává a očividně se jí ještě nechce domů. Rozhlíží se a možná čeká na nějaké kamarádky, ale nikdo se neblíží. Pokud se jí chcete poptat na to co vás zajímá, zkuste to na [patrani_sluzka].
 
-Pokud už máte vyptávání dost, nebo jste změnili názor a dalčí informace nepotřebujete, jděte na [vez_prichod].
+Pokud už máte vyptávání dost, nebo jste změnili názor a další informace nepotřebujete, jděte na [vez_prichod].
 
 # patrani_starecek
-Stařeček vypadá poměrně překvapeně když k němu napochodujete. na takové zjevy jako ste vy asi není zvyklý. Tázavě se na vás zahledí.
+Stařeček vypadá poměrně překvapeně když k němu napochodujete. Na takové zjevy jako ste vy asi není zvyklý. Tázavě se na vás zahledí.
 
-*Vyber si postavu z tvé družinky která s ním bude mluvit a teprve potom pokračuj.*
+*Vyberte si postavu z vaší družinky která s ním bude mluvit a teprve potom pokračujte.*
 
 Pokud je postava která ho osloví muž, jdi na [patrani_starecek_muz]. Pokud je to žena, jdi na [patrani_starecek_zena].
 
@@ -133,14 +133,20 @@ Starý muž se se usměje a povídá:
 "Ba ba, klidně zase přijďte. Vím třeba jak se stavěla naše radnice a kdo z toho co měl. To byste se divili..." volá za vámi ještě děda. Teď se vraťte na [patrani_vyptavani].
 
 # patrani_babicka
+Prijdete k ...
+
 "No být váma, tam bych rozhodně nechodila. Strašilo tam už když jsem byla malá a teď se to prý ještě zhoršilo. Lidi tam prý viděli zářící duchy a slyšeli pekelný rejdy."
 
 Teď se vraťte na [patrani_vyptavani].
 
 # patrani_sluzka
+Přijdete ke kašně a povídáte: "Krásná slečno", snažíte se pochlebovat a nevšímat si uhrovité tváře. "Chtěli jsme se vás zeptat na tu věž před hradbama. Prý tam straší?"
+
 "Já bych řekla, že ty řeči o strašení jsou nesmysl. To jen nás naše mámy tak dlouho tou věží strašily, že tu už nikdo neví co je vlastně pravda. Když se tam potom nějakej opilec zatoulá, klidně uvidí i ďábla jak tancuje na střeše jestli víte jak to myslím, hahaha."
 
 Teď se vraťte na [patrani_vyptavani].
+
+
 
 # vez_prichod
 Kamenná čtvercová věž stojí na rovince, asi sto metrů od městských hradeb. Tři patra z velkých kamenných bloků se zvedají vysoko nad malou městskou palisádu a v rovné krajině poseté poli, sady a pastvinami na sebe zlověstně stahují pozornost. Obklopená je houštinou křoví a mladých stromků, které jsou oblíbenými odpočívadli černých havranů. Jediné dveře jsou zavřené a vypadají funkčně, otvory těch několika malých oken v přízemí jsou zahrazené deskami.
@@ -150,7 +156,7 @@ Pokud se chceš prodrat houštinou kolem věže a pokusit se najít nějakou jin
 Pokud se odvážíš jít přímo k hlavnímu vchodu, jdi na [vez_dvere].
 
 # vez_pruzkum
-Okolí věže je zarostlé pichlavými šípky a mladými stromky jejichž větvě rády šlehají do obličeje. Ze špiček stromů na vás hladově zírá několik havranů. Nevypadají že by se vaší hlučnou přítomností nechali vyrušit ze své zádumčivé hlídky. Po hodné chvíli plné trnů a šlahounů se vám podařilo celou věž obejít. Dle očekávání má jen jedny dveře, a to ty které jste viděli už na začátku. Dále má tři malá okénka. Jen jedno vypadá, že by se jím dalo prolézt - je sice poměrně vysokol, ale jako jediné není zahrazené silnými deskami.
+Okolí věže je zarostlé pichlavými šípky a mladými stromky jejichž větvě rády šlehají do obličeje. Ze špiček stromů na vás hladově zírá několik havranů. Nevypadají že by se vaší hlučnou přítomností nechali vyrušit ze své zádumčivé hlídky. Po hodné chvíli plné trnů a šlahounů se vám podařilo celou věž obejít. Dle očekávání má jen jedny dveře, a to ty které jste viděli už na začátku. Dále má tři malá okénka. Jen jedno vypadá, že by se jím dalo prolézt - je sice poměrně vysoko, ale jako jediné není zahrazené silnými deskami.
 
 Pokud se chceš pokusit prolézt tím otevřeným okénkem na zadní straně věže, jdi na [vez_pruzkum_zachodove_okno].
 
@@ -178,7 +184,7 @@ Vybraný člen družinky povyskočil, natáhl se a zacytil okraje okna, Ze spoda
 # vez_dvere
 Konečně jste došli až k patě věže k solidním železem pobytým dveřím. Pro jistotu našlapujete potichu, aby jste na sebe neupozrnili její obyvatele. Dveře mají velkou zahnutou kliku, pod ní klíčovou dírku a uprostřed od pohledu těžké klepadlo. Klepadlo je stylizované do tvaru liščí hlavy s mírně potměšilým či tajemným výrazem - nemůžete se rozhodnout.
 
-Pokud chcete prostě vzít za kliku a otevřít, jděte na [vez_dvere_otevrit]. Pokud o sobě raději dáte vědět a před vstupem spořádaně zaklepete klepadlem, jděte na [vez_dvere_klepadlo]. Pokud se chcete pokusit dveře vyrazit, jděte na [vez_dvere_vyrazit]. Pokud se pokusíte dveře odemknout, jděte na [vez_dvere_odemknout].
+Pokud chcete prostě vzít za kliku a otevřít, jděte na [vez_dvere_otevrit]. Pokud o sobě raději dáte vědět a před vstupem spořádaně zaklepete klepadlem, jděte na [vez_dvere_klepadlo]. Pokud se chcete pokusit dveře vyrazit, jděte na [vez_dvere_vyrazit]. Pokud se pokusíte dveře odemknout či vypáčit, jděte na [vez_dvere_odemknout].
 
 # vez_dvere_vyrazit
 Rozhodli jste se jít do toho naplno. Všichni v družince jste se do sebe zaklesli, ke dveřím se natočili ramenem a chystáte se do nich pěkně s rozběhem vrazit.
@@ -204,7 +210,7 @@ Protože se vám podařilo vyvinout opravdu pořádnou rychlost a sílu nárazu,
 Otřepete se, postavíte se a ocitáte se v chodbičce za dveřmi na [vez_prizemi_chodba].
 
 # vez_dvere_otevrit
-Opatrně vezmete za kliku a připravujete se na nutnost pořádně zabrat, ale ukázalo se že, že klika se celkem snadno pohybuje a bez problémů plní svůj úkol. Panty snad zázrakem nevržou a dveře se téměř neslyšně otevřely. Procházíte do chodbyčky na [vez_prizemi_chodba].
+Opatrně vezmete za kliku a připravujete se na nutnost pořádně zabrat, ale ukázalo se, že klika se celkem snadno pohybuje a bez problémů plní svůj úkol. Panty snad zázrakem nevržou a dveře se téměř neslyšně otevřely. Procházíte do chodbyčky na [vez_prizemi_chodba].
 
 # vez_dvere_odemknout
 Pokud máte šperhák a umíte s ním zacházet, samozřejmě si tohoto luxusu můžete dopřát. S větší pravděpodobností se ale chystáte použít špičku nějaké tenké dýky, nebo možná máte kus drátu. Ať už jste jen nadšení amatéří či profesionélové nočních řemesel, stačilo se o dveře trošku opřít a ty se začaly rovnou otevírat.
@@ -253,6 +259,8 @@ Zadny poklad jste nenasli pokud jste v nej doufali, ale alespon maly stripek inf
 Pri prohlizeni zbytku truhlicky jste si niceho zvlastniho nevsimli. Nyni se vratte na chobu na [vez_prizemi_chodba].
 
 # vez_prizemi_hlavni
+Vstupujete do velké místnosti.
+
 Tato místnost asi měla zapůsobit na různé žadatele kteří asi kdysi přicházeli za majitelem věže. Nejvíc pozornosti na sebe strhává půlkruhové vyvýšené pódium se třemi schody uprostřed jižní zdi. Přímo proti hlavnímu vstupu na něm stojí sice zaprášené, ale krásné a zjevně pohodlné křeslo (pokud tě zajímá, jdi na [vez_prizemi_podium]). Podél stěn občas vidíte trosky polic a jiné harampádí.
 
 Z místnosti vedou celkem 4 dveře. Jedny uprostřed severní zdi (jdi na [vez_prizemi_chodba]), druhé v jiho-východním rohu (jdi na [vez_prizemi_zachod]), třetí v jiho-západním rohu (jdi na [vez_prizemi_nahoru]) a poslední v severo-západním rohu. Všechny vypadají použitelně, až na ty poslední. Tyto dveře jsou zatlučené, jen se hemží hřebíky a hala bala přitlučenými deskami (jdi na [vez_prizemi_spizirna_dvere]).
@@ -345,7 +353,7 @@ Muzes se vratit na [vez_prizemi_hlavni], nebo se pokusit dvere otevrit na [vez_p
 # vez_prizemi_spizirna_dvere_otevrit
 *Vyber postavu (klidne muzes postupne zkouset vice postav z tve druzinky) a hod za ni na obratnost.*
 
-Pokud je vysledna hodnota mensi nez 3, postava se zranila za jeden zivot. Pokud je vysledek mensi nez 5, nepodarilo se dvere otevrit a musis to zkusit s jinym clenem druziny ci jinou postavou. Pokud je hodnota 5 a vetsi, desky zaprastely a dvere se zacali pomalu otevirat. Nyni muzes jit na [vez_prizemi_spizirna]. Pokud chcete otevírání vzdát, nebo se jen chcete vrátit, jděte na [vez_prizemi_hlavni].
+Pokud je vysledna hodnota mensi nez 3, postava se zranila za jeden zivot. Pokud je vysledek mensi nez 5, nepodarilo se dvere otevrit a musis to zkusit s jinym clenem druziny ci jinou postavou. Pokud je hodnota 5 a vetsi, desky zaprastely a dvere se zacali pomalu otevirat. Nyni dvermi muzes projit na [vez_prizemi_spizirna]. Pokud chcete otevírání vzdát, nebo se jen chcete vrátit, jděte na [vez_prizemi_hlavni].
 
 # vez_prizemi_spizirna
 Mistnost kam jste prave vstoupili je pomerne temna nebot nema zadne okno a jedine svetlo do ni pronika z oterenych dveri. Z mistosti vedou schody dolu, asi do sklepa. Ty jsou ale halabala zaházené zbytky trámů a desek, jako by se nekdo snazil rychle zabarikadovat pruchod. Mistnost asi slouzila jako nějaký sklad nebo spižírna - stoji v ni dvojice dlouhych, prázdných, polic. Počkat, nepohlo se něco támhle pod jednou z nich?
@@ -403,7 +411,7 @@ Se schodů už nemáte kam ustoupit, takže se připravte na boj na [vez_prizemi
 # vez_prizemi_spizirna_boj_priprava
 Zachovali jste klidnou hlavu a k nebezpečí se otočili čelem. Ostatně, v téhle zatuchlé tajemné věži jste nějakou tu nebezpečnou potvoru už dlouho čekali. Stoupnete si tak jak je to pro nás výhodné a připravte se na boj.
 
-* Díky tomu že jste se na boj připravili, získáváte východu. Budete začínat a k prvnímu hodu tohoto zápasu si přečtěte jedničku.*
+*Díky tomu že jste se na boj připravili, získáváte východu. Budete začínat a k prvnímu hodu tohoto zápasu si přečtěte jedničku.*
 
 Střetnutí začíná na [vez_prizemi_spizirna_boj]
 
@@ -428,8 +436,6 @@ TODO Boj se dvěma plošticemi zelenými.
 > Doma je na savaně, kde se schovává v trávě či řídkých křovinách a loví králíky a jiné malé hlodavce. Je-li hladová nebo jich je víc, troufne si ale i na mnohem větší kořist.
 > 
 > Při jejím útoku kusadly je možnost, že při zakousnutí vystříkne svůj jed (*ODO 7: zasažení jedem/nic*). Pokud k tomu dojde, jejímu soupeři ochrne jedna končetina a kromě toho že ji potom půl hodiny nemůže pohnout (takže třeba při zasažení nohy nemůže nijak extra chodit), snižuje se postavě po dobu trvání účinků jedu bonus opratnosti o jedna. Během dne může jed použít až třikrát.
-
-
 
 Pokud stále žijete, své dobrodružství pokračujte na [vez_prizemi_spizirna].
 
@@ -468,38 +474,69 @@ Pokud světlo máte, spotřebujte jednu louč nebo jeden díl lampového oleje a
 Pokud jste dostali číslo 3 a méně, jděte na [vez_sklep_prechod_neuspech]. Pokud 4 a více, jděte na [vez_sklep_prechod_uspech].
 
 # vez_sklep_prechod_bez_svetla
+Vybraný člen družinky nohou nahmatal kládu a začal se po ní krůček po krůčku sunout přes nevábně vonící stoku. Netrvalo ale dlouho a stalo se co se muselo stát. Uklouznutí, ztráta rovnováhy a pád do stoky.
+
+*Charisma postavy klesá o 3 body a zůstane tak, dokud se postava někde pořádně nevykoupe.*
+
+Stoje v slabém proudu stoky teď může pomoci převést ostatní po kládě. Ocitáte se tak na druhé straně a můžete pokračovat na [vez_sklep_hnizdo].
+
+Nebo se na to chcete vykašlat a vrátit se ke schodům do sklepa? Pak jděte na [vez_sklep_vstup].
 
 # vez_sklep_prechod_neuspech
-[vez_sklep_hnizdo]
+Postava uklouzla a zřítila se do smrduté stoky. Sice se jí na poslední chvíli podařilo zachytit nějaké trčící větve, ale stoka si i tak vybrala svou daň.
+
+*Charisma postavy klesá o 2 body a zůstane tak, dokud se postava někde pořádně nevykoupe.*
+
+Stoje v slabém proudu stoky teď může pomoci převést ostatní po kládě. Ocitáte se tak na druhé straně a můžete pokračovat na [vez_sklep_hnizdo].
+
 Nebo se na to chcete vykašlat a vrátit se ke schodům do sklepa? Pak jděte na [vez_sklep_vstup].
 
 # vez_sklep_prechod_uspech
-[vez_sklep_hnizdo]
-[vez_sklep_vstup]
+Dobrovolníkovi se podařilo neuklouznout a bezpečně přejít nad smradlavou stokou. Nyní se může z druhé strany natáhnou a podat ruku dalším členům družinky kteří teď přecházejí. Přechod je tak mnohem bezpečnější a všem se to bez problémů podaří. Pokračujte dál chodbou na [vez_sklep_hnizdo].
 
 # vez_sklep_hnizdo
-[vez_sklep_hnizdo_uprk]
-[vez_sklep_hnizdo_vytezstvi]
+Krátkou chodbou od přechodu přes stoku přicházíte do středně velké čtvercové místnosti. Podlaha místnosti je plná větviček, hadrů a malých kostí. Nemáte ale čas si ji prohlížet, protože s podrážděným pištěním se na vás vrhnou krysí obyvatelé této části sklepení.
+
+Dřív než cokoli jiného si družina musí poradit s:
+
+* 3 Krysy obří (životy 5 životy, 3 životy a 3 životy, ÚČ: +2, OČ: +1, zkušenosti: 5)
+* 3 Krysy obyčejné (životy 2 životy, 2 životy a 1 život, ÚČ: 0, OČ: 0, zkušenosti: 1)
+
+Pokud se vám ze zjevné přesily rozklepala kolena a chcete si zachránit život, můžete se pokusit uprchnout. Není to jistota, ale pokusit se o to můžete na [vez_sklep_hnizdo_uprk].
+
+Pokud budete bojovat a nemáte světlo, každý váš hod na útok či obranu zmenšete o 3. Pokud světlo máte, odškrtněte si jednu louči či jeden díl lampového oleje. Nyní bojujte a pokud jste přežili, jděte na [vez_sklep_hnizdo_vytezstvi].
 
 # vez_sklep_hnizdo_uprk
-[vez_sklep_prechod_zpet]
+Hlava nehlava prcháte před smečkou krvežíznivých krys. Jak utíkáte, krysy na vás stihnou ještě dvakrát zaútočit. Vy na ně v těchto dvou kolech ale útočit nemůžete, protože utíkáte co vám síly stačí. Můžete se jen bránit.
+
+*Za každou krysu budete dvakrát útočit. Členům družinky přiřaďte čísla (například v trojčlenné družince to budou 1, 2 a 3) a házejte kostkou tak dlouho až padne jedno z nich. Na toho pak krysa útočí jako obyčejně. Napadená postava se může bránit jako obyčejně, nemůže ale útočit.*
+
+Pokud útěk někdo přežil, nechť pokračuje na [vez_sklep_prechod_zpet].
 
 # vez_sklep_hnizdo_vytezstvi
-[vez_sklep_hnizdo_prohledavani]
-[vez_sklep_prechod_zpet]
+Podařilo se vám to. Přežili jste boj s těmi krvežíznivými potvorami. Z místností ve které měly své doupě už žádná další cesta nevede, takže se můžete vrátit k přechodu přes stoku na [vez_sklep_prechod_zpet].
+
+Pokud to tu chcete prohledat a prohrabovat se tím nepořádkem který vám křupe pod nohama, jděte na [vez_sklep_hnizdo_prohledavani].
 
 # vez_sklep_hnizdo_prohledavani
-[vez_sklep_hnizdo_prohledavani_otrava]
-[vez_sklep_hnizdo_prohledavani_nic]
-[vez_sklep_hnizdo_prohledavani_uspech]
+Prohledat tenhle nepořádek rozhodně nebude jednoduchá a bezpečná záležitost. Zcela jistě je to koledování si o otravu krve, ale vidina nějakého ztraceného bohatství vás nenechá odejít bez toho abyste to zkusili.
+
+*Vyberte postavu z družinky která povede pátrání a hoďte za ni na odolnost. Spíš než hledání se tu jedná o schopnost nezranit se, takže třeba dovednost "hledání skrytého" tu nepomůže.*
+
+Pokud jste dostali číslo 1 a méně, jděte na [vez_sklep_hnizdo_prohledavani_otrava]. Pokud 2 nebo 3, jděte na [vez_sklep_hnizdo_prohledavani_nic]. Pokud 4 a více, jděte na [vez_sklep_hnizdo_prohledavani_uspech].
 
 # vez_sklep_hnizdo_prohledavani_otrava
-[vez_sklep_hnizdo_vytezstvi]
+Při prohrabování obsahem krysího hnízda jste se snažili o nic nepoškrábat, protože všudypřítomná špína by ráně neprospěla. Používali ste proto hlavně nohy a rozhrabovali nánosy nohama. V jednu chvíli jste ale uklouzli na něčem co rozhodně zkoumat nechcete a jednu ostrou a špinavou větev si zapýchli přímo do hýždě.
+
+*Zranění postavu stálo 3 životy.*
+
+Vraťte se na [vez_sklep_hnizdo_vytezstvi].
 
 # vez_sklep_hnizdo_prohledavani_nic
-[vez_sklep_hnizdo_vytezstvi]
+Prohrabovali jste se nepořádkem na zemi, ale moc se vám do toho nechtělo. Na nic jste nenarazili a tak jděte na [vez_sklep_hnizdo_vytezstvi].
 
 # vez_sklep_hnizdo_prohledavani_uspech
+Prohrabujete se nepořádkem a v rohu místnosti, v hnízdě z tenkých větviček a krysí srsti jste si všimli něčeho blýskavého. Opatrně jste to tam prohrabali a s tím co jste našli jste nad míru spokojeni TODO
 [vez_sklep_hnizdo_prohledavani_uspech_neodhadovani]
 [vez_sklep_hnizdo_prohledavani_uspech_odhadovani]
 
