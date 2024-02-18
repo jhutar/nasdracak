@@ -133,7 +133,7 @@ Starý muž se se usměje a povídá:
 "Ba ba, klidně zase přijďte. Vím třeba jak se stavěla naše radnice a kdo z toho co měl. To byste se divili..." volá za vámi ještě děda. Teď se vraťte na [patrani_vyptavani].
 
 # patrani_babicka
-Prijdete k ...
+Prijdete k oddechující babičce a zeptáte se jí na věž před hradbami.
 
 "No být váma, tam bych rozhodně nechodila. Strašilo tam už když jsem byla malá a teď se to prý ještě zhoršilo. Lidi tam prý viděli zářící duchy a slyšeli pekelný rejdy."
 
@@ -379,7 +379,7 @@ Takze bylo to takhle:
 
 > Ty tramy a desky pokryte tu a tam holubym trusem jsou ve skutecnosti z hlavni mistnosti v prizemi veze. Nekdo je sem prenesl pred tim nez dvere zatloukl. Bud tu tehdy jeste ty dve plostice zelene nebyly, nebo byly zrovna nekde zalezle, nebo je sem jen hazeli otevrenymy dvermi. Asi se pokouseli zjistit ze co je ve sklepe zustane ve sklepe. Kdo a proc to udelal se snad jeste ukaze.
 
-Pokud jste to trefili a odhadli jste ze tramy myly ze sousedni mistnosti, muzete kazde postave pridat jedeno bod zkusenosti. Pokud ne, nic se nedeje. Ted se vratte na [vez_prizemi_spizirna_schody] a pokracujte kde jste prestali.
+Pokud jste to trefili a odhadli jste ze tramy byly ze sousedni mistnosti, muzete kazde postave pridat jeden bod zkusenosti. Pokud ne, nic se nedeje. Ted se vratte na [vez_prizemi_spizirna_schody] a pokracujte kde jste prestali.
 
 # vez_prizemi_spizirna_schody_sviceni
 Moudre jste pouzili svetlo a vyvarovali jste se moznych zraneni a schody jsou ted volne. Odepiste si jednu pochoden nebo jeden dil lampoveho oleje a jdete bud dolu po schodech na [vez_sklep_vstup], nebo se vratte do hlavni mistnosti veze na [vez_prizemi_hlavni].
@@ -536,29 +536,62 @@ Vraťte se na [vez_sklep_hnizdo_vytezstvi].
 Prohrabovali jste se nepořádkem na zemi, ale moc se vám do toho nechtělo. Na nic jste nenarazili a tak jděte na [vez_sklep_hnizdo_vytezstvi].
 
 # vez_sklep_hnizdo_prohledavani_uspech
-Prohrabujete se nepořádkem a v rohu místnosti, v hnízdě z tenkých větviček a krysí srsti jste si všimli něčeho blýskavého. Opatrně jste to tam prohrabali a s tím co jste našli jste nad míru spokojeni TODO
-[vez_sklep_hnizdo_prohledavani_uspech_neodhadovani]
-[vez_sklep_hnizdo_prohledavani_uspech_odhadovani]
+Prohrabujete se nepořádkem a v rohu místnosti, v hnízdě z tenkých větviček a krysí srsti jste si všimli něčeho blýskavého. Opatrně jste to tam prohrabali a s tím co jste našli jste nad míru spokojeni. Ve vaší dlani se zaleskly 2 prsteny a jedna naušnice.
+
+Jsou krásné a jistě budou i cenné. Pokud má některá postava v družince dovednost "odhadování ceny", jděte na [vez_sklep_hnizdo_prohledavani_uspech_odhadovani], jinak na [vez_sklep_hnizdo_prohledavani_uspech_neodhadovani].
 
 # vez_sklep_hnizdo_prohledavani_uspech_neodhadovani
-2 prsteny a jedna náušnice s neznamou cenou. Zapiste si je do deniku a poznacte si ze pochazi z krysiho pokladu.
-Pozdeji je muzete prodat ve meste u sperkare na [mesto_sperkar_krysipoklad_neodhadnuty]. Ted si cislo jen zapiste, na konci dobrodruzstni na nej muzete jit a sperky prodat.
-[vez_sklep_prechod_zpet]
+Nyní si dva prsteny a jednu náušnici s neznámou cenou zapište do osobního deníku. Poznačte si, že pochází z krysího pokladu. Později je můžete prodat ve městě u šperkaře na [mesto_sperkar_krysipoklad_neodhadnuty]. Teď si číslo jen zapište, na konci dobrodružství na něj můžete jít a šperky prodat.
+
+Nyní se vraťte na [vez_sklep_prechod_zpet].
 
 # vez_sklep_hnizdo_prohledavani_uspech_odhadovani
-2 prsteny a jedna náušnice v cene 50, 80 a 40 zlatých. Zapiste si je i s cenou, budete mit bonus pri smlouvani o cene.
-Pozdeji je muzete prodat ve meste u sperkare na [mesto_sperkar_krysipoklad_odhadnuty]. Ted si cislo jen zapiste, na konci dobrodruzstni na nej muzete jit a sperky prodat.
-[vez_sklep_prechod_zpet]
+Člen z vaší družinky s dovedností "odhad ceny" se na ony dva prsteny a jednu náušnici vezme do ruky, omyje je vodou z čutory a pečlivě je prohlíží. "Řekl bych, že nám tu do klína spadlo malé bohatství. Tenhle prsten, ten bez kamene bych odhadl na 50 zlatých. Ten druhý, s tím malým kamínkem, asi rubínem, tak na 80. A ta naušnice, řekněme, 40 zlatých."
+
+*Zapište si je všechny i s cenou, u šperkaře budete mit bonus při smlouváni o ceně.*
+
+Později je můžete prodat ve městě u šperkaře na [mesto_sperkar_krysipoklad_odhadnuty]. Teď si číslo jen zapište, na konci dobrodružství na něj můžete jít a šperky prodat.
+
+Nyní se vraťte na [vez_sklep_prechod_zpet].
 
 # vez_sklep_prechod_zpet
-[vez_sklep_prechod_zpet_neuspech]
-[vez_sklep_prechod_zpet_uspech]
+Vrátili jste se zpět k přechodu přes podzemní stoku. Stále ještě oddechujete po setkání s hrozivými obřími krysami.
+
+Jak vlastně myslíte že se sem do podzemí ty obří krysy dostaly? Čím se tady živí? Pokud si myslíte že máte odpověď aspoň na jednu z otázek a chcete si ověřit že je správná, jděte na [vez_sklep_hnizdo_vysvetleni].
+
+Pokud chcete prostě přejít na druhou stranu, zase zvolte jednoho z družinky kdo se o to pokusí jako první a pomůže ostatním. S balancováním na naplavené kládě už máte jisté zkušenosti, přesto to nebude zadarmo.
+
+*Za vybranou postavu hoďte na obratnost a má-li postava dovednost "akrobacie", nezapomeňte připočítat bonus.*
+
+Pokud jste dostali číslo 2 a méně, jděte na [vez_sklep_prechod_zpet_neuspech]. Pokud 3 a více, jděte na [vez_sklep_prechod_zpet_uspech].
+
+# vez_sklep_hnizdo_vysvetleni
+Máte teorii ohledně těchto dvou otázek?
+
+* Jak se sem do podzemí ty obří krysy dostaly?
+* Čím se vlastně živí?
+
+Klidně se o tom poraďte pokud vás hraje víc a zkuste přijít s nějakou teorií. Máte to? Shodli jste se? Ověřte si svou teorii na [vez_sklep_hnizdo_vysvetleni_overeni].
+
+# vez_sklep_hnizdo_vysvetleni_overeni
+Takže je to takhle:
+
+> Stoka kterou jste překračovali teče z města. Když jste stoku přecházeli po kluzké kládě, všimli jste si velké mříže. Ta zabraňuje projít stokou z města do mágovy věže či naopak, ale pro krysi překážku nepředstavuje. Krysi se tedy chodí krmit do stok pod městem, kde je vždy hojnost různých čerstvých odpadků. Skrýš pod věží za pevnou mříží jim zase poskytuje klidné útočiště.
+> Ve věži pak i dlouho po odchodu dávného mága asi zůstává nějaká zbytková magie a tak krysy které se tu rodily byly generaci od generace větší až vznikly ty příšery se kterými jste měly tu čest.
+
+Pokud jste se alespoň s jednou odpovědí trefili, můžete každé postavě přidat jeden bod zkušenosti. Pokud ne, nevadí. Vraťte se na [vez_sklep_prechod_zpet] a pokačujte s přechodem klády.
+
+
 
 # vez_sklep_prechod_zpet_neuspech
-[vez_sklep_vstup]
+Postava uklouzla a zřítila se do smrduté stoky. Sice se jí na poslední chvíli podařilo zachytit nějaké trčící větve, ale stoka si i tak vybrala svou daň.
+
+*Charisma postavy klesá o 2 body a zůstane tak, dokud se postava někde pořádně nevykoupe.*
+
+Neštasťastný člen družinky se přebrodil na druhou stranu a pomohl ostatním bezpečně přelást na [vez_sklep_vstup].
 
 # vez_sklep_prechod_zpet_uspech
-[vez_sklep_vstup]
+S trochou balancování a opatrného našlapování se vybranému členu družinky podařilo přelézt druhou stranu a potom i pomoci ostatním dostat se tam. Pokračujte na [vez_sklep_vstup].
 
 
 
