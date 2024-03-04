@@ -699,7 +699,9 @@ Postava hledí do místnosti a chvíli přemýšlí. Potom pečlivě ohmatává 
 Prohmatáváte stěny, odhrnuli jste nějaké ty pavučiny a dokonce prohlédli podlahu a hledali natažená lanka. Po chvilce si oddechnete. Všechno vypadá úplně normálně a tak se konečně vydáte podívat se na truhlu na konci chodbičky na [vez_prvni_tajna_jdeme_nevi].
 
 # vez_prvni_tajna_pruzkum_uspech
-[vez_prvni_tajna_jdeme]
+Opatrně prohledáváte místnost. Prohmatáváte spáry mezi kameny a hledáte cokoliv podezřelého. Ve chvíli kdy už se to chystáte vzdát vás naráz něco upoutá. Když se podíváte ze správného úhlu ve stěnách ve stěně vidíte řadu malých kruhových otvorů. Vypadá to příliš pravidelně na to aby to tam bylo náhodou. Zaměříte na ně svou pozornost a napadlo vás že by to mohli být ústí pro nějaké střely. Kde je ale jejich spouštěcí mechanismus? Pečlivě zkoumáte podlahu a všimnete si že spáry mezi kachličkami jsou volné vypadá to jakoby nějaké kachličky po došlápnutí aktivovali past. Ale které to budou? Černé nebo bílé?
+
+Ty kachličky vám připadají velmi podezřelé. Nakonec se rozhodnete že to prostě vyzkoušíte. Lehnete si, velmi opatrně se natáhnete a zkusíte zmáčknout bílou kachličku. Nic se nestane. Že by past spouštěli až kachličky dále v místnosti? Jen pro pořádek zkusíte zmáčknout ještě černou kachličku. Téměř se leknete když kachlička zajede asi centimetr níže. Ozve se tiché cvaknutí a ze všech otvorů vyletí černé šipky. Díky vaší opatrnosti a nic nezpůsobí jen neškodně narazí do protější zdi. Nyní se můžete vydat těch pár kroků místností a víte že musíte šlapat pouze na bílé kachličky. Učiňte tak [vez_prvni_tajna_jdeme].
 
 # vez_prvni_tajna_jdeme
 *Vyberte která postava půjde jako první.*
@@ -707,46 +709,82 @@ Prohmatáváte stěny, odhrnuli jste nějaké ty pavučiny a dokonce prohlédli 
 [vez_prvni_tajna_jdeme_bile]
 
 # vez_prvni_tajna_jdeme_nevi
+Cítíte v kostech že tohle nedopadne dobře ale už jste si vybrali. Žádnou past jste nenašli a tak vykročíte do místnosti.
+
 *Vyberte která postava půjde jako první.*
 
-[vez_prvni_tajna_jdeme_cerne]
+Pokračujte na [vez_prvni_tajna_jdeme_cerne].
 
 # vez_prvni_tajna_jdeme_bile
-[vez_prvni_tajna_jdeme_bile_preslapnuti]
-[vez_prvni_tajna_jdeme_bile_nepreslapnuti]
+*Vyberte postavu která se vydá do místnosti.*
+
+Procházíte místnosti a opatrně našlapujete pouze po bílých kachličkách. Jste tak opatrní až občas zavrávoráte. Podaří se vám dojít bez přešlápnutí? Hoďte si na odolnost (pokud má postava dovednost akrobacie připočítejte její bonus) a pokud dostanete méně než TODO tak [vez_prvni_tajna_jdeme_bile_preslapnuti] pokud dostanete TODO a více tak [vez_prvni_tajna_jdeme_bile_nepreslapnuti].
 
 # vez_prvni_tajna_jdeme_bile_preslapnuti
-[vez_prvni_tajna_jdeme_cerne]
+Snažíte se našlapovat co nejpečlivěji a nejpomalej a možná právě proto mírně ztratili rovnováhu. Vaše tělo se naklonilo dozadu a museli jste tak posunout nohu a tím jste sotva o palec přešlápli bílou kachličku. Cítíte jak černá kachlička na které spočinula vaše váha mírně zajíždí do podlahy. Potom už jen slyšíte svistot šipek.
+
+*Hoďte si na obratnost (připočítejte případný bonus za dovednost akrobacie).*
+
+Pokud jste dostali číslo menší než TODO tak [vez_prvni_tajna_jdeme_cerne_neuhnuti], pokud TODO a větší tak [vez_prvni_tajna_jdeme_cerne_uhnuti].
 
 # vez_prvni_tajna_jdeme_bile_nepreslapnuti
-[vez_prvni_tajna_truhla]
+Stálo vás to spoustu Opatrného našlapování a pěkných pár kapek potu ale nakonec se dostáváte až truhle nakonec na konci místonosti na [vez_prvni_tajna_truhla].
 
 # vez_prvni_tajna_jdeme_cerne
-[vez_prvni_tajna_jdeme_cerne_neuhnuti]
-[vez_prvni_tajna_jdeme_cerne_uhnuti]
+Stoupli jste na černou kachličku a ucítili jak klesá pod vaší váhou. Ozvalo se tiché lupnutí a ze stěn vystřelili šipky. Vaše postava má však výtečné reflexy a možná se jí podaří se šipkám vyhnout?
+
+*Hoďte na obratnost a (pokud má postava dovednost akrobacie při počítejte si bonus)*.
+
+Pokud vám padlo TODO a méně pokračujte na [vez_prvni_tajna_jdeme_cerne_neuhnuti].
+
+Pokud padlo TODO a více jděte na [vez_prvni_tajna_jdeme_cerne_uhnuti].
 
 # vez_prvni_tajna_jdeme_cerne_neuhnuti
-[vez_prvni_tajna_truhla]
+Z otvorů ve stěnách vyletěly šipky. Většina jich neškodně narazila do protější zdi, ale dvě si našly svůj cíl. Jedna se vám zabodla hluboko do stehna a druhá škrábla na břiše. "Áaaaa" zavili jste bolestí, ale podařilo se vám zůstat stát a zabránit tak vystřelení dalších šipek.
+
+*Vaše postava si odepíše TODO životů.*
+
+Pokračujte dál k truhle na konci místnosti na [vez_prvni_tajna_truhla]. Pokud postava zemřela a chcete to zkusit s jinou, začněte znovu na TODO. (TODO Přidat tam i možnost osobně se rozhodnout jestli půjdeme po bílých nebo černých.)
 
 # vez_prvni_tajna_jdeme_cerne_uhnuti
-[vez_prvni_tajna_truhla]
+Z otvoru ve stěnách vyletěly šipky. Jejich rychlost však nedokázala překonat rychlost tvých reflexů. Všiml sis že většina šipek míří kamsi na nohy a podařilo se ti nadskočit tak že šipky neškodně prolétly. Jen jednu jsi si po této akrobatické eskapádě vytahoval z hrotem šipky roztržených kalhot, ale to je malá cena za zdraví. Pokračuj k truhle na [vez_prvni_tajna_truhla].
 
 # vez_prvni_tajna_truhla
-[vez_prvni_tajna_truhla_pruzkum]
-[vez_prvni_tajna_truhla_magenergie]
-[vez_prvni_tajna_truhla_otevreni]
-[vez_prvni_loznice]
+Konečně jsi se dostal k vytoužené truhle. Je dřevěná a pobitá železnými pruty. Připadá ti podezřelé, že na ní není žádný zámek. Když už si někdo dal tolik práce s tím, aby se k truhle žádný zloděj nedostal, proč ji potom nechal nezamčenou?
+
+Pokud máš podezření na nějaké nepříjemné překvapení, můžeš truhlu opatrně prohledat na [vez_prvni_tajna_truhla_pruzkum].
+
+Pokud má postava na průzkumu dovednost "vycítění magenergie" TODO, můžete ji zkusit využít na něco [vez_prvni_tajna_truhla_magenergie].
+
+Pokud chcete truhlu prostě otevřít, učiňte tak na [vez_prvni_tajna_truhla_otevreni].
+
+Můžete se samozřejmě také vrátit do ložnice na [vez_prvni_loznice] a na truhlu zapomenout.
 
 # vez_prvni_tajna_truhla_pruzkum
-[vez_prvni_tajna_truhla]
+Velmi opatrně prohlížíš truhlu. Nejdřív jen pohledem, potom přidáš opatrné doteky. Ať se snažíš jak se snažíš, nevypadá to že by truhla byla zapasťovaná. Vrať se na [vez_prvni_tajna_truhla].
 
 # vez_prvni_tajna_truhla_magenergie
-[vez_prvni_tajna_truhla]
+Opatrně položíš na truhlu ruce, zavřeš oči a soustředíš se přesně tak jak je to potřeba při pokusu vycítit magickou energii. Po chvilce se ti v mysli objeví obraz místnosti vybledlý do odstínů šedi. Vše je černé či šedé, jen místo truhly vidíš přelévat se slabě zářící uzlík duhové magie. Odhaduješ, že k truhle je připoutaný nějaký slabší duch. Jaké má ale rozkazy nevíš.
+
+Pokračuj na [vez_prvni_tajna_truhla].
 
 # vez_prvni_tajna_truhla_otevreni
-[vez_prvni_loznice]
+Rozhodl jsi se truhlu otevřít. Opatrně k ní natahuješ ruku, chytáš víko a otevíráš ji. *Pokud máte v družině postavu s dovedností "vycítitění magie" TODO jdi na [vez_prvni_tajna_truhla_otevreni_zavanmagie].* Pokud ne, nic se neděje. Ničeho jste si nevšimli a truhlu jste bez problémů otevřeli.
+
+Do truhly se podíváš na [vez_prvni_tajna_truhla_otevreni_obsah].
+
+# vez_prvni_tajna_truhla_otevreni_zavanmagie
+Při otevření truhli jsi pocítil že bylo splněno nějaké kouzlo. Připadalo ti, jako by se jednalo o nějaký poplach, ale slabý, jako by se rozbil už před mnoha lety. Nebo to mohlo být tím že byl kdysi zacílený na konkrétní osobu, ale ta už na tomto světě nemá, a tak se zbytky kouzla rozplynuly v magické dimenzi bez zamýšleného efektu?
+
+Každopádně zdá se že je možné se teď v klidu podívat do truhly a tak pokračuj na [vez_prvni_tajna_truhla_otevreni_obsah].
+
+# vez_prvni_tajna_truhla_otevreni_obsah
+TODO
+
+Nic dalšího tu k vidění není, a tak se vracíš do ložnice na [vez_prvni_loznice].
 
 # vez_prvni_loznice_postel
+
 [vez_prvni_loznice_postel_poletuchy]
 
 # vez_prvni_loznice_postel_poletuchy
