@@ -779,9 +779,32 @@ Při otevření truhli jsi pocítil že bylo splněno nějaké kouzlo. Připadal
 Každopádně zdá se že je možné se teď v klidu podívat do truhly a tak pokračuj na [vez_prvni_tajna_truhla_otevreni_obsah].
 
 # vez_prvni_tajna_truhla_otevreni_obsah
-TODO
+Truhla není nijak velká, přesto je naplněná jen skromně. Na dně leží kožený měšec, dvě malé skleněné lahvičky (takzvané "flakónky") a smotek papíru opatřený malou pečetí.
+
+Tvé ruce jako první hmátly po lahvičkách. První má skleněný špunt po okrajích zalitý voskem. Kapalina je průhledná, zbarvená do světle žluta. Druhá potom obsahuje temně rudou kapalinu.
+
+Pokud je v tvé družince postava s dovedností "Alchymie" TODO, o nalezených lektvarech se můžeš dozvědět něco více na [vez_prvni_tajna_truhla_otevreni_obsah_lektvary]
+
+Dále jsi v ruce potěžkal měšec. Příjemně to v něm cinkalo a když jsi jeho obsah přepočítal, vyšlo ti krásných 55 zlatých.
+
+Jako poslední jsi z truhly vytál do ruličky smotaný list papíru. Je zajištěný pečetí s nějakým složitým alchymistickým znakem. V rohu ale navíc vidíte uhlem psanou poznámku „ochr. p. nemrt. 9, pro Soreha, zaplaceno“. Pokud máš v družince někoho s dovedností "Svitky" TODO, můžeš se dozvědět více na [vez_prvni_tajna_truhla_otevreni_obsah_svitek]. Pokud chceš přelomit pečeť a podívat se jaká tajemství jsou napsána uvnitř, jdi na [vez_prvni_tajna_truhla_otevreni_obsah_svitek_aktivace].
 
 Nic dalšího tu k vidění není, a tak se vracíš do ložnice na [vez_prvni_loznice].
+
+# vez_prvni_tajna_truhla_otevreni_obsah_lektvary
+Alchymista/ka družiny se na lektvary zahleděl: "Podívejte na tenhle, na ten pečlivě zajištěný skleněný špunt. A ta barva! Tohle vypadá na Megacloumák. Vdechuje se a rychle se odpařuje, takže nedoporučuji otevírat pokud nepotřebujete někoho probrat z mdlob nebo omráčení. Je i mírně léčivý, ale nemá se používat moc často, není to žádné ořezávátko." Potom vzal do ruky ten druhý, otevřel ho, přičichl a spokojeně pokýval hlavou: "A tady je zase zcela zachovalý Lektvar rudého kříže. Vynikající při léčení vážných zranění, ale nikdy by se neměli brát dva zároveň nebo krátce po sobě, to pak můžou mít účinek opačný."
+
+Vrať se k prohlížení obsahu truhly na [vez_prvni_tajna_truhla_otevreni_obsah]
+
+# vez_prvni_tajna_truhla_otevreni_obsah_svitek
+Ten kdo se v družince vyzná ve svitcích se podívá na pečeť bez přemýšlení povídá: "No tak tohle je svitek pro ochranu před nemrtvými. To se pozná podle znaku na pečeti. Pokud ho chcete použít, stačí zlomit. A soudě podle té poznámky tady na boku, jak je tu ta devítka, tak myslím že to urˇčuje jeho sílu a řeknu vám, devítka to je celkem jistota."
+
+Vrať se k prohlížení obsahu truhly na [vez_prvni_tajna_truhla_otevreni_obsah]
+
+# vez_prvni_tajna_truhla_otevreni_obsah_svitek_aktivace
+Opatrně jsi zatlačil na plošku pečetě aby praskla a umožnila ti svitek rozbalit. Když praskla, přejela tebou vlna horkosti ale přičítal jsi to dlouhému napětí které několik posledních hodin zažívǎš když se plížíš touhle zatracenou věží. Svitek jsi rycle rozbalil a ještě jsi stihl zahlédnout blednoucí písmena vyvedená neznámým písmem. Přímo před tvýma očima nápis zmizel a ať na svitek svítíš jak chceš, držíš v ruce jen kus prázdného papíru.
+
+Vrať se k prohlížení obsahu truhly na [vez_prvni_tajna_truhla_otevreni_obsah]
 
 # vez_prvni_loznice_postel
 
