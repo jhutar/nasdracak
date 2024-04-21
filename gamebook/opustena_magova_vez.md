@@ -807,8 +807,9 @@ Opatrně jsi zatlačil na plošku pečetě aby praskla a umožnila ti svitek roz
 Vrať se k prohlížení obsahu truhly na [vez_prvni_tajna_truhla_otevreni_obsah]
 
 # vez_prvni_loznice_postel
+Široká postel má sloupky vyřezávané do spirály. Sloupky jsou vysoké a nahoře drží lehká nebesa která asi dříve nesla látku jako ochranu. V létě před hmyzem, v zimě před chladem. Po té látce ale nic nezbylo a je vidět přímo do postelena které je nevábně vypadající slamník a přes něj přehozená stará, místy rozežraná deka. Možná se vám to jenom zdálo, ale připadá vám, že pod dekou se něco pohnulo. Mohly by to být nějaké myši. Pokud vám to stojí za práci, můžete se přesvědčit na [vez_prvni_loznice_postel_poletuchy].
 
-[vez_prvni_loznice_postel_poletuchy]
+Postel jste ze všech stran okoukli, ale nevypadá to že by se v ní mohl schovávat nějaký úkryt nebo pod ní nějaké nebezpečí. Tak jste si jí přestali všímat a vrátili se k průzkumu té části patra které asi bylo ložnicí na [vez_prvni_loznice].
 
 # vez_prvni_loznice_postel_poletuchy
 [vez_prvni_loznice_postel_poletuchy_znalost]
