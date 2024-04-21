@@ -783,7 +783,7 @@ Truhla není nijak velká, přesto je naplněná jen skromně. Na dně leží ko
 
 Tvé ruce jako první hmátly po lahvičkách. První má skleněný špunt po okrajích zalitý voskem. Kapalina je průhledná, zbarvená do světle žluta. Druhá potom obsahuje temně rudou kapalinu.
 
-Pokud je v tvé družince postava s dovedností "Alchymie" TODO, o nalezených lektvarech se můžeš dozvědět něco více na [vez_prvni_tajna_truhla_otevreni_obsah_lektvary]
+Pokud je v tvé družince postava s dovedností "Alchymie" TODO, o nalezených lektvarech se můžeš dozvědět něco více na [vez_prvni_tajna_truhla_otevreni_obsah_lektvary]. Pokud chcete místo toho pro určení lektvarů využít služeb městské kořenářky, zapište si číslo [mesto_korenarka_lektvary_truhla] a až ji navštívíte, zajděte i na to číslo a nechte si lektvary určit.
 
 Dále jsi v ruce potěžkal měšec. Příjemně to v něm cinkalo a když jsi jeho obsah přepočítal, vyšlo ti krásných 55 zlatých.
 
@@ -797,7 +797,7 @@ Alchymista/ka družiny se na lektvary zahleděl: "Podívejte na tenhle, na ten p
 Vrať se k prohlížení obsahu truhly na [vez_prvni_tajna_truhla_otevreni_obsah]
 
 # vez_prvni_tajna_truhla_otevreni_obsah_svitek
-Ten kdo se v družince vyzná ve svitcích se podívá na pečeť bez přemýšlení povídá: "No tak tohle je svitek pro ochranu před nemrtvými. To se pozná podle znaku na pečeti. Pokud ho chcete použít, stačí zlomit. A soudě podle té poznámky tady na boku, jak je tu ta devítka, tak myslím že to urˇčuje jeho sílu a řeknu vám, devítka to je celkem jistota."
+Ten kdo se v družince vyzná ve svitcích se podívá na pečeť bez přemýšlení povídá: "No tak tohle je svitek pro ochranu před nemrtvými. To se pozná podle znaku na pečeti. Pokud ho chcete použít, stačí zlomit. A soudě podle té poznámky tady na boku, jak je tu ta devítka, tak myslím že to určuje jeho sílu a řeknu vám, devítka to je celkem jistota."
 
 Vrať se k prohlížení obsahu truhly na [vez_prvni_tajna_truhla_otevreni_obsah]
 
@@ -1000,6 +1000,13 @@ Pokud tu už nic nepotřebujete, buď se vraťte tam kde jste přestali, nebo se
 
 # mesto_korenarka
 [mesto_rozcetnik]
+
+# mesto_korenarka_lektvary_truhla
+Urceni lektvaru z pudy za penize - toto je jen kopie jineho textu ktery se da pouzit:
+
+Alchymista/ka družiny se na lektvary zahleděl: "Podívejte na tenhle, na ten pečlivě zajištěný skleněný špunt. A ta barva! Tohle vypadá na Megacloumák. Vdechuje se a rychle se odpařuje, takže nedoporučuji otevírat pokud nepotřebujete někoho probrat z mdlob nebo omráčení. Je i mírně léčivý, ale nemá se používat moc často, není to žádné ořezávátko." Potom vzal do ruky ten druhý, otevřel ho, přičichl a spokojeně pokýval hlavou: "A tady je zase zcela zachovalý Lektvar rudého kříže. Vynikající při léčení vážných zranění, ale nikdy by se neměli brát dva zároveň nebo krátce po sobě, to pak můžou mít účinek opačný."
+
+Pokud chcete u babky ještě něco zařídit, jděte na [mesto_korenarka], jinak se vraťte do města na [mesto_rozcetnik].
 
 # mesto_kolonial
 [mesto_rozcetnik]
