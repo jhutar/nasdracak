@@ -880,31 +880,43 @@ Vše podstatné ve věži máte prozkoumané, takže se asi můžete vrátit k p
 Pokud se chcete ještě porozhlédnout po věži, vraťte se do ní na [vez_treti_hlavni], ale číslo [zemlicka_hlaseni_30p] si zapamatujte a kdykoli se za Žemličkou můžete vydat.
 
 # vez_konfrontace_pozorovani
-Přikrčíte se aby vás zdola nebylo vidět a dva příchozí chvíli pozorujete. Jsou to dva prostě oblečení hoši, v učňovském věku. Brzo bylo jisté že směřují do věže a tak co nejrychleji a zároveň co nejtišeji seběhnete na dlouhé schody které vedou z přízemí s trůnem do prvního patra. Mírně pootevřete dveře a naskládáte se kolem škvíry tak, abyste všichni dobře slyšeli. Nemusíte ani dlouho čekat a uslyšíte kroky. to do hlavní místnosti s trůnem přichází oni dva. Zdá se že si vás nevšimli, což je dobré znamení.
+Přikrčíte se aby vás zdola nebylo vidět a dva příchozí chvíli pozorujete. Jsou to dva prostě oblečení hoši, v učňovském věku. Brzo bylo jisté že směřují do věže a tak co nejrychleji a zároveň co nejtišeji seběhnete na dlouhé schody které vedou z přízemí do prvního patra. Mírně pootevřete dveře a naskládáte se kolem škvíry tak, abyste všichni dobře slyšeli. Nemusíte ani dlouho čekat a uslyšíte kroky. To do hlavní místnosti s trůnem přichází ti dva. Zdá se že si vás nevšimli, což je dobré znamení.
 
-Pokud budete chtít jen sedět a poslouchat co se bude dít, jděte na [vez_konfrontace_pozorovani_poslouchani]. Sice riskujete že vás odhalí, ale mohlo by to klapnout. Jen doufáte, že se nechystají vyvolávat nějaká nečistá stvoření.
+Pokud budete chtít jen sedět a poslouchat co se bude dít, jděte na [vez_konfrontace_pozorovani_poslouchani]. Sice riskujete že vás odhalí, ale možná se dozvíte něco důležitého. Jen doufáte, že se nechystají vyvolávat nějaká nečistá stvoření - nevypadají na to, ale třeba se za neškodné pladíky jen maskují.
 
-Pokud na ně raději chcete vlítnout a pokusit se je chytit, než začnou tropit nějakou neplechu, jděte na [vez_konfrontace_pozorovani_chyceni]. Není jisté že se vám je podaří chytit protože máte horší postavení a budete se muset všichni prodrat jedněmi dveřmi, ale spoléháte na moment překvapení.
+Pokud na ně raději chcete vlítnout a pokusit se je chytit než začnou tropit nějakou neplechu, jděte na [vez_konfrontace_pozorovani_chyceni]. Není jisté že se vám je podaří chytit, protože máte horší postavení a budete se muset všichni prodrat jedněmi dveřmi. Spoléháte ale na moment překvapení.
 
 # vez_konfrontace_pozorovani_poslouchani
 Napjatě posloucháte co se bude dít. Slyšíte jak rozsvěcí lucernu a povedlo se vám nahlédnout škvírkou ve dveřích, takže máte celkem dobrý přehled o tom co se děje.
 
-Chlapci, jeden poměrně vysoký a druhý nižší, chodí po místnosti s lucernou a zjevně jsou dost vystrašení. Vidíte jak zkoumají dveře které jste otevřeli a zapoměli zpátky zavřít a všimli si i několika dalších stop které po vás zbyly.
+Chlapci, jeden poměrně vysoký uhrovitý a druhý nižší s vlasy na ježka, chodí po místnosti s lucernou a vypadají poměrně nervózně. Vidíte jak zkoumají dveře které jste otevřeli a zapoměli zpátky zavřít a všimli si i několika dalších stop které po vás zbyly.
 
-Pak slyšíte toho výššího, který drží lucernu šeptat: "Tondo, sem si fakt jistej, že tohle tu minule nebylo. Já bych se dneska vrátil." "To nemůžem", říká ten menší. "mistr by nám zase namlátil. Poď, uděláme to ať to máme z krku. Kdes to minule zapomněl tu druhou lampu? No nic, máme aspoň tuhle."
+Pak slyšíte toho výššího, který drží lucernu šeptat: "Tondo, sem si fakt jistej, že tohle tu minule nebylo. Já bych se dneska rači vypařil." "To nemůžem", říká ten menší. "Mistr by nám zase namlátil. Poď, uděláme to ať to máme z krku. Kdes to minule nechal tu druhou lampu? No nic, máme aspoň tuhle."
 
-Pak sledujete, jak ten nižší z pod košile vytahuje velkou, otřískanou a zprohýbanou plechovou poklici. "Tak můžem" povídá tomu vyššímu s lampou. Ten dojde k oknu, vysune kmen lampy aby byla co nejjasnější a začne s ní mávat tak, aby z venku bylo dobře vidět její tančící světlo. Ten menší zase začne mlátit to pokličky jakýmsi kusem dřeva, že to dělá randál který by mrtvého probudil. Do toho oba hulákají "Hůůů" a "Hééé" jako zběsilí.
+Pak sledujete, jak ten nižší z pod košile vytahuje velkou, otřískanou a zprohýbanou plechovou poklici. "Tak můžem" kývne na toho vyššího s lampou. Ten dojde k oknu, vytočí knot lampy aby svítila co nejjasněji a začne s ní mávat. Z venku je jistě dobře vidět její tančící světlo. Ten menší zase začne mlátit to pokličky kusem dřeva. Dělá to randál který by mrtvého probudil. Do toho oba hulákají "Hůůů" a "Hééé" jako zběsilí.
 
-Občas zastaví a odpočívají, ale vydrží to dělat dobrou čtvrthodinu. Jednou zaslechnete jak ten menší říká tomu většímu "Máš pravdu Jardo. Ještě dneska řeknem starýmu, že s tím končíme, protože pokud nás tu nic nesežere, o hlas příjdem určitě.". A pak zase randál, svícení a hulákání.
+Občas zastaví a odpočívají, ale vydrží to dělat dobrou čtvrthodinu. Jednou zaslechnete jak ten menší říká tomu většímu "Máš pravdu Jardo. Ještě dneska řeknem starýmu, že s tím končíme, protože pokud nás tu nic nesežere, o hlas příjdem určitě." A pak zase randál, svícení a hulákání.
 
-Nakonec na sebe kývnou a jeden z nich říká "Tak jo, padla, deme. U Bubnu dneska naráželi novou várku, třeba ještě něco zbylo." Pak už jen ztlumili světlo a bez ohlížení, skoro vyběhli ven do noci.
+Nakonec toho přeci jenom nechají a ten menší, asi Tonda, říká "Tak jo, padla, deme. U Bubnu dneska naráželi novou várku, třeba ještě něco zbylo." Pak už jen ztlumili světlo lucerny a skoro vyběhli ven do noci.
 
 No tak to bylo pěkně divné představení. Každopádně začínáte mít jakési tušení o co tady jde a tohle divadlo vám dalo další hromadu informací. Pokud chcete vyrazit k Žouželkovi povědět mu o tom co jste zjistili, jděte na [zemlicka_hlaseni_50p].
 
-Pokud chcete ještě setrvat ve věži a porozhlédnout se tu ještě více, jděte na [vez_prizemi_hlavni], ale zapište si [zemlicka_hlaseni_50p] a za Žemličkou se můžete kdykoliv vydat.
+Pokud chcete ještě setrvat ve věži a porozhlédnout se tu ještě více, jděte na [vez_prizemi_hlavni], ale zapište si [zemlicka_hlaseni_50p] a za Žemličkou se můžete vydat kdykoli později.
 
 # vez_konfrontace_pozorovani_chyceni
-[vez_konfrontace_vyslech]
+Kouknete na sebe a i beze slov je jasné co chcete udělat. Jeden z družinky zvedne ruku a když mu všichni začnou věnovat pozornost, chvíli počná a pak mávne. Na to znamení otevřete dveře a všichni se zaráz pokusíte vřítit do hlavní místnosti.
+
+Bohužel jste si ale nedomluvili pořadí, takže došlo k nějakým strkanicím které vás stály čas. Ti kluci se ale strašně lekli a pokud byste měli čas je pozorovat místo provozování strkanice ve dveřích, viděli byste, jak na hodnou chvíli stuhli. Pak je dohlaly jejich instinkty a vzali nohy na ramena.
+
+Ten větší byl o krapánek pomalejší a podařilo se vám ho obestoupit ještě v místnosti s křeslem. Ten menší byl sice pohotovější a s hlasitým křikem vyrazil ke dveřím, ale v tom spěchu si nevšiml že jsou zavřené a téměř do nich narazil.
+
+Když zjistili kdo proti nim stojí, otrnulo jim a postavili se vám. Nechcete je zranit a tak si ostražitě odkládáte zbraně. Tohle bude pěstní souboj.
+
+*Pěstní souboj se hází stejně jako normání, jen se při něm nepočítá síla zbraně ani kvalita brnění. Útok je prostě jen hod + SÍL, obrana je jen hod + OBR. Účastníci souboje se střídají v kolech jako obvykle. Životy však ubývají jen jako. Jakmile někdo při pěstním souboji "zemře", neumírá ale prohrává v boji. Po ukončení souboje každá postava přichází jen o třetinu životů o které přišla při pěstním souboji.*
+
+Pokud se vám podařilo ty dva přemoct, vyslechněte je na [vez_konfrontace_vyslech].
+
+Pokud přemohli oni vás, je na čase zajít za Žemličkou a povědět mu aspoň to málo co zatím víte na [zemlicka_hlaseni_30p]. Pokud se chcete ve věži ještě porozhlédnout, jděte na [vez_prizemi_hlavni], ale zapište si [zemlicka_hlaseni_30p] a za Žemličkou se můžete vydat kdykoli později.
 
 # vez_konfrontace_cihani
 [vez_konfrontace_cihani_dole]
