@@ -919,7 +919,11 @@ Pokud se vám podařilo ty dva přemoct, vyslechněte je na [vez_konfrontace_vys
 Pokud přemohli oni vás, je na čase zajít za Žemličkou a povědět mu aspoň to málo co zatím víte na [zemlicka_hlaseni_30p]. Pokud se chcete ve věži ještě porozhlédnout, jděte na [vez_prizemi_hlavni], ale zapište si [zemlicka_hlaseni_30p] a za Žemličkou se můžete vydat kdykoli později.
 
 # vez_konfrontace_cihani
-[vez_konfrontace_cihani_dole]
+Chvilku jste se tlumeně překřikovali ale nakonec zvítězila varianta "seběhneme do přízemí a počíháme si na ně". Co nejrychleji tedy vyrazíte po schodišti dolů - chcete tam být dřív než ti dva vetřelci. Schodiště ale není v nejlepčím stavu a se svícením na neosvětlených částech se také neobtěžujete, taže by se mohlo stát že někdo uklouzne.
+
+*Každá postava si v pořadí v jakém běží dolů hodí na obratnost. Pokud dostaneš 3 a méně, pak jsi na nepřehledné části schodiště uklouzl a po elegantním kotoulu přes několik schodů ses zastavil až o blízkou zeď. Bolí tě snad všude a můžeš se těšit na spoustu modřin. Na čele máš mírně krvácející odřeninu. Odepiš si jeden život. Pokud někdo takto uklouzl, ostatní postavy už nehází. Viděli co se stalo a jistě si budou dávat pozor.*
+
+Konečně dobíháte do hlavní místnosti se zdobným křeslem v přízemí na [vez_konfrontace_cihani_dole].
 
 # vez_konfrontace_cihani_dole
 [vez_konfrontace_cihani_dole_uspech]
