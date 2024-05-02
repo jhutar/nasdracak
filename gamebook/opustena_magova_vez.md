@@ -897,7 +897,7 @@ Pak sledujete, jak ten nižší z pod košile vytahuje velkou, otřískanou a zp
 
 Občas zastaví a odpočívají, ale vydrží to dělat dobrou čtvrthodinu. Jednou zaslechnete jak ten menší říká tomu většímu "Máš pravdu Jardo. Ještě dneska řeknem starýmu, že s tím končíme, protože pokud nás tu nic nesežere, o hlas příjdem určitě." A pak zase randál, svícení a hulákání.
 
-Nakonec toho přeci jenom nechají a ten menší, asi Tonda, říká "Tak jo, padla, deme. U Bubnu dneska naráželi novou várku, třeba ještě něco zbylo." Pak už jen ztlumili světlo lucerny a skoro vyběhli ven do noci.
+Nakonec toho přeci jenom nechají a ten menší, asi Franta, říká "Tak jo, padla, deme. U Bubnu dneska naráželi novou várku, třeba ještě něco zbylo." Pak už jen ztlumili světlo lucerny a skoro vyběhli ven do noci.
 
 No tak to bylo pěkně divné představení. Každopádně začínáte mít jakési tušení o co tady jde a tohle divadlo vám dalo další hromadu informací. Pokud chcete vyrazit k Žouželkovi povědět mu o tom co jste zjistili, jděte na [zemlicka_hlaseni_50p].
 
@@ -910,8 +910,9 @@ Bohužel jste si ale nedomluvili pořadí, takže došlo k nějakým strkanicím
 
 Ten větší byl o krapánek pomalejší a podařilo se vám ho obestoupit ještě v místnosti s křeslem. Ten menší byl sice pohotovější a s hlasitým křikem vyrazil ke dveřím, ale v tom spěchu si nevšiml že jsou zavřené a téměř do nich narazil.
 
-Když zjistili kdo proti nim stojí, otrnulo jim a postavili se vám. Nechcete je zranit a tak si ostražitě odkládáte zbraně. Tohle bude pěstní souboj.
+Když zjistili kdo proti nim stojí, otrnulo jim a postavili se vám. Nechcete je zranit a tak si ostražitě odkládáte zbraně. Tohle bude pěstní souboj. Jdděte na [vez_konfrontace_prizemi_pestni_souboj]
 
+# vez_konfrontace_prizemi_pestni_souboj
 *Pěstní souboj se hází stejně jako normání, jen se při něm nepočítá síla zbraně ani kvalita brnění. Útok je prostě jen hod + SÍL, obrana je jen hod + OBR. Účastníci souboje se střídají v kolech jako obvykle. Životy však ubývají jen jako. Jakmile někdo při pěstním souboji "zemře", neumírá ale prohrává v boji. Po ukončení souboje každá postava přichází jen o třetinu životů o které přišla při pěstním souboji.*
 
 Pokud se vám podařilo ty dva přemoct, vyslechněte je na [vez_konfrontace_vyslech].
@@ -926,15 +927,27 @@ Chvilku jste se tlumeně překřikovali ale nakonec zvítězila varianta "seběh
 Konečně dobíháte do hlavní místnosti se zdobným křeslem v přízemí na [vez_konfrontace_cihani_dole].
 
 # vez_konfrontace_cihani_dole
-[vez_konfrontace_cihani_dole_uspech]
-[vez_konfrontace_cihani_dole_neuspech]
+Konečně jste v hlavní místnosti přízemí věže. A bylo to jen o chloupek. Sotva se rozmístíte do jakýchs takýchs úkrytů, vrznou dveře a do místnosti vstupují ti dva které jste pozorovali z vršku věže.
+
+Slyšíte jak se ve dveřích chvíli handrkují. "Já tam dneska nejdu." žadoní jeden hlas. "Šak si to slyšel ne? Něco tam určitě je." "Nebuď strašpytel, víš že tam musíme. A mistr říkal že už jenom třikrát." povzbuzuje ho druhý hlas. Pak je chvíli ticho a z dveří nejdřív vyleze ruka s lampou. Dvíli se nic neděja a pak s pozvzbuzujícím "No tak dělej, ať to máme za sebou." vejdou i ti dva.
+
+Jsou to chlapci, jeden poměrně vysoký uhrovitý a druhý nižší s vlasy na ježka. Z toho co jste zaslechli víte že se jmenují Franta a Cyril.
+
+Naštěstí se lucerna v rostřesené ruce houpe tak, že vás ve vašich chabých úkrytech nezpozorovali až bylo pozvě. Postoupili do středu místnosti a v tu ránu jste vystoupili ze svých úkrytů a zhurt na ně spustili: "Co tady děláte takle pozdě holomci, nemáte bejt už dávno doma u maminky?"
+
+Strašně se lekli, ale zdálo se vám že když poznali že jste jen lidé, odvaha se jim trochu vrátila. "Hele nechte nás, je to tady snad vaše? My už stejně musíme jít, tak ustupte." a hrnou se ke dveřím.
+
+"Nacháme vás, ale nejdřív nám musíte pár věcí vysvětlit." nedáte se odbít.
+
+*Vyberte někoho z družinky kdo se pokusí vymámit  nich odpovědi a hoďte za něj na charismu. Pokud má postava schopnost smlouvání, tady se použije. Pokud jste dostali 9 a méně, nezadařilo se a jděte na [vez_konfrontace_cihani_dole_neuspech]. Pokud 10 a více, jděte na [vez_konfrontace_cihani_dole_uspech].*
 
 # vez_konfrontace_cihani_dole_uspech
-[vez_konfrontace_vyslech]
+TODO Popis toho ja vsechno dobrovolne vyklopi.
+[zemlicka_hlaseni_100p]
 
 # vez_konfrontace_cihani_dole_neuspech
-[zemlicka_hlaseni_30p]
-[vez_prizemi_hlavni]
+Nepodarilo se je presvedcit, takze bude potreba zajmout je.
+[vez_konfrontace_prizemi_pestni_souboj]
 
 # vez_konfrontace_slezani
 [vez_konfrontace_slezani_uspech]
