@@ -945,9 +945,14 @@ Strašně se lekli, ale zdálo se vám že když poznali že jste jen lidé, odv
 TODO Popis toho ja vsechno dobrovolne vyklopi.
 [zemlicka_hlaseni_100p]
 
+*Postava která ty dva přesvědčila, získává 10 zkušeností. TODO*
+
 # vez_konfrontace_cihani_dole_neuspech
-Nepodarilo se je presvedcit, takze bude potreba zajmout je.
-[vez_konfrontace_prizemi_pestni_souboj]
+Pokoušeli jste se ty dva rozmluvit aby vám řekli co o téhle věži ví, ale nebyli jste úspěšní. Koukali se na vás jako pekař na někoho kdo mu sebral už dvě housky a přišel si pro třetí. Byli ostržití a dávali pozor kdy budou moct utéct.
+
+Po chvíli vašeho přesvědčování jak to s nimi myslíte dobře to už asi nevydrřeli a skočili vám do řeči: "No tak my už asi půjdeme, žejo." a kývli na sebe, jako že v tom jsou zajedno.
+
+"No tak to prr" vyhrkli jste, ale oni už se vydali ke dveřím. Když jste je chytili za rameno, ruku setřásli a dál se tlačili ke dveřím. Vypadá to že jim budete muset ukázat, že to myslíte vážně. Pokračujte na [vez_konfrontace_prizemi_pestni_souboj].
 
 # vez_konfrontace_slezani
 [vez_konfrontace_slezani_uspech]
