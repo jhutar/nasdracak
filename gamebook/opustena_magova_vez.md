@@ -866,7 +866,7 @@ Pokud ty dva příchozí podezíráte z toho že by mohli mít něco společnéh
 
 Nebo možná chcete zvojit přímější metodu a prostě si na ně v přízení počíhat a lapnout je? Pak jděte na [vez_konfrontace_cihani].
 
-Můžete se také pokusit slézt dolů, ale bude velký risk pokud nemáte dostatečně dlouhé lano. Pokud máte alespoň 10ti metrové lano a chcete slézt dolů a pokusit se příchozím odříznout útěkovou cestu a chytit je, jděte na [vez_konfrontace_slezani].
+Můžete se také pokusit slézt dolů, ale bude to velký risk pokud nemáte dostatečně dlouhé lano. Pokud máte alespoň 10ti metrové lano a chcete slézt dolů a pokusit se příchozím odříznout útěkovou cestu a chytit je, jděte na [vez_konfrontace_slezani]. Pokud takto dlouhé lano nemáte a přesto se chcete pokusit slézt dolů, jděte na [vez_konfrontace_slezani_bezlana].
 
 
 
@@ -917,7 +917,7 @@ Když zjistili kdo proti nim stojí, otrnulo jim a postavili se vám. Nechcete j
 
 Pokud se vám podařilo ty dva přemoct, vyslechněte je na [vez_konfrontace_vyslech].
 
-Pokud přemohli oni vás, je na čase zajít za Žemličkou a povědět mu aspoň to málo co zatím víte na [zemlicka_hlaseni_30p]. Pokud se chcete ve věži ještě porozhlédnout, jděte na [vez_prizemi_hlavni], ale zapište si [zemlicka_hlaseni_30p] a za Žemličkou se můžete vydat kdykoli později.
+Pokud přemohli oni vás, je na čase zajít za Žemličkou a povědět mu aspoň to málo co zatím víte na [zemlicka_hlaseni_30p]. Pokud se chcete ve věži ještě porozhlédnout, jděte na [vez_prizemi_hlavni], ale zapište si číslo [zemlicka_hlaseni_30p] a za Žemličkou se můžete vydat kdykoli později.
 
 # vez_konfrontace_cihani
 Chvilku jste se tlumeně překřikovali ale nakonec zvítězila varianta "seběhneme do přízemí a počíháme si na ně". Co nejrychleji tedy vyrazíte po schodišti dolů - chcete tam být dřív než ti dva vetřelci. Schodiště ale není v nejlepčím stavu a se svícením na neosvětlených částech se také neobtěžujete, taže by se mohlo stát že někdo uklouzne.
@@ -933,16 +933,16 @@ Slyšíte jak se ve dveřích chvíli handrkují. "Já tam dneska nejdu." žadon
 
 Jsou to chlapci, jeden poměrně vysoký uhrovitý a druhý nižší s vlasy na ježka. Z toho co jste zaslechli víte že se jmenují Franta a Cyril.
 
-Naštěstí se lucerna v rostřesené ruce houpe tak, že vás ve vašich chabých úkrytech nezpozorovali až bylo pozvě. Postoupili do středu místnosti a v tu ránu jste vystoupili ze svých úkrytů a zhurt na ně spustili: "Co tady děláte takle pozdě holomci, nemáte bejt už dávno doma u maminky?"
+Naštěstí se lucerna v rostřesené ruce houpe tak, že vás ve vašich chabých úkrytech nezpozorovali až bylo pozdě. Postoupili do středu místnosti a v tu ránu jste vystoupili ze svých úkrytů a zhurta na ně spustili: "Co tady děláte takle pozdě holomci, nemáte bejt už dávno doma u maminky?"
 
 Strašně se lekli, ale zdálo se vám že když poznali že jste jen lidé, odvaha se jim trochu vrátila. "Hele nechte nás, je to tady snad vaše? My už stejně musíme jít, tak ustupte." a hrnou se ke dveřím.
 
 "Nacháme vás, ale nejdřív nám musíte pár věcí vysvětlit." nedáte se odbít.
 
-*Vyberte někoho z družinky kdo se pokusí vymámit  nich odpovědi a hoďte za něj na charismu. Pokud má postava schopnost smlouvání, tady se použije. Pokud jste dostali 9 a méně, nezadařilo se a jděte na [vez_konfrontace_cihani_dole_neuspech]. Pokud 10 a více, jděte na [vez_konfrontace_cihani_dole_uspech].*
+*Vyberte někoho z družinky kdo se pokusí vymámit ty odpovědi a hoďte za něj na charisma. Pokud má postava dovednost smlouvání, tady se použije. Pokud jste dostali 9 a méně, nezadařilo se a jděte na [vez_konfrontace_cihani_dole_neuspech]. Pokud 10 a více, jděte na [vez_konfrontace_cihani_dole_uspech].*
 
 # vez_konfrontace_cihani_dole_uspech
-TODO Popis toho ja vsechno dobrovolne vyklopi.
+"No teda" spustíte na ně dokud jsou ještě rošku vyjukaní. "Vy tady tak talentovaně stojíte." Zmateně se na sebe podívají, ale vy hned pokračujete. "A to musíte být i hrozně stateční když takhle v noci dete sem do té opuštěné věže." mažete jim med kolem huby. TODO pokracovani
 [zemlicka_hlaseni_100p]
 
 *Postava která ty dva přesvědčila, získává 10 zkušeností. TODO*
@@ -950,11 +950,28 @@ TODO Popis toho ja vsechno dobrovolne vyklopi.
 # vez_konfrontace_cihani_dole_neuspech
 Pokoušeli jste se ty dva rozmluvit aby vám řekli co o téhle věži ví, ale nebyli jste úspěšní. Koukali se na vás jako pekař na někoho kdo mu sebral už dvě housky a přišel si pro třetí. Byli ostržití a dávali pozor kdy budou moct utéct.
 
-Po chvíli vašeho přesvědčování jak to s nimi myslíte dobře to už asi nevydrřeli a skočili vám do řeči: "No tak my už asi půjdeme, žejo." a kývli na sebe, jako že v tom jsou zajedno.
+Po chvíli vašeho přesvědčování jak to s nimi myslíte dobře to už asi nevydrželi a skočili vám do řeči: "No tak my už asi půjdeme, žejo" a kývli na sebe, jako že v tom jsou zajedno.
 
-"No tak to prr" vyhrkli jste, ale oni už se vydali ke dveřím. Když jste je chytili za rameno, ruku setřásli a dál se tlačili ke dveřím. Vypadá to že jim budete muset ukázat, že to myslíte vážně. Pokračujte na [vez_konfrontace_prizemi_pestni_souboj].
+"No tak to prrrrr" vyhrkli jste, ale oni už se vydali ke dveřím. Když jste je chytili za rameno, ruku setřásli a dál se tlačili k východu. Vypadá to že jim budete muset ukázat, že to myslíte vážně. Pokračujte na [vez_konfrontace_prizemi_pestni_souboj].
+
+# vez_konfrontace_slezani_bezlana
+Věž je postavéná z velkých otesaných kamenů a stojí tam už dlouho, takže mnohé spáry jsou hluboké a to vám dodalo odvahu pokusit se slézt i bez dostatečně dlouhého lana. Lezete jeden po druhém, na straně opačné k přicházejícím. Spěcháte.
+
+*Postupně si na každého člena družinky hoď na obratnost. Pokud má postava dovednost Akrobacie, připočítej si za ni bonus. Pokud jsi dostal 10 a více, postavě se podařilo slézt. Pokud však 9 a méně, jdi na [vez_konfrontace_slezani_bezlana_pad].*
+
+Pokud se všem členům družinky podařilo dostat se dolů, pokračuj na [vez_konfrontace_slezani_dole].
+
+# vez_konfrontace_slezani_bezlana_pad
+Při sestupu jsi využil stup který vypadal perfekně, akorát na špičku tvé škorně. Co jsi ale neviděl bylo, že byl porostlý vlhkým lišejníkem. Když jsi na něj přenesl váhu, noha znenadání uklouzla. Na zlomek sekundy jsi visel na jedné ruce, ale ta povolila a zřítil jsi se na zem. Při pádu jsi se potloukl o střechu spodního patra, podřel o větve stomu kterým jsi propadl, ale nejhorší bylo přistání na tvrdou zemi.
+
+*Postava si odečte 5 životů.*
+
+Vrať se na [vez_konfrontace_slezani_bezlana] a pokračuj ve slézání s ostatními postavami z družinky.
 
 # vez_konfrontace_slezani
+[vez_konfrontace_slezani_dole]
+
+# vez_konfrontace_slezani_dole
 [vez_konfrontace_slezani_uspech]
 [vez_konfrontace_slezani_neuspech]
 
