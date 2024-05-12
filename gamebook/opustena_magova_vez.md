@@ -891,13 +891,13 @@ Napjatě posloucháte co se bude dít. Slyšíte jak rozsvěcí lucernu a povedl
 
 Chlapci, jeden poměrně vysoký uhrovitý a druhý nižší s vlasy na ježka, chodí po místnosti s lucernou a vypadají poměrně nervózně. Vidíte jak zkoumají dveře které jste otevřeli a zapoměli zpátky zavřít a všimli si i několika dalších stop které po vás zbyly.
 
-Pak slyšíte toho výššího, který drží lucernu šeptat: "Tondo, sem si fakt jistej, že tohle tu minule nebylo. Já bych se dneska rači vypařil." "To nemůžem", říká ten menší. "Mistr by nám zase namlátil. Poď, uděláme to ať to máme z krku. Kdes to minule nechal tu druhou lampu? No nic, máme aspoň tuhle."
+Pak slyšíte toho výššího, který drží lucernu šeptat: "Franto, sem si fakt jistej, že tohle tu minule nebylo. Já bych se dneska rači vypařil." "To nemůžem", říká ten menší. "Mistr by nám zase namlátil. Poď, uděláme to ať to máme z krku. Kdes to minule nechal tu druhou lampu? No nic, máme aspoň tuhle."
 
 Pak sledujete, jak ten nižší z pod košile vytahuje velkou, otřískanou a zprohýbanou plechovou poklici. "Tak můžem" kývne na toho vyššího s lampou. Ten dojde k oknu, vytočí knot lampy aby svítila co nejjasněji a začne s ní mávat. Z venku je jistě dobře vidět její tančící světlo. Ten menší zase začne mlátit to pokličky kusem dřeva. Dělá to randál který by mrtvého probudil. Do toho oba hulákají "Hůůů" a "Hééé" jako zběsilí.
 
 Občas zastaví a odpočívají, ale vydrží to dělat dobrou čtvrthodinu. Jednou zaslechnete jak ten menší říká tomu většímu "Máš pravdu Jardo. Ještě dneska řeknem starýmu, že s tím končíme, protože pokud nás tu nic nesežere, o hlas příjdem určitě." A pak zase randál, svícení a hulákání.
 
-Nakonec toho přeci jenom nechají a ten menší, asi Franta, říká "Tak jo, padla, deme. U Bubnu dneska naráželi novou várku, třeba ještě něco zbylo." Pak už jen ztlumili světlo lucerny a skoro vyběhli ven do noci.
+Nakonec toho přeci jenom nechají a ten menší, asi Franta, říká "Tak jo Cirdo, padla, deme. U Bubnu dneska naráželi novou várku, třeba ještě něco zbylo." Pak už jen ztlumili světlo lucerny a skoro vyběhli ven do noci.
 
 No tak to bylo pěkně divné představení. Každopádně začínáte mít jakési tušení o co tady jde a tohle divadlo vám dalo další hromadu informací. Pokud chcete vyrazit k Žouželkovi povědět mu o tom co jste zjistili, jděte na [zemlicka_hlaseni_50p].
 
@@ -942,8 +942,19 @@ Strašně se lekli, ale zdálo se vám že když poznali že jste jen lidé, odv
 *Vyberte někoho z družinky kdo se pokusí vymámit ty odpovědi a hoďte za něj na charisma. Pokud má postava dovednost smlouvání, tady se použije. Pokud jste dostali 9 a méně, nezadařilo se a jděte na [vez_konfrontace_cihani_dole_neuspech]. Pokud 10 a více, jděte na [vez_konfrontace_cihani_dole_uspech].*
 
 # vez_konfrontace_cihani_dole_uspech
-"No teda" spustíte na ně dokud jsou ještě rošku vyjukaní. "Vy tady tak talentovaně stojíte." Zmateně se na sebe podívají, ale vy hned pokračujete. "A to musíte být i hrozně stateční když takhle v noci dete sem do té opuštěné věže." mažete jim med kolem huby. TODO pokracovani
-[zemlicka_hlaseni_100p]
+"No teda, vy tady tak talentovaně stojíte." spustíte na ně dokud jsou ještě trošku vyjukaní. Zmateně se na sebe podívají, ale vy hned pokračujete. "A to musíte být i hrozně stateční když takhle v noci dete sem do té opuštěné věže." mažete jim med kolem huby. "No a koukáme že ste pořádní chlapi! S takovýma svalovcema by sme se nechtěli dostat do křížku. Asi tu máte nějaký zařizování co?" konečně se dostáváte k tomu co vás zajímá.
+
+Konečně se zapojí do diskuse: "Noo, vlastně to je jenom takovej vtip." Podívají se na sebe, asi se očima domlouvají co řeknou. "My tu jen tak rámusíme. Mistr nás sem poslal. Narazili jsme tady sice na jakousi havěť, ale toho se nelekneme, že Cirdo?"
+
+"Jé, vtipy, to my máme rádi. O co jde, třeba vám můžem pomoct" snažíte se z nich nenápadně vytáhnout další informace.
+
+"No on totiž náš mistr" vložil se do toho Cirda, "chce zajistit aby se povídalo že tady straší a tak sem musíme každej večír tady s Frantou chodit a jako strašit."
+
+"Jak jako strašit?"
+
+"No prostě tu enom u okna co směřuje na město blbneme s lucernou a děláme randál" vysvětlí František. "No ale dneska už půjdem, mějte se." Otočí se a odejdou z věže.
+
+Tato rozpra vám dala všechny informace které jste potřebovali a můžete se vydat za Žemličkou vylíčit mu co jste zjistili na [zemlicka_hlaseni_100p]. Pokud se chcete ve věži ještě porozhlédnout, [zemlicka_hlaseni_100p] si zapište a zajděte tam později a teď se můžete vrátit na [vez_prizemi_hlavni].
 
 *Postava která ty dva přesvědčila, získává 10 zkušeností. TODO*
 
@@ -969,15 +980,20 @@ Při sestupu jsi využil stup který vypadal perfekně, akorát na špičku tvé
 Vrať se na [vez_konfrontace_slezani_bezlana] a pokračuj ve slézání s ostatními postavami z družinky.
 
 # vez_konfrontace_slezani
-[vez_konfrontace_slezani_dole]
+Někdo z družinky ze svých věcí vylovil lano. Je to velká pomoc pro váš plán. Slézat věž bez lana by bylo náročné.
+
+Tak aby vás nebylo vidět od pěšiny po které ti dva přicházeli lano pečlivě uvážete a hodíte dolů. Podom postupně, všichni bez nehody, slaníte dolů.
+
+Teď je na čase pokusit se chytit dvě postavy které jste zhora viděli přicházet. Jděte na [vez_konfrontace_slezani_dole].
+
+*Až bude po všem, pro lano se můžete nahoru na věž vrátit, takže si ho z batohu nemusíš škrtat.*
 
 # vez_konfrontace_slezani_dole
-[vez_konfrontace_slezani_uspech]
-[vez_konfrontace_slezani_neuspech]
+Dostat se dolů vám nějaký čas zabralo a ti dva se mezitím dostali do věže. Obestoupíte tedy vstupní dveře a tiše se radíte jak to provedete.
 
-# vez_konfrontace_slezani_uspech
-[vez_konfrontace_slezani_poslouchani]
-[vez_konfrontace_slezani_chyceni]
+Pokud vám ti dva které jste viděli vstupovat do věže připadají nebezpeční, můžete zkusit je z venku nenápadně pozorovat na [vez_konfrontace_slezani_poslouchani]. Někdo dohlédne na okno, někdo na dveře a zíkáte tak jistě dobrou představu o tom co se to tam vlastně děje.
+
+Pokud si věříte a raději se je ve věži pokusíte chytit, jděte na [vez_konfrontace_slezani_chyceni].
 
 # vez_konfrontace_slezani_poslouchani
 [zemlicka_hlaseni_50p]
@@ -991,10 +1007,6 @@ Vrať se na [vez_konfrontace_slezani_bezlana] a pokračuj ve slézání s ostatn
 [vez_konfrontace_vyslech]
 
 # vez_konfrontace_slezani_chyceni_neuspech
-[zemlicka_hlaseni_30p]
-[vez_prichod]
-
-# vez_konfrontace_slezani_neuspech
 [zemlicka_hlaseni_30p]
 [vez_prichod]
 
