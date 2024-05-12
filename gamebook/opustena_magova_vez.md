@@ -456,8 +456,8 @@ Na sever se chodba rozšiřuje a jít tam znamená jít na [vez_sklep_pruchod]. 
 # vez_sklep_mistnost
 Prošli jste asi tři metry dlouhou chodbou s otevřela se před vámi větší místnost. Už na první pohled tu není nic zajímavého, na zemi jen zbytky dřeva a prach. Možná to tady sloužilo jako sklad, ale není tu nic co by vás zaujalo a tak se raději co nejrychleji vracíte na rozcestí na [vez_sklep_vstup].
 
-# vez_sklep_pruchod]
-Prošli jste úzkým průchodem a zjistili že chodba se tady zatáčí na západ a notně rozšiřuje. U její západní stěny ústí chodba která vede na jih, u východní stěny je druhý průchod. V místnosti si všimnete nějakého naplaveného nepořádku: písek a větvičky, ale nijak vás to nezaujalo. Pokud si vyberete cestu u západní stěny odkuď je poměrně zřetelně slyšet tekoucí voda, jděte na [vez_sklep_prechod]. Pokud raděj cestu u východní stěny, jděte na [vez_sklep_vstup].
+# vez_sklep_pruchod
+Prošli jste úzkým průchodem a zjistili že chodba se tady zatáčí na západ a notně rozšiřuje. U její západní stěny ústí chodba která vede na jih, u východní stěny je druhý průchod. V místnosti si všimnete nějakého naplaveného nepořádku: písek a větvičky, ale nijak vás to nezaujalo. Pokud si vyberete cestu u západní stěny odkud je poměrně zřetelně slyšet tekoucí voda, jděte na [vez_sklep_prechod]. Pokud raděj cestu u východní stěny, jděte na [vez_sklep_vstup].
 
 # vez_sklep_prechod
 Asi tři metry procházíte chodbou plnou pavučin a když se na chvíli zastavíte abyste se zaposlouchali, zvuky vody jsou teď úplně jasné. Došli jste do místa kde chodbu kříží široká stoka s tekoucím odpadem z celého města. Podle zbytků sloupků vidíte že tu kdysi byl mostek, ten je ale dávno pryč. Na přebrodění ani nemyslíte, ale možná by se dalo na druhou stranu dostat díky naplavené kládě která se zaklínila z jednoho na druhý břeh. Vypadá pevně, ale poměrně kluzce.
