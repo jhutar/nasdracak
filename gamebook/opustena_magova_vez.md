@@ -1062,6 +1062,14 @@ Pokud tu už nic nepotřebujete, buď se vraťte tam kde jste přestali, nebo se
 [mesto_rozcetnik]
 
 # mesto_korenarka
+Kousek za městským opevněním stojí malá chatrč. Vypadá jako by byla uplácaná z bláta, velké kameny vidíte jen v základech. Má hrbolaté stěny které s velkou rezervou přesahuje střecha z rákosových došků. Z každého střešního trámu vysí několik svazečků různých bylin či plátěné pytlíky s neznámým obsahem. Na okně stojí malá klícka v ní krásně vybarvený stehlík který si vás prohlíží malýma černýma očkama.
+
+Zabušíte na dveře a když se ozve přívětivé "No jen poťte, poťte", vejdete dovnitř.
+
+V potemělé komoře sedí bába. Rozhodn nevypadá křehce ani unaveně. Naopak.
+
+TODO pokracovat
+
 [mesto_rozcetnik]
 
 # mesto_korenarka_lektvary_truhla
@@ -1072,7 +1080,13 @@ Alchymista/ka družiny se na lektvary zahleděl: "Podívejte na tenhle, na ten p
 Pokud chcete u babky ještě něco zařídit, jděte na [mesto_korenarka], jinak se vraťte do města na [mesto_rozcetnik].
 
 # mesto_kolonial
-[mesto_rozcetnik]
+Přivítá vás velký vývěsní štít se zdobně vyvedeným nápisem "Zboží koloniální". Ač se obchod tváří jako něco extra, při pohledu na nabídku vidíte že jde prostě o prodej všeho možného. Všech těch běžných věcí které měšťan nebo sedlák potřebují a ve městě není nikdo jiný kdo by je prodával.
+
+Máte štěstí. Dnes tu obsluhuje jen pomocník a ne majitel, takže pokud se pokusíte smlouvat, stačí vám přehodit 6-ku (*smlouvání se povede, pokud hodem na charismu s případným bonusem za smlouvání dostanete 7 a více*).
+
+Sortiment: TODO
+
+Pokud jste s nákupen skončili, vreťte se zpět do města na [mesto_rozcetnik].
 
 # mesto_sperkar_krysipoklad_odhadnuty
 Přicházíte do šperkařské dílny. Když zabušíte na dveře, musíte poměrně dlouho čekat než zevnitř něco uslyšíte, ale nakonec se dveře přeci jen opatrně pootevřou. Zevnitř vykoukne trpasličí tvář s dlouhým vousem svázaným provázkem kousek pod bradou. "Neznám vás, co chcete?"
