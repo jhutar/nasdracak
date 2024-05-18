@@ -1066,11 +1066,27 @@ Kousek za městským opevněním stojí malá chatrč. Vypadá jako by byla upl�
 
 Zabušíte na dveře a když se ozve přívětivé "No jen poťte, poťte", vejdete dovnitř.
 
-V potemělé komoře sedí bába. Rozhodn nevypadá křehce ani unaveně. Naopak.
+V potemělé komoře zády k vám sedí bába a cosi dělá na stole před sebou. Její šedé vlasy jsou svázané do ohonu. Vedle ní je opřená hůlka s do leskla ohmatanou vyřezávanou soví hlavou. Buď zapoměla že vás pozvala dovnitř, nebo si vás nevšímá. Vy sázíte na to druhé.
 
-TODO pokracovat
+"Tak kdo se ujme rozhovoru s tou starou špachtlí?" ptá se jeden z vás. "Asi bude potřeba dost křičet, hádám."
 
-[mesto_rozcetnik]
+Od babky se ozve jakési zahýkání, ale dál si vás nevšímá a věnuje se tomu co má před sebou.
+
+"Dobrý den babičko" zavoláte. Žádná odezva.
+
+"Ta je hluchá jak poleno. Co kdybysme si prostě vzali nějaký to léčivý kvítí tady" navrhuje jeden z družinky po nejbližším svazečku usušených bylin, "a půjdeme?"
+
+V tom se od babky zcela zřetelně ozve "To bych ti nedoporučuvala panáčku se tohohle snopku ani dotýkat. A děkuju za optání, slyším dobře." Otočí se na vás a i když je jistě hodně stará, hledí na vás pronikavýma očima. "Karty mi řekly že mám čekan nové zákazníky, ale že budou takhle nevychovaní se nezmínili."
+
+Nastala chvilka trapného ticha. Tohle jste nečekali a když jste se vzpamatovali, pokusili jste se to urovnat jak nejlépe se dalo: "Promiňte madam, moc se omlouváme za ty řeči. My to tak nemysleli. Už se to nestane, opravdu."
+
+Kořenářka teď vypadá spokojeně. "Tak copak ode mě potřebujete slovutní dobrodruhové?" ptá se s pobaveným výrazem.
+
+*Smlouvání s babkou kořenářkou se povede, jen pokud hodem na charismu s případným bonusem za smlouvání dostanete 12 a více. Je to totiž velmi chytrá žena a zná cenu svých znalosí a své práce.*
+
+TODO sortiment
+
+Pokud jste vyřídili všechno co jste potřebovali, vraťte se do města na [mesto_rozcetnik].
 
 # mesto_korenarka_lektvary_truhla
 Urceni lektvaru z pudy za penize - toto je jen kopie jineho textu ktery se da pouzit:
