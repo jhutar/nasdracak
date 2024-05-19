@@ -1056,7 +1056,25 @@ Nějaké ty běžně dostupné zásoby pak určitě seženete v Koloniálu Pírk
 Pokud tu už nic nepotřebujete, buď se vraťte tam kde jste přestali, nebo se budeme těšit u nějakého dalšího gamebooku.
 
 # mesto_hospoda
-[mesto_rozcetnik]
+Hospoda se jmenuje "U ztracených nadějí" a vede ji vysoký štíhlý elf. Nebo je to možná elfka, těžko se to pozná. Z dlouhých blonďatých vlasů vykukují špičaté uši. Je tam čisto, ale cítíte jakousi ponurou (tODO neco jako spis ze se tam nic nehybe) atmosféru. Těch pár hostů co tu sedí buď jen tiše usrkávají ze svých vysokých sklenic, nebo se tiše a jaksi ospale baví. No a ten hospodský (nebo hospodská) jsou věrným obrazem své hospody. Když vejdete, ani si vás nevšimnout a tak se musíte ozvat sami.
+
+"Pěkný den vespolek" zahulákáte na celou místnost a potom přímo k majiteli: "rádi bysme si něco nakoupili, šlo by to?"
+
+"Jaký podivný vítr vás zavál do tohohle zapadákova? Pro mě za mě, vyberte si byste chtěli, ale za nic neručím." ospale odpoví.
+
+"Jak to myslíte že za nic neručíte?"
+
+"No jak to říkám. Včera mi dovezli maso co bych nejedl ani kdybych ho jedl a to víno co kupuju? To je spíš ocet. Ale jestli vám to nevadí, tak hurá do toho" ušklíbne se.
+
+Vypadá to že nemá svůj den, tak se radějí vyptáte na konkrétní sortiment a ceny a vypadá to že něco koupit by se tady dalo.
+
+TODO sortiment
+
+Kromně nákupu se tu můžete taky dobře najíst a vyspat. Pokud vás to zajímá, jděte na TODO.
+
+*Pokud budete s hospodským smlouvat, hoďte si na charismu, přidejte případný bonus za dovednost smlouvání. Hospodského se vám podařilo přesvědčit, pokud pokud jste dostali 9 a více. Zdá se vám, jako by ho vlastně nic moc nezajímalo, včetně vašich zlaťáků.*
+
+Pokud jste tu skončili, vraťte se do města na [mesto_rozcetnik].
 
 # mesto_kovar
 [mesto_rozcetnik]
