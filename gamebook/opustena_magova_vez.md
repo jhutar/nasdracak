@@ -1072,12 +1072,28 @@ TODO sortiment
 
 Kromně nákupu se tu můžete taky dobře najíst a vyspat. Pokud vás to zajímá, jděte na TODO.
 
-*Pokud budete s hospodským smlouvat, hoďte si na charismu, přidejte případný bonus za dovednost smlouvání. Hospodského se vám podařilo přesvědčit, pokud pokud jste dostali 9 a více. Zdá se vám, jako by ho vlastně nic moc nezajímalo, včetně vašich zlaťáků.*
+*Pokud budete s hospodským smlouvat, hoďte si na charismu, přidejte případný bonus za dovednost smlouvání. Hospodského se vám podařilo přesvědčit, pokud jste dostali 9 a více. Zdá se vám, jako by ho vlastně nic moc nezajímalo, včetně vašich zlaťáků.*
 
 Pokud jste tu skončili, vraťte se do města na [mesto_rozcetnik].
 
 # mesto_kovar
-[mesto_rozcetnik]
+Kovárna stojí nedaleko a jednoduše se hledá. Rozléhá se z ní bušení pravidelné bušení. Kovářku najdete venku, pod přístřeškem u kovadliny. Ženu kovářku jste ještě neviděli. Pracuje na něčem velkém, asi na pluhu. "Dobrý den kovář-ko" pozdravíte s malým zaváháním když si udělá malou pauzu.
+
+Usměje se na vás veselýma očima a zpocený obličej umazaný od sazí si otře do hadry na opasku. "Tak co to bude, drobotino?" zeptá se. Oslovení "drobotino" by vás možná normálně urazilo, ale od ní to zní v pořádku. Je vysoká snad dva metry, ruce má silné jako stehna normálního chlapa a ramena široká že dveřmi normálně neprojde. Určitě má barbarské předky.
+
+"No, mysleli jsme že by se u vás možná daly koupit nějaké zbraně madam, nebo možná nějaký kousek brnění?"
+
+"Hahaha, to mi lichotíte" potěšeně se zasměje. "Já většinou dělám jenom takový obyčejný věci. Vidíte" a mávne k polici s rozdělanými zakázkami. Jsou tam podkovy, násady na rýče, sekery a taky jedny vidle. "Ale počkejte, něco vyhrabu vzadu v baráku."
+
+Za chvíli se vrátí a v náručí přináší několik promaštěných kožešin které ukrývají železem chřestící náklad. Všecnho to rozloží před vás a i když toho není moc, vyberat by si mohl každý.
+
+TODO sortiment
+
+*Pokud budete s kovářkou smlouvat, hoďte si na charismu, přidejte případný bonus za dovednost smlouvání. Slevu se vám podaří usmlouvat pokud jste dostali 11 a více.*
+
+Pokud má někdo z vás zrezivělou zbraň, kovářka vám ho za desetinu jeho ceny přebrousí a opraví. Bude jako nový a síla útoku se jí zvedne na hodnotu podle tabulky výše.
+
+Pokud jste tu skončili, vraťte se do města na [mesto_rozcetnik].
 
 # mesto_korenarka
 Kousek za městským opevněním stojí malá chatrč. Vypadá jako by byla uplácaná z bláta, velké kameny vidíte jen v základech. Má hrbolaté stěny které s velkou rezervou přesahuje střecha z rákosových došků. Z každého střešního trámu vysí několik svazečků různých bylin či plátěné pytlíky s neznámým obsahem. Na okně stojí malá klícka v ní krásně vybarvený stehlík který si vás prohlíží malýma černýma očkama.
