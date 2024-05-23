@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# To convert svg files, we need utility rsvg-convert from librsvg2-tools package
+
 set -eux
 
 source venv/bin/activate

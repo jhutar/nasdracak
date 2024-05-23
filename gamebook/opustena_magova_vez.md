@@ -7,6 +7,8 @@ gamebook-gap: 5
 papersize: a5
 ---
 
+![Opuštěná mágova věž](docs/source/dobrodruzstvi/opustena_magova_vez/img/vez.svg "Opuštěná mágova věž")
+
 Dobrodružství je zamýšleno pro skupinku 3 dobrodruhů na první úrovni. Co se pravidel týče a způsobu popisu příšer či předmětů, vycházíme z prastarého Dračího doupěte. Myslím ale, že to půjde převést na libovolný systém.
 
 Text psaný skoloněným písmem (*italikou*) jsou instrukce pro hráče, zbytek je popis toho co se děje postavám za které hráč či hráči hrají.
@@ -87,6 +89,8 @@ Jak budete pokračovat? Jste nedůvěřiví nebo snad jen opatrní a pokusíte s
 Pokud se nechcete zdržovat nějakým povídáním a chcete vyrazit rovnou k věži, jděte na [vez_prichod].
 
 # patrani_vyptavani
+![Co se děje na náměstí](gamebook/image_mesto_namesti.svg "Co se děje na náměstí")
+
 Koho se ale zeptat? Prodejci na trhu vypadají velmi zaměstnaně. Usmívají se, ale jak zjistí že se s nimi nechcete bavit o jejich zboží a vašem nákupu, brzo se vám přestanou věnovat. Stejně tak většina nakupujících. Nejsou tu za zábavou, ale pracovně. Učni a učnice vyřizují pochůzky pro své mistry a mistrové, co nejrychleji neboť příliš často zakusili jejich hbytou rákosku. Kuchařky pečlivě vybírají, smlouvají a nakupují aby ještě stihly uvařit. Městská hlídka sice postává, ale dává pozor na kapsáře a výtřžníky a zakecat se nenechá.
 
 Po chvíli hledání si všimnete několika lidí kteří by se s vámi snad bavili. U jednoho domku sedí na velkém poleně stařeček. Sedí, opírá se o zeď svého domu, bafá z fajfky a pozoruje šrumec na tržišti. Pokud to chcete zkusit a zajít za ním, jděte na [patrani_starecek].
