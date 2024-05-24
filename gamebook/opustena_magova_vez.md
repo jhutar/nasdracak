@@ -11,18 +11,252 @@ papersize: a5
 
 Dobrodružství je zamýšleno pro skupinku 3 dobrodruhů na první úrovni. Co se pravidel týče a způsobu popisu příšer či předmětů, vycházíme z prastarého Dračího doupěte. Myslím ale, že to půjde převést na libovolný systém.
 
-Text psaný skoloněným písmem (*italikou*) jsou instrukce pro hráče, zbytek je popis toho co se děje postavám za které hráč či hráči hrají.
+Text psaný skoloněným písmem (tzv. *italikou*) jsou instrukce pro hráče. Zbytek je popis příběhu - toho co se děje postavám za které hraješ (nebo hrajete).
 
 # Jak hrát
+Toto dobrodružství je zamýšleno pro skupinku tří postav na první úrovni. Můžeš hrát sám za všechny postavy, nebo vás může hrát několik, každý za svou postavu. Pokud si chceš hru ztížit, hraj s méně postavami, pokud zjednodušit, přizvy kamarády a vaši skupinku dobrodruhů rozšiřte. Je to jen na tobě (nebo na vás).
+
+Co budeš potřebovat? Jednu nebo lépe 2 šestistěnné kostky, tužku, papír a bude se hodit guma. Na kreslení mapy se bude hodit papír čtverečkovaný.
 
 ## Pravidla
-TODO
 
-## Tvorba postav
-TODO
+### Souboj
+Útok zbraní při boji tváří v tvář: síla postavy (SÍL) + síla zbraně = útočné číslo (ÚČ).
 
-## Ceníky
-TODO
+Útok zbraní na dálku: obratnost postavy (OBR) + síla zbraně = útočné číslo (ÚČ).
+
+Obrana proti útoku: bonusu za obratnost (OBR) + kvalita zbroje + štít = obranné číslo (OČ).
+
+Pokud je ÚČ větší než OČ, cíl útoku přichází o ÚČ - OČ životů.
+
+Další možnosti při boji:
+
+* Útok na nehybného protivníka (například spoutaného nějakým kouzlem): +4
+* Útok ze zálohy, překvapení protivníka: +2 na první útok
+* Útok na plocho: Při použití jiných než střelných a vrhacích zbraní můžeš útočit tzv. "na plocho". Při tomto útoku se oběti neubírají opravdové životy, ale tzv. "stínové". Pokud útoky na plocho oběti ubereš tolik stínových životů kolik má opravdových, oběť omdlí. Za 10 minut se probere a ztrácí ¼ svých opravdových životů.
+* Pokud se některá strana rozhodne utéct z boje, druhá strana na ni bude ještě dvě kola útočit. Utíkající strana tato dvě kola neútočí, jen se brání.
+
+### Pasti
+Příklad zápisu pro past kde se rozhoduje jestli postava najde skryté tlačítko:
+
+    INT 5, nic/tlačítko nalezeno
+
+a znamená to, že pokud hod hráče desetistěnou kostkou plus jeho bonus na inteligenci je ve výsledku 1 až 4, postava tlačítko nenašla. Pokud je ale výsledek 5 a více, postava tlačítko našla.
+
+Past ale může být složitější. Tady se třeba určuje, jestli postava přes kluzký starý kmen vedoucí přes zpěněnou řeku dokáže přejít na druhou stranu:
+
+    OBR 2/4/8, pád do vody a zranění za 2 životy/pád do vody a vypalování zpět na původním břehu/pád do vody a vyplavání na cílovém břehu/přejde
+
+Pokud tedy hráč s postavou s odolností +1 hodí 1k10 kostkou 3, jeho výsledek je 4 (hod plus +1 za ODO). To znamená že postava z klády do vody spadla, ale vynořila se na cílovém břehu (t.j. třetí možnost v popisu pasti). Bylo to však těsně. Hod o jedna menší (2 na kostce plus +1 za ODO) by znamenal, že postava spadla do vody a proud ji vyvrhl na břehu z něhož vycházela (t.j. druhá možnost v popisu pasti).
+
+## Tvorba postay
+Pravděpodobně budeš vytvářet několik postav, takže prostě tento postup zopakuješ pro každou z nich. Pokud vás hraje víc, můžete postupovat společně a každý si tvořit svou postavu.
+
+Vytváření postavy se skládá z těchto kroků:
+
+1. Vymysli si jméno.
+2. Vyber si její rasu.
+3. Urči její vlastnosti (síla, obratnost, odolnost, inteligence a charisma).
+4. Z vlastností vyplyne počet životů a množství magické energie.
+5. Vyber 2 startovací dovednosti.
+6. Nakup si vybavení do začátku.
+
+### Deník postavy
+Pro každou postavu budete potřebovat její deník. Záznam jejich vlastností a majetku. Stačí tužka a obyčejný papír jam to všechno zapíšeš, ale můžeš použít tuto předpřipravenou šablonu:
+
+TODO denik postavy
+
+### Jméno postavy
+*Zapiš si jak se postava jmenuje.*
+
+Dál se můžeš zamyslet nad tím jaká je, jaký je její životní příběh, odkud pochází. Prostě si o ní udělat představu. Strávíš s ní teď nějaký čas, tak ať se trochu poznáte.
+
+### Výběr rasy
+Vyber si rasu, v jaké se tvá postava narodila. Na výběr máš tyto:
+
+* **Hobit** - TODO
+* **Kudůk**
+* **Trpaslík**
+* **Elf**
+* **Člověk**
+* **Barbar**
+* **Krol**
+
+### Vlastnosti
+*Urči vlastností tvé postavy podle tabulky za pomocí kostek.*
+
+V naší hře zjednodušíme vlastnosti každé postavy (či netvora) na těchto pět vlastnosí:
+
+* Síla (budeme zkracovat `SÍL`) - TODO
+* Obratnost (`OBR`) - 
+* Odolnost (`ODO`) - 
+* Inteligence (`INT`) - 
+* Charisma (`CHR`) - 
+
+Pro rasu vybranou v předchozím kroku, pro každou vlastnost si hodíš kostkou (jednou nebo víckrát, podle tabulky) a přičteš nebo odečteš číslo (opět podle tabulky). Dostaneš číslo, které udává jak dobrá (nebo špatná) je tvá postava v dané schopnosti.
+
+Hodnoty v tabulce jsou zakódovány zápisem jako `1k3 - 4`. Tento zápis znamená "hoď jednou trojstěnnou kostkou a odečti čtyřku". Protože trojstěnnou kostku má málokdo, hod trojstěnnou kostkou provedeme tak, že hodíme obyčejnou šestistěnnou a když padne 1 nebo 2, bereme to za 1, když 3 nebo 4 je to 2 a když 5 nebo 6, je to 3.
+
+_Příklad:_ Áďa právě určuje charisma pro svou elfku Jasmínu. Má tedy házet podle `2k3 - 3`. Prvním hodem hodila 5 (tedy 3 po převodu) a druhým 4 (tedy 2). Jasmína má tedy charismu 3 + 2 - 3, takže "+2". Je to tedy nebývalá krasavice.
+
+Takže, pro určení pěti základních vlastností tvé postavy si připrav kostku a házej podle této tabulky:
+
+|  | Síla (SÍL) | Obratnost (OBR) | Odolnost (ODO) | Inteligence (INT) | Charisma (CHR) |
+|---|---|---|---|---|---|
+| Hobit | `1k3 - 5` | `1k3 - 1` | `1k3 - 2` | `1k3 - 1` | `1k3 - 1` |
+| Kudůk | `1k3 - 4` | `1k3 - 1` | `1k3 - 1` | `1k3 - 2` | `1k3 - 3` |
+| Trpaslík | `1k3 - 3` | `1k3 - 3` | `1k3 + 0` | `1k3 - 2` | `1k3 - 3` |
+| Elf | `1k3 - 3` | `1k3 - 1` | `1k3 - 3` | `1k3 + 0` | `2k3 - 3` |
+| Člověk | `2k3 - 4` | `1k3 - 2` | `1k3 - 2` | `1k3 - 1` | `3k3 - 6` |
+| Barbar | `1k3 - 1` | `1k3 - 2` | `1k3 - 1` | `1k3 - 3` | `3k3 - 8` |
+| Krol | `1k3 - 1` | `2k3 - 4` | `1k3 + 0` | `1k3 - 4` | `2k6 - 6` |
+
+**Pozor:** Po naházení si ještě přidej 3 body do alespoň dvou vlastností jak je libo.
+
+_Příklad:_ Ádina elfka Jasmína má po určení vlastností podle tabulky sílu -1, obratnost +1, odolnost -2, inteligenci +2 a charisma +2. Áďa nyní rozděluje 3 body podle svého uvážení, ale tak aby nedala vše na jednu vlastnost. Na konec se rozhodla že vylepší tyto tři vlastnosti, každou o jedna: síla, odolnost a inteligence. Finální vlastnosti Jasmíny jsou tedy sílu 0, obratnost +1, odolnost -1, inteligenci +3 a charisma +2.
+
+Co si pod čísly představit?
+
+Tak třeba pokud se elf se silou "-3" pokusí vyrazit chatrné dveře v dlouho opuštěné rybářské chýši, nepodaří se mu to a bude muset najít pomoc nebo si poradit jinak (třeba vlést oknem). Naproti tomu barbar se silou "+3" bude široko daleko vyhlášeným silákem a vyrazit i pevné dubové dveře na solidních železných pantech se mu jistě brzo povede (v našem světě bys ho asi našel jak vzpírá na olympiádě). Síla "0" potom představuje běžnou hodnotu, něco co čekat u průměrného obyvatele.
+
+### Životy
+*Maximální počet životů postavy: 8 + ODO (čili tvoje odolnost).*
+
+_Příklad:_ Pájina postava, trpaslice Grafita má oolnost +1. Grafita má tedy 9 životů.
+
+O životy můžeš přijít v boji či jako důsledek různých akcí. Rozhodně s nimi ale neplýtvej. Nula životů znamená smrt tvojí postavy.
+
+Jak ztracené životy získat zpět? Každý den ráno, po kvalitním spánku (8 hodin, v suchu a teple) se ti vyléčí až 2 životy (vždy ale jen do maximálního množství). Pokud spánek takto kvalitní nebyl (například tvá postava měla hlídku, nebo celou noc pršelo a vy neměli žádný úkryt), vyléčí se jen 1 život.
+
+Také existují kouzla, lektvary či magické předměty které ti můžou životy vyléčit, mají ale své vlastní pravidla.
+
+### Magenergie
+*Maximální množství magenergie tvé postavy: 8 + INT (čili tvoje inteligence).*
+
+I když se se svou postavou neplánuješ věnovat magii, hodnotu si zapiš. Třeba někdy názor změníš.
+
+### Dovednosti
+*Pro novou postavu si ze seznamu dovedností vyber 2 různé.*
+
+
+Jak je to s penězi? Jeden "zlatý" (značíme "zl") se dá rozměnit na 10 "stříbrných" (značíme "st") a jeden stříbrný pak na 10 "měďáků" (značíme "md").
+
+Při vytváření postavy dostáváte TODO zlatých, za které si za tabulkovu cenu (viz. kapitola "Běžné ceny") nakup svůj počáteční inventář. Co ti zbyde si nechej v penězích.
+Zkušenosti
+Vaše postava bude s tím jak prochází životem získávat zkušenosti. Jakmile jich nastřádá dané množství, může se naučit novou dovednost.
+
+Na rozdíl od reálného světa kdy zkušenosti získáváte i když (nebo dokonce "hlavně když") nějakou tu denní zkoušku pokazíme, tady bude tvoje postava zkušenosti získávat jen když se jí něco nezanedbatelného povede. Ber to jako jakési ocenění toho, že tvoje postava vyřešila úkol či něco podobného.
+
+Ale pozor, zkušenosti se nerovnají počtu zabitých nepřátel. Stejně jako v životě, i tady je diplomatické či nenásilné řešení situace cennější!
+
+První novou dovednost se tvá postava bude moci naučit jakmile dosáhne 50ti bodů zkušeností, za dalších 100 to bude další a tak dále:
+
+### Vybavení do začátku
+*Z tabulek níže si nakup libovolné vybavení za 20 zlatých.*
+
+Jednoruční zbraně pro boj tváří v tvář
+
+| Název | Síla zbraně | Cena | Poznámka |
+|---|---|---|---|
+| žádná | 0 |  |  |
+| dýka | 2 | 1 zl |  |
+| obušek | 2 | 2 st |  |
+| tesák | 3 | 4 zl |  |
+| čakan | 3 | 1 zl |  |
+| krátký meč | 4 | 16 zl |  |
+| kyj | 3 | 8 st | Jen pro postavy s SÍL +1 a větší |
+| sekera | 3 | 1 zl  | Jen pro postavy s SÍL +1 a větší |
+| řemdih | 4 | 2 zl | Jen pro postavy s SÍL +2 a větší |
+| válečné kladivo | 5 | 3 zl | Jen pro postavy s SÍL +2 a větší |
+
+Obouruční zbraně pro boj tváří v tvář
+
+| Název | Síla zbraně | Cena | Poznámka |
+|---|---|---|---|
+| kovaná hůl | 5 | 7 st |  |
+| vidle | 4 | 1 zl |  |
+| kopí | 5 | 1 zl |  |
+| válečná sekera | 4 | 4 zl | Jen pro postavy s SÍL +1 a větším |
+| sudlice | 5 | 1 zl | Jen pro postavy s SÍL +1 a větším |
+| píka | 5 | 1,5 zl | Jen pro postavy s SÍL +1 a větším |
+| tesák a dýka | 4 | - | Jen pro postavy s SÍL +1 a větším |
+| krátký meč a dýka | 5 | - | Jen pro postavy s SÍL +1 a větším |
+| cep | 5 | 8 st | Jen pro postavy s SÍL +2 a větším |
+| halapartna | 4 | 4 zl | Jen pro postavy s SÍL +2 a větším |
+| těžký kyj | 5 | 2 zl | Jen pro postavy s SÍL +2 a větším |
+
+Střelné zbraně
+
+| Název | Síla zbraně | Cena | Poznámka |
+|---|---|---|---|
+| prak | 3 | 1 st |  |
+| krátký luk | 4 | 4 zl |  |
+| lehká kuše | 4 | 32 zl |  |
+
+Vrhací zbraně
+
+| Název | Síla zbraně | Cena | Poznámka |
+|---|---|---|---|
+| oštěp | 3 | 4 st |  |
+| sekera | 3 | 1 zl |  |
+| dýka | 2 | 1 zl |  |
+| kámen | 0 | 0 |  |
+| flakónek (svěcená voda...) | 0 | 1 zl |  |
+| láhev (olej, voda...) | 0 | ? |  |
+| pochodeň | 0 | 1 md |  |
+
+Obrana
+
+| Název | Obrana | Cena | Poznámka |
+|---|---|---|---|
+| žádné | 0 |  |  |
+| vycpávané | 1 | 16 zl |  |
+| kožené | 2 | 40 zl |  |
+| šupinové | 3 | 120 zl | Jen pro postavy s SÍL +1 a větší |
+| Kroužkové | 4 | 240 zl | Jen pro postavy s SÍL +1 a větší |
+| plátové | 5 | 160 zl | Jen pro postavy s SÍL +2 a větší |
+| rytířská zbroj | 6 | 800 zl | Jen pro postavy s SÍL +2 a větší |
+| štít | 1 | 5 zl |  |
+
+Vybavení
+
+| Název | Cena |
+|---|---|
+| pochodně 6 ks | 6 md |
+| křesadlo | 1 st |
+| zrcátko kovové | 1 st |
+| lahev | 1 st |
+| olej do lucerny | 3 st |
+| flakónek (lahvička na lektvar) | 4 st |
+| list pergamenu | 8 st |
+| měch na vodu | 1 zl |
+| flakónek svěcené vody | 1 zl |
+| lano 10m | 1 zl |
+| lucerna | 2 zl |
+| batoh | 4 zl |
+| malá dřevěná truhlička | 4 zl |
+| kožešiny pro spaní venku | 6 zl |
+| velká železem obytá truhla se zámkem | 15 zl |
+
+Oblečení
+
+| Název | Cena |
+|---|---|
+| oblečení nuzné (odebírá -2 od CHAR) | 2 zl |
+| oblečení obyčejné | 8 zl |
+| oblečení zdobné (přidává +1 k CHAR) | 70 zl |
+| oblečení luxusní, zdobené zlatem a kameny (přidává +2 k CHAR) | 350 zl |
+
+Jídlo
+
+| Název | Cena |
+|---|---|
+| bochník chleba | 6 md |
+| večeře v hostinci | 1 st |
+| ječmen pro koně na 7 dní | 3 st |
+| soudek piva | 5 st |
+| víno | 5 st |
+| jídlo na týden | 7 st |
 
 
 
