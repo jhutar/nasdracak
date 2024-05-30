@@ -1000,8 +1000,13 @@ Pokud vám ti dva které jste viděli vstupovat do věže připadají nebezpečn
 Pokud si věříte a raději se je ve věži pokusíte chytit, jděte na [vez_konfrontace_slezani_chyceni].
 
 # vez_konfrontace_slezani_poslouchani
-[zemlicka_hlaseni_50p]
-[vez_prichod]
+Rychle utrhnete pár stébel trávy a použijete je na vylosování "šťastlivce", který zůstane hlídat dveře. Taháte a brzo e rozhodnuto. Jeden z vaší družinky s mírně nasupeným výrazem zůstává hlídat vchod do věže. Ostatní se nenápadně proplétají houštím k oknu. Tam se schováte za blízké stromy a keře a napjatě se díváte a posloucháte. Venku už před nějakou dobou padla tma a hordy cvrčků se snaží jeden přehlušit druhého.
+
+Po chvíli se za oknem rozsvítí a nezřetelně slyšíte útržky hovoru: "...tak deme na to..." a "...neboj, prej už jen párkrát" a "...tak teď!" Na ten povel se z věže začal ozývat randál jak kdyby někdo bubnoval na velkou poklici a světlo lucerny se teď míhá přímo u polozatlučeného okna.
+
+Kdybyste nevěděli že tohle mají na svědomí dva chuligáni, při pohledu od nedaleké palisády byste to taky jistě přisoudili sílám pekelným. Nemá smysl čekat na konec tohoto představení. Zvlášť když vám už začíná být jasné o co tady jde a tak se můžete vydat za Žemličkou a sdělit mu co jste zjistili na [zemlicka_hlaseni_50p].
+
+Pokud chcete ještě počkat až ti dva odejdou a vrátit se do věže, můžete. Jen si šíslo [zemlicka_hlaseni_50p] zapište a jděte tam až se za žemličkou budete chtít vydat. Nyní se můžete vrátit do hlavní místnosti v přízemí na [vez_prizemi_hlavni].
 
 # vez_konfrontace_slezani_chyceni
 [vez_konfrontace_slezani_chyceni_uspech]
