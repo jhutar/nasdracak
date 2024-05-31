@@ -5,6 +5,7 @@ lang: cs-CZ
 csquotes: true
 gamebook-gap: 5
 papersize: a5
+geometry: margin=2cm
 ---
 
 ![Opuštěná mágova věž](docs/source/dobrodruzstvi/opustena_magova_vez/img/vez.svg "Opuštěná mágova věž")
