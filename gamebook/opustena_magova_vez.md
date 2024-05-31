@@ -325,7 +325,7 @@ Jak budete pokračovat? Jste nedůvěřiví nebo snad jen opatrní a pokusíte s
 Pokud se nechcete zdržovat nějakým povídáním a chcete vyrazit rovnou k věži, jděte na [vez_prichod].
 
 # patrani_vyptavani
-![Co se děje na náměstí](gamebook/image_mesto_namesti.svg "Co se děje na náměstí")
+![Co se děje na náměstí](gamebook/image_mesto_namesti.svg "Co se děje na náměstí"){ width=100% }
 
 Koho se ale zeptat? Prodejci na trhu vypadají velmi zaměstnaně. Usmívají se, ale jak zjistí že se s nimi nechcete bavit o jejich zboží a vašem nákupu, brzo se vám přestanou věnovat. Stejně tak většina nakupujících. Nejsou tu za zábavou, ale pracovně. Učni a učnice vyřizují pochůzky pro své mistry a mistrové, co nejrychleji neboť příliš často zakusili jejich hbytou rákosku. Kuchařky pečlivě vybírají, smlouvají a nakupují aby ještě stihly uvařit. Městská hlídka sice postává, ale dává pozor na kapsáře a výtřžníky a zakecat se nenechá.
 
