@@ -12,7 +12,7 @@ rm -f gamebook/opustena_magova_vez.dot
 rm -f gamebook/opustena_magova_vez.dot.png
 
 # PDF doc
-pandoc --lua-filter=pangamebook/pangamebook.lua --pdf-engine=xelatex -o gamebook/opustena_magova_vez.pdf gamebook/opustena_magova_vez.md
+pandoc --lua-filter=pagebreak/pagebreak.lua --lua-filter=pangamebook/pangamebook.lua --pdf-engine=xelatex -o gamebook/opustena_magova_vez.pdf gamebook/opustena_magova_vez.md
 echo "PDF doc: gamebook/opustena_magova_vez.pdf"
 
 # Raw PDF doc
