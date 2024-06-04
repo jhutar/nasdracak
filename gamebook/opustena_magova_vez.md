@@ -1052,9 +1052,13 @@ Vrať se k prohlížení obsahu truhly na [vez_prvni_tajna_truhla_otevreni_obsah
 Postel jste ze všech stran okoukli, ale nevypadá to že by se v ní mohl schovávat nějaký úkryt nebo pod ní nějaké nebezpečí. Tak jste si jí přestali všímat a vrátili se k průzkumu té části patra které asi bylo ložnicí na [vez_prvni_loznice].
 
 # vez_prvni_loznice_postel_poletuchy
-[vez_prvni_loznice_postel_poletuchy_znalost]
-[vez_prvni_loznice_postel_poletuchy_utok]
-[vez_prvni_loznice_postel_poletuchy_povidani]
+Tasíte zbraně a jediným rychlým škubnutím přikrývku strhnete z postele. Čekali jste myši, krysy nebo tak něco, ale právě hledíte na dvě malinké podivné bytosti. Vypadají jako lidé, až na to že jsou asi jenom loket vysocí a, světe div se, na zádech mají křídla. Jedna z nich vypadá jako děvče, druhý jako kluk. Dívají se na vás překvapeně, ale rozhodně to nevypadá že by se vás báli.
+
+Pokud má někdo ve vaší družince dovednost znalost tvorů TODO, jděte na [vez_prvni_loznice_postel_poletuchy_znalost].
+
+Pokud nechcete váhat a chcete je zabít dřív než se jim povede seslat na vás nějaké prokletí, bodnout vás jedovatým špendlíkem nebo co jiného co tyhle potvory dělají, jděte na [vez_prvni_loznice_postel_poletuchy_utok].
+
+Pokud se chcete pokusit promluvit si s nimi, jděte na neco [vez_prvni_loznice_postel_poletuchy_povidani].
 
 # vez_prvni_loznice_postel_poletuchy_znalost
 Ten z vasi druzinky kdo ma znalost "znalost zvirat" TODO se nenapadne nakloni k ostatnim clenum druzinky ktera ostrazite zira na nove nalezene tvory a septem se je bude snazit uklidnit: "Poslouchejte, ja myslim ze toto jsou uplne jasne poletuchy. Vetsinou to byvali uzitecna stvoreni. Pokud se sedlakovi nekde na vesnici usidli ve stodole a pokud je to chytry hospodar..." "Nebo pokud ma chytrou zenu, to spis" ozve se jedna z zen ve vasi druzince (mate li ji). "...vetsinou s nimi dokaze navazat oboustrane vyhodne pratelstvi. Byvaji vesele, loajalni a pro nas rozhodne nemuzou byt nebezpecne, prave naopak, mozna by nam mohli pomoct."
@@ -1062,7 +1066,7 @@ Ten z vasi druzinky kdo ma znalost "znalost zvirat" TODO se nenapadne nakloni k 
 To jsou ale zajimave informace. Nyni jdi zpet na [vez_prvni_loznice_postel_poletuchy].
 
 # vez_prvni_loznice_postel_poletuchy_utok
-[vez_prvni_loznice]
+Rozhodli jste se na ty divné tvorečky zaútočit. Vytasili jste zbraně ale nespouštíte z nich oči. Když ale tvorečci uviděli co máte v plánu dost je to poděsilo. Lehce vyskočili do vzduchu a zároveň roztáhli křídla. Vznesli se, jednou obkroužili postel a než jste se nadáli uletěli oknem v druhé části patra. Nevypadá to že by se chtěli vrátit, takže zase schováte zbraně. Připadáte si hloupě že jste chtěli sáhnout na život tak neškodným stvořením. Nyní se můžete vrátit na [vez_prvni_loznice].
 
 # vez_prvni_loznice_postel_poletuchy_povidani
 [vez_prvni_loznice_postel_poletuchy_povidani_zhurta]
