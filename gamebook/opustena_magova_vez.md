@@ -1069,21 +1069,51 @@ To jsou ale zajimave informace. Nyni jdi zpet na [vez_prvni_loznice_postel_polet
 Rozhodli jste se na ty divné tvorečky zaútočit. Vytasili jste zbraně ale nespouštíte z nich oči. Když ale tvorečci uviděli co máte v plánu dost je to poděsilo. Lehce vyskočili do vzduchu a zároveň roztáhli křídla. Vznesli se, jednou obkroužili postel a než jste se nadáli uletěli oknem v druhé části patra. Nevypadá to že by se chtěli vrátit, takže zase schováte zbraně. Připadáte si hloupě že jste chtěli sáhnout na život tak neškodným stvořením. Nyní se můžete vrátit na [vez_prvni_loznice].
 
 # vez_prvni_loznice_postel_poletuchy_povidani
-[vez_prvni_loznice_postel_poletuchy_povidani_zhurta]
-[vez_prvni_loznice_postel_poletuchy_povidani_pomalu]
+"Ahoj" ozvete se. "Nebojte se nás, my vám nechceme ublížit" snažíte se zapříst hovor s malými tvorečky.
+
+Ti se po sobě podívají, nakloní se k sobě a něco si šuškají. Potom se ta, která vypadá jako děvče otočí k vám a povídá "My se vás přece nebojíme, takových habánů neohrabanejch." a založí si ruce v bok.
+
+"Jak se jmenujete?"
+
+"Já jsem Pepina a tohle je Tomík. To vy jste tu včera dělali ten rambajs?" ptá se Pepina.
+
+"Včera jsme tu ani nebyli" odpovíte popravdě.
+
+Chvilku si s nimi povídáte a dozvíte se že tihle malý tvorečci přiletěli do města se sedlákem, jakýmsi jejich přítelem kterému se pokoušely na trhu zajistit lepší ceny. Před návratem domů se zastavili tady ve věži aby si odpočinuli, ale včera je tu vyrušila nějaká dvojice habánů (zdá se že Pepina tak říká lidem) která ve spodním podlaží dělala strašný virvál.
+
+"Pozorovali jsme je škvírou ve dveřích, ale pili pálenku a to mi nemáme rádi" přikyvuje Tomík.
+
+Pokud máte nějaký kousek jídla a chcete ho tvorečkům nabídnout jako pozornost jděte na [vez_prvni_loznice_postel_poletuchy_povidani_jidlo].
+
+Pokud se je raději pokusíte přímo z nich vytáhnout informace, jděte na [vez_prvni_loznice_postel_poletuchy_povidani_zhurta].
 
 # vez_prvni_loznice_postel_poletuchy_povidani_zhurta
-[vez_prvni_loznice]
+"Tak povězte nám ještě něco o těch co v přízemí dělali ten kravál. Jak vypadali?" ptáte se.
 
-# vez_prvni_loznice_postel_poletuchy_povidani_pomalu
-[vez_prvni_loznice_postel_poletuchy_povidani_nic]
-[vez_prvni_loznice_postel_poletuchy_povidani_jidlo]
+"Ale, vždyť sme vám říkali že se nám nelíbíli, nechceme o nich mluvit!" zatváří se Pepina kysele.
 
-# vez_prvni_loznice_postel_poletuchy_povidani_nic
-[vez_prvni_loznice]
+Vy se ale nedáte "No ale my to potřebujeme vědět, zamyslete se vy pidižvíci."
+
+Pepina se na vás zamračí "Tak tohle né. Prostě se o nich nebavíme" "Tak tak" přikyvuje Tomík. "Celkem jste se nám ale líbili, měli bysme pro vás něco, co by se vám možná mohlo hodit." Pepina mrkla na Tomíka, ten se na chvíli zamyslel a pak spustil:
+
+TODO Krátká básnička.
+
+Když to dopovídal, oba vyskočili do vzduchu, zamávali vám na pozdrav a vcukuletu byli pryč.
+
+Je jasné že se už nevrátí a tak se můžete vrátit zpátky k prozkoumávání ložnice na [vez_prvni_loznice].
 
 # vez_prvni_loznice_postel_poletuchy_povidani_jidlo
-[vez_prvni_loznice]
+Vaši nový známí rádi přijali nabízenou krmi.
+
+*Odepište si jednu dávku jídla. Na to jak jsou malí toho zpořádali pořádně.*
+
+"Mňam to je ale dobrota" pochvalovala si Pepina i Tomík. Koukáte na ně jak jim šmakuje. "Poslouchejte my už musíme letět ale máme pro vás něco co by se vám možná mohlo hodit" zatváří se Pepina prohnaně.
+
+Potom kývne na Tomíka a ten se na chvíli zamyslí a začne recitovat krátkou básničku:
+
+TODO Dlouhá básnička.
+
+Když skončí, zamávají vám na pozdrav, rozpustile vás obletí a se smíchem vyletí děravým oknem. Chvíli za nimi zmateně koukáte, ale po chvíli je jasné že už se nevrátí a vy se můžete vrátit k prohledávání ložnice na [vez_prvni_loznice].
 
 
 
