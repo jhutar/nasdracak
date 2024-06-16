@@ -1096,7 +1096,8 @@ Vy se ale nedáte "No ale my to potřebujeme vědět, zamyslete se vy pidižvíc
 
 Pepina se na vás zamračí "Tak tohle né. Prostě se o nich nebavíme" "Tak tak" přikyvuje Tomík. "Celkem jste se nám ale líbili, měli bysme pro vás něco, co by se vám možná mohlo hodit." Pepina mrkla na Tomíka, ten se na chvíli zamyslel a pak spustil:
 
-TODO Krátká básnička.
+    Když se dobře rozhlédneš,
+    další dveře nalezneš.
 
 Když to dopovídal, oba vyskočili do vzduchu, zamávali vám na pozdrav a vcukuletu byli pryč.
 
@@ -1111,7 +1112,10 @@ Vaši nový známí rádi přijali nabízenou krmi.
 
 Potom kývne na Tomíka a ten se na chvíli zamyslí a začne recitovat krátkou básničku:
 
-TODO Dlouhá básnička.
+    Když se dobře rozhlédneš,
+    další dveře nalezneš.
+    Vevnitř ale pozor dej,
+    na jednu barvu nešlapej.
 
 Když skončí, zamávají vám na pozdrav, rozpustile vás obletí a se smíchem vyletí děravým oknem. Chvíli za nimi zmateně koukáte, ale po chvíli je jasné že už se nevrátí a vy se můžete vrátit k prohledávání ložnice na [vez_prvni_loznice].
 
