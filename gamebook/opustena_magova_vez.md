@@ -11,7 +11,7 @@ papersize: a5
 
 \newpage
 
-Dobrodružství je zamýšleno pro skupinku 3 dobrodruhů na první úrovni. Co se pravidel týče a způsobu popisu příšer či předmětů, vycházíme z prastarého Dračího doupěte. Myslím ale, že to půjde převést na libovolný systém.
+Dobrodružství je zamýšleno pro skupinku 3 dobrodruhů na první úrovni. Co se týče pravidel a způsobu popisu příšer či předmětů, vycházíme z prastarého Dračího doupěte. Myslím ale, že to půjde převést na libovolný systém.
 
 Text psaný skoloněným písmem (tzv. *italikou*) jsou instrukce pro hráče. Zbytek je popis příběhu - toho co se děje postavám za které hraješ (nebo hrajete).
 
