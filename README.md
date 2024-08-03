@@ -20,11 +20,11 @@ Na Ubuntu pak zdá se stačí:
 Sestavení kompletní PDF verze:
 
     $ sphinx-build -M latexpdf docs/source/ docs/build/
-    $ ls docs/build/latex/ndrak.pdf
+    $ ls docs/build/latex/nasdracak.pdf
 
 A HTML verze:
 
-    $ make -C docs/ html
+    $ sphinx-build -M html docs/source/ docs/build/
     $ firefox docs/build/html/index.html
 
 Jednotlivé PDF soubory:
