@@ -6,4 +6,8 @@ Postavy(čky)
 Poletuchy
 ---------
 
+.. image:: img/poletucha.svg
+   :alt: Poletucha
+   :align: center
+
 Abc
