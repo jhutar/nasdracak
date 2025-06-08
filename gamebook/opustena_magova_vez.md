@@ -587,60 +587,62 @@ Prolézáte úzkým okénkem. Spěcháte, protože v malé místnůstce odkud ve
 Pokračuj na [vez_pruzkum].
 
 # vez_prizemi_spizirna_dvere
-Dveře do této místnosti jsou zatlučené, jen se hemží hřebíky a hala bala přitlučenými deskami. Nekdo asi hodne spechal aby je zavrel a aby zavrene i zustaly.
+Dveře do této místnosti jsou zatlučené, jen se hemží hřebíky a halabala přitlučenými deskami. Někdo asi hodně spěchal, aby je zavřel a aby zavřené i zůstaly.
 
-Muzes se vratit na [vez_prizemi_hlavni], nebo se pokusit dvere otevrit na [vez_prizemi_spizirna_dvere_otevrit] nebo pokud je druzinka uz v minulosti otevrela, muzes vejit do mistnosti za jimi na [vez_prizemi_spizirna].
+Můžeš se vrátit na [vez_prizemi_hlavni], nebo se pokusit dveře otevřít na [vez_prizemi_spizirna_dvere_otevrit], nebo pokud je družinka už v minulosti otevřela, můžeš vejít do místnosti za nimi na [vez_prizemi_spizirna].
 
 # vez_prizemi_spizirna_dvere_otevrit
-*Vyber postavu (klidne muzes postupne zkouset vice postav z tve druzinky) a hod za ni na obratnost.*
+*Vyber postavu (klidně můžeš postupně zkoušet více postav ze své družinky) a hoď za ni na obratnost.*
 
-Pokud je vysledna hodnota mensi nez 3, postava se zranila za jeden zivot. Pokud je vysledek mensi nez 5, nepodarilo se dvere otevrit a musis to zkusit s jinym clenem druziny ci jinou postavou. Pokud je hodnota 5 a vetsi, desky zaprastely a dvere se zacali pomalu otevirat. Nyni dvermi muzes projit na [vez_prizemi_spizirna]. Pokud chcete otevírání vzdát, nebo se jen chcete vrátit, jděte na [vez_prizemi_hlavni].
+Pokud je výsledná hodnota menší než 3, postava se zranila za jeden život. Pokud je výsledek menší než 5, nepodařilo se dveře otevřít a musíš to zkusit s jiným členem družiny či jinou postavou. Pokud je hodnota 5 a větší, desky zapraskaly a dveře se začaly pomalu otevírat. Nyní dveřmi můžeš projít na [vez_prizemi_spizirna].
+
+Pokud chcete otevírání vzdát, nebo se jen chcete vrátit, jděte na [vez_prizemi_hlavni].
 
 # vez_prizemi_spizirna
-Mistnost kam jste prave vstoupili je pomerne temna nebot nema zadne okno a jedine svetlo do ni pronika z oterenych dveri. Z mistosti vedou schody dolu, asi do sklepa. Ty jsou ale halabala zaházené zbytky trámů a desek, jako by se nekdo snazil rychle zabarikadovat pruchod. Mistnost asi slouzila jako nějaký sklad nebo spižírna - stoji v ni dvojice dlouhych, prázdných, polic. Počkat, nepohlo se něco támhle pod jednou z nich?
+Místnost, kam jste právě vstoupili, je poměrně temná, neboť nemá žádné okno a jediné světlo do ní proniká z otevřených dveří. Z místnosti vedou schody dolů, asi do sklepa. Ty jsou ale halabala zaházené zbytky trámů a desek, jako by se někdo snažil rychle zabarikádovat průchod. Místnost asi sloužila jako nějaký sklad nebo spižírna – stojí v ní dvojice dlouhých, prázdných polic. Počkat, nepohlo se něco támhle pod jednou z nich?
 
-Pokud se chcete obratit na utek, vybehnout z mistnost a zabouchnout za sebou dvere, jdete na [vez_prizemi_spizirna_boj_uprk]. Pokud chcete skocit na schody a pokusit se protahnout dolu, jdete na [vez_prizemi_spizirna_boj_schody], pokud se na to citite a chcete se nebezpeci postavit celem, jdete na [vez_prizemi_spizirna_boj_priprava].
+Pokud se chcete obrátit na útěk, vyběhnout z místnosti a zabouchnout za sebou dveře, jděte na [vez_prizemi_spizirna_boj_uprk]. Pokud chcete skočit na schody a pokusit se protáhnout dolů, jděte na [vez_prizemi_spizirna_boj_schody]. Pokud se na to cítíte a chcete se nebezpečí postavit čelem, jděte na [vez_prizemi_spizirna_boj_priprava].
 
-Pokud jste se uz s tim nebezpecim vyporadali v nejakem predchozim pruchodu touto mistnosti, muzete se tu v klidu porozhlednout. Na policich, pod nimi ci za nimi opravdu nic, ale pokud byste odtahali neporadek ze schodiste vedouciho asi do sklepa, dalo by se tudy projit. Pokud se tim chcete zaobirat, jdete na [vez_prizemi_spizirna_schody]. Pokud se tim nechcete unavovat, muzete se vratit do hlavni mistnosti v prizemi veze na [vez_prizemi_hlavni].
+Pokud jste se už s tím nebezpečím vypořádali v nějakém předchozím průchodu touto místností, můžete se tu v klidu porozhlédnout. Na policích, pod nimi či za nimi není opravdu nic, ale pokud byste odtahali nepořádek ze schodiště vedoucího asi do sklepa, dalo by se tudy projít. Pokud se tím chcete zaobírat, jděte na [vez_prizemi_spizirna_schody]. Pokud se tím nechcete unavovat, můžete se vrátit do hlavní místnosti v přízemí věže na [vez_prizemi_hlavni].
 
-Pokud jste uz schody drive vycistili, muzete po nich sejit do sklepa na [vez_sklep_vstup].
+Pokud jste už schody dříve vyčistili, můžete po nich sejít do sklepa na [vez_sklep_vstup].
 
 # vez_prizemi_spizirna_schody
-Protoze v cele mistnosti je pomerne solidni pritmi, rozmyslete si jestli pouzijete nejaky zdroj svetla.
+Protože v celé místnosti je poměrně solidní přítmí, rozmyslete si, jestli použijete nějaký zdroj světla.
 
-Zabralo vam to dobrou pulhodinu. Schodiste bylo zavaleno zmeti tramku, starych desek a ruzneho neporadku. Na nekterych rostly jakesi slizke houby a nektere byly potrisnene holuby ci jinymi ptaky. To vam pripadlo divne, protoze sem se pres ty zavrene dvere zadni ptaci rozhodne nemohli dostat. Pokud mate nejakou teorii jak se na tramy holuby trus dostal, jdete na [vez_prizemi_spizirna_schody_teorie]. Pokud nad tim ale jen pokrcite rameny, nic se nedeje a muzete jit dal. Kazdopadne to byla prace spinava a umorna, ale nakonec jste pruchod uvolnili na tolik aby se tamtudy dalo projit dolu do sklepa.
+Zabralo vám to dobrou půlhodinu. Schodiště bylo zavaleno zmetí trámků, starých desek a různého nepořádku. Na některých rostly jakési slizké houby a některé byly potřísněné holuby či jinými ptáky. To vám připadlo divné, protože sem se přes ty zavřené dveře žádní ptáci rozhodně nemohli dostat. Pokud máte nějakou teorii, jak se na trámy holubí trus dostal, jděte na [vez_prizemi_spizirna_schody_teorie]. Pokud nad tím ale jen pokrčíte rameny, nic se neděje a můžete jít dál. Každopádně to byla práce špinavá a úmorná, ale nakonec jste průchod uvolnili natolik, aby se tamtudy dalo projít dolů do sklepa.
 
-Pokud jste si u prace svitili at uz pochodni nebo lucernou, jdete na [vez_prizemi_spizirna_schody_sviceni]. Pokud nic z toho nemate a nebo jste tim nechteli plytvat, jdete na [vez_prizemi_spizirna_schody_potme].
+Pokud jste si u práce svítili, ať už pochodní nebo lucernou, jděte na [vez_prizemi_spizirna_schody_sviceni]. Pokud nic z toho nemáte, nebo jste tím nechtěli plýtvat, jděte na [vez_prizemi_spizirna_schody_potme].
 
 # vez_prizemi_spizirna_schody_teorie
-Tak co, jak myslite ze se do zavrene mistnosti bez oken dostaly tramy a desky potrisnene holuby? Pokud vas hraje vice, klidne se o tom poradte a zkuste prijit s nejakou teorii. Mate to? Shodli jste se? Pokud ano, overte si ji na [vez_prizemi_spizirna_schody_teorie_overeni].
+Tak co, jak myslíte, že se do zavřené místnosti bez oken dostaly trámy a desky potřísněné holuby? Pokud vás hraje více, klidně se o tom poraďte a zkuste přijít s nějakou teorií. Máte to? Shodli jste se? Pokud ano, ověřte si ji na [vez_prizemi_spizirna_schody_teorie_overeni].
 
 # vez_prizemi_spizirna_schody_teorie_overeni
-Takze bylo to takhle:
+Takže bylo to takhle:
 
-> Ty tramy a desky pokryte tu a tam holubym trusem jsou ve skutecnosti z hlavni mistnosti v prizemi veze. Nekdo je sem prenesl pred tim nez dvere zatloukl. Bud tu tehdy jeste ty dve plostice zelene nebyly, nebo byly zrovna nekde zalezle, nebo je sem jen hazeli otevrenymy dvermi. Asi se pokouseli zjistit ze co je ve sklepe zustane ve sklepe. Kdo a proc to udelal se snad jeste ukaze.
+> Ty trámy a desky pokryté tu a tam holubím trusem jsou ve skutečnosti z hlavní místnosti v přízemí věže. Někdo je sem přenesl předtím, než dveře zatloukl. Buď tu tehdy ještě ty dvě ploštice zelené nebyly, nebo byly zrovna někde zalezlé, nebo je sem jen házeli otevřenými dveřmi. Asi se pokoušeli zjistit, zda co je ve sklepě zůstane ve sklepě. Kdo a proč to udělal se snad ještě ukáže.
 
-Pokud jste to trefili a odhadli jste ze tramy byly ze sousedni mistnosti, muzete kazde postave pridat jeden bod zkusenosti. Pokud ne, nic se nedeje. Ted se vratte na [vez_prizemi_spizirna_schody] a pokracujte kde jste prestali.
+Pokud jste to trefili a odhadli jste, že trámy byly ze sousední místnosti, můžete každé postave přidat jeden bod zkušenosti. Pokud ne, nic se neděje. Teď se vraťte na [vez_prizemi_spizirna_schody] a pokračujte, kde jste přestali.
 
 # vez_prizemi_spizirna_schody_sviceni
-Moudre jste pouzili svetlo a vyvarovali jste se moznych zraneni a schody jsou ted volne. Odepiste si jednu pochoden nebo jeden dil lampoveho oleje a jdete bud dolu po schodech na [vez_sklep_vstup], nebo se vratte do hlavni mistnosti veze na [vez_prizemi_hlavni].
+Moudře jste použili světlo a vyvarovali jste se možných zranění a schody jsou teď volné. Odepište si jednu pochodeň nebo jeden díl lampového oleje a jděte buď dolů po schodech na [vez_sklep_vstup], nebo se vraťte do hlavní místnosti věže na [vez_prizemi_hlavni].
 
 # vez_prizemi_spizirna_schody_potme
 Pracujete potmě a v této místnosti není zrovna moc světla, takže vám všechno, i ty nejjednodušší činnosti, zaberou spoustu času. Je to namáhavá práce a brzo se potřebujete najíst.
 
-*Pokud máte alespoň třetinu denní dávky jídla, škrtněte si ji. Pokud ne, dočasně si snižte sílu a to až do doby než se zase pořádně najíte. Pak si sílu můžete obnovit na původní úroveň.*
+Pokud máte alespoň třetinu denní dávky jídla, škrtněte si ji. Pokud ne, dočasně si snižte sílu, a to až do doby, než se zase pořádně najíte. Pak si sílu můžete obnovit na původní úroveň.
 
-Práce se nám nakonec podařila a vy můžete pokračovat na [vez_sklep_vstup]
+Práce se nakonec podařila a vy můžete pokračovat na [vez_sklep_vstup].
 
 # vez_prizemi_spizirna_boj_uprk
-Po zahlednuti pohybu ve stinu pod jednou pozici jste na nic necekali a vyhrnuli se z mistnosti. Zabouchli jste dvere a spesne je zaklinili nekolika deskama ktere jste z nich pred malou chvili vypacili. Chvili u dveri naslouchate a zaznamenali jste rychle klapani co znelo jako by se po kamenne podlaze pohybovalo nekolik nohou z velmi tvrdeho dreva, potom drobny naraz do dveri a chvilka jakehosi chresteni. Potom zase ty divne klapave kroky ktere se vzdalily ode dveri a pak uz byl klid.
+Po zahlédnutí pohybu ve stínu pod jednou policí jste na nic nečekali a vyhrnuli se z místnosti. Zabouchli jste dveře a spěšně je zaklinili několika deskami, které jste z nich před malou chvílí vypáčili. Chvíli u dveří nasloucháte a zaznamenali jste rychlé klapání, co znělo, jako by se po kamenné podlaze pohybovalo několik nohou z velmi tvrdého dřeva, potom drobný náraz do dveří a chvilka jakéhosi chřestění. Potom zase ty divné klapavé kroky, které se vzdálily ode dveří a pak už byl klid.
 
-Pokud mate v druzine nekoho se schopnosti *znalost zivych tvoru* TODO, jdete na [vez_prizemi_spizirna_boj_uprk_znalost], jinak se vratte na [vez_prizemi_hlavni].
+Pokud máte v družině někoho se schopností *znalost živých tvorů* TODO, jděte na [vez_prizemi_spizirna_boj_uprk_znalost], jinak se vraťte na [vez_prizemi_hlavni].
 
 # vez_prizemi_spizirna_boj_uprk_znalost
-Postava ktera ma schopnost *znalost zivoych tvoru* TODO se otoci na vystrasenou druzinku a povida: "Poslouchejte, ja myslim ze jsem to poznal. Mozna se pletu, ale ty kroky a to chresteni, to znelo jako Plostice. Ne ty male co se v lete roji treba na vyhratych zidkach, ale jeji vetsi pribuzna. Je to stíhlý, nizky a asi metr dlouhý obří hmyz. Je zelena, šestinohá a chráněná pevným krunyrem. Ma velká kusadla a pokud se zakousne treba do nohy, dokaze vystriknout jed ktery celou nohu na nejaky cas ochromi. Vetsina lidi se z toho sice vzpamatuje, ale nic prijemneho to neni."
+Postava, která má schopnost *znalost živých tvorů* TODO, se otočí na vystrašenou družinku a povídá: "Poslouchejte, já myslím, že jsem to poznal. Možná se pletu, ale ty kroky a to chřestění, to znělo jako ploštice. Ne ty malé, co se v létě rojí třeba na vyhřátých zídkách, ale její větší příbuzná. Je to štíhlý, nízký a asi metr dlouhý obří hmyz. Je zelená, šestinohá a chráněná pevným krunýřem. Má velká kusadla, a pokud se zakousne třeba do nohy, dokáže vystříknout jed, který celou nohu na nějaký čas ochromí. Většina lidí se z toho sice vzpamatuje, ale nic příjemného to není."
 
-Ted kdyz asi vite cemu jste se za dvermi vyhnuli, muzete se vratit do hlavni mistnosti v prizemi na [vez_prizemi_hlavni].
+Teď, když asi víte, čemu jste se za dveřmi vyhnuli, můžete se vrátit do hlavní místnosti v přízemí na [vez_prizemi_hlavni].
 
 # vez_prizemi_spizirna_boj_schody
 Doufali jste, že se kolem barikády na schodech protáhnete a těm podivným stvořením se ztratíte. No a nebo aspoň na schodech najdete výhodnou pozici k boji. Ale nic nemohlo být dál od pravdy. Schody jsou kluzké, je na nich poházeno spousta nepořádku o který se snadno zakopává a tak jste si jenom přitížili.
