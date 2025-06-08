@@ -1064,9 +1064,13 @@ Pokud nechcete váhat a chcete je zabít dřív než se jim povede seslat na vá
 Pokud se chcete pokusit promluvit si s nimi, jděte na [vez_prvni_loznice_postel_poletuchy_povidani].
 
 # vez_prvni_loznice_postel_poletuchy_znalost
-Ten z vasi druzinky kdo ma znalost "znalost zvirat" TODO se nenapadne nakloni k ostatnim clenum druzinky ktera ostrazite zira na nove nalezene tvory a septem se je bude snazit uklidnit: "Poslouchejte, ja myslim ze toto jsou uplne jasne poletuchy. Vetsinou to byvali uzitecna stvoreni. Pokud se sedlakovi nekde na vesnici usidli ve stodole a pokud je to chytry hospodar..." "Nebo pokud ma chytrou zenu, to spis" ozve se jedna z zen ve vasi druzince (mate li ji). "...vetsinou s nimi dokaze navazat oboustrane vyhodne pratelstvi. Byvaji vesele, loajalni a pro nas rozhodne nemuzou byt nebezpecne, prave naopak, mozna by nam mohli pomoct."
+Ten z vaší družinky, kdo má znalost "znalost zvířat" TODO, se nenápadně nakloní k ostatním členům družinky, která ostražitě zírá na nově nalezené tvory, a šeptem se je bude snažit uklidnit: „Poslouchejte, já myslím, že toto jsou úplně jasně poletuchy. Většinou to bývala užitečná stvoření. Pokud se sedlákovi někde na vesnici usídlí ve stodole, a pokud je to chytrý hospodář..."
 
-To jsou ale zajimave informace. Nyni jdi zpet na [vez_prvni_loznice_postel_poletuchy].
+"Nebo pokud má chytrou ženu, to spíš," ozve se jedna z žen ve vaší družince (máte-li ji).
+
+"...většinou s nimi dokáže navázat oboustranně výhodné přátelství. Bývají veselé, loajální a pro nás rozhodně nemůžou být nebezpečné, právě naopak, možná by nám mohly pomoct."
+
+To jsou ale zajímavé informace. Nyní jdi zpět na [vez_prvni_loznice_postel_poletuchy].
 
 # vez_prvni_loznice_postel_poletuchy_utok
 Rozhodli jste se na ty divné tvorečky zaútočit. Vytasili jste zbraně ale nespouštíte z nich oči. Když ale tvorečci uviděli co máte v plánu dost je to poděsilo. Lehce vyskočili do vzduchu a zároveň roztáhli křídla. Vznesli se, jednou obkroužili postel a než jste se nadáli uletěli oknem v druhé části patra. Nevypadá to že by se chtěli vrátit, takže zase schováte zbraně. Připadáte si hloupě že jste chtěli sáhnout na život tak neškodným stvořením. Nyní se můžete vrátit na [vez_prvni_loznice].
