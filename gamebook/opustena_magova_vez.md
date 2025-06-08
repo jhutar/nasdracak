@@ -274,7 +274,7 @@ Nějaké peníze by se vám hodily a on nabízí 30 zlatých. Doptáte se na pod
 
 Chcete s ním smlouvat o výši odměny? Pak jděte na [zemlicka_smlouvani].
 
-Nebo vám Žemlička připadá podezřelý a raděj se na věž ještě poptáte dalších lidí ve městě? Jděte na [patrani_vyptavani].
+Nebo vám Žemlička připadá podezřelý a raději se na věž ještě poptáte dalších lidí ve městě? Jděte na [patrani_vyptavani].
 
 # zemlicka_smlouvani
 Žemlička je zjevně zkušený obchodník a na nějaké to handrkování je zvyklý a jen tak někdo ho k něčemu co nechce nepřesvědčí.
@@ -283,9 +283,9 @@ Nebo vám Žemlička připadá podezřelý a raděj se na věž ještě poptáte
 
 Vy na to: "No ale co všechno to riziko? Straší tam a takový duch nebo jiná magická havěť, to může být pěkně nepříjemné střetnutí, to my známe".
 
-"Ale nic takováho tam nehrozí, to jen pověrčiví lidi se bojí a představují si kde co" odráží vaše argumenty Žemlička. "Prostě to tam občíhnete a vyženete nějakou tu kunu co se tam usídlila a dělá tam randál."
+"Ale nic takového tam nehrozí, to jen pověrčiví lidi se bojí a představují si kde co" odráží vaše argumenty Žemlička. "Prostě to tam občíhnete a vyženete nějakou tu kunu co se tam usídlila a dělá tam randál."
 
-"Kdyby to bylo tak jednoduchý, uděláte to sám otče. Nebo pošlete svoje učedníky." hádáte. "Ale ty jste tam asi ani za zlatý prase nedostal a vy se tam taky bojíte a o nás si myslíte že jsme tu cizí, tak že klidně kastavíme svoje krky za ubohých třicet zlaťáků."
+"Kdyby to bylo tak jednoduchý, uděláte to sám otče. Nebo pošlete svoje učedníky." hádáte. "Ale ty jste tam asi ani za zlatý prase nedostal a vy se tam taky bojíte a o nás si myslíte že jsme tu cizí, tak že klidně nastavíme svoje krky za ubohých třicet zlaťáků."
 
 ...a tak to pokračuje pěkných pár minut. Obě strany zkouší různé argumenty, zkouší toho druhého přesvědčit.
 
@@ -294,9 +294,9 @@ Vy na to: "No ale co všechno to riziko? Straší tam a takový duch nebo jiná 
 Pokud je výsledek hodu 2, jděte na [zemlicka_smlouvani_dolu]. Pokud jste dostali 3 až 8, jděte na [zemlicka_smlouvani_stejne]. Pokud ale máte 9 a víc, jděte na [zemlicka_smlouvani_nahoru].
 
 # zemlicka_smlouvani_dolu
-Postava která za vaši družinu smlouvala se snažila jak mohla, ale v jednu chvíli Žemlička povídá "Víte co? Mě tohle už nebaví, najdu si někoho jiného, zapomeňte na to." Otočí se na podpadku a odchází.
+Postava která za vaši družinu smlouvala se snažila jak mohla, ale v jednu chvíli Žemlička povídá "Víte co? Mě tohle už nebaví, najdu si někoho jiného, zapomeňte na to." Otočí se na podpatku a odchází.
 
-Skočíte za ním a popadnete ho za rameno. "Počketje, pane Žemlička. My jsme to tak nemysleli. Nám by se ty peníze opravdu hodily" vychrlíte na něj. "My to teda bereme."
+Skočíte za ním a popadnete ho za rameno. "Počkejte, pane Žemlička. My jsme to tak nemysleli. Nám by se ty peníze opravdu hodily" vychrlíte na něj. "My to teda bereme."
 
 Otočí se na vás s vítězoslavným úsměvem. "A helemese. No dobře, ale teď už je odměna jen 25 zlatých. Berte, nebo odcházím!"
 
@@ -316,9 +316,9 @@ Mávnete na sebe a rozcházíte se v dobrém. Nyní jděte na [zemlicka_smlouvan
 # zemlicka_smlouvani_nahoru
 Smlouvání pokračovalo několik dlouhých minut a v jednu chvíli se Žemlička usměje a uznale se na vás podívá. "No, vidím že nejednám s žádnými začátečníky. A taky se mi zamlouváte. Připomínáte mi mně když jsem býval mladý. No co s váma nadělám, tak tedy 40 zlatých. Souhlasíte?"
 
-Spokojeně kývnete a poděkujete mu "Děkujeme, pane Žemlička. A nemusíte se bát. Té záhadě příjdeme na kloub a pokud tam opravdu straší, tak se s tím pořádně popereme."
+Spokojeně kývnete a poděkujete mu "Děkujeme, pane Žemlička. A nemusíte se bát. Té záhadě přijdeme na kloub a pokud tam opravdu straší, tak se s tím pořádně popereme."
 
-Žemlička si s váma potřese rukou, prohodíte ještě několik frází a potom odejde za svými povinostmi. Nyní jděte na [zemlicka_smlouvani_hotovo].
+Žemlička si s vámi potřese rukou, prohodíte ještě několik frází a potom odejde za svými povinnostmi. Nyní jděte na [zemlicka_smlouvani_hotovo].
 
 # zemlicka_smlouvani_hotovo
 Jak budete pokračovat? Jste nedůvěřiví nebo snad jen opatrní a pokusíte se o věži získat další informace od někoho jiného? Pak jděte na [patrani_vyptavani].
@@ -328,7 +328,7 @@ Pokud se nechcete zdržovat nějakým povídáním a chcete vyrazit rovnou k vě
 # patrani_vyptavani
 ![Co se děje na náměstí](gamebook/image_mesto_namesti.svg "Co se děje na náměstí"){ width=100% }
 
-Koho se ale zeptat? Prodejci na trhu vypadají velmi zaměstnaně. Usmívají se, ale jak zjistí že se s nimi nechcete bavit o jejich zboží a vašem nákupu, brzo se vám přestanou věnovat. Stejně tak většina nakupujících. Nejsou tu za zábavou, ale pracovně. Učni a učnice vyřizují pochůzky pro své mistry a mistrové, co nejrychleji neboť příliš často zakusili jejich hbytou rákosku. Kuchařky pečlivě vybírají, smlouvají a nakupují aby ještě stihly uvařit. Městská hlídka sice postává, ale dává pozor na kapsáře a výtřžníky a zakecat se nenechá.
+Koho se ale zeptat? Prodejci na trhu vypadají velmi zaměstnaně. Usmívají se, ale jak zjistí že se s nimi nechcete bavit o jejich zboží a vašem nákupu, brzo se vám přestanou věnovat. Stejně tak většina nakupujících. Nejsou tu za zábavou, ale pracovně. Učni a učnice vyřizují pochůzky pro své mistry a mistrové, co nejrychleji neboť příliš často zakusili jejich hbitou rákosku. Kuchařky pečlivě vybírají, smlouvají a nakupují aby ještě stihly uvařit. Městská hlídka sice postává, ale dává pozor na kapsáře a výtržníky a zakecat se nenechá.
 
 Po chvíli hledání si všimnete několika lidí kteří by se s vámi snad bavili. U jednoho domku sedí na velkém poleně stařeček. Sedí, opírá se o zeď svého domu, bafá z fajfky a pozoruje šrumec na tržišti. Pokud to chcete zkusit a zajít za ním, jděte na [patrani_starecek].
 
@@ -339,14 +339,14 @@ U kašny zase naplnila dvě vědra děvečka z nějakého měšťanského domu a
 Pokud už máte vyptávání dost, nebo jste změnili názor a další informace nepotřebujete, jděte na [vez_prichod].
 
 # patrani_starecek
-Stařeček vypadá poměrně překvapeně když k němu napochodujete. Na takové zjevy jako ste vy asi není zvyklý. Tázavě se na vás zahledí.
+Stařeček vypadá poměrně překvapeně když k němu napochodujete. Na takové zjevy jako jste vy asi není zvyklý. Tázavě se na vás zahledí.
 
 *Vyberte si postavu z vaší družinky která s ním bude mluvit a teprve potom pokračujte.*
 
 Pokud je postava která ho osloví muž, jdi na [patrani_starecek_muz]. Pokud je to žena, jdi na [patrani_starecek_zena].
 
 # patrani_starecek_zena
-Jako zvolená žena ze tvé družinky příjdeš ke stařečkovi, usměješ se abys prolomila ledy a zeptáš se: "Dobrý den dědečku. Mohl byste mi povědět něco o té velké věži co stojí před hradbami?"
+Jako zvolená žena ze tvé družinky přijdeš ke stařečkovi, usměješ se abys prolomila ledy a zeptáš se: "Dobrý den dědečku. Mohl byste mi povědět něco o té velké věži co stojí před hradbami?"
 
 Asi ho tvůj zájem potěšil, protože se chystá odpovědět. Jdi na [patrani_starecek_uspech] aby ses dozvěděla co se vám chystá říct.
 
@@ -357,7 +357,7 @@ Jako zvolený muž z tvé družiny se vydáš promluvit si se stařečkem: "Dobr
 
 "Ne ne, nic neprodávám" usměješ se. "Rád bych se vás jen zeptal na tu věž co stojí před hradbami. Víte o ní něco?"
 
-*Hoď si na charismu. Pokud to padlo 5 a víc, jdi na [patrani_starecek_uspech], pokud ti padlo míň, jdi na [patrani_starecek_neuspech]*.
+*Hoď si na charisma. Pokud to padlo 5 a víc, jdi na [patrani_starecek_uspech], pokud ti padlo míň, jdi na [patrani_starecek_neuspech]*.
 
 # patrani_starecek_neuspech
 Děda se zamračí. "Hele, já mám spoustu práce a nemám čas se tady s váma vybavovat. Běžte si otravovat někoho jinýho."
@@ -383,14 +383,14 @@ Teď se vraťte na [patrani_vyptavani].
 # patrani_sluzka
 Přijdete ke kašně a povídáte: "Krásná slečno", snažíte se pochlebovat a nevšímat si uhrovité tváře. "Chtěli jsme se vás zeptat na tu věž před hradbama. Prý tam straší?"
 
-"Já bych řekla, že ty řeči o strašení jsou nesmysl. To jen nás naše mámy tak dlouho tou věží strašily, že tu už nikdo neví co je vlastně pravda. Když se tam potom nějakej opilec zatoulá, klidně uvidí i ďábla jak tancuje na střeše jestli víte jak to myslím, hahaha."
+"Já bych řekla, že ty řeči o strašení jsou nesmysl. To jen nás naše mámy tak dlouho tou věží strašily, že tu už nikdo neví co je vlastně pravda. Když se tam potom ňákej opilec zatoulá, klidně uvidí i ďábla jak tancuje na střeše jestli víte jak to myslím, hahaha."
 
 Teď se vraťte na [patrani_vyptavani].
 
 
 
 # vez_prichod
-Kamenná čtvercová věž stojí na rovince, asi sto metrů od městských hradeb. Tři patra z velkých kamenných bloků se zvedají vysoko nad malou městskou palisádu a v rovné krajině poseté poli, sady a pastvinami na sebe zlověstně stahují pozornost. Obklopená je houštinou křoví a mladých stromků, které jsou oblíbenými odpočívadli černých havranů. Jediné dveře jsou zavřené a vypadají funkčně, otvory těch několika malých oken v přízemí jsou zahrazené deskami.
+Kamenná čtvercová věž stojí na rovince, asi sto metrů od městských hradeb. Tři patra z velkých kamenných bloků se zvedají vysoko nad malou městskou palisádu a v rovné krajině poseté poli, sady a pastvinami na sebe zlověstně stahují pozornost. Obklopená je houštinou křoví a mladých stromků, které jsou oblíbenými odpočívadly černých havranů. Jediné dveře jsou zavřené a vypadají funkčně, otvory těch několika malých oken v přízemí jsou zahrazené deskami.
 
 Pokud se chceš prodrat houštinou kolem věže a pokusit se najít nějakou jinou cestu dovnitř než hlavní dveře, jdi na [vez_pruzkum].
 
@@ -404,26 +404,26 @@ Pokud se chceš pokusit prolézt tím otevřeným okénkem na zadní straně vě
 Pokud se raději vrátíš k hlavním dveřím které jsi viděl při příchodu k věži, jdi na [vez_dvere].
 
 # vez_pruzkum_zachodove_okno
-Okénko je výšce mírně přesahující dospělého člověka. Je čtvercové, o straně asi tří čtvrtin metru. Pokud máte v družince vysokého barbara, bez větších obtíží dokáže nahládnout dovnitř, ale nic užitečného nevidí. Okénko ústí do malé místnůstky s jedněmi zavřenými dveřmi.
+Okénko je výšce mírně přesahující dospělého člověka. Je čtvercové, o straně asi tří čtvrtin metru. Pokud máte v družince vysokého barbara, bez větších obtíží dokáže nahlédnout dovnitř, ale nic užitečného nevidí. Okénko ústí do malé místnůstky s jedněmi zavřenými dveřmi.
 
 Věž je postavená z dobře opracovaných kamenů, přesto se vám zdá že by se po ní vylézt dalo. Není to ani příliš vysoko, takže se domníváte že nic moc neriskujete.
 
 Družinka se chce pokusit nepozorovaně se protáhnout okénkem do věže. Vypadá to, že jakmile se to podaří jednomu z vás, ten či ta už ostatním pomůže dostat se nahoru.. Chvíli se šeptem dohadujete a nakonec vyberete postavu která poleze jako první.
 
-*Vyber jednu postavu z družinky která poleze jako první. Za vybranou postavu si hoďte na obratnost a nezaponeňte na bonus za dovednost akrobacie TODO pokud ji postava má.*
+*Vyber jednu postavu z družinky která poleze jako první. Za vybranou postavu si hoďte na obratnost a nezapomeňte na bonus za dovednost akrobacie TODO pokud ji postava má.*
 
 Pokud jste dostali číslo 4 a menší, jděte na [vez_pruzkum_zachodove_okno_selhani]. Pokud 5 a více, jděte na [vez_pruzkum_zachodove_okno_prolezeni].
 
 # vez_pruzkum_zachodove_okno_selhani
-Možná to bylo tím jak je kámen stěny vlhký, nebo je to prostě příliš vysoko, každopádně se vylézt nepodařilo a pokus dokonce zkončil odřeným kolenem. Přesto nemusíte zoufat. Protože zrovna nikam nespěcháte, o vylezení se můžete pokusit s jinou postavou. S každým členem družinky však jenom jednou.
+Možná to bylo tím jak je kámen stěny vlhký, nebo je to prostě příliš vysoko, každopádně se vylézt nepodařilo a pokus dokonce skončil odřeným kolenem. Přesto nemusíte zoufat. Protože zrovna nikam nespěcháte, o vylezení se můžete pokusit s jinou postavou. S každým členem družinky však jenom jednou.
 
-Pokud to chcete zkusit s jinou postavou, jděte na [vez_pruzkum_zachodove_okno]. Pokud přijmete tuto nepodstatnou porážku, vraťte se na místo kudy jste k věži příšli na [vez_prichod].
+Pokud to chcete zkusit s jinou postavou, jděte na [vez_pruzkum_zachodove_okno]. Pokud přijmete tuto nepodstatnou porážku, vraťte se na místo kudy jste k věži přišli na [vez_prichod].
 
 # vez_pruzkum_zachodove_okno_prolezeni
-Vybraný člen družinky povyskočil, natáhl se a zacytil okraje okna, Ze spoda jste pomohli najít solidní stupy pro nohyi když stěna věže je porostlá mechem na kterém to pěkně klouž. Pak už jen pár šikovných pohybů a šup, první člen družinky se vyšvihl do místnástky za oknem. Vyklonil se z okna a podal ruce dalšímu lezoucímu. Ostatní to tímto měli mnohem jednodušší a tak se v malé místnosti za chvílí tísnila celá skupinka. Nyní pokračuj na [vez_prizemi_zachod].
+Vybraný člen družinky povyskočil, natáhl se a zachytil okraje okna, ze spodu jste pomohli najít solidní stupy pro nohy když stěna věže je porostlá mechem na kterém to pěkně klouže. Pak už jen pár šikovných pohybů a šup, první člen družinky se vyšvihl do místnůstky za oknem. Vyklonil se z okna a podal ruce dalšímu lezoucímu. Ostatní to tímto měli mnohem jednodušší a tak se v malé místnosti za chvílí tísnila celá skupinka. Nyní pokračuj na [vez_prizemi_zachod].
 
 # vez_dvere
-Konečně jste došli až k patě věže k solidním železem pobytým dveřím. Pro jistotu našlapujete potichu, aby jste na sebe neupozrnili její obyvatele. Dveře mají velkou zahnutou kliku, pod ní klíčovou dírku a uprostřed od pohledu těžké klepadlo. Klepadlo je stylizované do tvaru liščí hlavy s mírně potměšilým či tajemným výrazem - nemůžete se rozhodnout.
+Konečně jste došli až k patě věže k solidním železem pobitým dveřím. Pro jistotu našlapujete potichu, aby jste na sebe neupozornili její obyvatele. Dveře mají velkou zahnutou kliku, pod ní klíčovou dírku a uprostřed od pohledu těžké klepadlo. Klepadlo je stylizované do tvaru liščí hlavy s mírně potměšilým či tajemným výrazem - nemůžete se rozhodnout.
 
 Pokud chcete prostě vzít za kliku a otevřít, jděte na [vez_dvere_otevrit]. Pokud o sobě raději dáte vědět a před vstupem spořádaně zaklepete klepadlem, jděte na [vez_dvere_klepadlo]. Pokud se chcete pokusit dveře vyrazit, jděte na [vez_dvere_vyrazit]. Pokud se pokusíte dveře odemknout či vypáčit, jděte na [vez_dvere_odemknout].
 
@@ -435,49 +435,49 @@ Rozhodli jste se jít do toho naplno. Všichni v družince jste se do sebe zakle
 Pokud jste dostali číslo 5 a méně, jděte na [vez_dvere_vyrazit_nic]. Pokud 6 a více, jděte na [vez_dvere_vyrazit_zraneni].
 
 # vez_dvere_vyrazit_nic
-Zdá se že dveře, ač na to nevypadaly, vůbec nebyly zamčené. Dokonce ani moc neržely. Dlouhé roky a působení deště a rzi se k zavíracímu mechanismu nezachovaly nejlépe. A tak se váš vyrážecí klín rozběhl, o dveře se téměř ani nezpomalil a za hlasitého prásknutí ramenem otevíraných dveří jste vběhli do chodby za dveřmi kde jste popadali všichni na jednu hromadu.
+Zdá se že dveře, ač na to nevypadaly, vůbec nebyly zamčené. Dokonce ani moc nedržely. Dlouhé roky a působení deště a rzi se k zavíracímu mechanismu nezachovaly nejlépe. A tak se váš vyrážecí klín rozběhl, o dveře se téměř ani nezpomalil a za hlasitého prásknutí ramenem otevíraných dveří jste vběhli do chodby za dveřmi kde jste popadali všichni na jednu hromadu.
 
-Naštěstí se nikomu nic nestalo, a tak se mírně zahanbeně zvedáte zase na nohy a jste rádi že vás nikdo cizí neviděl. Tohle by pověsti drsných dobrodruhů jistě neprozpělo.
+Naštěstí se nikomu nic nestalo, a tak se mírně zahanbeně zvedáte zase na nohy a jste rádi že vás nikdo cizí neviděl. Tohle by pověsti drsných dobrodruhů jistě neprospělo.
 
 No, nebudeme to rozmazávat a družinka se tímto ocitá na [vez_prizemi_chodba].
 
 # vez_dvere_vyrazit_zraneni
-Zdá se že dveře, ač na to nevypadaly, vůbec nebyly zamčené. Dokonce ani moc neržely. Dlouhé roky a působení deště a rzi se k zavíracímu mechanismu nezachovaly nejlépe. A tak se váš vyrážecí klín rozběhl, o dveře se téměř ani nezpomalil a za hlasitého prásknutí ramenem otevíraných dveří jste vběhli do chodby za dveřmi kde jste popadali všichni na jednu hromadu.
+Zdá se že dveře, ač na to nevypadaly, vůbec nebyly zamčené. Dokonce ani moc nedržely. Dlouhé roky a působení deště a rzi se k zavíracímu mechanismu nezachovaly nejlépe. A tak se váš vyrážecí klín rozběhl, o dveře se téměř ani nezpomalil a za hlasitého prásknutí ramenem otevíraných dveří jste vběhli do chodby za dveřmi kde jste popadali všichni na jednu hromadu.
 
-Protože se vám podařilo vyvinout opravdu pořádnou rychlost a sílu nárazu, přistání nebylo vůbec příjemné. Člen družinky v jejím čele se pořádně narazil o těžké okovaná dveře a potom na něj ještě těmi nejnepříjemnějšími způoby popadala celá družinka. Rameno je jistě naražené a v žebrech něco snad i křuplo.
+Protože se vám podařilo vyvinout opravdu pořádnou rychlost a sílu nárazu, přistání nebylo vůbec příjemné. Člen družinky v jejím čele se pořádně narazil o těžké okovaná dveře a potom na něj ještě těmi nejnepříjemnějšími způsoby popadala celá družinka. Rameno je jistě naražené a v žebrech něco snad i křuplo.
 
 *Postava která byla v čele ztrácí jeden bod života.*
 
 Otřepete se, postavíte se a ocitáte se v chodbičce za dveřmi na [vez_prizemi_chodba].
 
 # vez_dvere_otevrit
-Opatrně vezmete za kliku a připravujete se na nutnost pořádně zabrat, ale ukázalo se, že klika se celkem snadno pohybuje a bez problémů plní svůj úkol. Panty snad zázrakem nevržou a dveře se téměř neslyšně otevřely. Procházíte do chodbyčky na [vez_prizemi_chodba].
+Opatrně vezmete za kliku a připravujete se na nutnost pořádně zabrat, ale ukázalo se, že klika se celkem snadno pohybuje a bez problémů plní svůj úkol. Panty snad zázrakem nevržou a dveře se téměř neslyšně otevřely. Procházíte do chodbičky na [vez_prizemi_chodba].
 
 # vez_dvere_odemknout
-Pokud máte šperhák a umíte s ním zacházet, samozřejmě si tohoto luxusu můžete dopřát. S větší pravděpodobností se ale chystáte použít špičku nějaké tenké dýky, nebo možná máte kus drátu. Ať už jste jen nadšení amatéří či profesionélové nočních řemesel, stačilo se o dveře trošku opřít a ty se začaly rovnou otevírat.
+Pokud máte šperhák a umíte s ním zacházet, samozřejmě si tohoto luxusu můžete dopřát. S větší pravděpodobností se ale chystáte použít špičku nějaké tenké dýky, nebo možná máte kus drátu. Ať už jste jen nadšení amatéři či profesionálové nočních řemesel, stačilo se o dveře trošku opřít a ty se začaly rovnou otevírat.
 
-Překvapeně pohodíte hlavou a mírně překvapeně do dveří strčíte aby se otevřely úplně. Nekonalo se žádné vrzání stoletých pantů a závoje pavučin, dveře se prostě otevřely a vy tak vtupujete do věže na [vez_prizemi_chodba].
+Překvapeně pohodíte hlavou a mírně překvapeně do dveří strčíte aby se otevřely úplně. Nekonalo se žádné vrzání stoletých pantů a závoje pavučin, dveře se prostě otevřely a vy tak vstupujete do věže na [vez_prizemi_chodba].
 
 # vez_dvere_klepadlo
 Zvednete klepadlo abyste upozornili obyvatele věže na svůj příchod a pořádně s ním třísknete do dveří. Ozval se hlasitý třesk. Půlka družinky čekala že se nic nestane, půlka že na vás vyrazí armáda nemrtvých příšer. Nestalo se ani jedno toho. Místo toho se dveře, asi po nárazu mohutného klepadla, sami pootevřeli. Tohle jste nečekali a hledíte na to s pootevřenou pusou a chvíli tam jen tak stojíte. Pak se otřepete, pokrčíte rameny, otevřete dveře a vstoupíte do chodby za dveřmi na [vez_prizemi_chodba].
 
 # vez_prizemi_chodba
-Stojíte v dlouhé přímé chodbě vedoucí severo jižně, od dveří ke dveřím. Třetí dveře, dřevěné a bez zámku, jsou potom ve východní stěně. Čistě dřevěné jsou i ty jižní, severní dveře jsou těžké, pobyté plechem a opatřené zamykacím mechanismem. V chodbě toho moc k vidění není, takže co teď?
+Stojíte v dlouhé přímé chodbě vedoucí severo-jižně, od dveří ke dveřím. Třetí dveře, dřevěné a bez zámku, jsou potom ve východní stěně. Čistě dřevěné jsou i ty jižní, severní dveře jsou těžké, pobité plechem a opatřené zamykacím mechanismem. V chodbě toho moc k vidění není, takže co teď?
 
-Můžete se pokusit tiše naslouchat, jestli od někud neuslyšíte podezřelé zvuky. Pokud to chcete zkusit, jděte na [vez_prizemi_chodba_naslouchat]. Pokud chcete vejít do dveří ve východní stěně, jděte na [vez_prizemi_straznice], pokud zkusíte jižní dveře, jděte na [vez_prizemi_hlavni], pokud chcete projít těžkými severními dveřmi, jděte na [vez_dvere].
+Můžete se pokusit tiše naslouchat, jestli odněkud neuslyšíte podezřelé zvuky. Pokud to chcete zkusit, jděte na [vez_prizemi_chodba_naslouchat]. Pokud chcete vejít do dveří ve východní stěně, jděte na [vez_prizemi_straznice], pokud zkusíte jižní dveře, jděte na [vez_prizemi_hlavni], pokud chcete projít těžkými severními dveřmi, jděte na [vez_dvere].
 
 # vez_prizemi_chodba_naslouchat
-Dorozumíváte se posuky abyste netropili žádný hluk. Všichni v družince se přestanou pohybovat a zaposloucháte se do zvuků okolí. Moc jich není. Věž je tichá a vy se soustředíte čím dál tím víc.
+Dorozumíváte se posunky abyste netropili žádný hluk. Všichni v družince se přestanou pohybovat a zaposloucháte se do zvuků okolí. Moc jich není. Věž je tichá a vy se soustředíte čím dál tím víc.
 
-*Vybe postavu podle které se bude rozhodovat o úspěchu či neúspěchu a hoď si za ni na inteligenci.*
+*Vyber postavu podle které se bude rozhodovat o úspěchu či neúspěchu a hoď si za ni na inteligenci.*
 
 Pokud jsi dostal číslo 1 nebo 2, jdi na [vez_prizemi_chodba_naslouchat_halucinace]. Pokud byl výsledek 3 a více, jdi na [vez_prizemi_chodba_naslouchat_nic].
 
 # vez_prizemi_chodba_naslouchat_halucinace
-Napjatě posloucháš, noříš hlouběji a hloubjeji do ticha, snažíš se vytěsnit zvuk vašeho dechu a zachytit cokoli podezřelého. V tom to píjde. Zcela zřetelně slyšíš jak za některými dveřmi, nedokážeš určit za kterými, bručí medvěd! Jsi si jistý že pokud se neprozradíte a rovnou se na něj vrhnete, můžete v nerovném boji zvítězit. Začneš rychle festikulovat na ostatní členy družinky, snažíč se naznačit velké chlupaté zvíře a jeho kolébavou chůzi. Nejdřív na tebe nechápavě koukají, ale pak se jeden z nic zatváří ublíženě a normálně nahlas povídá "No tak mi trošku kručí v břiše, co má jako bejt?". Naslouchající postava je tím zvukem tak překvapená že jí chvíli trvá než pochopí svůj omyl. Žádný medvěd, jen mohutné kručení v břiše to bylo. Uchechtnete se té situaci a rychle se od představy bručícího medvěda vrátíte do reality úzké chodbičky na [vez_prizemi_chodba].
+Napjatě posloucháš, noříš hlouběji a hlouběji do ticha, snažíš se vytěsnit zvuk vašeho dechu a zachytit cokoli podezřelého. V tom to přijde. Zcela zřetelně slyšíš jak za některými dveřmi, nedokážeš určit za kterými, bručí medvěd! Jsi si jistý že pokud se neprozradíte a rovnou se na něj vrhnete, můžete v nerovném boji zvítězit. Začneš rychle gestikulovat na ostatní členy družinky, snažíš se naznačit velké chlupaté zvíře a jeho kolébavou chůzi. Nejdřív na tebe nechápavě koukají, ale pak se jeden z nic zatváří ublíženě a normálně nahlas povídá "No tak mi trošku kručí v břiše, co má jako bejt?". Naslouchající postava je tím zvukem tak překvapená že jí chvíli trvá než pochopí svůj omyl. Žádný medvěd, jen mohutné kručení v břiše to bylo. Uchechtnete se té situaci a rychle se od představy bručícího medvěda vrátíte do reality úzké chodbičky na [vez_prizemi_chodba].
 
 # vez_prizemi_chodba_naslouchat_nic
-Napjatě posloucháš, noříš hlouběji a hloubjeji do ticha, snažíš se vytěsnit zvuk vašeho dechu a zachytit cokoli podezřelého, ale ať se snažíš sebevíc, nic neslyšíš. Pokračuj na [vez_prizemi_chodba].
+Napjatě posloucháš, noříš hlouběji a hlouběji do ticha, snažíš se vytěsnit zvuk vašeho dechu a zachytit cokoli podezřelého, ale ať se snažíš sebevíc, nic neslyšíš. Pokračuj na [vez_prizemi_chodba].
 
 # vez_prizemi_straznice
 Malá místnost s oknem zatlučeným deskami přes které prosvítá nějaké to světlo. Vidíte tři rozbité postele se slamníky prolezlými plísní, trosky malých kamínek, stolu a tří židlí. Takhle na první pohled tu není nic zvláštního. Tady asi bydlelo čarodějovo služebnictvo.
@@ -494,17 +494,17 @@ Pokud se chcete vrátit na chodbu, jděte na [vez_prizemi_chodba].
 Pokud chcete zbytky truhličky pečlivě prohlédnout, vyberte jednoho z družiny a *hoďte si na inteligenci*. Pokud jste dostali méně než 3, jděte na [vez_prizemi_straznice_prohledani_neuspech]. Pokud více, jděte na [vez_prizemi_straznice_prohledani_uspech]
 
 # vez_prizemi_straznice_prohledani_uspech
-Zadny poklad jste nenasli pokud jste v nej doufali, ale alespon maly stripek informace: vsimli jste si, ze truhlicka byla asi rozbita teprve nedavno. Na zlomech ma drevo jinou barvu nez vsude jinde v mistnosti kdy bylo vystavene rokum samoty a chybi na nem jinak vsude pritomny prach. Doufate ze vam ta informace zapadne do nejakeho vetsiho obrazu tohoto mista pozdeji, protoze prave ted vam to nijak nepomaha. Vracite se na chodbu na [vez_prizemi_chodba].
+Žádný poklad jste nenašli pokud jste v něj doufali, ale alespoň malý střípek informace: všimli jste si, že truhlička byla asi rozbitá teprve nedávno. Na zlomech má dřevo jinou barvu než všude jinde v místnosti kdy bylo vystavené rokům samoty a chybí na něm jinak všude přítomný prach. Doufáte že vám ta informace zapadne do nějakého většího obrazu tohoto místa později, protože právě teď vám to nijak nepomáhá. Vracíte se na chodbu na [vez_prizemi_chodba].
 
 # vez_prizemi_straznice_prohledani_neuspech
-Pri prohlizeni zbytku truhlicky jste si niceho zvlastniho nevsimli. Nyni se vratte na chobu na [vez_prizemi_chodba].
+Při prohlížení zbytku truhličky jste si ničeho zvláštního nevšimli. Nyní se vraťte na chodbu na [vez_prizemi_chodba].
 
 # vez_prizemi_hlavni
 Vstupujete do velké místnosti.
 
 Tato místnost asi měla zapůsobit na různé žadatele kteří asi kdysi přicházeli za majitelem věže. Nejvíc pozornosti na sebe strhává půlkruhové vyvýšené pódium se třemi schody uprostřed jižní zdi. Přímo proti hlavnímu vstupu na něm stojí sice zaprášené, ale krásné a zjevně pohodlné křeslo (pokud tě zajímá, jdi na [vez_prizemi_podium]). Podél stěn občas vidíte trosky polic a jiné harampádí.
 
-Z místnosti vedou celkem 4 dveře. Jedny uprostřed severní zdi (jdi na [vez_prizemi_chodba]), druhé v jiho-východním rohu (jdi na [vez_prizemi_zachod]), třetí v jiho-západním rohu (jdi na [vez_prizemi_nahoru]) a poslední v severo-západním rohu. Všechny vypadají použitelně, až na ty poslední. Tyto dveře jsou zatlučené, jen se hemží hřebíky a hala bala přitlučenými deskami (jdi na [vez_prizemi_spizirna_dvere]).
+Z místnosti vedou celkem 4 dveře. Jedny uprostřed severní zdi (jdi na [vez_prizemi_chodba]), druhé v jiho-východním rohu (jdi na [vez_prizemi_zachod]), třetí v jiho-západním rohu (jdi na [vez_prizemi_nahoru]) a poslední v severo-západním rohu. Všechny vypadají použitelně, až na ty poslední. Tyto dveře jsou zatlučené, jen se hemží hřebíky a halabala přitlučenými deskami (jdi na [vez_prizemi_spizirna_dvere]).
 
 Uprostřed západní zdi je jediné okno v místnosti. Pokud se tam chceš podívat, jdi na [vez_prizemi_okno].
 
@@ -516,7 +516,7 @@ Okno je a půli zatlučené, ale velkými škvírami je vidět že je otočené 
 Nyní se vraťte na [vez_prizemi_hlavni].
 
 # vez_prizemi_podium
-Na vyvýšeném půlkruhovém "pódiu" stojí krásné velké křeslo. Má čalouněný sedák a opěrku a područky složitě vyřezávané rostlinými motivy. Je sice notňe zaprášené, ale vypadá pohodlně a přímo vybízí k sednutí.
+Na vyvýšeném půlkruhovém "pódiu" stojí krásné velké křeslo. Má čalouněný sedák a opěrku a područky složitě vyřezávané rostlinnými motivy. Je sice notně zaprášené, ale vypadá pohodlně a přímo vybízí k sednutí.
 
 Pokud ho budete ignorovat, vraťte se na [vez_prizemi_hlavni]. Pokud ho chcete prozkoumat, jděte na [vez_prizemi_podium_pruzkum]. Pokud si chcete vyzkoušet jaké to je seďet v tomto trůnu, jděte na [vez_prizemi_podium_sednout].
 
@@ -529,14 +529,14 @@ Pokud jste dostali 9 a méně, jděte na [vez_prizemi_podium_pruzkum_nic]. Pokud
 Pečlivě jsi celé křeslo prozkoumal. Dokonce jsi i vlezl pod něj. Klepal jsi na různých místech a hledal skryté pasti a kdo ví co ještě, každopádně nic zajímavého tam není. Vrať se na [vez_prizemi_podium].
 
 # vez_prizemi_podium_pruzkum_ano
-Tvá postava to už už chtěla vzdát, ale potom jí myslí proběhl poslední nápad. Ty područky. Celé jsou pečlivě drobně vyřezávané a tak ty malé kruhové hladké části působí podezřele. A opravdu. Po dalším dlouhém zkoumání příjdeš na to, že při dosednutí křeslo z opěrky na záda vystřeluje dva ostré bodce. Kdysi byly kravděpodobně napuštěny i nějakým jedem. Každopádně vyklopení těch bodců se dá zabránit právě zmáčknutím těch dvou kruhových tlačítek.
+Tvá postava to už už chtěla vzdát, ale potom jí myslí proběhl poslední nápad. Ty područky. Celé jsou pečlivě drobně vyřezávané a tak ty malé kruhové hladké části působí podezřele. A opravdu. Po dalším dlouhém zkoumání přijdeš na to, že při dosednutí křeslo z opěrky na záda vystřeluje dva ostré bodce. Kdysi byly pravděpodobně napuštěny i nějakým jedem. Každopádně vyklopení těch bodců se dá zabránit právě zmáčknutím těch dvou kruhových tlačítek.
 
 Teď už se můžeš na křeslo posadit když víš jak vyřadit past, ale žádné příjemné posezení to není když víš že jen kousek od svých zad máš smrtící bodce. Raději toho necháš a vracíš se na [vez_prizemi_hlavni].
 
 # vez_prizemi_podium_sednout
 *Vyber postavu která se chce do křesla posadit.*
 
-Stoupneš si zády ke křeslu, rukama se opatrně dotkneš područek a pomalu si sedáš. Představuješ si jaké to je být mocným čarodějem a shlížet udsud na zástupy které tě přišli žádat o nejrůznější datry a přinášejí bohaté dary aby si tě naklonili.
+Stoupneš si zády ke křeslu, rukama se opatrně dotkneš područek a pomalu si sedáš. Představuješ si jaké to je být mocným čarodějem a shlížet odsud na zástupy které tě přišli žádat o nejrůznější rady a přinášejí bohaté dary aby si tě naklonili.
 
 Když dosedneš tvé snění ale přeruší nečekané cvaknutí. Z opěradla vyskočí dva bodce přímo proti tvým zádům. Před nepříjemným poraněním či snad smrtí tě můžou zachránit jen kočičí reflexy.
 
@@ -545,7 +545,7 @@ Když dosedneš tvé snění ale přeruší nečekané cvaknutí. Z opěradla vy
 # vez_prizemi_podium_sednout_auvajs
 V křeslu cvaklo a do zad tvé postavy se zaryly dva ostré bodce. Ze zad ti stéká krev. Toto křeslo se o sebe asi umí postarat a sednou si na něj zjevně smí jen jeho právoplatný majitel.
 
-*Hoď si šesti-stěnnou kostkou a pokud ti padne 1 nebo 2, tvá postava přišla o 1 život, pokud padne 3 nebo 4 pak ztrácí 2 životy a pokud 5 nebo 6, přichází dokonce o 3 životy.*
+*Hoď si šesti-stěnou kostkou a pokud ti padne 1 nebo 2, tvá postava přišla o 1 život, pokud padne 3 nebo 4 pak ztrácí 2 životy a pokud 5 nebo 6, přichází dokonce o 3 životy.*
 
 Vrať se na [vez_prizemi_podium].
 
@@ -564,7 +564,7 @@ Pokud chcete projít jedinými dveřmi v místnůstce, jděte na [vez_prizemi_hl
 # vez_prizemi_zachod_pruzkum
 *Urči která postava z družinky provádí průzkum.*
 
-Bedna se nedá posunout, sedí pevně na zemi. Zdá se vám že puch přícází přímo z ní. Protože nic jiného se na ní nedá zkoumat, postava prohmatává vnitřek oné okrouhlé díry na horní straně bedny. "Ale tak to snad ne, že mě to nenapadlo hned" naráz zakleje a zhnuseně vytahuje ruku na které ulpělo něco hnědého a páchnoucího. Že on to je prevét?
+Bedna se nedá posunout, sedí pevně na zemi. Zdá se vám že puch příchází přímo z ní. Protože nic jiného se na ní nedá zkoumat, postava prohmatává vnitřek oné okrouhlé díry na horní straně bedny. "Ale tak to snad ne, že mě to nenapadlo hned" naráz zakleje a zhnuseně vytahuje ruku na které ulpělo něco hnědého a páchnoucího. Že on to je prevét?
 
 *Postava která prohledávala si zmenší stupeň charisma o 2. Na původní velikost si jej může vrátit až po pořádné koupeli.*
 
@@ -622,7 +622,7 @@ Takže bylo to takhle:
 
 > Ty trámy a desky pokryté tu a tam holubím trusem jsou ve skutečnosti z hlavní místnosti v přízemí věže. Někdo je sem přenesl předtím, než dveře zatloukl. Buď tu tehdy ještě ty dvě ploštice zelené nebyly, nebo byly zrovna někde zalezlé, nebo je sem jen házeli otevřenými dveřmi. Asi se pokoušeli zjistit, zda co je ve sklepě zůstane ve sklepě. Kdo a proč to udělal se snad ještě ukáže.
 
-Pokud jste to trefili a odhadli jste, že trámy byly ze sousední místnosti, můžete každé postave přidat jeden bod zkušenosti. Pokud ne, nic se neděje. Teď se vraťte na [vez_prizemi_spizirna_schody] a pokračujte, kde jste přestali.
+Pokud jste to trefili a odhadli jste, že trámy byly ze sousední místnosti, můžete každé postavě přidat jeden bod zkušenosti. Pokud ne, nic se neděje. Teď se vraťte na [vez_prizemi_spizirna_schody] a pokračujte, kde jste přestali.
 
 # vez_prizemi_spizirna_schody_sviceni
 Moudře jste použili světlo a vyvarovali jste se možných zranění a schody jsou teď volné. Odepište si jednu pochodeň nebo jeden díl lampového oleje a jděte buď dolů po schodech na [vez_sklep_vstup], nebo se vraťte do hlavní místnosti věže na [vez_prizemi_hlavni].
@@ -635,7 +635,7 @@ Pokud máte alespoň třetinu denní dávky jídla, škrtněte si ji. Pokud ne, 
 Práce se nakonec podařila a vy můžete pokračovat na [vez_sklep_vstup].
 
 # vez_prizemi_spizirna_boj_uprk
-Po zahlédnutí pohybu ve stínu pod jednou policí jste na nic nečekali a vyhrnuli se z místnosti. Zabouchli jste dveře a spěšně je zaklinili několika deskami, které jste z nich před malou chvílí vypáčili. Chvíli u dveří nasloucháte a zaznamenali jste rychlé klapání, co znělo, jako by se po kamenné podlaze pohybovalo několik nohou z velmi tvrdého dřeva, potom drobný náraz do dveří a chvilka jakéhosi chřestění. Potom zase ty divné klapavé kroky, které se vzdálily ode dveří a pak už byl klid.
+Po zahlédnutí pohybu ve stínu pod jednou policí jste na nic nečekali a vyhrnuli se z místnosti. Zabouchli jste dveře a spěšně je zaklínili několika deskami, které jste z nich před malou chvílí vypáčili. Chvíli u dveří nasloucháte a zaznamenali jste rychlé klapání, co znělo, jako by se po kamenné podlaze pohybovalo několik nohou z velmi tvrdého dřeva, potom drobný náraz do dveří a chvilka jakéhosi chřestění. Potom zase ty divné klapavé kroky, které se vzdálily ode dveří a pak už byl klid.
 
 Pokud máte v družině někoho se schopností *znalost živých tvorů* TODO, jděte na [vez_prizemi_spizirna_boj_uprk_znalost], jinak se vraťte na [vez_prizemi_hlavni].
 
@@ -678,19 +678,19 @@ TODO Boj se dvěma plošticemi zelenými.
 > 
 > Doma je na savaně, kde se schovává v trávě či řídkých křovinách a loví králíky a jiné malé hlodavce. Je-li hladová nebo jich je víc, troufne si ale i na mnohem větší kořist.
 > 
-> Při jejím útoku kusadly je možnost, že při zakousnutí vystříkne svůj jed (*ODO 7: zasažení jedem/nic*). Pokud k tomu dojde, jejímu soupeři ochrne jedna končetina a kromě toho že ji potom půl hodiny nemůže pohnout (takže třeba při zasažení nohy nemůže nijak extra chodit), snižuje se postavě po dobu trvání účinků jedu bonus opratnosti o jedna. Během dne může jed použít až třikrát.
+> Při jejím útoku kusadly je možnost, že při zakousnutí vystříkne svůj jed (*ODO 7: zasažení jedem/nic*). Pokud k tomu dojde, jejímu soupeři ochrne jedna končetina a kromě toho že ji potom půl hodiny nemůže pohnout (takže třeba při zasažení nohy nemůže nijak extra chodit), snižuje se postavě po dobu trvání účinků jedu bonus obratnosti o jedna. Během dne může jed použít až třikrát.
 
 Pokud stále žijete, své dobrodružství pokračujte na [vez_prizemi_spizirna].
 
 # vez_prizemi_nahoru
-Dvere jsou zavrene, ale vypadaji plne funkcne. Kdyz vezmete za kliku a zatahnete, otevrou se jen s tichym zavrzanim. Za dvermi zataci uzka, asi metr siroka, chodba se schody vedoucimi serem kamsi nahoru.
+Dveře jsou zavřené, ale vypadají plně funkčně. Když vezmete za kliku a zatáhnete, otevřou se jen s tichým zavrzáním. Za dveřmi zatáčí úzká, asi metr široká, chodba se schody vedoucími směrem kamsi nahoru.
 
-Muzes bud pokracovat po schodech nahoru [vez_prvni_vstup], nebo se vratit na [vez_prizemi_hlavni].
+Můžeš bud pokračovat po schodech nahoru [vez_prvni_vstup], nebo se vrátit na [vez_prizemi_hlavni].
 
 
 
 # vez_sklep_vstup
-Jste na rozcestí tvaru písmena T. Na západ vede chodba se stoupajícími schody. Vyjít po nich znamená jít na [vez_prizemi_spizirna].
+Jste na rozcestí tvaru písmene "T". Na západ vede chodba se stoupajícími schody. Vyjít po nich znamená jít na [vez_prizemi_spizirna].
 
 Na východ vede temná chodba na [vez_sklep_mistnost].
 
@@ -700,7 +700,7 @@ Na sever se chodba rozšiřuje a jít tam znamená jít na [vez_sklep_pruchod]. 
 Prošli jste asi tři metry dlouhou chodbou s otevřela se před vámi větší místnost. Už na první pohled tu není nic zajímavého, na zemi jen zbytky dřeva a prach. Možná to tady sloužilo jako sklad, ale není tu nic co by vás zaujalo a tak se raději co nejrychleji vracíte na rozcestí na [vez_sklep_vstup].
 
 # vez_sklep_pruchod
-Prošli jste úzkým průchodem a zjistili že chodba se tady zatáčí na západ a notně rozšiřuje. U její západní stěny ústí chodba která vede na jih, u východní stěny je druhý průchod. V místnosti si všimnete nějakého naplaveného nepořádku: písek a větvičky, ale nijak vás to nezaujalo. Pokud si vyberete cestu u západní stěny odkud je poměrně zřetelně slyšet tekoucí voda, jděte na [vez_sklep_prechod]. Pokud raděj cestu u východní stěny, jděte na [vez_sklep_vstup].
+Prošli jste úzkým průchodem a zjistili že chodba se tady zatáčí na západ a notně rozšiřuje. U její západní stěny ústí chodba která vede na jih, u východní stěny je druhý průchod. V místnosti si všimnete nějakého naplaveného nepořádku: písek a větvičky, ale nijak vás to nezaujalo. Pokud si vyberete cestu u západní stěny odkud je poměrně zřetelně slyšet tekoucí voda, jděte na [vez_sklep_prechod]. Pokud raději cestu u východní stěny, jděte na [vez_sklep_vstup].
 
 # vez_sklep_prechod
 Asi tři metry procházíte chodbou plnou pavučin a když se na chvíli zastavíte abyste se zaposlouchali, zvuky vody jsou teď úplně jasné. Došli jste do místa kde chodbu kříží široká stoka s tekoucím odpadem z celého města. Podle zbytků sloupků vidíte že tu kdysi byl mostek, ten je ale dávno pryč. Na přebrodění ani nemyslíte, ale možná by se dalo na druhou stranu dostat díky naplavené kládě která se zaklínila z jednoho na druhý břeh. Vypadá pevně, ale poměrně kluzce.
@@ -769,7 +769,7 @@ Prohledat tenhle nepořádek rozhodně nebude jednoduchá a bezpečná záležit
 Pokud jste dostali číslo 1 a méně, jděte na [vez_sklep_hnizdo_prohledavani_otrava]. Pokud 2 nebo 3, jděte na [vez_sklep_hnizdo_prohledavani_nic]. Pokud 4 a více, jděte na [vez_sklep_hnizdo_prohledavani_uspech].
 
 # vez_sklep_hnizdo_prohledavani_otrava
-Při prohrabování obsahem krysího hnízda jste se snažili o nic nepoškrábat, protože všudypřítomná špína by ráně neprospěla. Používali ste proto hlavně nohy a rozhrabovali nánosy nohama. V jednu chvíli jste ale uklouzli na něčem co rozhodně zkoumat nechcete a jednu ostrou a špinavou větev si zapýchli přímo do hýždě.
+Při prohrabování obsahem krysího hnízda jste se snažili o nic nepoškrábat, protože všudypřítomná špína by ráně neprospěla. Používali ste proto hlavně nohy a rozhrabovali nánosy nohama. V jednu chvíli jste ale uklouzli na něčem co rozhodně zkoumat nechcete a jednu ostrou a špinavou větev si zapíchli přímo do hýždě.
 
 *Zranění postavu stálo 3 životy.*
 
@@ -779,7 +779,7 @@ Vraťte se na [vez_sklep_hnizdo_vytezstvi].
 Prohrabovali jste se nepořádkem na zemi, ale moc se vám do toho nechtělo. Na nic jste nenarazili a tak jděte na [vez_sklep_hnizdo_vytezstvi].
 
 # vez_sklep_hnizdo_prohledavani_uspech
-Prohrabujete se nepořádkem a v rohu místnosti, v hnízdě z tenkých větviček a krysí srsti jste si všimli něčeho blýskavého. Opatrně jste to tam prohrabali a s tím co jste našli jste nad míru spokojeni. Ve vaší dlani se zaleskly 2 prsteny a jedna naušnice.
+Prohrabujete se nepořádkem a v rohu místnosti, v hnízdě z tenkých větviček a krysí srsti jste si všimli něčeho blýskavého. Opatrně jste to tam prohrabali a s tím co jste našli jste nad míru spokojeni. Ve vaší dlani se zaleskly 2 prsteny a jedna náušnice.
 
 Jsou krásné a jistě budou i cenné. Pokud má některá postava v družince dovednost "odhadování ceny", jděte na [vez_sklep_hnizdo_prohledavani_uspech_odhadovani], jinak na [vez_sklep_hnizdo_prohledavani_uspech_neodhadovani].
 
@@ -789,9 +789,9 @@ Nyní si dva prsteny a jednu náušnici s neznámou cenou zapište do osobního 
 Nyní se vraťte na [vez_sklep_prechod_zpet].
 
 # vez_sklep_hnizdo_prohledavani_uspech_odhadovani
-Člen z vaší družinky s dovedností "odhad ceny" se na ony dva prsteny a jednu náušnici vezme do ruky, omyje je vodou z čutory a pečlivě je prohlíží. "Řekl bych, že nám tu do klína spadlo malé bohatství. Tenhle prsten, ten bez kamene bych odhadl na 50 zlatých. Ten druhý, s tím malým kamínkem, asi rubínem, tak na 80. A ta naušnice, řekněme, 40 zlatých."
+Člen z vaší družinky s dovedností "odhad ceny" se na ony dva prsteny a jednu náušnici vezme do ruky, omyje je vodou z čutory a pečlivě je prohlíží. "Řekl bych, že nám tu do klína spadlo malé bohatství. Tenhle prsten, ten bez kamene bych odhadl na 50 zlatých. Ten druhý, s tím malým kamínkem, asi rubínem, tak na 80. A ta náušnice, řekněme, 40 zlatých."
 
-*Zapište si je všechny i s cenou, u šperkaře budete mit bonus při smlouváni o ceně.*
+*Zapište si je všechny i s cenou, u šperkaře budete mít bonus při smlouváni o ceně.*
 
 Později je můžete prodat ve městě u šperkaře na [mesto_sperkar_krysipoklad_odhadnuty]. Teď si číslo jen zapište, na konci dobrodružství na něj můžete jít a šperky prodat.
 
@@ -819,10 +819,10 @@ Klidně se o tom poraďte pokud vás hraje víc a zkuste přijít s nějakou teo
 # vez_sklep_hnizdo_vysvetleni_overeni
 Takže je to takhle:
 
-> Stoka kterou jste překračovali teče z města. Když jste stoku přecházeli po kluzké kládě, všimli jste si velké mříže. Ta zabraňuje projít stokou z města do mágovy věže či naopak, ale pro krysi překážku nepředstavuje. Krysi se tedy chodí krmit do stok pod městem, kde je vždy hojnost různých čerstvých odpadků. Skrýš pod věží za pevnou mříží jim zase poskytuje klidné útočiště.
-> Ve věži pak i dlouho po odchodu dávného mága asi zůstává nějaká zbytková magie a tak krysy které se tu rodily byly generaci od generace větší až vznikly ty příšery se kterými jste měly tu čest.
+> Stoka kterou jste překračovali teče z města. Když jste stoku přecházeli po kluzké kládě, všimli jste si velké mříže. Ta zabraňuje projít stokou z města do mágovy věže či naopak, ale pro krysy překážku nepředstavuje. Krysy se tedy chodí krmit do stok pod městem, kde je vždy hojnost různých čerstvých odpadků. Skrýš pod věží za pevnou mříží jim zase poskytuje klidné útočiště.
+> Ve věži pak i dlouho po odchodu dávného mága asi zůstává nějaká zbytková magie a tak krysy které se tu rodily byly generaci od generace větší až vznikly ty příšery se kterými jste měli tu čest.
 
-Pokud jste se alespoň s jednou odpovědí trefili, můžete každé postavě přidat jeden bod zkušenosti. Pokud ne, nevadí. Vraťte se na [vez_sklep_prechod_zpet] a pokačujte s přechodem klády.
+Pokud jste se alespoň s jednou odpovědí trefili, můžete každé postavě přidat jeden bod zkušenosti. Pokud ne, nevadí. Vraťte se na [vez_sklep_prechod_zpet] a pokračujte s přechodem klády.
 
 
 
@@ -831,7 +831,7 @@ Postava uklouzla a zřítila se do smrduté stoky. Sice se jí na poslední chv�
 
 *Charisma postavy klesá o 2 body a zůstane tak, dokud se postava někde pořádně nevykoupe.*
 
-Neštasťastný člen družinky se přebrodil na druhou stranu a pomohl ostatním bezpečně přelást na [vez_sklep_vstup].
+Nešťastný člen družinky se přebrodil na druhou stranu a pomohl ostatním bezpečně přelézt na [vez_sklep_vstup].
 
 # vez_sklep_prechod_zpet_uspech
 S trochou balancování a opatrného našlapování se vybranému členu družinky podařilo přelézt druhou stranu a potom i pomoci ostatním dostat se tam. Pokračujte na [vez_sklep_vstup].
@@ -847,23 +847,23 @@ Můžete se vrátit po schodech do přízemí na [vez_prizemi_hlavni], prozkouma
 Družina se rozhodla tuto malou chodbičku prozkoumat. Kdo ví, co by se tady mohlo nacházet za poklady, že? Pokud chcete použít jednu pochodeň či jeden díl lampového oleje, jděte na [vez_prvni_vstup_vyklenek_svetlo]. Pokud nechcete plýtvat, nebo žádné světlo nemáte, zkuste to po tmě a jděte na [vez_prvni_vstup_vyklenek_tma].
 
 # vez_prvni_vstup_vyklenek_svetlo
-Poctivě jste hledali v obou rozích, nahoře i dole, vyzkoušeli jste zatlačit na všechny podezřelé kameny (i na několik nepodezřelých) jestli neskryvají nějaký tajný mechanismus. Nic jste ale nenašli. Škrtněte si jednu pochodeň či jeden díl lampového oleje (protože jste je použili při hledání) a vraťte se na [vez_prvni_vstup].
+Poctivě jste hledali v obou rozích, nahoře i dole, vyzkoušeli jste zatlačit na všechny podezřelé kameny (i na několik nepodezřelých) jestli neskrývají nějaký tajný mechanismus. Nic jste ale nenašli. Škrtněte si jednu pochodeň či jeden díl lampového oleje (protože jste je použili při hledání) a vraťte se na [vez_prvni_vstup].
 
 # vez_prvni_vstup_vyklenek_tma
 Rozhodli jste se hledat po tmě. Pokud máte v družině trpaslíka, jděte na [vez_prvni_vstup_vyklenek_tma_trpaslik]. Pokud s vámi trpaslík není, jděte na [vez_prvni_vstup_vyklenek_tma_sami].
 
 # vez_prvni_vstup_vyklenek_tma_trpaslik
-Trpaslík je jistě velká pomoc v každé družině. Tentokrát vám pomohla jeho schopnost vidění ve tmě a poměrně rychle vám pomohl určit, že tady prostě nic k vidění ani není. Sklamaně se vracíte na [vez_prvni_vstup].
+Trpaslík je jistě velká pomoc v každé družině. Tentokrát vám pomohla jeho schopnost vidění ve tmě a poměrně rychle vám pomohl určit, že tady prostě nic k vidění ani není. Zklamaně se vracíte na [vez_prvni_vstup].
 
 # vez_prvni_vstup_vyklenek_tma_sami
 Velmi pomalu jste po tmě prohmatávali výklenek a snažili se najít nějakou tajnou chodbu, ukrytý poklad či cokoli jiného užitečného. Ztratili jste tím spoustu času a nakonec vás to přestalo bavit. Za tu dlouhou dobu vás ale dohnal hlavní nepřítel každého dobrodruha: hlad.
 
-Pokud máte zásobu jídla, každá postava musí sníst polovinu denní dávky (škrtněte si ji). Pokud nemáte co jíst, neustálé kručení v žaludku vás odteď bude rušit a tak si snížte inteligenci o 1. Jakmile se pořádně najíte, můžete si inteligenci obnovit na původní úroveň.
+*Pokud máte zásobu jídla, každá postava musí sníst polovinu denní dávky (škrtněte si ji). Pokud nemáte co jíst, neustálé kručení v žaludku vás odteď bude rušit a tak si snížíte inteligenci o 1. Jakmile se pořádně najíte, můžete si inteligenci obnovit na původní úroveň.*
 
 S prázdnými rukama se vracíte na [vez_prvni_vstup].
 
 # vez_prvni_knihovna
-Vstupujete do podlouhlé místnosti, která se u severní stěny zatáčí a někam pokračuje. Má dvě malá okna ve východní stěně, dveře v západní a další v jižní stěně. U stěn stojí zaprašené a místy poškozené regály, všechny do jednoho ale prázdné. Stěny jsou tu zdá se poněkud lépe opracované. Asi to byly místnosti, kde mág trávil nejvíce svého času. Ti z družiny, kteří již někdy navštívili nějakou knihovnu, si možná všimnou jisté podobnosti.
+Vstupujete do podlouhlé místnosti, která se u severní stěny zatáčí a někam pokračuje. Má dvě malá okna ve východní stěně, dveře v západní a další v jižní stěně. U stěn stojí zaprášené a místy poškozené regály, všechny do jednoho ale prázdné. Stěny jsou tu zdá se poněkud lépe opracované. Asi to byly místnosti, kde mág trávil nejvíce svého času. Ti z družiny, kteří již někdy navštívili nějakou knihovnu, si možná všimnou jisté podobnosti.
 
 Chcete-li projít dveřmi v jižní stěně, potom jděte na [vez_prvni_vstup]. Pokud se rozhodnete pro dveře v západní stěně, jdete na [vez_prvni_nahoru]. Můžete také pokračovat místností jak zatáčí u své severní části, pak jděte na [vez_prvni_pracovna].
 
@@ -880,7 +880,7 @@ Můžete odsud pokračovat na jihovýchod do [vez_prvni_knihovna], nebo na jihoz
 # vez_prvni_pracovna_truhlice
 Za vybranou postavu *hoď na inteligenci*.
 
-Pokud je vysledek 3 a nize, jdi na [vez_prvni_pracovna_truhlice_nic], pokud je vysledne cislo vyssi, jdi na [vez_prvni_pracovna_truhlice_nalez].
+Pokud je výsledek 3 a níže, jdi na [vez_prvni_pracovna_truhlice_nic], pokud je výsledné číslo vyšší, jdi na [vez_prvni_pracovna_truhlice_nalez].
 
 # vez_prvni_pracovna_truhlice_nic
 Postava se přehrabuje v zapáchajícím obsahu truhly poněkud neochotně, jaksi se nedokáže přemoct, aby se podívala pořádně do hloubky. Nakonec popadla kus desky a použila ho jako lopatu. Vybírala s ním obsah truhly a rozsypávala kolem ní s tím, že cokoli cenného by se jistě objevilo. A konečně: v další várce vytahované hmoty se zalesklo něco skleněného. Zahlédl to další člen družinky stojící opodál a vykřikl: "Pozor, je tam něco skleněného!", ale ještě než to dořekl, náklad na provizorní lopatě spadl na zem. Celá družina sledovala, jak na tvrdou kamennou zem kromě cárů látky padá malá buclatá lahvička s temně rudou kapalinou. Dopadla na zem, roztříštila se a červená kapalina se zčásti roztekla po špinavé zaprášené zemi a zčásti vsákla do smradlavých kusů látek. No tak s tímhle už nic nevymyslíte a ve zbytku obsahu truhličky už nic dalšího nenajdete. Můžete pokračovat v průzkumu věže zpět na [vez_prvni_pracovna].
@@ -898,7 +898,7 @@ Váš alchymista se na lahvičku podívá a s úsměvem se obrátí na nového m
 # vez_prvni_loznice
 Dostáváte se do části zatočené místnosti, která asi dříve sloužila jako ložnice. Vévodí jí krb na její jižní stěně a velká a kdysi jistě pohodlná postel s nebesy u západní stěny. Naproti ní, na východní stěně, visí moly prolezlý velký a dříve asi i barevný gobelín, který asi kdysi prostor pěkně zůtulňoval.
 
-Můžete se pokusit prohledat krb na [vez_prvni_loznice_krb]. Kdo ví jestli se v něm něco neskrývá? Nebo chcete propátrat gobelín a stěnu za ním? Je tam sice spousta pavučin, ale na [vez_prvni_loznice_gobelin] se můžete pokusit zjistit jestli se za nimi něco neschovává. No a poslední možnost je ta luxusní postel. Sláma v matraci je sice prolezlá myšmi takže na spaní zrovna neláká, ale třeba se v ní skrývá něco užitečného? Pro průzkum posltele jděte na [vez_prvni_loznice_postel]. Pokud vás tu nic nezaujalo, můžete se samozřejmě vrátit na [vez_prvni_pracovna].
+Můžete se pokusit prohledat krb na [vez_prvni_loznice_krb]. Kdo ví jestli se v něm něco neskrývá? Nebo chcete propátrat gobelín a stěnu za ním? Je tam sice spousta pavučin, ale na [vez_prvni_loznice_gobelin] se můžete pokusit zjistit jestli se za nimi něco neschovává. No a poslední možnost je ta luxusní postel. Sláma v matraci je sice prolezlá myšmi takže na spaní zrovna neláká, ale třeba se v ní skrývá něco užitečného? Pro průzkum postele jděte na [vez_prvni_loznice_postel]. Pokud vás tu nic nezaujalo, můžete se samozřejmě vrátit na [vez_prvni_pracovna].
 
 # vez_prvni_loznice_krb
 Krb je zaprášený, dokonce do něj asi komínem napadalo pár suchých listů. Zkoumáte ho, ale nic zajímavého jste neobjevili. Očistíte si ruce umazané od popela a sazí a vrátíte se k průzkumu ložnice na [vez_prvni_loznice].
@@ -1030,7 +1030,7 @@ Pokud je v tvé družince postava s dovedností "Alchymie" TODO, o nalezených l
 
 Dále jsi v ruce potěžkal měšec. Příjemně to v něm cinkalo a když jsi jeho obsah přepočítal, vyšlo ti krásných 55 zlatých.
 
-Jako poslední jsi z truhly vytál do ruličky smotaný list papíru. Je zajištěný pečetí s nějakým složitým alchymistickým znakem. V rohu ale navíc vidíte uhlem psanou poznámku „ochr. p. nemrt. 9, pro Soreha, zaplaceno“. Pokud máš v družince někoho s dovedností "Svitky" TODO, můžeš se dozvědět více na [vez_prvni_tajna_truhla_otevreni_obsah_svitek]. Pokud chceš přelomit pečeť a podívat se jaká tajemství jsou napsána uvnitř, jdi na [vez_prvni_tajna_truhla_otevreni_obsah_svitek_aktivace].
+Jako poslední jsi z truhly vytál do ruličky smotaný list papíru. Je zajištěný pečetí s nějakým složitým alchymistickým znakem. V rohu ale navíc vidíte uhlem psanou poznámku „ochr. p. nem. 9, pro Soreha, zaplaceno“. Pokud máš v družince někoho s dovedností "Svitky" TODO, můžeš se dozvědět více na [vez_prvni_tajna_truhla_otevreni_obsah_svitek]. Pokud chceš přelomit pečeť a podívat se jaká tajemství jsou napsána uvnitř, jdi na [vez_prvni_tajna_truhla_otevreni_obsah_svitek_aktivace].
 
 Nic dalšího tu k vidění není, a tak se vracíš do ložnice na [vez_prvni_loznice].
 
@@ -1045,12 +1045,12 @@ Ten kdo se v družince vyzná ve svitcích se podívá na pečeť bez přemýšl
 Vrať se k prohlížení obsahu truhly na [vez_prvni_tajna_truhla_otevreni_obsah]
 
 # vez_prvni_tajna_truhla_otevreni_obsah_svitek_aktivace
-Opatrně jsi zatlačil na plošku pečetě aby praskla a umožnila ti svitek rozbalit. Když praskla, přejela tebou vlna horkosti ale přičítal jsi to dlouhému napětí které několik posledních hodin zažívǎš když se plížíš touhle zatracenou věží. Svitek jsi rycle rozbalil a ještě jsi stihl zahlédnout blednoucí písmena vyvedená neznámým písmem. Přímo před tvýma očima nápis zmizel a ať na svitek svítíš jak chceš, držíš v ruce jen kus prázdného papíru.
+Opatrně jsi zatlačil na plošku pečetě aby praskla a umožnila ti svitek rozbalit. Když praskla, přejela tebou vlna horkosti ale přičítal jsi to dlouhému napětí které několik posledních hodin zažíváš když se plížíš touhle zatracenou věží. Svitek jsi rychle rozbalil a ještě jsi stihl zahlédnout blednoucí písmena vyvedená neznámým písmem. Přímo před tvýma očima nápis zmizel a ať na svitek svítíš jak chceš, držíš v ruce jen kus prázdného papíru.
 
 Vrať se k prohlížení obsahu truhly na [vez_prvni_tajna_truhla_otevreni_obsah]
 
 # vez_prvni_loznice_postel
-Široká postel má sloupky vyřezávané do spirály. Sloupky jsou vysoké a nahoře drží lehká nebesa která asi dříve nesla látku jako ochranu. V létě před hmyzem, v zimě před chladem. Po té látce ale nic nezbylo a je vidět přímo do postelena které je nevábně vypadající slamník a přes něj přehozená stará, místy rozežraná deka. Možná se vám to jenom zdálo, ale připadá vám, že pod dekou se něco pohnulo. Mohly by to být nějaké myši. Pokud vám to stojí za práci, můžete se přesvědčit na [vez_prvni_loznice_postel_poletuchy].
+Široká postel má sloupky vyřezávané do spirály. Sloupky jsou vysoké a nahoře drží lehká nebesa která asi dříve nesla látku jako ochranu. V létě před hmyzem, v zimě před chladem. Po té látce ale nic nezbylo a je vidět přímo do postele na které je nevábně vypadající slamník a přes něj přehozená stará, místy rozežraná deka. Možná se vám to jenom zdálo, ale připadá vám, že pod dekou se něco pohnulo. Mohly by to být nějaké myši. Pokud vám to stojí za práci, můžete se přesvědčit na [vez_prvni_loznice_postel_poletuchy].
 
 Postel jste ze všech stran okoukli, ale nevypadá to že by se v ní mohl schovávat nějaký úkryt nebo pod ní nějaké nebezpečí. Tak jste si jí přestali všímat a vrátili se k průzkumu té části patra které asi bylo ložnicí na [vez_prvni_loznice].
 
@@ -1061,7 +1061,7 @@ Pokud má někdo ve vaší družince dovednost znalost tvorů TODO, jděte na [v
 
 Pokud nechcete váhat a chcete je zabít dřív než se jim povede seslat na vás nějaké prokletí, bodnout vás jedovatým špendlíkem nebo co jiného co tyhle potvory dělají, jděte na [vez_prvni_loznice_postel_poletuchy_utok].
 
-Pokud se chcete pokusit promluvit si s nimi, jděte na neco [vez_prvni_loznice_postel_poletuchy_povidani].
+Pokud se chcete pokusit promluvit si s nimi, jděte na [vez_prvni_loznice_postel_poletuchy_povidani].
 
 # vez_prvni_loznice_postel_poletuchy_znalost
 Ten z vasi druzinky kdo ma znalost "znalost zvirat" TODO se nenapadne nakloni k ostatnim clenum druzinky ktera ostrazite zira na nove nalezene tvory a septem se je bude snazit uklidnit: "Poslouchejte, ja myslim ze toto jsou uplne jasne poletuchy. Vetsinou to byvali uzitecna stvoreni. Pokud se sedlakovi nekde na vesnici usidli ve stodole a pokud je to chytry hospodar..." "Nebo pokud ma chytrou zenu, to spis" ozve se jedna z zen ve vasi druzince (mate li ji). "...vetsinou s nimi dokaze navazat oboustrane vyhodne pratelstvi. Byvaji vesele, loajalni a pro nas rozhodne nemuzou byt nebezpecne, prave naopak, mozna by nam mohli pomoct."
@@ -1102,14 +1102,14 @@ Pepina se na vás zamračí "Tak tohle né. Prostě se o nich nebavíme" "Tak ta
 > Když se dobře rozhlédneš,\
 > další dveře nalezneš.
 
-Když to dopovídal, oba vyskočili do vzduchu, zamávali vám na pozdrav a vcukuletu byli pryč.
+Když to dopovídal, oba vyskočili do vzduchu, zamávali vám na pozdrav a v cuku-letu byli pryč.
 
 Je jasné že se už nevrátí a tak se můžete vrátit zpátky k prozkoumávání ložnice na [vez_prvni_loznice].
 
 # vez_prvni_loznice_postel_poletuchy_povidani_jidlo
 Vaši nový známí rádi přijali nabízenou krmi.
 
-*Odepište si jednu dávku jídla. Na to jak jsou malí toho zpořádali pořádně.*
+*Odepište si jednu dávku jídla. Na to jak jsou malí toho spořádali opravdu hodně.*
 
 "Mňam to je ale dobrota" pochvalovala si Pepina i Tomík. Koukáte na ně jak jim šmakuje. "Poslouchejte my už musíme letět ale máme pro vás něco co by se vám možná mohlo hodit" zatváří se Pepina prohnaně.
 
@@ -1125,7 +1125,7 @@ Když skončí, zamávají vám na pozdrav, rozpustile vás obletí a se smíche
 
 
 # vez_druhe_hlavni
-Ocitáte se v jediné místnosti třetího podlaží. Je to vlhká místnost se čtyřmi okny, ze které v jihovýchodním rohu vedou nahoru jedny příkré schody a téměř uprostřed další schody sesupují dolů. V dalším rohu vidíte trosky nějakého přístroje. Jsou tam zbytky dřevěných nožek, pomačkané plechová trubka a skleněné střepy.
+Ocitáte se v jediné místnosti třetího podlaží. Je to vlhká místnost se čtyřmi okny, ze které v jihovýchodním rohu vedou nahoru jedny příkré schody a téměř uprostřed další schody sestupují dolů. V dalším rohu vidíte trosky nějakého přístroje. Jsou tam zbytky dřevěných nožek, pomačkané plechová trubka a skleněné střepy.
 
 Pokud chcete prozkoumat hromádku zbytků, jděte na [vez_druhe_hlavni_dalekohled]. Pokud chcete sejít po schodech dolů, jděte na [vez_prvni_knihovna]. Pokud chcete vyjít po schodech nahoru, jděte na [vez_treti_hlavni].
 
@@ -1139,13 +1139,13 @@ Vyšli jste na rovnou střechu věže. Je z ní krásný výhled do okolí a na 
 
 Rozhlížíte se po okolí. V dálce na východě vidíte mohutné horské štíty známé především pro trpasličí doly chrlící železnou rudu. Na severu se rozprostírají nízké kopce porostlé hlubokými lesy, město stojí na západě a jih před vás klade členitou zemědělskou krajinu s poli, pastvinami, remízky a rozesetými statky.
 
-Stromy kolem věže z této výšky výhledu nebrání a tak vidíte i bezprostřední okolí věže a cestičku která k ní vede. V tom se zarazíte. Po cestičce k věži se pohybují dvě postavy. Na to že je to vyhlášená strašitelná věž je tu nějak moc živo zapřemíšlíte.
+Stromy kolem věže z této výšky výhledu nebrání a tak vidíte i bezprostřední okolí věže a cestičku která k ní vede. V tom se zarazíte. Po cestičce k věži se pohybují dvě postavy. Na to že je to vyhlášená strašidelná věž je tu nějak moc živo zapřemýšlíte.
 
 Pokud si myslíte že jsou to jen dva náhodní procházející a chcete na ně zamávat a zavolat by se vás nepolekali, jděte na [vez_konfrontace_mavani].
 
 Pokud ty dva příchozí podezíráte z toho že by mohli mít něco společného s vaším hlavním úkolem od mlynáře Žemličky, možná se chcete rychle přikrčit aby si vás náhodou nevšimli a potom opatrně seběhnout na schody z přízemí a pozorovat, jděte na [vez_konfrontace_pozorovani].
 
-Nebo možná chcete zvojit přímější metodu a prostě si na ně v přízení počíhat a lapnout je? Pak jděte na [vez_konfrontace_cihani].
+Nebo možná chcete zvolit přímější metodu a prostě si na ně v přízemí počíhat a lapnout je? Pak jděte na [vez_konfrontace_cihani].
 
 Můžete se také pokusit slézt dolů, ale bude to velký risk pokud nemáte dostatečně dlouhé lano. Pokud máte alespoň 10ti metrové lano a chcete slézt dolů a pokusit se příchozím odříznout útěkovou cestu a chytit je, jděte na [vez_konfrontace_slezani]. Pokud takto dlouhé lano nemáte a přesto se chcete pokusit slézt dolů, jděte na [vez_konfrontace_slezani_bezlana].
 
@@ -1163,20 +1163,20 @@ Pokud se chcete ještě porozhlédnout po věži, vraťte se do ní na [vez_tret
 # vez_konfrontace_pozorovani
 Přikrčíte se aby vás zdola nebylo vidět a dva příchozí chvíli pozorujete. Jsou to dva prostě oblečení hoši, v učňovském věku. Brzo bylo jisté že směřují do věže a tak co nejrychleji a zároveň co nejtišeji seběhnete na dlouhé schody které vedou z přízemí do prvního patra. Mírně pootevřete dveře a naskládáte se kolem škvíry tak, abyste všichni dobře slyšeli. Nemusíte ani dlouho čekat a uslyšíte kroky. To do hlavní místnosti s trůnem přichází ti dva. Zdá se že si vás nevšimli, což je dobré znamení.
 
-Pokud budete chtít jen sedět a poslouchat co se bude dít, jděte na [vez_konfrontace_pozorovani_poslouchani]. Sice riskujete že vás odhalí, ale možná se dozvíte něco důležitého. Jen doufáte, že se nechystají vyvolávat nějaká nečistá stvoření - nevypadají na to, ale třeba se za neškodné pladíky jen maskují.
+Pokud budete chtít jen sedět a poslouchat co se bude dít, jděte na [vez_konfrontace_pozorovani_poslouchani]. Sice riskujete že vás odhalí, ale možná se dozvíte něco důležitého. Jen doufáte, že se nechystají vyvolávat nějaká nečistá stvoření - nevypadají na to, ale třeba se za neškodné mladíky jen maskují.
 
 Pokud na ně raději chcete vlítnout a pokusit se je chytit než začnou tropit nějakou neplechu, jděte na [vez_konfrontace_pozorovani_chyceni]. Není jisté že se vám je podaří chytit, protože máte horší postavení a budete se muset všichni prodrat jedněmi dveřmi. Spoléháte ale na moment překvapení.
 
 # vez_konfrontace_pozorovani_poslouchani
 Napjatě posloucháte co se bude dít. Slyšíte jak rozsvěcí lucernu a povedlo se vám nahlédnout škvírkou ve dveřích, takže máte celkem dobrý přehled o tom co se děje.
 
-Chlapci, jeden poměrně vysoký uhrovitý a druhý nižší s vlasy na ježka, chodí po místnosti s lucernou a vypadají poměrně nervózně. Vidíte jak zkoumají dveře které jste otevřeli a zapoměli zpátky zavřít a všimli si i několika dalších stop které po vás zbyly.
+Chlapci, jeden poměrně vysoký uhrovitý a druhý nižší s vlasy na ježka, chodí po místnosti s lucernou a vypadají poměrně nervózně. Vidíte jak zkoumají dveře které jste otevřeli a zapomněli zpátky zavřít a všimli si i několika dalších stop které po vás zbyly.
 
-Pak slyšíte toho výššího, který drží lucernu šeptat: "Franto, sem si fakt jistej, že tohle tu minule nebylo. Já bych se dneska rači vypařil." "To nemůžem", říká ten menší. "Mistr by nám zase namlátil. Poď, uděláme to ať to máme z krku. Kdes to minule nechal tu druhou lampu? No nic, máme aspoň tuhle."
+Pak slyšíte toho vyššího, který drží lucernu šeptat: "Franto, sem si fakt jistej, že tohle tu minule nebylo. Já bych se dneska rači vypařil." "To nemůžem", říká ten menší. "Mistr by nám zase namlátil. Poď, uděláme to ať to máme z krku. Kdes to minule nechal tu druhou lampu? No nic, máme aspoň tuhle."
 
 Pak sledujete, jak ten nižší z pod košile vytahuje velkou, otřískanou a zprohýbanou plechovou poklici. "Tak můžem" kývne na toho vyššího s lampou. Ten dojde k oknu, vytočí knot lampy aby svítila co nejjasněji a začne s ní mávat. Z venku je jistě dobře vidět její tančící světlo. Ten menší zase začne mlátit to pokličky kusem dřeva. Dělá to randál který by mrtvého probudil. Do toho oba hulákají "Hůůů" a "Hééé" jako zběsilí.
 
-Občas zastaví a odpočívají, ale vydrží to dělat dobrou čtvrthodinu. Jednou zaslechnete jak ten menší říká tomu většímu "Máš pravdu Jardo. Ještě dneska řeknem starýmu, že s tím končíme, protože pokud nás tu nic nesežere, o hlas příjdem určitě." A pak zase randál, svícení a hulákání.
+Občas zastaví a odpočívají, ale vydrží to dělat dobrou čtvrthodinu. Jednou zaslechnete jak ten menší říká tomu většímu "Máš pravdu Jardo. Ještě dneska řeknem starýmu, že s tím končíme, protože pokud nás tu nic nesežere, o hlas přídem určitě." A pak zase randál, svícení a hulákání.
 
 Nakonec toho přeci jenom nechají a ten menší, asi Franta, říká "Tak jo Cirdo, padla, deme. U Bubnu dneska naráželi novou várku, třeba ještě něco zbylo." Pak už jen ztlumili světlo lucerny a skoro vyběhli ven do noci.
 
@@ -1185,23 +1185,23 @@ No tak to bylo pěkně divné představení. Každopádně začínáte mít jak�
 Pokud chcete ještě setrvat ve věži a porozhlédnout se tu ještě více, jděte na [vez_prizemi_hlavni], ale zapište si [zemlicka_hlaseni_50p] a za Žemličkou se můžete vydat kdykoli později.
 
 # vez_konfrontace_pozorovani_chyceni
-Kouknete na sebe a i beze slov je jasné co chcete udělat. Jeden z družinky zvedne ruku a když mu všichni začnou věnovat pozornost, chvíli počná a pak mávne. Na to znamení otevřete dveře a všichni se zaráz pokusíte vřítit do hlavní místnosti.
+Kouknete na sebe a i beze slov je jasné co chcete udělat. Jeden z družinky zvedne ruku a když mu všichni začnou věnovat pozornost, chvíli počká a pak mávne. Na to znamení otevřete dveře a všichni se naráz pokusíte vřítit do hlavní místnosti.
 
-Bohužel jste si ale nedomluvili pořadí, takže došlo k nějakým strkanicím které vás stály čas. Ti kluci se ale strašně lekli a pokud byste měli čas je pozorovat místo provozování strkanice ve dveřích, viděli byste, jak na hodnou chvíli stuhli. Pak je dohlaly jejich instinkty a vzali nohy na ramena.
+Bohužel jste si ale nedomluvili pořadí, takže došlo k nějakým strkanicím které vás stály čas. Ti kluci se ale strašně lekli a pokud byste měli čas je pozorovat místo provozování strkanice ve dveřích, viděli byste, jak na hodnou chvíli ztuhli. Pak je dohnaly jejich instinkty a vzali nohy na ramena.
 
 Ten větší byl o krapánek pomalejší a podařilo se vám ho obestoupit ještě v místnosti s křeslem. Ten menší byl sice pohotovější a s hlasitým křikem vyrazil ke dveřím, ale v tom spěchu si nevšiml že jsou zavřené a téměř do nich narazil.
 
-Když zjistili kdo proti nim stojí, otrnulo jim a postavili se vám. Nechcete je zranit a tak si ostražitě odkládáte zbraně. Tohle bude pěstní souboj. Jdděte na [vez_konfrontace_prizemi_pestni_souboj]
+Když zjistili kdo proti nim stojí, otrnulo jim a postavili se vám. Nechcete je zranit a tak si ostražitě odkládáte zbraně. Tohle bude pěstní souboj. Jděte na [vez_konfrontace_prizemi_pestni_souboj]
 
 # vez_konfrontace_prizemi_pestni_souboj
-*Pěstní souboj se hází stejně jako normání, jen se při něm nepočítá síla zbraně ani kvalita brnění. Útok je prostě jen hod + SÍL, obrana je jen hod + OBR. Účastníci souboje se střídají v kolech jako obvykle. Životy však ubývají jen jako. Jakmile někdo při pěstním souboji "zemře", neumírá ale prohrává v boji. Po ukončení souboje každá postava přichází jen o třetinu životů o které přišla při pěstním souboji.*
+*Pěstní souboj se hází stejně jako ten normální, jen se při něm nepočítá síla zbraně ani kvalita brnění. Útok je prostě jen hod + SÍL, obrana je jen hod + OBR. Účastníci souboje se střídají v kolech jako obvykle. Životy však ubývají jen jako. Jakmile někdo při pěstním souboji "zemře", neumírá ale prohrává v boji. Po ukončení souboje každá postava přichází jen o třetinu životů o které přišla při pěstním souboji.*
 
 Pokud se vám podařilo ty dva přemoct, vyslechněte je na [vez_konfrontace_vyslech].
 
 Pokud přemohli oni vás, je na čase zajít za Žemličkou a povědět mu aspoň to málo co zatím víte na [zemlicka_hlaseni_30p]. Pokud se chcete ve věži ještě porozhlédnout, jděte na [vez_prizemi_hlavni], ale zapište si číslo [zemlicka_hlaseni_30p] a za Žemličkou se můžete vydat kdykoli později.
 
 # vez_konfrontace_cihani
-Chvilku jste se tlumeně překřikovali ale nakonec zvítězila varianta "seběhneme do přízemí a počíháme si na ně". Co nejrychleji tedy vyrazíte po schodišti dolů - chcete tam být dřív než ti dva vetřelci. Schodiště ale není v nejlepčím stavu a se svícením na neosvětlených částech se také neobtěžujete, taže by se mohlo stát že někdo uklouzne.
+Chvilku jste se tlumeně překřikovali ale nakonec zvítězila varianta "seběhneme do přízemí a počíháme si na ně". Co nejrychleji tedy vyrazíte po schodišti dolů - chcete tam být dřív než ti dva vetřelci. Schodiště ale není v nejlepším stavu a se svícením na neosvětlených částech se také neobtěžujete, takže by se mohlo stát že někdo uklouzne.
 
 *Každá postava si v pořadí v jakém běží dolů hodí na obratnost. Pokud dostaneš 3 a méně, pak jsi na nepřehledné části schodiště uklouzl a po elegantním kotoulu přes několik schodů ses zastavil až o blízkou zeď. Bolí tě snad všude a můžeš se těšit na spoustu modřin. Na čele máš mírně krvácející odřeninu. Odepiš si jeden život. Pokud někdo takto uklouzl, ostatní postavy už nehází. Viděli co se stalo a jistě si budou dávat pozor.*
 
@@ -1210,11 +1210,11 @@ Konečně dobíháte do hlavní místnosti se zdobným křeslem v přízemí na 
 # vez_konfrontace_cihani_dole
 Konečně jste v hlavní místnosti přízemí věže. A bylo to jen o chloupek. Sotva se rozmístíte do jakýchs takýchs úkrytů, vrznou dveře a do místnosti vstupují ti dva které jste pozorovali z vršku věže.
 
-Slyšíte jak se ve dveřích chvíli handrkují. "Já tam dneska nejdu." žadoní jeden hlas. "Šak si to slyšel ne? Něco tam určitě je." "Nebuď strašpytel, víš že tam musíme. A mistr říkal že už jenom třikrát." povzbuzuje ho druhý hlas. Pak je chvíli ticho a z dveří nejdřív vyleze ruka s lampou. Dvíli se nic neděja a pak s pozvzbuzujícím "No tak dělej, ať to máme za sebou." vejdou i ti dva.
+Slyšíte jak se ve dveřích chvíli handrkují. "Já tam dneska nejdu." žadoní jeden hlas. "Šak si to slyšel ne? Něco tam určitě je." "Nebuď strašpytel, víš že tam musíme. A mistr říkal že už jenom třikrát." povzbuzuje ho druhý hlas. Pak je chvíli ticho a z dveří nejdřív vyleze ruka s lampou. Chvíli se nic neděje a pak s povzbuzujícím "No tak dělej, ať to máme za sebou." vejdou i ti dva.
 
 Jsou to chlapci, jeden poměrně vysoký uhrovitý a druhý nižší s vlasy na ježka. Z toho co jste zaslechli víte že se jmenují Franta a Cyril.
 
-Naštěstí se lucerna v rostřesené ruce houpe tak, že vás ve vašich chabých úkrytech nezpozorovali až bylo pozdě. Postoupili do středu místnosti a v tu ránu jste vystoupili ze svých úkrytů a zhurta na ně spustili: "Co tady děláte takle pozdě holomci, nemáte bejt už dávno doma u maminky?"
+Naštěstí se lucerna v roztřesené ruce houpe tak, že vás ve vašich chabých úkrytech nezpozorovali až bylo pozdě. Postoupili do středu místnosti a v tu ránu jste vystoupili ze svých úkrytů a zhurta na ně spustili: "Co tady děláte takhle pozdě holomci, nemáte bejt už dávno doma u maminky?"
 
 Strašně se lekli, ale zdálo se vám že když poznali že jste jen lidé, odvaha se jim trochu vrátila. "Hele nechte nás, je to tady snad vaše? My už stejně musíme jít, tak ustupte." a hrnou se ke dveřím.
 
@@ -1223,7 +1223,7 @@ Strašně se lekli, ale zdálo se vám že když poznali že jste jen lidé, odv
 *Vyberte někoho z družinky kdo se pokusí vymámit ty odpovědi a hoďte za něj na charisma. Pokud má postava dovednost smlouvání, tady se použije. Pokud jste dostali 9 a méně, nezadařilo se a jděte na [vez_konfrontace_cihani_dole_neuspech]. Pokud 10 a více, jděte na [vez_konfrontace_cihani_dole_uspech].*
 
 # vez_konfrontace_cihani_dole_uspech
-"No teda, vy tady tak talentovaně stojíte." spustíte na ně dokud jsou ještě trošku vyjukaní. Zmateně se na sebe podívají, ale vy hned pokračujete. "A to musíte být i hrozně stateční když takhle v noci dete sem do té opuštěné věže." mažete jim med kolem huby. "No a koukáme že ste pořádní chlapi! S takovýma svalovcema by sme se nechtěli dostat do křížku. Asi tu máte nějaký zařizování co?" konečně se dostáváte k tomu co vás zajímá.
+"No teda, vy tady tak talentovaně stojíte." spustíte na ně dokud jsou ještě trošku vyjukaní. Zmateně se na sebe podívají, ale vy hned pokračujete. "A to musíte být i hrozně stateční když takhle v noci dete sem do té opuštěné věže." mažete jim med kolem huby. "No a koukáme že ste pořádní chlapi! S takovýma svalovcema by sme se nechtěli dostat do křížku. Asi tu máte nějaký zařizování co?" pomalu se dostáváte k tomu co vás zajímá.
 
 Konečně se zapojí do diskuse: "Noo, vlastně to je jenom takovej vtip." Podívají se na sebe, asi se očima domlouvají co řeknou. "My tu jen tak rámusíme. Mistr nás sem poslal. Narazili jsme tady sice na jakousi havěť, ale toho se nelekneme, že Cirdo?"
 
@@ -1235,26 +1235,26 @@ Konečně se zapojí do diskuse: "Noo, vlastně to je jenom takovej vtip." Podí
 
 "No prostě tu enom u okna co směřuje na město blbneme s lucernou a děláme randál" vysvětlí František. "No ale dneska už půjdem, mějte se." Otočí se a odejdou z věže.
 
-Tato rozpra vám dala všechny informace které jste potřebovali a můžete se vydat za Žemličkou vylíčit mu co jste zjistili na [zemlicka_hlaseni_100p]. Pokud se chcete ve věži ještě porozhlédnout, [zemlicka_hlaseni_100p] si zapište a zajděte tam později a teď se můžete vrátit na [vez_prizemi_hlavni].
+Tato rozprava vám dala všechny informace které jste potřebovali a můžete se vydat za Žemličkou vylíčit mu co jste zjistili na [zemlicka_hlaseni_100p]. Pokud se chcete ve věži ještě porozhlédnout, [zemlicka_hlaseni_100p] si zapište a zajděte tam později a teď se můžete vrátit na [vez_prizemi_hlavni].
 
 *Postava která ty dva přesvědčila, získává 10 zkušeností. TODO*
 
 # vez_konfrontace_cihani_dole_neuspech
-Pokoušeli jste se ty dva rozmluvit aby vám řekli co o téhle věži ví, ale nebyli jste úspěšní. Koukali se na vás jako pekař na někoho kdo mu sebral už dvě housky a přišel si pro třetí. Byli ostržití a dávali pozor kdy budou moct utéct.
+Pokoušeli jste se ty dva rozmluvit aby vám řekli co o téhle věži ví, ale nebyli jste úspěšní. Koukali se na vás jako pekař na někoho kdo mu sebral už dvě housky a přišel si pro třetí. Byli ostražití a dávali pozor kdy budou moct utéct.
 
 Po chvíli vašeho přesvědčování jak to s nimi myslíte dobře to už asi nevydrželi a skočili vám do řeči: "No tak my už asi půjdeme, žejo" a kývli na sebe, jako že v tom jsou zajedno.
 
 "No tak to prrrrr" vyhrkli jste, ale oni už se vydali ke dveřím. Když jste je chytili za rameno, ruku setřásli a dál se tlačili k východu. Vypadá to že jim budete muset ukázat, že to myslíte vážně. Pokračujte na [vez_konfrontace_prizemi_pestni_souboj].
 
 # vez_konfrontace_slezani_bezlana
-Věž je postavéná z velkých otesaných kamenů a stojí tam už dlouho, takže mnohé spáry jsou hluboké a to vám dodalo odvahu pokusit se slézt i bez dostatečně dlouhého lana. Lezete jeden po druhém, na straně opačné k přicházejícím. Spěcháte.
+Věž je postavená z velkých otesaných kamenů a stojí tam už dlouho, takže mnohé spáry jsou hluboké a to vám dodalo odvahu pokusit se slézt i bez dostatečně dlouhého lana. Lezete jeden po druhém, na straně opačné k přicházejícím. Spěcháte.
 
 *Postupně si na každého člena družinky hoď na obratnost. Pokud má postava dovednost Akrobacie, připočítej si za ni bonus. Pokud jsi dostal 10 a více, postavě se podařilo slézt. Pokud však 9 a méně, jdi na [vez_konfrontace_slezani_bezlana_pad].*
 
 Pokud se všem členům družinky podařilo dostat se dolů, pokračuj na [vez_konfrontace_slezani_dole].
 
 # vez_konfrontace_slezani_bezlana_pad
-Při sestupu jsi využil stup který vypadal perfekně, akorát na špičku tvé škorně. Co jsi ale neviděl bylo, že byl porostlý vlhkým lišejníkem. Když jsi na něj přenesl váhu, noha znenadání uklouzla. Na zlomek sekundy jsi visel na jedné ruce, ale ta povolila a zřítil jsi se na zem. Při pádu jsi se potloukl o střechu spodního patra, podřel o větve stomu kterým jsi propadl, ale nejhorší bylo přistání na tvrdou zemi.
+Při sestupu jsi využil stup který vypadal perfektně, akorát na špičku tvé škorně. Co jsi ale neviděl bylo, že byl porostlý vlhkým lišejníkem. Když jsi na něj přenesl váhu, noha znenadání uklouzla. Na zlomek sekundy jsi visel na jedné ruce, ale ta povolila a zřítil jsi se na zem. Při pádu jsi se potloukl o střechu spodního patra, odřel o větve stromu kterým jsi propadl, ale nejhorší bylo přistání na tvrdou zemi.
 
 *Postava si odečte 5 životů.*
 
@@ -1263,27 +1263,27 @@ Vrať se na [vez_konfrontace_slezani_bezlana] a pokračuj ve slézání s ostatn
 # vez_konfrontace_slezani
 Někdo z družinky ze svých věcí vylovil lano. Je to velká pomoc pro váš plán. Slézat věž bez lana by bylo náročné.
 
-Tak aby vás nebylo vidět od pěšiny po které ti dva přicházeli lano pečlivě uvážete a hodíte dolů. Podom postupně, všichni bez nehody, slaníte dolů.
+Tak aby vás nebylo vidět od pěšiny po které ti dva přicházeli lano pečlivě uvážete a hodíte dolů. Potom postupně, všichni bez nehody, slaníte dolů.
 
-Teď je na čase pokusit se chytit dvě postavy které jste zhora viděli přicházet. Jděte na [vez_konfrontace_slezani_dole].
+Teď je na čase pokusit se chytit dvě postavy které jste shora viděli přicházet. Jděte na [vez_konfrontace_slezani_dole].
 
 *Až bude po všem, pro lano se můžete nahoru na věž vrátit, takže si ho z batohu nemusíš škrtat.*
 
 # vez_konfrontace_slezani_dole
 Dostat se dolů vám nějaký čas zabralo a ti dva se mezitím dostali do věže. Obestoupíte tedy vstupní dveře a tiše se radíte jak to provedete.
 
-Pokud vám ti dva které jste viděli vstupovat do věže připadají nebezpeční, můžete zkusit je z venku nenápadně pozorovat na [vez_konfrontace_slezani_poslouchani]. Někdo dohlédne na okno, někdo na dveře a zíkáte tak jistě dobrou představu o tom co se to tam vlastně děje.
+Pokud vám ti dva které jste viděli vstupovat do věže připadají nebezpeční, můžete zkusit je z venku nenápadně pozorovat na [vez_konfrontace_slezani_poslouchani]. Někdo dohlédne na okno, někdo na dveře a získáte tak jistě dobrou představu o tom co se to tam vlastně děje.
 
 Pokud si věříte a raději se je ve věži pokusíte chytit, jděte na [vez_konfrontace_slezani_chyceni].
 
 # vez_konfrontace_slezani_poslouchani
 Rychle utrhnete pár stébel trávy a použijete je na vylosování "šťastlivce", který zůstane hlídat dveře. Taháte a brzo e rozhodnuto. Jeden z vaší družinky s mírně nasupeným výrazem zůstává hlídat vchod do věže. Ostatní se nenápadně proplétají houštím k oknu. Tam se schováte za blízké stromy a keře a napjatě se díváte a posloucháte. Venku už před nějakou dobou padla tma a hordy cvrčků se snaží jeden přehlušit druhého.
 
-Po chvíli se za oknem rozsvítí a nezřetelně slyšíte útržky hovoru: "...tak deme na to..." a "...neboj, prej už jen párkrát" a "...tak teď!" Na ten povel se z věže začal ozývat randál jak kdyby někdo bubnoval na velkou poklici a světlo lucerny se teď míhá přímo u polozatlučeného okna.
+Po chvíli se za oknem rozsvítí a nezřetelně slyšíte útržky hovoru: "...tak deme na to..." a "...neboj, prej už jen párkrát" a "...tak teď!" Na ten povel se z věže začal ozývat randál jak kdyby někdo bubnoval na velkou poklici a světlo lucerny se teď míhá přímo u polo-zatlučeného okna.
 
 Kdybyste nevěděli že tohle mají na svědomí dva chuligáni, při pohledu od nedaleké palisády byste to taky jistě přisoudili sílám pekelným. Nemá smysl čekat na konec tohoto představení. Zvlášť když vám už začíná být jasné o co tady jde a tak se můžete vydat za Žemličkou a sdělit mu co jste zjistili na [zemlicka_hlaseni_50p].
 
-Pokud chcete ještě počkat až ti dva odejdou a vrátit se do věže, můžete. Jen si šíslo [zemlicka_hlaseni_50p] zapište a jděte tam až se za žemličkou budete chtít vydat. Nyní se můžete vrátit do hlavní místnosti v přízemí na [vez_prizemi_hlavni].
+Pokud chcete ještě počkat až ti dva odejdou a vrátit se do věže, můžete. Jen si číslo [zemlicka_hlaseni_50p] zapište a jděte tam až se za žemličkou budete chtít vydat. Nyní se můžete vrátit do hlavní místnosti v přízemí na [vez_prizemi_hlavni].
 
 # vez_konfrontace_slezani_chyceni
 [vez_konfrontace_slezani_chyceni_uspech]
@@ -1342,7 +1342,7 @@ Nějaké ty běžně dostupné zásoby pak určitě seženete v Koloniálu Pírk
 Pokud tu už nic nepotřebujete, buď se vraťte tam kde jste přestali, nebo se budeme těšit u nějakého dalšího gamebooku.
 
 # mesto_hospoda
-Hospoda se jmenuje "U ztracených nadějí" a vede ji vysoký štíhlý elf. Nebo je to možná elfka, těžko se to pozná. Z dlouhých blonďatých vlasů vykukují špičaté uši. Je tam čisto, ale cítíte jakousi ponurou (tODO neco jako spis ze se tam nic nehybe) atmosféru. Těch pár hostů co tu sedí buď jen tiše usrkávají ze svých vysokých sklenic, nebo se tiše a jaksi ospale baví. No a ten hospodský (nebo hospodská) jsou věrným obrazem své hospody. Když vejdete, ani si vás nevšimnout a tak se musíte ozvat sami.
+Hospoda se jmenuje "U ztracených nadějí" a vede ji vysoký štíhlý elf. Nebo je to možná elfka, těžko se to pozná. Z dlouhých blonďatých vlasů vykukují špičaté uši. Je tam čisto, ale cítíte jakousi ponurou (TODO něco jako spis ze se tam nic nehybe) atmosféru. Těch pár hostů co tu sedí buď jen tiše usrkávají ze svých vysokých sklenic, nebo se tiše a jaksi ospale baví. No a ten hospodský (nebo hospodská) jsou věrným obrazem své hospody. Když vejdete, ani si vás nevšimnout a tak se musíte ozvat sami.
 
 "Pěkný den vespolek" zahulákáte na celou místnost a potom přímo k majiteli: "rádi bysme si něco nakoupili, šlo by to?"
 
@@ -1352,13 +1352,13 @@ Hospoda se jmenuje "U ztracených nadějí" a vede ji vysoký štíhlý elf. Neb
 
 "No jak to říkám. Včera mi dovezli maso co bych nejedl ani kdybych ho jedl a to víno co kupuju? To je spíš ocet. Ale jestli vám to nevadí, tak hurá do toho" ušklíbne se.
 
-Vypadá to že nemá svůj den, tak se radějí vyptáte na konkrétní sortiment a ceny a vypadá to že něco koupit by se tady dalo.
+Vypadá to že nemá svůj den, tak se raději vyptáte na konkrétní sortiment a ceny a vypadá to že něco koupit by se tady dalo.
 
 TODO sortiment
 
-Kromně nákupu se tu můžete taky dobře najíst a vyspat. Pokud vás to zajímá, jděte na TODO.
+Kromě nákupu se tu můžete taky dobře najíst a vyspat. Pokud vás to zajímá, jděte na TODO.
 
-*Pokud budete s hospodským smlouvat, hoďte si na charismu, přidejte případný bonus za dovednost smlouvání. Hospodského se vám podařilo přesvědčit, pokud jste dostali 9 a více. Zdá se vám, jako by ho vlastně nic moc nezajímalo, včetně vašich zlaťáků.*
+*Pokud budete s hospodským smlouvat, hoďte si na charisma, přidejte případný bonus za dovednost smlouvání. Hospodského se vám podařilo přesvědčit, pokud jste dostali 9 a více. Zdá se vám, jako by ho vlastně nic moc nezajímalo, včetně vašich zlaťáků.*
 
 Pokud jste tu skončili, vraťte se do města na [mesto_rozcetnik].
 
@@ -1371,11 +1371,11 @@ Usměje se na vás veselýma očima a zpocený obličej umazaný od sazí si ot�
 
 "Hahaha, to mi lichotíte" potěšeně se zasměje. "Já většinou dělám jenom takový obyčejný věci. Vidíte" a mávne k polici s rozdělanými zakázkami. Jsou tam podkovy, násady na rýče, sekery a taky jedny vidle. "Ale počkejte, něco vyhrabu vzadu v baráku."
 
-Za chvíli se vrátí a v náručí přináší několik promaštěných kožešin které ukrývají železem chřestící náklad. Všecnho to rozloží před vás a i když toho není moc, vyberat by si mohl každý.
+Za chvíli se vrátí a v náručí přináší několik promaštěných kožešin které ukrývají železem chřestící náklad. Všechno to rozloží před vás a i když toho není moc, vybrat by si mohl každý.
 
 TODO sortiment
 
-*Pokud budete s kovářkou smlouvat, hoďte si na charismu, přidejte případný bonus za dovednost smlouvání. Slevu se vám podaří usmlouvat pokud jste dostali 11 a více.*
+*Pokud budete s kovářkou smlouvat, hoďte si na charisma, přidejte případný bonus za dovednost smlouvání. Slevu se vám podaří usmlouvat pokud jste dostali 11 a více.*
 
 Pokud má někdo z vás zrezivělou zbraň, kovářka vám ho za desetinu jeho ceny přebrousí a opraví. Bude jako nový a síla útoku se jí zvedne na hodnotu podle tabulky výše.
 
@@ -1386,7 +1386,7 @@ Kousek za městským opevněním stojí malá chatrč. Vypadá jako by byla upl�
 
 Zabušíte na dveře a když se ozve přívětivé "No jen poťte, poťte", vejdete dovnitř.
 
-V potemělé komoře zády k vám sedí bába a cosi dělá na stole před sebou. Její šedé vlasy jsou svázané do ohonu. Vedle ní je opřená hůlka s do leskla ohmatanou vyřezávanou soví hlavou. Buď zapoměla že vás pozvala dovnitř, nebo si vás nevšímá. Vy sázíte na to druhé.
+V potemnělé komoře zády k vám sedí bába a cosi dělá na stole před sebou. Její šedé vlasy jsou svázané do ohonu. Vedle ní je opřená hůlka s do leskla ohmatanou vyřezávanou soví hlavou. Buď zapomněla že vás pozvala dovnitř, nebo si vás nevšímá. Vy sázíte na to druhé.
 
 "Tak kdo se ujme rozhovoru s tou starou špachtlí?" ptá se jeden z vás. "Asi bude potřeba dost křičet, hádám."
 
@@ -1396,20 +1396,20 @@ Od babky se ozve jakési zahýkání, ale dál si vás nevšímá a věnuje se t
 
 "Ta je hluchá jak poleno. Co kdybysme si prostě vzali nějaký to léčivý kvítí tady" navrhuje jeden z družinky po nejbližším svazečku usušených bylin, "a půjdeme?"
 
-V tom se od babky zcela zřetelně ozve "To bych ti nedoporučuvala panáčku se tohohle snopku ani dotýkat. A děkuju za optání, slyším dobře." Otočí se na vás a i když je jistě hodně stará, hledí na vás pronikavýma očima. "Karty mi řekly že mám čekan nové zákazníky, ale že budou takhle nevychovaní se nezmínili."
+V tom se od babky zcela zřetelně ozve "To bych ti nedoporučovala panáčku se tohohle snopku ani dotýkat. A děkuju za optání, slyším dobře." Otočí se na vás a i když je jistě hodně stará, hledí na vás pronikavýma očima. "Karty mi řekly že mám čekat nové zákazníky, ale že budou takhle nevychovaní se nezmínili."
 
 Nastala chvilka trapného ticha. Tohle jste nečekali a když jste se vzpamatovali, pokusili jste se to urovnat jak nejlépe se dalo: "Promiňte madam, moc se omlouváme za ty řeči. My to tak nemysleli. Už se to nestane, opravdu."
 
 Kořenářka teď vypadá spokojeně. "Tak copak ode mě potřebujete slovutní dobrodruhové?" ptá se s pobaveným výrazem.
 
-*Smlouvání s babkou kořenářkou se povede, jen pokud hodem na charismu s případným bonusem za smlouvání dostanete 12 a více. Je to totiž velmi chytrá žena a zná cenu svých znalosí a své práce.*
+*Smlouvání s babkou kořenářkou se povede, jen pokud hodem na charisma s případným bonusem za smlouvání dostanete 12 a více. Je to totiž velmi chytrá žena a zná cenu svých znalostí a své práce.*
 
 TODO sortiment
 
 Pokud jste vyřídili všechno co jste potřebovali, vraťte se do města na [mesto_rozcetnik].
 
 # mesto_korenarka_lektvary_truhla
-Urceni lektvaru z pudy za penize - toto je jen kopie jineho textu ktery se da pouzit:
+TODO Urceni lektvaru z pudy za penize - toto je jen kopie jineho textu ktery se da pouzit:
 
 Alchymista/ka družiny se na lektvary zahleděl: "Podívejte na tenhle, na ten pečlivě zajištěný skleněný špunt. A ta barva! Tohle vypadá na Megacloumák. Vdechuje se a rychle se odpařuje, takže nedoporučuji otevírat pokud nepotřebujete někoho probrat z mdlob nebo omráčení. Je i mírně léčivý, ale nemá se používat moc často, není to žádné ořezávátko." Potom vzal do ruky ten druhý, otevřel ho, přičichl a spokojeně pokýval hlavou: "A tady je zase zcela zachovalý Lektvar rudého kříže. Vynikající při léčení vážných zranění, ale nikdy by se neměli brát dva zároveň nebo krátce po sobě, to pak můžou mít účinek opačný."
 
@@ -1418,11 +1418,11 @@ Pokud chcete u babky ještě něco zařídit, jděte na [mesto_korenarka], jinak
 # mesto_kolonial
 Přivítá vás velký vývěsní štít se zdobně vyvedeným nápisem "Zboží koloniální". Ač se obchod tváří jako něco extra, při pohledu na nabídku vidíte že jde prostě o prodej všeho možného. Všech těch běžných věcí které měšťan nebo sedlák potřebují a ve městě není nikdo jiný kdo by je prodával.
 
-Máte štěstí. Dnes tu obsluhuje jen pomocník a ne majitel, takže pokud se pokusíte smlouvat, stačí vám přehodit 6-ku (*smlouvání se povede, pokud hodem na charismu s případným bonusem za smlouvání dostanete 7 a více*).
+Máte štěstí. Dnes tu obsluhuje jen pomocník a ne majitel, takže pokud se pokusíte smlouvat, stačí vám přehodit 6-ku (*smlouvání se povede, pokud hodem na charisma s případným bonusem za smlouvání dostanete 7 a více*).
 
 Sortiment: TODO
 
-Pokud jste s nákupen skončili, vreťte se zpět do města na [mesto_rozcetnik].
+Pokud jste s nákupem skončili, vraťte se zpět do města na [mesto_rozcetnik].
 
 # mesto_sperkar_krysipoklad_odhadnuty
 Přicházíte do šperkařské dílny. Když zabušíte na dveře, musíte poměrně dlouho čekat než zevnitř něco uslyšíte, ale nakonec se dveře přeci jen opatrně pootevřou. Zevnitř vykoukne trpasličí tvář s dlouhým vousem svázaným provázkem kousek pod bradou. "Neznám vás, co chcete?"
