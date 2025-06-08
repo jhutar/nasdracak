@@ -161,7 +161,7 @@ Jednoruční zbraně pro boj tváří v tvář
 
 | Název | Síla zbraně | Cena | Poznámka |
 |---|---|---|---|
-| žádná | 0 |  |  |
+| žádná | 0 | 0 |  |
 | dýka | 2 | 1 zl |  |
 | obušek | 2 | 2 st |  |
 | tesák | 3 | 4 zl |  |
@@ -212,7 +212,7 @@ Obrana
 
 | Název | Obrana | Cena | Poznámka |
 |---|---|---|---|
-| žádné | 0 |  |  |
+| žádné brnění | 0 | 0 |  |
 | vycpávané | 1 | 16 zl |  |
 | kožené | 2 | 40 zl |  |
 | šupinové | 3 | 120 zl | Jen pro postavy s SÍL +1 a větší |
@@ -228,38 +228,27 @@ Vybavení
 | pochodně 6 ks | 6 md |
 | křesadlo | 1 st |
 | zrcátko kovové | 1 st |
-| lahev | 1 st |
 | olej do lucerny | 3 st |
-| flakónek (lahvička na lektvar) | 4 st |
-| list pergamenu | 8 st |
-| měch na vodu | 1 zl |
-| flakónek svěcené vody | 1 zl |
 | lano 10m | 1 zl |
 | lucerna | 2 zl |
 | batoh | 4 zl |
-| malá dřevěná truhlička | 4 zl |
 | kožešiny pro spaní venku | 6 zl |
-| velká železem obytá truhla se zámkem | 15 zl |
 
 Oblečení
 
 | Název | Cena |
 |---|---|
-| oblečení nuzné (odebírá -2 od CHAR) | 2 zl |
-| oblečení obyčejné | 8 zl |
-| oblečení zdobné (přidává +1 k CHAR) | 70 zl |
-| oblečení luxusní, zdobené zlatem a kameny (přidává +2 k CHAR) | 350 zl |
+| nuzné oblečení (odebírá -2 od CHAR) | 2 zl |
+| obyčejné oblečení | 8 zl |
+| zdobné oblečení (přidává +1 k CHAR) | 70 zl |
+| luxusní oblečení, zdobené zlatem a drahými kameny (přidává +2 k CHAR) | 350 zl |
 
 Jídlo
 
 | Název | Cena |
 |---|---|
-| bochník chleba | 6 md |
 | večeře v hostinci | 1 st |
-| ječmen pro koně na 7 dní | 3 st |
-| soudek piva | 5 st |
-| víno | 5 st |
-| jídlo na týden | 7 st |
+| jídlo na den | 1 st |
 
 
 
