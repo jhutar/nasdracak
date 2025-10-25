@@ -23,6 +23,6 @@ V repozitáři jsou:
 
 Hlavní branch repozitáře je "main".
 
-Pro popisy commitů používáme "Conventional commits" a commit message jsou v češtině.
+Pro popisy commitů používáme "Conventional commits" a commit message jsou v češtině bez diakritiky.
 
 Změny vygnerované pomocí Gemini musí být commitnuty s trailerem "Generated-by:Gemini" a commit message musí také obsahovat zesumarizovaný prompt poskytnutý operátorem.
