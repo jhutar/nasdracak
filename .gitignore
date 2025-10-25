@@ -3,6 +3,11 @@
 venv/
 docs/build/
 docs/source/__pycache__/
+docs/source/_static/
+
+# External tools
+pagebreak/
+pangamebook/
 
 # Gamebook
 gamebook/opustena_magova_vez-raw.pdf
