@@ -1,0 +1,40 @@
+FROM ubuntu:22.04
+
+RUN apt update
+RUN apt install -y git
+
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y graphviz \
+      imagemagick \
+      make \
+      fonts-dejavu \
+      latexmk \
+      lmodern \
+      fonts-freefont-otf \
+      texlive-latex-recommended \
+      texlive-latex-extra \
+      texlive-fonts-recommended \
+      texlive-fonts-extra \
+      texlive-lang-czechslovak \
+      texlive-luatex \
+      texlive-xetex \
+      xindy \
+      tex-gyre
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y python3-pip
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y inkscape
+RUN pip install Sphinx==7.1.2
+RUN pip install sphinxcontrib-svg2pdfconverter
+###RUN DEBIAN_FRONTEND=noninteractive apt-get install -y python3-sphinx
+###RUN DEBIAN_FRONTEND=noninteractive apt-get install -y texlive-xetex
+###RUN DEBIAN_FRONTEND=noninteractive apt-get install -y latexmk
+###RUN DEBIAN_FRONTEND=noninteractive apt-get install -y texlive-lang-czechslovak
+###RUN DEBIAN_FRONTEND=noninteractive apt-get install -y fonts-dejavu
+###RUN DEBIAN_FRONTEND=noninteractive apt-get install -y texlive-full
+###RUN DEBIAN_FRONTEND=noninteractive apt-get install -y texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk texlive-xetex
+###RUN DEBIAN_FRONTEND=noninteractive apt-get install -y pandoc build-essential
+
+RUN mkdir -p /app
+WORKDIR /app
+COPY . /app/
+RUN rm -rf docs/build/
+RUN pwd; ls -al
+RUN sphinx-build -M latexpdf docs/source/ docs/build/ || date

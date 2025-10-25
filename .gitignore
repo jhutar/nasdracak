@@ -3,3 +3,10 @@
 venv/
 docs/build/
 docs/source/__pycache__/
+
+# Gamebook
+gamebook/opustena_magova_vez-raw.pdf
+gamebook/opustena_magova_vez.dot
+gamebook/opustena_magova_vez.dot.png
+gamebook/opustena_magova_vez.pdf
+gamebook/opustena_magova_vez2.md
