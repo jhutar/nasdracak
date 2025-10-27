@@ -126,7 +126,6 @@ class Character:
         name,
         strength,
         dexterity,
-        resistance,
         intelligence,
         charisma,
         health,
@@ -135,7 +134,6 @@ class Character:
         self.name = name
         self.strength = strength
         self.dexterity = dexterity
-        self.resistance = resistance
         self.intelligence = intelligence
         self.charisma = charisma
         self.health = health
@@ -237,7 +235,6 @@ if __name__ == "__main__":
         name="Válečník A",
         strength=3,
         dexterity=1,
-        resistance=1,
         intelligence=0,
         charisma=-1,
         health=4,
@@ -250,7 +247,6 @@ if __name__ == "__main__":
         name="Kouzelník B",
         strength=-1,
         dexterity=1,
-        resistance=0,
         intelligence=+3,
         charisma=1,
         health=3,
@@ -266,7 +262,6 @@ if __name__ == "__main__":
             name=f"Krysa {i}",
             strength=-1,
             dexterity=1,
-            resistance=1,
             intelligence=-3,
             charisma=-3,
             health=1,
@@ -279,7 +274,6 @@ if __name__ == "__main__":
             name=f"Vlk {i}",
             strength=1,
             dexterity=2,
-            resistance=1,
             intelligence=-3,
             charisma=-3,
             health=4,
