@@ -1,6 +1,9 @@
 
 import random
 
+def roll_1k6():
+    return random.randint(1, 6)
+
 class Equipment:
     """Base class for items, weapons, and skills."""
     def __init__(self, name):
@@ -15,6 +18,9 @@ class Equipment:
         else:
             return 0
 
+    def reset(self, character):
+        pass
+
 
 class Armor(Equipment):
     """A piece of equipment that can be used to protect character from attack."""
@@ -22,8 +28,8 @@ class Armor(Equipment):
         super().__init__(name)
         self.defense = defense
 
-    def hook_defence_roll(self, *args):
-        return self.defense
+    def roll_defense(self, character, combat_round):
+        return roll_1k6() + character.dexterity + self.defense
 
 class Weapon(Equipment):
     """A piece of equipment that can be used for attack and defense."""
@@ -33,19 +39,83 @@ class Weapon(Equipment):
         self.defense = defense
         self._round = None
 
-    def hook_attack_roll(self, _):
-        return self.attack
+    def roll_attack(self, character):
+        return roll_1k6() + character.strength + self.attack
 
-    def hook_defence_roll(self, _, combat_round):
+    def roll_defense(self, character, combat_round):
         """Weapon defence can be only used once per combat round."""
         if combat_round == self._round:
-            return 0
+            return roll_1k6() + character.dexterity
         else:
             self._round = combat_round
-            return self.defense
+            return roll_1k6() + character.dexterity + self.defense
 
-    def hook_reset(self, _):
+    def reset(self, _):
         self._round = None
+
+class Spell(Equipment):
+    """A spell that can be used for attack."""
+    def __init__(self, name, mana, attack, defense_property=None, defense_armor=None):
+        super().__init__(name)
+        self.mana = mana
+        self.attack = attack
+        self.defense_property = defense_property
+        self.defense_armor = defense_armor
+
+    def is_usable(self, character):
+        return character.mana >= self.mana
+
+    def roll_attack(self, character):
+        if self.mana > character.mana:
+            raise Exception("Not enough mana: {self.mana} vs. {character.mana}")
+
+        character.mana -= self.mana
+        return roll_1k6() + character.intelligence + self.attack
+
+class EquipmentList(list):
+    def first_weapon(self):
+        for i in self:
+            if isinstance(i, Weapon):
+                return i
+
+    def first_armor(self):
+        for i in self:
+            if isinstance(i, Armor):
+                return i
+
+    def first_spell(self):
+        for i in self:
+            if isinstance(i, Spell):
+                return i
+
+class Attack:
+    def __init__(self, attacker, defender, round_number):
+        self.attacker = attacker
+        self.defender = defender
+        self.round_number = round_number
+
+    def fight(self):
+        weapon_choice = self.attacker.pick_attack()
+        armor_choice = self.defender.pick_defense()
+
+        attack_roll = weapon_choice.roll_attack(self.attacker)
+
+        if isinstance(weapon_choice, Spell):
+            defense_roll = roll_1k6()
+            if weapon_choice.defense_property is not None:
+                defense_roll += getattr(self.defender, weapon_choice.defense_property)
+            if weapon_choice.defense_armor:
+                defense_roll += armor_choice.defense
+        else:
+            defense_roll = armor_choice.roll_defense(self.defender, self.round_number)
+
+        damage = attack_roll - defense_roll
+        if damage > 0:
+            self.defender.health -= damage
+            print(f"V kole {self.round_number} '{self.attacker.name}' pomocí '{weapon_choice.name}'({attack_roll}) zranil '{self.defender.name}'({defense_roll}) za {damage} životů")
+        else:
+            print(f"V kole {self.round_number} '{self.attacker.name}' použil '{weapon_choice.name}'({attack_roll}) proti '{self.defender.name}'({defense_roll}) ale minul")
+
 
 class Character:
     """Base class for heroes and monsters."""
@@ -58,25 +128,27 @@ class Character:
         self.charisma = charisma
         self.health = health
         self.mana = mana
-        self.equipment = []
+        self.equipment = EquipmentList()
         self.initial_health = health
         self.initial_mana = mana
 
-    def roll_attack(self):
-        """Calculates the attack score."""
-        attack_bonus = 0
-        for equip in self.equipment:
-            attack_bonus += equip._hook_or_zero("hook_attack_roll", self)
+    def pick_attack(self):
+        """Pick how are we going to attack."""
+        if e := self.equipment.first_spell():
+            if e.is_usable(self):
+                return e
 
-        return random.randint(1, 6) + self.strength + attack_bonus
+        if e := self.equipment.first_weapon():
+            return e
 
-    def roll_defense(self, combat_round):
-        """Calculates the defense score."""
-        defence_bonus = 0
-        for equip in self.equipment:
-            defence_bonus += equip._hook_or_zero("hook_defence_roll", self, combat_round)
+        return Weapon("Bare hands", -3, -3)
 
-        return random.randint(1, 6) + self.dexterity + defence_bonus
+    def pick_defense(self):
+        """Pick how are we going to defend ourselves."""
+        if e := self.equipment.first_armor():
+            return e
+
+        return Armor("Bare skin", 0)
 
     def is_alive(self):
         """Check if the character is still alive."""
@@ -86,8 +158,8 @@ class Character:
         """Resets character's health to its initial value."""
         self.health = self.initial_health
         self.mana = self.initial_mana
-        for equip in self.equipment:
-            equip._hook_or_zero("hook_reset", self)
+        for e in self.equipment:
+            e.reset(self)
 
 
 def _combat_groups(round_number, attacking_group, defending_group):
@@ -101,13 +173,7 @@ def _combat_groups(round_number, attacking_group, defending_group):
 
         defender = random.choice(alive_defenders)
 
-        attack_roll = attacker.roll_attack()
-        defense_roll = defender.roll_defense(round_number)
-
-        damage = attack_roll - defense_roll
-        if damage > 0:
-            defender.health -= damage
-            print(f"V kole {round_number} '{attacker.name}' zranil '{defender.name}' za {damage} životů")
+        Attack(attacker, defender, round_number).fight()
 
 
 def simulate_combat(group1, group2):
@@ -142,23 +208,24 @@ def simulate_combat(group1, group2):
         _combat_groups(round_number, defending_group, attacking_group)
 
     if any(char.is_alive() for char in group1):
-        print("Zvítězili hrdinové")
+        print(f"V kole {round_number} zvítězili hrdinové")
         return 1, round_number
     else:
-        print("Zvítězili nepřátelé")
+        print(f"V kole {round_number} zvítězili nepřátelé")
         return 2, round_number
 
 # --- Simulation Setup ---
 if __name__ == "__main__":
     # Create characters and equipment
     group1 = []
-    warrior = Character(name="Válečník A", strength=3, dexterity=1, resistance=1, intelligence=0, charisma=-1, health=4, mana=3)
-    warrior.equipment.append(Weapon(name="Rezavý krátký meč", attack=2, defense=2))
-    warrior.equipment.append(Armor(name="Vycpávané brnění", defense=1))
-    group1.append(warrior)
-    ###mage = Character(name="Kouzelník B", strength=-1, dexterity=1, resistance=0, intelligence=+3, charisma=1, health=3, mana=6)
-    ###mage.equipment.append(Weapon(name="Dýka", attack=1, defense=1))
-    ###group1.append(mage)
+    ###warrior = Character(name="Válečník A", strength=3, dexterity=1, resistance=1, intelligence=0, charisma=-1, health=4, mana=3)
+    ###warrior.equipment.append(Weapon(name="Rezavý krátký meč", attack=2, defense=2))
+    ###warrior.equipment.append(Armor(name="Vycpávané brnění", defense=1))
+    ###group1.append(warrior)
+    mage = Character(name="Kouzelník B", strength=-1, dexterity=1, resistance=0, intelligence=+3, charisma=1, health=3, mana=6)
+    mage.equipment.append(Weapon(name="Dýka", attack=1, defense=1))
+    mage.equipment.append(Spell(name="Ledové kopí", mana=3, attack=2, defense_property="dexterity", defense_armor=True))
+    group1.append(mage)
 
     group2 = []
     ###for i in range(1, 1 + 1):
@@ -176,7 +243,7 @@ if __name__ == "__main__":
     rounds_counter = 0
     
     for i in range(num_simulations):
-        print(f"Začíná simulace {i}")
+        print(f"Začíná simulace #{i}")
         winner, round_number = simulate_combat(group1, group2)
         if winner == 1:
             heros_wins += 1
