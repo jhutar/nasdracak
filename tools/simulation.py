@@ -67,18 +67,20 @@ class Spell(Equipment):
 
 class EquipmentList(list):
     def first_weapon(self):
-        for i in self:
-            if isinstance(i, Weapon):
-                return i
+        if e := [i for i in self if isinstance(i, Weapon)]:
+            return random.choice(e)
+        else:
+            return Weapon("Basic", attack=0, defense=0)
 
     def all_armors(self):
         """Returns all pieces of armor but also weapon as some have non-0 defense bonus as well."""
         return [i for i in self if isinstance(i, Armor)] + [self.first_weapon()]
 
     def first_spell(self):
-        for i in self:
-            if isinstance(i, Spell):
-                return i
+        if e := [i for i in self if isinstance(i, Spell)]:
+            return random.choice(e)
+        else:
+            return []
 
 
 class Attack:
@@ -253,6 +255,7 @@ if __name__ == "__main__":
         mana=6,
     )
     mage.equipment.append(Weapon(name="Dýka", attack=1, defense=1))
+    mage.equipment.append(Weapon(name="Hůl", attack=1, defense=1))
     mage.equipment.append(Spell(name="Ledové kopí", mana=3, attack=2, defense_property="dexterity", defense_armor=True))
     group1.append(mage)
 
