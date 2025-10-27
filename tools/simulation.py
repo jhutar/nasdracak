@@ -6,13 +6,23 @@ class Equipment:
     def __init__(self, name):
         self.name = name
 
+    def _hook_exists(self, name):
+        return callable(getattr(self, name, None))
+
+    def _hook_or_zero(self, name, *args):
+        if self._hook_exists(name):
+            return getattr(self, name)(*args)
+        else:
+            return 0
+
+
 class Armor(Equipment):
     """A piece of equipment that can be used to protect character from attack."""
     def __init__(self, name, defense):
         super().__init__(name)
         self.defense = defense
 
-    def hook_defence_roll(self, combat_round):
+    def hook_defence_roll(self, *args):
         return self.defense
 
 class Weapon(Equipment):
@@ -23,10 +33,10 @@ class Weapon(Equipment):
         self.defense = defense
         self._round = None
 
-    def hook_attack_roll(self):
+    def hook_attack_roll(self, _):
         return self.attack
 
-    def hook_defence_roll(self, combat_round):
+    def hook_defence_roll(self, _, combat_round):
         """Weapon defence can be only used once per combat round."""
         if combat_round == self._round:
             return 0
@@ -34,7 +44,7 @@ class Weapon(Equipment):
             self._round = combat_round
             return self.defense
 
-    def hook_reset(self):
+    def hook_reset(self, _):
         self._round = None
 
 class Character:
@@ -56,8 +66,7 @@ class Character:
         """Calculates the attack score."""
         attack_bonus = 0
         for equip in self.equipment:
-            if callable(getattr(equip, "hook_attack_roll", None)):
-                attack_bonus += equip.hook_attack_roll()
+            attack_bonus += equip._hook_or_zero("hook_attack_roll", self)
 
         return random.randint(1, 6) + self.strength + attack_bonus
 
@@ -65,8 +74,7 @@ class Character:
         """Calculates the defense score."""
         defence_bonus = 0
         for equip in self.equipment:
-            if callable(getattr(equip, "hook_defence_roll", None)):
-                defence_bonus += equip.hook_defence_roll(combat_round)
+            defence_bonus += equip._hook_or_zero("hook_defence_roll", self, combat_round)
 
         return random.randint(1, 6) + self.dexterity + defence_bonus
 
@@ -79,8 +87,7 @@ class Character:
         self.health = self.initial_health
         self.mana = self.initial_mana
         for equip in self.equipment:
-            if callable(getattr(equip, "hook_reset", None)):
-                equip.hook_reset()
+            equip._hook_or_zero("hook_reset", self)
 
 
 def _combat_groups(round_number, attacking_group, defending_group):
