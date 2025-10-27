@@ -1,11 +1,13 @@
-
 import random
+
 
 def roll_1k6():
     return random.randint(1, 6)
 
+
 class Equipment:
     """Base class for items, weapons, and skills."""
+
     def __init__(self, name):
         self.name = name
 
@@ -24,6 +26,7 @@ class Equipment:
 
 class Armor(Equipment):
     """A piece of equipment that can be used to protect character from attack."""
+
     def __init__(self, name, defense):
         super().__init__(name)
         self.defense = defense
@@ -31,8 +34,10 @@ class Armor(Equipment):
     def roll_defense(self, character):
         return roll_1k6() + character.dexterity + self.defense
 
+
 class Weapon(Equipment):
     """A piece of equipment that can be used for attack and defense."""
+
     def __init__(self, name, attack, defense):
         super().__init__(name)
         self.attack = attack
@@ -44,8 +49,10 @@ class Weapon(Equipment):
     def roll_defense(self, character):
         return roll_1k6() + character.dexterity + self.defense
 
+
 class Spell(Equipment):
     """A spell that can be used for attack."""
+
     def __init__(self, name, mana, attack, defense_property=None, defense_armor=None):
         super().__init__(name)
         self.mana = mana
@@ -63,6 +70,7 @@ class Spell(Equipment):
         character.mana -= self.mana
         return roll_1k6() + character.intelligence + self.attack
 
+
 class EquipmentList(list):
     def first_weapon(self):
         for i in self:
@@ -77,6 +85,7 @@ class EquipmentList(list):
         for i in self:
             if isinstance(i, Spell):
                 return i
+
 
 class Attack:
     def __init__(self, attacker, defender, round_number):
@@ -106,14 +115,29 @@ class Attack:
         damage = attack_roll - defense_roll
         if damage > 0:
             self.defender.health -= damage
-            print(f"V kole {self.round_number} '{self.attacker.name}' pomocí '{weapon_choice.name}'({attack_roll}) zranil '{self.defender.name}'({defense_roll}) za {damage} životů")
+            print(
+                f"V kole {self.round_number} '{self.attacker.name}' pomocí '{weapon_choice.name}'({attack_roll}) zranil '{self.defender.name}'({defense_roll}) za {damage} životů"
+            )
         else:
-            print(f"V kole {self.round_number} '{self.attacker.name}' použil '{weapon_choice.name}'({attack_roll}) proti '{self.defender.name}'({defense_roll}) ale minul")
+            print(
+                f"V kole {self.round_number} '{self.attacker.name}' použil '{weapon_choice.name}'({attack_roll}) proti '{self.defender.name}'({defense_roll}) ale minul"
+            )
 
 
 class Character:
     """Base class for heroes and monsters."""
-    def __init__(self, name, strength, dexterity, resistance, intelligence, charisma, health, mana):
+
+    def __init__(
+        self,
+        name,
+        strength,
+        dexterity,
+        resistance,
+        intelligence,
+        charisma,
+        health,
+        mana,
+    ):
         self.name = name
         self.strength = strength
         self.dexterity = dexterity
@@ -185,14 +209,16 @@ def simulate_combat(group1, group2):
         initiative2 = random.randint(1, 6)
         if initiative1 != initiative2:
             break
-    
+
     if initiative1 > initiative2:
         attacking_group, defending_group = group1, group2
     else:
         attacking_group, defending_group = group2, group1
 
     round_number = 0
-    while any(char.is_alive() for char in group1) and any(char.is_alive() for char in group2):
+    while any(char.is_alive() for char in group1) and any(
+        char.is_alive() for char in group2
+    ):
         round_number += 1
 
         # First group attacks
@@ -208,26 +234,63 @@ def simulate_combat(group1, group2):
         print(f"V kole {round_number} zvítězili nepřátelé")
         return 2, round_number
 
+
 # --- Simulation Setup ---
 if __name__ == "__main__":
     # Create characters and equipment
     group1 = []
-    ###warrior = Character(name="Válečník A", strength=3, dexterity=1, resistance=1, intelligence=0, charisma=-1, health=4, mana=3)
-    ###warrior.equipment.append(Weapon(name="Rezavý krátký meč", attack=2, defense=2))
-    ###warrior.equipment.append(Armor(name="Vycpávané brnění", defense=1))
-    ###group1.append(warrior)
-    mage = Character(name="Kouzelník B", strength=-1, dexterity=1, resistance=0, intelligence=+3, charisma=1, health=3, mana=6)
+    warrior = Character(
+        name="Válečník A",
+        strength=3,
+        dexterity=1,
+        resistance=1,
+        intelligence=0,
+        charisma=-1,
+        health=4,
+        mana=3,
+    )
+    warrior.equipment.append(Weapon(name="Rezavý krátký meč", attack=2, defense=2))
+    warrior.equipment.append(Armor(name="Vycpávané brnění", defense=1))
+    group1.append(warrior)
+    mage = Character(
+        name="Kouzelník B",
+        strength=-1,
+        dexterity=1,
+        resistance=0,
+        intelligence=+3,
+        charisma=1,
+        health=3,
+        mana=6,
+    )
     mage.equipment.append(Weapon(name="Dýka", attack=1, defense=1))
     mage.equipment.append(Spell(name="Ledové kopí", mana=3, attack=2, defense_property="dexterity", defense_armor=True))
     group1.append(mage)
 
     group2 = []
-    ###for i in range(1, 1 + 1):
-    ###    rat = Character(name=f"Krysa {i}", strength=-1, dexterity=1, resistance=1, intelligence=-3, charisma=-3, health=1, mana=0)
-    ###    rat.equipment.append(Weapon(name="Zuby", attack=1, defense=0))
-    ###    group2.append(rat)
     for i in range(1, 1 + 1):
-        wolf = Character(name=f"Vlk {i}", strength=1, dexterity=2, resistance=1, intelligence=-3, charisma=-3, health=4, mana=0)
+        rat = Character(
+            name=f"Krysa {i}",
+            strength=-1,
+            dexterity=1,
+            resistance=1,
+            intelligence=-3,
+            charisma=-3,
+            health=1,
+            mana=0,
+        )
+        rat.equipment.append(Weapon(name="Zuby", attack=1, defense=0))
+        group2.append(rat)
+    for i in range(1, 1 + 1):
+        wolf = Character(
+            name=f"Vlk {i}",
+            strength=1,
+            dexterity=2,
+            resistance=1,
+            intelligence=-3,
+            charisma=-3,
+            health=4,
+            mana=0,
+        )
         wolf.equipment.append(Weapon(name="Tesáky", attack=2, defense=1))
         group2.append(wolf)
 
@@ -235,16 +298,20 @@ if __name__ == "__main__":
     num_simulations = 1000
     heros_wins = 0
     rounds_counter = 0
-    
+
     for i in range(num_simulations):
         print(f"Začíná simulace #{i}")
         winner, round_number = simulate_combat(group1, group2)
         if winner == 1:
             heros_wins += 1
         rounds_counter += round_number
-            
+
     print(f"--- Výsledky simulace ---")
     print(f"Celkem simulací: {num_simulations}")
-    print(f"Hrdinové vyhráli: {heros_wins} ({(heros_wins / num_simulations) * 100:.2f}%)")
-    print(f"Nepřátelé vyhráli: {num_simulations - heros_wins} ({((num_simulations - heros_wins) / num_simulations) * 100:.2f}%)")
+    print(
+        f"Hrdinové vyhráli: {heros_wins} ({(heros_wins / num_simulations) * 100:.2f}%)"
+    )
+    print(
+        f"Nepřátelé vyhráli: {num_simulations - heros_wins} ({((num_simulations - heros_wins) / num_simulations) * 100:.2f}%)"
+    )
     print(f"Průměrný počet kol: {rounds_counter / num_simulations:.2f}")
