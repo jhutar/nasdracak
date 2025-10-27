@@ -231,18 +231,18 @@ def simulate_combat(group1, group2):
 if __name__ == "__main__":
     # Create characters and equipment
     group1 = []
-    warrior = Character(
-        name="Válečník A",
-        strength=3,
-        dexterity=1,
-        intelligence=0,
-        charisma=-1,
-        health=4,
-        mana=3,
-    )
-    warrior.equipment.append(Weapon(name="Rezavý krátký meč", attack=2, defense=2))
-    warrior.equipment.append(Armor(name="Vycpávané brnění", defense=1))
-    group1.append(warrior)
+    ###warrior = Character(
+    ###    name="Válečník A",
+    ###    strength=3,
+    ###    dexterity=1,
+    ###    intelligence=0,
+    ###    charisma=-1,
+    ###    health=4,
+    ###    mana=3,
+    ###)
+    ###warrior.equipment.append(Weapon(name="Rezavý krátký meč", attack=2, defense=2))
+    ###warrior.equipment.append(Armor(name="Vycpávané brnění", defense=1))
+    ###group1.append(warrior)
     mage = Character(
         name="Kouzelník B",
         strength=-1,
@@ -257,18 +257,18 @@ if __name__ == "__main__":
     group1.append(mage)
 
     group2 = []
-    for i in range(1, 1 + 1):
-        rat = Character(
-            name=f"Krysa {i}",
-            strength=-1,
-            dexterity=1,
-            intelligence=-3,
-            charisma=-3,
-            health=1,
-            mana=0,
-        )
-        rat.equipment.append(Weapon(name="Zuby", attack=1, defense=0))
-        group2.append(rat)
+    ###for i in range(1, 1 + 1):
+    ###    rat = Character(
+    ###        name=f"Krysa {i}",
+    ###        strength=-1,
+    ###        dexterity=1,
+    ###        intelligence=-3,
+    ###        charisma=-3,
+    ###        health=1,
+    ###        mana=0,
+    ###    )
+    ###    rat.equipment.append(Weapon(name="Zuby", attack=1, defense=0))
+    ###    group2.append(rat)
     for i in range(1, 1 + 1):
         wolf = Character(
             name=f"Vlk {i}",
