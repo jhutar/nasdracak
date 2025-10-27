@@ -31,9 +31,6 @@ class Armor(Equipment):
         super().__init__(name)
         self.defense = defense
 
-    def roll_defense(self, character):
-        return roll_1k6() + character.dexterity + self.defense
-
 
 class Weapon(Equipment):
     """A piece of equipment that can be used for attack and defense."""
@@ -45,9 +42,6 @@ class Weapon(Equipment):
 
     def roll_attack(self, character):
         return roll_1k6() + character.strength + self.attack
-
-    def roll_defense(self, character):
-        return roll_1k6() + character.dexterity + self.defense
 
 
 class Spell(Equipment):
