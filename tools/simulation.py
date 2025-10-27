@@ -28,7 +28,7 @@ class Armor(Equipment):
         super().__init__(name)
         self.defense = defense
 
-    def roll_defense(self, character, combat_round):
+    def roll_defense(self, character):
         return roll_1k6() + character.dexterity + self.defense
 
 class Weapon(Equipment):
@@ -37,21 +37,12 @@ class Weapon(Equipment):
         super().__init__(name)
         self.attack = attack
         self.defense = defense
-        self._round = None
 
     def roll_attack(self, character):
         return roll_1k6() + character.strength + self.attack
 
-    def roll_defense(self, character, combat_round):
-        """Weapon defence can be only used once per combat round."""
-        if combat_round == self._round:
-            return roll_1k6() + character.dexterity
-        else:
-            self._round = combat_round
-            return roll_1k6() + character.dexterity + self.defense
-
-    def reset(self, _):
-        self._round = None
+    def roll_defense(self, character):
+        return roll_1k6() + character.dexterity + self.defense
 
 class Spell(Equipment):
     """A spell that can be used for attack."""
@@ -78,10 +69,9 @@ class EquipmentList(list):
             if isinstance(i, Weapon):
                 return i
 
-    def first_armor(self):
-        for i in self:
-            if isinstance(i, Armor):
-                return i
+    def all_armors(self):
+        """Returns all pieces of armor but also weapon as some have non-0 defense bonus as well."""
+        return [i for i in self if isinstance(i, Armor)] + [self.first_weapon()]
 
     def first_spell(self):
         for i in self:
@@ -96,18 +86,22 @@ class Attack:
 
     def fight(self):
         weapon_choice = self.attacker.pick_attack()
-        armor_choice = self.defender.pick_defense()
+        armor_choices = self.defender.pick_defense()
 
         attack_roll = weapon_choice.roll_attack(self.attacker)
 
+        armor_bonus = sum([i.defense for i in armor_choices])
+
         if isinstance(weapon_choice, Spell):
+            # Spells defines various way on how to protect from them
             defense_roll = roll_1k6()
             if weapon_choice.defense_property is not None:
                 defense_roll += getattr(self.defender, weapon_choice.defense_property)
             if weapon_choice.defense_armor:
-                defense_roll += armor_choice.defense
+                defense_roll += armor_bonus
         else:
-            defense_roll = armor_choice.roll_defense(self.defender, self.round_number)
+            # Defense from weapon is simply target's dexterity and armor
+            defense_roll = roll_1k6() + self.defender.dexterity + armor_bonus
 
         damage = attack_roll - defense_roll
         if damage > 0:
@@ -145,10 +139,10 @@ class Character:
 
     def pick_defense(self):
         """Pick how are we going to defend ourselves."""
-        if e := self.equipment.first_armor():
+        if e := self.equipment.all_armors():
             return e
 
-        return Armor("Bare skin", 0)
+        return [Armor("Bare skin", 0)]
 
     def is_alive(self):
         """Check if the character is still alive."""
