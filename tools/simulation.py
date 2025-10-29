@@ -33,12 +33,11 @@ class Armor(Equipment):
 
 
 class Weapon(Equipment):
-    """A piece of equipment that can be used for attack and defense."""
+    """A piece of equipment that can be used for attack."""
 
-    def __init__(self, name, attack, defense):
+    def __init__(self, name, attack):
         super().__init__(name)
         self.attack = attack
-        self.defense = defense
 
     def roll_attack(self, character):
         return roll_1k6() + character.strength + self.attack
@@ -74,7 +73,7 @@ class EquipmentList(list):
 
     def all_armors(self):
         """Returns all pieces of armor but also weapon as some have non-0 defense bonus as well."""
-        return [i for i in self if isinstance(i, Armor)] + [self.first_weapon()]
+        return [i for i in self if isinstance(i, Armor)]
 
     def first_spell(self):
         if e := [i for i in self if isinstance(i, Spell)]:
@@ -242,7 +241,7 @@ if __name__ == "__main__":
     ###    health=4,
     ###    mana=3,
     ###)
-    ###warrior.equipment.append(Weapon(name="Rezavý krátký meč", attack=2, defense=2))
+    ###warrior.equipment.append(Weapon(name="Rezavý krátký meč", attack=2))
     ###warrior.equipment.append(Armor(name="Vycpávané brnění", defense=1))
     ###group1.append(warrior)
     mage = Character(
@@ -254,36 +253,35 @@ if __name__ == "__main__":
         health=3,
         mana=6,
     )
-    mage.equipment.append(Weapon(name="Dýka", attack=1, defense=1))
-    mage.equipment.append(Weapon(name="Hůl", attack=1, defense=1))
+    mage.equipment.append(Weapon(name="Hůl", attack=1))
     mage.equipment.append(Spell(name="Ledové kopí", mana=3, attack=2, defense_property="dexterity", defense_armor=True))
     group1.append(mage)
 
     group2 = []
-    ###for i in range(1, 1 + 1):
-    ###    rat = Character(
-    ###        name=f"Krysa {i}",
-    ###        strength=-1,
-    ###        dexterity=1,
-    ###        intelligence=-3,
-    ###        charisma=-3,
-    ###        health=1,
-    ###        mana=0,
-    ###    )
-    ###    rat.equipment.append(Weapon(name="Zuby", attack=1, defense=0))
-    ###    group2.append(rat)
-    for i in range(1, 1 + 1):
-        wolf = Character(
-            name=f"Vlk {i}",
-            strength=1,
-            dexterity=2,
+    for i in range(1, 1 + 3):
+        rat = Character(
+            name=f"Krysa {i}",
+            strength=-1,
+            dexterity=1,
             intelligence=-3,
             charisma=-3,
-            health=4,
+            health=1,
             mana=0,
         )
-        wolf.equipment.append(Weapon(name="Tesáky", attack=2, defense=1))
-        group2.append(wolf)
+        rat.equipment.append(Weapon(name="Zuby", attack=1))
+        group2.append(rat)
+    ###for i in range(1, 1 + 1):
+    ###    wolf = Character(
+    ###        name=f"Vlk {i}",
+    ###        strength=1,
+    ###        dexterity=2,
+    ###        intelligence=-3,
+    ###        charisma=-3,
+    ###        health=4,
+    ###        mana=0,
+    ###    )
+    ###    wolf.equipment.append(Weapon(name="Tesáky", attack=2))
+    ###    group2.append(wolf)
 
     # Run simulations
     num_simulations = 1000
