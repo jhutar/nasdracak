@@ -37,6 +37,7 @@ def lint_directory(data_dir: str) -> bool:
     """Lints all JSON and YAML files in a directory. Returns True if successful, False otherwise."""
     logging.info(f"Starting linting in directory: {data_dir}")
     issues: typing.Dict[str, typing.List[str]] = {}
+    seen_names: typing.Set[str] = set()
     data_path = pathlib.Path(data_dir)
 
     if not data_path.is_dir():
@@ -69,6 +70,14 @@ def lint_directory(data_dir: str) -> bool:
                 else:
                     model.model_validate(data)
                     logging.info(f"  -> OK: Validated against '{schema_name}'.")
+
+                    name = data.get('name')
+                    if name in seen_names:
+                        issue = f"Duplicate name '{name}' found."
+                        logging.error(f"  -> ERROR: {issue}")
+                        file_issues.append(issue)
+                    else:
+                        seen_names.add(name)
 
         except FileNotFoundError:
             issue = "File not found during processing."
