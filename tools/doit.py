@@ -4,6 +4,7 @@ import logging
 import json
 import pathlib
 import typing
+import sys
 
 import yaml
 import pydantic
@@ -32,18 +33,21 @@ def setup_logging(args):
         level = logging.WARNING
     logging.basicConfig(level=level, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def lint_directory(data_dir: str):
-    """Lints all JSON and YAML files in a directory."""
+def lint_directory(data_dir: str) -> bool:
+    """Lints all JSON and YAML files in a directory. Returns True if successful, False otherwise."""
     logging.info(f"Starting linting in directory: {data_dir}")
+    issues: typing.Dict[str, typing.List[str]] = {}
     data_path = pathlib.Path(data_dir)
+
     if not data_path.is_dir():
         logging.error(f"Data directory not found: {data_dir}")
-        return
+        return False
 
     found_files = list(data_path.rglob("*.yaml")) + list(data_path.rglob("*.json"))
 
     for file_path in found_files:
         logging.info(f"Checking file: {file_path}")
+        file_issues: typing.List[str] = []
         try:
             with open(file_path, 'r') as f:
                 if file_path.suffix == '.json':
@@ -53,25 +57,50 @@ def lint_directory(data_dir: str):
 
             schema_name = data.get('$schema')
             if not schema_name:
-                logging.warning(f"  -> SKIPPED: No '$schema' field found.")
-                continue
-
-            model = SCHEMA_REGISTRY.get(schema_name)
-            if not model:
-                logging.warning(f"  -> SKIPPED: No model found for schema '{schema_name}'.")
-                continue
-
-            model.model_validate(data)
-            logging.info(f"  -> OK: Validated against '{schema_name}'.")
+                issue = "No '$schema' field found."
+                logging.warning(f"  -> SKIPPED: {issue}")
+                file_issues.append(issue)
+            else:
+                model = SCHEMA_REGISTRY.get(schema_name)
+                if not model:
+                    issue = f"No model found for schema '{schema_name}'."
+                    logging.warning(f"  -> SKIPPED: {issue}")
+                    file_issues.append(issue)
+                else:
+                    model.model_validate(data)
+                    logging.info(f"  -> OK: Validated against '{schema_name}'.")
 
         except FileNotFoundError:
-            logging.error(f"  -> ERROR: File not found during processing.")
+            issue = "File not found during processing."
+            logging.error(f"  -> ERROR: {issue}")
+            file_issues.append(issue)
         except (json.JSONDecodeError, yaml.YAMLError) as e:
-            logging.error(f"  -> ERROR: Could not parse file: {e}")
+            issue = f"Could not parse file: {e}"
+            logging.error(f"  -> ERROR: {issue}")
+            file_issues.append(issue)
         except pydantic.ValidationError as e:
-            logging.error(f"  -> ERROR: Validation failed: {e}")
+            issue = f"Validation failed: {e}"
+            logging.error(f"  -> ERROR: {issue}")
+            file_issues.append(issue)
         except Exception as e:
-            logging.error(f"  -> ERROR: An unexpected error occurred: {e}")
+            issue = f"An unexpected error occurred: {e}"
+            logging.error(f"  -> ERROR: {issue}")
+            file_issues.append(issue)
+        
+        if file_issues:
+            issues[str(file_path)] = file_issues
+
+    if issues:
+        print("\n--- Linting Issues Summary ---")
+        for file_path, file_issues in issues.items():
+            print(f"\nFile: {file_path}")
+            for issue in file_issues:
+                print(f"  - {issue}")
+        print("\n-----------------------------")
+        return False
+
+    logging.info("Linting finished with no issues.")
+    return True
 
 
 def main():
@@ -95,7 +124,8 @@ def main():
     logging.debug(f"Using data directory: {args.data}")
 
     if args.command == "lint":
-        lint_directory(args.data)
+        if not lint_directory(args.data):
+            sys.exit(1)
     elif args.command == "format":
         logging.info(f"Formatting file: {args.file}")
         # Future formatting functionality goes here
