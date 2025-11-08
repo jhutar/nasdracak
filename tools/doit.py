@@ -2,21 +2,21 @@
 import argparse
 import logging
 import json
-from pathlib import Path
-from typing import Dict, Type, Literal
+import pathlib
+import typing
 
 import yaml
-from pydantic import BaseModel, Field, ValidationError
+import pydantic
 
 # --- Pydantic Models ---
 
-class TestFile(BaseModel):
-    schema_name: Literal["TestFile"] = Field(alias="$schema")
+class TestFile(pydantic.BaseModel):
+    schema_name: typing.Literal["TestFile"] = pydantic.Field(alias="$schema")
     name: str
 
 # --- Schema Registry ---
 
-SCHEMA_REGISTRY: Dict[str, Type[BaseModel]] = {
+SCHEMA_REGISTRY: typing.Dict[str, typing.Type[pydantic.BaseModel]] = {
     "TestFile": TestFile,
 }
 
@@ -35,7 +35,7 @@ def setup_logging(args):
 def lint_directory(data_dir: str):
     """Lints all JSON and YAML files in a directory."""
     logging.info(f"Starting linting in directory: {data_dir}")
-    data_path = Path(data_dir)
+    data_path = pathlib.Path(data_dir)
     if not data_path.is_dir():
         logging.error(f"Data directory not found: {data_dir}")
         return
@@ -68,7 +68,7 @@ def lint_directory(data_dir: str):
             logging.error(f"  -> ERROR: File not found during processing.")
         except (json.JSONDecodeError, yaml.YAMLError) as e:
             logging.error(f"  -> ERROR: Could not parse file: {e}")
-        except ValidationError as e:
+        except pydantic.ValidationError as e:
             logging.error(f"  -> ERROR: Validation failed: {e}")
         except Exception as e:
             logging.error(f"  -> ERROR: An unexpected error occurred: {e}")
