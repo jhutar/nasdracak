@@ -4,7 +4,13 @@ Tento repozitář obsahuje různé komponenty pro naši RPG stolní (ne počíta
 
 V repozitáři jsou:
 
-* Pravidla - ve formátu reStructuredText, psaná jednoduše a srozumitelně, krátce a rovnou k věci, hráči v textu konzistentně tykáme (například píšeme "Vytvoř si postavu tak a tak" a ne "Vytvořte si postavu tak a tak" ani "Postavu si vytvoříme tak a tak"), text ladíme ve fantasy stylu, zachováváme konzistntní terminologii (například síla je vždy SÍL, magická energie je vždy magenergie, zdraví je vždy životy)
+* Pravidla v souboru `docs/source/pravidla/index.rst` jsou zásadní pro všechny ostatní texty
+  * ve formátu reStructuredText
+  * psaná jednoduše a srozumitelně, krátce a rovnou k věci
+  * hráči v textu konzistentně tykáme (například píšeme "Vytvoř si postavu tak a tak" a ne "Vytvořte si postavu tak a tak" ani "Postavu si vytvoříme tak a tak")
+  * text ladíme ve fantasy stylu
+  * zachováváme konzistntní terminologii (například síla je vždy SÍL, magická energie je vždy magenergie, zdraví je vždy životy)
+  * príklady formátovány pomocí `.. admonition:: Příklad:` s odsazením textu příklau
 * Předpřipravené příběhy
 * Bestiář
 * Příběh zpracovaný jako "gamebook"

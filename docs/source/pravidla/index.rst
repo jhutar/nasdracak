@@ -53,9 +53,13 @@ Nehráčské postavy mají vlastnosti také. Obyčejný člověk má průměrně
 
 Takže teď je čas doladit vlastnosti tvé postavy. Vezmi vrozené hodnoty, které jsi získal v předchozím kroku, a začni zvětšovat. Buď můžeš pro vyváženější postavu ke dvěma tebou vybraným vlastnostem přičíst dvojku a ke zbylým jedničku, nebo pro spíše extrémní postavu k jedné vlastnosti přidat trojku a ke dvěma jedničku.
 
-Příklad pro hobita jménem *Tvářička* vytvořeného jako vyvážená postava: hobiti začínají s vrozenými vlastnostmi SÍL -2, OBR 0, INT -1 a CHAR +1. Hráč se rozhodl, že chce hobita roztomilého a inteligentního, přidá dvojku k CHAR a INT a jedničku k SÍL a OBR. Ve výsledku tedy budou vlastnosti SÍL -1, OBR +1, INT +1 a CHAR +3.
+.. admonition:: Příklad:
 
-Příklad barbara jménem *Pěst plání* vytvořeného jako extrémní postava: začínáme s SÍL +1, OBR 0, INT -2 a CHAR -1. Hráč se rozhodl, že jeho postava bude prostě jen hora svalů, a tak přidá trojku k SÍL a jedničku k OBR a CHAR. Výsledná postava tedy má SÍL +4, OBR +1, INT -2 a CHAR 0.
+   Příklad pro hobita jménem *Tvářička* vytvořeného jako vyvážená postava: hobiti začínají s vrozenými vlastnostmi SÍL -2, OBR 0, INT -1 a CHAR +1. Hráč se rozhodl, že chce hobita roztomilého a inteligentního, přidá dvojku k CHAR a INT a jedničku k SÍL a OBR. Ve výsledku tedy budou vlastnosti SÍL -1, OBR +1, INT +1 a CHAR +3.
+
+.. admonition:: Příklad:
+
+   Příklad barbara jménem *Pěst plání* vytvořeného jako extrémní postava: začínáme s SÍL +1, OBR 0, INT -2 a CHAR -1. Hráč se rozhodl, že jeho postava bude prostě jen hora svalů, a tak přidá trojku k SÍL a jedničku k OBR a CHAR. Výsledná postava tedy má SÍL +4, OBR +1, INT -2 a CHAR 0.
 
 3. Ze seznamu si vyber 3 dovednosti, které tvá postava ovládá. Jsou to schopnosti, které se za svůj dosavadní život naučila.
 
@@ -73,11 +77,15 @@ Pokud životy tvé postavy klesnou na nulu nebo pod ni, tvá postava zemřela. P
 
 Životů máš **5**. K tomu si přičti součet SÍL + OBR, ale pouze pokud je kladný.
 
-Například hobit z příkladu výše bude mít 5 životů (protože SÍL -1 + OBR +1 = 0), ale barbar 10 (5 + (SÍL +4 + OBR +1)) .
+.. admonition:: Příklad:
+
+   Například hobit z příkladu výše bude mít 5 životů (protože SÍL -1 + OBR +1 = 0), ale barbar 10 (5 + (SÍL +4 + OBR +1)) .
 
 Množství magické energie (tzv. magů) je zase **5**. K tomu si přičti součet INT + CHAR, ale opět pouze pokud je kladný.
 
-Postava hobita výše tedy začíná s 9 magy (5 + (INT +1 + CHAR +3)) a barbar s 5 magy (protože INT -2 + CHAR 0 = -2).
+.. admonition:: Příklad:
+
+   Postava hobita výše tedy začíná s 9 magy (5 + (INT +1 + CHAR +3)) a barbar s 5 magy (protože INT -2 + CHAR 0 = -2).
 
 Postup na vyšší úroveň
 ----------------------
