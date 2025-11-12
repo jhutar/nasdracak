@@ -10,7 +10,7 @@ Zdrojové kódy textu jsou v adresáři `docs/source/`.
 
 Pro lokální sestavení textu do čitelné podoby je potřeba nainstalovat potřebné nástroje (Sphinx a LaTeX). Na Fedora Linuxu to je tímto příkazem:
 
-    # dnf install python3-sphinx python3-sphinx-latex python3-sphinxcontrib-inkscapeconverter latexmk texlive-babel-czech texlive-pict2e texlive-ellipse
+    # dnf install make python3-sphinx python3-sphinx-latex python3-sphinxcontrib-inkscapeconverter latexmk texlive-babel-czech texlive-pict2e texlive-ellipse
 
 Na Ubuntu pak zdá se stačí:
 
