@@ -1,10 +1,10 @@
 # Tento projekt
 
-Tento repozitář obsahuje různé komponenty pro naši RPG stolní (ne počítačovou) hru která těžce čerpá z her "Dungeons&Dragons" nebo "Dtačí doupě", ale jejich mechaniky zjednodušuje tak aby se snadno vysvětlovaly dětem (řekněme 6 let a výše) a aby bylo jednoduché s nimi hrát.
+Tento repozitář obsahuje různé komponenty pro naši RPG stolní (ne počítačovou) hru která těžce čerpá z her "Dungeons&Dragons" nebo "Dračí doupě", ale jejich mechaniky zjednodušuje tak aby se snadno vysvětlovaly dětem (řekněme 6 let a výše) a aby bylo jednoduché s nimi hrát.
 
 V repozitáři jsou:
 
-* Pravidla
+* Pravidla - ve formátu reStructuredText, psaná jednoduše a srozumitelně, krátce a rovnou k věci, hráči v textu konzistentně tykáme (například píšeme "Vytvoř si postavu tak a tak" a ne "Vytvořte si postavu tak a tak" ani "Postavu si vytvoříme tak a tak"), text ladíme ve fantasy stylu, zachováváme konzistntní terminologii (například síla je vždy SÍL, magická energie je vždy magenergie, zdraví je vždy životy)
 * Předpřipravené příběhy
 * Bestiář
 * Příběh zpracovaný jako "gamebook"
