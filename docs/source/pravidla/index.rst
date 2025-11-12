@@ -38,15 +38,15 @@ Barbaři    +1          0                -2                 -1
 Nejdřív rychlé vysvětlení. Jak jsi už zjistil, rozlišujeme 4 vlastnosti:
 
 * **Síla (SÍL)** - Určuje, jak je tvá postava fyzicky silná. Použiješ ji při boji zblízka, páčení dveří nebo když se snažíš pohnout s něčím těžkým.
-* **Obratnost (OBR)** - Představuje mrštnost a rychlost tvé postavy. Uplatní se při úhybných manévrech, plížení, střelbě z luku nebo třeba při vybírání kapes.
-* **Inteligence (INT)** - Zahrnuje bystrost, paměť a schopnost řešit problémy. Budeš ji potřebovat při luštění hádanek, používání magie nebo vzpomínání si na důležité informace.
-* **Charisma (CHAR)** - Odráží tvé společenské schopnosti, vzhled a sílu osobnosti. Pomůže ti při přesvědčování, zastrašování nebo vedení ostatních.
+* **Obratnost (OBR)** - Představuje mrštnost a rychlost tvé postavy. Uplatní se při obraně, střelbě z luku nebo třeba slézání skal.
+* **Inteligence (INT)** - Zahrnuje bystrost, paměť a schopnost řešit problémy. Budeš ji potřebovat třeba při používání magie.
+* **Charisma (CHAR)** - Odráží tvé společenské schopnosti, vzhled a sílu osobnosti, ale také tvou intuici. Pomůže ti při smlouvání ale i zastrašování.
 
 Nehráčské postavy mají vlastnosti také. Obyčejný člověk má průměrně 0 na každou vlastnost. Co čísla u jednotlivých vlastností znamenají?
 
 * **-1:** V dané vlastnosti podprůměrný. Třeba hostinský s OBR -1 bude mírný nešika a při servírování občas upustí talíř nebo polije hosta.
 * **+0:** Průměrný člověk.
-* **+1:** Lehce nadprůměrný. Kovář bude mít nejspíš SÍL +1.
+* **+1:** Lehce nadprůměrný. Kovář bude mít nejspíš alespoň SÍL +1.
 * **+2:** V dané vlastnosti silně nadprůměrný. Kapitán stráží by mohl mít CHAR +2, aby dokázal velet svým mužům.
 * **+3:** Výjimečný. Městský mudrc, který přečetl stovky knih, se může pyšnit INT +3.
 * **+4:** V dané vlastnosti jeden z nejlepších v zemi. V našem světě bys někoho se silou +4 hledal na Olympiádě.
