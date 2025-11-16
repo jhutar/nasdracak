@@ -19,10 +19,11 @@ class BaseModelWithId(pydantic.BaseModel):
 class TestFile(BaseModelWithId):
     name: str
 
+
 class Character(BaseModelWithId):
     name: str
-    appearance: str   # How does the character look like
-    background: str   # What is the background story of the character, its motivation
+    appearance: str  # How does the character look like
+    background: str  # What is the background story of the character, its motivation
     strength: int
     dexterity: int
     inteligence: int
@@ -45,17 +46,20 @@ class Character(BaseModelWithId):
                 raise ValueError(f"Item '{item_id}' does not look like valid ID.")
         return v
 
+
 class MeleeWeapon(BaseModelWithId):
     name: str
     description: str
     demage: int
     price: float
 
+
 class RangeWeapon(BaseModelWithId):
     name: str
     description: str
     demage: int
     price: float
+
 
 class CommonItem(BaseModelWithId):
     name: str

@@ -24,6 +24,7 @@ SCHEMA_REGISTRY: typing.Dict[str, typing.Type[pydantic.BaseModel]] = {
 
 # --- Logic ---
 
+
 def setup_logging(args):
     """Sets up logging based on command line arguments."""
     if args.debug:
@@ -32,13 +33,16 @@ def setup_logging(args):
         level = logging.INFO
     else:
         level = logging.WARNING
-    logging.basicConfig(level=level, format='%(asctime)s - %(levelname)s - %(message)s')
+    logging.basicConfig(level=level, format="%(asctime)s - %(levelname)s - %(message)s")
+
 
 def lint_directory(data_dir: str) -> bool:
     """Lints all JSON and YAML files in a directory. Returns True if successful, False otherwise."""
     logging.info(f"Starting linting in directory: {data_dir}")
     items: typing.List[models.BaseModelWithId] = []
-    issues: collections.defaultdict[str, typing.List[str]] = collections.defaultdict(list)
+    issues: collections.defaultdict[str, typing.List[str]] = collections.defaultdict(
+        list
+    )
     seen_ids: typing.Set[str] = set()
     data_path = pathlib.Path(data_dir)
 
@@ -53,8 +57,8 @@ def lint_directory(data_dir: str) -> bool:
 
         # Load data
         try:
-            with open(file_path, 'r') as f:
-                if file_path.suffix == '.json':
+            with open(file_path, "r") as f:
+                if file_path.suffix == ".json":
                     data = json.load(f)
                 else:
                     data = yaml.safe_load(f)
@@ -83,7 +87,7 @@ def lint_directory(data_dir: str) -> bool:
                 issues[str(file_path)].append(issue)
                 continue
 
-            item_id = data.get('id')
+            item_id = data.get("id")
             if not item_id:
                 issue = "No 'id' field found."
                 logging.warning(f"  -> ERROR: {issue}")
@@ -93,7 +97,9 @@ def lint_directory(data_dir: str) -> bool:
             schema_name = item_id.split(":")[0]
             model = SCHEMA_REGISTRY.get(schema_name)
             if not model:
-                issue = f"No model found for schema '{schema_name}' (from id '{item_id}')."
+                issue = (
+                    f"No model found for schema '{schema_name}' (from id '{item_id}')."
+                )
                 logging.warning(f"  -> ERROR: {issue}")
                 issues[str(file_path)].append(issue)
                 continue
@@ -148,9 +154,9 @@ def lint_directory(data_dir: str) -> bool:
 
 def main():
     parser = argparse.ArgumentParser(description="A multi-purpose tool.")
-    parser.add_argument('--debug', action='store_true', help='Enable debug logging.')
-    parser.add_argument('--verbose', action='store_true', help='Enable info logging.')
-    parser.add_argument('--data', default='tools/data/', help='Path to the data directory.')
+    parser.add_argument("--debug", action="store_true", help="Enable debug logging.")
+    parser.add_argument("--verbose", action="store_true", help="Enable info logging.")
+    parser.add_argument("--data", default="data/", help="Path to the data directory.")
 
     subparsers = parser.add_subparsers(dest="command", required=True)
 
@@ -172,6 +178,7 @@ def main():
     elif args.command == "format":
         logging.info(f"Formatting file: {args.file}")
         # Future formatting functionality goes here
+
 
 if __name__ == "__main__":
     main()
