@@ -15,6 +15,10 @@ import models
 
 SCHEMA_REGISTRY: typing.Dict[str, typing.Type[pydantic.BaseModel]] = {
     "TestFile": models.TestFile,
+    "MeleeWeapon": models.MeleeWeapon,
+    "RangeWeapon": models.RangeWeapon,
+    "Character": models.Character,
+    "CommonItem": models.CommonItem,
 }
 
 # --- Logic ---
@@ -103,7 +107,6 @@ def lint_directory(data_dir: str) -> bool:
                 print(f"  - {issue}")
         print("\n-----------------------------")
 
-    logging.info("Linting finished with no issues.")
     return issues
 
 
