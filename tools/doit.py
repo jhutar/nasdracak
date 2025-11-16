@@ -37,7 +37,7 @@ def lint_directory(data_dir: str) -> bool:
     """Lints all JSON and YAML files in a directory. Returns True if successful, False otherwise."""
     logging.info(f"Starting linting in directory: {data_dir}")
     issues: typing.Dict[str, typing.List[str]] = {}
-    seen_names: typing.Set[str] = set()
+    seen_ids: typing.Set[str] = set()
     data_path = pathlib.Path(data_dir)
 
     if not data_path.is_dir():
@@ -56,28 +56,40 @@ def lint_directory(data_dir: str) -> bool:
                 else:
                     data = yaml.safe_load(f)
 
-            schema_name = data.get('$schema')
-            if not schema_name:
-                issue = "No '$schema' field found."
-                logging.warning(f"  -> SKIPPED: {issue}")
-                file_issues.append(issue)
-            else:
-                model = SCHEMA_REGISTRY.get(schema_name)
-                if not model:
-                    issue = f"No model found for schema '{schema_name}'."
+                if data is None:
+                    issue = "File is empty or contains only comments."
+                    logging.warning(f"  -> SKIPPED: {issue}")
+                    file_issues.append(issue)
+                    issues[str(file_path)] = file_issues # Add to issues here
+                    continue
+
+                item_id = data.get('id')
+                if not item_id:
+                    issue = "No 'id' field found."
                     logging.warning(f"  -> SKIPPED: {issue}")
                     file_issues.append(issue)
                 else:
-                    model.model_validate(data)
-                    logging.info(f"  -> OK: Validated against '{schema_name}'.")
-
-                    name = data.get('name')
-                    if name in seen_names:
-                        issue = f"Duplicate name '{name}' found."
+                    if ":" not in item_id:
+                        issue = f"Invalid 'id' format '{item_id}'. Expected 'ModelName:id_value'."
                         logging.error(f"  -> ERROR: {issue}")
                         file_issues.append(issue)
                     else:
-                        seen_names.add(name)
+                        schema_name = item_id.split(":")[0]
+                        model = SCHEMA_REGISTRY.get(schema_name)
+                        if not model:
+                            issue = f"No model found for schema '{schema_name}' (from id '{item_id}')."
+                            logging.warning(f"  -> SKIPPED: {issue}")
+                            file_issues.append(issue)
+                        else:
+                            model.model_validate(data)
+                            logging.info(f"  -> OK: Validated against '{schema_name}'.")
+
+                            if item_id in seen_ids:
+                                issue = f"Duplicate ID '{item_id}' found."
+                                logging.error(f"  -> ERROR: {issue}")
+                                file_issues.append(issue)
+                            else:
+                                seen_ids.add(item_id)
 
         except FileNotFoundError:
             issue = "File not found during processing."
@@ -97,7 +109,9 @@ def lint_directory(data_dir: str) -> bool:
             file_issues.append(issue)
         
         if file_issues:
+            logging.debug(f"Adding file_issues for {file_path}: {file_issues}")
             issues[str(file_path)] = file_issues
+    logging.debug(f"Final issues dictionary: {issues}")
 
     if issues:
         print("\n--- Linting Issues Summary ---")

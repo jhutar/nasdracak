@@ -1,2 +1,2 @@
-$schema: TestFile
+id: TestFile:duplicate_id
 name: duplicate_name
