@@ -5,20 +5,16 @@ import json
 import pathlib
 import typing
 import sys
-
 import yaml
 import pydantic
 
-# --- Pydantic Models ---
+import models
 
-class TestFile(pydantic.BaseModel):
-    schema_name: typing.Literal["TestFile"] = pydantic.Field(alias="$schema")
-    name: str
 
 # --- Schema Registry ---
 
 SCHEMA_REGISTRY: typing.Dict[str, typing.Type[pydantic.BaseModel]] = {
-    "TestFile": TestFile,
+    "TestFile": models.TestFile,
 }
 
 # --- Logic ---
@@ -106,10 +102,9 @@ def lint_directory(data_dir: str) -> bool:
             for issue in file_issues:
                 print(f"  - {issue}")
         print("\n-----------------------------")
-        return False
 
     logging.info("Linting finished with no issues.")
-    return True
+    return issues
 
 
 def main():
@@ -133,7 +128,7 @@ def main():
     logging.debug(f"Using data directory: {args.data}")
 
     if args.command == "lint":
-        if not lint_directory(args.data):
+        if lint_directory(args.data):
             sys.exit(1)
     elif args.command == "format":
         logging.info(f"Formatting file: {args.file}")
