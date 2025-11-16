@@ -32,3 +32,10 @@ Hlavní branch repozitáře je "main".
 Pro popisy commitů používáme "Conventional commits" a commit message jsou v češtině bez diakritiky.
 
 Změny vygnerované pomocí Gemini musí být commitnuty s trailerem "Generated-by:Gemini" a commit message musí také obsahovat zesumarizovaný prompt poskytnutý operátorem.
+
+
+# Zdrojový kod skriptů
+
+Vývoj skriptů v adresáři `tools/` používá virtuální environment v `venv/`, takže se vše pouští v tomto venv.
+
+Testy se pouští pomocí `venv/bin/pytest tools/tests/`.
