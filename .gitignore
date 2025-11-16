@@ -4,6 +4,8 @@ venv/
 docs/build/
 docs/source/__pycache__/
 docs/source/_static/
+tools/__pycache__/
+tools/tests/__pycache__/
 
 # External tools
 pagebreak/
