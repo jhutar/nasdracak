@@ -1,0 +1,14 @@
+id: Character:svec
+name: Švec Prťavec
+appearance: Shrbený starší chlapík s krátkými vlasi a zvráštěnou tváří. Mračí se a hledí si svého.
+background: Na vyučení u mistra v Brně, ale myslí se že se proti němu všichni spikli a proto nedostal možnost založit si dílnu ve městě. Pracuje tedy tady, na malé vesničce.
+strength: -1
+dexterity: +1
+inteligence: 0
+charisma: 0
+level: 1
+health: 5
+health_max: 5
+magenergy: 5
+magenergy_max: 5
+inventory: []

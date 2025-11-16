@@ -60,17 +60,25 @@ def lint_directory(data_dir: str) -> bool:
                     data = yaml.safe_load(f)
         except FileNotFoundError:
             issue = "File not found during processing."
-            logging.error(f"  -> ERROR: {issue}")
+            logging.warning(f"  -> ERROR: {issue}")
             issues[str(file_path)].append(issue)
+            continue
         except (json.JSONDecodeError, yaml.YAMLError) as e:
             issue = f"Could not parse file: {e}"
-            logging.error(f"  -> ERROR: {issue}")
+            logging.warning(f"  -> ERROR: {issue}")
             issues[str(file_path)].append(issue)
+            continue
 
         # Basic sanity checks
         try:
             if data is None:
                 issue = "File is empty or contains only comments."
+                logging.warning(f"  -> ERROR: {issue}")
+                issues[str(file_path)].append(issue)
+                continue
+
+            if not isinstance(data, dict):
+                issue = "File does not contain dictionary."
                 logging.warning(f"  -> ERROR: {issue}")
                 issues[str(file_path)].append(issue)
                 continue
@@ -95,30 +103,32 @@ def lint_directory(data_dir: str) -> bool:
             # Check ID of all data files is unique
             if item_id in seen_ids:
                 issue = f"Duplicate ID '{item_id}' found."
-                logging.error(f"  -> ERROR: {issue}")
+                logging.warning(f"  -> ERROR: {issue}")
                 issues[str(file_path)].append(issue)
                 continue
             else:
                 seen_ids.add(item_id)
 
-            items.append(model(**data))
+            item = model(**data)
+            item._file_path = file_path
+            items.append(item)
 
         except pydantic.ValidationError as e:
             issue = f"Validation failed: {e}"
-            logging.error(f"  -> ERROR: {issue}")
+            logging.warning(f"  -> ERROR: {issue}")
             issues[str(file_path)].append(issue)
         except Exception as e:
             issue = f"An unexpected error occurred: {e}"
-            logging.error(f"  -> ERROR: {issue}")
+            logging.warning(f"  -> ERROR: {issue}")
             issues[str(file_path)].append(issue)
 
     for item in items:
         if hasattr(item, "inventory"):
             for i in item.inventory:
                 if i not in seen_ids:
-                    issue = f"Unknown inventory item '{i}' found"
-                    logging.error(f"  -> ERROR: {issue}")
-                    issues[str(file_path)].append(issue)
+                    issue = f"Unknown inventory item '{i}' found."
+                    logging.warning(f"  -> ERROR: {issue}")
+                    issues[str(item._file_path)].append(issue)
 
     logging.debug(f"Final issues dictionary: {dict(issues)}")
 
@@ -127,13 +137,13 @@ def lint_directory(data_dir: str) -> bool:
         for file_path, file_issues in issues.items():
             print(f"\nFile: {file_path}")
             for issue in file_issues:
-                print("  - ",)
+                print("  - ", end="")
                 print("\n    ".join(issue.split("\n")))
         print("------------------------------")
 
     print(f"Found {sum([len(v) for v in issues.values()])} issues")
 
-    return issues
+    return dict(issues)
 
 
 def main():
