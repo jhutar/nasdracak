@@ -11,3 +11,4 @@ health: 5
 health_max: 5
 magenergy: 5
 magenergy_max: 5
+inventory: []
