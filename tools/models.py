@@ -36,11 +36,11 @@ class Character(BaseModelWithId):
     @classmethod
     def check_inventory_item_ids(cls, v: list[str]) -> list[str]:
         for item_id in v:
-            if ":" not in item_id:
-                raise ValueError(f"Invalid inventory item ID format '{item_id}'. Expected 'ModelName:id_value'.")
-            model_name = item_id.split(":")[0]
-            if model_name not in ["MeleeWeapon", "RangeWeapon", "CommonItem"]: # Add other item types here as they are created
-                raise ValueError(f"Unknown item type '{model_name}' in inventory ID '{item_id}'.")
+            for model_name in ["MeleeWeapon", "RangeWeapon", "CommonItem"]:
+                if item_id.startswith(model_name + ":"):
+                    return v
+            else:
+                raise ValueError(f"Item '{item_id}' does not look like valid ID.")
         return v
 
 class MeleeWeapon(BaseModelWithId):
