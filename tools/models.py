@@ -33,6 +33,8 @@ class Character(BaseModelWithId):
     magenergy: int
     magenergy_max: int
     inventory: list[str] = []
+    occupation: str
+    location: str
 
     @pydantic.field_validator("inventory")
     @classmethod
@@ -44,6 +46,30 @@ class Character(BaseModelWithId):
             else:
                 raise ValueError(f"Item '{item_id}' does not look like valid ID.")
         return v
+
+    @pydantic.field_validator("occupation")
+    @classmethod
+    def check_occupation(cls, v: str) -> str:
+        if v.startswith("Occupation:"):
+            return v
+        else:
+            raise ValueError(f"Invalid occupation '{v}'.")
+
+    @pydantic.field_validator("location")
+    @classmethod
+    def check_location(cls, v: str) -> str:
+        if v.startswith("Location:"):
+            return v
+        else:
+            raise ValueError(f"Invalid location '{v}'.")
+
+
+class Occupation(BaseModelWithId):
+    name: str
+
+
+class Location(BaseModelWithId):
+    name: str
 
 
 class MeleeWeapon(BaseModelWithId):
