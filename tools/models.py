@@ -15,10 +15,6 @@ class BaseModelWithId(pydantic.BaseModel):
         return v
 
 
-class TestFile(BaseModelWithId):
-    name: str
-
-
 class Character(BaseModelWithId):
     name: str
     appearance: str  # How does the character look like
@@ -89,3 +85,4 @@ class RangeWeapon(BaseModelWithId):
 class CommonItem(BaseModelWithId):
     name: str
     description: str
+    price: float

@@ -15,7 +15,6 @@ import models
 # --- Schema Registry ---
 
 SCHEMA_REGISTRY: typing.Dict[str, typing.Type[pydantic.BaseModel]] = {
-    "TestFile": models.TestFile,
     "MeleeWeapon": models.MeleeWeapon,
     "RangeWeapon": models.RangeWeapon,
     "Character": models.Character,
