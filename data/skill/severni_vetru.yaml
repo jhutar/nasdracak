@@ -1,0 +1,5 @@
+id: Skill:severni-vetru
+name: Sevření větru
+description: Dokážeš ovládat proudy vzduchu a vytvořit tak vzdušné sevření, které může spoutat nebo odhodit nepřítele.
+bonus: Bonus:magie-vzduchu
+requires: []

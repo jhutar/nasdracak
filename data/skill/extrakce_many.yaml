@@ -1,0 +1,5 @@
+id: Skill:extrakce-many
+name: Extrakce many
+description: Dokážeš získávat magickou energii z různých přírodních zdrojů a ukládat ji do speciálních nádob nebo krystalů.
+bonus: Bonus:alchymie
+requires: []

@@ -1,0 +1,6 @@
+id: Skill:superiorni-smysl-zvirete
+name: Superiórní smysl zvířete
+description: Dokážeš na krátkou dobu získat některý z vyvinutějších smyslů zvířete, například čich psa nebo zrak orla.
+bonus: Bonus:zvirata
+requires:
+  - Skill:ovladani-zvirete

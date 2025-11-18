@@ -1,0 +1,5 @@
+id: Skill:zmrazeni-vody
+name: Zmrazení vody
+description: Dokážeš zmrazit menší množství vody, například vytvořit ledovou cestu nebo znehybnit protivníka v mělké vodě.
+bonus: Bonus:magie-vody
+requires: []

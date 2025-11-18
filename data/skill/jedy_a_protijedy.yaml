@@ -1,0 +1,6 @@
+id: Skill:jedy-a-protijedy
+name: Jedy a protijedy
+description: Rozumíš různým druhům jedů, jejich účinkům a dokážeš připravovat protijedy.
+bonus: Bonus:leceni
+requires:
+  - Skill:leceni

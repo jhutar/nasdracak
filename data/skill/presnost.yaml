@@ -1,0 +1,5 @@
+id: Skill:presnost
+name: Přesnost
+description: Tvé míření je preciznější, dokážeš lépe zasáhnout vzdálené nebo se pohybující cíle.
+bonus: Bonus:strelba
+requires: []

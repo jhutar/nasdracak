@@ -1,0 +1,5 @@
+id: Skill:znehybneni-koreny
+name: Znehybnění kořeny
+description: Z půdy vyrostou silné kořeny, které dokáží spoutat a znehybnit cíl.
+bonus: Bonus:magie-zeme
+requires: []

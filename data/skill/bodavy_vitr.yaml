@@ -1,0 +1,5 @@
+id: Skill:bodavy-vitr
+name: Bodavý vítr
+description: Vyšleš ostrý poryv větru, který dokáže nepřítele omráčit nebo mu ztížit pohyb.
+bonus: Bonus:magie-vzduchu
+requires: []

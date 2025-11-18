@@ -1,0 +1,5 @@
+id: Skill:obranne-finty
+name: Obranné finty
+description: Ovládáš techniky, které ti umožní lépe se bránit útokům a odrážet nepřátelské údery.
+bonus: Bonus:boj
+requires: []

@@ -1,0 +1,5 @@
+id: Skill:prenos-many
+name: Přenos many
+description: Jsi schopen přesouvat magickou energii mezi sebou a ostatními, ať už ji dáváš nebo přijímáš.
+bonus: Bonus:magie-zivota
+requires: []

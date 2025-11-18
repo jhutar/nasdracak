@@ -1,0 +1,5 @@
+id: Skill:bylinkarstvi
+name: Bylinkářství
+description: Máš rozsáhlé znalosti o bylinkách a jejich léčivých účincích. Dokážeš je sbírat a připravovat z nich léčivé směsi.
+bonus: Bonus:leceni
+requires: []

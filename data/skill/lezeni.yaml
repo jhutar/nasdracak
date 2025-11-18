@@ -1,0 +1,5 @@
+id: Skill:lezeni
+name: Léčení (magie)
+description: Pomocí magie dokážeš léčit rány a nemoci rychleji než běžnými prostředky.
+bonus: Bonus:magie-zivota
+requires: []

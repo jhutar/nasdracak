@@ -1,0 +1,5 @@
+id: Skill:leceni
+name: Léčení
+description: Dokážeš ošetřovat vážná zranění, zastavovat krvácení a stabilizovat zraněné, aby se rychleji zotavili.
+bonus: Bonus:leceni
+requires: []

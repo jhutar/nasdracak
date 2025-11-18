@@ -1,0 +1,5 @@
+id: Skill:zvyseni-vlastnosti
+name: Zvýšení vlastnosti
+description: Dokážeš dočasně zvýšit jednu z fyzických nebo mentálních vlastností sebe nebo spojence.
+bonus: Bonus:magie-zivota
+requires: []

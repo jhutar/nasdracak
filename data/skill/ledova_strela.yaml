@@ -1,0 +1,5 @@
+id: Skill:ledova-strela
+name: Ledová střela
+description: Vyčaruješ ostrý kus ledu a vrhneš ho na nepřítele jako šíp.
+bonus: Bonus:magie-vody
+requires: []

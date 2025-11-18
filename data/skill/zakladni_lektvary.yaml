@@ -1,0 +1,5 @@
+id: Skill:zakladni-lektvary
+name: Základní lektvary
+description: Dokážeš míchat jednoduché, chemicky založené lektvary pro léčení nebo zlepšení fyzických vlastností.
+bonus: Bonus:alchymie
+requires: []

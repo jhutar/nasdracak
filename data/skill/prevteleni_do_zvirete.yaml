@@ -1,0 +1,6 @@
+id: Skill:prevteleni-do-zvirete
+name: Převtělení do zvířete
+description: Dokážeš se dočasně převtělit do těla zvířete a využívat jeho schopností.
+bonus: Bonus:zvirata
+requires:
+  - Skill:superiorni-smysl-zvirete

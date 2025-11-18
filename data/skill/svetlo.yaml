@@ -1,0 +1,5 @@
+id: Skill:svetlo
+name: Světlo
+description: Vyčaruješ malé, ale intenzivní světlo, které osvětlí okolí jako pochodeň.
+bonus: Bonus:magie-ohne
+requires: []

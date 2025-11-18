@@ -1,0 +1,5 @@
+id: Skill:spanek
+name: Spánek
+description: Uspávací kouzlo, které dokáže uspat slabší nepřátele nebo utišit rozrušené bytosti.
+bonus: Bonus:magie-ducha
+requires: []

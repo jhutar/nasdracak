@@ -1,0 +1,5 @@
+id: Skill:oziveni-mrtveho
+name: Oživení mrtvého
+description: Jsi schopen oživit nedávno zemřelého tvora jako nemrtvou bytost, která ti bude sloužit.
+bonus: Bonus:magie-smrti
+requires: []

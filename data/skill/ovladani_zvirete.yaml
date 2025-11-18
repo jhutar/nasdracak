@@ -1,0 +1,6 @@
+id: Skill:ovladani-zvirete
+name: Ovládání zvířete
+description: Dokážeš ovládat zvířata a dávat jim složité povely.
+bonus: Bonus:zvirata
+requires:
+  - Skill:mluveni-se-zviraty

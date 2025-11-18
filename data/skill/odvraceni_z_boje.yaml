@@ -1,0 +1,5 @@
+id: Skill:odvraceni-z-boje
+name: Odvrácení z boje
+description: Dokážeš zvíře vyplašit nebo uklidnit tak, že se odvrátí z boje.
+bonus: Bonus:zvirata
+requires: []
