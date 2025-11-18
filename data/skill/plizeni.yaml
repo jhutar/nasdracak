@@ -1,0 +1,5 @@
+id: Skill:plizeni
+name: Plížení
+description: Dokážeš se tiše plížit lesem, neslyšně našlapovat v jeskyních nebo v městských uličkách neviděn přebíhat ze stínu do stínu.
+rule: +1 při hodu na situace z popisu
+requires: []
