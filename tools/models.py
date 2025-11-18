@@ -86,3 +86,18 @@ class CommonItem(BaseModelWithId):
     name: str
     description: str
     price: float
+
+
+class Skill(BaseModelWithId):
+    name: str
+    description: str
+    rule: str
+    requires: list[str] = []
+
+    @pydantic.field_validator("requires")
+    @classmethod
+    def check_requires_ids(cls, v: list[str]) -> list[str]:
+        for skill_id in v:
+            if not skill_id.startswith(model_name + "Skill:"):
+                raise ValueError(f"Skill '{skill_id}' does not look like valid ID.")
+        return v

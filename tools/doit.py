@@ -21,6 +21,7 @@ SCHEMA_REGISTRY: typing.Dict[str, typing.Type[pydantic.BaseModel]] = {
     "CommonItem": models.CommonItem,
     "Occupation": models.Occupation,
     "Location": models.Location,
+    "Skill": models.Skill,
 }
 
 # --- Logic ---
