@@ -1,0 +1,5 @@
+id: Skill:znalost-zvirat
+name: Znalost zvířat
+description: Znáš téměř všechny nemagické tvory a dokážeš odhadnout jejich vlastnosti a někdy i silná a slabá místa.
+bonus: Bonus:zvirata
+requires: []

@@ -1,0 +1,5 @@
+id: Skill:boj
+name: Bojová zdatnost
+description: Strávil jsi už nějaký ten čas se zbraněmi pro boj tváří v tvář a proto jsi získal jistý cvik který z tebe činí nebezpečného protivníka.
+bonus: Bonus:boj
+requires: []

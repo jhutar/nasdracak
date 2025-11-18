@@ -1,0 +1,6 @@
+id: Skill:maskovani
+name: Maskování
+description: Když máš trochu času na přípravu, dokážeš se zamaskovat a zvýšit své šance na kradmý pohyb. Ať už se maskuješ v lese ve vlnící se trávě nebo ve městě za bohatého kupce.
+bonus: Bonus:pohyb
+requires:
+  - Skill:plizeni

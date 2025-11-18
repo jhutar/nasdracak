@@ -1,5 +1,5 @@
 id: Skill:akrobacie
 name: Akrobacie
 description: Dokážeš držet rovnováhu, bezpečněji skákat a lézt tam kde ostatní ztrácí nervy.
-rule: +1 při hodu na situace z popisu
+bonus: Bonus:pohyb
 requires: []

@@ -1,0 +1,5 @@
+id: Skill:mireni
+name: Základy míření
+description: Vystřelil jsi již mnoho šípů z luku či kamenů z praku a kladně se to projevilo na kvalitě tvého míření.
+bonus: Bonus:strelba
+requires: []

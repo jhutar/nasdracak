@@ -1,0 +1,5 @@
+id: Skill:ziskavani-surovin
+name: Získávání surovin
+description: Pokud narazíš na něco co by se dalo použít jako alchymistická surovina, máš vyšší šanci na její získání. Ať už jde vodu z čarovné studánky nebo oko obřího pavouka.
+bonus: Bonus:alchymie
+requires: []

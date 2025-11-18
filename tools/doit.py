@@ -21,6 +21,7 @@ SCHEMA_REGISTRY: typing.Dict[str, typing.Type[pydantic.BaseModel]] = {
     "CommonItem": models.CommonItem,
     "Occupation": models.Occupation,
     "Location": models.Location,
+    "Bonus": models.Bonus,
     "Skill": models.Skill,
 }
 
@@ -131,12 +132,28 @@ def lint_directory(data_dir: str) -> bool:
             issues[str(file_path)].append(issue)
 
     for item in items:
+        # Check inventory (e.g. in Character model)
         if hasattr(item, "inventory"):
             for i in item.inventory:
                 if i not in seen_ids:
                     issue = f"Unknown inventory item '{i}' found."
                     logging.warning(f"  -> ERROR: {issue}")
                     issues[str(item._file_path)].append(issue)
+
+        # Check requires refferences (e.g. in Skill model)
+        if hasattr(item, "requires"):
+            for i in item.requires:
+                if i not in seen_ids:
+                    issue = f"Unknown requires skill '{i}' found."
+                    logging.warning(f"  -> ERROR: {issue}")
+                    issues[str(item._file_path)].append(issue)
+
+        # Check bonus refference (e.g. in Skill model)
+        if hasattr(item, "bonus"):
+            if item.bonus not in seen_ids:
+                issue = f"Unknown bonus '{item.bonus}' found."
+                logging.warning(f"  -> ERROR: {issue}")
+                issues[str(item._file_path)].append(issue)
 
     logging.debug(f"Final issues dictionary: {dict(issues)}")
 
