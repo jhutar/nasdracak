@@ -41,6 +41,9 @@ def test_lint_directory():
         "ee-missing-in-inventory.yaml": [
             "Unknown inventory item 'CommonItem:magical-item-of-great-power' found.",
         ],
+        "ee-invalid-inventory-id.yaml": [
+            "Validation failed: 1 validation error for Character",
+        ],
     }
 
     # Remove full paths
@@ -51,6 +54,7 @@ def test_lint_directory():
             "ee-inalid-yaml.yaml",
             "ee-missing-property.yaml",
             "ee-extra-property.yaml",
+            "ee-invalid-inventory-id.yaml",
         ):
             assert len(v) == 1
             v = [v[0].split("\n")[0]]

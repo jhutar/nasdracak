@@ -36,10 +36,11 @@ class Character(BaseModelWithId):
     @classmethod
     def check_inventory_item_ids(cls, v: list[str]) -> list[str]:
         for item_id in v:
+            ok = False
             for model_name in ["MeleeWeapon", "RangeWeapon", "CommonItem"]:
                 if item_id.startswith(model_name + ":"):
-                    return v
-            else:
+                    ok = True
+            if not ok:
                 raise ValueError(f"Item '{item_id}' does not look like valid ID.")
         return v
 

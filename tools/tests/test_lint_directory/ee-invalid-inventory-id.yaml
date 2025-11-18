@@ -1,4 +1,4 @@
-id: Character:svec
+id: Character:svec-missing-in-inventory
 name: Švec Prťavec
 appearance: Shrbený starší chlapík s krátkými vlasi a zvráštěnou tváří. Mračí se a hledí si svého.
 background: Na vyučení u mistra v Brně, ale myslí se že se proti němu všichni spikli a proto nedostal možnost založit si dílnu ve městě. Pracuje tedy tady, na malé vesničce.
@@ -13,5 +13,6 @@ magenergy: 5
 magenergy_max: 5
 inventory:
   - CommonItem:lano
+  - magical-item-of-great-power
 occupation: Occupation:svec
 location: Location:vesnice
