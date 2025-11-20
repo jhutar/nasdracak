@@ -1,5 +1,7 @@
+import sys
 import pydantic
 import typing
+import inspect
 import yaml
 import json
 
@@ -123,16 +125,15 @@ class ModelError(Exception):
     pass
 
 
-SCHEMA_REGISTRY: typing.Dict[str, typing.Type[pydantic.BaseModel]] = {
-    "MeleeWeapon": MeleeWeapon,
-    "RangeWeapon": RangeWeapon,
-    "Character": Character,
-    "CommonItem": CommonItem,
-    "Occupation": Occupation,
-    "Location": Location,
-    "Bonus": Bonus,
-    "Skill": Skill,
-}
+SCHEMA_REGISTRY: typing.Dict[str, typing.Type[pydantic.BaseModel]] = dict(
+    inspect.getmembers(
+        sys.modules[__name__],
+        lambda member:
+            inspect.isclass(member)
+            and member.__module__ == __name__
+            and issubclass(member, pydantic.BaseModel),
+    )
+)
 
 
 def load_file(file_path: str) -> BaseModelWithId:
