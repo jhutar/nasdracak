@@ -12,22 +12,6 @@ import pydantic
 import models
 
 
-# --- Schema Registry ---
-
-SCHEMA_REGISTRY: typing.Dict[str, typing.Type[pydantic.BaseModel]] = {
-    "MeleeWeapon": models.MeleeWeapon,
-    "RangeWeapon": models.RangeWeapon,
-    "Character": models.Character,
-    "CommonItem": models.CommonItem,
-    "Occupation": models.Occupation,
-    "Location": models.Location,
-    "Bonus": models.Bonus,
-    "Skill": models.Skill,
-}
-
-# --- Logic ---
-
-
 def setup_logging(args):
     """Sets up logging based on command line arguments."""
     if args.debug:
@@ -39,7 +23,7 @@ def setup_logging(args):
     logging.basicConfig(level=level, format="%(asctime)s - %(levelname)s - %(message)s")
 
 
-def lint_directory(data_dir: str) -> bool:
+def lint_directory(data_dir: str) -> dict:
     """Lints all JSON and YAML files in a directory. Returns True if successful, False otherwise."""
     logging.info(f"Starting linting in directory: {data_dir}")
     items: typing.List[models.BaseModelWithId] = []
@@ -60,11 +44,19 @@ def lint_directory(data_dir: str) -> bool:
 
         # Load data
         try:
-            with open(file_path, "r") as f:
-                if file_path.suffix == ".json":
-                    data = json.load(f)
-                else:
-                    data = yaml.safe_load(f)
+            item = models.load_file(file_path)
+
+            # Check ID of all data files is unique
+            if item.id in seen_ids:
+                issue = f"Duplicate ID '{item.id}' found."
+                logging.warning(f"  -> ERROR: {issue}")
+                issues[str(file_path)].append(issue)
+                continue
+            else:
+                seen_ids.add(item.id)
+
+            items.append(item)
+
         except FileNotFoundError:
             issue = "File not found during processing."
             logging.warning(f"  -> ERROR: {issue}")
@@ -75,53 +67,9 @@ def lint_directory(data_dir: str) -> bool:
             logging.warning(f"  -> ERROR: {issue}")
             issues[str(file_path)].append(issue)
             continue
-
-        # Basic sanity checks
-        try:
-            if data is None:
-                issue = "File is empty or contains only comments."
-                logging.warning(f"  -> ERROR: {issue}")
-                issues[str(file_path)].append(issue)
-                continue
-
-            if not isinstance(data, dict):
-                issue = "File does not contain dictionary."
-                logging.warning(f"  -> ERROR: {issue}")
-                issues[str(file_path)].append(issue)
-                continue
-
-            item_id = data.get("id")
-            if not item_id:
-                issue = "No 'id' field found."
-                logging.warning(f"  -> ERROR: {issue}")
-                issues[str(file_path)].append(issue)
-                continue
-
-            schema_name = item_id.split(":")[0]
-            model = SCHEMA_REGISTRY.get(schema_name)
-            if not model:
-                issue = (
-                    f"No model found for schema '{schema_name}' (from id '{item_id}')."
-                )
-                logging.warning(f"  -> ERROR: {issue}")
-                issues[str(file_path)].append(issue)
-                continue
-
-            model.model_validate(data)
-
-            # Check ID of all data files is unique
-            if item_id in seen_ids:
-                issue = f"Duplicate ID '{item_id}' found."
-                logging.warning(f"  -> ERROR: {issue}")
-                issues[str(file_path)].append(issue)
-                continue
-            else:
-                seen_ids.add(item_id)
-
-            item = model(**data)
-            item._file_path = file_path
-            items.append(item)
-
+        except models.ModelError as e:
+            logging.warning(f"  -> ERROR: {e}")
+            issues[str(file_path)].append(str(e))
         except pydantic.ValidationError as e:
             issue = f"Validation failed: {e}"
             logging.warning(f"  -> ERROR: {issue}")

@@ -1,4 +1,7 @@
 import pydantic
+import typing
+import yaml
+import json
 
 
 class BaseModelWithId(pydantic.BaseModel):
@@ -114,3 +117,51 @@ class Skill(BaseModelWithId):
             if not skill_id.startswith("Skill:"):
                 raise ValueError(f"Skill '{skill_id}' does not look like valid ID.")
         return v
+
+
+class ModelError(Exception):
+    pass
+
+
+SCHEMA_REGISTRY: typing.Dict[str, typing.Type[pydantic.BaseModel]] = {
+    "MeleeWeapon": MeleeWeapon,
+    "RangeWeapon": RangeWeapon,
+    "Character": Character,
+    "CommonItem": CommonItem,
+    "Occupation": Occupation,
+    "Location": Location,
+    "Bonus": Bonus,
+    "Skill": Skill,
+}
+
+
+def load_file(file_path: str) -> BaseModelWithId:
+    with open(file_path, "r") as f:
+        if file_path.suffix == ".json":
+            data = json.load(f)
+        else:
+            data = yaml.safe_load(f)
+
+    if data is None:
+        raise ModelError("File is empty or contains only comments.")
+
+    if not isinstance(data, dict):
+        raise ModelError("File does not contain dictionary.")
+
+    item_id = data.get("id")
+    if not item_id:
+        raise ModelError("No 'id' field found.")
+
+    schema_name = item_id.split(":")[0]
+    model = SCHEMA_REGISTRY.get(schema_name)
+    if not model:
+        raise ModelError(
+            f"No model found for schema '{schema_name}' (from id '{item_id}')."
+        )
+
+    model.model_validate(data)
+
+    item = model(**data)
+    item._file_path = file_path
+
+    return item
