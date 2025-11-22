@@ -189,11 +189,15 @@ def load_file(file_path: str) -> BaseModelWithId:
     return item
 
 
+def list_dir_files(data_dir: pathlib.Path) -> list[pathlib.Path]:
+    return sorted(list(data_dir.rglob("*.yaml")) + list(data_dir.rglob("*.json")))
+
+
 class World:
     def __init__(self, data_dir: pathlib.Path = pathlib.Path("data")) -> None:
         self._all_models: dict[str, BaseModelWithId] = {}
 
-        for file_path in list(data_dir.glob("**/*.yaml")) + list(data_dir.glob("**/*.yaml")):
+        for file_path in list_dir_files(data_dir):
             try:
                 model_instance = load_file(file_path)
                 if model_instance.id in self._all_models:

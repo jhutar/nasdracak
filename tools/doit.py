@@ -36,10 +36,7 @@ def lint_directory(data_dir: str) -> dict:
     if not data_path.is_dir():
         raise Exception(f"Data directory not found: {data_dir}")
 
-    found_files = list(data_path.rglob("*.yaml")) + list(data_path.rglob("*.json"))
-    found_files.sort()
-
-    for file_path in found_files:
+    for file_path in models.list_dir_files(data_path):
         logging.info(f"Checking file: {file_path}")
 
         # Load data
