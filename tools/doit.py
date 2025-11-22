@@ -119,6 +119,10 @@ def lint_directory(data_dir: str) -> dict:
     return dict(issues)
 
 
+def generate_character(args):
+    pass
+
+
 def main():
     parser = argparse.ArgumentParser(description="A multi-purpose tool.")
     parser.add_argument("--debug", action="store_true", help="Enable debug logging.")
@@ -134,6 +138,12 @@ def main():
     format_parser = subparsers.add_parser("format", help="Format a file.")
     format_parser.add_argument("--file", required=True, help="The file to format.")
 
+    # Generate character command
+    character_parser = subparsers.add_parser("character", help="Generate a character.", description="If no choice is specified, it will be picked randomly.")
+    character_parser.add_argument("--race", help="Race and sex of the character.")
+    character_parser.add_argument("--location", help="Where does the character live.")
+    character_parser.add_argument("--occupation", help="What does the character do for living.")
+
     args = parser.parse_args()
     setup_logging(args)
 
@@ -144,7 +154,9 @@ def main():
             sys.exit(1)
     elif args.command == "format":
         logging.info(f"Formatting file: {args.file}")
-        # Future formatting functionality goes here
+    elif args.command == "character":
+        if generate_character(args):
+            sys.exit(1)
 
 
 if __name__ == "__main__":
