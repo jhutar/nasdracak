@@ -4,6 +4,13 @@ import typing
 import inspect
 import yaml
 import json
+import pathlib
+import random
+import glob
+import logging
+
+
+logger = logging.getLogger(__name__)
 
 
 class BaseModelWithId(pydantic.BaseModel):
@@ -180,3 +187,26 @@ def load_file(file_path: str) -> BaseModelWithId:
     item._file_path = file_path
 
     return item
+
+
+class World:
+    def __init__(self, data_dir: pathlib.Path = pathlib.Path("data")) -> None:
+        self._all_models: dict[str, BaseModelWithId] = {}
+
+        for file_path in list(data_dir.glob("**/*.yaml")) + list(data_dir.glob("**/*.yaml")):
+            try:
+                model_instance = load_file(file_path)
+                if model_instance.id in self._all_models:
+                    raise ModelError(f"Duplicate ID {model_instance.id} found")
+                self._all_models[model_instance.id] = model_instance
+            except Exception as e:
+                logger.warning(f"Loading '{file_path}' failed, skipping. Error: {e}")
+
+    def pick(self, model_type: typing.Type[BaseModelWithId]) -> BaseModelWithId:
+        candidates = [m for m in self._all_models.values() if isinstance(m, model_type)]
+        if not candidates:
+            raise ModelError(f"No models of type {model_type.__name__} found.")
+
+        weights = [c.probability for c in candidates]
+        return random.choices(candidates, weights=weights, k=1)[0]
+
