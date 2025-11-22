@@ -31,6 +31,7 @@ class BaseModelWithId(pydantic.BaseModel):
 
 
 class Character(BaseModelWithId):
+    race: str
     name: str
     appearance: str  # How does the character look like
     background: str  # What is the background story of the character, its motivation
@@ -58,6 +59,14 @@ class Character(BaseModelWithId):
             if not ok:
                 raise ValueError(f"Item '{item_id}' does not look like valid ID.")
         return v
+
+    @pydantic.field_validator("race")
+    @classmethod
+    def check_race(cls, v: str) -> str:
+        if v.startswith("Race:"):
+            return v
+        else:
+            raise ValueError(f"Invalid occupation '{v}'.")
 
     @pydantic.field_validator("occupation")
     @classmethod
@@ -136,7 +145,7 @@ class Skill(BaseModelWithId):
         return v
 
 
-class RaceAndSex(BaseModelWithId):
+class Race(BaseModelWithId):
     _generation_sequence = 10
     name: str
     description: str
@@ -205,6 +214,9 @@ class World:
                 self._all_models[model_instance.id] = model_instance
             except Exception as e:
                 logger.warning(f"Loading '{file_path}' failed, skipping. Error: {e}")
+
+    def get(self, model_type: typing.Type[BaseModelWithId], name: str) -> BaseModelWithId:
+        return self._all_models[f"{model_type.__name__}:{name}"]
 
     def pick(self, model_type: typing.Type[BaseModelWithId]) -> BaseModelWithId:
         candidates = [m for m in self._all_models.values() if isinstance(m, model_type)]

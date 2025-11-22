@@ -117,7 +117,12 @@ def lint_directory(data_dir: str) -> dict:
 
 
 def generate_character(args):
-    pass
+    world = models.World(pathlib.Path(args.data))
+    if args.race:
+        _race = world.get(models.Race, args.race)
+    else:
+        _race = world.pick(models.Race)
+    print(_race.id)
 
 
 def main():

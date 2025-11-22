@@ -19,6 +19,13 @@ def test_world_loads_dir():
     assert any(isinstance(m, models.Occupation) for m in world._all_models.values())
 
 
+def test_world_get_location():
+    world = models.World(DATA_DIR)
+    get_location = world.get(models.Location, "vesnice")
+    assert isinstance(get_location, models.Location)
+    assert get_location.id == "Location:vesnice"
+
+
 def test_world_pick_location():
     world = models.World(DATA_DIR)
     picked_location = world.pick(models.Location)
@@ -29,8 +36,8 @@ def test_world_pick_location():
 def test_world_pick_missing_model():
     world = models.World(DATA_DIR)
     world.pick(models.Location)
-    with pytest.raises(models.ModelError, match="No models of type RaceAndSex found."):
-        world.pick(models.RaceAndSex)
+    with pytest.raises(models.ModelError, match="No models of type Race found."):
+        world.pick(models.Race)
 
 
 def test_world_pick_from_empty_dir():
