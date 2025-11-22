@@ -9,6 +9,8 @@ import json
 class BaseModelWithId(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(extra="forbid")
 
+    _file_path: str | None = None   # From where it was loaded
+    _generation_sequence: int = 0   # When geerating character, how soon in the process this is guessed
     id: str
 
     @pydantic.field_validator("id")
@@ -67,11 +69,13 @@ class Character(BaseModelWithId):
 
 
 class Occupation(BaseModelWithId):
+    _generation_sequence = 30
     name: str
     description: str
 
 
 class Location(BaseModelWithId):
+    _generation_sequence = 20
     name: str
 
 
@@ -96,11 +100,13 @@ class CommonItem(BaseModelWithId):
 
 
 class Bonus(BaseModelWithId):
+    """Describes bonuses from various skills."""
     name: str
     description: str
 
 
 class Skill(BaseModelWithId):
+    _generation_sequence = 40
     name: str
     description: str
     bonus: str
@@ -123,6 +129,7 @@ class Skill(BaseModelWithId):
 
 
 class RaceAndSex(BaseModelWithId):
+    _generation_sequence = 10
     name: str
     description: str
 
