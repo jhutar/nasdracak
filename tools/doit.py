@@ -116,13 +116,20 @@ def lint_directory(data_dir: str) -> dict:
     return dict(issues)
 
 
-def generate_character(args):
+def generate_character(args: argparse.Namespace):
     world = models.World(pathlib.Path(args.data))
-    if args.race:
-        _race = world.get(models.Race, args.race)
-    else:
-        _race = world.pick(models.Race)
-    print(_race.id)
+
+    def pick_one(provided: str, model: models.BaseModelWithId) -> models.BaseModelWithId:
+        if provided:
+            out = world.get(model, provided)
+        else:
+            out = world.pick(model)
+        print(out.id)
+        return out
+
+    _race = pick_one(args.race, models.Race)
+    _location = pick_one(args.location, models.Location)
+    _occupation = pick_one(args.occupation, models.Occupation)
 
 
 def main():
