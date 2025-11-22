@@ -149,6 +149,16 @@ class Race(BaseModelWithId):
     _generation_sequence = 10
     name: str
     description: str
+    modifiers: dict[str, float] = {}
+
+    @pydantic.field_validator("modifiers")
+    @classmethod
+    def check_modifier_ids(cls, v: dict[str, float]) -> dict[str, float]:
+        for mod_id in v.keys():
+            mod_schema = mod_id.split(":")[0]
+            if mod_schema not in SCHEMA_REGISTRY:
+                raise ValueError(f"Modifier for '{mod_id}' does not look like valid ID.")
+        return v
 
 
 class ModelError(Exception):
@@ -226,3 +236,8 @@ class World:
         weights = [c.probability for c in candidates]
         return random.choices(candidates, weights=weights, k=1)[0]
 
+    def update_probabilities(self, updates: dict[str, float]) -> None:
+        for k, v in updates.items():
+            entity = self._all_models[k]
+            logging.debug(f"Changing probability for '{entity.id}' from {entity.probability} to {entity.probability * v}")
+            entity.probability = entity.probability * v

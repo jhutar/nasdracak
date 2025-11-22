@@ -46,3 +46,13 @@ def test_world_pick_from_empty_dir():
         world = models.World(data_dir)
         with pytest.raises(models.ModelError, match="No models of type Location found."):
             world.pick(models.Location)
+
+def test_world_update_probabilities():
+    world = models.World(DATA_DIR)
+    get_location = world.get(models.Location, "vesnice")
+    get_occupation = world.get(models.Occupation, "svec")
+    assert get_location.probability == 1
+    assert get_occupation.probability == 1
+    world.update_probabilities({"Location:vesnice": 0.5})
+    assert get_location.probability == 0.5
+    assert get_occupation.probability == 1

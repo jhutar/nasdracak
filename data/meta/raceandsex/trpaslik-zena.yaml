@@ -1,3 +1,5 @@
 id: Race:trpaslik-zena
 name: Trpaslík - žena
 description: Houževnatá trpasličí žena, obdařená velkou silou a odolností. Trpaslíci jsou robustně stavění, ale mívají menší mrštnost a nižší charisma.
+modifiers:
+  Occupation:kovar: 2

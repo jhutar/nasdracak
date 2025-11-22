@@ -1,3 +1,5 @@
 id: Race:trpaslik-muz
 name: Trpaslík - muž
 description: Houževnatý trpasličí muž, obdařený velkou silou a odolností. Trpaslíci jsou robustně stavění, ale mívají menší mrštnost a nižší charisma.
+modifiers:
+  Occupation:kovar: 2

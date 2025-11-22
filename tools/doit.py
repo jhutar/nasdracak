@@ -100,6 +100,8 @@ def lint_directory(data_dir: str) -> dict:
                 logging.warning(f"  -> ERROR: {issue}")
                 issues[str(item._file_path)].append(issue)
 
+        # TODO Lint modifiers
+
     logging.debug(f"Final issues dictionary: {dict(issues)}")
 
     if issues:
@@ -124,6 +126,8 @@ def generate_character(args: argparse.Namespace):
             out = world.get(model, provided)
         else:
             out = world.pick(model)
+        if hasattr(out, "modifiers"):
+            world.update_probabilities(out.modifiers)
         print(out.id)
         return out
 
