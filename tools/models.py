@@ -12,6 +12,7 @@ class BaseModelWithId(pydantic.BaseModel):
     _file_path: str | None = None   # From where it was loaded
     _generation_sequence: int = 0   # When geerating character, how soon in the process this is guessed
     id: str
+    probability: int = 1   # When generating character, this is weight for entity to pick
 
     @pydantic.field_validator("id")
     @classmethod
