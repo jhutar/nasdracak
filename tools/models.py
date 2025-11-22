@@ -68,6 +68,7 @@ class Character(BaseModelWithId):
 
 class Occupation(BaseModelWithId):
     name: str
+    description: str
 
 
 class Location(BaseModelWithId):
