@@ -100,7 +100,13 @@ def lint_directory(data_dir: str) -> dict:
                 logging.warning(f"  -> ERROR: {issue}")
                 issues[str(item._file_path)].append(issue)
 
-        # TODO Lint modifiers
+        # Check modifiers only point at existing items
+        if hasattr(item, "modifiers"):
+            for mod_id in item.modifiers.keys():
+                if mod_id not in seen_ids:
+                    issue = f"Unknown modifier '{mod_id}' found."
+                    logging.warning(f"  -> ERROR: {issue}")
+                    issues[str(item._file_path)].append(issue)
 
     logging.debug(f"Final issues dictionary: {dict(issues)}")
 

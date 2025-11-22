@@ -1,5 +1,6 @@
-id: Occupation:svec
+id: Occupation:svec-wrong-modifiers
 name: švec
 description: Švec je řemeslník, který vyrábí a opravuje obuv.
 modifiers:
   Location:vesnice: 3
+  Location:tahle-neexistuje: 0.1

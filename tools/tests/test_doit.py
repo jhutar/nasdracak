@@ -44,6 +44,9 @@ def test_lint_directory():
         "ee-invalid-inventory-id.yaml": [
             "Validation failed: 1 validation error for Character",
         ],
+        "ee-wrong-modifiers.yaml": [
+            "Unknown modifier 'Location:tahle-neexistuje' found.",
+        ],
     }
 
     # Remove full paths

@@ -20,6 +20,7 @@ class BaseModelWithId(pydantic.BaseModel):
     _generation_sequence: int = 0   # When geerating character, how soon in the process this is guessed
     id: str
     probability: int = 1   # When generating character, this is weight for entity to pick
+    modifiers: dict[str, float] = {}   # When generating character and this item s picked, it can change probability of other items that are about to be picked
 
     @pydantic.field_validator("id")
     @classmethod
@@ -27,6 +28,15 @@ class BaseModelWithId(pydantic.BaseModel):
         expected_prefix = f"{cls.__name__}:"
         if not v.startswith(expected_prefix):
             raise ValueError(f"ID must start with '{expected_prefix}'")
+        return v
+
+    @pydantic.field_validator("modifiers")
+    @classmethod
+    def check_modifier_ids(cls, v: dict[str, float]) -> dict[str, float]:
+        for mod_id in v.keys():
+            mod_schema = mod_id.split(":")[0]
+            if mod_schema not in SCHEMA_REGISTRY:
+                raise ValueError(f"Modifier for '{mod_id}' does not look like valid ID.")
         return v
 
 
@@ -149,16 +159,6 @@ class Race(BaseModelWithId):
     _generation_sequence = 10
     name: str
     description: str
-    modifiers: dict[str, float] = {}
-
-    @pydantic.field_validator("modifiers")
-    @classmethod
-    def check_modifier_ids(cls, v: dict[str, float]) -> dict[str, float]:
-        for mod_id in v.keys():
-            mod_schema = mod_id.split(":")[0]
-            if mod_schema not in SCHEMA_REGISTRY:
-                raise ValueError(f"Modifier for '{mod_id}' does not look like valid ID.")
-        return v
 
 
 class ModelError(Exception):
