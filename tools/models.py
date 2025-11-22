@@ -122,6 +122,11 @@ class Skill(BaseModelWithId):
         return v
 
 
+class RaceAndSex(BaseModelWithId):
+    name: str
+    description: str
+
+
 class ModelError(Exception):
     pass
 
