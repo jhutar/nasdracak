@@ -159,6 +159,7 @@ class Race(BaseModelWithId):
     _generation_sequence = 10
     name: str
     description: str
+    names: list[str] = []
 
 
 class ModelError(Exception):

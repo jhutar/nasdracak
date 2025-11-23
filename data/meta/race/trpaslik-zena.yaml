@@ -3,3 +3,14 @@ name: Trpaslík - žena
 description: Houževnatá trpasličí žena, obdařená velkou silou a odolností. Trpaslíci jsou robustně stavění, ale mívají menší mrštnost a nižší charisma.
 modifiers:
   Occupation:kovar: 2
+names:
+  - Kamena
+  - Horská
+  - Železná
+  - Skála
+  - Medvědice
+  - Duběnka
+  - Granita
+  - Ocelie
+  - Ruda
+  - Křemenka
