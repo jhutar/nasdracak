@@ -8,6 +8,7 @@ import typing
 import sys
 import yaml
 import pydantic
+import random
 
 import models
 
@@ -134,12 +135,26 @@ def generate_character(args: argparse.Namespace):
             out = world.pick(model)
         if hasattr(out, "modifiers"):
             world.update_probabilities(out.modifiers)
-        print(out.id)
+        print(f"{out.__class__.__name__}: {out.name}")
         return out
 
+    _level = args.level; print(f"Level: {_level}")
     _race = pick_one(args.race, models.Race)
+    if args.name:
+        _name = args.name
+    else:
+        _name = random.choice(_race.names); print(f"Name: {_name}")
+    _appearance = ""
+    _background = ""
     _location = pick_one(args.location, models.Location)
     _occupation = pick_one(args.occupation, models.Occupation)
+    _inventory = []
+    _strength = 0
+    _dexterity = 0
+    _inteligence = 0
+    _charisma = 0
+    _health = 5
+    _magenergy = 5
 
 
 def main():
@@ -159,7 +174,9 @@ def main():
 
     # Generate character command
     character_parser = subparsers.add_parser("character", help="Generate a character.", description="If no choice is specified, it will be picked randomly.")
+    character_parser.add_argument("--level", help="What is the level of the character.", default=1, type=int)
     character_parser.add_argument("--race", help="Race and sex of the character.")
+    character_parser.add_argument("--name", help="Name of the character.")
     character_parser.add_argument("--location", help="Where does the character live.")
     character_parser.add_argument("--occupation", help="What does the character do for living.")
 

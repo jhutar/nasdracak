@@ -17,7 +17,6 @@ class BaseModelWithId(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(extra="forbid")
 
     _file_path: str | None = None   # From where it was loaded
-    _generation_sequence: int = 0   # When geerating character, how soon in the process this is guessed
     id: str
     probability: int = 1   # When generating character, this is weight for entity to pick
     modifiers: dict[str, float] = {}   # When generating character and this item s picked, it can change probability of other items that are about to be picked
@@ -96,13 +95,11 @@ class Character(BaseModelWithId):
 
 
 class Occupation(BaseModelWithId):
-    _generation_sequence = 30
     name: str
     description: str
 
 
 class Location(BaseModelWithId):
-    _generation_sequence = 20
     name: str
 
 
@@ -133,7 +130,6 @@ class Bonus(BaseModelWithId):
 
 
 class Skill(BaseModelWithId):
-    _generation_sequence = 40
     name: str
     description: str
     bonus: str
@@ -156,7 +152,6 @@ class Skill(BaseModelWithId):
 
 
 class Race(BaseModelWithId):
-    _generation_sequence = 10
     name: str
     description: str
     names: list[str] = []
