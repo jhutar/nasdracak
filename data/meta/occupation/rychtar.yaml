@@ -1,3 +1,6 @@
 id: Occupation:rychtar
 name: rychtář
 description: Rychtář je vládce vesnice z vůle vrchnosti, jehož slovo je zákonem. Vybírá daně a dohlíží na spravedlnost, často s notnou pomocí od velkostatkáře, který mu kryje záda.
+modifiers:
+  Property:inteligence: 2
+  Property:charisma: 2

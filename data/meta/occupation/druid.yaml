@@ -1,3 +1,6 @@
 id: Occupation:druid
 name: druid
 description: Druid je šepot lesa a moudrost země, strážce starých cest a zapomenutých hájů. Jeho slova jsou opředená tajemstvím a jeho skutky vedou vesnici k souladu s přírodou. Ačkoli žije ve svém klidném útočišti, jeho požehnání a rady jsou pro vesničany nesmírně cenné, a tak i on má svůj podíl na společné práci pro blaho všech.
+modifiers:
+  Property:inteligence: 2
+  Property:charisma: 2

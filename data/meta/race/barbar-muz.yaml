@@ -12,3 +12,7 @@ names:
   - Válec
   - Hromovít
   - Železoslav
+innate_strength: +1
+innate_dexterity: 0
+innate_inteligence: -2
+innate_charisma: -1

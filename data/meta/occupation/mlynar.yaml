@@ -1,3 +1,5 @@
 id: Occupation:mlynar
 name: mlynář
 description: Mlynář je strážcem mlýnského kola, které s hukotem mele obilí na mouku pro celou vesnici. Jeho práce je pilířem obživy, bez níž by nebylo chleba ani kaše.
+modifiers:
+  Property:inteligence: 2

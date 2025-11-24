@@ -1,3 +1,5 @@
 id: Occupation:krcmar
 name: krčmář
 description: Krčmář je hostitel, jehož krčma je srdcem vesnického života. Zde se vyprávějí příběhy, pije medovina a zapomíná na starosti všedních dnů. Jeho pivo a jídlo zahání hlad a žízeň poutníků i místních.
+modifiers:
+  Property:charisma: 3

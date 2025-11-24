@@ -14,3 +14,7 @@ names:
   - Ocel
   - Ruda
   - Křemen
+innate_strength: +1
+innate_dexterity: -2
+innate_inteligence: 0
+innate_charisma: -1

@@ -1,3 +1,5 @@
 id: Occupation:reznik
 name: řezník
 description: Řezník je silný muž, který se stará o to, aby ve vesnici nikdy nechybělo maso. Poráží zvířata a připravuje ty nejlepší uzeniny a pochoutky. Často to býval šikovný sedlák, který uměl s nožem a nůší.
+modifiers:
+  Property:sila: 2

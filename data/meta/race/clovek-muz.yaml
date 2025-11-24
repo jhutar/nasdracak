@@ -12,3 +12,7 @@ names:
   - Martin
   - Pavel
   - Václav
+innate_strength: -1
+innate_dexterity: 0
+innate_inteligence: -1
+innate_charisma: 0

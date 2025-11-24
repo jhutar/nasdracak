@@ -138,23 +138,46 @@ def generate_character(args: argparse.Namespace):
         print(f"{out.__class__.__name__}: {out.name}")
         return out
 
+    # Level
     _level = args.level; print(f"Level: {_level}")
+
+    # Race
     _race = pick_one(args.race, models.Race)
+
+    # Name
     if args.name:
         _name = args.name
     else:
         _name = random.choice(_race.names); print(f"Name: {_name}")
+
+    # Appearance
     _appearance = ""
+
+    # Background
     _background = ""
+
+    # Location
     _location = pick_one(args.location, models.Location)
+
+    # Occupation
     _occupation = pick_one(args.occupation, models.Occupation)
+
+    # Inventory
     _inventory = []
-    _strength = 0
-    _dexterity = 0
-    _inteligence = 0
-    _charisma = 0
-    _health = 5
-    _magenergy = 5
+
+    # Stats
+    _properties = [world.pick(models.Property) for i in range(3)]
+    _strength = _race.innate_strength + len([i for i in _properties if i.id == "Property:sila"])
+    _dexterity = _race.innate_dexterity + len([i for i in _properties if i.id == "Property:obratnost"])
+    _inteligence = _race.innate_inteligence + len([i for i in _properties if i.id == "Property:inteligence"])
+    _charisma = _race.innate_charisma + len([i for i in _properties if i.id == "Property:charisma"])
+    print(f"props: {', '.join([i.id for i in _properties])}")
+    print(f"SÍL/OBR/INT/CHAR: {_strength}/{_dexterity}/{_inteligence}/{_charisma}")
+
+    # Health and magenergy
+    _health = 5 + _strength + _dexterity if _strength + _dexterity > 0 else 5
+    _magenergy = 5 + _inteligence + _charisma if _inteligence + _charisma > 0 else 5
+    print(f"Health & Magenergy: {_health} & {_magenergy}")
 
 
 def main():

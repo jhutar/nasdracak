@@ -1,3 +1,5 @@
 id: Occupation:bednar
 name: bednář
 description: Bednář je čaroděj dřeva, který z obyčejných prken a obručí vytváří sudy na víno, kádě na vodu a vědra pro každou chalupu. Bez jeho umu by si vesničané neměli do čeho uložit plody své práce.
+modifiers:
+  Property:obratnost: 2

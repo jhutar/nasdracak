@@ -1,3 +1,5 @@
 id: Occupation:velkostatkar
 name: velkostatkář
 description: Velkostatkář je pánem úrodné země, jehož statky se táhnou kam až oko dohlédne. S velkým bohatstvím přichází i velká odpovědnost a velkostatkář dohlíží na práci mnoha rukou, aby zajistil hojnost pro celou vesnici. Často je z něj vybírán i rychtář, aby jeho moudrost a moc chránily všechny.
+modifiers:
+  Property:inteligence: 3

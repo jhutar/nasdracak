@@ -155,6 +155,15 @@ class Race(BaseModelWithId):
     name: str
     description: str
     names: list[str] = []
+    innate_strength: int
+    innate_dexterity: int
+    innate_inteligence: int
+    innate_charisma: int
+
+
+class Property(BaseModelWithId):
+    name: str
+    description: str
 
 
 class ModelError(Exception):
