@@ -1,0 +1,6 @@
+id: Occupation:kejklir
+name: kejklíř
+description: Kejklíř je mistrem zábavy a iluzí, jehož kousky a písně rozveselí každou slavnost. S míčky ve vzduchu a úsměvem na tváři přináší radost a smích do srdcí lidí.
+modifiers:
+  Property:obratnost: 2
+  Property:charisma: 2

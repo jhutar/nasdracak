@@ -1,0 +1,5 @@
+id: Occupation:lapka
+name: lapka
+description: Lapka je stínem na cestách, který si bere, co se mu zlíbí. Rychlý a lstivý, zná každou zkratku a tajnou stezku. Jeho život je nebezpečný, ale svobodný.
+modifiers:
+  Property:obratnost: 3

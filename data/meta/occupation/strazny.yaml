@@ -1,0 +1,5 @@
+id: Occupation:strazny
+name: strážný
+description: Strážný je bdělým okem vesnice, které v noci hlídá klid a bezpečí. S halapartnou v ruce a odvahou v srdci chrání obyvatele před zloději a nájezdníky.
+modifiers:
+  Property:sila: 3

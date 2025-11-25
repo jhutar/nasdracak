@@ -1,0 +1,5 @@
+id: Occupation:kupec
+name: kupec
+description: Kupec je pánem cest a obchodních stezek, jehož vozy přivážejí do vesnice vzácné zboží z dalekých krajů. S úsměvem na tváři a váčkem plným zlaťáků dokáže prodat cokoli a komukoli.
+modifiers:
+  Property:charisma: 3

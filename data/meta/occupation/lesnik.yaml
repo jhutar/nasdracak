@@ -1,0 +1,5 @@
+id: Occupation:lesnik
+name: lesník
+description: Lesník je strážcem hlubokých lesů, zná každou stezku a každé tajemství stromů. Chrání les před zloději dřeva a nebezpečnými tvory, a dohlíží na to, aby les vzkvétal pro další generace.
+modifiers:
+  Property:sila: 2

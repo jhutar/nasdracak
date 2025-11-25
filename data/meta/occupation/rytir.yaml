@@ -1,0 +1,6 @@
+id: Occupation:rytir
+name: rytíř
+description: Rytíř je ušlechtilý bojovník ve zbroji, věrný svému pánu a kodexu cti. Chrání slabé, bojuje za spravedlnost a jeho meč je zárukou bezpečí pro celou zemi.
+modifiers:
+  Property:sila: 4
+  Property:charisma: 2
