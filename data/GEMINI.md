@@ -7,7 +7,7 @@ Tento adresář slouží k ukládání herních dat pro RPG hru ve formátu YAML
 Každý datový soubor v tomto adresáři obsahuje následující pole:
 - `id`: Unikátní identifikátor ve formátu `ModelName:nazev_souboru`.
 - `probability`: Váha pro výběr při generování postav (výchozí: 1).
-- `modifiers`: Slovník, který může ovlivnit pravděpodobnost výběru jiných položek.
+- `modifiers`: Slovník, který může ovlivnit pravděpodobnost výběru jiných položek. Hodnota `0.1` znamená silné zmenšení pravděpodobnosti (váha se sníží na desetinu), zatímco hodnota `10` znamená silné zvětšení pravděpodobnosti (váha se zvýší desetkrát). Hodnota `1` nemá smysl, protože nijak nezmění váhu a navíc ji validator považuje za chybu.
 
 ## Struktura dat
 
@@ -51,6 +51,7 @@ Pro kontrolu správnosti a konzistence dat se používá linter. Linter lze spus
 ```bash
 venv/bin/python tools/doit.py --data data/ lint
 ```
+**Důležité:** Po každé změně v adresáři `data/` je nutné před commitem ověřit data pomocí tohoto linteru.
 
 ## Relevantní dokumentace
 
