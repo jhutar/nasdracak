@@ -1,2 +1,8 @@
 id: Location:vesnice
 name: Vesnice
+modifiers:
+  Occupation:sedlak: 5
+  Occupation:v_domacnosti: 5
+  Occupation:nadenik: 4
+  Occupation:rytir: 0.2
+  Occupation:lapka: 0.2
