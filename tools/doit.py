@@ -103,9 +103,17 @@ def lint_directory(data_dir: str) -> dict:
 
         # Check modifiers only point at existing items
         if hasattr(item, "modifiers"):
-            for mod_id in item.modifiers.keys():
+            for mod_id, mod_val in item.modifiers.items():
                 if mod_id not in seen_ids:
                     issue = f"Unknown modifier '{mod_id}' found."
+                    logging.warning(f"  -> ERROR: {issue}")
+                    issues[str(item._file_path)].append(issue)
+                if mod_val < 0:
+                    issue = f"Negative value for modifier '{mod_id}' found."
+                    logging.warning(f"  -> ERROR: {issue}")
+                    issues[str(item._file_path)].append(issue)
+                if mod_val == 1:
+                    issue = f"Value 1 does not make sense for modifier '{mod_id}' (anything * 1 does not change anything)."
                     logging.warning(f"  -> ERROR: {issue}")
                     issues[str(item._file_path)].append(issue)
 
