@@ -134,6 +134,39 @@ def lint_directory(data_dir: str) -> dict:
 
     return dict(issues)
 
+def split_string(text: str, max_length: int) -> typing.List[str]:
+    """Splits a string into a list of strings, with a maximum length for each string, without splitting words."""
+    if not text:
+        return []
+
+    words = text.split()
+    if not words:
+        return []
+
+    lines = []
+    current_line = ""
+    for word in words:
+        if len(word) > max_length:
+            # If a word is longer than max_length, we have to split it
+            if current_line:
+                lines.append(current_line)
+            # Split the long word
+            for i in range(0, len(word), max_length):
+                lines.append(word[i:i+max_length])
+            current_line = ""
+        elif len(current_line) + len(word) + 1 > max_length:
+            lines.append(current_line)
+            current_line = word
+        else:
+            if current_line:
+                current_line += " " + word
+            else:
+                current_line = word
+    if current_line:
+        lines.append(current_line)
+    return lines
+
+
 def format_entity(args: argparse.Namespace):
     world = models.World(pathlib.Path(args.data))
     if args.entity:
@@ -147,6 +180,7 @@ def format_entity(args: argparse.Namespace):
         loader=jinja2.FileSystemLoader(os.path.dirname(args.template)),
         autoescape=jinja2.select_autoescape(["html", "xml", "md", "svg"]),
     )
+    env.filters["split_string"] = split_string
     template_name = os.path.basename(args.template)
     template = env.get_template(template_name)
 
