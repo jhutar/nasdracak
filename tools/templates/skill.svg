@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="63mm"
+   height="88mm"
+   viewBox="0 0 63 88"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="template.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+  </defs>
+  <g
+     inkscape:label="background"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect7"
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="M -2.7502197 -2.7502197 L -2.7502197 90.750016 L 65.749992 90.750016 L 65.749992 -2.7502197 L -2.7502197 -2.7502197 z M 16.082739 0.8314738 C 16.92765 0.82206153 17.822137 1.0129776 18.786967 1.5296224 C 24.788594 5.4199136 31.157582 -1.6060054 37.165173 2.8530558 C 42.759782 -0.61368329 47.170318 4.2706775 52.516174 1.2335164 C 56.120473 4.2597345 61.139017 -1.5406816 61.324939 4.3795776 C 58.241434 9.3565104 62.986908 14.085155 61.093945 19.124931 C 58.843848 23.681798 60.359685 28.695772 61.94919 32.990751 C 62.129037 38.387648 56.858452 42.96149 60.664514 48.486963 C 62.603704 53.81754 58.305076 58.647183 61.138904 64.071541 C 64.229115 68.64713 59.633722 72.37641 60.325517 76.73175 C 65.677766 84.299942 56.901917 89.357678 50.890951 86.080534 C 45.712341 82.881412 40.583976 88.583128 35.195268 86.82054 C 29.801622 84.127914 24.009161 86.667552 18.212325 86.740442 C 13.120238 87.532101 10.72075 82.06929 3.8509277 86.285689 C -3.1272133 82.118843 4.4174727 74.542346 2.146639 69.250553 C -0.95068821 64.444315 2.8793404 59.99048 3.2525146 55.393518 C 2.8277868 51.054604 0.1907645 46.828138 1.8619019 42.478027 C 6.551186 37.388098 -0.91276766 33.67344 1.1580688 28.956372 C 6.1032035 24.855875 -0.27472138 20.327511 1.3983643 15.106055 C 5.3050906 8.905347 -2.7340541 -2.6683025 6.205306 1.9864421 C 9.6911762 4.6703634 12.421459 0.87226026 16.082739 0.8314738 z "
+       inkscape:label="border" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="texts"
+     inkscape:label="texts">
+    <text
+       xml:space="preserve"
+       id="text7"
+       x="5"
+       y="15"
+       dy="-1.0em"
+       style="font-size:10px;font-family:'TeX Gyre Chorus';fill:#000000"
+       inkscape:label="heading">{% for row in entity.name | split_string(10) %}<tspan x="5" dy="1.0em">{{ row }}</tspan>{% endfor %}</text>
+    <text
+       xml:space="preserve"
+       id="text9"
+       x="5"
+       y="30"
+       style="font-size:5px;font-family:'TeX Gyre Bonum';fill:#000000"
+       inkscape:label="description2">{% for row in entity.description | split_string(20) %}<tspan x="5" dy="1.2em">{{ row }}</tspan>{% endfor %}</text>
+    <text
+       xml:space="preserve"
+       id="text10"
+       x="5"
+       y="80"
+       style="font-size:3px;font-family:'TeX Gyre Bonum';text-align:start"
+       inkscape:label="requires">Vyžaduje: {{ entity.requires | join(', ') }}</text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="bonus"
+     inkscape:label="bonus"
+     style="display:inline">
+    <path
+       style="fill:#bfbfbf;fill-opacity:1;stroke:#404040;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 52.584439,9.2457742 c -0.904114,0.577153 -1.950761,1.2361498 -2.191857,2.3339078 -0.234324,1.031956 0.393812,2.141904 1.400434,2.536718 0.707995,0.315377 1.531081,0.245207 2.233438,-0.04612 1.835214,-0.475073 3.690824,0.576858 5.527463,0.108304 1.347393,-0.396815 2.115078,-2.524901 1.374922,-3.710971 C 60.618912,9.9415013 59.994751,9.7760035 59.463906,9.5446979 58.596475,9.1263782 58.2713,8.2625976 57.92031,7.4528045 57.594967,6.6465622 56.871738,6.2684137 55.955712,6.1341137 55.205518,5.9786793 53.958789,6.4431558 53.836295,7.1297682 c -0.204669,1.1472239 -0.208022,1.433924 -1.251856,2.116006 z"
+       id="path10"
+       sodipodi:nodetypes="cccccccccsc" />
+    <path
+       style="fill:#bfbfbf;fill-opacity:1;stroke:#404040;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 53.362381,6.4401146 c 1.19595,0.460217 2.189025,-0.751686 2.121623,-1.880129 0.02114,-1.142052 0.132163,-2.499498 -0.928683,-3.248764 -0.938751,-0.49958804 -4.53776,3.788764 -1.19294,5.128893 z"
+       id="path11"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#bfbfbf;fill-opacity:1;stroke:#404040;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 56.341419,6.0755196 c -0.70861,-1.237155 -0.77408,-4.31205 0.331876,-4.842281 1.458166,-0.30413604 3.309194,2.487531 2.166526,4.01339 -0.474411,0.829732 -1.579884,1.265395 -2.498402,0.828891 z"
+       id="path12"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#bfbfbf;fill-opacity:1;stroke:#404040;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 60.595002,4.4063144 c -1.250181,0.503615 -2.267694,1.708861 -2.325605,3.086168 -0.04089,0.608402 0.392485,1.180831 0.967886,1.356227 0.501656,0.181044 1.077223,0.03366 1.456446,-0.333293 0.97211,-0.884215 1.331832,-2.443188 0.689323,-3.618782 -0.148814,-0.284429 -0.452251,-0.524835 -0.78805,-0.49032 z"
+       id="path13" />
+    <path
+       style="fill:#bfbfbf;fill-opacity:1;stroke:#404040;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 52.663422,6.3532871 c -0.593909,-1.488782 -2.931291,-2.092545 -3.163605,0.179953 -0.417601,1.913502 1.034068,3.350601 2.458627,2.989222 1.285637,-0.250115 1.276771,-2.150672 0.704978,-3.169175 z"
+       id="path14" />
+    <text
+       xml:space="preserve"
+       x="53"
+       y="12"
+       id="text14"
+       style="font-size:5;font-weight:bold;font-family:'TeX Gyre Heros Cn';fill:#404040"
+       inkscape:label="value">+1</text>
+  </g>
+</svg>
