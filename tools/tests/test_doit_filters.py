@@ -18,6 +18,8 @@ from doit import split_string   # noqa: E402
         (" ", 10, []),
         ("slovo", 10, ["slovo"]),
         ("dlouheslovo", 5, ["dlouh", "eslov", "o"]),
+        ("Odstraňování pastí", 10, ["Odstraňová", "ní pastí"]),
+        ("Moje odstraňování x", 10, ["Moje odstr", "aňování x"]),
         ("  extra   mezery  ", 10, ["extra", "mezery"]),
         (
             "Tohle je opravdu velmi dlouhý text, který se bude muset rozdělit na více řádků.",

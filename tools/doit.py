@@ -147,12 +147,20 @@ def split_string(text: str, max_length: int) -> typing.List[str]:
             continue
         # If a word is longer than max_length, we have to split it
         elif len(word) > max_length:
-            if current_line:
-                lines.append(current_line)
-            # Split the long word
-            for i in range(0, len(word), max_length):
-                lines.append(word[i:i+max_length])
+            if len(current_line) == 0:
+                chunk = word[:max_length]
+                current_line = chunk
+            else:
+                chunk = word[:max_length - len(current_line) - 1]
+                current_line += " " + chunk
+            lines.append(current_line)
             current_line = ""
+            word = word[len(chunk):]
+            for i in range(0, len(word), max_length):
+                current_line = word[i:i+max_length]
+                if len(current_line) >= max_length:
+                    lines.append(current_line)
+                    current_line = ""
         # If we would overflow max_length with current word
         elif len(current_line) + len(word) + 1 > max_length:
             lines.append(current_line)
