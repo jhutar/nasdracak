@@ -134,36 +134,39 @@ def lint_directory(data_dir: str) -> dict:
 
     return dict(issues)
 
+
 def split_string(text: str, max_length: int) -> typing.List[str]:
     """Splits a string into a list of strings, with a maximum length for each string, without splitting words."""
-    if not text:
-        return []
-
     words = text.split()
-    if not words:
-        return []
 
     lines = []
     current_line = ""
     for word in words:
-        if len(word) > max_length:
-            # If a word is longer than max_length, we have to split it
+        # Skip processing empty words
+        if len(word) == 0:
+            continue
+        # If a word is longer than max_length, we have to split it
+        elif len(word) > max_length:
             if current_line:
                 lines.append(current_line)
             # Split the long word
             for i in range(0, len(word), max_length):
                 lines.append(word[i:i+max_length])
             current_line = ""
+        # If we would overflow max_length with current word
         elif len(current_line) + len(word) + 1 > max_length:
             lines.append(current_line)
             current_line = word
+        # If this is first word on the line, do not start with space
+        elif len(current_line) == 0:
+            current_line = word
+        # This is just a word that can be added to current line
         else:
-            if current_line:
-                current_line += " " + word
-            else:
-                current_line = word
+            current_line += " " + word
+
     if current_line:
         lines.append(current_line)
+
     return lines
 
 
