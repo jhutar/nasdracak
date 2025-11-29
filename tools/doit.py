@@ -9,6 +9,8 @@ import sys
 import yaml
 import pydantic
 import random
+import jinja2
+import os
 
 import models
 
@@ -132,6 +134,35 @@ def lint_directory(data_dir: str) -> dict:
 
     return dict(issues)
 
+def format_entity(args: argparse.Namespace):
+    world = models.World(pathlib.Path(args.data))
+    if args.entity:
+        entities = [world.get_by_id(args.entity)]
+    elif args.model:
+        entities = world.get_by_model(args.model)
+    else:
+        raise Exception("Neither entity ID or model provided.")
+
+    env = jinja2.Environment(
+        loader=jinja2.FileSystemLoader(os.path.dirname(args.template)),
+        autoescape=jinja2.select_autoescape(["html", "xml", "md", "svg"]),
+    )
+    template_name = os.path.basename(args.template)
+    template = env.get_template(template_name)
+
+    for e in entities:
+        e_rendered = template.render({"entity": e})
+        if args.output_dir:
+            tmp = template_name
+            if tmp.endswith(".j2"):
+                tmp = tmp.replace(".j2", "")
+            tmp = tmp.split(".")[-1]
+            file_name = e.name + "." + tmp
+            file_path = os.path.join(args.output_dir, file_name)
+            with open(file_path, "w") as fd:
+                fd.write(e_rendered)
+        else:
+            print(e_rendered)
 
 def generate_character(args: argparse.Namespace):
     world = models.World(pathlib.Path(args.data))
@@ -201,7 +232,10 @@ def main():
 
     # Format command
     format_parser = subparsers.add_parser("format", help="Format a file.")
-    format_parser.add_argument("--file", required=True, help="The file to format.")
+    format_parser.add_argument("--entity", help="Display one specific entity ID.")
+    format_parser.add_argument("--model", help="Display all entities with given model.")
+    format_parser.add_argument("--template", required=True, help="Jinja2 template for rendering.")
+    format_parser.add_argument("--output-dir", help="Dump output file(s) to this directory.")
 
     # Generate character command
     character_parser = subparsers.add_parser("character", help="Generate a character.", description="If no choice is specified, it will be picked randomly.")
@@ -220,7 +254,8 @@ def main():
         if lint_directory(args.data):
             sys.exit(1)
     elif args.command == "format":
-        logging.info(f"Formatting file: {args.file}")
+        if format_entity(args):
+            sys.exit(1)
     elif args.command == "character":
         if generate_character(args):
             sys.exit(1)

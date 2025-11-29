@@ -56,3 +56,18 @@ def test_world_update_probabilities():
     world.update_probabilities({"Location:vesnice": 0.5})
     assert get_location.probability == 0.5
     assert get_occupation.probability == 1
+
+
+def test_world_get_by_id():
+    world = models.World(DATA_DIR)
+    get_location = world.get_by_id("Location:vesnice")
+    assert isinstance(get_location, models.Location)
+    assert get_location.id == "Location:vesnice"
+    assert get_location.name == "Vesnice"
+
+
+def test_world_get_by_model():
+    world = models.World(DATA_DIR)
+    get_locations = world.get_by_model("Location")
+    for i in get_locations:
+        assert isinstance(i, models.Location)

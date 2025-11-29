@@ -233,6 +233,18 @@ class World:
     def get(self, model_type: typing.Type[BaseModelWithId], name: str) -> BaseModelWithId:
         return self._all_models[f"{model_type.__name__}:{name}"]
 
+    def get_by_id(self, entid: str) -> BaseModelWithId:
+        model_name = entid.split(":")[0]
+        model_type = SCHEMA_REGISTRY.get(model_name)
+        entity_name = entid[len(model_name)+1:]
+        return self.get(model_type, entity_name)
+
+    def get_by_model(self, model_name: str) -> list[BaseModelWithId]:
+        model_type = SCHEMA_REGISTRY.get(model_name)
+        if model_type == None:
+            raise Exception(f"Unknown model '{model_name}'")
+        return [m for m in self._all_models.values() if isinstance(m, model_type)]
+
     def pick(self, model_type: typing.Type[BaseModelWithId]) -> BaseModelWithId:
         candidates = [m for m in self._all_models.values() if isinstance(m, model_type)]
         if not candidates:
