@@ -1,0 +1,5 @@
+id: RangeWeapon:ostep
+name: Oštěp
+description: Lehké kopí určené k házení na krátkou vzdálenost.
+demage: +3
+price: 0.5

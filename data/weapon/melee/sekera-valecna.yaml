@@ -1,0 +1,5 @@
+id: MeleeWeapon:sekera-valecna
+name: Válečná sekera
+description: Velká obouruční sekera určená pro boj. Dokáže napáchat strašlivou škodu.
+demage: +4
+price: 5.0

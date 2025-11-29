@@ -1,0 +1,5 @@
+id: MeleeWeapon:tesak
+name: Tesák
+description: Jednosečná zbraň, něco mezi nožem a mečem. Oblíbená u lovců a lesníků.
+demage: +3
+price: 3.0

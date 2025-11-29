@@ -1,0 +1,5 @@
+id: MeleeWeapon:kladivo-valecne
+name: Válečné kladivo
+description: Jednoruční kladivo navržené pro boj. Účinné proti zbroji.
+demage: +5
+price: 4.0

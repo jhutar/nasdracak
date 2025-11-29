@@ -1,0 +1,5 @@
+id: RangeWeapon:prak
+name: Prak
+description: Jednoduchá zbraň z kusu kůže a dvou provázků. Jako střelivo používá kameny.
+demage: +3
+price: 0.1

@@ -1,0 +1,5 @@
+id: RangeWeapon:kuse-lehka
+name: Lehká kuše
+description: Mechanická střelná zbraň, kterou lze snadno natáhnout. Střílí krátké šípy zvané šipky.
+demage: +4
+price: 30.0

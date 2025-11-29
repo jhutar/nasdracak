@@ -1,0 +1,5 @@
+id: RangeWeapon:luk-kratky
+name: Krátký luk
+description: Menší luk, vhodný pro lov i boj v omezeném prostoru. Snadno se s ním manipuluje.
+demage: +4
+price: 5.0

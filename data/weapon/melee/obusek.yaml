@@ -1,0 +1,5 @@
+id: MeleeWeapon:obusek
+name: Obušek
+description: Krátká dřevěná palice, dobrá na omráčení protivníka bez velkého krveprolití.
+demage: +2
+price: 0.2
