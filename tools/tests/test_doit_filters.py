@@ -17,6 +17,7 @@ from doit import split_string   # noqa: E402
         ("", 10, []),
         (" ", 10, []),
         ("slovo", 10, ["slovo"]),
+        ("slovo abc", 5, ["slovo", "abc"]),
         ("dlouheslovo", 5, ["dlouh", "eslov", "o"]),
         ("Odstraňování pastí", 10, ["Odstraňová", "ní pastí"]),
         ("Moje odstraňování x", 10, ["Moje odstr", "aňování x"]),

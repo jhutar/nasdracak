@@ -163,7 +163,8 @@ def split_string(text: str, max_length: int) -> typing.List[str]:
                     current_line = ""
         # If we would overflow max_length with current word
         elif len(current_line) + len(word) + 1 > max_length:
-            lines.append(current_line)
+            if len(current_line) > 0:
+                lines.append(current_line)
             current_line = word
         # If this is first word on the line, do not start with space
         elif len(current_line) == 0:
