@@ -33,18 +33,13 @@
     <text
        xml:space="preserve"
        id="text7"
-       x="5"
-       y="15"
-       dy="-1.0em"
        style="font-size:10px;font-family:'TeX Gyre Chorus';fill:#000000"
-       inkscape:label="heading">{% for row in entity.name | split_string(10) %}<tspan x="5" dy="1.0em">{{ row }}</tspan>{% endfor %}</text>
+       inkscape:label="heading">{% for row in entity.name | split_string(10) %}<tspan x="5" y="{{ 7 + loop.index * 8 }}">{{ row }}</tspan>{% endfor %}</text>
     <text
        xml:space="preserve"
        id="text9"
-       x="5"
-       y="30"
-       style="font-size:5px;font-family:'TeX Gyre Bonum';fill:#000000"
-       inkscape:label="description2">{% for row in entity.description | split_string(20) %}<tspan x="5" dy="1.2em">{{ row }}</tspan>{% endfor %}</text>
+       style="font-size:4px;font-family:'TeX Gyre Bonum';fill:#000000"
+       inkscape:label="description2">{% for row in entity.description | split_string(25) %}<tspan x="5" y="{{ 30 + loop.index * 5 }}">{{ row }}</tspan>{% endfor %}</text>
     <text
        xml:space="preserve"
        id="text10"
