@@ -61,12 +61,16 @@ Takže teď je čas doladit vlastnosti tvé postavy. Vezmi vrozené hodnoty, kte
 
    Příklad barbara jménem *Pěst plání* vytvořeného jako extrémní postava: začínáme s SÍL +1, OBR 0, INT -2 a CHAR -1. Hráč se rozhodl, že jeho postava bude prostě jen hora svalů, a tak přidá trojku k SÍL a jedničku k OBR a CHAR. Výsledná postava tedy má SÍL +4, OBR +1, INT -2 a CHAR 0.
 
-3. Ze seznamu si vyber 3 dovednosti, které tvá postava ovládá. Jsou to schopnosti, které se za svůj dosavadní život naučila.
+3. Ze seznamu si vyber 3 dovednosti, které tvá postava ovládá. Jsou to schopnosti, které ses za svůj dosavadní život naučil. Dovednosti patří do různých skupin a v rámci těchto skupin ti dávájí bonusy které si připočítáváš k hodům na zkoušky týkající se dané skupiny dovedností. Přesně si to popíšeme v kapitole "Zkoušky".
 
 TODO seznam dovednosti
 
+.. admonition:: Příklad:
+
+   Například hobit *Tvářička* si vybere dovednosti "Postřeh", "Smlouvání" a "Získávání surovin". *Tvářička* asi hodlá hledat a obchodovat s alchymistickými surovinami. Proč ne. Biznys je to sice nebezpečný, ale výnosný.
+
 4. Nyní si z tabulky vyber nějaké to vybavení do začátku.
-   
+
 Předpokládej, že každý má batoh, měch na vodu a křesadlo, ale třeba šaty už je potřeba vybrat.
 
 TODO seznam vybavení
@@ -79,7 +83,7 @@ Pokud životy tvé postavy klesnou na nulu nebo pod ni, tvá postava zemřela. P
 
 .. admonition:: Příklad:
 
-   Například hobit z příkladu výše bude mít 5 životů (protože SÍL -1 + OBR +1 = 0), ale barbar 10 (5 + (SÍL +4 + OBR +1)) .
+   Například hobit *Tvářička* z příkladu výše bude mít 5 životů (protože SÍL -1 + OBR +1 = 0), ale barbar 10 (5 + (SÍL +4 + OBR +1)) .
 
 Množství magické energie (tzv. magů) je zase **5**. K tomu si přičti součet INT + CHAR, ale opět pouze pokud je kladný.
 
@@ -99,3 +103,20 @@ Při přestupu na další úroveň si:
 * k maximálnímu počtu životů si přičti 3. K tomu si přičti součet SÍL + OBR, ale pouze pokud je kladný.
 * k maximálnímu množství magenergie si přičti 3. K tomu si přičti součet INT + CHAR, ale opět pouze pokud je kladný.
 * vyber si jednu novou dovednost
+
+Zkoušky
+-------
+
+Kdykoli je potřeba něco rozhodnout, může pán jeskyně říct že to musí hráči prostě vymyslet (např. lousknout nějakou hádanku) nebo zahrát (např.: "předveď jak byste teda toho obra přesvědčili"). Ve většině případů ale rozhodnou kostky. Jak?
+
+Každá situace se vztahuje k nějaké ze čtyř základních vrozených vlastností (SÍL, OBR, INT a CHAR). Některé navíc k některé z mnoha dovedností.
+
+Pokud je potřeba rozhodnout situaci (pomocí kostek) a ta se nevztahuje k žádné dovednosti kterou daná postava zná, hod je jednoduchý: hod kostkou + daná vlastnost. Pán jeskyně potom určí, jestli výsledné číslo stačilo a postava ve zkoušce uspěla, nebo naopak.
+
+.. admonition:: Příklad:
+
+   AAA
+
+
+Boj
+---
