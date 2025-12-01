@@ -131,7 +131,8 @@ Pojďme si to rozebrat:
 2.  **Bonus za vlastnost:** K hodu si přičteš (nebo od něj odečteš) číslo, které má tvá postava u dané vlastnosti (SÍL, OBR, INT, nebo CHAR). Je to tvůj přirozený talent.
 3.  **Bonus za dovednosti:** Pokud umíš dovednost, která se k úkolu hodí, přičteš si za ni bonus. Bonusy z dovedností ve stejné skupině se sčítají! Je to odměna za tvůj trénink.
 
-#### Zkouška bez dovednosti
+Zkouška bez dovednosti
+^^^^^^^^^^^^^^^^^^^^^^
 
 Když se o něco pokoušíš jen tak, bez speciálního tréninku.
 
@@ -145,7 +146,8 @@ Když se o něco pokoušíš jen tak, bez speciálního tréninku.
    
    Protože 4 je větší nebo rovno 3, *Tvářička* sice chvíli heká a funí, ale nakonec balvan odstrčí z cesty. Úspěch!
 
-#### Zkouška s dovedností
+Zkouška s dovedností
+^^^^^^^^^^^^^^^^^^^^
 
 Když využiješ něco, co ses naučil.
 
@@ -159,7 +161,8 @@ Když využiješ něco, co ses naučil.
    
    Protože 5 je větší nebo rovno 4, *Tvářička* opatrně vylomí jedové zuby, aniž by se poškodily. Úspěch!
 
-#### Zkouška s více dovednostmi
+Zkouška s více dovednostmi
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Někdy ti pomůže víc naučených dovedností najednou.
 
@@ -171,7 +174,7 @@ Někdy ti pomůže víc naučených dovedností najednou.
    
    Výsledek je: 2 (hod) + 3 (CHAR) + 1 (Smlouvání) + 1 (Postřeh) = **7**.
    
-   Protože 7 je větší nebo rovno 6, babka je Tvářičkovým šarmem a postřehem tak okouzlena, že mu dá skvělých 12 zlatých. Úspěch!
+   Protože 7 je větší nebo rovno 6, babka je Tvářičkovým šarmem a výřečností tak okouzlena, že mu dá celých 12 zlatých. Úspěch!
 
 Boj
 ---
