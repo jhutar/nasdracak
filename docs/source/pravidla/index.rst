@@ -61,7 +61,11 @@ Takže teď je čas doladit vlastnosti tvé postavy. Vezmi vrozené hodnoty, kte
 
    Příklad barbara jménem *Pěst plání* vytvořeného jako extrémní postava: začínáme s SÍL +1, OBR 0, INT -2 a CHAR -1. Hráč se rozhodl, že jeho postava bude prostě jen hora svalů, a tak přidá trojku k SÍL a jedničku k OBR a CHAR. Výsledná postava tedy má SÍL +4, OBR +1, INT -2 a CHAR 0.
 
-3. Ze seznamu si vyber 3 dovednosti, které tvá postava ovládá. Jsou to schopnosti, které ses za svůj dosavadní život naučil. Dovednosti patří do různých skupin a v rámci těchto skupin ti dávájí bonusy které si připočítáváš k hodům na zkoušky týkající se dané skupiny dovedností. Přesně si to popíšeme v kapitole "Zkoušky".
+3. Ze seznamu si vyber 3 dovednosti, které tvá postava ovládá. Jsou to schopnosti, které ses za svůj dosavadní život naučil.
+
+Dovednosti patří do různých skupin a v rámci těchto skupin ti dávájí bonusy které si připočítáváš k hodům na zkoušky týkající se dané skupiny dovedností. Přesně si to popíšeme v kapitole "Zkoušky".
+
+Některé dovednosti jsou obecné (například "Akrobacie" - po kládě nad propastí se můžeš pokusit přelézt i pokud tuto dovednost nemáš, jen si nepřipočítávaš bonus), některé vyhrazené pro ty kdo se je naučili (alchymistické suroviny prostě bez dovednosti "Získávání surovin" nejsi schopen vytěžit). Vyhrazené dovednosti mají mnohdy ještě další dodatečné možnosti.
 
 TODO seznam dovednosti
 
@@ -111,12 +115,23 @@ Kdykoli je potřeba něco rozhodnout, může pán jeskyně říct že to musí h
 
 Každá situace se vztahuje k nějaké ze čtyř základních vrozených vlastností (SÍL, OBR, INT a CHAR). Některé navíc k některé z mnoha dovedností.
 
-Pokud je potřeba rozhodnout situaci (pomocí kostek) a ta se nevztahuje k žádné dovednosti kterou daná postava zná, hod je jednoduchý: hod kostkou + daná vlastnost. Pán jeskyně potom určí, jestli výsledné číslo stačilo a postava ve zkoušce uspěla, nebo naopak.
+Pokud je potřeba rozhodnout situaci (pomocí kostek) a ta se nevztahuje k žádné dovednosti kterou daná postava zná, hod je jednoduchý: hod kostkou + daná vlastnost. Pán jeskyně si předem řekl jak obtížná to bude zkouška a po hráčově hodu určí, jestli výsledné číslo stačilo a postava ve zkoušce uspěla, nebo naopak.
 
 .. admonition:: Příklad:
 
-   AAA
+   Po dlouhém hledání Studny moudrosti hobit *Tvářička* stanul na místě které tak dlouho hledal. Magie tu téměř srší jen tak ve vzduchu, ale pramen je zavalen velkým kamenem. Pán jeskyně kámen popsal jako poměrně velký a v duchu si stanovil že na jeho odvalení bude potřeba uspět ve zkoušce na číslo 3. Tvářička ale vymyslel že si z jednoho stromku vyrobí páku a tou kámen pomalu odstrká. Pán jeskyně tedy změnil cílové číslo zkoušky na 3. Je to zkouška která se pojí k vlastnosti SÍL a tak když hráč hodil 5, připočetl si svou SÍL (tedy -1) a výsledek hou nahlásil pánovi jeskyně. Výsledek hodu hobita (4) je větší nebo roven cílovému číslu zkoušky (3) a kámen se mu tak podařilo odvalit.
 
+Pokud se navíc daná situace týká dovednosti kterou postava zná, může si přičíst bonus z dané skupiny dovedností.
+
+.. admonition:: Příklad:
+
+   Hobit *Tvářička* několika dobře mířenými šipkami z kuše zabil kouzelného hada který blokoval pramen. Nyní chce mrtvole vytrhnout jedové zuby, neboť v nich rozpoznal cenné alchymistické suroviny. Může se o to pokusit protože zná dovednost "Získávání surovin". Pán jeskyně si určí, že zkouška bude na číslo 4. Hod pod 4 bude znamenat že získal jen jednu surovinu, hod 4 a více potom získání 2 surovin. Je to zkouška na obratnost, takže hráč hází: hodil 3 + OBR (+1) + alchymistický bonus (který má +1 díky dovednosti "Získávání surovin"). Výsledek 5 je větší nebo roven cílovému číslu zkoušky 4, takže s přehledem získává 2 suroviny. Vlastně by mu stačilo hodit jen dvojku.
+
+Někdy postava zná více dovedností z jedné skupiny dovedností. Pokud potom postava řeší situaci která se pojí k jedné této dovednosti, může použít soušet bonusů všech dovedností ze stejné skupiny.
+
+.. admonition:: Příklad:
+
+   Hobit dorazil do vesnice a rovnou zamířil k místní babce kořenářce. Rád by totiž prodal alchymistické suroviny které za svou cestu nashromáždil a to není zboží které kupuje kde kdo. Babka není nezkušená obchodnice, protože sama své lektvary často prodává na trzích a nabídla mu 10 zlatých. *Tvářička* se ale chce pokusit prodat za 12zl. Tedy o 2 * 10% více. Pán jeskyně si určí že zkoučka smlouvání s vesnickou obchodnicí je 4 a přidá 2 body za navýšení ceny o 2 * 10% (viz pravidla pro smlouvání). Hobit při smlouvání samozřejmě využije dovednost "Smlouvání", ale protože má i dovednost "Postřeh" která je ze stejné skupiny dovedností zvané "Vliv", bude si přičítat +2. Do hry také zasáhne vlastnnist charisma. Takže, kostka se točí a když se zastaví, ukazuje dvojku. To je pro hobita skvělá zpráva, protože hod 2 + 3 (za CHAR) + 2 (jako bonus pro skupiny dovedností "Vliv") je ve výsledku 7, což je více nebo rovno než 6 které jako cílové číslo zkoušky určil pán jeskyně. Hobit tedy odchází s 12 zlatými a už se těší na pořádnou večeři v místní hospodě.
 
 Boj
 ---
