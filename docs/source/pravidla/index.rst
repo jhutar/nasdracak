@@ -111,27 +111,67 @@ Při přestupu na další úroveň si:
 Zkoušky
 -------
 
-Kdykoli je potřeba něco rozhodnout, může pán jeskyně říct že to musí hráči prostě vymyslet (např. lousknout nějakou hádanku) nebo zahrát (např.: "předveď jak byste teda toho obra přesvědčili"). Ve většině případů ale rozhodnou kostky. Jak?
+Občas se tvá postava pokusí o něco, u čeho není jisté, jestli se to podaří. Chceš přeskočit širokou propast? Vylézt na vysokou zeď? Přemluvit strážného, aby tě pustil do města? V takových chvílích přichází na řadu **zkouška**.
 
-Každá situace se vztahuje k nějaké ze čtyř základních vrozených vlastností (SÍL, OBR, INT a CHAR). Některé navíc k některé z mnoha dovedností.
+Pán jeskyně ti řekne, o jakou zkoušku se jedná (třeba zkouška na Sílu nebo na Obratnost) a potají si určí **Číslo Obtížnosti** – tedy jak těžké je uspět.
 
-Pokud je potřeba rozhodnout situaci (pomocí kostek) a ta se nevztahuje k žádné dovednosti kterou daná postava zná, hod je jednoduchý: hod kostkou + daná vlastnost. Pán jeskyně si předem řekl jak obtížná to bude zkouška a po hráčově hodu určí, jestli výsledné číslo stačilo a postava ve zkoušce uspěla, nebo naopak.
+*   **Lehký úkol** může mít obtížnost 2.
+*   **Středně těžký** třeba 4.
+*   **Velmi těžký** klidně 6 nebo i víc.
 
-.. admonition:: Příklad:
+Abys uspěl, musí tvůj hod dopadnout stejně nebo lépe, než je Číslo Obtížnosti.
 
-   Po dlouhém hledání Studny moudrosti hobit *Tvářička* stanul na místě které tak dlouho hledal. Magie tu téměř srší jen tak ve vzduchu, ale pramen je zavalen velkým kamenem. Pán jeskyně kámen popsal jako poměrně velký a v duchu si stanovil že na jeho odvalení bude potřeba uspět ve zkoušce na číslo 3. Tvářička ale vymyslel že si z jednoho stromku vyrobí páku a tou kámen pomalu odstrká. Pán jeskyně tedy změnil cílové číslo zkoušky na 3. Je to zkouška která se pojí k vlastnosti SÍL a tak když hráč hodil 5, připočetl si svou SÍL (tedy -1) a výsledek hou nahlásil pánovi jeskyně. Výsledek hodu hobita (4) je větší nebo roven cílovému číslu zkoušky (3) a kámen se mu tak podařilo odvalit.
+**Základní pravidlo pro zkoušky je:**
 
-Pokud se navíc daná situace týká dovednosti kterou postava zná, může si přičíst bonus z dané skupiny dovedností.
+**hod kostkou + bonus za vlastnost + bonus za dovednosti >= Číslo Obtížnosti**
 
-.. admonition:: Příklad:
+Pojďme si to rozebrat:
 
-   Hobit *Tvářička* několika dobře mířenými šipkami z kuše zabil kouzelného hada který blokoval pramen. Nyní chce mrtvole vytrhnout jedové zuby, neboť v nich rozpoznal cenné alchymistické suroviny. Může se o to pokusit protože zná dovednost "Získávání surovin". Pán jeskyně si určí, že zkouška bude na číslo 4. Hod pod 4 bude znamenat že získal jen jednu surovinu, hod 4 a více potom získání 2 surovin. Je to zkouška na obratnost, takže hráč hází: hodil 3 + OBR (+1) + alchymistický bonus (který má +1 díky dovednosti "Získávání surovin"). Výsledek 5 je větší nebo roven cílovému číslu zkoušky 4, takže s přehledem získává 2 suroviny. Vlastně by mu stačilo hodit jen dvojku.
+1.  **Hod kostkou:** Jednoduše hodíš šestistěnnou kostkou.
+2.  **Bonus za vlastnost:** K hodu si přičteš (nebo od něj odečteš) číslo, které má tvá postava u dané vlastnosti (SÍL, OBR, INT, nebo CHAR). Je to tvůj přirozený talent.
+3.  **Bonus za dovednosti:** Pokud umíš dovednost, která se k úkolu hodí, přičteš si za ni bonus. Bonusy z dovedností ve stejné skupině se sčítají! Je to odměna za tvůj trénink.
 
-Někdy postava zná více dovedností z jedné skupiny dovedností. Pokud potom postava řeší situaci která se pojí k jedné této dovednosti, může použít soušet bonusů všech dovedností ze stejné skupiny.
+#### Zkouška bez dovednosti
 
-.. admonition:: Příklad:
+Když se o něco pokoušíš jen tak, bez speciálního tréninku.
 
-   Hobit dorazil do vesnice a rovnou zamířil k místní babce kořenářce. Rád by totiž prodal alchymistické suroviny které za svou cestu nashromáždil a to není zboží které kupuje kde kdo. Babka není nezkušená obchodnice, protože sama své lektvary často prodává na trzích a nabídla mu 10 zlatých. *Tvářička* se ale chce pokusit prodat za 12zl. Tedy o 2 * 10% více. Pán jeskyně si určí že zkoučka smlouvání s vesnickou obchodnicí je 4 a přidá 2 body za navýšení ceny o 2 * 10% (viz pravidla pro smlouvání). Hobit při smlouvání samozřejmě využije dovednost "Smlouvání", ale protože má i dovednost "Postřeh" která je ze stejné skupiny dovedností zvané "Vliv", bude si přičítat +2. Do hry také zasáhne vlastnnist charisma. Takže, kostka se točí a když se zastaví, ukazuje dvojku. To je pro hobita skvělá zpráva, protože hod 2 + 3 (za CHAR) + 2 (jako bonus pro skupiny dovedností "Vliv") je ve výsledku 7, což je více nebo rovno než 6 které jako cílové číslo zkoušky určil pán jeskyně. Hobit tedy odchází s 12 zlatými a už se těší na pořádnou večeři v místní hospodě.
+.. admonition:: Příklad: Tvářička a těžký balvan
+
+   Hobit *Tvářička* našel kouzelný pramen, ale v cestě mu stojí těžký balvan. Pokusí se ho odvalit. Pán jeskyně určí, že je to zkouška na **Sílu** s obtížností **3**. *Tvářička* má ale **SÍL -1**.
+   
+   Hráč hodí kostkou a padne mu **5**.
+   
+   Výsledek je: 5 (hod) - 1 (SÍL) = **4**.
+   
+   Protože 4 je větší nebo rovno 3, *Tvářička* sice chvíli heká a funí, ale nakonec balvan odstrčí z cesty. Úspěch!
+
+#### Zkouška s dovedností
+
+Když využiješ něco, co ses naučil.
+
+.. admonition:: Příklad: Tvářička a jedovaté zuby
+
+   Po souboji s kouzelným hadem chce *Tvářička* sebrat jeho cenné jedové zuby. To chce šikovné ruce! Pán jeskyně stanoví zkoušku na **Obratnost** s obtížností **4**. *Tvářička* má **OBR +1** a dovednost **Získávání surovin** (bonus +1).
+   
+   Hráč hodí kostkou a padne mu **3**.
+   
+   Výsledek je: 3 (hod) + 1 (OBR) + 1 (za dovednost) = **5**.
+   
+   Protože 5 je větší nebo rovno 4, *Tvářička* opatrně vylomí jedové zuby, aniž by se poškodily. Úspěch!
+
+#### Zkouška s více dovednostmi
+
+Někdy ti pomůže víc naučených dovedností najednou.
+
+.. admonition:: Příklad: Tvářička prodává suroviny
+
+   Ve vesnici chce *Tvářička* prodat zuby babce kořenářce za co nejlepší cenu. Pán jeskyně určí zkoušku na **Charisma** s obtížností **6**. *Tvářička* má **CHAR +3** a umí **Smlouvání** (+1) i **Postřeh** (+1). Obě dovednosti patří do skupiny "Vliv", takže se jejich bonusy sčítají!
+   
+   Hráč hodí kostkou a padne mu **2**.
+   
+   Výsledek je: 2 (hod) + 3 (CHAR) + 1 (Smlouvání) + 1 (Postřeh) = **7**.
+   
+   Protože 7 je větší nebo rovno 6, babka je Tvářičkovým šarmem a postřehem tak okouzlena, že mu dá skvělých 12 zlatých. Úspěch!
 
 Boj
 ---
