@@ -196,19 +196,28 @@ def format_entity(args: argparse.Namespace):
     template_name = os.path.basename(args.template)
     template = env.get_template(template_name)
 
-    for e in entities:
-        e_rendered = template.render({"entity": e})
+    def _dump_to(text, dir_name, entity_name, template_name):
+        if template_name.endswith(".j2"):
+            template_name = template_name.replace(".j2", "")
+        template_name = template_name.split(".")[-1]
+        file_name = e_name + "." + template_name
+        file_path = os.path.join(dir_name, file_name)
+        with open(file_path, "w") as fd:
+            fd.write(text)
+
+    if args.all_in_one:
+        e_rendered = template.render({"entities": entities})
         if args.output_dir:
-            tmp = template_name
-            if tmp.endswith(".j2"):
-                tmp = tmp.replace(".j2", "")
-            tmp = tmp.split(".")[-1]
-            file_name = e.name + "." + tmp
-            file_path = os.path.join(args.output_dir, file_name)
-            with open(file_path, "w") as fd:
-                fd.write(e_rendered)
+            _dump_to(e_rendered, args.output_dir, "all", template_name)
         else:
             print(e_rendered)
+    else:
+        for e in entities:
+            e_rendered = template.render({"entity": e})
+            if args.output_dir:
+                _dump_to(e_rendered, args.output_dir, e.name, template_name)
+            else:
+                print(e_rendered)
 
 def generate_character(args: argparse.Namespace):
     world = models.World(pathlib.Path(args.data))
@@ -280,8 +289,9 @@ def main():
     format_parser = subparsers.add_parser("format", help="Format a file.")
     format_parser.add_argument("--entity", help="Display one specific entity ID.")
     format_parser.add_argument("--model", help="Display all entities with given model.")
-    format_parser.add_argument("--template", required=True, help="Jinja2 template for rendering.")
+    format_parser.add_argument("--template", required=True, help="Jinja2 template for rendering one entity (default behaviot) or all of them (requires '--all-in-one' and assumes '--model').")
     format_parser.add_argument("--output-dir", help="Dump output file(s) to this directory.")
+    format_parser.add_argument("--all-in-one", action="store_true", help="Use if template is made to show list of entities, not just one.")
 
     # Generate character command
     character_parser = subparsers.add_parser("character", help="Generate a character.", description="If no choice is specified, it will be picked randomly.")
