@@ -11,6 +11,8 @@ import pydantic
 import random
 import jinja2
 import os
+import re
+import subprocess
 
 import models
 
@@ -274,6 +276,24 @@ def generate_character(args: argparse.Namespace):
     print(f"Health & Magenergy: {_health} & {_magenergy}")
 
 
+def expand_code_blocks(args: argparse.Namespace):
+    for file_path in sorted(list(pathlib.Path(args.directory).rglob("*.rst"))):
+        logging.info(f"Expanding code blocks in {file_path}")
+
+        with open(file_path, "r") as fd:
+            text = fd.read()
+
+        text_new = text
+        for match in re.finditer(r"```.*```", text):
+            command = match.group(0)[3:-3]
+            logging.info(f"Executing '{command}' from {file_path}")
+            proc = subprocess.run(command, shell=True, check=True, capture_output=True)
+            output = proc.stdout.decode()
+            text_new = text_new.replace(match.group(0), output)
+
+        with open(file_path, "w") as fd:
+            fd.write(text_new)
+
 def main():
     parser = argparse.ArgumentParser(description="A multi-purpose tool.")
     parser.add_argument("--debug", action="store_true", help="Enable debug logging.")
@@ -301,6 +321,10 @@ def main():
     character_parser.add_argument("--location", help="Where does the character live.")
     character_parser.add_argument("--occupation", help="What does the character do for living.")
 
+    # Expand code blocks in rst files
+    expand_parser = subparsers.add_parser("expand", help="Look for '```...```' blocks in rst files and replace them with output of these commands.")
+    expand_parser.add_argument("--directory", default="docs/source/", help="Process all *.rst files in this directory.")
+
     args = parser.parse_args()
     setup_logging(args)
 
@@ -314,6 +338,9 @@ def main():
             sys.exit(1)
     elif args.command == "character":
         if generate_character(args):
+            sys.exit(1)
+    elif args.command == "expand":
+        if expand_code_blocks(args):
             sys.exit(1)
 
 
