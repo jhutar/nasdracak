@@ -182,6 +182,7 @@ def split_string(text: str, max_length: int) -> typing.List[str]:
 
 
 def format_entity(args: argparse.Namespace):
+    """Formats and renders game entities based on a Jinja2 template."""
     world = models.World(pathlib.Path(args.data))
     if args.entity:
         entities = [world.get_by_id(args.entity)]
@@ -199,6 +200,7 @@ def format_entity(args: argparse.Namespace):
     template = env.get_template(template_name)
 
     def _dump_to(text, dir_name, entity_name, template_name):
+        """Dumps rendered text to a specified file."""
         if template_name.endswith(".j2"):
             template_name = template_name.replace(".j2", "")
         template_name = template_name.split(".")[-1]
@@ -222,9 +224,11 @@ def format_entity(args: argparse.Namespace):
                 print(e_rendered)
 
 def generate_character(args: argparse.Namespace):
+    """Generates a new game character based on various parameters."""
     world = models.World(pathlib.Path(args.data))
 
     def pick_one(provided: str, model: models.BaseModelWithId) -> models.BaseModelWithId:
+        """Picks one entity of a given model, optionally updating probabilities."""
         if provided:
             out = world.get(model, provided)
         else:
@@ -277,6 +281,7 @@ def generate_character(args: argparse.Namespace):
 
 
 def expand_code_blocks(args: argparse.Namespace):
+    """Expands code blocks in reStructuredText files by executing the commands within them."""
     for file_path in sorted(list(pathlib.Path(args.directory).rglob("*.rst"))):
         logging.info(f"Expanding code blocks in {file_path}")
 
@@ -295,6 +300,7 @@ def expand_code_blocks(args: argparse.Namespace):
             fd.write(text_new)
 
 def main():
+    """Main function to parse arguments and execute commands."""
     parser = argparse.ArgumentParser(description="A multi-purpose tool.")
     parser.add_argument("--debug", action="store_true", help="Enable debug logging.")
     parser.add_argument("--verbose", action="store_true", help="Enable info logging.")
