@@ -3,7 +3,6 @@ import os
 import argparse
 import tempfile
 from pathlib import Path
-import subprocess
 
 # Add the 'tools' directory to the Python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))

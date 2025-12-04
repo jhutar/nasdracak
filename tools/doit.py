@@ -204,7 +204,7 @@ def format_entity(args: argparse.Namespace):
         if template_name.endswith(".j2"):
             template_name = template_name.replace(".j2", "")
         template_name = template_name.split(".")[-1]
-        file_name = e_name + "." + template_name
+        file_name = entity_name + "." + template_name
         file_path = os.path.join(dir_name, file_name)
         with open(file_path, "w") as fd:
             fd.write(text)
@@ -323,7 +323,7 @@ def main():
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     # Lint command
-    lint_parser = subparsers.add_parser("lint", help="Run linter.")
+    subparsers.add_parser("lint", help="Run linter.")
 
     # Format command
     format_parser = subparsers.add_parser("format", help="Format a file.")
