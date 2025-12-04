@@ -1,0 +1,5 @@
+id: MeleeWeapon:mec-rezavy
+name: Meč po dědovi
+description: Rezavý meč.
+demage: +1
+price: 2.5
