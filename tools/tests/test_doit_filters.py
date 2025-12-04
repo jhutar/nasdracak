@@ -5,7 +5,7 @@ import pytest
 # Add the 'tools' directory to the Python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from doit import split_string   # noqa: E402
+from doit import split_string  # noqa: E402
 
 
 @pytest.mark.parametrize(

@@ -4,7 +4,7 @@ import os
 # Add the 'tools' directory to the Python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from doit import lint_directory   # noqa: E402
+from doit import lint_directory  # noqa: E402
 
 
 def test_lint_directory():

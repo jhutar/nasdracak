@@ -7,10 +7,11 @@ import os
 # Add the 'tools' directory to the Python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-import models   # noqa: E402
+import models  # noqa: E402
 
 
 DATA_DIR = pathlib.Path("tools/tests/test_lint_directory")
+
 
 def test_world_loads_dir():
     world = models.World(DATA_DIR)
@@ -44,8 +45,11 @@ def test_world_pick_from_empty_dir():
     with tempfile.TemporaryDirectory() as tmpdirname:
         data_dir = pathlib.Path(tmpdirname)
         world = models.World(data_dir)
-        with pytest.raises(models.ModelError, match="No models of type Location found."):
+        with pytest.raises(
+            models.ModelError, match="No models of type Location found."
+        ):
             world.pick(models.Location)
+
 
 def test_world_update_probabilities():
     world = models.World(DATA_DIR)

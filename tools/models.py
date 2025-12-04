@@ -16,10 +16,12 @@ logger = logging.getLogger(__name__)
 class BaseModelWithId(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(extra="forbid")
 
-    _file_path: str | None = None   # From where it was loaded
+    _file_path: str | None = None  # From where it was loaded
     id: str
-    probability: int = 1   # When generating character, this is weight for entity to pick
-    modifiers: dict[str, float] = {}   # When generating character and this item s picked, it can change probability of other items that are about to be picked
+    probability: int = 1  # When generating character, this is weight for entity to pick
+    modifiers: dict[str, float] = (
+        {}
+    )  # When generating character and this item s picked, it can change probability of other items that are about to be picked
 
     @pydantic.field_validator("id")
     @classmethod
@@ -35,7 +37,9 @@ class BaseModelWithId(pydantic.BaseModel):
         for mod_id in v.keys():
             mod_schema = mod_id.split(":")[0]
             if mod_schema not in SCHEMA_REGISTRY:
-                raise ValueError(f"Modifier for '{mod_id}' does not look like valid ID.")
+                raise ValueError(
+                    f"Modifier for '{mod_id}' does not look like valid ID."
+                )
         return v
 
 
@@ -125,6 +129,7 @@ class CommonItem(BaseModelWithId):
 
 class Bonus(BaseModelWithId):
     """Describes bonuses from various skills."""
+
     name: str
     description: str
 
@@ -173,10 +178,9 @@ class ModelError(Exception):
 SCHEMA_REGISTRY: typing.Dict[str, typing.Type[pydantic.BaseModel]] = dict(
     inspect.getmembers(
         sys.modules[__name__],
-        lambda member:
-            inspect.isclass(member)
-            and member.__module__ == __name__
-            and issubclass(member, pydantic.BaseModel),
+        lambda member: inspect.isclass(member)
+        and member.__module__ == __name__
+        and issubclass(member, pydantic.BaseModel),
     )
 )
 
@@ -230,13 +234,15 @@ class World:
             except Exception as e:
                 logger.warning(f"Loading '{file_path}' failed, skipping. Error: {e}")
 
-    def get(self, model_type: typing.Type[BaseModelWithId], name: str) -> BaseModelWithId:
+    def get(
+        self, model_type: typing.Type[BaseModelWithId], name: str
+    ) -> BaseModelWithId:
         return self._all_models[f"{model_type.__name__}:{name}"]
 
     def get_by_id(self, entid: str) -> BaseModelWithId:
         model_name = entid.split(":")[0]
         model_type = SCHEMA_REGISTRY.get(model_name)
-        entity_name = entid[len(model_name)+1:]
+        entity_name = entid[len(model_name) + 1 :]
         return self.get(model_type, entity_name)
 
     def get_by_model(self, model_name: str) -> list[BaseModelWithId]:
@@ -256,5 +262,7 @@ class World:
     def update_probabilities(self, updates: dict[str, float]) -> None:
         for k, v in updates.items():
             entity = self._all_models[k]
-            logging.debug(f"Changing probability for '{entity.id}' from {entity.probability} to {entity.probability * v}")
+            logging.debug(
+                f"Changing probability for '{entity.id}' from {entity.probability} to {entity.probability * v}"
+            )
             entity.probability = entity.probability * v

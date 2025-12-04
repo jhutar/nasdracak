@@ -153,13 +153,13 @@ def split_string(text: str, max_length: int) -> typing.List[str]:
                 chunk = word[:max_length]
                 current_line = chunk
             else:
-                chunk = word[:max_length - len(current_line) - 1]
+                chunk = word[: max_length - len(current_line) - 1]
                 current_line += " " + chunk
             lines.append(current_line)
             current_line = ""
-            word = word[len(chunk):]
+            word = word[len(chunk) :]
             for i in range(0, len(word), max_length):
-                current_line = word[i:i+max_length]
+                current_line = word[i : i + max_length]
                 if len(current_line) >= max_length:
                     lines.append(current_line)
                     current_line = ""
@@ -223,11 +223,14 @@ def format_entity(args: argparse.Namespace):
             else:
                 print(e_rendered)
 
+
 def generate_character(args: argparse.Namespace):
     """Generates a new game character based on various parameters."""
     world = models.World(pathlib.Path(args.data))
 
-    def pick_one(provided: str, model: models.BaseModelWithId) -> models.BaseModelWithId:
+    def pick_one(
+        provided: str, model: models.BaseModelWithId
+    ) -> models.BaseModelWithId:
         """Picks one entity of a given model, optionally updating probabilities."""
         if provided:
             out = world.get(model, provided)
@@ -239,7 +242,8 @@ def generate_character(args: argparse.Namespace):
         return out
 
     # Level
-    _level = args.level; print(f"Level: {_level}")
+    _level = args.level
+    print(f"Level: {_level}")
 
     # Race
     _race = pick_one(args.race, models.Race)
@@ -248,7 +252,8 @@ def generate_character(args: argparse.Namespace):
     if args.name:
         _name = args.name
     else:
-        _name = random.choice(_race.names); print(f"Name: {_name}")
+        _name = random.choice(_race.names)
+        print(f"Name: {_name}")
 
     # Appearance
     _appearance = ""
@@ -267,10 +272,18 @@ def generate_character(args: argparse.Namespace):
 
     # Stats
     _properties = [world.pick(models.Property) for i in range(3)]
-    _strength = _race.innate_strength + len([i for i in _properties if i.id == "Property:sila"])
-    _dexterity = _race.innate_dexterity + len([i for i in _properties if i.id == "Property:obratnost"])
-    _inteligence = _race.innate_inteligence + len([i for i in _properties if i.id == "Property:inteligence"])
-    _charisma = _race.innate_charisma + len([i for i in _properties if i.id == "Property:charisma"])
+    _strength = _race.innate_strength + len(
+        [i for i in _properties if i.id == "Property:sila"]
+    )
+    _dexterity = _race.innate_dexterity + len(
+        [i for i in _properties if i.id == "Property:obratnost"]
+    )
+    _inteligence = _race.innate_inteligence + len(
+        [i for i in _properties if i.id == "Property:inteligence"]
+    )
+    _charisma = _race.innate_charisma + len(
+        [i for i in _properties if i.id == "Property:charisma"]
+    )
     print(f"props: {', '.join([i.id for i in _properties])}")
     print(f"SÍL/OBR/INT/CHAR: {_strength}/{_dexterity}/{_inteligence}/{_charisma}")
 
@@ -299,6 +312,7 @@ def expand_code_blocks(args: argparse.Namespace):
         with open(file_path, "w") as fd:
             fd.write(text_new)
 
+
 def main():
     """Main function to parse arguments and execute commands."""
     parser = argparse.ArgumentParser(description="A multi-purpose tool.")
@@ -315,21 +329,46 @@ def main():
     format_parser = subparsers.add_parser("format", help="Format a file.")
     format_parser.add_argument("--entity", help="Display one specific entity ID.")
     format_parser.add_argument("--model", help="Display all entities with given model.")
-    format_parser.add_argument("--template", required=True, help="Jinja2 template for rendering one entity (default behaviot) or all of them (requires '--all-in-one' and assumes '--model').")
-    format_parser.add_argument("--output-dir", help="Dump output file(s) to this directory.")
-    format_parser.add_argument("--all-in-one", action="store_true", help="Use if template is made to show list of entities, not just one.")
+    format_parser.add_argument(
+        "--template",
+        required=True,
+        help="Jinja2 template for rendering one entity (default behaviot) or all of them (requires '--all-in-one' and assumes '--model').",
+    )
+    format_parser.add_argument(
+        "--output-dir", help="Dump output file(s) to this directory."
+    )
+    format_parser.add_argument(
+        "--all-in-one",
+        action="store_true",
+        help="Use if template is made to show list of entities, not just one.",
+    )
 
     # Generate character command
-    character_parser = subparsers.add_parser("character", help="Generate a character.", description="If no choice is specified, it will be picked randomly.")
-    character_parser.add_argument("--level", help="What is the level of the character.", default=1, type=int)
+    character_parser = subparsers.add_parser(
+        "character",
+        help="Generate a character.",
+        description="If no choice is specified, it will be picked randomly.",
+    )
+    character_parser.add_argument(
+        "--level", help="What is the level of the character.", default=1, type=int
+    )
     character_parser.add_argument("--race", help="Race and sex of the character.")
     character_parser.add_argument("--name", help="Name of the character.")
     character_parser.add_argument("--location", help="Where does the character live.")
-    character_parser.add_argument("--occupation", help="What does the character do for living.")
+    character_parser.add_argument(
+        "--occupation", help="What does the character do for living."
+    )
 
     # Expand code blocks in rst files
-    expand_parser = subparsers.add_parser("expand", help="Look for '```...```' blocks in rst files and replace them with output of these commands.")
-    expand_parser.add_argument("--directory", default="docs/source/", help="Process all *.rst files in this directory.")
+    expand_parser = subparsers.add_parser(
+        "expand",
+        help="Look for '```...```' blocks in rst files and replace them with output of these commands.",
+    )
+    expand_parser.add_argument(
+        "--directory",
+        default="docs/source/",
+        help="Process all *.rst files in this directory.",
+    )
 
     args = parser.parse_args()
     setup_logging(args)

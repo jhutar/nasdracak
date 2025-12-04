@@ -8,7 +8,7 @@ import subprocess
 # Add the 'tools' directory to the Python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from doit import expand_code_blocks   # noqa: E402
+from doit import expand_code_blocks  # noqa: E402
 
 
 def test_expand_code_blocks():
@@ -28,5 +28,7 @@ def test_expand_code_blocks():
         with open(test_file, "r") as f:
             content = f.read()
 
-        expected_content = "Header\n\n.. Vlozime seznam dovedností\nHello from test\n\nFooter"
+        expected_content = (
+            "Header\n\n.. Vlozime seznam dovedností\nHello from test\n\nFooter"
+        )
         assert content == expected_content
