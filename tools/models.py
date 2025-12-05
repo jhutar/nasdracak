@@ -6,7 +6,6 @@ import yaml
 import json
 import pathlib
 import random
-import glob
 import logging
 
 
@@ -167,11 +166,8 @@ class Race(BaseModelWithId):
 
 
 class Spell(BaseModelWithId):
-
     name: str
-
     description: str
-
     rule: str
 
 
@@ -251,12 +247,12 @@ class World:
     def get_by_id(self, entid: str) -> BaseModelWithId:
         model_name = entid.split(":")[0]
         model_type = SCHEMA_REGISTRY.get(model_name)
-        entity_name = entid[len(model_name) + 1 :]
+        entity_name = entid[len(model_name) + 1:]
         return self.get(model_type, entity_name)
 
     def get_by_model(self, model_name: str) -> list[BaseModelWithId]:
         model_type = SCHEMA_REGISTRY.get(model_name)
-        if model_type == None:
+        if model_type is None:
             raise Exception(f"Unknown model '{model_name}'")
         return [m for m in self._all_models.values() if isinstance(m, model_type)]
 

@@ -157,9 +157,9 @@ def split_string(text: str, max_length: int) -> typing.List[str]:
                 current_line += " " + chunk
             lines.append(current_line)
             current_line = ""
-            word = word[len(chunk) :]
+            word = word[len(chunk):]
             for i in range(0, len(word), max_length):
-                current_line = word[i : i + max_length]
+                current_line = word[i:i + max_length]
                 if len(current_line) >= max_length:
                     lines.append(current_line)
                     current_line = ""
@@ -257,18 +257,21 @@ def generate_character(args: argparse.Namespace):
 
     # Appearance
     _appearance = ""
+    print(f"Appearance: {_appearance}")
 
     # Background
     _background = ""
+    print(f"Background: {_background}")
 
     # Location
-    _location = pick_one(args.location, models.Location)
+    _location = pick_one(args.location, models.Location)   # noqa: F841
 
     # Occupation
-    _occupation = pick_one(args.occupation, models.Occupation)
+    _occupation = pick_one(args.occupation, models.Occupation)   # noqa: F841
 
     # Inventory
     _inventory = []
+    print(f"Inventory: {', '.join([i.name for i in _inventory])}")
 
     # Stats
     _properties = [world.pick(models.Property) for i in range(3)]
@@ -284,7 +287,6 @@ def generate_character(args: argparse.Namespace):
     _charisma = _race.innate_charisma + len(
         [i for i in _properties if i.id == "Property:charisma"]
     )
-    print(f"props: {', '.join([i.id for i in _properties])}")
     print(f"SÍL/OBR/INT/CHAR: {_strength}/{_dexterity}/{_inteligence}/{_charisma}")
 
     # Health and magenergy
