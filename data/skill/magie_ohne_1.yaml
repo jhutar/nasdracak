@@ -1,0 +1,5 @@
+id: Skill:magie_ohne_1
+name: Magie ohně (Jiskra)
+description: Ovládáš základy magie ohně. Dokážeš zažehnout malé plamínky a sesílat jednoduchá ohnivá kouzla.
+bonus: Bonus:magie-ohne
+requires: []

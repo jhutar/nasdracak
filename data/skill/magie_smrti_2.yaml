@@ -1,0 +1,6 @@
+id: Skill:magie_smrti_2
+name: Magie smrti (Zmar)
+description: Tvoje schopnosti s magií smrti pokročily. Umíš vysávat životní sílu a sesílat mocnější kouzla smrti.
+bonus: Bonus:magie-smrti
+requires:
+  - Skill:magie_smrti_1

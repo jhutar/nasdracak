@@ -1,0 +1,6 @@
+id: Skill:magie_ohne_2
+name: Magie ohně (Plamen)
+description: Tvoje schopnosti s magií ohně pokročily. Umíš vytvořit větší plameny a sesílat ničivější ohnivá kouzla.
+bonus: Bonus:magie-ohne
+requires:
+  - Skill:magie_ohne_1

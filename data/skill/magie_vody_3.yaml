@@ -1,0 +1,6 @@
+id: Skill:magie_vody_3
+name: Magie vody (Příval)
+description: Jsi mistrem magie vody. Dokážeš vyvolat přívalové vlny a ovládat vodu s ohromující silou.
+bonus: Bonus:magie-vody
+requires:
+  - Skill:magie_vody_2

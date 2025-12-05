@@ -1,0 +1,6 @@
+id: Skill:magie_ducha_3
+name: Magie ducha (Nadvláda)
+description: Jsi mistrem magie ducha. Dokážeš ovládat mysli nepřátel a sesílat mocná kouzla ducha.
+bonus: Bonus:magie-ducha
+requires:
+  - Skill:magie_ducha_2

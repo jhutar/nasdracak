@@ -1,0 +1,5 @@
+id: Skill:magie_zeme_1
+name: Magie země (Kamínek)
+description: Ovládáš základy magie země. Dokážeš pohybovat malými kameny a sesílat jednoduchá zemská kouzla.
+bonus: Bonus:magie-zeme
+requires: []

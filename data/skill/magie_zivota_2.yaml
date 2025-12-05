@@ -1,0 +1,6 @@
+id: Skill:magie_zivota_2
+name: Magie života (Tlukot)
+description: Tvoje schopnosti s magií života pokročily. Umíš léčit vážnější zranění a sesílat silnější kouzla života.
+bonus: Bonus:magie-zivota
+requires:
+  - Skill:magie_zivota_1

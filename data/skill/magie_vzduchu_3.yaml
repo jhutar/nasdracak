@@ -1,0 +1,6 @@
+id: Skill:magie_vzduchu_3
+name: Magie vzduchu (Vichřice)
+description: Jsi mistrem magie vzduchu. Dokážeš vyvolat vichřice a ovládat vzduch s ohromnou silou.
+bonus: Bonus:magie-vzduchu
+requires:
+  - Skill:magie_vzduchu_2

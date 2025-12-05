@@ -1,0 +1,6 @@
+id: Skill:magie_zeme_3
+name: Magie země (Skála)
+description: Jsi mistrem magie země. Dokážeš otřásat zemí a ovládat skály s neuvěřitelnou silou.
+bonus: Bonus:magie-zeme
+requires:
+  - Skill:magie_zeme_2

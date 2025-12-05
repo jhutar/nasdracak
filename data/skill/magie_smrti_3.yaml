@@ -1,0 +1,6 @@
+id: Skill:magie_smrti_3
+name: Magie smrti (Nicota)
+description: Jsi mistrem magie smrti. Dokážeš vyvolávat nemrtvé a ovládat síly nicoty.
+bonus: Bonus:magie-smrti
+requires:
+  - Skill:magie_smrti_2

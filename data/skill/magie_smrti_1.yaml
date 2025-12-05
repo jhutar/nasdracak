@@ -1,0 +1,5 @@
+id: Skill:magie_smrti_1
+name: Magie smrti (Stín)
+description: Ovládáš základy magie smrti. Dokážeš manipulovat se stíny a sesílat jednoduchá kouzla smrti.
+bonus: Bonus:magie-smrti
+requires: []
