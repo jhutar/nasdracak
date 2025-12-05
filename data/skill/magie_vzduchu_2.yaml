@@ -1,6 +1,6 @@
 id: Skill:magie_vzduchu_2
 name: Magie vzduchu (Poryv)
-description: Tvoje schopnosti s magií vzduchu pokročily. Umíš vytvořit silnější poryvy větru a sesílat mocnější vzdušná kouzla.
+description: Tvoje schopnosti s magií vzduchu pokročily.
 bonus: Bonus:magie-vzduchu
 requires:
   - Skill:magie_vzduchu_1

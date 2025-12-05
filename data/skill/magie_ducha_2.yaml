@@ -1,6 +1,6 @@
 id: Skill:magie_ducha_2
 name: Magie ducha (Vize)
-description: Tvoje schopnosti s magií ducha pokročily. Umíš vytvářet iluze a sesílat silnější kouzla ducha.
+description: Tvoje schopnosti s magií ducha pokročily.
 bonus: Bonus:magie-ducha
 requires:
   - Skill:magie_ducha_1

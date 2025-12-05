@@ -1,6 +1,6 @@
 id: Skill:magie_zivota_3
-name: Magie života (Duše)
-description: Jsi mistrem magie života. Dokážeš vracet duše do těl a ovládat životní sílu.
+name: Magie života (Hvozd)
+description: Jsi mistrem magie života.
 bonus: Bonus:magie-zivota
 requires:
   - Skill:magie_zivota_2

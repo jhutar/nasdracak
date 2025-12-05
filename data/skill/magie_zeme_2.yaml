@@ -1,6 +1,6 @@
 id: Skill:magie_zeme_2
 name: Magie země (Balvan)
-description: Tvoje schopnosti s magií země pokročily. Umíš pohybovat většími balvany a sesílat mocnější zemská kouzla.
+description: Tvoje schopnosti s magií země pokročily.
 bonus: Bonus:magie-zeme
 requires:
   - Skill:magie_zeme_1

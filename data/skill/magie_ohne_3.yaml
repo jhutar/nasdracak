@@ -1,6 +1,6 @@
 id: Skill:magie_ohne_3
 name: Magie ohně (Požár)
-description: Jsi mistrem magie ohně. Dokážeš vyvolat ohnivé bouře a ovládat oheň s devastující silou.
+description: Jsi mistrem magie ohně.
 bonus: Bonus:magie-ohne
 requires:
   - Skill:magie_ohne_2
