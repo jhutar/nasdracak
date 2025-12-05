@@ -36,8 +36,32 @@ Změny vygnerované pomocí Gemini musí být commitnuty s trailerem "Generated-
 
 # Zdrojový kod skriptů
 
-Kód je formátován pomocí nástroje `black` a nehlásí chyby při kontrole pomocí `flake8`.
-
 Vývoj skriptů v adresáři `tools/` používá virtuální environment v `venv/`, takže se vše pouští v tomto venv.
 
-Testy se pouští pomocí `venv/bin/pytest tools/tests/`.
+## Formátování kódu
+
+Kód je formátován pomocí nástroje `black`:
+```bash
+venv/bin/black tools/
+```
+
+## Statická analýza
+
+Kód je kontrolován pomocí `flake8`:
+```bash
+venv/bin/flake8 tools/
+```
+
+## Testování
+
+Testy se pouští pomocí `pytest`:
+```bash
+venv/bin/pytest tools/tests/
+```
+
+## Validace dat
+
+Datové soubory se validují pomocí linteru:
+```bash
+venv/bin/python tools/doit.py --data data/ lint
+```

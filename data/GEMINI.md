@@ -11,35 +11,45 @@ Každý datový soubor v tomto adresáři obsahuje následující pole:
 
 ## Struktura dat
 
-- **Dovednosti (Skill):** Definovány v `data/skill/*.yaml`.
-  - `name`, `description`, `bonus` (odkaz na `Bonus`), `requires` (seznam `Skill`).
+### Dovednosti (Skill)
+Definovány v `data/skill/*.yaml`.
+- `name`, `description`, `bonus` (odkaz na `Bonus`), `requires` (seznam `Skill`).
 
-- **Bonusy (Bonus):** Definovány v `data/meta/bonus/*.yaml`.
-  - `name`, `description`.
+### Bonusy (Bonus)
+Definovány v `data/meta/bonus/*.yaml`.
+- `name`, `description`.
 
-- **Postavy (Character):** Definovány v `data/character/*.yaml`.
-  - `race` (odkaz na `Race`), `name`, `appearance`, `background`, `strength`, `dexterity`, `inteligence`, `charisma`, `level`, `health`, `health_max`, `magenergy`, `magenergy_max`, `inventory` (seznam odkazů na `MeleeWeapon`, `RangeWeapon`, `CommonItem`), `occupation` (odkaz na `Occupation`), `location` (odkaz na `Location`).
+### Postavy (Character)
+Definovány v `data/character/*.yaml`.
+- `race` (odkaz na `Race`), `name`, `appearance`, `background`, `strength`, `dexterity`, `inteligence`, `charisma`, `level`, `health`, `health_max`, `magenergy`, `magenergy_max`, `inventory` (seznam odkazů na `MeleeWeapon`, `RangeWeapon`, `CommonItem`), `occupation` (odkaz na `Occupation`), `location` (odkaz na `Location`).
 
-- **Povolání (Occupation):** Definovány v `data/meta/occupation/*.yaml`.
-  - `name`, `description`.
+### Povolání (Occupation)
+Definovány v `data/meta/occupation/*.yaml`.
+- `name`, `description`.
 
-- **Lokace (Location):** Definovány v `data/meta/location/*.yaml`.
-  - `name`.
+### Lokace (Location)
+Definovány v `data/meta/location/*.yaml`.
+- `name`.
 
-- **Rasy (Race):** Definovány v `data/meta/race/*.yaml`.
-  - `name`, `description`, `names` (seznam jmen), `innate_strength`, `innate_dexterity`, `innate_inteligence`, `innate_charisma`.
+### Rasy (Race)
+Definovány v `data/meta/race/*.yaml`.
+- `name`, `description`, `names` (seznam jmen), `innate_strength`, `innate_dexterity`, `innate_inteligence`, `innate_charisma`.
 
-- **Vlastnosti (Property):** Definovány v `data/meta/property/*.yaml`.
-  - `name`, `description`.
+### Vlastnosti (Property)
+Definovány v `data/meta/property/*.yaml`.
+- `name`, `description`.
 
-- **Zbraně na blízko (MeleeWeapon):** Definovány v `data/weapon/melee/*.yaml`.
-  - `name`, `description`, `demage`, `price`.
+### Zbraně na blízko (MeleeWeapon)
+Definovány v `data/weapon/melee/*.yaml`.
+- `name`, `description`, `demage`, `price`.
 
-- **Střelné zbraně (RangeWeapon):** Definovány v `data/weapon/range/*.yaml`.
-  - `name`, `description`, `demage`, `price`.
+### Střelné zbraně (RangeWeapon)
+Definovány v `data/weapon/range/*.yaml`.
+- `name`, `description`, `demage`, `price`.
 
-- **Obyčejné předměty (CommonItem):** Definovány v `data/item/common/*.yaml`.
-  - `name`, `description`, `price`.
+### Obyčejné předměty (CommonItem)
+Definovány v `data/item/common/*.yaml`.
+- `name`, `description`, `price`.
 
 ## Modely dat
 
