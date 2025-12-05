@@ -166,6 +166,15 @@ class Race(BaseModelWithId):
     innate_charisma: int
 
 
+class Spell(BaseModelWithId):
+
+    name: str
+
+    description: str
+
+    rule: str
+
+
 class Property(BaseModelWithId):
     name: str
     description: str
