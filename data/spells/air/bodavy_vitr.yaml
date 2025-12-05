@@ -1,5 +1,4 @@
-description: Vyšleš ostrý poryv větru, který dokáže nepřítele omráčit nebo mu ztížit
-  pohyb.
 id: Spell:bodavy_vitr
 name: Bodavý vítr
-rule: TODO
+description: Vyšleš rychlý ostrý poryv větru který nese kamínky a dokáže tak zranit nepřítele.
+rule: Zaplatíš 2 magy a hoďíš <hod> + <bonus magie větru> + <volitelně další magy> a to je tvé útočné číslo. Cíl hodí na obranu stejně jako proti běžnému útoku.

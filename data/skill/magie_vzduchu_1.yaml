@@ -1,5 +1,5 @@
 id: Skill:magie_vzduchu_1
 name: Magie vzduchu (Vánek)
-description: Ovládáš základy magie vzduchu.
+description: Ovládáš základy magie vzduchu. Znáš kouzla "Mlha", "Sevření větru" a "Bodavý vítr".
 bonus: Bonus:magie-vzduchu
 requires: []
