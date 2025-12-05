@@ -1,4 +1,4 @@
 id: Spell:mlha
 name: Mlha
-description: Vyčaruješ hustou mlhu, která sníží viditelnost a ztíží orientaci v okolí.
-rule: Zaplatíš 3 magy a přivoláš hustou mlhu do svého okolí (ty jsi v centru, asi 5 metrů na každou stranu je mlha neprůhledná, tlumí zvuky a na dalších 5 metrů ztěžuje orientaci). Vydrží 10 minut a střelba do a nebo z mlhy je o 3 body horší.
+description: Kolem sebe vyčaruješ hustou mlhu, která sníží viditelnost a ztíží orientaci v okolí.
+rule: Zaplatíš 3 magy a přivoláš hustou mlhu (ty jsi uprostřed, mlha je asi 5 metrů na každou stranu neprůhledná, tlumí zvuky a ztěžuje orientaci). Vydrží 10 minut a střelba do a nebo z mlhy je o 3 body horší.
