@@ -1,4 +1,4 @@
 id: Spell:severni_vetru
 name: Sevření větru
 description: Dokážeš ovládat proudy vzduchu a vytvořit tak vzdušné sevření, které může spoutat nepřítele.
-rule: Zaplatíš 6 magů a hoďíš <hod> + <bonus magie větru> + <volitelně další magy> a cíl hodí <hod> + <SÍL>. Pokud je tvé číslo větší, cíl je spoután na počet kol odpovídající rozdílu čísel.
+rule: Zaplatíš 6 magů a hoďíš <hod> + <INT> + <bonus magie větru> + <volitelně další magy> a cíl hodí <hod> + <SÍL>. Pokud je tvé číslo větší, cíl je spoután na počet kol odpovídající rozdílu čísel.
