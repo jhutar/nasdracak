@@ -1,0 +1,5 @@
+id: EnchantedItem:hrabencina_vonavka
+name: Hraběnčina voňavka
+description: Příjemná voňavka, která dočasně zvyšuje charisma.
+rule: Po použití se tvé charisma na hodinu zvýší o +1. Můžeš ji na sebe použít jen jednou denně.
+price: 1.0

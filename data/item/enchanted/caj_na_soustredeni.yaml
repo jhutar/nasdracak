@@ -1,0 +1,5 @@
+id: EnchantedItem:caj_na_soustredeni
+name: Čaj na soustředění
+description: Z bylinek pečlivě připravený odvar. Je vhodný pro doplnění magické energie.
+rule: Po vypití získáš 1 a více magenergie (podle toho jak se povedla výroba), ale ne nad své maximum. Můžeš ho na sebe použít jen jednou denně.
+price: 0.5

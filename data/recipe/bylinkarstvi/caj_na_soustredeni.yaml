@@ -2,4 +2,4 @@ id: Recipe:caj_na_soustredeni
 name: Čaj na soustředění
 description: Z nasbíraných bylinek připravíš odvar (zašpuntovaný vydrží dlouho) pro přidání magické síly.
 rule: Nasbíráš bylinky (nebo použiješ jednu surovinu) a zaplatíš 1 mag. Získáváš odvar který přidá <tvůj bonus léčení> magů.
-outcome: EnchantedItem:TODO
+outcome: EnchantedItem:caj_na_soustredeni

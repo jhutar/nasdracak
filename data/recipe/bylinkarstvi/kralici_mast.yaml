@@ -2,4 +2,4 @@ id: Recipe:kralici_mast
 name: Králičí mast
 description: Z nasbíraných bylinek připravíš mast, která zvyšuje obratnost.
 rule: Nasbíráš bylinky nebo použiješ jednu surovinu a zaplatíš 3 magy - <tvůj bonus na léčení> (minimálně ale 1). Získáváš mast která dočasně zvyšuje obratnost o +1.
-outcome: EnchantedItem:TODO
+outcome: EnchantedItem:kralici_mast

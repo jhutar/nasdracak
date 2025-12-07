@@ -1,0 +1,5 @@
+id: EnchantedItem:prasek_byci_sily
+name: Prášek býčí síly
+description: Jemný prášek, který po požití dočasně zvyšuje sílu.
+rule: Po požití se tvá síla dočasně zvýší o +1. Účinek trvá 1 hodinu. Můžeš ho na sebe použít jen jednou denně.
+price: 1.0

@@ -1,0 +1,5 @@
+id: EnchantedItem:kralici_mast
+name: Králičí mast
+description: Mast, která po použití dočasně zvyšuje obratnost.
+rule: Po použití se tvá obratnost na deset minut zvýší o +1. Můžeš ji na sebe použít jen jednou denně.
+price: 1.0
