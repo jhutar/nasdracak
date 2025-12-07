@@ -1,0 +1,5 @@
+id: Recipe:hrabencina_vonavka
+name: Hraběnčina voňavka
+description: Nasbírané bylinky louhuješ v etanolu, potom krátce povaříš a získáš příjemnou voňavku.
+rule: Nasbíráš bylinky nebo použiješ jednu surovinu a zaplatíš 2 magy. Získáváš mast která dočasně přidává +1 k charismě.
+outcome: EnchantedItem:TODO

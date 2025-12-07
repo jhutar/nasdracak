@@ -105,6 +105,13 @@ def lint_directory(data_dir: str) -> dict:
                 logging.warning(f"  -> ERROR: {issue}")
                 issues[str(item._file_path)].append(issue)
 
+        # Check outcome refferences (e.g. in Recipe model)
+        if hasattr(item, "outcome"):
+            if item.outcome not in seen_ids:
+                issue = f"Unknown outcome '{item.outcome}' found."
+                logging.warning(f"  -> ERROR: {issue}")
+                issues[str(item._file_path)].append(issue)
+
         # Check modifiers only point at existing items
         if hasattr(item, "modifiers"):
             for mod_id, mod_val in item.modifiers.items():

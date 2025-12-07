@@ -126,6 +126,13 @@ class CommonItem(BaseModelWithId):
     price: float
 
 
+class EnchantedItem(BaseModelWithId):
+    name: str
+    description: str
+    price: float
+    rule: str
+
+
 class Bonus(BaseModelWithId):
     """Describes bonuses from various skills."""
 
@@ -169,6 +176,20 @@ class Spell(BaseModelWithId):
     name: str
     description: str
     rule: str
+
+
+class Recipe(BaseModelWithId):
+    name: str
+    description: str
+    rule: str
+    outcome: str
+
+    @pydantic.field_validator("outcome")
+    @classmethod
+    def check_outcome_id(cls, v: str) -> str:
+        if not v.startswith("EnchantedItem:"):
+            raise ValueError(f"Outcome '{v}' does not look like valid ID.")
+        return v
 
 
 class Property(BaseModelWithId):

@@ -1,0 +1,5 @@
+id: Recipe:leciva_mast
+name: Léčivá mast
+description: Z nasbíraných bylinek připravíš léčivout mast na zranění a různé drobné neduhy.
+rule: Nasbíráš bylinky nebo použiješ jednu surovinu a zaplatíš 1 mag. Získáváš mast která léčí 1 + <tvůj bonus léčení> životů.
+outcome: EnchantedItem:leciva_mast
