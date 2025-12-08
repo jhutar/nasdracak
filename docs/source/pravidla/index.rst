@@ -67,7 +67,7 @@ Dovednosti patří do různých skupin a v rámci těchto skupin ti dávájí bo
 
 Některé dovednosti jsou obecné (například "Akrobacie" - po kládě nad propastí se můžeš pokusit přelézt i pokud tuto dovednost nemáš, jen si nepřipočítávaš bonus), některé vyhrazené pro ty kdo se je naučili (alchymistické suroviny prostě bez dovednosti "Získávání surovin" nejsi schopen vytěžit). Vyhrazené dovednosti mají mnohdy ještě další dodatečné možnosti.
 
-.. Vlozime seznam dovedností
+.. Vložíme seznam dovedností
 ```tools/doit.py --data data/ format --template tools/templates/skill-list.rst --model Skill --all-in-one```
 
 .. admonition:: Příklad:
@@ -76,9 +76,18 @@ Některé dovednosti jsou obecné (například "Akrobacie" - po kládě nad prop
 
 4. Nyní si z tabulky vyber nějaké to vybavení do začátku.
 
-Předpokládej, že každý má batoh, měch na vodu a křesadlo, ale třeba šaty už je potřeba vybrat.
+Předpokládej, že každý má batoh, měch na vodu, křesadlo a další běžné nezbytnosti, ale třeba šaty nebo nůž už je potřeba vybrat.
 
-TODO seznam vybavení
+.. Vložíme seznam vybavení
+```tools/doit.py --data data/ format --template tools/templates/common_item-table.rst --model CommonItem --all-in-one```
+
+A nějaká zbraň by se asi taky hodila.
+
+.. Vložíme seznam zbraní na blízko
+```tools/doit.py --data data/ format --template tools/templates/weapon-table.rst --model MeleeWeapon --all-in-one```
+
+.. Vložíme seznam střelných zbraní
+```tools/doit.py --data data/ format --template tools/templates/weapon-table.rst --model RangeWeapon --all-in-one```
 
 5. Urči počet životů a množství magenergie, kterou tvá postava vládne.
 
