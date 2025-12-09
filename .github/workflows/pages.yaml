@@ -68,7 +68,7 @@ jobs:
 
       - name: Expand macros in docs
         run: |
-          tools/doit.py -d expand --directory docs/source/
+          tools/doit.py --debug expand --directory docs/source/
 
       - name: Build pdf docs
         run: |
