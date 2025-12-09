@@ -34,6 +34,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Clone extra tools
+        run: |
+          git clone https://github.com/astraw/svg_stack.git
+
       - name: Install required tools
         run: |
           export DEBIAN_FRONTEND=noninteractive
@@ -47,6 +51,7 @@ jobs:
             latexmk \
             lmodern \
             make \
+            poppler-utils \
             python3-pip \
             tex-gyre \
             texlive-fonts-extra \
@@ -57,7 +62,13 @@ jobs:
             texlive-luatex \
             texlive-xetex \
             xindy
-          pip install sphinx sphinxcontrib-svg2pdfconverter
+          pip install -r requirements.txt
+          pip install -r svg_stack/requirements.txt
+          pip install six   # Extra requirement needed for svg_stack
+
+      - name: Expand macros in docs
+        run: |
+          tools/doit.py -d expand --directory docs/source/
 
       - name: Build pdf docs
         run: |

@@ -21,7 +21,7 @@ for what in "Skill" "Spell"; do
 
     # Generate source cards
     echo "Generate source cards for ${what}"
-    uv run tools/doit.py format --model "${what}" --template tools/templates/$( echo "${what}" | tr '[:upper:]' '[:lower:]' ).svg --output-dir build/${what}/cards/
+    tools/doit.py format --model "${what}" --template tools/templates/$( echo "${what}" | tr '[:upper:]' '[:lower:]' ).svg --output-dir build/${what}/cards/
 
     # Generate rows of 3 cards
     counter=1
@@ -42,7 +42,7 @@ for what in "Skill" "Spell"; do
         fi
 
         echo "Creating (complete) row $counter from: $f1, $f2, $f3"
-        uv --directory svg_stack/ run svg_stack.py --direction=h --margin=100 "../$f1" "../$f2" "../$f3" > build/${what}/rows/row-$counter.svg
+        svg_stack/svg_stack.py --direction=h --margin=100 "../$f1" "../$f2" "../$f3" > build/${what}/rows/row-$counter.svg
         f1=""
         f2=""
         f3=""
@@ -53,10 +53,10 @@ for what in "Skill" "Spell"; do
     if [[ -n $f1 ]]; then
         if [[ -n $f2 ]]; then
             echo "Creating (partial) row $counter from: $f1, $f2"
-            uv --directory svg_stack/ run svg_stack.py --direction=h --margin=100 "../$f1" "../$f2" > build/${what}/rows/row-$counter.svg
+            svg_stack/svg_stack.py --direction=h --margin=100 "../$f1" "../$f2" > build/${what}/rows/row-$counter.svg
         else
             echo "Creating (partial) row $counter from: $f1"
-            uv --directory svg_stack/ run svg_stack.py --direction=h --margin=100 "../$f1" > build/${what}/rows/row-$counter.svg
+            svg_stack/svg_stack.py --direction=h --margin=100 "../$f1" > build/${what}/rows/row-$counter.svg
         fi
     fi
 
@@ -79,7 +79,7 @@ for what in "Skill" "Spell"; do
         fi
 
         echo "Creating (complete) page $counter from: $f1, $f2, $f3"
-        uv --directory svg_stack/ run svg_stack.py --direction=v --margin=100 "../$f1" "../$f2" "../$f3" > build/${what}/pages/page-$counter.svg
+        svg_stack/svg_stack.py --direction=v --margin=100 "../$f1" "../$f2" "../$f3" > build/${what}/pages/page-$counter.svg
         f1=""
         f2=""
         f3=""
@@ -90,10 +90,10 @@ for what in "Skill" "Spell"; do
     if [[ -n $f1 ]]; then
         if [[ -n $f2 ]]; then
             echo "Creating (partial) page $counter from: $f1, $f2"
-            uv --directory svg_stack/ run svg_stack.py --direction=v --margin=100 "../$f1" "../$f2" > build/${what}/pages/page-$counter.svg
+            svg_stack/svg_stack.py --direction=v --margin=100 "../$f1" "../$f2" > build/${what}/pages/page-$counter.svg
         else
             echo "Creating (partial) page $counter from: $f1"
-            uv --directory svg_stack/ run svg_stack.py --direction=v --margin=100 "../$f1" > build/${what}/pages/page-$counter.svg
+            svg_stack/svg_stack.py --direction=v --margin=100 "../$f1" > build/${what}/pages/page-$counter.svg
         fi
     fi
 
