@@ -70,6 +70,10 @@ jobs:
         run: |
           tools/doit.py --debug expand --directory docs/source/
 
+      - name: Build cards
+        run: |
+          ./build-cards.sh
+
       - name: Build pdf docs
         run: |
           sphinx-build -M latexpdf docs/source/ docs/build/
@@ -79,8 +83,12 @@ jobs:
           sphinx-build -M latexpdf docs/source/dobrodruzstvi/ docs/build/
           sphinx-build -M latexpdf docs/source/dobrodruzstvi/opustena_magova_vez/ docs/build/
           sphinx-build -M latexpdf docs/source/dobrodruzstvi/duha_ve_meste/ docs/build/
+
+      - name: Collect prebuilt pdfs
+        run: |
           mkdir -p docs/source/_static/
-          mv docs/build/latex/nasdracak*.pdf docs/source/_static/
+          mv build/*.pdf docs/source/_static/   # cards in pdf
+          mv docs/build/latex/nasdracak*.pdf docs/source/_static/   # docs in pdf
           ls -al docs/source/_static/
 
       - name: Build html docs
