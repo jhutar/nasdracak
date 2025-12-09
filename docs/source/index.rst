@@ -15,6 +15,11 @@ Pokud si chcete stáhnout PDF variantu tohoto dokumentu nebo jeho podčásti, ta
  * Dobrodružství Opuštěná mágova věž: :download:`nasdracak-dobrodruzstvi-opustena_magova_vez.pdf <_static/nasdracak-dobrodruzstvi-opustena_magova_vez.pdf>`
  * Dobrodružství Duha ve městě: :download:`nasdracak-dobrodruzstvi-duha_ve_meste.pdf <_static/nasdracak-dobrodruzstvi-duha_ve_meste.pdf>`
 
+Karty v PDF:
+
+ * Dovednosti: :download:`Skill.pdf <_static/Skill.pdf>`
+ * Kouzla: :download:`Spell.pdf <_static/Spell.pdf>`
+
 .. toctree::
    :maxdepth: 3
    :caption: Obsah:
