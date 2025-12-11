@@ -1,0 +1,5 @@
+id: Armor:stit
+name: Štít
+description: Dřevěný štít, který se drží v jedné ruce a slouží k odrážení útoků.
+defense: 1
+price: 5.0

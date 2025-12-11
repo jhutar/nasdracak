@@ -1,4 +1,5 @@
-id: CommonItem:zbroj-supinova
+id: Armor:zbroj-supinova
 name: Šupinová zbroj
-description: "Kožená nebo látková vesta pokrytá malými kovovými šupinami. Kombinuje ochranu a pohyblivost. Obrana: +3"
+description: Kožená nebo látková vesta pokrytá malými kovovými šupinami. Kombinuje ochranu a pohyblivost.
+defense: 3
 price: 100.0

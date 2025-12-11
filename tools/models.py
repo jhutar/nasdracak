@@ -120,6 +120,13 @@ class RangeWeapon(BaseModelWithId):
     price: float
 
 
+class Armor(BaseModelWithId):
+    name: str
+    description: str
+    defense: int
+    price: float
+
+
 class CommonItem(BaseModelWithId):
     name: str
     description: str

@@ -1,4 +1,5 @@
-id: CommonItem:zbroj-vycpavana
+id: Armor:zbroj-vycpavana
 name: Vycpávaná zbroj
-description: "Prošívaný kabátec z několika vrstev látky a vlny. Poskytuje základní ochranu. Obrana: +1"
+description: Prošívaný kabátec z několika vrstev látky a vlny. Poskytuje základní ochranu.
+defense: 1
 price: 15.0

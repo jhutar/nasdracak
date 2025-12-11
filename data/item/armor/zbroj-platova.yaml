@@ -1,4 +1,5 @@
-id: CommonItem:zbroj-platova
+id: Armor:zbroj-platova
 name: Plátová zbroj
-description: "Zbroj tvořená velkými kusy tvarovaného plechu. Těžká, ale nabízí skvělou ochranu. Obrana: +5"
+description: Zbroj tvořená velkými kusy tvarovaného plechu. Těžká, ale nabízí skvělou ochranu.
+defense: 5
 price: 150.0

@@ -1,4 +1,5 @@
-id: CommonItem:zbroj-kozena
+id: Armor:zbroj-kozena
 name: Kožená zbroj
-description: "Zbroj z tvrzené kůže. Lehčí než kovová, ale poskytuje slušnou ochranu. Obrana: +2"
+description: Zbroj z tvrzené kůže. Lehčí než kovová, ale poskytuje slušnou ochranu.
+defense: 2
 price: 35.0

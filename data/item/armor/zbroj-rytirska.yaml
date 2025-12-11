@@ -1,4 +1,5 @@
-id: CommonItem:zbroj-rytirska
+id: Armor:zbroj-rytirska
 name: Rytířská zbroj
-description: "Kompletní plátová zbroj pokrývající celé tělo. Vrchol zbrojířského umění. Obrana: +6"
+description: Kompletní plátová zbroj pokrývající celé tělo. Vrchol zbrojířského umění.
+defense: 6
 price: 500.0
