@@ -1,6 +1,10 @@
-id: Skill:prevteleni-do-zvirete
+id: Skill:prevteleni_do_zvirete
 name: Převtělení do zvířete
 description: Dokážeš se dočasně převtělit do těla zvířete a využívat jeho schopností.
+rule: TODO
+who: kdo má dovednost
 bonus: Bonus:zvirata
 requires:
-  - Skill:superiorni-smysl-zvirete
+  - Skill:ovladani_zvirete
+  - Skill:smysl_zvirete
+  - Skill:mluveni_se_zviraty

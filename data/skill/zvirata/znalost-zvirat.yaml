@@ -1,0 +1,7 @@
+id: Skill:znalost_zvirat
+name: Znalost zvířat
+description: Znáš téměř všechny nemagická zvířata a dokážeš odhadnout jejich vlastnosti a někdy i silná a slabá místa.
+rule: Zaplať jeden mag a zhruba odhadneš vlastnosti zvířete (SÍL, OBR, INT, CHAR a level) a jeho útočné a obranné možnosti.
+who: kdo má dovednost
+bonus: Bonus:zvirata
+requires: []

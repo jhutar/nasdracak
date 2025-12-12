@@ -1,6 +1,0 @@
-id: Skill:ochoceni
-name: Ochočení
-description: Dokážeš ochočit divoké zvíře a udělat z něj svého společníka.
-bonus: Bonus:zvirata
-requires:
-  - Skill:odvraceni-z-boje

@@ -1,0 +1,9 @@
+id: Skill:odvraceni_z_boje
+name: Odvrácení z boje
+description: Dokážeš nemagické zvíře zahnat nebo uklidnit tak, že se stáhne z boje.
+rule: Zaplať 2 magy a hoď <hod> + <CHAR> + <bonus pro zvířata> + <dodatečné magy> a pokud hodíš ≥ než zvíře <hod> + <level> + <vůle bojovat>, zvíře uteče z boje.
+note: Záleží na vůli bojovat zvířete (1 = bojuje proto že nemá jinou možnost, 4 = bojuje protože bylo vyprovokováno nebo tě chce sežrat a 6 = je pod cizí nadvládou a plní silný rozkaz).
+who: kdo má dovednost
+bonus: Bonus:zvirata
+requires:
+  - Skill:znalost_zvirat

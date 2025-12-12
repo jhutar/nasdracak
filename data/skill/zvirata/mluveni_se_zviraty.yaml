@@ -1,6 +1,8 @@
-id: Skill:mluveni-se-zviraty
+id: Skill:mluveni_se_zviraty
 name: Mluvení se zvířaty
 description: Rozumíš zvířecí řeči a dokážeš se s nimi dorozumívat.
+rule: TODO
+who: kdo má dovednost
 bonus: Bonus:zvirata
 requires:
-  - Skill:ochoceni
+  - Skill:ochoceni_zvirete

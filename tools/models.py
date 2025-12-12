@@ -150,6 +150,9 @@ class Bonus(BaseModelWithId):
 class Skill(BaseModelWithId):
     name: str
     description: str
+    rule: str = "TODO"
+    note: str = ""   # Notes for game master
+    who: str = "kdokoli"
     bonus: str
     requires: list[str] = []
 

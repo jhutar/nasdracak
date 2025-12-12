@@ -60,13 +60,28 @@
        style="font-size:4px;font-family:'TeX Gyre Bonum';fill:#000000"
        inkscape:label="description2">{% for row in entity.description | split_string(25) %}<tspan
    x="5"
-   y="{{ 30 + loop.index * 5 }}"
+   y="{{ 30 + loop.index * 4.5 }}"
+   id="tspan2">{{ row }}</tspan>{% endfor %}</text>
+    <text
+       xml:space="preserve"
+       id="text11"
+       style="font-size:3px;font-family:'TeX Gyre Bonum';fill:#000000"
+       inkscape:label="rule">{% for row in ("Pravidlo: " + entity.rule) | split_string(35) %}<tspan
+   x="5"
+   y="{{ 50 + loop.index * 3.5 }}"
    id="tspan2">{{ row }}</tspan>{% endfor %}</text>
     <text
        xml:space="preserve"
        id="text10"
        x="5"
-       y="80"
+       y="78"
+       style="font-size:3px;font-family:'TeX Gyre Bonum';text-align:start"
+       inkscape:label="who">Kdo může použít: {{ entity.who }}</text>
+    <text
+       xml:space="preserve"
+       id="text10"
+       x="5"
+       y="82"
        style="font-size:3px;font-family:'TeX Gyre Bonum';text-align:start"
        inkscape:label="requires">Vyžaduje: {{ entity.requires | join(', ') }}</text>
   </g>
