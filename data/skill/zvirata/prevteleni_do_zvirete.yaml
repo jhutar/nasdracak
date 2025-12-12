@@ -1,7 +1,7 @@
 id: Skill:prevteleni_do_zvirete
 name: Převtělení do zvířete
 description: Dokážeš se dočasně převtělit do těla zvířete a využívat jeho schopností.
-rule: TODO
+rule: Zaplať 10 magů a proměníš se ve zvolené zvíře které ale musí být v tvém dohledu. Změna trvá maximálně 10 minut, ale efekt můžeš kdykoliv přerušit.
 who: kdo má dovednost
 bonus: Bonus:zvirata
 requires:

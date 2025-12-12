@@ -2,7 +2,7 @@ id: Skill:ochoceni_zvirete
 name: Ochočení
 description: Dokážeš ochočit divoké zvíře a udělat z něj svého společníka.
 rule: Zaplať 3 magy a hoď <hod> + <CHAR> + <bonus pro zvířata> + <dodatečné magy> a pokud hodíš ≥ než zvíře <hod> + <level> + 3 * <vůle bojovat>, zvíře se stane tvým přítelem.
-note: Pokud se pokoušíš ochočit přímo při boji, bude to téměř nemožné. Záleží na vůli bojovat zvířete (0 = nebojuje s tebou, 1 = bojuje proto že nemá jinou možnost, 4 = bojuje protože bylo vyprovokováno nebo tě chce sežrat a 6 = je pod cizí nadvládou a plní silný rozkaz). Po ochočení je třeba zvíře pravidelně krmit, jinak se od tebe odpoutá.
+note: Pokud se pokoušíš ochočit přímo při boji, bude to téměř nemožné. Vůle bojovat viz dovednost "Odvrácení z boje". Po ochočení je třeba zvíře pravidelně krmit, jinak se od tebe odpoutá.
 who: kdo má dovednost
 bonus: Bonus:zvirata
 requires:

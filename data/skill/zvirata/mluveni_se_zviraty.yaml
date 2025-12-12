@@ -1,7 +1,7 @@
 id: Skill:mluveni_se_zviraty
 name: Mluvení se zvířaty
-description: Rozumíš zvířecí řeči a dokážeš se s nimi dorozumívat.
-rule: TODO
+description: Dočasně rozumíš zvířecí řeči a dokážeš se s nimi dorozumívat.
+rule: Zaplať 5 magů a 10 minut můžeš mluvit se zvířaty jednoho zvoleného druhu.
 who: kdo má dovednost
 bonus: Bonus:zvirata
 requires:

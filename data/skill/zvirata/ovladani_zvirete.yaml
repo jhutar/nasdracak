@@ -1,7 +1,7 @@
 id: Skill:ovladani_zvirete
 name: Ovládání zvířete
-description: Dokážeš ovládat zvířata a dávat jim složité povely.
-rule: TODO
+description: Dokážeš dočasně ovládat zvířata a dávat jim jednoduché povely.
+rule: Zaplať 4 magy a hoď <hod> + <CHAR> + <bonus pro zvířata> + <dodatečné magy> a pokud hodíš ≥ než zvíře <hod> + <level> + 3 * <vůle bojovat>, můžeš zvířeti rozkázat co má udělat.
 who: kdo má dovednost
 bonus: Bonus:zvirata
 requires:
