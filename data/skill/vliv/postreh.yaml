@@ -1,5 +1,6 @@
 id: Skill:postreh
 name: Postřeh
 description: Dokážeš vycítit skryté náznaky, spíše si všimneš podezřelých věcí či chování, málokdo tě dokáže obalamutit.
+rule: Při zkoušce vztahující se k této dovednosti si k hodu připočti bonus na vliv.
 bonus: Bonus:vliv
 requires: []

@@ -1,5 +1,6 @@
 id: Skill:odhodlani
 name: Odhodlání
 description: Máš jakousi vnitřní motivaci kterou ostatní postrádají. Když si něco usmyslíš, jdeš si za tím a překážky tě jen tak neodradí.
+rule: Při zkoušce vztahující se k této dovednosti si k hodu připočti bonus na vliv.
 bonus: Bonus:vliv
 requires: []

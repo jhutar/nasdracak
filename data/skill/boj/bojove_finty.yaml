@@ -1,5 +1,7 @@
 id: Skill:bojove-finty
 name: Bojové finty
 description: Naučil ses využívat slabin protivníka a speciálních úderů, které jej dokáží zaskočit.
+rule: Při hodu na útok házej 2x a vyber si ten lepší hod.
 bonus: Bonus:boj
-requires: []
+requires:
+  - Skill:boj

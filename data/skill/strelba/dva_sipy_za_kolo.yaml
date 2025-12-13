@@ -1,5 +1,7 @@
 id: Skill:dva-sipy-za-kolo
 name: Dva šípy za kolo
-description: Jsi tak rychlý a obratný s lukem, že dokážeš vypálit dva šípy za jedno kolo.
+description: Jsi tak rychlý a obratný s lukem, prakem a podobně, že dokážeš vypálit dvě střely za jedno kolo.
+rule: Při boji se střelnou zbraní můžeš vystřelit dvakrát za kolo.
 bonus: Bonus:strelba
-requires: []
+requires:
+  - Skill:presnost

@@ -1,5 +1,6 @@
 id: Skill:boj
 name: Bojová zdatnost
 description: Strávil jsi už nějaký ten čas se zbraněmi pro boj tváří v tvář a proto jsi získal jistý cvik který z tebe činí nebezpečného protivníka.
+rule: Při hodu na útok se zbraní na blízko si připočti svůj bonus na boj.
 bonus: Bonus:boj
 requires: []

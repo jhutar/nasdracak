@@ -1,5 +1,7 @@
 id: Skill:obrana-s-utokem
 name: Obrana s útokem
 description: Dokážeš efektivně kombinovat obranu s protiútokem, takže i při obraně dokážeš zasadit úder.
+rule: Pokud ti při hodu na obranu padne 5 nebo 6, můžeš na nepřítele v tomto kole zaůtočit ještě jednou.
 bonus: Bonus:boj
-requires: []
+requires:
+  - Skill:obranne-finty

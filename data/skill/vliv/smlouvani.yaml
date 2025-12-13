@@ -1,5 +1,6 @@
 id: Skill:smlouvani
 name: Smlouvání
 description: Umlouváš lepší cenu s obchodníkem či snáze přesvědčíš druhou stranu při vyjednávání.
+rule: Při zkoušce vztahující se k této dovednosti si k hodu připočti bonus na vliv.
 bonus: Bonus:vliv
 requires: []

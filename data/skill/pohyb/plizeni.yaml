@@ -1,5 +1,6 @@
 id: Skill:plizeni
 name: Plížení
 description: Dokážeš se tiše plížit lesem, neslyšně našlapovat v jeskyních nebo v městských uličkách neviděn přebíhat ze stínu do stínu.
+rule: "Při plížení v libovolném terénu si k hodu na zkoušku připočítej svůj bonus na pohyb. Další výhodu získáš za magy: +1 za 1 mag, +2 za další 2, +3 za další 3 (tedy celkem za 6 magů) atd."
 bonus: Bonus:pohyb
 requires: []

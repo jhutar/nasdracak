@@ -1,5 +1,7 @@
 id: Skill:presnost
 name: Přesnost
 description: Tvé míření je preciznější, dokážeš lépe zasáhnout vzdálené nebo se pohybující cíle.
+rule: Při útoku střelnou zbraní hoď 2x a vyber si lepší hod.
 bonus: Bonus:strelba
-requires: []
+requires:
+  - Skill:mireni
