@@ -1,0 +1,5 @@
+id: Recipe:zazracny_obvaz
+name: Zázračný obvaz
+description: Z alchymistických surovin připravíš zázračný obvaz, který pomáhá obnovit fyzické a mentální schopnosti.
+rule: Zaplať 2 suroviny a 2 magy. Získáváš obvaz, který po 1 hodině působení odstraní případné postihy na SÍL, OBR nebo INT postavy oproti jejím běžným hodnotám. Dokáže opravit jen jednu vlastnost o +1.
+outcome: EnchantedItem:zazracny_obvaz

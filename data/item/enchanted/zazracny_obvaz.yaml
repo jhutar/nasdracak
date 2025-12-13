@@ -1,0 +1,5 @@
+id: EnchantedItem:zazracny_obvaz
+name: Zázračný obvaz
+description: Pečlivě připravený obvaz, který pomáhá obnovit fyzické a mentální schopnosti.
+rule: Přiložíš na tělo a po 1 hodině působení odstraní případné postihy na SÍL, OBR nebo INT postavy oproti jejím běžným hodnotám. Dokáže opravit jen jednu vlastnost o +1.
+price: 0.5

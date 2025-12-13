@@ -1,0 +1,5 @@
+id: EnchantedItem:lecivy_lektvar
+name: Léčivý lektvar
+description: Z alchymistických surovin připravíš léčivý lektvar který hojí zranění a všechny běžné neduhy.
+rule: Vyléčí ti 2 a více životů (podle toho jak se povedla příprava). Můžeš jej na sebe použít jen jeden denně.
+price: 0.5
