@@ -1,5 +1,5 @@
 id: Skill:smysl_zvirete
-name: Superiórní smysl zvířete
+name: Smysl zvířete
 description: Dokážeš na krátkou dobu získat některý z vyvinutějších smyslů zvířete, například čich psa nebo zrak orla.
 rule: Zaplať 5 magů a na 10 minut získáš zvolený smysl jednoho zvoleného druhu zvířat. Například psí čich nebo orlí zrak. Nevztahuje se na vlastnosti, například dýchání pod vodou jako ryba.
 who: kdo má dovednost
