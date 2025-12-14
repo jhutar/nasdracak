@@ -43,7 +43,7 @@ latex_elements = {
 %\setcounter{tocdepth}{2}
 \setcounter{secnumdepth}{1}
 ''',
-    'papersize': 'a5paper',
+    'papersize': 'a4paper',
     'babel': r'\usepackage{babel}',
     'extraclassoptions': 'twoside',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
