@@ -1,0 +1,5 @@
+id: Recipe:lecivy_lektvar
+name: Léčivý lektvar
+description: Z alchymistických surovin připravíš léčivý lektvar který hojí zranění a všechny běžné neduhy.
+rule: Zaplať 2 suroviny a 2 magy. Získáváš lektvar který léčí 1 + <tvůj bonus léčení> + <dodatečné magy a suroviny 1:1> životů. Účinkuje jen jeden denně.
+outcome: EnchantedItem:lecivy_lektvar
