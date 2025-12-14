@@ -1,6 +1,8 @@
 id: Skill:jedy-a-protijedy
 name: Jedy a protijedy
 description: Rozumíš různým druhům jedů, jejich účinkům a dokážeš připravovat protijedy.
+rule: Znáš recepty "Uspávací lektvar", "Zmámení smyslů", "Tekutá smrt" a "Odolej jedu".
+who: kdo má dovednost
 bonus: Bonus:leceni
 requires:
   - Skill:leceni

@@ -1,0 +1,5 @@
+id: EnchantedItem:uspavaci_lektvar
+name: Uspávací lektvar
+description: Lektvar, který po vypití uspí tvého protivníka.
+rule: Cílová postava hodí <hod> + <INT> a pokud nehodí víc než účinnost lektvaru (která je stanovena při výrobě v receptu), usne na 1-6 minut.
+price: 1.5

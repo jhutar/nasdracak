@@ -1,0 +1,5 @@
+id: Recipe:uspavaci_lektvar
+name: Uspávací lektvar
+description: Z bylinek a magické energie připravíš lektvar, který dokáže uspat protivníka.
+rule: Zaplať 1 surovinu a 2 magy. Za každou dodatečnou surovinu nebo mag, kterou investuješ, zvýšíš účinnost lektvaru o 1. Získáš "Uspávací lektvar" s účinností 4 + <investované bonusové suroviny a magy>.
+outcome: EnchantedItem:uspavaci_lektvar

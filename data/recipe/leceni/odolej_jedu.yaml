@@ -1,0 +1,5 @@
+id: Recipe:odolej_jedu
+name: Odolej jedu
+description: Z bylinek a minerálů připravíš lektvar, který dočasně zvýší odolnost vůči jedům a jiným postihům.
+rule: Zaplať 2 suroviny a 0 magů. Vytvoříš "Odolej jedu", který poskytuje bonus +3 k obraně proti obtížným lektvarům a jedům.
+outcome: EnchantedItem:odolej_jedu

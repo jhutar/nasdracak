@@ -1,0 +1,5 @@
+id: EnchantedItem:zmameny_smysly
+name: Zmámení smyslů
+description: Lektvar, který zmámí smysly tvého protivníka.
+rule: Cílová postava hodí <hod> + <INT> a pokud nehodí víc než účinnost lektvaru (která je stanovena při výrobě v receptu), je zmámená na 1-6 minut. Zmámená postava nemůže útočit ani kouzlit.
+price: 1.5

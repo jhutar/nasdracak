@@ -1,0 +1,5 @@
+id: EnchantedItem:tekuta_smrt
+name: Tekutá smrt
+description: Silný jed, který působí okamžitě.
+rule: Cílová postava hodí <hod> + <SÍL> a pokud nehodí víc než účinnost lektvaru (která je stanovena při výrobě v receptu), utrpí 1-6 zranění. Působí okamžitě.
+price: 3.0

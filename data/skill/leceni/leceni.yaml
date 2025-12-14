@@ -1,5 +1,7 @@
 id: Skill:leceni
 name: Léčení
-description: Dokážeš ošetřovat vážná zranění, zastavovat krvácení a stabilizovat zraněné, aby se rychleji zotavili.
+description: Dokážeš připravovar drijáky na léčbu vážných zranění, zastavovat krvácení a urychlovat zotavení.
+rule: Znáš recepty "Léčivý lektvar" a "Zázračný obvaz".
+who: kdo má dovednost
 bonus: Bonus:leceni
 requires: []

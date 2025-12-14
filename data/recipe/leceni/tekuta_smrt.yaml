@@ -1,0 +1,5 @@
+id: Recipe:tekuta_smrt
+name: Tekutá smrt
+description: Z vzácných a nebezpečných ingrediencí připravíš mocný jed, který dokáže zabíjet.
+rule: Zaplať 3 suroviny a 3 magy. Za každou dodatečnou surovinu nebo mag, kterou investuješ, zvýšíš účinnost lektvaru o 1. Získáš "Tekutou smrt" s účinností 5 + <investované bonusové suroviny a magy>.
+outcome: EnchantedItem:tekuta_smrt

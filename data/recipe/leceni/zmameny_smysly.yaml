@@ -1,0 +1,5 @@
+id: Recipe:zmameny_smysly
+name: Zmámení smyslů
+description: Z alchymistických přísad a magické esence vytvoříš lektvar, který dokáže zmámit smysly protivníka.
+rule: Zaplať 2 suroviny a 1 mag. Za každou dodatečnou surovinu nebo mag, kterou investuješ, zvýšíš účinnost lektvaru o 1. Získáš "Zmámení smyslů" s účinností 5 + <investované bonusové suroviny a magy>.
+outcome: EnchantedItem:zmameny_smysly

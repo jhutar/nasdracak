@@ -1,0 +1,5 @@
+id: EnchantedItem:odolej_jedu
+name: Odolej jedu
+description: Lektvar, který zvyšuje odolnost vůči jedům a mentálním/fyzickým postihům.
+rule: Po požití získá postava odolnost na 1 hodinu. Během této doby má +3 k hodům na obranu proti obtížným lektvarům a jedům.
+price: 1.0

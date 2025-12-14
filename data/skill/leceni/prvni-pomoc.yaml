@@ -1,5 +1,7 @@
 id: Skill:prvni-pomoc
 name: První pomoc
-description: Hned po zranění dokážeš poskytnout účinnou první pomoc.
+description: Hned po skončení boje dokážeš poskytnout účinnou první pomoc na zranění z toho boje.
+rule: Hoď <hod> + <bonus léčení> - 3 a je-li výsledek kladný, vyléčíš tolik životů (maximálně ale tolik, kolik bylo zranění z předcházejícího boje). Na každého se dá použít jen jednou po jednom boji.
+who: kdo má dovednost
 bonus: Bonus:leceni
 requires: []
