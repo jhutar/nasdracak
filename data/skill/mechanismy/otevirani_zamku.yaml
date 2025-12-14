@@ -1,5 +1,6 @@
 id: Skill:otevirani-zamku
 name: Otevírání zámků
 description: Jsi zručný v manipulaci se zámky a dokážeš otevřít většinu mechanických zámků.
+rule: "Při zkouškách vztahujících se k této dovednosti si k hodu připočti bonus na hledání."
 bonus: Bonus:mechanismy
 requires: []

@@ -1,5 +1,6 @@
 id: Skill:hledani
 name: Hledání
-description: Rozumíš spoustě výrobních postupů a tak dokážeš odhadnout jak se dají ukrýt různé mechanismy. Ať už jde o skryté pasti nebo tajné dveře.
+description: Rozumíš spoustě výrobních a stavebních postupů a tak dokážeš odhadnout jak se dají ukrýt různé mechanismy. Ať už jde o pasti, schránky nebo tajné dveře.
+rule: "Při zkouškách vztahujících se k této dovednosti si k hodu připočti bonus na hledání."
 bonus: Bonus:mechanismy
 requires: []
