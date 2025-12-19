@@ -2,6 +2,6 @@
    :header: "Předmět", "Síla", "Cena"
    :class: longtable
 
-   {% for entity in entities -%}
-   "{{ entity.name }}: {{ entity.description }}", "{{ entity.demage }}", "{{ entity.price }} zlatých"
+   {% for entity in entities | sort(attribute='price') -%}
+   "*{{ entity.name }}:* {{ entity.description }}", "{{ entity.demage }}", "{{ entity.price }} zlatých"
    {% endfor %}

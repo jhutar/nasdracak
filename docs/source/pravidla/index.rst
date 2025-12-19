@@ -89,6 +89,11 @@ A nějaká zbraň by se asi taky hodila.
 .. Vložíme seznam střelných zbraní
 ```tools/doit.py --data data/ format --template tools/templates/weapon-table.rst --model RangeWeapon --all-in-one```
 
+A možná zbylo i na brnění:
+
+.. Vložíme seznam brnění
+```tools/doit.py --data data/ format --template tools/templates/armor-table.rst --model Armor --all-in-one```
+
 5. Urči počet životů a množství magenergie, kterou tvá postava vládne.
 
 Pokud životy tvé postavy klesnou na nulu nebo pod ni, tvá postava zemřela. Pokud na nulu klesne tvá magenergie, po kvalitním odpočinku se ti zase "dobije".
