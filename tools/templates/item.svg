@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="63mm"
+   height="88mm"
+   viewBox="0 0 63 88"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="item.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.7433298"
+     inkscape:cx="108.62711"
+     inkscape:cy="115.73526"
+     inkscape:window-width="1871"
+     inkscape:window-height="1072"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:label="background"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect7"
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="M -2.7502197,-2.7502197 V 90.750016 H 65.749992 V -2.7502197 Z M 61.517831,1.5826421 C 63.15371,7.1081294 59.950654,80.881241 61.500017,86.466318 55.168023,87.935063 6.971277,85.302098 1.6326685,86.575027 0.80111436,80.662923 3.1936323,6.5914113 1.3830034,1.5042118 6.1226723,-0.63416949 56.123822,3.8602973 61.517831,1.5826421 Z"
+       inkscape:label="border"
+       sodipodi:nodetypes="cccccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="texts"
+     inkscape:label="texts"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       id="text7"
+       style="font-size:10px;font-family:'TeX Gyre Chorus';fill:#000000"
+       inkscape:label="heading">{% for row in entity.name | split_string(10) %}<tspan
+   x="5"
+   y="{{ 7 + loop.index * 8 }}"
+   id="tspan1">{{ row }}</tspan>{% endfor %}</text>
+    <text
+       xml:space="preserve"
+       id="text9"
+       style="font-size:4px;font-family:'TeX Gyre Bonum';fill:#000000"
+       inkscape:label="description2">{% for row in entity.description | split_string(25) %}<tspan
+   x="5"
+   y="{{ 28 + loop.index * 5 }}"
+   id="tspan2">{{ row }}</tspan>{% endfor %}</text>
+    <text
+       xml:space="preserve"
+       id="text10"
+       x="5"
+       y="75"
+       style="font-size:4px;font-family:'TeX Gyre Bonum';text-align:start"
+       inkscape:label="who">{% if entity.type in ('MeleeWeapon', 'RangeWeapon') %}Útok: {{ entity.demage }}{% elif entity.type == 'Armor' %}Obrana: {{ entity.defense }}{% endif %}</text>
+    <text
+       xml:space="preserve"
+       id="text3"
+       x="5"
+       y="80"
+       style="font-size:4px;font-family:'TeX Gyre Bonum';text-align:start"
+       inkscape:label="requires">Cena: {{ entity.price }} zlatých</text>
+  </g>
+</svg>

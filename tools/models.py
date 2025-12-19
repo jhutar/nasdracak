@@ -41,6 +41,10 @@ class BaseModelWithId(pydantic.BaseModel):
                 )
         return v
 
+    @property
+    def type(self):
+        return str(self.__class__.__name__)
+
 
 class Character(BaseModelWithId):
     race: str

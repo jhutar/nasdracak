@@ -19,6 +19,10 @@ Karty v PDF:
 
  * Dovednosti: :download:`Skill.pdf <_static/Skill.pdf>`
  * Kouzla: :download:`Spell.pdf <_static/Spell.pdf>`
+ * Běžné předměty: :download:`CommonItem.pdf <_static/CommonItem.pdf>`
+ * Zbroje: :download:`Armor.pdf <_static/Armor.pdf>`
+ * Zbraně na blízko: :download:`MeleeWeapon.pdf <_static/MeleeWeapon.pdf>`
+ * Zbraně na dálku: :download:`RangeWeapon.pdf <_static/RangeWeapon.pdf>`
 
 .. toctree::
    :maxdepth: 3

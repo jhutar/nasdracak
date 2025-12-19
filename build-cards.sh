@@ -6,7 +6,7 @@ set -eu
 # In fors go over lines, not words
 export IFS=$'\n'
 
-for what in "Skill" "Spell"; do
+for what in "Skill" "Spell" "CommonItem" "Armor" "MeleeWeapon" "RangeWeapon"; do
     # Cleanup
     echo "Deleting previous ${what} build artefacts"
     mkdir -p build/${what}/cards/
@@ -21,7 +21,11 @@ for what in "Skill" "Spell"; do
 
     # Generate source cards
     echo "Generate source cards for ${what}"
-    tools/doit.py format --model "${what}" --template tools/templates/$( echo "${what}" | tr '[:upper:]' '[:lower:]' ).svg --output-dir build/${what}/cards/
+    template_base="$( echo "${what}" | tr '[:upper:]' '[:lower:]' )"
+    if [[ $what == "CommonItem" || $what == "Armor" || $what == "MeleeWeapon" || $what == "RangeWeapon" ]]; then
+        template_base="item"
+    fi
+    tools/doit.py format --model "${what}" --template tools/templates/$template_base.svg --output-dir build/${what}/cards/
 
     # Generate rows of 3 cards
     counter=1
