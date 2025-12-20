@@ -2,3 +2,4 @@ pydantic
 pyyaml
 sphinx
 sphinxcontrib-svg2pdfconverter
+pytest
