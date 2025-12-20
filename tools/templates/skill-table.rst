@@ -3,5 +3,5 @@
    :class: longtable
 
    {% for entity in entities -%}
-   "{{ entity.name }}", "{{ entity.bonus | replace("Bonus:", "") }}", "{{ entity.rule }}", "{{ entity.who }}", "{{ entity.requires | join(', ') }}"
+   "{{ entity.name }}", "{{ (entity.bonus | entity_by_id).name }}", "{{ entity.rule }}", "{{ entity.who }}", "{% for e in entity.requires %}{{ (e | entity_by_id).name }}{% if not loop.last %}, {% endif %}{% endfor %}"
    {% endfor %}

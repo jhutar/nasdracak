@@ -203,6 +203,8 @@ def format_entity(args: argparse.Namespace):
         autoescape=jinja2.select_autoescape(["html", "xml", "md", "svg"]),
     )
     env.filters["split_string"] = split_string
+    env.filters["entity_by_id"] = world.get_by_id
+    env.filters["entity_by_model"] = world.get_by_model
     template_name = os.path.basename(args.template)
     template = env.get_template(template_name)
 
