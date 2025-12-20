@@ -69,3 +69,29 @@ Demage: 2
 """
     # Normalize by sorting lines to avoid issues with entity order
     assert sorted(output_content.splitlines()) == sorted(expected_content.strip().splitlines())
+
+
+def test_format_entity_internal(tmp_path):
+    """Tests the format_entity function for a template with entity_by_id function."""
+    test_data_dir = Path("tools/tests/test_format_entity/data")
+    template_file = Path("tools/tests/test_format_entity/templates/single_recipe.yaml.j2")
+    output_dir = tmp_path
+
+    args = argparse.Namespace(
+        data=str(test_data_dir),
+        entity="Recipe:leciva_mast",
+        template=str(template_file),
+        output_dir=str(output_dir),
+        all_in_one=False,
+    )
+
+    format_entity(args)
+
+    expected_output_file = output_dir / "Léčivá mast.yaml"
+    assert expected_output_file.exists()
+    output_content = expected_output_file.read_text()
+    expected_content = """
+Name: Léčivá mast
+Outcome: Léčivá mast (0.5)
+"""
+    assert output_content.strip() == expected_content.strip()

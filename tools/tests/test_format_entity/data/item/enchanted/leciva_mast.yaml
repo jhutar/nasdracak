@@ -1,0 +1,5 @@
+id: EnchantedItem:leciva_mast
+name: Léčivá mast
+description: Z bylinek pečlivě připravená léčivá mast. Je vhodná na různé malé neduhy a zranění.
+rule: Vyléčí ti 2 a více životů (podle toho jak se povedla příprava). Můžeš ji na sebe použít jen jednu denně.
+price: 0.5
