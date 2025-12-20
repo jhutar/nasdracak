@@ -6,6 +6,10 @@ Hraní
 
 Postava není hráč. Hraj za postavu tak, aby byla uvěřitelná a chovala se v souladu se svým přesvědčením a motivací. Je to složité, ale pomůže to zážitku ze hry všech.
 
+Vypravěč / pán jeskyně TODO.
+
+Deník postavy TODO.
+
 Vytváření postavy
 -----------------
 
@@ -13,7 +17,7 @@ Teď si vytvoříš hráčskou postavu. Cílem je stanovit rasu (to ti určí z�
 
 Na rozdíl od některých jiných systémů nebudeme řešit povolání. Povolání jsou nahrazena pružnějším systémem dovedností a tak není problém, aby se bojovník třeba naučil vařit lektvary a kouzelník lézt po střechách.
 
-1. Vyber si rasu. Každá má speciální bonusy:
+1. Vyber si rasu. Každá má nějaké vrozené hodnoty vlastností:
 
 * **Hobiti** jsou malí a ne příliš tělesně zdatní.
 * **Trpaslíci** jsou robustně stavění, a to jim dává sílu, ale menší mrštnost.
@@ -21,7 +25,7 @@ Na rozdíl od některých jiných systémů nebudeme řešit povolání. Povolá
 * **Elfové** zase zaměření spíše na duševno než na fyzickou sílu.
 * **Barbaři** jsou divocí velcí lidé, spíše fyzičtí než myslitelé.
 
-Konkrétně mají rasy tyto vrozené předpoklady:
+Konkrétně mají rasy tyto vrozené vlastnosti:
 
 =========  ==========  ===============  =================  ===============
 Rasa       Síla (SÍL)  Obratnost (OBR)  Inteligence (INT)  Charisma (CHAR)
@@ -33,7 +37,7 @@ Elfové     -2          -1               +1                 0
 Barbaři    +1          0                -2                 -1
 =========  ==========  ===============  =================  ===============
 
-2. Urči si konečné hodnoty vlastností. Protože není možné, aby měli všichni příslušníci jedné rasy stejné vlastnosti, teď si přidělíš speciální bonus pro dobrodruha.
+2. Urči si konečné hodnoty vlastností. Protože každý se v životě vyvýjí jinak, teď si k vrozeným vlastnostem přidělíš speciální bonus pro dobrodruha.
 
 Nejdřív rychlé vysvětlení. Jak jsi už zjistil, rozlišujeme 4 vlastnosti:
 
@@ -51,32 +55,34 @@ Nehráčské postavy mají vlastnosti také. Obyčejný člověk má průměrně
 * **+3:** Výjimečný. Městský mudrc, který přečetl stovky knih, se může pyšnit INT +3.
 * **+4:** V dané vlastnosti jeden z nejlepších v zemi. V našem světě bys někoho se silou +4 hledal na Olympiádě.
 
-Takže teď je čas doladit vlastnosti tvé postavy. Vezmi vrozené hodnoty, které jsi získal v předchozím kroku, a začni zvětšovat. Buď můžeš pro vyváženější postavu ke dvěma tebou vybraným vlastnostem přičíst dvojku a ke zbylým jedničku, nebo pro spíše extrémní postavu k jedné vlastnosti přidat trojku a ke dvěma jedničku.
+Takže teď je čas doladit vlastnosti tvé postavy. Vezmi vrozené hodnoty, které jsi získal v předchozím kroku a zvětš je následůjícím postupem:
+
+Buď můžeš (pro vyváženější postavu) ke *dvěma tebou vybraným vlastnostem přičíst dvojku* a ke *zbylým dvěma jedničku,* **nebo** (pro spíše extrémní postavu) k *jedné vlastnosti přidat trojku* a ke *dvěma jedničku*.
 
 .. admonition:: Příklad:
 
-   Příklad pro hobita jménem *Tvářička* vytvořeného jako vyvážená postava: hobiti začínají s vrozenými vlastnostmi SÍL -2, OBR 0, INT -1 a CHAR +1. Hráč se rozhodl, že chce hobita roztomilého a inteligentního, přidá dvojku k CHAR a INT a jedničku k SÍL a OBR. Ve výsledku tedy budou vlastnosti SÍL -1, OBR +1, INT +1 a CHAR +3.
+   Příklad pro hobita jménem *Tvářička* (vytvořeného jako vyvážená postava): hobiti začínají s vrozenými vlastnostmi SÍL -2, OBR 0, INT -1 a CHAR +1. Hráč se rozhodl, že chce hobita roztomilého a inteligentního, přidá dvojku k CHAR a INT a jedničku k SÍL a OBR. Ve výsledku tedy budou vlastnosti SÍL -1, OBR +1, INT +1 a CHAR +3.
 
 .. admonition:: Příklad:
 
-   Příklad barbara jménem *Pěst plání* vytvořeného jako extrémní postava: začínáme s SÍL +1, OBR 0, INT -2 a CHAR -1. Hráč se rozhodl, že jeho postava bude prostě jen hora svalů, a tak přidá trojku k SÍL a jedničku k OBR a CHAR. Výsledná postava tedy má SÍL +4, OBR +1, INT -2 a CHAR 0.
+   Příklad barbara jménem *Pěst plání* (vytvořeného jako extrémní postava): začínáme s SÍL +1, OBR 0, INT -2 a CHAR -1. Hráč se rozhodl, že jeho postava bude prostě jen hora svalů, a tak přidá trojku k SÍL a jedničku k OBR a CHAR. Výsledná postava tedy má SÍL +4, OBR +1, INT -2 a CHAR 0.
 
-3. Ze seznamu si vyber 3 dovednosti, které tvá postava ovládá. Jsou to schopnosti, které ses za svůj dosavadní život naučil.
+3. Ze seznamu si vyber 3 dovednosti, které tvá postava ovládá. Dovednosti jsou schopnosti, které ses za svůj dosavadní život naučil a s přibívajícími zkušenostmi budeš získávat další.
 
-Dovednosti patří do různých skupin a v rámci těchto skupin ti dávájí bonusy které si připočítáváš k hodům na zkoušky týkající se dané skupiny dovedností. Přesně si to popíšeme v kapitole "Zkoušky".
+Dovednosti patří do různých skupin a v rámci těchto skupin ti dávájí bonusy k hodům na zkoušky týkající se dané dovednosti. Některé dovednosti mají ještě další dodatečné možnosti. Přesně si to popíšeme v kapitole "Zkoušky".
 
-Některé dovednosti jsou obecné (například "Akrobacie" - po kládě nad propastí se můžeš pokusit přelézt i pokud tuto dovednost nemáš, jen si nepřipočítávaš bonus), některé vyhrazené pro ty kdo se je naučili (alchymistické suroviny prostě bez dovednosti "Získávání surovin" nejsi schopen vytěžit). Vyhrazené dovednosti mají mnohdy ještě další dodatečné možnosti.
+Některé dovednosti jsou obecné (například "Akrobacie" - po kládě nad propastí se můžeš pokusit přelézt i pokud tuto dovednost nemáš, jen si nepřipočítávaš bonus), některé vyhrazené pro ty kdo se je naučili (alchymistické suroviny prostě bez dovednosti "Získávání surovin" nejsi schopen vytěžit). 
 
 .. Vložíme seznam dovedností
 ```tools/doit.py --data data/ format --template tools/templates/skill-list.rst --model Skill --all-in-one```
 
 .. admonition:: Příklad:
 
-   Například hobit *Tvářička* si vybere dovednosti "Postřeh", "Smlouvání" a "Získávání surovin". *Tvářička* asi hodlá hledat a obchodovat s alchymistickými surovinami. Proč ne. Biznys je to sice nebezpečný, ale výnosný.
+   Například hobit *Tvářička* si vybere dovednost "Postřeh", "Smlouvání" a "Získávání surovin". *Tvářička* asi hodlá hledat a obchodovat s alchymistickými surovinami. Proč ne. Biznys je to sice nebezpečný, ale výnosný.
 
 4. Nyní si z tabulky vyber nějaké to vybavení do začátku.
 
-Předpokládej, že každý má batoh, měch na vodu, křesadlo a další běžné nezbytnosti, ale třeba šaty nebo nůž už je potřeba vybrat.
+Předpokládej, že každý má batoh, měch na vodu a další běžné nezbytnosti, ale třeba šaty nebo nůž už je potřeba vybrat.
 
 .. Vložíme seznam vybavení
 ```tools/doit.py --data data/ format --template tools/templates/common_item-table.rst --model CommonItem --all-in-one```
@@ -110,6 +116,8 @@ Množství magické energie (tzv. magů) je zase **5**. K tomu si přičti souč
 
    Postava hobita výše tedy začíná s 9 magy (5 + (INT +1 + CHAR +3)) a barbar s 5 magy (protože INT -2 + CHAR 0 = -2).
 
+
+
 Postup na vyšší úroveň
 ----------------------
 
@@ -119,26 +127,43 @@ Na tvou postavu ale volá dobrodružství a za vykonané činy získává body z
 
 Při přestupu na další úroveň si:
 
-* k maximálnímu počtu životů si přičti 3. K tomu si přičti součet SÍL + OBR, ale pouze pokud je kladný.
-* k maximálnímu množství magenergie si přičti 3. K tomu si přičti součet INT + CHAR, ale opět pouze pokud je kladný.
-* vyber si jednu novou dovednost
+* **Zvýšení počtu životů:** k maximálnímu počtu životů si přičti 3. K tomu si přičti součet SÍL + OBR, ale pouze pokud je kladný.
+* **Zvýšení množství magické energie:** k maximálnímu množství magenergie si přičti 3. K tomu si přičti součet INT + CHAR, ale opět pouze pokud je kladný.
+* **Nová dovednost:** vyber si jednu novou dovednost.
+
+===================  ======  ==============================
+Množství zkušeností  Úroveň  Co to znamená
+===================  ======  ==============================
+0                    1       Běžný člověk
+100                  2
+300                  3
+900                  4       Vesnický/městský hrdina
+2700                 5
+8100                 6
+24300                7       Proslavený hrdina celého kraje
+72900                8
+218700               9
+656100               10      Hrdina celého království
+===================  ======  ==============================
+
+
 
 Zkoušky
 -------
 
-Občas se tvá postava pokusí o něco, u čeho není jisté, jestli se to podaří. Chceš přeskočit širokou propast? Vylézt na vysokou zeď? Přemluvit strážného, aby tě pustil do města? V takových chvílích přichází na řadu **zkouška**.
+Občas se tvá postava pokusí o něco, u čeho není jisté, jestli se to podaří. Chceš přeskočit širokou propast? Vylézt na vysokou zeď? Přemluvit strážného, aby tě pustil do města? V takových chvílích přichází na řadu *zkouška*.
 
-Pán jeskyně ti řekne, o jakou zkoušku se jedná (třeba zkouška na Sílu nebo na Obratnost) a potají si určí **Číslo Obtížnosti** – tedy jak těžké je uspět.
+Pán jeskyně ti řekne, o jakou zkoušku se jedná (třeba zkouška na Sílu nebo na Obratnost) a potají si určí *Obtížnost zkoušky* – tedy jak těžké je uspět.
 
-*   **Lehký úkol** může mít obtížnost 2.
+*   **Velmi lehký úkol** může mít obtížnost 2.
 *   **Středně těžký** třeba 4.
 *   **Velmi těžký** klidně 6 nebo i víc.
 
-Abys uspěl, musí tvůj hod dopadnout stejně nebo lépe, než je Číslo Obtížnosti.
+Abys uspěl, musí tvůj hod dopadnout stejně nebo lépe, než je toto číslo Obtížnosti zkoušky.
 
-**Základní pravidlo pro zkoušky je:**
+Základní pravidlo pro zkoušky je:
 
-**hod kostkou + bonus za vlastnost + bonus za dovednosti >= Číslo Obtížnosti**
+**hod kostkou + bonus za vlastnost + případný bonus za dovednosti >= Obtížnost zkoušky**
 
 Pojďme si to rozebrat:
 
@@ -149,7 +174,7 @@ Pojďme si to rozebrat:
 Zkouška bez dovednosti
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Když se o něco pokoušíš jen tak, bez speciálního tréninku.
+Když se o něco pokoušíš jen tak, bez speciálního tréninku, hod je jednoduchý:
 
 .. admonition:: Příklad: Tvářička a těžký balvan
 
@@ -164,7 +189,7 @@ Když se o něco pokoušíš jen tak, bez speciálního tréninku.
 Zkouška s dovedností
 ^^^^^^^^^^^^^^^^^^^^
 
-Když využiješ něco, co ses naučil.
+Když využiješ něco, co ses naučil a připočítáváš si bonus dovednosti:
 
 .. admonition:: Příklad: Tvářička a jedovaté zuby
 
@@ -179,7 +204,7 @@ Když využiješ něco, co ses naučil.
 Zkouška s více dovednostmi
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Někdy ti pomůže víc naučených dovedností najednou.
+Někdy ti pomůže víc naučených dovedností najednou:
 
 .. admonition:: Příklad: Tvářička prodává suroviny
 
@@ -190,6 +215,8 @@ Někdy ti pomůže víc naučených dovedností najednou.
    Výsledek je: 2 (hod) + 3 (CHAR) + 1 (Smlouvání) + 1 (Postřeh) = **7**.
    
    Protože 7 je větší nebo rovno 6, babka je Tvářičkovým šarmem a výřečností tak okouzlena, že mu dá celých 12 zlatých. Úspěch!
+
+
 
 Boj
 ---

@@ -1,7 +1,7 @@
 {% for entity in entities -%}
 * {{ entity.name }}
 
-  * Přidává bonus pro skupinu: {{ entity.bonus }}
+  * Přidává bonus pro skupinu: {{ entity.bonus | replace("Bonus:", "") }}
   * Použití: {{ entity.description }}{% if entity.requires %}
   * Poznámka: {{ entity.note }}{% endif %}
   * Pravidlo: {{ entity.rule }}
