@@ -188,6 +188,25 @@ def split_string(text: str, max_length: int) -> typing.List[str]:
     return lines
 
 
+def format_price(price: float):
+    """Convert price float into "Xzl Yst Zmd"."""
+    out = []
+    price100 = round(price * 100)
+    if price100 >= 100:
+        p = int(price100 / 100)
+        out.append(f"{p}zl")
+        price100 -= p * 100
+    if price100 >= 10:
+        p = int(price100 / 10)
+        out.append(f"{p}st")
+        price100 -= p * 10
+    if price100 >= 1:
+        p = int(price100)
+        out.append(f"{p}md")
+        price100 -= p
+    return " ".join(out)
+
+
 def format_entity(args: argparse.Namespace):
     """Formats and renders game entities based on a Jinja2 template."""
     world = models.World(pathlib.Path(args.data))
@@ -205,6 +224,7 @@ def format_entity(args: argparse.Namespace):
     env.filters["split_string"] = split_string
     env.filters["entity_by_id"] = world.get_by_id
     env.filters["entity_by_model"] = world.get_by_model
+    env.filters["format_price"] = format_price
     template_name = os.path.basename(args.template)
     template = env.get_template(template_name)
 

@@ -3,5 +3,5 @@
    :class: longtable
 
    {% for entity in entities | sort(attribute='price') -%}
-   "*{{ entity.name }}:* {{ entity.description }}", "{{ entity.price }} zlatých"
+   "*{{ entity.name }}:* {{ entity.description }}", "{{ entity.price | format_price }}"
    {% endfor %}
