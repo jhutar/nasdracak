@@ -1,6 +1,7 @@
 .*.swp
 
 venv/
+build/
 docs/build/
 docs/source/__pycache__/
 docs/source/_static/
@@ -10,6 +11,7 @@ tools/tests/__pycache__/
 # External tools
 pagebreak/
 pangamebook/
+svg_stack/
 
 # Gamebook
 gamebook/opustena_magova_vez-raw.pdf
