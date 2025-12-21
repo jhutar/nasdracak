@@ -1,4 +1,4 @@
 id: CommonItem:obleceni-nuzne
 name: Nuzné oblečení
-description: "Staré, záplatované a špinavé oblečení. Kdo ho nosí, nevypadá zrovna důvěryhodně. Odebírá -2 od CHAR."
+description: "Staré, záplatované a špinavé oblečení. Kdo ho nosí, nevypadá zrovna důvěryhodně. Odebírá -1 od CHAR."
 price: 1.0
