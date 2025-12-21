@@ -1,5 +1,5 @@
 id: MeleeWeapon:vidle
 name: Vidle
-description: Obyčejné vidle na seno, ale v nouzi poslouží i jako nebezpečná zbraň.
-demage: +4
+description: Obyčejné vidle na seno, ale v nouzi poslouží i jako nebezpečná zbraň. Ve vnitřních prostorách útok o 1 menší.
+demage: +3
 price: 0.5

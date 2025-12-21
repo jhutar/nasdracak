@@ -1,5 +1,5 @@
 id: MeleeWeapon:halapartna
 name: Halapartna
-description: Univerzální dřevcová zbraň kombinující sekeru, hrot a hák. Užitečná v každé situaci.
-demage: +4
-price: 5.0
+description: Univerzální dřevcová zbraň kombinující sekeru, hrot a hák. Pokud máš málo prostoru, útok je o 2 menší. 
+demage: +5
+price: 3.0

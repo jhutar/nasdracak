@@ -1,5 +1,5 @@
 id: MeleeWeapon:sekera
 name: Sekera
 description: Jednoruční sekera, kterou lze použít v boji i při práci se dřevem.
-demage: +3
+demage: +2
 price: 1.0

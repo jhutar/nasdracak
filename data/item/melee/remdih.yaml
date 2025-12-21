@@ -1,5 +1,5 @@
 id: MeleeWeapon:remdih
 name: Řemdih
-description: Zbraň tvořená násadou a jednou či více koulemi, často ostnatými, připevněnými řetězem. Těžko se s ní bránit.
+description: Zbraň tvořená násadou a jednou či více koulemi, často ostnatými, připevněnými řetězem. Těžko se s ní bránit. Při boji v malém prostoru má útok o 2 menší.
 demage: +4
 price: 3.0

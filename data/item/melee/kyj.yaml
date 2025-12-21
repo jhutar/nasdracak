@@ -1,5 +1,5 @@
 id: MeleeWeapon:kyj
 name: Kyj
-description: Dřevěná palice, často s okovanou hlavicí. Jednoduchá, ale účinná.
-demage: +3
-price: 1.0
+description: Dřevěná palice. Jednoduchá, ale účinná.
+demage: +2
+price: 0.3

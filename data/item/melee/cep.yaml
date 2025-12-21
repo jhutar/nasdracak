@@ -1,5 +1,5 @@
 id: MeleeWeapon:cep
 name: Cep
-description: Zemědělský nástroj, který lze použít i jako obouruční zbraň. Tvoří ho dvě hole spojené řetězem nebo kůží.
-demage: +5
-price: 1.5
+description: Původně zemědělský nástroj, který lze použít i jako obouruční zbraň. Tvoří ho dvě hole spojené řetězem nebo kůží.
+demage: +3
+price: 0.5

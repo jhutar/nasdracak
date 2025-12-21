@@ -1,5 +1,5 @@
 id: MeleeWeapon:cakan
 name: Čakan
 description: Lehké jednoruční kladivo s hrotem na jedné straně, určené k probíjení zbroje.
-demage: +3
-price: 1.5
+demage: +4
+price: 1.0

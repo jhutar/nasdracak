@@ -1,5 +1,5 @@
 id: MeleeWeapon:pika
 name: Píka
-description: Velmi dlouhá dřevcová zbraň určená primárně k boji proti jízdě a udržování vzdálenosti od nepřítele.
-demage: +5
+description: Velmi dlouhá dřevcová zbraň určená primárně k boji proti jízdě a udržování vzdálenosti od nepřítele. Ve stísněných prostorách útok o 2 menší.
+demage: +4
 price: 2.0

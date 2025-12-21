@@ -1,5 +1,5 @@
 id: MeleeWeapon:hul-kovana
 name: Kovaná hůl
-description: Dlouhá dřevěná hůl na obou koncích okovaná železem. Oblíbená zbraň poutníků a mágů.
-demage: +5
+description: Dlouhá dřevěná hůl na obou koncích okovaná železem. Oblíbená zbraň poutníků a mágů. V těsných prostorech útok o 2 menší.
+demage: +4
 price: 0.8

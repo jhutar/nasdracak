@@ -1,5 +1,5 @@
 id: MeleeWeapon:kopi
 name: Kopí
-description: Dlouhá dřevěná násada s kovovým hrotem. Jednoduchá a efektivní zbraň.
-demage: +5
+description: Dlouhá dřevěná násada s kovovým hrotem. Jednoduchá a efektivní zbraň. Při boji v malém prostoru má útok o 2 menší.
+demage: +4
 price: 1.0

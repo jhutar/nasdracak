@@ -1,5 +1,5 @@
 id: MeleeWeapon:sudlice
 name: Sudlice
-description: Dřevcová zbraň s čepelí a hrotem, vhodná k bodání i sekání.
+description: Dřevcová zbraň s čepelí a hrotem, vhodná k bodání i sekání. Při boji v malém prostoru počítej útok zbraně o 2 menší.
 demage: +5
-price: 2.0
+price: 3.0

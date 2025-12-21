@@ -1,0 +1,5 @@
+id: MeleeWeapon:mec-dlouhy
+name: Dlouhý meč
+description: Obouruční dlouhý meč, pravá zbraň rytíře. Špička ostrá jako žiletka. Nebezpečná část zbraně je i záštita.
+demage: +5
+price: 30.0
