@@ -86,12 +86,15 @@ Radmila jim vysvětlí, že potřebuje dvě vzácné byliny, aby uvařila lektva
 
 Roste v jeskyni za malým vodopádem v lese.
 
-.. admonition:: Popis pro hráče: Jeskyně kde roste Stříbrný kořen
+.. admonition:: Popis pro hráče: Jeskyně za vodopádem
 
-   Voda padá ze skalní stěny a tvoří před vchodem do jeskyně třpytivou clonu. Uvnitř se jeskyně větví do tří tmavých chodeb. Nad každou je vyrytý jednoduchý symbol: **SLUNCE**, **MĚSÍC** a **HVĚZDA**. Uprostřed jeskyně je malá tůňka s čistou vodou.
+   Voda padá ze skalní stěny a tvoří před vchodem do jeskyně třpytivou clonu. Uvnitř je vlhko a chladno. Prostora se větví do tří tmavých chodeb. Vaším úkolem je najít Stříbrný kořen, vzácnou rostlinu, která jistě potřebuje specifické podmínky k růstu. Při bližším pohledu si všimnete, že každá chodba je jiná:
 
-*   **Puzzle:** Při pohledu do tůňky se na hladině zrcadlí strop, ale nad odrazem chodby se symbolem **HVĚZDY** září malá tečka světla. To je nápověda.
-    *   **Špatná volba:** Chodba SLUNCE vede do mělké pasti, pád způsobí malé zranění. Chodba MĚSÍC je plná vyplašených netopýrů.
+   *   **První chodba (vlevo):** Je suchá a vane z ní teplejší vzduch. Podlaha je prašná a nikde ani stopa po vlhkosti. Zdá se, že tudy do jeskyně proniká teplo ze skrytých průduchů. Pokud by se tudy družina vydala, po pár desítkách metrů by narazila na malou jeskyni s horkými prameny, jejichž pára ohřívá okolní skálu. Dál cesta nevede.
+
+   *   **Druhá chodba (uprostřed):** Před ní je na zemi velká kaluž stojaté, nazelenalé vody, která nepříjemně páchne. Voda se sem zjevně dostává, ale neodtéká pryč. Pokud by tudy šli, chodba by se po chvíli změnila v zatopenou a zapáchající slepou uličku.
+
+   *   **Třetí chodba (vpravo):** U této chodby je země příjemně vlhká a chladná. Po jedné ze stěn stéká tenounký pramínek čiré, čerstvé vody. V matném světle se kapky na tmavé skále třpytí jako malé hvězdičky. Když se zaposloucháte, slyšíte z hloubi chodby tiché, rytmické kapání. Toto je správná cesta, která je po chvíli dovede do malé prostory, kde mezi mechem roste stříbřitě svítící kořen.
 
 **2. Květy tůňovky**
 
@@ -102,7 +105,11 @@ Najdou je uprostřed malého močálu.
    Před vámi se rozprostírá tichý, zapáchající močál. Z mlhy, která se válí těsně nad hladinou, vystupují pokroucené kmeny mrtvých stromů. Uprostřed vidíte ostrůvek, na kterém rostou podivné rostliny s bledě modrými květy.
 
 *   **Překážka:** Cesta k ostrůvku je zrádná a vyžaduje testy na obratnost, aby postavy nespadly do bahna.
-*   **Boj:** Ostrůvek si jako své teritorium hlídá **agresivní divoký kanec**, který na vetřelce okamžitě zaútočí.
+*   **Boj:** Těsně před ostrůvkem, když se brodíte vysokou trávou a kalnou vodou, se klidná hladina náhle rozvíří.
+
+    .. admonition:: Popis pro hráče: Překvapení v močále
+
+       Z kalné louže se bez varování vymrští masivní, bahnem pokryté tělo obrovského hada. S tichým zasyčením se ovine kolem nohy jednoho z vás a začne táhnout pod vodu. Je to **bažinný škrtič**, který si brání své loviště.
 
 Pokud se družince obě ingredience podaří získat, bylinkářka Radmila se pustí do náročné přípravy lektvaru. Vaření bude trvat dlouho, takže se družinka vydá k myslivci až v noci.
 
@@ -138,8 +145,13 @@ Když se družinka pohybuje lesem kolem půlnoci, může narazit na podivné zje
 Závěr
 ======
 
-*   **Úspěch:** Pokud je kletba zlomena (ať už lektvarem nebo odpuštěním), Jorynova horečka okamžitě ustoupí. Zmateně se probere. Nemusí být vděčný, možná jen zavrčí a hodí jim pár mincí. Ale možná ho tato zkušenost změní k lepšímu.
-*   **Neúspěch:** Pokud hrdinové neuspějí do svítání, Joryn se promění v ducha věčně bloudícího těmito lesy a hledajícího odpuštění. Jeho psi se promění s ním v rudě žhnoucí bestie, které budou křižovat lesy a hledat neopatrné poutníky. Družinka tak svým selháním stvořila nový, mnohem větší problém.
+.. admonition:: Popis pro hráče: Úspěch
+
+   Ať už podáte Jorynovi lektvar nebo Vítovo odpuštění najde svůj cíl, výsledek je okamžitý. Křeče v myslivcově těle ustanou a jeho dech se zklidní. Otevře oči, zmateně se rozhlédne a poprvé po dlouhých hodinách promluví jasným hlasem: "Co... co se stalo?" Když vás uvidí, zamračí se, ale v jeho pohledu není síla. "Co tu chcete?" odsekne, ale pak se jeho pohled stočí k prázdné misce u postele. "Marta mi nechala jídlo," zamumlá a po chvíli ticha dodá, aniž by se na vás podíval: "...a co ti poutníci... našli nějaké přístřeší?" Hnusně vám odsekne, hodí po vás pár mincí a vyhodí vás, ale ten krátký záblesk starosti v jeho hlase naznačuje, že tato noc ho možná přece jen změnila. I venku psi klidně oddychují, jejich vytí je pryč.
+
+.. admonition:: Popis pro hráče: Neúspěch
+
+   S prvními paprsky úsvitu se z hájovny ozve poslední, srdcervoucí výkřik, který náhle utichne. Když se odvážíte nahlédnout dovnitř, postel je prázdná a okno do lesa rozbité. Ve stejnou chvíli uslyšíte z ohrady trhání řetězů a hrůzostrašné vrčení, které už nemá s ničím psím nic společného. Z kotců se vyrvou tři obrovské, tmavé bestie s rudě žhnoucíma očima a s pekelným řevem zmizí v lese. Legenda o Divokém jezdci a jeho smečce právě ožila. Nezachránili jste Joryna – stvořili jste novou noční můru pro celý kraj.
 
 Reference
 =========
