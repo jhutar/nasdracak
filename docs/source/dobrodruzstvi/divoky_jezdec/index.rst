@@ -179,6 +179,10 @@ TODO
 Seznam monster
 --------------
 
-```tools/doit.py --data data/ format --entity Beast:bazinny-skrtic --template tools/templates/beast.rst ```
+```tools/doit.py --data data/ format --entity Beast:bazinny-skrtic --template tools/templates/beast.rst```
 
-```tools/doit.py --data data/ format --entity Beast:bleda_kraska --template tools/templates/beast.rst ```
+```tools/doit.py --data data/ format --entity Beast:bleda_kraska --template tools/templates/beast.rst```
+
+Takto nějak by mohl vypadat jeden z psů pokud by se nepovedlo zrušit kletbu:
+
+```uv run tools/doit.py --data data/ format --entity Beast:pekelny_pes --template tools/templates/beast.rst```
