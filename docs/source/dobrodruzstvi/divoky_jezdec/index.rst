@@ -180,3 +180,5 @@ Seznam monster
 --------------
 
 ```tools/doit.py --data data/ format --entity Beast:bazinny-skrtic --template tools/templates/beast.rst ```
+
+```tools/doit.py --data data/ format --entity Beast:bleda_kraska --template tools/templates/beast.rst ```
