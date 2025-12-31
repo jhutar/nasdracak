@@ -16,7 +16,7 @@
      - {{ entity.health_max }}
      - {{ entity.magenergy_max }}
 
-* Výskyt: {{ entity.location }}
+* Výskyt: {{ (entity.location | entity_by_id).name }}
 * Vzhled: {{ entity.appearance }}
 * Inventář: {{ entity.inventory | join(', ') }}
 * Mechanika: {{ entity.mechanics }}

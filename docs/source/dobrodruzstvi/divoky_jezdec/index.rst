@@ -164,8 +164,8 @@ Reference
 * Den 1, podvečer: Kořenářka Radmila požádá naše dobrodruhy o pomoc s ošetřením myslivce a oni vyráží do myslivny na průzkum.
 * Den 1, večer: Buď se vrátili ke kořenářce a ta jim vysvětlila že jde o probíhající proces prokletí, nebo to pochopili sami.
 * Den 1, večer:
-  ** **Buď** díky informacím od hospodyně Marty mají stopu na poutníky a vyrazí je hledat, pokusí se jim pomoci a přesvědčit je aby myslivci odpustili a zastavili tak kletbu.
-  ** **Nebo** se s kořenářkou dohodnou na výrobě lektvaru a proto musí získat potřebné ingredience.
+  * **Buď** díky informacím od hospodyně Marty mají stopu na poutníky a vyrazí je hledat, pokusí se jim pomoci a přesvědčit je aby myslivci odpustili a zastavili tak kletbu.
+  * **Nebo** se s kořenářkou dohodnou na výrobě lektvaru a proto musí získat potřebné ingredience.
 * Den 1, noc: Noční setkání s bledou kráskou, možná v průběhu předchozího bodu nebo když jdou za myslivcem (buď aby zkontrolovali jestli odpuštění zabralo, nebo aby mu dali lektvar).
 * Den 2, ráno: Pokud se jim podařilo myslivci pomoci, ten se ráno probere a dostávají odměnu, pokud ne, máme zaděláno na další noční přízrak v těchto končinách.
 
