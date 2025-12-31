@@ -1,0 +1,18 @@
+id: Beast:bazinny-skrtic
+category: had
+level: 2
+name: Bažinný škrtič
+appearance: Obrovský hnědý had plížící se bažinami. Má 3 metry na délku a je širší než mužské stehno.
+mechanics: Dokáže se z nenadání vymrštit z nějaké kaluže nebo z úkrytu ve vysoké trávě na krk či tělo, pevně ovinout a začít dusit. Skok a ovinutí cíle je úspěšné pokud cíl neuspěje ve zkoušce na OBR 5. Při dušení oběť každé kolo ztrácí jeden život a podaří se jí vyklouznout pokud uspěje ve zkoušce na SÍL 5.
+strength: +1
+dexterity: +2
+inteligence: -2
+charisma: -2
+health_max: 20
+magenergy_max: 5
+attack:
+  Omráčení ocasem: 1
+defense:
+  Silná kůže: 1
+inventory: []
+location: Location:bazina

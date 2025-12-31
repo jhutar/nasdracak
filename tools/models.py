@@ -101,6 +101,44 @@ class Character(BaseModelWithId):
             raise ValueError(f"Invalid location '{v}'.")
 
 
+class Beast(BaseModelWithId):
+    category: str
+    level: int
+    name: str
+    appearance: str  # Safe to read to the party
+    mechanics: str  # Notes on how the beast acts and fights and it's skills
+    strength: int
+    dexterity: int
+    inteligence: int
+    charisma: int
+    health_max: int
+    magenergy_max: int
+    attack: dict[str, int]
+    defense: dict[str, int]
+    inventory: list[str] = []
+    location: str
+
+    @pydantic.field_validator("inventory")
+    @classmethod
+    def check_inventory_item_ids(cls, v: list[str]) -> list[str]:
+        for item_id in v:
+            ok = False
+            for model_name in ["MeleeWeapon", "RangeWeapon", "CommonItem"]:
+                if item_id.startswith(model_name + ":"):
+                    ok = True
+            if not ok:
+                raise ValueError(f"Item '{item_id}' does not look like valid ID.")
+        return v
+
+    @pydantic.field_validator("location")
+    @classmethod
+    def check_location(cls, v: str) -> str:
+        if v.startswith("Location:"):
+            return v
+        else:
+            raise ValueError(f"Invalid location '{v}'.")
+
+
 class Occupation(BaseModelWithId):
     name: str
     description: str

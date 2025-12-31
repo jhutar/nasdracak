@@ -177,4 +177,4 @@ TODO
 Seznam monster
 --------------
 
-TODO
+```tools/doit.py --data data/ format --entity Beast:bazinny-skrtic --template tools/templates/beast.rst ```
