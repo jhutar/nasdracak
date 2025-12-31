@@ -14,7 +14,7 @@ Shrnutí
 
 V odlehlém kraji, poblíž vesnice obklopené hlubokými lesy, žije nevrlý a krutý myslivec Joryn. Jeho jedinými společníky jsou jeho lovečtí psi. Příběh začíná jednoho chladného večera, kdy u jeho dveří zaklepe malá skupinka poutníků – starý Vít, jeho dcera Anežka a její nemocný synek Tomáš – a prosí o přístřeší před zimou. Joryn je surově odmítne a poštve na ně psy, aby je zahnal.
 
-Vít, v návalu bezmocného hněvu a strachu o rodinu, Joryna nevědomky prokleje. Není to žádný mág, ale síla jeho emoce probudila v kraji starou, spící magii. Od následujícího rána leží Joryn v těžkých horečkách, neschopen vnímat okolí. Kletba pomalu sžírá i jeho psy, kteří trpí podobnými příznaky a jejich občasné vytí je čím dál tím méně zvířecí. Pokud se kletba nezlomí, Joryn a jeho psi se promění v pekelné bestie z pověsti o `Divokém jezdci<https://sever.rozhlas.cz/povest-ze-sluknovska-divokeho-jezdce-potkat-nechtejte-meli-byste-nocni-mury-8388182>`_.
+Vít, v návalu bezmocného hněvu a strachu o rodinu, Joryna nevědomky prokleje. Není to žádný mág, ale síla jeho emoce probudila v kraji starou, spící magii. Od následujícího rána leží Joryn v těžkých horečkách, neschopen vnímat okolí. Kletba pomalu sžírá i jeho psy, kteří trpí podobnými příznaky a jejich občasné vytí je čím dál tím méně zvířecí. Pokud se kletba nezlomí, Joryn a jeho psi se promění v pekelné bestie z pověsti o `Divokém jezdci <https://sever.rozhlas.cz/povest-ze-sluknovska-divokeho-jezdce-potkat-nechtejte-meli-byste-nocni-mury-8388182>`__.
 
 Družinku pošle do hájovny místní bylinkářka Radmila, aby zjistila co se s myslivcem děje. Na místě najdou nemocného Joryna a vyděšenou hospodyni Martu. Pokud popíší myslivcovy příznaky bylinkářce, řekne jim že to nebude obyčejná horečka, ale že to vypadá na usazující se prokletí.
 
@@ -45,11 +45,9 @@ Cesta k hájovně vede skrz les, který s přicházejícím večerem získává 
 
 Když dorazí na místo, najdou usedlost a přilehlou ohradu se psy.
 
-.. admonition:: Popis pro hráče: Myslivna (zevnitř)
+.. admonition:: Popis pro hráče: Myslivna a Joryn
 
-   Když jí řeknete že jdete od kořenářky, ustrašená hospodyně vás uvede do pánovy jizby. V největší místnosti domu plápolá oheň v krbu a vrhá na stěny mihotavé stíny. Na stěnách visí trofeje zvířat s prázdnýma skleněnýma očima. Z rohu, od postele, se ozývá těžké, chraplavé dýchání a tiché vzlykání. Vedle postele stojí na stoličce večeře které se nikdo ani nedotknul.
-
-.. admonition:: Popis pro hráče: Myslivec Joryn v posteli
+   Když jí řeknete že jdete od kořenářky, ustrašená hospodyně Marta vás uvede do pánovy jizby. V největší místnosti domu plápolá oheň v krbu a vrhá na stěny mihotavé stíny. Na stěnách visí trofeje zvířat s prázdnýma skleněnýma očima. Z rohu, od postele, se ozývá těžké, chraplavé dýchání a tiché vzlykání. Vedle postele stojí na stoličce večeře které se nikdo ani nedotknul.
 
    Na lůžku leží mohutný muž. Očividně ho sužuje vysoká horečka. Tělo se občas prohne v křečích, zpocené čelo se leskne ve světle ohně a z úst mu uniká tiché, nesrozumitelné mumlání: '...pryč odsud... bestie... moje hlava!'. Je úplně mimo sebe, ztracený ve vlastním horečnatém snu.
 
@@ -63,13 +61,13 @@ Když dorazí na místo, najdou usedlost a přilehlou ohradu se psy.
 
     .. admonition:: Popis pro hráče: Rozhovor s hospodyní Martou
 
-       "Pán... je přísný. Včera večer přišli ti chudáci, žena s dítětem a starý otec. Prosili jen o trochu tepla ve stodole. On na ně ale poštval psy a hnal je pryč do deště. Křičel, ať táhnou k Černému lesu a už se nevracejí. Chudák dítě tak kašlalo... ona ho tak pevně držela. Od rána je pán takhle nemocný. Je to boží trest, já vím!"
+       "Pán... je přísný. Včera ráno přišli ti chudáci, žena s dítětem a starý otec. Prosili jen o trochu tepla ve stodole. Prý v tom dešti co byl prožili noc v lese. On na ně ale poštval psy a hnal je pryč do deště. Křičel, ať táhnou a že jistě v lese pytlačí. Utíkali támhle k Černému lesu. Chudák dítě tak kašlalo... ona ho tak pevně držela. V poledne pán lehl s horečkou a od té doby se to jenom zhoršuje. Je to boží trest, to je jasné!"
 
 *   Pokud se ptají ve vesnici v hospodě:
 
     .. admonition:: Popis pro hráče: Štamgast o Jorynovi
 
-       "Joryn? Ten si myslí, že mu patří celý les i s námi co tu žijeme ve vesnici. Všichni se mu snaží vyhýbat. Nedá se s ním normálně mluvit. Jednou na mě narazil když jsem sbíral šišky na topení a málem mě hnal palicí. A navíc se povídá, že pytlačí a prodává maso načerno. Jen k těm svým psům se chová hezky a ti ho taky poslechnou na slovo."
+       "Joryn? Ten si myslí, že mu patří celý les i s námi co tu žijeme ve vesnici. Všichni se mu snaží vyhýbat. Nedá se s ním normálně mluvit. Jednou na mě narazil když jsem sbíral šišky na topení a hnal mě palicí jako bych kradl v královské pokladnici. A navíc se povídá, že pytlačí a prodává maso načerno. Jen k těm svým psům se chová hezky a ti ho taky poslechnou na slovo."
 
 
 Dvě cesty k záchraně
@@ -109,7 +107,7 @@ Najdou je uprostřed malého močálu.
 
     .. admonition:: Popis pro hráče: Překvapení v močále
 
-       Z kalné louže se bez varování vymrští masivní, bahnem pokryté tělo obrovského hada. S tichým zasyčením se ovine kolem nohy jednoho z vás a začne táhnout pod vodu. Je to **bažinný škrtič**, který si brání své loviště.
+       Z kalné louže se bez varování vymrští masivní, bahnem pokryté tělo obrovského hada. S tichým zasyčením se ovine kolem krku jednoho z vás a začne táhnout pod vodu. Je to **bažinný škrtič**, potěšený tím jak velká kořist mu přišla přímo do rajónu.
 
 Pokud se družince obě ingredience podaří získat, bylinkářka Radmila se pustí do náročné přípravy lektvaru. Vaření bude trvat dlouho, takže se družinka vydá k myslivci až v noci.
 
