@@ -2,8 +2,8 @@ id: Beast:bleda_kraska
 category: duch
 level: 3
 name: Bledá kráska
-appearance: Je to mladá, nadpozemsky krásná dívka s vlasy bílými jako sníh, oděná do jednoduchých bílých šatů. Bosýma nohama neslyšně našlapuje (?) po mechu.
-mechanics: "Jde si svou cestou a pokud na ni nikdo nezaůtočí, nebude útočit ani ona. Pokusí se ale oblouznit mužské postavy vaší družinky: upře na ně smutné oči a začne si prozpěvovat tichou, tesknou melodii beze slov. Cíl musí hodit na zkoušku INT 5 a při neúspěchu jsou oblouzněni – zastaví se a jen zamilovaně zírají, neschopni akce, dokud kráska nezmizí nebo nejsou zraněni."
+appearance: Je to mladá, nadpozemsky krásná dívka s líbeznou tváří a vlasy bílými jako sníh, oděná do jednoduchých bílých šatů. Bosýma nohama neslyšně našlapuje po mechu. Nebo se snad jenom vznáší?
+mechanics: "Jde si svou cestou a pokud na ni nikdo nezaůtočí, nebude útočit ani ona. Pokusí se ale oblouznit mužské postavy vaší družinky: upře na ně smutné oči a začne si prozpěvovat tichou, tesknou melodii beze slov. Cíl musí hodit na zkoušku INT 5 a při neúspěchu jsou oblouzněni – zastaví se a jen zamilovaně zírají, neschopni akce, dokud kráska nezmizí nebo nejsou zraněni. Pokud je ale napadena, její tvář se změní v hrůznou masku s jehlovitými zuby a vrhne se do boje jako krvelačná bestie."
 strength: -1
 dexterity: +1
 inteligence: -1

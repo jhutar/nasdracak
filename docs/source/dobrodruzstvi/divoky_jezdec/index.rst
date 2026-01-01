@@ -140,6 +140,8 @@ Oznam hráčům že každý krok v bludišti znamená třeba 10 minut herního �
 
 Popis bažinného škrtiče viz kapitola "Seznam monster". Pokud nad ním zvíězili, natrhat květy a vymotat se z bažiny už bude jednoduché.
 
+Popis bažinného škrtiče viz kapitola Seznam monster.
+
 Pokud se družince obě ingredience podaří získat, bylinkářka Radmila se pustí do náročné přípravy lektvaru. Vaření bude trvat dlouho, takže se družinka vydá k myslivci až v noci.
 
 Cesta odpuštění: Hledání poutníků
@@ -168,8 +170,7 @@ Když se družinka pohybuje lesem kolem půlnoci, může narazit na podivné zje
 
    Zpoza stromů před vámi tiše vykročí postava. Je to mladá, nadpozemsky krásná dívka s vlasy bílými jako sníh, oděná do jednoduchých bílých šatů. Bosýma nohama neslyšně našlapuje po mechu. Zastaví se, upře na vás své velké, smutné oči a začne si prozpěvovat tichou, tesknou melodii beze slov.
 
-*   **Mechanika:** Mužské postavy, které ji spatří, si musí hodit zkoušku na INT. Při neúspěchu jsou oblouzněni – zastaví se a jen zamilovaně zírají, neschopni akce, dokud víla nezmizí.
-*   **Chování:** Pokud na ni nikdo nezaútočí, po chvíli se smutně usměje a zmizí. Pokud je napadena, její tvář se změní v hrůznou masku s jehlovitými zuby a vrhne se do boje jako krvelačná bestie.
+Pokusí se dočasně oblouznit mužské postavy ve skupince a pokud na ni nikdo nezaútočí za chvíli odejde, ale pokud bude napadena, stává se nebezpečnou protivnicí. Konkrétně viz její popis v kapitole Seznam monster.
 
 Závěr
 ======
