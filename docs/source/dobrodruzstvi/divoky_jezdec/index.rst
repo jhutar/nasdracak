@@ -96,15 +96,13 @@ Roste v jeskyni za malým vodopádem v lese.
 
 **2. Květy tůňovky**
 
-Najdou je v srdci Mlžného močálu, kam vedou jen zrádné a matoucí stezky.
+Najdou je v srdci močálu, kam vedou jen zrádné a matoucí stezky (z `D&D Puzzles for Mazes and Labyrinths (with free puzzle) <https://dungeonvault.com/dnd-puzzles-for-mazes-and-labyrinths-with-free-puzzle/>`__).
 
-.. admonition:: Popis pro hráče: Bludiště v močálu
+Do močálu se vstupuje na políčku 1 a mapu hráči samozřejmně nedostanou. Postavy se mohou pohybovat jen po šipkách mapy níže. Popisy jednotlivých čtverců mapy viz popis pro hráče níže. Po chvíli chůze si hráči jistě uvědomí, že si mohou zmapovat bludiště pomocí těch popisů. Pokud na to nepřijdou, budou se toulat močálem, dokud nenarazí na správné pole, čímž ztratí cenný čas: oznam hráčům že každý krok v bludišti znamená třeba 5 minut herního času, času kterého myslivec Joryn nemá nazbyt.
 
-   Postavy musí najít cestu přes močál. Postavy se mohou pohybovat pouze tam, kam ukazují šipky na neviditelné mapě. Pokud zabloudí, skončí na náhodném políčku nebo mohou narazit na nebezpečí, například na **bažinného škrtiče**.
+.. admonition:: Popis pro hráče: Močál kde kvete Tůňovka
 
-   Po chvíli chůze si hráči brzy uvědomí, že si mohou zmapovat bludiště pomocí vašich popisů. Pokud na to nepřijdou, budou se toulat močálem, dokud nenarazí na správné pole, čímž ztratí cenný čas a zdroje.
-
-   Vstupujete do bludiště na políčku číslo jedna. Vždy přečtěte popis oblasti.
+   Je potřeba najít cestu přes močál. Můžete se pohybovat pouze tam, kam kam vedou cesty.
 
    1. Cesta se vine mezi tůněmi stojaté vody a vede na východ hlouběji do Mlžného močálu.
    2. Přijdete k menhiru, jehož stěny jsou ohlazené věky. Lze rozpoznat pouze symbol napůl zavřeného oka. Cesta vede na východ, západ a jih.
@@ -118,18 +116,21 @@ Najdou je v srdci Mlžného močálu, kam vedou jen zrádné a matoucí stezky.
    10. Cesta zde vede na sever, jih a západ. Je pevnější než na většině míst a teplé kameny nabízejí příležitost k odpočinku.
    11. Zde cesta vede na sever a jih podél mělké tůně, kde jsou nastraženy pasti na ryby. Ale lana už dávno prohnila.
    12. Východním a jižním směrem vede stezka skrze mlhu, která je obzvláště hustá.
-   13. Nad cestou, která vede na sever, jih a východ, tančí měkká světla.
-   14. Zde se stezka vine na sever a na západ mezi zátokou zkamenělých stromů.
-   15. Uprostřed křižovatky, kde cesta vede na sever, jih a východ, slyšíte hlasy zpívajících dětí a máte ohromnou potřebu si zdřímnout. Jen na chviličku.
-   16. Tato křižovatka je z pevného opracovaného kamene. Klene se nad potoky vody a vede na sever, jih a západ.
-   17. Cesta končí na úpatí kopce, který se zdá nepřirozeně kulatý. Zde konečně nacházíte Květy tůňovky.
-   18. Na těchto křižovatkách stojí rozbitá věž porostlá popínavými rostlinami.
-   19. V tomto ohybu stezky vedoucí na západ a jih najdete stopu tlapy něčeho, co je... větší než vy.
-   20. Cesta končí na kruhové plošině pokryté kostmi zvířat.
-   21. Další ohyb cesty, tentokrát vedoucí na sever a východ.
-   22. Zde se cesta táhne na východ a na západ. Velké úseky leží pod hladinou vody. Budete si muset namočit nohy, abyste je přešli.
-   23. V tomto ohybu cesty vedoucí na sever a západ je zápach hniloby ohromující.
-   24. Cesta končí v zátoce stromů. Mezi jejich větvemi jsou vysoko uvázány houpací sítě.
+   13. Konečně jste v cíli a květy tůňovky máte na dosah, ale co to? Když se brodíte vysokou trávou a kalnou vodou, klidná hladina se náhle rozvíří. Z kalné louže se bez varování vymrští masivní, bahnem pokryté tělo obrovského hada. S tichým zasyčením se ovine kolem krku jednoho z vás a začne táhnout pod vodu. Je to **bažinný škrtič**, potěšený tím jak velká kořist mu přišla přímo do rajónu.
+   14. Nad cestou, která vede na sever, jih a východ, tančí měkká světla.
+   15. Zde se stezka vine na sever a na západ mezi zátokou zkamenělých stromů.
+   16. Uprostřed křižovatky, kde cesta vede na sever, jih a východ, slyšíte hlasy zpívajících dětí a máte ohromnou potřebu si zdřímnout. Jen na chviličku.
+   17. Tato křižovatka je z pevného opracovaného kamene. Klene se nad potoky vody a vede na sever, jih a západ.
+   18. Cesta končí na úpatí kopce, který se zdá nepřirozeně kulatý. Zde konečně nacházíte Květy tůňovky.
+   19. Na těchto křižovatkách stojí rozbitá věž porostlá popínavými rostlinami.
+   20. V tomto ohybu stezky vedoucí na západ a jih najdete stopu tlapy něčeho, co je... větší než vy.
+   21. Cesta končí na kruhové plošině pokryté kostmi zvířat.
+   22. Další ohyb cesty, tentokrát vedoucí na sever a východ.
+   23. Zde se cesta táhne na východ a na západ. Velké úseky leží pod hladinou vody. Budete si muset namočit nohy, abyste je přešli.
+   24. V tomto ohybu cesty vedoucí na sever a západ je zápach hniloby ohromující.
+   25. Cesta končí v zátoce stromů. Mezi jejich větvemi jsou vysoko uvázány houpací sítě.
+
+Popis bažinného škrtiče viz kapitola "Seznam monster".
 
 Pokud se družince obě ingredience podaří získat, bylinkářka Radmila se pustí do náročné přípravy lektvaru. Vaření bude trvat dlouho, takže se družinka vydá k myslivci až v noci.
 
