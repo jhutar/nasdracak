@@ -82,17 +82,40 @@ Radmila jim vysvětlí, že potřebuje dvě vzácné byliny, aby uvařila lektva
 
 **1. Stříbrný kořen**
 
-Roste v jeskyni za malým vodopádem v lese.
+Roste v srdci Mlžného močálu, kam vedou jen zrádné a matoucí stezky.
 
-.. admonition:: Popis pro hráče: Jeskyně za vodopádem
+.. admonition:: Popis pro hráče: Bludiště v močálu
 
-   Voda padá ze skalní stěny a tvoří před vchodem do jeskyně třpytivou clonu. Uvnitř je vlhko a chladno. Prostora se větví do tří tmavých chodeb. Vaším úkolem je najít Stříbrný kořen, vzácnou rostlinu, která jistě potřebuje specifické podmínky k růstu. Při bližším pohledu si všimnete, že každá chodba je jiná:
+   Postavy musí najít cestu přes močál. Postavy se mohou pohybovat pouze tam, kam ukazují šipky na neviditelné mapě. Pokud zabloudí, skončí na náhodném políčku nebo narazí na nebezpečí. Letět nahoru, aby našli cestu, nefunguje kvůli mlze, která jim nedovolí vidět daleko.
 
-   *   **První chodba (vlevo):** Je suchá a vane z ní teplejší vzduch. Podlaha je prašná a nikde ani stopa po vlhkosti. Zdá se, že tudy do jeskyně proniká teplo ze skrytých průduchů. Pokud by se tudy družina vydala, po pár desítkách metrů by narazila na malou jeskyni s horkými prameny, jejichž pára ohřívá okolní skálu. Dál cesta nevede.
+   Po chvíli chůze si hráči brzy uvědomí, že si mohou zmapovat bludiště pomocí vašich popisů. Pokud na to nepřijdou, budou se toulat močálem, dokud nenarazí na správné pole, čímž ztratí cenný čas a zdroje.
 
-   *   **Druhá chodba (uprostřed):** Před ní je na zemi velká kaluž stojaté, nazelenalé vody, která nepříjemně páchne. Voda se sem zjevně dostává, ale neodtéká pryč. Pokud by tudy šli, chodba by se po chvíli změnila v zatopenou a zapáchající slepou uličku.
+   Vstupujete do bludiště na políčku číslo jedna. Vždy přečtěte popis oblasti.
 
-   *   **Třetí chodba (vpravo):** U této chodby je země příjemně vlhká a chladná. Po jedné ze stěn stéká tenounký pramínek čiré, čerstvé vody. V matném světle se kapky na tmavé skále třpytí jako malé hvězdičky. Když se zaposloucháte, slyšíte z hloubi chodby tiché, rytmické kapání. Toto je správná cesta, která je po chvíli dovede do malé prostory, kde mezi mechem roste stříbřitě svítící kořen.
+   #. Cesta se vine mezi tůněmi stojaté vody a vede na východ hlouběji do Mlžného močálu.
+   #. Přijdete k menhiru, jehož stěny jsou ohlazené věky. Lze rozpoznat pouze symbol napůl zavřeného oka. Cesta vede na východ, západ a jih.
+   #. Stezka pokračuje na východ a na západ. Sto párů očí žlutokřídlých kosů se otočí vaším směrem. Opatrně vás pozorují ze svých posedů na větvích mrtvého stromu.
+   #. Západním a východním směrem se vine stezka. Mezi keři s trny ostrými jako břitva.
+   #. Na tomto rohu cesty vinoucí se na západ a na jih najdete hluboké jezero. A něco se třpytí pod jeho hladinou.
+   #. Cesta vede na východ a na jih. Na jejím rohu stojí shnilá chatrč, ale je těžké uvěřit, že by si někdo vybral žít zde.
+   #. Stezka vede na sever, východ a západ. Na křižovatce leží plochá, mechem porostlá kamenná deska.
+   #. Slepá ulička. Nejenže zde končí cesta. Najdete zde také ostatky poutníka, který se musel ztratit v těchto prokletých zemích.
+   #. V tomto ohybu cesty vedoucí na jih a východ najdete malý oltář. Žádný komár se k němu nepřiblíží.
+   #. Cesta zde vede na sever, jih a západ. Je pevnější než na většině míst a teplé kameny nabízejí příležitost k odpočinku.
+   #. Zde cesta vede na sever a jih podél mělké tůně, kde jsou nastraženy pasti na ryby. Ale lana už dávno prohnila.
+   #. Východním a jižním směrem vede stezka skrze mlhu, která je obzvláště hustá.
+   #. Nad cestou, která vede na sever, jih a východ, tančí měkká světla.
+   #. Zde se stezka vine na sever a na západ mezi zátokou zkamenělých stromů.
+   #. Uprostřed křižovatky, kde cesta vede na sever, jih a východ, slyšíte hlasy zpívajících dětí a máte ohromnou potřebu si zdřímnout. Jen na chviličku.
+   #. Tato křižovatka je z pevného opracovaného kamene. Klene se nad potoky vody a vede na sever, jih a západ.
+   #. Cesta končí na úpatí kopce, který se zdá nepřirozeně kulatý. Zde konečně nacházíte Stříbrný kořen.
+   #. Na těchto křižovatkách stojí rozbitá věž porostlá popínavými rostlinami.
+   #. V tomto ohybu stezky vedoucí na západ a jih najdete stopu tlapy něčeho, co je... větší než vy.
+   #. Cesta končí na kruhové plošině pokryté kostmi zvířat.
+   #. Další ohyb cesty, tentokrát vedoucí na sever a východ.
+   #. Zde se cesta táhne na východ a na západ. Velké úseky leží pod hladinou vody. Budete si muset namočit nohy, abyste je přešli.
+   #. V tomto ohybu cesty vedoucí na sever a západ je zápach hniloby ohromující.
+   #. Cesta končí v zátoce stromů. Mezi jejich větvemi jsou vysoko uvázány houpací sítě.
 
 **2. Květy tůňovky**
 
