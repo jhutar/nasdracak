@@ -83,6 +83,7 @@ jobs:
           sphinx-build -M latexpdf docs/source/dobrodruzstvi/ docs/build/
           sphinx-build -M latexpdf docs/source/dobrodruzstvi/opustena_magova_vez/ docs/build/
           sphinx-build -M latexpdf docs/source/dobrodruzstvi/duha_ve_meste/ docs/build/
+          sphinx-build -M latexpdf docs/source/dobrodruzstvi/divoky_jezdec/ docs/build/
 
       - name: Collect prebuilt pdfs
         run: |

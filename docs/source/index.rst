@@ -14,6 +14,7 @@ Pokud si chcete stáhnout PDF variantu tohoto dokumentu nebo jeho podčásti, ta
  * Všechna (dvě) dobrodružství: :download:`nasdracak-dobrodruzstvi.pdf <_static/nasdracak-dobrodruzstvi.pdf>`
  * Dobrodružství Opuštěná mágova věž: :download:`nasdracak-dobrodruzstvi-opustena_magova_vez.pdf <_static/nasdracak-dobrodruzstvi-opustena_magova_vez.pdf>`
  * Dobrodružství Duha ve městě: :download:`nasdracak-dobrodruzstvi-duha_ve_meste.pdf <_static/nasdracak-dobrodruzstvi-duha_ve_meste.pdf>`
+ * Dobrodružství Divoký jezdec: :download:`nasdracak-dobrodruzstvi-divoky_jezdec.pdf <_static/nasdracak-dobrodruzstvi-divoky_jezdec.pdf>`
 
 Karty v PDF:
 
