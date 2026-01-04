@@ -94,11 +94,15 @@ Roste v jeskyni za malým vodopádem v lese.
 
    *   **Třetí chodba (vpravo):** U této chodby je země příjemně vlhká a chladná. Po jedné ze stěn stéká tenounký pramínek čiré, čerstvé vody. V matném světle se kapky na tmavé skále třpytí jako malé hvězdičky. Když se zaposloucháte, slyšíte z hloubi chodby tiché, rytmické kapání. Toto je správná cesta, která je po chvíli dovede do malé prostory, kde mezi mechem roste stříbřitě svítící kořen.
 
-**2. Květy tůňovky**
+**2. Květy Tůňovky**
 
-Najdou je v srdci močálu, kam vedou jen zrádné a matoucí stezky (z `D&D Puzzles for Mazes and Labyrinths (with free puzzle) <https://dungeonvault.com/dnd-puzzles-for-mazes-and-labyrinths-with-free-puzzle/>`__).
+Květy Tůňovky najdou v srdci močálu, kam vedou jen zrádné a matoucí stezky (bludiště upraveno z `D&D Puzzles for Mazes and Labyrinths (with free puzzle) <https://dungeonvault.com/dnd-puzzles-for-mazes-and-labyrinths-with-free-puzzle/>`__).
 
-Do močálu se vstupuje na políčku 1 a mapu hráči samozřejmně nedostanou. Postavy se mohou pohybovat jen po šipkách mapy níže. Popisy jednotlivých čtverců mapy viz popis pro hráče níže. Po chvíli chůze si hráči jistě uvědomí, že si mohou zmapovat bludiště pomocí těch popisů. Pokud na to nepřijdou, budou se toulat močálem, dokud nenarazí na správné pole, čímž ztratí cenný čas: oznam hráčům že každý krok v bludišti znamená třeba 5 minut herního času, času kterého myslivec Joryn nemá nazbyt.
+Do močálu se vstupuje na políčku 1 a mapu hráči samozřejmně nedostanou, musí probloudit sami. Postavy se mohou pohybovat jen po šipkách mapy níže. Popisy jednotlivých čtverců mapy viz popis pro hráče níže. Po chvíli chůze si hráči jistě uvědomí, že si mohou zmapovat bludiště pomocí těch popisů. Pokud na to nepřijdou, budou se toulat močálem, dokud nenarazí na správné pole, čímž ztratí cenný čas: oznam hráčům že každý krok v bludišti znamená třeba 5 minut herního času, času kterého myslivec Joryn nemá nazbyt.
+
+.. image:: img/bazina.svg
+   :alt: Plán bludiště v bažině (neukazovat hráčům)
+   :align: center
 
 .. admonition:: Popis pro hráče: Močál kde kvete Tůňovka
 
@@ -130,7 +134,7 @@ Do močálu se vstupuje na políčku 1 a mapu hráči samozřejmně nedostanou. 
    24. V tomto ohybu cesty vedoucí na sever a západ je zápach hniloby ohromující.
    25. Cesta končí v zátoce stromů. Mezi jejich větvemi jsou vysoko uvázány houpací sítě.
 
-Popis bažinného škrtiče viz kapitola "Seznam monster".
+Popis bažinného škrtiče viz kapitola "Seznam monster". Pokud nad ním zvíězili, natrhat květy a vymotat se z bažiny už bude jednoduché.
 
 Pokud se družince obě ingredience podaří získat, bylinkářka Radmila se pustí do náročné přípravy lektvaru. Vaření bude trvat dlouho, takže se družinka vydá k myslivci až v noci.
 
