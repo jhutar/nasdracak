@@ -144,7 +144,7 @@ Tato cesta vyžaduje spíše důvtip a empatii.
 
    Voda padá ze skalní stěny a tvoří před vchodem do jeskyně třpytivou clonu. Uvnitř je vlhko a chladno. Prostora se větví do tří tmavých chodeb. Musíte se rozhodnout, kudy se vydali uprchlíci. Stopy v kamenité zemi nejsou vidět, musíte se řídit instinktem a tím, co by si vybrali vyčerpaní lidé s dítětem.
 
-   *   **První chodba (vlevo):** Je suchá a vane z ní teplejší vzduch. Podlaha je prašná a nikde ani stopa po vlhkosti. Zdá se být nejpohodlnější na chůzi. Pokud se tudy ale družina vydá, brzy zjistí, že teplo pochází z nebezpečných podzemních výparů. Hrozí zde popálení od horké páry a udušení sirnými plyny.
+   *   **První chodba (vlevo):** Z hloubi chodby se ozývá tlumený, dunivý hluk. Pokud se tudy družina vydá, cesta se po pár metrech náhle láme v prudký, kluzký sráz, pod kterým burácí dravá podzemní řeka. První člen výpravy musí uspět v hodu na **Obratnost** (aspoň 3, pokud mají světlo, jinak aspoň 5), jinak do ledové vody spadne a řeka ho začne unášet hlouběji do temného podzemí.
 
    *   **Druhá chodba (uprostřed):** Před ní je na zemi velká kaluž stojaté, nazelenalé vody, která nepříjemně páchne. Pokud by tudy šli, chodba se svažuje do zatopené, bahnité propasti. V hlubokém bahně se špatně pohybuje a žije v něm dravý sliz, který čeká na svou kořist.
 
