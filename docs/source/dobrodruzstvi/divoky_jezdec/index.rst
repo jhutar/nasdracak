@@ -78,23 +78,9 @@ Po prvotním průzkumu se hrdinové musí rozhodnout. Buď se vrátí za Radmilo
 Cesta léku: Hledání přísad
 --------------------------
 
-Radmila jim vysvětlí, že potřebuje dvě vzácné byliny, aby uvařila lektvar.
+Radmila jim vysvětlí, že potřebuje jednu vzácnou bylinu, aby uvařila lektvar.
 
-**1. Stříbrný kořen**
-
-Roste v jeskyni za malým vodopádem v lese.
-
-.. admonition:: Popis pro hráče: Jeskyně za vodopádem
-
-   Voda padá ze skalní stěny a tvoří před vchodem do jeskyně třpytivou clonu. Uvnitř je vlhko a chladno. Prostora se větví do tří tmavých chodeb. Vaším úkolem je najít Stříbrný kořen, vzácnou rostlinu, která jistě potřebuje specifické podmínky k růstu. Při bližším pohledu si všimnete, že každá chodba je jiná:
-
-   *   **První chodba (vlevo):** Je suchá a vane z ní teplejší vzduch. Podlaha je prašná a nikde ani stopa po vlhkosti. Zdá se, že tudy do jeskyně proniká teplo ze skrytých průduchů. Pokud by se tudy družina vydala, po pár desítkách metrů by narazila na malou jeskyni s horkými prameny, jejichž pára ohřívá okolní skálu. Dál cesta nevede.
-
-   *   **Druhá chodba (uprostřed):** Před ní je na zemi velká kaluž stojaté, nazelenalé vody, která nepříjemně páchne. Voda se sem zjevně dostává, ale neodtéká pryč. Pokud by tudy šli, chodba by se po chvíli změnila v zatopenou a zapáchající slepou uličku.
-
-   *   **Třetí chodba (vpravo):** U této chodby je země příjemně vlhká a chladná. Po jedné ze stěn stéká tenounký pramínek čiré, čerstvé vody. V matném světle se kapky na tmavé skále třpytí jako malé hvězdičky. Když se zaposloucháte, slyšíte z hloubi chodby tiché, rytmické kapání. Toto je správná cesta, která je po chvíli dovede do malé prostory, kde mezi mechem roste stříbřitě svítící kořen.
-
-**2. Květy Tůňovky**
+**Květy Tůňovky**
 
 Květy Tůňovky najdou v srdci močálu, kam vedou jen zrádné a matoucí stezky (bludiště upraveno z `D&D Puzzles for Mazes and Labyrinths (with free puzzle) <https://dungeonvault.com/dnd-puzzles-for-mazes-and-labyrinths-with-free-puzzle/>`__).
 
@@ -142,7 +128,7 @@ Popis bažinného škrtiče viz kapitola "Seznam monster". Pokud nad ním zvíě
 
 Popis bažinného škrtiče viz kapitola Seznam monster.
 
-Pokud se družince obě ingredience podaří získat, bylinkářka Radmila se pustí do náročné přípravy lektvaru. Vaření bude trvat dlouho, takže se družinka vydá k myslivci až v noci.
+Pokud se družince ingredienci podaří získat, bylinkářka Radmila se pustí do náročné přípravy lektvaru. Vaření bude trvat dlouho, takže se družinka vydá k myslivci až v noci.
 
 Cesta odpuštění: Hledání poutníků
 ---------------------------------
@@ -152,11 +138,17 @@ Tato cesta vyžaduje spíše důvtip a empatii.
 1.  **Výchozí bod:** Hospodyně Marta jim řekla, že Joryn hnal poutníky směrem k **Černému lesu**.
 2.  **První stopa:** Po cestě k lesu si pozorná postava (zkouška na *Postřeh*) všimne v blátě zapadlého malého, ručně vyřezávaného ptáčka ze dřeva. Je to hračka malého Tomáše.
 3.  **Svědectví:** Na rozcestí potkají starého uhlíře. Když mu ukážou hračku, vzpomene si. *"Ano, viděl jsem je. Vyděšení k smrti. Stařec mávl rukou směrem ke starému brodu. Chtěli se asi dostat přes řeku."*
-4.  **Slepá ulička a dedukce:** Brod je kvůli dešťům rozvodněný a nesjízdný. Poutníci se nemohli dostat dál. Museli si najít úkryt na této straně. Při prozkoumání okolí si hrdinové všimnou nedaleké siluety **starého, opuštěného seníku**.
+4.  **Slepá ulička a dedukce:** Brod je kvůli dešťům rozvodněný a nesjízdný. Poutníci se nemohli dostat dál. Museli si najít úkryt na této straně. Při prozkoumání okolí si hrdinové všimnou nedaleké **jeskyně, skryté za vodopádem**.
 
-.. admonition:: Popis pro hráče: Starý seník
+.. admonition:: Popis pro hráče: Jeskyně za vodopádem
 
-   Před vámi stojí polorozpadlý seník. Střecha je propadlá, dveře visí na jediném pantu. Zevnitř se line pach vlhkého sena a strachu. Slyšíte tichý dětský kašel.
+   Voda padá ze skalní stěny a tvoří před vchodem do jeskyně třpytivou clonu. Uvnitř je vlhko a chladno. Prostora se větví do tří tmavých chodeb. Musíte se rozhodnout, kudy se vydali uprchlíci. Stopy v kamenité zemi nejsou vidět, musíte se řídit instinktem a tím, co by si vybrali vyčerpaní lidé s dítětem.
+
+   *   **První chodba (vlevo):** Je suchá a vane z ní teplejší vzduch. Podlaha je prašná a nikde ani stopa po vlhkosti. Zdá se být nejpohodlnější na chůzi. Pokud se tudy ale družina vydá, brzy zjistí, že teplo pochází z nebezpečných podzemních výparů. Hrozí zde popálení od horké páry a udušení sirnými plyny.
+
+   *   **Druhá chodba (uprostřed):** Před ní je na zemi velká kaluž stojaté, nazelenalé vody, která nepříjemně páchne. Pokud by tudy šli, chodba se svažuje do zatopené, bahnité propasti. V hlubokém bahně se špatně pohybuje a žije v něm dravý sliz, který čeká na svou kořist.
+
+   *   **Třetí chodba (vpravo):** U této chodby je země příjemně vlhká a chladná. Po jedné ze stěn stéká tenounký pramínek čiré, čerstvé vody. V matném světle se kapky na tmavé skále třpytí jako malé hvězdičky. Když se zaposloucháte, slyšíte z hloubi chodby tiché, rytmické kapání. Toto je správná cesta – čerstvá voda je přesně to, co poutníci potřebovali. Po chvíli vás dovede do malé prostory, kde se choulí promrzlá rodina.
 
 *   **Sociální výzva:** Poutníci jsou vyděšení a nedůvěřiví. Myslí si, že je posílá Joryn. Hrdinové je musí přesvědčit o svých dobrých úmyslech. Pomůže, pokud nabídnou jídlo nebo pokud postava se znalostí léčitelství pomůže nemocnému Tomášovi.
 *   **Puzzle zrušení kletby:** Vít netuší, že Joryna proklel. Kletba zrozená z emocí může být zrušena jen **upřímným aktem soucitu**. Nestačí jen říct "odpouštím". Vít musí Jorynovi skutečně popřát uzdravení. Toho lze dosáhnout, když mu hrdinové pomohou a on pocítí vděk a úlevu, která přebije jeho hněv.
