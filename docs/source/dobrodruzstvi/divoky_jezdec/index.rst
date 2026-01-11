@@ -138,20 +138,40 @@ Tato cesta vyžaduje spíše důvtip a empatii.
 1.  **Výchozí bod:** Hospodyně Marta jim řekla, že Joryn hnal poutníky směrem k **Černému lesu**.
 2.  **První stopa:** Po cestě k lesu si pozorná postava (zkouška na *Postřeh*) všimne v blátě zapadlého malého, ručně vyřezávaného ptáčka ze dřeva. Je to hračka malého Tomáše.
 3.  **Svědectví:** Na rozcestí potkají starého uhlíře. Když mu ukážou hračku, vzpomene si. *"Ano, viděl jsem je. Vyděšení k smrti. Stařec mávl rukou směrem ke starému brodu. Chtěli se asi dostat přes řeku."*
-4.  **Slepá ulička a dedukce:** Brod je kvůli dešťům rozvodněný a nesjízdný. Poutníci se nemohli dostat dál. Museli si najít úkryt na této straně. Při prozkoumání okolí si hrdinové všimnou nedaleké **jeskyně, skryté za vodopádem**.
+4.  **Slepá ulička a dedukce:** Brod je kvůli dešťům rozvodněný a nedá se jednoduše překročit. Poutníci se nemohli dostat dál. Museli si najít úkryt na této straně. Při prozkoumání okolí si hrdinové všimnou nedaleké **jeskyně** s vchodem skrytým v houští.
 
-.. admonition:: Popis pro hráče: Jeskyně za vodopádem
+.. admonition:: Popis pro hráče: Jeskyně za křovím
 
-   Voda padá ze skalní stěny a tvoří před vchodem do jeskyně třpytivou clonu. Uvnitř je vlhko a chladno. Prostora se větví do tří tmavých chodeb. Musíte se rozhodnout, kudy se vydali uprchlíci. Stopy v kamenité zemi nejsou vidět, musíte se řídit instinktem a tím, co by si vybrali vyčerpaní lidé s dítětem.
+   Porost hustého křoví a mladých stromků zakrývá temnou díru ve skále, ale pak si všimnete několika zlámaných větviček značících úzký průchod. Uvnitř jeskyně je vlhko a chladno. Prostora se větví do tří tmavých chodeb. Musíte se rozhodnout, kudy se vydali uprchlíci. Stopy na kamenité zemi nejsou vidět a tak se říďte instinktem a tím, co by si vybrali vyčerpaní lidé s dítětem.
 
-   *   **První chodba (vlevo):** Z hloubi chodby se ozývá tlumený, dunivý hluk. Pokud se tudy družina vydá, cesta se po pár metrech náhle láme v prudký, kluzký sráz, pod kterým burácí dravá podzemní řeka. První člen výpravy musí uspět v hodu na **Obratnost** (aspoň 3, pokud mají světlo, jinak aspoň 5), jinak do ledové vody spadne a řeka ho začne unášet hlouběji do temného podzemí.
+   * *První chodba (vlevo):* Z hloubi chodby se ozývá tlumený, dunivý hluk.
 
-   *   **Druhá chodba (uprostřed):** Před ní je na zemi velká kaluž stojaté, nazelenalé vody, která nepříjemně páchne. Pokud by tudy šli, chodba se svažuje do zatopené, bahnité propasti. V hlubokém bahně se špatně pohybuje a žije v něm dravý sliz, který čeká na svou kořist.
+   * *Druhá chodba (uprostřed):* Před chodbou je na zemi velká kaluž stojaté, nazelenalé vody, která nepříjemně páchne. Stěny se lesknou něčím vlhkým a chodba pokračuje stále dále.
 
-   *   **Třetí chodba (vpravo):** U této chodby je země příjemně vlhká a chladná. Po jedné ze stěn stéká tenounký pramínek čiré, čerstvé vody. V matném světle se kapky na tmavé skále třpytí jako malé hvězdičky. Když se zaposloucháte, slyšíte z hloubi chodby tiché, rytmické kapání. Toto je správná cesta – čerstvá voda je přesně to, co poutníci potřebovali. Po chvíli vás dovede do malé prostory, kde se choulí promrzlá rodina.
+   * *Třetí chodba (vpravo):* Tato chodba se zdá být prašná a chladná. Do vzduchu se při každém kroku zvedá obláček prachu.
 
-*   **Sociální výzva:** Poutníci jsou vyděšení a nedůvěřiví. Myslí si, že je posílá Joryn. Hrdinové je musí přesvědčit o svých dobrých úmyslech. Pomůže, pokud nabídnou jídlo nebo pokud postava se znalostí léčitelství pomůže nemocnému Tomášovi.
-*   **Puzzle zrušení kletby:** Vít netuší, že Joryna proklel. Kletba zrozená z emocí může být zrušena jen **upřímným aktem soucitu**. Nestačí jen říct "odpouštím". Vít musí Jorynovi skutečně popřát uzdravení. Toho lze dosáhnout, když mu hrdinové pomohou a on pocítí vděk a úlevu, která přebije jeho hněv.
+
+Pokud se družina vydá první chodbou, zjisti v jakém jsou pořadí. Cesta se po pár metrech náhle láme v prudký, kluzký sráz, pod kterým burácí dravá podzemní řeka. První člen výpravy musí uspět v hodu na **Obratnost** (aspoň 3, pokud mají světlo, jinak aspoň 5), jinak se pořádně vykoupe v ledové vodě a přichází o 1 život.
+
+.. admonition:: Popis pro hráče: Vydali se první chodbou
+
+   Vydali jste se první chodbou. Našlapujete jeden za druhým a hluk který jste zaslechli už dříve je stále hlasitějčí. Cesta se po pár metrech náhle láme v prudký, kluzký sráz, pod kterým burácí dravá podzemní řeka.
+
+Pokud se družina vydá druhou chodbou, narazí na **hlen hnědý** (viz popis v kapitole "Seznam monster").
+
+.. admonition:: Popis pro hráče: Vydali se druhou chodbou
+
+    Chodba se svažuje do zatopené, bahnité propasti. V hlubokém bahně se špatně pohybuje, každý krok je namáhavý a pomalý. Jak postupujete, stěny jsou pokryté stále silnější vrstvou slizu. V jedné z prostornějších místností se zastavíte a všimnete si souvislého porostu jakéhosi hněděho mechu na stropě. Na okamžik se na něj nedůvěřivě zahledíte, ale pak se naráz všechno děje velmi rychle. Velká masa hnědého mechu padá na jednoho z vás a začíná boj o přežití. Právě jste potkali dvoumetrový **sliz hnědý**.
+
+Poslední, třetí chodba je ta správná a družinka konečně nachází potníky které Joryn a jeho psi vyhnali od myslivny - starý Vít, jeho dcera Anežka a její nemocný synek Tomáš:
+
+.. admonition:: Popis pro hráče: Vydali se třetí chodbou
+
+   Tato chodba vás po chvíli dovede do malé prostory kde se choulí promrzlá rodina. Skryli se tu před deštěm, před psi a před veškerou nespravedlností světa. Tulí se k sobě a koukají na vás odevzdanýma očima, jako by už neměli sílu potýkat se dalším problémem.
+
+**Sociální výzva:** Poutníci jsou vyděšení a nedůvěřiví. Možná si myslí, že družinku posílá Joryn? Možná že družinka jsou lapkové kteří si přišli vzít jejich život? Hrdinové je musí přesvědčit o svých dobrých úmyslech. Pomůže, pokud nabídnou jídlo nebo pokud postava se znalostí léčitelství pomůže nemocnému Tomášovi. Ticho přerušuje jen jeho sýpání a občasný záchvat kašle.
+
+Vít netuší, že Joryna proklel. Kletba zrozená z emocí může být zrušena jen **upřímným aktem soucitu**. Nestačí jen říct "odpouštím". Vít musí Jorynovi skutečně popřát uzdravení. Toho lze dosáhnout, když mu hrdinové pomohou a on pocítí vděk a úlevu, která přebije jeho hněv.
 
 Noční setkání
 ==============
@@ -206,6 +226,8 @@ Seznam monster
 ```tools/doit.py --data data/ format --entity Beast:bazinny-skrtic --template tools/templates/beast.rst```
 
 ```tools/doit.py --data data/ format --entity Beast:bleda_kraska --template tools/templates/beast.rst```
+
+```tools/doit.py --data data/ format --entity Beast:hlen_hnedy --template tools/templates/beast.rst```
 
 Takto nějak by mohl vypadat jeden z psů pokud by se nepovedlo zrušit kletbu:
 

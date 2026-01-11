@@ -1,0 +1,25 @@
+id: Beast:hlen_hnedy
+category: rostlina
+level: 2
+name: Hlen hnědý
+appearance: Na stropě chodby roste jakýsi hnědý mech. Nejsou to žádné malé ostrůvky uchycené na příhodných místech jak byste normálně čekali, ale velký souvislý porost. Leskne se, protože je celý obalený stejným slizem jaký vidíte na stěnách kolem.
+mechanics: |
+  Vypadá jako souvislý porost hnědého mechu rostoucího na stropě vlhkých podzemních chodeb. Vylučuje sliz kterým jsou pokryté stěny v jeho okolí a on sám. Používá ho, aby se mohl pohybovat což ale dělá jen velmi vzácně a pomalu. Klidně týdny vyčkává na stropě a teprve pokud ucítí pohyb, padá na nebohou krysu či dobrodruha. Při pádu se pokusí běžným útokem způsobit zranění a pak už svou oběť jen pevně omotá a snaží se ji udusit. V případě úspěchu ji pak několik dnů tráví a roste na ní. Když už zbydou jen kosti, pomalým vlnivým pohybem se přesun zpět na strop chodby.
+
+  Pokud se mu daří roste. Level 1 znamená velikost asi 1m2 a 10 životů, lvl 2 je 2m2 a 20 životů a tak dále.
+
+  Pokud zaútočí na dobrodruha, v prvním kole provede tradiční útok (viz síla útoku při pádu). Pak se ale bude snažit svou oběť zadusit. Vykroutit se z jeho slizkého sevření je zkouška *SÍL 2 + 2 * lvl: nic/vykroutí se*. Každé kolo kdy je postava uvězněna, přichází o dva životy. Vytáhnout oběť se může pokusit i kdokoli jiný z družinky, je to stejná past. Hlen je ale citlivý na zranění ohněm, mrazem či kouzly.
+strength: -2
+dexterity: 0
+inteligence: -3
+charisma: -3
+health_max: 20
+magenergy_max: 1
+attack:
+  Útok při pádu: 5
+defense:
+  Proti fyzickým útokům: 4
+  Proti ohni: -2
+  Proti kouzlům: -2
+inventory: []
+location: Location:jeskyně
