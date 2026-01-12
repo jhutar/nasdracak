@@ -90,6 +90,13 @@ def lint_directory(data_dir: str) -> dict:
                     logging.warning(f"  -> ERROR: {issue}")
                     issues[str(item._file_path)].append(issue)
 
+        # Check location (e.g. in Character model)
+        if hasattr(item, "location"):
+            if item.location not in seen_ids:
+                issue = f"Unknown location '{item.location}' found."
+                logging.warning(f"  -> ERROR: {issue}")
+                issues[str(item._file_path)].append(issue)
+
         # Check requires refferences (e.g. in Skill model)
         if hasattr(item, "requires"):
             for i in item.requires:
