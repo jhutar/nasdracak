@@ -130,49 +130,52 @@ Cesta odpuštění: Hledání poutníků
 Tato cesta vyžaduje spíše důvtip a empatii.
 
 1.  **Výchozí bod:** Hospodyně Marta jim řekla, že Joryn hnal poutníky od myslivny směrem k **Černému lesu**.
+
 2.  **První stopa:** Po cestě k lesu si pozorná postava (*zkouška na INT (+ Postřeh nebo Stopování) 5*) všimne v blátě zapadlé malé vyřezávané píšťalky ve tvaru ptáčka. Je to hračka malého Tomáše.
+
 3.  **Svědectví:** V lese narazí na chatrč starého uhlíře. Když se vyptávají, vzpomene si. *"Ano, viděl jsem je. Vyděšení k smrti a ani si mě nevšimli." Stařec mávl rukou směrem ke starému brodu. Asi chtěli jít do Těchova."*
+
 4.  **Cesta do Těchova:** Cestou si možná všimnou stop v blátě či vstupu do jeskyně ukrytého v křoví (*zkouška na INT (+ Postřeh nebo Stopování) 6*).
 
-Pokud ji minou a dorazí až do Těchova, můžou tam zjistit že poutníci se tam neoběvili a snad se vydají zpět hledat lépe. Zkouška teď má obtížnost už jenom 5 a při každém dalším pokusu se její obtížnost snižuje. Každá cesta od uhlířova domu to Těchova nebo zpět je ale stojí aspoň půl hodiny.
+    Pokud ji minou a dorazí až do Těchova, můžou tam zjistit že poutníci se tam neoběvili a snad se vydají zpět hledat lépe. Zkouška teď má obtížnost už jenom 5 a při každém dalším pokusu se její obtížnost snižuje. Každá cesta od uhlířova domu to Těchova nebo zpět je ale stojí aspoň půl hodiny.
 
-Pokud mají píšťalku a při hledání zapískají, možná uslyší Tomášův vzdálený kašel který k nim donese ozvěna. To je navede k jeskyni.
+    Pokud mají píšťalku a při hledání zapískají, možná uslyší Tomášův vzdálený kašel který k nim donese ozvěna. To je navede k jeskyni.
 
 5.  **Průzkum jeskyně:**
 
-.. admonition:: Popis pro hráče: Jeskyně za křovím
+    .. admonition:: Popis pro hráče: Jeskyně za křovím
 
-   Porost hustého křoví a mladých stromků zakrývá temnou díru ve skále nad kterou byste normálně jen mávli rukou. Pak si ale všimnete několika zlámaných větviček kolem úzkého průchodu. Protáhnete se dovnitř a rozhlížíte se. Uvnitř jeskyně je vlhko a chladno. Prostora se větví do tří tmavých chodeb. Zvolte kudy si myslíte že se vydali uprchlíci. Stopy na kamenité zemi nejsou vidět a tak se říďte instinktem a tím, co by si vybrali vyčerpaní lidé s dítětem.
+       Porost hustého křoví a mladých stromků zakrývá temnou díru ve skále nad kterou byste normálně jen mávli rukou. Pak si ale všimnete několika zlámaných větviček kolem úzkého průchodu. Protáhnete se dovnitř a rozhlížíte se. Uvnitř jeskyně je vlhko a chladno. Prostora se větví do tří tmavých chodeb. Zvolte kudy si myslíte že se vydali uprchlíci. Stopy na kamenité zemi nejsou vidět a tak se říďte instinktem a tím, co by si vybrali vyčerpaní lidé s dítětem.
 
-   * *První chodba (vlevo):* Z hloubi chodby se ozývá tlumený, dunivý hluk.
+       * *První chodba (vlevo):* Z hloubi chodby se ozývá tlumený, dunivý hluk.
 
-   * *Druhá chodba (uprostřed):* Před chodbou je na zemi velká kaluž stojaté, nazelenalé vody, která nepříjemně páchne. Stěny se lesknou něčím vlhkým a chodba pokračuje stále dále.
+       * *Druhá chodba (uprostřed):* Před chodbou je na zemi velká kaluž stojaté, nazelenalé vody, která nepříjemně páchne. Stěny se lesknou něčím vlhkým a chodba pokračuje stále dále.
 
-   * *Třetí chodba (vpravo):* Tato chodba se zdá být prašná a chladná. Do vzduchu se při každém kroku zvedá obláček prachu.
+       * *Třetí chodba (vpravo):* Tato chodba se zdá být prašná a chladná. Do vzduchu se při každém kroku zvedá obláček prachu.
 
-Stopování v kamenité jeskyni je obtížné, ale ne nemožné (*zkouška na INT (+ Stopování) 8*). Pokud někdo uspěje, zjistí neurčité stopy vedoucí do třetí chodby.
+    Stopování v kamenité jeskyni je obtížné, ale ne nemožné (*zkouška na INT (+ Stopování) 8*). Pokud někdo uspěje, zjistí neurčité stopy vedoucí do třetí chodby.
 
-Pokud se družina vydá první chodbou, nezapomeň zjistit v jakém jdou pořadí. Prvnímu hrozí uklouznutí a pád do podzemní řeky (*zkouška na OBR (+ Akrobacie) 3 pokud mají světlo, jinak 5*). Při neúspěchu se pořádně vykoupe v ledové vodě a přichází o 1 život.
+    Pokud se družina vydá první chodbou, nezapomeň zjistit v jakém jdou pořadí. Prvnímu hrozí uklouznutí a pád do podzemní řeky (*zkouška na OBR (+ Akrobacie) 3 pokud mají světlo, jinak 5*). Při neúspěchu se pořádně vykoupe v ledové vodě a přichází o 1 život.
 
-.. admonition:: Popis pro hráče: Vydali se první chodbou
+    .. admonition:: Popis pro hráče: Vydali se první chodbou
 
-   Našlapujete jeden za druhým a hluk který jste zaslechli už dříve je stále hlasitější. Cesta se po pár metrech náhle láme v prudký, kluzký sráz, pod kterým burácí dravá podzemní řeka.
+       Našlapujete jeden za druhým a hluk který jste zaslechli už dříve je stále hlasitější. Cesta se po pár metrech náhle láme v prudký, kluzký sráz, pod kterým burácí dravá podzemní řeka.
 
-Pokud se družina vydá druhou chodbou, narazí na **mech hnědý** (viz popis v kapitole "Seznam monster").
+    Pokud se družina vydá druhou chodbou, narazí na **mech hnědý** (viz popis v kapitole "Seznam monster").
 
-.. admonition:: Popis pro hráče: Vydali se druhou chodbou
+    .. admonition:: Popis pro hráče: Vydali se druhou chodbou
 
-    Chodba se svažuje do zatopené, bahnité propasti. V hlubokém bahně se špatně pohybuje, každý krok je namáhavý a pomalý. Jak postupujete, stěny jsou pokryté stále silnější vrstvou slizu. V jedné z prostornějších místností se zastavíte a všimnete si souvislého porostu jakéhosi hněděho mechu na stropě. Na okamžik se na něj nedůvěřivě zahledíte, ale pak se naráz všechno děje velmi rychle. Velká masa hnědého mechu padá na jednoho z vás a začíná boj o přežití. Právě jste potkali dvoumetrový **mech hnědý**.
+        Chodba se svažuje do zatopené, bahnité propasti. V hlubokém bahně se špatně pohybuje, každý krok je namáhavý a pomalý. Jak postupujete, stěny jsou pokryté stále silnější vrstvou slizu. V jedné z prostornějších místností se zastavíte a všimnete si souvislého porostu jakéhosi hněděho mechu na stropě. Na okamžik se na něj nedůvěřivě zahledíte, ale pak se naráz všechno děje velmi rychle. Velká masa hnědého mechu padá na jednoho z vás a začíná boj o přežití. Právě jste potkali dvoumetrový **mech hnědý**.
 
-Poslední, třetí chodba je ta správná a družinka konečně nachází poutníky které Joryn a jeho psi vyhnali od myslivny - starý Vít, jeho dcera Anežka a její nemocný synek Tomáš:
+    Poslední, třetí chodba je ta správná a družinka konečně nachází poutníky které Joryn a jeho psi vyhnali od myslivny - starý Vít, jeho dcera Anežka a její nemocný synek Tomáš:
 
-.. admonition:: Popis pro hráče: Vydali se třetí chodbou
+    .. admonition:: Popis pro hráče: Vydali se třetí chodbou
 
-   Tato chodba vás po chvíli dovede do malé prostory kde se choulí promrzlá rodina. Skryli se tu před deštěm, před psi a před veškerou nespravedlností světa. Tulí se k sobě a koukají na vás odevzdanýma očima, jako by už neměli sílu potýkat se dalším problémem.
+       Tato chodba vás po chvíli dovede do malé prostory kde se choulí promrzlá rodina. Skryli se tu před deštěm, před psi a před veškerou nespravedlností světa. Tulí se k sobě a koukají na vás odevzdanýma očima, jako by už neměli sílu potýkat se dalším problémem.
 
-6.  **Sociální výzva:** Poutníci jsou vyděšení a nedůvěřiví. Počáteční zaražené ticho přerušuje jen Tomášovo nemocné sýpání a občasný záchvat kašle. Vyděšení poutníci si možná myslí, že družinku posílá Joryn? Možná že jsou to lapkové kteří si přišli vzít jejich životy a těch pár zbývajících měďáků? Hrdinové je musí přesvědčit o svých dobrých úmyslech. Pomůže, pokud nabídnou jídlo nebo pokud postava se znalostí léčitelství pomůže nemocnému Tomášovi.
+6.  **Získání odpuštění:** Poutníci jsou vyděšení a nedůvěřiví. Počáteční zaražené ticho přerušuje jen Tomášovo nemocné sýpání a občasný záchvat kašle. Vyděšení poutníci si možná myslí, že družinku posílá Joryn? Možná že jsou to lapkové kteří si přišli vzít jejich životy a těch pár zbývajících měďáků? Hrdinové je musí přesvědčit o svých dobrých úmyslech. Pomůže, pokud nabídnou jídlo nebo pokud postava se znalostí léčitelství pomůže nemocnému Tomášovi.
 
-Vít netuší, že Joryna proklel. Kletba zrozená z tak silného vzteku a bezmoci jaký zažil může být zrušena jen **upřímným aktem soucitu**. Nestačí jen říct "odpouštím". Vít musí Jorynovi skutečně popřát uzdravení. Toho lze dosáhnout, když mu hrdinové pomohou a on pocítí vděk a úlevu, která přebije jeho hněv.
+    Vít netuší, že Joryna proklel. Kletba zrozená z tak silného vzteku a bezmoci jaký zažil může být zrušena jen **upřímným aktem soucitu**. Nestačí jen říct "odpouštím". Vít musí Jorynovi skutečně popřát uzdravení. Toho lze dosáhnout, když mu hrdinové pomohou a on pocítí vděk a úlevu, která přebije jeho hněv.
 
 Noční setkání
 ==============
