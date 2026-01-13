@@ -198,13 +198,13 @@ Může se také stát že družinka narazí na prvního přeměněného psa mysl
 
 .. admonition:: Popis pro hráče: Setkání s pekelným psem
 
-   TODO
+   Z hlubokého stínu mezi stromy slyšíte hrdelní zavrčení. Ve zlé předtuče se vám zježí vlasy na zátylku. Ze stínu se pomalu vyloupne obrys velkého zvířete, ale není to obyčejný vlk ani pes. Jeho postava se nepřirozeně vlní, jako by byla utkaná z čisté tmy a kouře. Jediné, co na něm lze rozeznat jsou dvě rudě žhnoucí oči, které se na vás upírají s chladnou, nepřirozenou nenávistí.
 
 Pes je ve tmě nebo nedostatečném osvětlení téměř nezranitelný a zbraně jím prochází jako stínem. Družince která o tom nemá ponětí by se hodil nějaký náznak. Stejně nám jde jen o atmosféru, ne o to házet na družinku ta nejsilnějčí monstra jaká vymyslíme. Takže se třeba může stát toto:
 
 .. admonition:: Popis pro hráče: Boj s pekelným psem
 
-   TODO
+   Odhodlaně zaútočíte, ale váš povedený úder projede tělem bestie jako by byla z kouře. Necítíte žádný odpor, žádný náraz, jen chladný závan prázdnoty. Stvůra ani nezavrávorá. V tom ale celou scénu skrze řídké větve lesního příkrovu osvítí měsíc v úplňku - to mrak právě uvolnil lunu ze svého temného sevření. Všimnete si, že v místech, kam světlo dopadá, se temné tělo stvůry na okamžik stává hmotnějším a snad i zranitelnějším. Zdá se, že tma je její spojenec a světlo vaše jediná naděje.
 
 Závěr
 ======
