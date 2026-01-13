@@ -191,7 +191,17 @@ Pokusí se dočasně oblouznit mužské postavy ve skupince a pokud na ni nikdo 
 Pekelný pes
 -----------
 
-TODO
+Může se také stát že družinka narazí na prvního přeměněného psa myslivce Joryna. Možná u něj kletba postupovala rychleji? Utekl z výběhu a protože se potuluje kolem hákovny, narazil na naše dobrodruhy.
+
+.. admonition:: Popis pro hráče: Setkání s pekelným psem
+
+   TODO
+
+Pes je ve tmě nebo nedostatečném osvětlení téměř nezranitelný a zbraně jím prochází jako stínem. Družince která o tom nemá ponětí by se hodil nějaký náznak. Stejně nám jde jen o atmosféru, ne o to házet na družinku ta nejsilnějčí monstra jaká vymyslíme. Takže se třeba může stát toto:
+
+.. admonition:: Popis pro hráče: Boj s pekelným psem
+
+   TODO
 
 Závěr
 ======

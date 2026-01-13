@@ -3,7 +3,7 @@ category: duch
 level: 2
 name: Pekelný pes
 appearance: Dvakrát větší než normální pes, červené zářící oči a velké vyceněné zuby.
-mechanics: Zranitelní jsou jen kouzly nebo pokud na ně dopadá světlo, ale potkáte je jen v noci, takže je potřeba taktizovat.
+mechanics: Solidně zranitelní jsou jen kouzly nebo pokud na ně dopadá světlo. Třeba blízká pochodeň nebo odražené světlo měsíce v úplňku, hvězdy jsou málo. Potkáte je ale jen v noci, takže je potřeba taktizovat.
 strength: +1
 dexterity: +1
 inteligence: -1
@@ -12,6 +12,8 @@ health_max: 20
 magenergy_max: 5
 attack:
   Zuby a drápy: 2
-defense: {}
+defense:
+  Ve tmě proti fyzickým zbraním: 7
+  Na světle nebo proti kouzlům: -1
 inventory: []
 location: Location:les
