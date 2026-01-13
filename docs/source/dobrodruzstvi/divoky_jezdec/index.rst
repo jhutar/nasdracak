@@ -5,7 +5,7 @@ Divoký jezdec
 
 Toto krátké dobrodružství je zamýšleno pro skupinku 2-4 dobrodruhů na nižších úrovních. Je postaveno na atmosféře, vyšetřování a morální volbě, s možností boje. Pravidla jsou záměrně volná, aby se dala snadno převést na jakýkoliv herní systém.
 
-Odstavečky uvozené textem "Popis pro hráče:" je bezpečné hráčům přímo přečíst. Zbytek slouží jen potřebám vypravěče.
+Odstavce uvozené textem "Popis pro hráče:" lze hráčům bezpečně přečíst. Zbytek slouží jen potřebám vypravěče.
 
 Doporučujeme, aby si vypravěč text předem prošel, aby plně pochopil souvislosti a motivace postav. Dobrodružství se ideálně odehrává během jednoho večera a noci.
 
@@ -16,7 +16,7 @@ V odlehlém kraji, poblíž vesnice obklopené hlubokými lesy, žije nevrlý a 
 
 Vít, v návalu bezmocného hněvu a strachu o rodinu, Joryna nevědomky prokleje. Není to žádný mág, ale síla jeho emoce probudila v kraji starou, spící magii. Od následujícího rána leží Joryn v těžkých horečkách, neschopen vnímat okolí. Kletba pomalu sžírá i jeho psy, kteří trpí podobnými příznaky a jejich občasné vytí je čím dál tím méně zvířecí. Pokud se kletba nezlomí, Joryn a jeho psi se promění v pekelné bestie z pověsti o `Divokém jezdci <https://sever.rozhlas.cz/povest-ze-sluknovska-divokeho-jezdce-potkat-nechtejte-meli-byste-nocni-mury-8388182>`__.
 
-Družinku pošle do hájovny místní bylinkářka Radmila, aby zjistila co se s myslivcem děje. Na místě najdou nemocného Joryna a vyděšenou hospodyni Martu. Pokud popíší myslivcovy příznaky bylinkářce, řekne jim že to nebude obyčejná horečka, ale že to vypadá na usazující se prokletí.
+Družinku pošle do hájovny místní bylinkářka Radmila, aby zjistila, co se s myslivcem děje. Na místě najdou nemocného Joryna a vyděšenou hospodyni Martu. Pokud popíší myslivcovy příznaky bylinkářce, řekne jim, že to není obyčejná horečka, ale že to vypadá na usazující se prokletí.
 
 Hrdinové mají dvě cesty k vyřešení situace:
 
@@ -28,11 +28,11 @@ Hrdinové mají dvě cesty k vyřešení situace:
 Zadání úkolu
 ============
 
-Dobrodružství začíná ve chvíli, kdy si postavy zavolá stará bylinkářka Radmila. Sama už je nemohoucí a potřebuje tak někoho kdy by se k nemocnému vydal místo ní.
+Dobrodružství začíná ve chvíli, kdy si postavy zavolá stará bylinkářka Radmila. Sama už je nemohoucí, a potřebuje tak někoho, kdo by se k nemocnému vydal místo ní.
 
 .. admonition:: Popis pro hráče: Bylinkářka zadává úkol
 
-   Stará bylinkářka Radmila, o jejíž záda se už léta opírá moudrost ale i únava, si vás k sobě zavolá. "Děti moje," začne pomalu, "mám starosti. Před polednem ke mě přiběhla hospodyně myslivce Joryna. Je prý těžce nemocen a neví o světě. Jeho hospodyně Marta je dobrá duše, ale je to ustrašená myška tak kdo ví co je na tom pravda. Dojděte tam a podívejte se, jestli je myslivec v pořádku. Vemte mu tenhle lektvar proti horkosti, ale myslím že to stačit nebude. Něco se mi na tom nezdá."
+   Stará bylinkářka Radmila, o jejíž záda se už léta opírá moudrost ale i únava, si vás k sobě zavolá. "Děti moje," začne pomalu, "mám starosti. Před polednem ke mně přiběhla hospodyně myslivce Joryna. Je prý těžce nemocen a neví o světě. Jeho hospodyně Marta je dobrá duše, ale je to ustrašená myška, tak kdo ví, co je na tom pravdy. Dojděte tam a podívejte se, jestli je myslivec v pořádku. Vemte mu tenhle lektvar proti horkosti, ale myslím že to stačit nebude. Něco se mi na tom nezdá."
 
 U myslivce
 ==========
@@ -41,13 +41,13 @@ Cesta k hájovně vede skrz les, který s přicházejícím večerem získává 
 
 .. admonition:: Popis pro hráče: Les cestou k myslivně
 
-   Procházíte zšeřelým lesem. Koruny starých stromů zakrývají oblohu a jen občas skrze ně pronikne paprsek bledého měsíčního světla, který kreslí po zemi strašidelné obrazce. Je nepřirozené ticho, slyšíte jen praskání větviček pod vašima nohama a vlastní zrycmechý dech. Vzduch je chladný a voní tlejícím listím a vlhkou hlínou.
+   Procházíte zšeřelým lesem. Koruny starých stromů zakrývají oblohu a jen občas skrze ně pronikne paprsek bledého měsíčního světla, který kreslí po zemi strašidelné obrazce. Je nepřirozené ticho, slyšíte jen praskání větviček pod vašima nohama a vlastní zrychlený dech. Vzduch je chladný a voní tlejícím listím a vlhkou hlínou.
 
 Když dorazí na místo, najdou usedlost a přilehlou ohradu se psy.
 
 .. admonition:: Popis pro hráče: Myslivna a Joryn
 
-   Když jí řeknete že jdete od kořenářky, ustrašená hospodyně Marta vás uvede do pánovy jizby. V největší místnosti domu plápolá oheň v krbu a vrhá na stěny mihotavé stíny. Na stěnách visí trofeje zvířat s prázdnýma skleněnýma očima. Z rohu, od postele, se ozývá těžké, chraplavé dýchání a tiché vzlykání. Vedle postele stojí na stoličce večeře které se nikdo ani nedotknul.
+   Když jí řeknete, že jdete od kořenářky, ustrašená hospodyně Marta vás uvede do pánovy jizby. V největší místnosti domu plápolá oheň v krbu a vrhá na stěny mihotavé stíny. Na stěnách visí trofeje zvířat s prázdnýma skleněnýma očima. Z rohu, od postele, se ozývá těžké, chraplavé dýchání a tiché vzlykání. Vedle postele stojí na stoličce večeře, které se nikdo ani nedotkl.
 
    Na lůžku leží mohutný muž. Očividně ho sužuje vysoká horečka. Tělo se občas prohne v křečích, zpocené čelo se leskne ve světle ohně a z úst mu uniká tiché, nesrozumitelné mumlání: '...pryč odsud... bestie... moje hlava!'. Je úplně mimo sebe, ztracený ve vlastním horečnatém snu.
 
@@ -78,9 +78,9 @@ Cesta léku: Hledání přísady
 
 Radmila jim vysvětlí, že potřebuje jednu vzácnou bylinu, aby uvařila lektvar. **Květy Tůňovky** najdou v srdci močálu, kam vedou jen zrádné a matoucí stezky (bludiště upraveno z `D&D Puzzles for Mazes and Labyrinths (with free puzzle) <https://dungeonvault.com/dnd-puzzles-for-mazes-and-labyrinths-with-free-puzzle/>`__).
 
-Do močálu se vstupuje na políčku 1 a mapu hráči samozřejmně nedostanou, musí probloudit sami. Postavy se mohou pohybovat jen ve směrech uvedených v popisech čtverců (a naznačených v mapě). Popisy jednotlivých čtverců mapy viz popis pro hráče níže. Po chvíli bloudění si hráči jistě uvědomí, že si mohou zmapovat bludiště pomocí těch popisů. Pokud na to nepřijdou, budou se toulat močálem, dokud nenarazí na správné pole. Tím ale ztratí cenný čas.
+Do močálu se vstupuje na políčku 1 a mapu hráči samozřejmě nedostanou, musí probloudit sami. Postavy se mohou pohybovat jen ve směrech uvedených v popisech čtverců (a naznačených v mapě). Popisy jednotlivých čtverců mapy viz popis pro hráče níže. Po chvíli bloudění si hráči jistě uvědomí, že si mohou zmapovat bludiště pomocí těch popisů. Pokud na to nepřijdou, budou se toulat močálem, dokud nenarazí na správné pole. Tím ale ztratí cenný čas.
 
-Oznam hráčům že každý krok v bludišti znamená třeba 10 minut herního času, času kterého myslivec Joryn nemá nazbyt. Sem si zapisuj čárku za každý krok který hráči udělají, ať *jim to potom můžeš spočítat*: ...
+Oznam hráčům, že každý krok v bludišti znamená třeba 10 minut herního času, času kterého myslivec Joryn nemá nazbyt. Sem si zapisuj čárku za každý krok který hráči udělají, ať *jim to potom můžeš spočítat*: ...
 
 .. image:: img/bazina.svg
    :alt: Plán bludiště v bažině (neukazovat hráčům)
@@ -88,15 +88,15 @@ Oznam hráčům že každý krok v bludišti znamená třeba 10 minut herního �
 
 .. admonition:: Popis pro hráče: Močál kde kvete Tůňovka
 
-   Dorazili jste k bažině ke která vás poslala Radmila - někde v ní má kvést vzácná Tůňovka.
+   Dorazili jste k bažině, ke které vás poslala Radmila - někde v ní má kvést vzácná Tůňovka.
 
-   A opravdu, když se rozhlédnete, přímo ve středu močálu vidíte světle modré květy Tůňovky na dlouhých šlahounech přesně jak je bylinkářka popsala. Dostat se k nim ale nebude tak jednoduché. Radmila vás varovala ať se pečlivě držíte nemnohých pěšinek které bažinou prochází. Dál se tedy můžete pohybovat pouze tam, kam vedou cesty. Začínáte v severo-západním rohu toho zrádného území,
+   A opravdu, když se rozhlédnete, přímo ve středu močálu vidíte světle modré květy Tůňovky na dlouhých šlahounech přesně jak je bylinkářka popsala. Dostat se k nim ale nebude tak jednoduché. Radmila vás varovala, ať se pečlivě držíte nemnohých pěšinek, které bažinou procházejí. Dál se tedy můžete pohybovat pouze tam, kam vedou cesty. Začínáte v severo-západním rohu toho zrádného území,
 
    1. Cesta se vine mezi tůněmi stojaté vody a vede na východ hlouběji do močálu.
    2. Přijdete k menhiru, jehož stěny jsou ohlazené věky. Lze rozpoznat pouze symbol napůl zavřeného oka. Cesta vede na východ, západ a jih.
    3. Stezka pokračuje na východ a na západ. Mnoho párů očí černých kosů se otočí vaším směrem. Opatrně vás pozorují ze svých posedů v rozložitém keři.
    4. Západním a východním směrem se mezi ostružiním s nepříjemně ostrými trny vine stezka.
-   5. Cesta se tu zatáčí ze západu a na jih a kličkuje mezi velkými tůněmi. Z jedné tůně vyčuhuje zčernalý pahýl větve který připomíná ruku tonoucího.
+   5. Cesta se tu zatáčí ze západu a na jih a kličkuje mezi velkými tůněmi. Z jedné tůně vyčuhuje zčernalý pahýl větve, který připomíná ruku tonoucího.
    6. Cesta vede na východ a na jih. Na jejím rohu stojí shnilá a rozpadená chatrč. Je těžké uvěřit, že by si někdo vybral život zde.
    7. Stezka vede na sever, východ a západ. Na křižovatce leží plochá, mechem porostlá kamenná deska.
    8. Slepá ulička, odsud můžete pouze na západ. Nejenže zde končí cesta. Najdete zde také vybělené kosti jakéhosi většího zvířete, které se muselo ztratit v tomto močálu.
@@ -118,7 +118,7 @@ Oznam hráčům že každý krok v bludišti znamená třeba 10 minut herního �
    24. V tomto ohybu cesty vedoucí na sever a západ je zápach hniloby ohromující.
    25. Cesta končí mezi keři. Musíte se vrátit na sever.
 
-Popis bažinného škrtiče viz kapitola "Seznam monster". Pokud nad ním zvíězili, natrhat květy a vymotat se z bažiny už bude jednoduché.
+Popis bažinného škrtiče viz kapitola "Seznam monster". Pokud nad ním zvítězí, natrhat květy a vymotat se z bažiny už bude jednoduché.
 
 Popis bažinného škrtiče viz kapitola Seznam monster.
 
@@ -137,7 +137,7 @@ Tato cesta vyžaduje spíše důvtip a empatii.
 
 4.  **Cesta do Těchova:** Cestou si možná všimnou stop v blátě či vstupu do jeskyně ukrytého v křoví (*zkouška na INT (+ Postřeh nebo Stopování) 6*).
 
-    Pokud ji minou a dorazí až do Těchova, můžou tam zjistit že poutníci se tam neoběvili a snad se vydají zpět hledat lépe. Zkouška teď má obtížnost už jenom 5 a při každém dalším pokusu se její obtížnost snižuje. Každá cesta od uhlířova domu to Těchova nebo zpět je ale stojí aspoň půl hodiny.
+    Pokud ji minou a dorazí až do Těchova, mohou tam zjistit, že poutníci se tam neobjevili, a snad se vydají zpět hledat lépe. Zkouška teď má obtížnost už jenom 5 a při každém dalším pokusu se její obtížnost snižuje. Každá cesta od uhlířova domu do Těchova nebo zpět je ale stojí alespoň půl hodiny.
 
     Pokud mají píšťalku a při hledání zapískají, možná uslyší Tomášův vzdálený kašel který k nim donese ozvěna. To je navede k jeskyni.
 
@@ -145,7 +145,7 @@ Tato cesta vyžaduje spíše důvtip a empatii.
 
     .. admonition:: Popis pro hráče: Jeskyně za křovím
 
-       Porost hustého křoví a mladých stromků zakrývá temnou díru ve skále nad kterou byste normálně jen mávli rukou. Pak si ale všimnete několika zlámaných větviček kolem úzkého průchodu. Protáhnete se dovnitř a rozhlížíte se. Uvnitř jeskyně je vlhko a chladno. Prostora se větví do tří tmavých chodeb. Zvolte kudy si myslíte že se vydali uprchlíci. Stopy na kamenité zemi nejsou vidět a tak se říďte instinktem a tím, co by si vybrali vyčerpaní lidé s dítětem.
+       Porost hustého křoví a mladých stromků zakrývá temnou díru ve skále nad kterou byste normálně jen mávli rukou. Pak si ale všimnete několika zlámaných větviček kolem úzkého průchodu. Protáhnete se dovnitř a rozhlížíte se. Uvnitř jeskyně je vlhko a chladno. Prostora se větví do tří tmavých chodeb. Zvolte, kudy si myslíte, že se vydali uprchlíci. Stopy na kamenité zemi nejsou vidět a tak se říďte instinktem a tím, co by si vybrali vyčerpaní lidé s dítětem.
 
        * *První chodba (vlevo):* Z hloubi chodby se ozývá tlumený, dunivý hluk.
 
@@ -173,7 +173,7 @@ Tato cesta vyžaduje spíše důvtip a empatii.
 
        Tato chodba vás po chvíli dovede do malé prostory kde se choulí promrzlá rodina. Skryli se tu před deštěm, před psi a před veškerou nespravedlností světa. Tulí se k sobě a koukají na vás odevzdanýma očima, jako by už neměli sílu potýkat se dalším problémem.
 
-6.  **Získání odpuštění:** Poutníci jsou vyděšení a nedůvěřiví. Počáteční zaražené ticho přerušuje jen Tomášovo nemocné sýpání a občasný záchvat kašle. Vyděšení poutníci si možná myslí, že družinku posílá Joryn? Možná že jsou to lapkové kteří si přišli vzít jejich životy a těch pár zbývajících měďáků? Hrdinové je musí přesvědčit o svých dobrých úmyslech. Pomůže, pokud nabídnou jídlo nebo pokud postava se znalostí léčitelství pomůže nemocnému Tomášovi.
+6.  **Získání odpuštění:** Poutníci jsou vyděšení a nedůvěřiví. Počáteční zaražené ticho přerušuje jen Tomášovo nemocné sýpání a občasný záchvat kašle. Vyděšení poutníci si možná myslí, že družinku posílá Joryn? Možná, že jsou to lapkové, kteří si přišli vzít jejich životy a těch pár zbývajících měďáků? Hrdinové je musí přesvědčit o svých dobrých úmyslech. Pomůže, pokud nabídnou jídlo nebo pokud postava se znalostí léčitelství pomůže nemocnému Tomášovi.
 
     Vít netuší, že Joryna proklel. Kletba zrozená z tak silného vzteku a bezmoci jaký zažil může být zrušena jen **upřímným aktem soucitu**. Nestačí jen říct "odpouštím". Vít musí Jorynovi skutečně popřát uzdravení. Toho lze dosáhnout, když mu hrdinové pomohou a on pocítí vděk a úlevu, která přebije jeho hněv.
 
@@ -194,13 +194,13 @@ Pokusí se dočasně oblouznit mužské postavy ve skupince a pokud na ni nikdo 
 Pekelný pes
 -----------
 
-Může se také stát že družinka narazí na prvního přeměněného psa myslivce Joryna. Možná u něj kletba postupovala rychleji? Utekl z výběhu a protože se potuluje kolem hákovny, narazil na naše dobrodruhy.
+Může se také stát, že družinka narazí na prvního přeměněného psa myslivce Joryna. Možná u něj kletba postupovala rychleji? Utekl z výběhu, a protože se potuluje kolem hájovny, narazil na naše dobrodruhy.
 
 .. admonition:: Popis pro hráče: Setkání s pekelným psem
 
    Z hlubokého stínu mezi stromy slyšíte hrdelní zavrčení. Ve zlé předtuče se vám zježí vlasy na zátylku. Ze stínu se pomalu vyloupne obrys velkého zvířete, ale není to obyčejný vlk ani pes. Jeho postava se nepřirozeně vlní, jako by byla utkaná z čisté tmy a kouře. Jediné, co na něm lze rozeznat jsou dvě rudě žhnoucí oči, které se na vás upírají s chladnou, nepřirozenou nenávistí.
 
-Pes je ve tmě nebo nedostatečném osvětlení téměř nezranitelný a zbraně jím prochází jako stínem. Družince která o tom nemá ponětí by se hodil nějaký náznak. Stejně nám jde jen o atmosféru, ne o to házet na družinku ta nejsilnějčí monstra jaká vymyslíme. Takže se třeba může stát toto:
+Pes je ve tmě nebo nedostatečném osvětlení téměř nezranitelný a zbraně jím prochází jako stínem. Družince, která o tom nemá ponětí, by se hodil nějaký náznak. Stejně nám jde jen o atmosféru, ne o to házet na družinku ta nejsilnější monstra, jaká vymyslíme. Takže se třeba může stát toto:
 
 .. admonition:: Popis pro hráče: Boj s pekelným psem
 
@@ -211,9 +211,9 @@ Závěr
 
 .. admonition:: Popis pro hráče: Úspěch
 
-   Ať už podáte Jorynovi lektvar nebo Vítovo odpuštění najde svůj cíl, výsledek je okamžitý. Křeče v myslivcově těle ustanou a jeho dech se zklidní. Otevře oči, zmateně se rozhlédne a poprvé po dlouhých hodinách promluví sice ještě roztřeseným, ale jasným hlasem: "Co... co se stalo?". Když vás uvidí, zamračí se, ale v jeho pohledu není síla. "Co tu chcete?" vyštěkne. Pak se ale jeho pohled stočí k misce vystydlé polévky u postele. "Marta mi nechala jídlo," zamumlá a chvíli vzpomíná. Pak aniž by se na vás podíval: "...a co ti poutníci...?". Zatřese hlavou a podívá se na vás jako by zapoměl že tam jste. Roztěkaně hrábne do kapsy a hodí po vás pár mincí: "tak co tu ještě děláte, vypadněte!". Ten krátký záblesk starosti v jeho hlase naznačuje, že tato noc ho možná přece jen změnila a tak seberete mince a odcházíte. I venku psi klidně oddychují, jejich vytí je pryč. Unaveně leží a vylizují prázdné misky. Když procházíte kolem, ani k vám nezvednou oči.
+   Ať už podáte Jorynovi lektvar nebo Vítovo odpuštění najde svůj cíl, výsledek je okamžitý. Křeče v myslivcově těle ustanou a jeho dech se zklidní. Otevře oči, zmateně se rozhlédne a poprvé po dlouhých hodinách promluví sice ještě roztřeseným, ale jasným hlasem: "Co... co se stalo?". Když vás uvidí, zamračí se, ale v jeho pohledu není síla. "Co tu chcete?" vyštěkne. Pak se ale jeho pohled stočí k misce vystydlé polévky u postele. "Marta mi nechala jídlo," zamumlá a chvíli vzpomíná. Pak, aniž by se na vás podíval, zamumlá: "...a co ti poutníci...?". Zatřese hlavou a podívá se na vás, jako by zapomněl, že tam jste. Roztěkaně hrábne do kapsy a hodí po vás pár mincí: "tak co tu ještě děláte, vypadněte!". Ten krátký záblesk starosti v jeho hlase naznačuje, že tato noc ho možná přece jen změnila a tak seberete mince a odcházíte. I venku psi klidně oddychují, jejich vytí je pryč. Unaveně leží a vylizují prázdné misky. Když procházíte kolem, ani k vám nezvednou oči.
 
-Hráči získají 5 stříbrných od Joryna, ale kořenářka má své páky a nenecháse se lehce odbít. Po několika dnech přinese rychtář tři zlaťáky a omluvu. Radmila si nechá jeden a dva vám přistanou ve váčku.
+Hráči získají 5 stříbrných od Joryna, ale kořenářka má své páky a nenechá se lehce odbít. Po několika dnech přinese rychtář tři zlaťáky a omluvu. Radmila si nechá jeden a dva vám přistanou ve váčku.
 
 .. admonition:: Popis pro hráče: Neúspěch
 
@@ -225,10 +225,10 @@ Reference
 Časová linie
 ------------
 
-Časová linie jak jsem si ji představoval (hraní by mělo mít spád a hráči by měly cítit naléhavost):
+Časová linie, jak jsem si ji představoval (hraní by mělo mít spád a hráči by měli cítit naléhavost):
 
-* Den 1, ráno: Skupinka poutníků po studené a mokré noci v lese narazí na myslivnu a žádají o přístřeší, ale Joryn je krutě vyžne. Byla to poslední kapka osud či hvozd kvůli naštvaným slovům Víta, jednoho z poutníků, spustí proces myslivcova prokletí. Kletbě bude trvat 24 hodin než nabude plné účinnosti.
-* Den 1, poledne: Myslivec Joryn uléhá s těžkou horečkou a stává se netečným. Jeho hospodyně vyráží do vesnice ke kořenářce pro pomoc. Jorynovi lovečtí psi jsou postiženi podobně, občas je slyšet jejich vytí, které už ale má k psímu vití daleko.
+* Den 1, ráno: Skupinka poutníků po studené a mokré noci v lese narazí na myslivnu a žádají o přístřeší, ale Joryn je krutě vyžene. Byla to poslední kapka osud či hvozd kvůli naštvaným slovům Víta, jednoho z poutníků, spustí proces myslivcova prokletí. Kletbě bude trvat 24 hodin než nabude plné účinnosti.
+* Den 1, poledne: Myslivec Joryn uléhá s těžkou horečkou a stává se netečným. Jeho hospodyně vyráží do vesnice ke kořenářce pro pomoc. Jorynovi lovečtí psi jsou postiženi podobně, občas je slyšet jejich vytí, které už ale má k psímu vytí daleko.
 * Den 1, podvečer: Kořenářka Radmila požádá naše dobrodruhy o pomoc s ošetřením myslivce a oni vyráží do myslivny na průzkum.
 
   * Družinka vyráží v 18:00 při západu slunce. Začínajícím dobrodruhům možná stojí za to naznačit, že se budou hodit nějaké louče nebo lampa.
