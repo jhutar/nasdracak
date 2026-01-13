@@ -41,7 +41,7 @@ Cesta k hájovně vede skrz les, který s přicházejícím večerem získává 
 
 .. admonition:: Popis pro hráče: Les cestou k myslivně
 
-   Procházíte zšeřelým lesem. Koruny starých stromů zakrývají oblohu a jen občas skrze ně pronikne paprsek bledého měsíčního světla, který kreslí po zemi strašidelné obrazce. Je nepřirozené ticho, slyšíte jen praskání větviček pod vašima nohama a vlastní zrychlený dech. Vzduch je chladný a voní tlejícím listím a vlhkou hlínou.
+   Procházíte zšeřelým lesem. Koruny starých stromů zakrývají oblohu a jen občas skrze ně pronikne paprsek bledého měsíčního světla, který kreslí po zemi strašidelné obrazce. Je nepřirozené ticho, slyšíte jen praskání větviček pod vašima nohama a vlastní zrycmechý dech. Vzduch je chladný a voní tlejícím listím a vlhkou hlínou.
 
 Když dorazí na místo, najdou usedlost a přilehlou ohradu se psy.
 
@@ -158,11 +158,11 @@ Pokud se družina vydá první chodbou, nezapomeň zjistit v jakém jdou pořad�
 
    Našlapujete jeden za druhým a hluk který jste zaslechli už dříve je stále hlasitější. Cesta se po pár metrech náhle láme v prudký, kluzký sráz, pod kterým burácí dravá podzemní řeka.
 
-Pokud se družina vydá druhou chodbou, narazí na **hlen hnědý** (viz popis v kapitole "Seznam monster").
+Pokud se družina vydá druhou chodbou, narazí na **mech hnědý** (viz popis v kapitole "Seznam monster").
 
 .. admonition:: Popis pro hráče: Vydali se druhou chodbou
 
-    Chodba se svažuje do zatopené, bahnité propasti. V hlubokém bahně se špatně pohybuje, každý krok je namáhavý a pomalý. Jak postupujete, stěny jsou pokryté stále silnější vrstvou slizu. V jedné z prostornějších místností se zastavíte a všimnete si souvislého porostu jakéhosi hněděho mechu na stropě. Na okamžik se na něj nedůvěřivě zahledíte, ale pak se naráz všechno děje velmi rychle. Velká masa hnědého mechu padá na jednoho z vás a začíná boj o přežití. Právě jste potkali dvoumetrový **sliz hnědý**.
+    Chodba se svažuje do zatopené, bahnité propasti. V hlubokém bahně se špatně pohybuje, každý krok je namáhavý a pomalý. Jak postupujete, stěny jsou pokryté stále silnější vrstvou slizu. V jedné z prostornějších místností se zastavíte a všimnete si souvislého porostu jakéhosi hněděho mechu na stropě. Na okamžik se na něj nedůvěřivě zahledíte, ale pak se naráz všechno děje velmi rychle. Velká masa hnědého mechu padá na jednoho z vás a začíná boj o přežití. Právě jste potkali dvoumetrový **mech hnědý**.
 
 Poslední, třetí chodba je ta správná a družinka konečně nachází poutníky které Joryn a jeho psi vyhnali od myslivny - starý Vít, jeho dcera Anežka a její nemocný synek Tomáš:
 
@@ -258,6 +258,6 @@ Seznam monster
 
 ```tools/doit.py --data data/ format --entity Beast:bleda_kraska --template tools/templates/beast.rst```
 
-```tools/doit.py --data data/ format --entity Beast:hlen_hnedy --template tools/templates/beast.rst```
+```tools/doit.py --data data/ format --entity Beast:mech_hnedy --template tools/templates/beast.rst```
 
 ```tools/doit.py --data data/ format --entity Beast:pekelny_pes --template tools/templates/beast.rst```
