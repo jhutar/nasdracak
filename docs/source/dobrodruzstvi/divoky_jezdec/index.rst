@@ -23,7 +23,11 @@ Hrdinové mají dvě cesty k vyřešení situace:
 1.  **Cesta léku:** Mohou pro Radmilu sehnat vzácnou přísadu na silný lektvar proti uhranutí. Cesta za ním je zavede do nebezpečných míst kus za vesnicí, kde budou bloudit močálem a bojovat.
 2.  **Cesta odpuštění:** Mohou vypátrat ztracené poutníky a přesvědčit je, aby kletbu zrušili. To vyžaduje získávání informací a pochopení, že kletbu nelze zrušit pouhým příkazem, ale pouze upřímným aktem soucitu.
 
-Čas hraje proti nim, protože s blížícím se ránem síla kletby roste a v lese se probouzejí i jiné podivné bytosti.
+Čas hraje proti nim, protože s blížícím se ránem síla kletby roste a v lese se probouzejí i jiné podivné bytosti. Začínají v 18:00 večer a Joryn se dá zachránit do 6:00 ráno - uplynulý čas můžeš hráčům zakreslovat na tyto hodiny:
+
+.. image:: img/hodiny.svg
+   :alt: Hodiny kam můžeš zakreslovat jak družince ubývá čas na pomoc Jorynovi
+   :align: center
 
 Zadání úkolu
 ============
