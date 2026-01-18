@@ -2,9 +2,9 @@
 Perly pro Bublana
 =================
 
-Krátké detektivní dobrodružství pro hru Naše Dračák, odehrávající se v okolí Blanska.
+Krátké detektivní dobrodružství pro začínající hráče s pohádkovým vyzněním.
 
-Hrdinové se zapletou do milostného trojúhelníku mezi chudým uhlířem, marnivou mlynářovou dcerou a jedním velmi nešťastným vodníkem. Dokáží najít ukradené perly dřív, než se zastaví stavba nového obecního rybníka?
+Hrdinové se zapletou s jedním velmi nešťastným vodníkem, chudým uhlířem a marnivou mlynářovou dcerou. Dokáží najít ukradené perly dřív, než se zastaví stavba nového obecního rybníka?
 
 Zápletka pro vypravěče
 ======================
