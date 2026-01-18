@@ -18,6 +18,10 @@ Vít, v návalu bezmocného hněvu a strachu o rodinu, Joryna nevědomky proklej
 
 Družinku pošle do hájovny místní bylinkářka Radmila, aby zjistila, co se s myslivcem děje. Na místě najdou nemocného Joryna a vyděšenou hospodyni Martu. Pokud popíší myslivcovy příznaky bylinkářce, řekne jim, že to není obyčejná horečka, ale že to vypadá na usazující se prokletí.
 
+.. image:: img/mapa.svg
+   :alt: Mapa okolí Blanska (pro hráče)
+   :align: center
+
 Hrdinové mají dvě cesty k vyřešení situace:
 
 1.  **Cesta léku:** Mohou pro Radmilu sehnat vzácnou přísadu na silný lektvar proti uhranutí. Cesta za ním je zavede do nebezpečných míst kus za vesnicí, kde budou bloudit močálem a bojovat.
