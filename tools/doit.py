@@ -260,22 +260,23 @@ def format_entity(args: argparse.Namespace):
                 print(e_rendered)
 
 
+def pick_one(
+    provided: str, model: models.BaseModelWithId
+) -> models.BaseModelWithId:
+    """Picks one entity of a given model, optionally updating probabilities."""
+    if provided:
+        out = world.get(model, provided)
+    else:
+        out = world.pick(model)
+    if hasattr(out, "modifiers"):
+        world.update_probabilities(out.modifiers)
+    print(f"{out.__class__.__name__}: {out.name}")
+    return out
+
+
 def generate_character(args: argparse.Namespace):
     """Generates a new game character based on various parameters."""
     world = models.World(pathlib.Path(args.data))
-
-    def pick_one(
-        provided: str, model: models.BaseModelWithId
-    ) -> models.BaseModelWithId:
-        """Picks one entity of a given model, optionally updating probabilities."""
-        if provided:
-            out = world.get(model, provided)
-        else:
-            out = world.pick(model)
-        if hasattr(out, "modifiers"):
-            world.update_probabilities(out.modifiers)
-        print(f"{out.__class__.__name__}: {out.name}")
-        return out
 
     # Level
     _level = args.level
@@ -351,6 +352,52 @@ def expand_code_blocks(args: argparse.Namespace):
             fd.write(text_new)
 
 
+def generate_household(args: argparse.Namespace):
+    """Generate memebers for a random household."""
+    world = models.World(pathlib.Path(args.data))
+
+    clovek_muz = world.get(models.Race, "clovek-muz")
+    clovek_zena = world.get(models.Race, "clovek-zena")
+
+    def rand_gaus_num(me, st, mi):
+        """Return number around mean "mi" but with stdev "st" but always equal or bigger than minimum "mi"."""
+        while True:
+            count = round(random.gauss(me, st))
+            if count >= mi:
+                return count
+
+    # Figure out stereotype of a household
+    stereotype = random.choices(["family", "single"], [0.8, 0.2], k=1)[0]
+
+    if stereotype == "family":
+        count = rand_gaus_num(4, 2, 2)
+        # Main members in a household
+        print(f"{random.choice(clovek_muz.names)} a {random.choice(clovek_zena.names)}")
+        count -= 2
+    elif stereotype == "single":
+        count = rand_gaus_num(1, 2, 1)
+        # Main member of a household
+        if random.choices(["muz", "zena"], k=1)[0] == "muz":
+            print(f"{random.choice(clovek_muz.names)} sám")
+        else:
+            print(f"{random.choice(clovek_zena.names)} sama")
+        count -= 1
+    else:
+        raise Exception("What?")
+
+    # Occupation
+    occupation = random.choices(["láník", "půlláník", "čtvrtláník", "domkař", "podruh", "řemeslník", "speciální"], [5, 15, 30, 20, 15, 5, 5], k=1)[0]
+    print(f"({occupation})")
+
+    # Remaining members
+    for _ in range(count):
+        if random.choices(["muz", "zena"], k=1)[0] == "muz":
+            name = random.choice(clovek_muz.names)
+        else:
+            name = random.choice(clovek_zena.names)
+        print(f"- {name}")
+
+
 def main():
     """Main function to parse arguments and execute commands."""
     parser = argparse.ArgumentParser(description="A multi-purpose tool.")
@@ -408,6 +455,13 @@ def main():
         help="Process all *.rst files in this directory.",
     )
 
+    # Generate character command
+    family_parser = subparsers.add_parser(
+        "household",
+        help="Generate a household members.",
+        description="Will be picked randomly.",
+    )
+
     args = parser.parse_args()
     setup_logging(args)
 
@@ -424,6 +478,9 @@ def main():
             sys.exit(1)
     elif args.command == "expand":
         if expand_code_blocks(args):
+            sys.exit(1)
+    elif args.command == "household":
+        if generate_household(args):
             sys.exit(1)
 
 
