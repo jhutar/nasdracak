@@ -9,7 +9,7 @@
    id="svg1"
    xml:space="preserve"
    sodipodi:docname="mapa.svg"
-   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,17 +24,45 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.7708403"
-     inkscape:cx="253.61933"
-     inkscape:cy="373.61825"
-     inkscape:window-width="1920"
-     inkscape:window-height="1151"
+     inkscape:zoom="2.3786616"
+     inkscape:cx="620.51702"
+     inkscape:cy="366.59271"
+     inkscape:window-width="1025"
+     inkscape:window-height="1021"
      inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer6"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g577"
      showgrid="false" /><defs
-     id="defs1"><inkscape:path-effect
+     id="defs1"><pattern
+       inkscape:collect="always"
+       xlink:href="#pattern3378"
+       preserveAspectRatio="xMidYMid"
+       id="pattern35"
+       patternTransform="matrix(0.09809688,-0.01941654,0.01941654,0.09809688,266.54045,-287.25752)"
+       x="0"
+       y="0" /><pattern
+       inkscape:collect="always"
+       xlink:href="#pattern3378"
+       preserveAspectRatio="xMidYMid"
+       id="pattern30"
+       patternTransform="matrix(0.1,0,0,0.1,320,-257)"
+       x="0"
+       y="0" /><pattern
+       inkscape:collect="always"
+       xlink:href="#pattern3378"
+       preserveAspectRatio="xMidYMid"
+       id="pattern24"
+       patternTransform="matrix(0.1,0,0,0.1,320,-257)"
+       x="0"
+       y="0" /><pattern
+       inkscape:collect="always"
+       xlink:href="#pattern3378"
+       preserveAspectRatio="xMidYMid"
+       id="pattern7"
+       patternTransform="matrix(0.1,0,0,0.1,320,-257)"
+       x="0"
+       y="0" /><inkscape:path-effect
        effect="simplify"
        id="path-effect258"
        is_visible="true"
@@ -16924,7 +16952,7 @@
        preserveAspectRatio="xMidYMid"
        id="pattern3378"
        inkscape:label="les listnaty"
-       style="fill:#000000"><g
+       style="fill:#00ff00"><g
          inkscape:label="les listnaty"
          clip-path="url(#patternClipPath-0)"
          id="fullPattern-7"
@@ -20255,6 +20283,22 @@
        height="85.945171"
        id="rect54" /></defs><g
      inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="stromy"><path
+       style="fill:url(#pattern7);fill-opacity:1;stroke:#00ff00;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 106.16329,110.67651 c -2.37005,-0.17593 -15.169125,0.2843 -16.616861,3.17977 -1.318038,2.63608 -0.35039,7.72663 -0.718013,10.66762 -1.42939,11.43513 -8.588761,26.28104 -2.154037,37.5418 1.355675,2.37243 8.285539,9.10613 10.565043,11.38563 1.194636,1.19464 11.509038,6.29865 11.693348,6.66726 1.35933,2.71867 0.89253,6.19572 2.25661,8.92387 0.34326,0.68652 4.1361,0.27332 4.82094,0.41029 1.45888,0.29178 2.35692,2.71876 4.20551,2.25662 1.6899,-0.42248 3.44117,-1.32437 4.82094,-2.35919 1.92233,-1.44175 -7.2164,-16.19548 -8.71873,-18.7709 -0.91227,-1.5639 -0.67464,-3.70319 -1.74374,-5.12866 -2.34604,-3.12805 -3.24935,-6.44479 -5.02609,-9.74446 -0.7285,-1.35292 -2.37352,-2.07058 -3.28235,-3.28234 -2.67478,-3.56638 -5.77039,-7.05385 -7.18012,-11.28306 -1.599062,-4.79718 1.37316,-10.95107 -0.615439,-15.59113 -1.255602,-13.7002 7.697249,-4.00461 13.026799,-9.33416 3.02595,-3.02595 -2.77992,-5.85818 -5.33381,-5.53896 z"
+       id="path6" /><path
+       style="fill:url(#pattern24);fill-opacity:1;stroke:#00ff00;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 74.959058,34.318604 c -3.83353,0.227235 -8.139927,0.171264 -11.298865,2.677657 -2.588526,2.491092 -2.671764,6.423047 -4.64338,9.317693 -1.817375,3.574603 -5.606789,5.535278 -7.53929,8.999923 -1.559073,2.928713 2.667734,3.406519 4.295224,4.705032 2.248323,1.344227 5.204549,3.055746 4.994564,6.091857 0.152714,2.874133 0.06309,6.070393 2.160219,8.333797 2.33177,3.165262 5.369362,5.886242 6.804045,9.632704 0.710458,2.413425 2.644694,3.710035 5.113276,3.166474 3.404416,1.104352 6.811773,3.22363 10.529141,2.627702 3.072335,-0.914461 2.231413,-4.972767 1.274888,-7.191353 -1.758192,-4.326144 -5.357271,-7.615329 -7.085721,-11.938391 -0.41952,-2.232267 -0.612394,-4.541931 -1.75573,-6.564605 -1.437906,-2.919493 -2.672902,-5.949972 -3.20893,-9.176888 -1.154784,-4.512738 -2.696046,-9.420605 -0.873626,-13.976766 0.567301,-2.16371 1.797417,-4.435859 1.234185,-6.704836 z"
+       id="path24" /><path
+       style="fill:url(#pattern30);fill-opacity:1;stroke:#00ff00;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 212.00934,138.17391 c -5.32591,0.0907 -10.82344,-3.64312 -18.08444,-3.17641 -3.98453,2.52044 -1.60683,9.45484 0.55937,12.52839 0.52517,3.06752 4.62104,10.55298 7.86946,6.05715 2.6929,-7.80649 5.6243,-10.5459 9.65561,-15.40913 z"
+       id="path30"
+       sodipodi:nodetypes="ccccc" /><path
+       style="fill:url(#pattern35);fill-opacity:1;stroke:#00ff00;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 144.08318,5.2638368 c 2.20074,2.0491011 7.05596,7.4433432 4.78529,10.8347062 -5.81959,8.691883 -15.0322,11.59056 -21.77335,2.8877 -1.52871,-1.97357 -4.24341,-4.736364 -3.50243,-7.432185 1.85977,-6.7661063 16.82523,-14.0679223 20.49049,-6.2902212 z"
+       id="path31" /></g><g
+     inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="pokus"
      style="display:inline"
@@ -20814,483 +20858,483 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan9"><tspan
+         id="tspan3"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan1">Vlček a Vladislava
+           id="tspan2">Vlček a Vladislava
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan11"><tspan
+         id="tspan5"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan10">(švec)</tspan></tspan></text><text
+           id="tspan4">(švec)</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-28.391665,79.042532)"
        id="text3"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan16"><tspan
+         id="tspan7"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan12">Vratislav a Božena
+           id="tspan6">Vratislav a Božena
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan18"><tspan
+         id="tspan9"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan17">(podruh)
+           id="tspan8">(podruh)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan22"><tspan
+         id="tspan11"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan21">- Karin</tspan></tspan></text><text
+           id="tspan10">- Karin</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-29.362495,92.20941)"
        id="text4"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan26"><tspan
+         id="tspan13"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan25">Otakar a Lidka
+           id="tspan12">Otakar a Lidka
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan28"><tspan
+         id="tspan15"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan27">(půlláník)</tspan></tspan></text><text
+           id="tspan14">(půlláník)</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-0.90362103,-7.2297013)"
        id="text5"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect6);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan30"><tspan
+         id="tspan17"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan29">Janek a Eva
+           id="tspan16">Janek a Eva
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan54"><tspan
+         id="tspan19"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan31">(kovář)
+           id="tspan18">(kovář)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan56"><tspan
+         id="tspan21"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan55">- Fridrich
+           id="tspan20">- Fridrich
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan58"><tspan
+         id="tspan23"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan57">- Milan
+           id="tspan22">- Milan
 </tspan></tspan><tspan
          x="144.64648"
          y="146.98866"
-         id="tspan60"><tspan
+         id="tspan25"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan59">- Lešek
+           id="tspan24">- Lešek
 </tspan></tspan><tspan
          x="144.64648"
          y="154.98866"
-         id="tspan62"><tspan
+         id="tspan27"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan61">- Drahomíra
+           id="tspan26">- Drahomíra
 </tspan></tspan><tspan
          x="144.64648"
          y="162.98866"
-         id="tspan64"><tspan
+         id="tspan32"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan63">- Priska
+           id="tspan28">- Priska
 </tspan></tspan><tspan
          x="144.64648"
          y="170.98866"
-         id="tspan66"><tspan
+         id="tspan34"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan65">- Bohumila</tspan></tspan></text><text
+           id="tspan33">- Bohumila</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-28.148958,111.92939)"
        id="text6"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect7);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan68"><tspan
+         id="tspan36"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan67">David a Bolka
+           id="tspan35">David a Bolka
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan70"><tspan
+         id="tspan38"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan69">(biřic)</tspan></tspan></text><text
+           id="tspan37">(biřic)</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-24.083608,125.58168)"
        id="text7"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect8);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan72"><tspan
+         id="tspan40"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan71">Radim a Zbyňka
+           id="tspan39">Radim a Zbyňka
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan74"><tspan
+         id="tspan42"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan73">(čtvrtláník)
+           id="tspan41">(čtvrtláník)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan76"><tspan
+         id="tspan44"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan75">- Černice
+           id="tspan43">- Černice
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan78"><tspan
+         id="tspan46"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan77">- Pribislava</tspan></tspan></text><text
+           id="tspan45">- Pribislava</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-21.171119,138.99127)"
        id="text8"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect13);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan80"><tspan
+         id="tspan48"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan79">Zlatoš a Svatava
+           id="tspan47">Zlatoš a Svatava
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan82"><tspan
+         id="tspan50"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan81">(domkař)
+           id="tspan49">(domkař)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan84"><tspan
+         id="tspan52"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan83">- Ladislav
+           id="tspan51">- Ladislav
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan86"><tspan
+         id="tspan54"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan85">- Bartoň</tspan></tspan></text><text
+           id="tspan53">- Bartoň</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,13.23266,137.5957)"
        id="text13"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect14);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan88"><tspan
+         id="tspan56"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan87">Lešek a Chvalena
+           id="tspan55">Lešek a Chvalena
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan90"><tspan
+         id="tspan58"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan89">(pekař)
+           id="tspan57">(pekař)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan92"><tspan
+         id="tspan60"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan91">- Václava
+           id="tspan59">- Václava
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan94"><tspan
+         id="tspan62"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan93">- Jaroslava
+           id="tspan61">- Jaroslava
 </tspan></tspan><tspan
          x="144.64648"
          y="146.98866"
-         id="tspan96"><tspan
+         id="tspan64"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan95">- Šťastný
+           id="tspan63">- Šťastný
 </tspan></tspan><tspan
          x="144.64648"
          y="154.98866"
-         id="tspan98"><tspan
+         id="tspan66"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan97">- Spytihněv</tspan></tspan></text><text
+           id="tspan65">- Spytihněv</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,12.807922,120.12077)"
        id="text14"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect15);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan100"><tspan
+         id="tspan68"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan99">Záviš a Gisela
+           id="tspan67">Záviš a Gisela
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan102"><tspan
+         id="tspan70"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan101">(podruh)
+           id="tspan69">(podruh)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan104"><tspan
+         id="tspan72"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan103">- Sezima</tspan></tspan></text><text
+           id="tspan71">- Sezima</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,6.3761747,112.9609)"
        id="text15"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect19);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan106"><tspan
+         id="tspan74"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan105">Přemysl a Berta
+           id="tspan73">Přemysl a Berta
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan108"><tspan
+         id="tspan76"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan107">(půlláník)</tspan></tspan></text><text
+           id="tspan75">(půlláník)</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,19.239669,104.0414)"
        id="text19"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect20);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan110"><tspan
+         id="tspan78"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan109">Arnošt a Klotylda
+           id="tspan77">Arnošt a Klotylda
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan112"><tspan
+         id="tspan80"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan111">(čtvrtláník)
+           id="tspan79">(čtvrtláník)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan114"><tspan
+         id="tspan82"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan113">- Jiří
+           id="tspan81">- Jiří
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan116"><tspan
+         id="tspan84"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan115">- Františka</tspan></tspan></text><text
+           id="tspan83">- Františka</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,27.673752,88.144063)"
        id="text20"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect23);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan118"><tspan
+         id="tspan86"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan117">Julian a Vojmíra
+           id="tspan85">Julian a Vojmíra
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan120"><tspan
+         id="tspan88"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan119">(čtvrtláník)
+           id="tspan87">(čtvrtláník)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan122"><tspan
+         id="tspan90"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan121">- Ivana
+           id="tspan89">- Ivana
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan124"><tspan
+         id="tspan92"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan123">- Boček
+           id="tspan91">- Boček
 </tspan></tspan><tspan
          x="144.64648"
          y="146.98866"
-         id="tspan126"><tspan
+         id="tspan94"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan125">- Všeslav
+           id="tspan93">- Všeslav
 </tspan></tspan><tspan
          x="144.64648"
          y="154.98866"
-         id="tspan128"><tspan
+         id="tspan96"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan127">- Beran</tspan></tspan></text><text
+           id="tspan95">- Beran</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-7.7615331,87.476616)"
        id="text23"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect24);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan130"><tspan
+         id="tspan98"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan129">Radovan a Bezděda
+           id="tspan97">Radovan a Bezděda
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan132"><tspan
+         id="tspan100"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan131">(čtvrtláník)
+           id="tspan99">(čtvrtláník)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan134"><tspan
+         id="tspan102"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan133">- Chotěbor
+           id="tspan101">- Chotěbor
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan136"><tspan
+         id="tspan104"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan135">- Bohuslav
+           id="tspan103">- Bohuslav
 </tspan></tspan><tspan
          x="144.64648"
          y="146.98866"
-         id="tspan138"><tspan
+         id="tspan106"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan137">- Ida</tspan></tspan></text><text
+           id="tspan105">- Ida</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-0.48031011,75.765983)"
        id="text24"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect32);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan140"><tspan
+         id="tspan108"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan139">Dobroš a Priska
+           id="tspan107">Dobroš a Priska
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan142"><tspan
+         id="tspan110"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan141">(čtvrtláník)</tspan></tspan></text><text
+           id="tspan109">(čtvrtláník)</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-7.5188257,63.873319)"
        id="text32"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect33);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan144"><tspan
+         id="tspan112"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan143">Bedřich sám
+           id="tspan111">Bedřich sám
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan146"><tspan
+         id="tspan114"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan145">(domkař)
+           id="tspan113">(domkař)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan148"><tspan
+         id="tspan116"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan147">- Ivan</tspan></tspan></text><text
+           id="tspan115">- Ivan</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,4.2524848,43.789278)"
        id="text33"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect34);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan150"><tspan
+         id="tspan118"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan149">Křišťan a Kateřina
+           id="tspan117">Křišťan a Kateřina
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan152"><tspan
+         id="tspan120"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan151">(mlynář)
+           id="tspan119">(mlynář)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan154"><tspan
+         id="tspan122"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan153">- Mánička</tspan></tspan></text><text
+           id="tspan121">- Mánička</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-35.454521,97.802241)"
        id="text34"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect35);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan156"><tspan
+         id="tspan124"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan155">Hostivít a Perchta
+           id="tspan123">Hostivít a Perchta
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan158"><tspan
+         id="tspan126"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan157">(domkař)
+           id="tspan125">(domkař)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan160"><tspan
+         id="tspan128"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan159">- Vilém
+           id="tspan127">- Vilém
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan162"><tspan
+         id="tspan130"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan161">- Radim
+           id="tspan129">- Radim
 </tspan></tspan><tspan
          x="144.64648"
          y="146.98866"
-         id="tspan164"><tspan
+         id="tspan132"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan163">- Klotylda</tspan></tspan></text><text
+           id="tspan131">- Klotylda</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.18708867,0.18708867,-0.18708867,0.18708867,50.898744,58.285292)"
        id="text35"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect36);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan166"><tspan
+         id="tspan134"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan165">chrám</tspan></tspan></text><text
+           id="tspan133">chrám</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,74.819671,54.043669)"
        id="text36"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect37);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan168"><tspan
+         id="tspan136"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan167">Bezděd a Chlupava
+           id="tspan135">Bezděd a Chlupava
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan170"><tspan
+         id="tspan138"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan169">(čtvrtláník)
+           id="tspan137">(čtvrtláník)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan172"><tspan
+         id="tspan140"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan171">- Břeněk
+           id="tspan139">- Břeněk
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan174"><tspan
+         id="tspan142"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan173">- Blahomil
+           id="tspan141">- Blahomil
 </tspan></tspan><tspan
          x="144.64648"
          y="146.98866"
-         id="tspan176"><tspan
+         id="tspan144"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan175">- Zbyslava
+           id="tspan143">- Zbyslava
 </tspan></tspan><tspan
          x="144.64648"
          y="154.98866"
-         id="tspan178"><tspan
+         id="tspan146"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan177">- Svojslava
+           id="tspan145">- Svojslava
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,85.741505,44.820786)"
@@ -21298,75 +21342,75 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect38);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan180"><tspan
+         id="tspan148"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan179">Raňek a Baruše
+           id="tspan147">Raňek a Baruše
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan182"><tspan
+         id="tspan150"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan181">(domkař)
+           id="tspan149">(domkař)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan184"><tspan
+         id="tspan152"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan183">- Drahomíra</tspan></tspan></text><text
+           id="tspan151">- Drahomíra</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,101.30065,39.221267)"
        id="text38"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect39);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan186"><tspan
+         id="tspan154"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan185">Kamil a Ivana
+           id="tspan153">Kamil a Vítka
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan188"><tspan
+         id="tspan156"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan187">(rychtářka)</tspan></tspan></text><text
+           id="tspan155">(rychtářka)</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,97.876877,23.219825)"
        id="text39"
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect40);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan190"><tspan
+         id="tspan158"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan189">Bohuněk a Lubomíra
+           id="tspan157">Bohuněk a Lubomíra
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan192"><tspan
+         id="tspan160"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan191">(řemeslník)
+           id="tspan159">(řemeslník)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan194"><tspan
+         id="tspan162"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan193">- Johana
+           id="tspan161">- Johana
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan196"><tspan
+         id="tspan164"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan195">- Milan
+           id="tspan163">- Milan
 </tspan></tspan><tspan
          x="144.64648"
          y="146.98866"
-         id="tspan198"><tspan
+         id="tspan166"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan197">- Rejčka
+           id="tspan165">- Rejčka
 </tspan></tspan><tspan
          x="144.64648"
          y="154.98866"
-         id="tspan200"><tspan
+         id="tspan168"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan199">- Ondřej
+           id="tspan167">- Ondřej
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,95.571156,6.4730117)"
@@ -21374,45 +21418,45 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect41);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan202"><tspan
+         id="tspan170"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan201">Tobiáš a Vítka
+           id="tspan169">Tobiáš a Vítka
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan204"><tspan
+         id="tspan172"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan203">(čtvrtláník)
+           id="tspan171">(čtvrtláník)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan206"><tspan
+         id="tspan174"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan205">- Vojtěch
+           id="tspan173">- Vojtěch
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan208"><tspan
+         id="tspan176"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan207">- Adlička
+           id="tspan175">- Adlička
 </tspan></tspan><tspan
          x="144.64648"
          y="146.98866"
-         id="tspan210"><tspan
+         id="tspan178"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan209">- Mladota
+           id="tspan177">- Mladota
 </tspan></tspan><tspan
          x="144.64648"
          y="154.98866"
-         id="tspan212"><tspan
+         id="tspan180"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan211">- Břetislava
+           id="tspan179">- Břetislava
 </tspan></tspan><tspan
          x="144.64648"
          y="162.98866"
-         id="tspan214"><tspan
+         id="tspan182"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan213">- Božena
+           id="tspan181">- Božena
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,94.478972,-2.0217485)"
@@ -21420,15 +21464,15 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect42);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan216"><tspan
+         id="tspan184"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan215">Bažata a Chrasta
+           id="tspan183">Bažata a Chrasta
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan218"><tspan
+         id="tspan186"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan217">(půlláník)
+           id="tspan185">(půlláník)
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,129.73828,42.24342)"
@@ -21436,21 +21480,21 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect43);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan220"><tspan
+         id="tspan188"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan219">Darek a Milena
+           id="tspan187">Darek a Milena
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan222"><tspan
+         id="tspan190"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan221">(čtvrtláník)
+           id="tspan189">(čtvrtláník)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan224"><tspan
+         id="tspan192"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan223">- Vojislav
+           id="tspan191">- Vojislav
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,122.39033,-29.933104)"
@@ -21458,33 +21502,33 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect44);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan226"><tspan
+         id="tspan194"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan225">David a Branka
+           id="tspan193">David a Branka
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan228"><tspan
+         id="tspan196"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan227">(půlláník)
+           id="tspan195">(půlláník)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan230"><tspan
+         id="tspan198"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan229">- Neklan
+           id="tspan197">- Neklan
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan232"><tspan
+         id="tspan200"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan231">- Litold
+           id="tspan199">- Litold
 </tspan></tspan><tspan
          x="144.64648"
          y="146.98866"
-         id="tspan234"><tspan
+         id="tspan202"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan233">- Smil
+           id="tspan201">- Smil
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,126.88041,-13.671706)"
@@ -21492,33 +21536,33 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect45);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan236"><tspan
+         id="tspan204"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan235">Albrecht a Lenka
+           id="tspan203">Albrecht a Lenka
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan238"><tspan
+         id="tspan206"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan237">(čtvrtláník)
+           id="tspan205">(čtvrtláník)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan240"><tspan
+         id="tspan208"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan239">- Ayta
+           id="tspan207">- Ayta
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan242"><tspan
+         id="tspan210"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan241">- Bartoň
+           id="tspan209">- Bartoň
 </tspan></tspan><tspan
          x="144.64648"
          y="146.98866"
-         id="tspan244"><tspan
+         id="tspan212"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan243">- Jidáš
+           id="tspan211">- Jidáš
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,128.21531,-1.2936267)"
@@ -21526,27 +21570,27 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect46);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan246"><tspan
+         id="tspan214"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan245">Vladimír a Sibyla
+           id="tspan213">Vladimír a Sibyla
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan248"><tspan
+         id="tspan216"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan247">(čtvrtláník)
+           id="tspan215">(čtvrtláník)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan250"><tspan
+         id="tspan218"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan249">- Vok
+           id="tspan217">- Vok
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan252"><tspan
+         id="tspan220"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan251">- Cista
+           id="tspan219">- Cista
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,127.48718,11.448514)"
@@ -21554,15 +21598,15 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect47);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan254"><tspan
+         id="tspan222"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan253">Vlastimil a Bába
+           id="tspan221">Vlastimil a Bába
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan256"><tspan
+         id="tspan224"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan255">(čtvrtláník)
+           id="tspan223">(čtvrtláník)
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,127.92843,20.239819)"
@@ -21570,27 +21614,27 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect48);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan258"><tspan
+         id="tspan226"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan257">Vepřoň a Svatava
+           id="tspan225">Vepřoň a Svatava
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan260"><tspan
+         id="tspan228"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan259">(dvouláník)
+           id="tspan227">(dvouláník)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan262"><tspan
+         id="tspan230"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan261">- Karin
+           id="tspan229">- Karin
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan264"><tspan
+         id="tspan232"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan263">- Mladota
+           id="tspan231">- Mladota
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,128.25695,30.519341)"
@@ -21598,33 +21642,33 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect49);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan266"><tspan
+         id="tspan234"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan265">Zdeslav a Svatava
+           id="tspan233">Zdeslav a Svatava
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan268"><tspan
+         id="tspan236"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan267">(domkař)
+           id="tspan235">(domkař)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan270"><tspan
+         id="tspan238"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan269">- Štěpánka
+           id="tspan237">- Štěpánka
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan272"><tspan
+         id="tspan240"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan271">- Ladislava
+           id="tspan239">- Ladislava
 </tspan></tspan><tspan
          x="144.64648"
          y="146.98866"
-         id="tspan274"><tspan
+         id="tspan242"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan273">- Svojslava
+           id="tspan241">- Svojslava
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,104.34896,79.052891)"
@@ -21632,27 +21676,27 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect50);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan276"><tspan
+         id="tspan244"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan275">Viktorie sama
+           id="tspan243">Viktorie sama
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan278"><tspan
+         id="tspan246"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan277">(modrotisk)
+           id="tspan245">(modrotisk)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan280"><tspan
+         id="tspan248"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan279">- Chval
+           id="tspan247">- Chval
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan282"><tspan
+         id="tspan250"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan281">- Chrasta
+           id="tspan249">- Chrasta
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,154.70953,26.134838)"
@@ -21660,36 +21704,36 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect51);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan284"><tspan
+         id="tspan252"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan283">Radmila sama
+           id="tspan251">Radmila sama
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan286"><tspan
+         id="tspan254"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan285">(bylinkářka)</tspan></tspan></text><text
+           id="tspan253">(bylinkářka)</tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,135.86059,61.567597)"
        id="text51"
-       style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7;shape-inside:url(#rect52)"><tspan
+       style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect52);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan288"><tspan
+         id="tspan256"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan287">Roch a Dalimíra
+           id="tspan255">Roch a Dalimíra
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan290"><tspan
+         id="tspan258"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan289">(půlláník)
+           id="tspan257">(hospodský)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan292"><tspan
+         id="tspan260"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan291">- Dobrotiva
+           id="tspan259">- Dobrotiva
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,95.596587,-17.584621)"
@@ -21697,39 +21741,39 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect53);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan294"><tspan
+         id="tspan262"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan293">Bezděd a Chlupava
+           id="tspan261">Bezděd a Chlupava
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan296"><tspan
+         id="tspan264"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan295">(čtvrtláník)
+           id="tspan263">(čtvrtláník)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan298"><tspan
+         id="tspan266"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan297">- Břeněk
+           id="tspan265">- Břeněk
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan300"><tspan
+         id="tspan268"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan299">- Blahomil
+           id="tspan267">- Blahomil
 </tspan></tspan><tspan
          x="144.64648"
          y="146.98866"
-         id="tspan302"><tspan
+         id="tspan270"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan301">- Zbyslava
+           id="tspan269">- Zbyslava
 </tspan></tspan><tspan
          x="144.64648"
          y="154.98866"
-         id="tspan304"><tspan
+         id="tspan272"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan303">- Svojslava
+           id="tspan271">- Svojslava
 </tspan></tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,126.75905,78.193056)"
@@ -21737,39 +21781,39 @@
        style="font-size:8px;line-height:1;font-family:'TeX Gyre Chorus';-inkscape-font-specification:'TeX Gyre Chorus, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect54);display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"><tspan
          x="144.64648"
          y="114.98866"
-         id="tspan306"><tspan
+         id="tspan274"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan305">Pivec a Ursula
+           id="tspan273">Pivec a Ursula
 </tspan></tspan><tspan
          x="144.64648"
          y="122.98866"
-         id="tspan308"><tspan
+         id="tspan276"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan307">(podruh)
+           id="tspan275">(podruh)
 </tspan></tspan><tspan
          x="144.64648"
          y="130.98866"
-         id="tspan310"><tspan
+         id="tspan278"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan309">- Pudenciana
+           id="tspan277">- Pudenciana
 </tspan></tspan><tspan
          x="144.64648"
          y="138.98866"
-         id="tspan312"><tspan
+         id="tspan280"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan311">- Slavěna
+           id="tspan279">- Slavěna
 </tspan></tspan><tspan
          x="144.64648"
          y="146.98866"
-         id="tspan314"><tspan
+         id="tspan282"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan313">- Gerhard
+           id="tspan281">- Gerhard
 </tspan></tspan><tspan
          x="144.64648"
          y="154.98866"
-         id="tspan316"><tspan
+         id="tspan284"><tspan
            style="-inkscape-font-specification:'TeX Gyre Chorus';fill:#000000;stroke:none"
-           id="tspan315">- Bohuněk
+           id="tspan283">- Bohuněk
 </tspan></tspan></text><path
        style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.7"
        d="m 77.6872,13.158898 c -1.8499,1.256058 -3.92755,2.707812 -4.482839,5.003509 -0.516558,2.135579 0.704131,4.266557 2.333252,5.577353 1.356929,1.09179 2.930473,1.944906 4.720143,2.141358 1.326172,0.145573 2.610589,-0.586592 3.220239,-1.869921 1.122372,-2.362621 1.744388,-4.995686 1.66516,-7.580193 -0.09607,-3.134059 0.01235,-8.5904354 -3.034935,-8.6523965 -1.767413,-0.035937 -3.025756,1.6274101 -3.372165,3.1714105 -0.181979,0.811108 -0.48797,1.577551 -1.048855,2.20888 z"
@@ -21778,7 +21822,10 @@
        inkscape:original-d="m 77.6872,13.158898 c -2.314591,1.549075 -5.067967,3.634005 -4.532279,6.807002 0.440204,2.592429 2.807191,4.348662 5.002641,5.462044 1.874876,0.682925 4.51956,0.891601 5.320433,-1.416747 1.109499,-2.30157 1.411905,-4.916165 1.668302,-7.430972 -0.04046,-3.189758 -1.79251,-5.969307 -3.038077,-8.8016175 -2.09413,-0.03606 -3.231099,2.2549445 -3.603436,4.0306855 -0.198421,0.489867 -0.484736,0.940548 -0.817584,1.349605 z"
        transform="matrix(-0.9967051,0.08111069,0.08111069,0.9967051,147.67515,-4.6298688)"
        inkscape:transform-center-x="-0.92167959"
-       inkscape:transform-center-y="0.16539714" /></g><g
+       inkscape:transform-center-y="0.16539714" /><path
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 89.884845,122.72518 c -5.902195,10.19304 -5.364433,19.38805 -1.895096,29.45951"
+       id="path4" /></g><g
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="cesty"
@@ -21808,7 +21855,7 @@
        id="path320"
        sodipodi:nodetypes="ccc" /><path
        style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.20001;stroke-miterlimit:4.3;stroke-dasharray:4.79999, 1.20001;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 221.98152,131.25393 c -10.73943,7.60024 -19.54686,17.97304 -25.00853,29.9761 -5.20841,11.44651 -7.22175,12.09177 -6.29207,24.6052"
+       d="m 212.75679,132.51185 c -10.73943,7.60024 -11.30051,15.4572 -16.76218,27.46026 -5.20841,11.44651 -16.72602,9.01686 -15.79634,21.53029"
        id="path325"
        sodipodi:nodetypes="csc" /><path
        style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.20001;stroke-miterlimit:4.3;stroke-dasharray:4.79999, 1.20001;stroke-dashoffset:0;stroke-opacity:1"
@@ -22672,25 +22719,24 @@
          sodipodi:nodetypes="ccc"
          transform="translate(36.357304,12.667155)" /></g><g
        id="g577"
-       transform="matrix(0.18888565,-1.8182136,1.8180422,0.18890344,-212.56005,271.47821)"
-       style="fill:none;stroke:#000000;stroke-width:0.27353582;stroke-dasharray:none;stroke-opacity:1"><path
-         style="fill:none;stroke:#000000;stroke-width:0.27353582;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         d="m 80.387432,181.48426 c 0.233648,0.69532 -0.342662,2.30834 0.210629,2.2256 1.120684,-0.16758 3.882181,0.72488 3.383156,-0.29106 -0.308646,-0.62835 0.232181,-2.11641 -0.358233,-2.08974 -1.078594,0.0487 -2.160301,0.0491 -3.235552,0.1552 z"
+       transform="matrix(0.18888565,-1.8182136,1.8180422,0.18890344,-213.77589,270.60975)"
+       style="fill:none;stroke:#000000;stroke-width:0.273536;stroke-dasharray:none;stroke-opacity:1"><path
+         style="fill:none;stroke:#000000;stroke-width:0.273536;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 80.387432,181.48426 c 0.233648,0.69532 -0.196554,4.17256 0.356737,4.08982 1.120684,-0.16758 2.395346,0.19262 3.338745,-0.15841 -0.308646,-0.62835 0.130481,-4.11328 -0.45993,-4.08661 -1.078594,0.0487 -2.160301,0.0491 -3.235552,0.1552 z"
          id="path574"
-         sodipodi:nodetypes="cccccc"
+         sodipodi:nodetypes="ccccc"
          transform="translate(36.357304,12.667155)" /><path
-         style="fill:none;stroke:#000000;stroke-width:0.27353582;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         d="m 80.524123,181.54906 c 0.283047,0.30671 0.920994,0.76499 0.661504,1.18364 -0.179444,0.28951 -0.356456,0.58161 -0.564845,0.85162"
+         style="fill:none;stroke:#000000;stroke-width:0.273536;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 80.524123,181.54906 c 0.283047,0.30671 0.598251,1.3219 0.718664,1.96277 -0.179444,0.28951 -0.450886,1.73334 -0.659275,2.00335"
          id="path575"
          sodipodi:nodetypes="ccc"
          transform="translate(36.357304,12.667155)" /><path
-         style="fill:none;stroke:#000000;stroke-width:0.27353582;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         d="m 81.330822,182.5066 c 0.531092,-0.0776 1.077965,-0.18536 1.613405,-0.089"
+         style="fill:none;stroke:#000000;stroke-width:0.273536;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 117.72023,196.1696 c 0.53109,-0.0776 1.07796,-0.18536 1.6134,-0.089"
          id="path576"
-         sodipodi:nodetypes="cc"
-         transform="translate(36.357304,12.667155)" /><path
-         style="fill:none;stroke:#000000;stroke-width:0.27353582;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         d="m 83.768008,181.36404 c -0.268694,0.36931 -1.029164,0.93863 -0.709997,1.29643 0.249033,0.27918 0.549694,0.50497 0.848578,0.7273"
+         sodipodi:nodetypes="cc" /><path
+         style="fill:none;stroke:#000000;stroke-width:0.273536;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 83.768008,181.36404 c -0.268694,0.36931 -0.540236,1.61674 -0.643056,2.1697 0.202679,0.50515 0.546042,1.6048 0.844926,1.82713"
          id="path577"
          sodipodi:nodetypes="ccc"
          transform="translate(36.357304,12.667155)" /></g><g

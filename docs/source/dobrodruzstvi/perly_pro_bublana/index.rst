@@ -9,41 +9,51 @@ Hrdinové se zapletou s jedním velmi nešťastným vodníkem, chudým uhlířem
 Zápletka pro vypravěče
 ======================
 
-Vodník **Bublan** plánuje s rychtářkou **Boženou** stavbu rybníka. Našel tři vzácné perly na zaplacení dělníků, ale ty mu v pátek večer někdo ukradl. Zlodějem je uhlíř **Jura**, který se do doupěte potopil (proto ho pstruh viděl jako "černou postavu"). Jura perly dal **Máničce**, mlynářově dceři, aby na ni udělal dojem. Ta si je nechala, ale Juru stejně nechce.
+Vodník **Bublan** plánuje s rychtářkou **Vítkou** stavbu rybníka. Našel tři vzácné perly na zaplacení dělníků, ale ty mu v pátek večer někdo ukradl. Zlodějem je uhlíř **Jura**, který se do doupěte potopil. Jura perly dal **Máničce**, mlynářově dceři, aby na ni udělal dojem. Ta si je nechala, ale citům Jury se vysmála.
 
 1. Setkání u Svitavy
 ====================
 
-Dobrodružství začíná u slepého ramene řeky Svitavy, kousek za Blanskem.
+Dobrodružství začíná u slepého ramene řeky Svitavy u Blanska kde žije vodník Bublan.
 
 .. admonition:: Popis pro hráče: U vodníka
 
-   Slunce se odráží od hladiny líně tekoucí Svitavy. Na vyvrácené vrbě, jejíž větve se máčejí ve vodě, sedí malá postavička v zeleném kabátku. Je to vodník. Nekouká ale po dušičkách, místo toho si smutně ždímá šos a tiše si pro sebe pobrukuje žalostnou písničku. Občas si otře nos do velkého puntíkovaného kapesníku a hlasitě si povzdechne.
+   Slunce se odráží od hladiny líně tekoucí Svitavy. Na vyvrácené vrbě, jejíž větve se máčejí ve vodě, shrbeně sedí malá zelená postavička. Je to vodník. Nekouká ale po dušičkách, místo toho se nervózně tahá za velké uši a rozčileně mluví sám se sebou. Občas si srovná své tři vlasy a hlasitě si povzdechne.
 
 Interakce s Bublanem:
 Vodník je nešťastný, ale ne útočný. Pokud ho hrdinové osloví, svěří se jim:
 
-*   **Ztráta:** Zmizely tři perly, které měl schované v dutém pařezu pod hladinou.
-*   **Pátek večer:** Musel tehdy řešit potěr, který plaval na hlubinu, protože mu někdo na mělčinu naházel kameny (diverze zloděje).
+*   **Ztráta:** Zmizely tři perly, které měl schované v hrníčku ve svém doupěti pod podemletým břehem.
+*   **Pátek večer:** Musel tehdy řešit potěr, který se nerozvážně pouštěl na hlubinu místo aby zůstaval v bezpečí na mělké vodě. Zjistil, že to bylo proto že na mělčinu někdo naházel kameny (diverze zloděje).
 *   **Cizí pach:** Když se vrátil do doupěte, cítil ve vodě kouř a oheň.
-*   **Svědek:** Starý pstruh viděl "velkou černou postavu", jak se potápěla k doupěti.
+*   **Svědek:** Starý pstruh viděl "velkou černou postavu", jak se potápěla k doupěti. Byl to uhlíř Jára, špinavý jako každý uhlíř.
 
 2. Vyšetřování v Blansku
 ========================
 
-Hrdinové pravděpodobně zamíří do vesnice hledat někoho, kdo smrdí kouřem a mohl by být "černou postavou".
+Hrdinové pravděpodobně zamíří do vesnice hledat někoho, kdo smrdí kouřem.
 
-Kovárna mistra Hamra
+Vyptávání ve vesnici
+--------------------
+
+TODO
+
+Kovárna mistra Janka
 --------------------
 
 .. admonition:: Popis pro hráče: Kovárna
 
-   Z otevřených dveří kovárny sálá žár a ozývají se pravidelné rány kladiva o kovadlinu. Mistr Hamr, mohutný chlap s tváří umazanou od sazí, právě vytahuje z výhně rozžhavenou podkovu.
+   Z otevřených dveří kovárny sálá žár a ozývají se pravidelné rány kladiva o kovadlinu. Mistr Janek, mohutný chlap s tváří umazanou od sazí, právě vytahuje z výhně rozžhavenou podkovu.
 
 **Interakce:**
 
-*   Pokud ho hrdinové obviní, Hamr se jen zasměje: "Já a krást perly? To bych se do toho potoka ani nevešel! Navíc v pátek jsem byl v hospodě u 'Tří lip'."
-*   **Stopa:** Hamr poradí, že v lese pálí uhlí rodina Vorlových: "Ti jsou černí od rána do večera a kouř z nich táhne na míli daleko."
+*   Pokud ho hrdinové obviní, Janek se jen zasměje: "Já a krást perly? Já mám svoji práci! Navíc v pátek jsem byl v hospodě."
+*   **Stopa:** Pokud bude mít Janek dobrou náladu, poradí že v lese pálí uhlí rodina Vorlových: "Ti jsou černí od rána do večera a kouř z nich táhne na míli daleko."
+
+Obcházení vesnice
+-----------------
+
+Obchází vesnici a čuchají kouř TODO
 
 3. Uhlířské milíře v lese
 =========================
@@ -55,7 +65,7 @@ Rodina Vorlových
 
 .. admonition:: Popis pro hráče: U milířů
 
-   V lese je ticho, které přerušuje jen praskání dřeva. Uprostřed mýtiny stojí dva velké milíře, ze kterých uniká hustý šedý kouř. Kolem nich pobíhá několik postav, černých jako samotné uhlí. Starý Vorel právě hází lopatou hlínu na trhlinu v milíři a nadává u toho jako špaček.
+   V lese je ticho ale jak se blížíte, z menšího prostranství před vámi se ozývají různé zvuky a hlasy. Uprostřed mýtiny stojí dva velké milíře. Na několika málo místech unikají tenké proužky hustého šedého kouře. Kolem nich pobíhá několik postav, černých jako samotné uhlí. Starý Vorel právě hází lopatou hlínu na trhlinu v milíři a nadává u toho jako špaček.
 
 **Interakce:**
 
