@@ -69,8 +69,9 @@ Rodina Vorlových
 
 **Interakce:**
 
-*   Uhlíři jsou nevrlí a nechtějí ztrácet čas.
-*   **Pomoc s prací:** Pokud postavy pomohou (Silák nebo Šikula, CC 7), Vorel si odplivne a řekne: "Jestli hledáte někoho divnýho, běžte za naším Jurou. Má milíř o kus dál u potoka. Je to budižkničemu, pořád jenom vzdychá a čučí směrem k mlýnu."
+*   Uhlíři jsou nevrlí a nechtějí s družinkou ztrácet čas. Jak je přimět aby se dali do řeči?
+*   **Pomoc s prací:** Pokud postavy pomohou (*zkouška na SÍL 4*), Vorel si odplivne a řekne: "Jestli hledáte někoho kdo má na tyhle věci čas, běžte za naším Jurou. Má milíř o kus dál u potoka. Je to budižkničemu, pořád jenom vzdychá a čučí směrem k mlýnu." a významně mrkne na manželku která na svém černém obličeji krátce blískne zuby v chápavém úsměvu.
+*   **Dar jídla:** Ulíře ale třeba taky rozmluví pokud je pozvete na svačinu. S jejich 4 dětmi si ale připravte aspoň jednu celou denní dávku jídla. Hráči jistě přijdou i na další možnosti.
 
 4. Jurovo doupě
 ===============
@@ -79,7 +80,7 @@ Jura má svůj milíř kousek od cesty k mlýnu.
 
 .. admonition:: Popis pro hráče: Jurovo místo
 
-   Mladý uhlíř Jura sedí na pařezu, v ruce drží povadlou kopretinu a nepřítomně hledí do dálky. Jeho milíř spíš jen tak smutně doutná. Jura vypadá, že zapomněl i na to, že má pracovat.
+   Mladý uhlíř Jura sedí na pařezu, v ruce drží povadlou kopretinu a nepřítomně hledí do dálky. Jeho milíř ale rozhodně nevypadá jako pečlivě opečovávané milíře které jste viděli dříve. Je malý, křivý a dým se z něj valí na mnoha místech. Z jedné díry dokonce vidíte vyskakovat plamínky ohně. Jura vypadá, že zapomněl na celý svět a vás si ani nevšimnul.
 
 **Interakce:**
 
@@ -93,13 +94,13 @@ Konečná zastávka. Mlýn je hlídaný a Mánička se perel jen tak nevzdá.
 
 .. admonition:: Popis pro hráče: Mlýn
 
-   Mlýnské kolo se vesele otáčí a voda s hukotem dopadá na lopatky. Na zápraží sedí Mánička, dcera mlynáře Klapota, a ve slunečním světle si prohlíží něco, co se jí leskne v dlani. Na dvoře u boudy podřimuje velký huňatý pes.
+   Mlýnské kolo se vesele otáčí a voda s hukotem dopadá na lopatky. Na zápraží sedí Mánička, dcera mlynáře Křišťan a jeho ženy Kateřiny. Ve slunečním světle si prohlíží něco, co se jí leskne v dlani. Na dvoře u boudy podřimuje velký huňatý pes. V zadní části dvora, za starou jabloní stojí vůz a pomocník Fabián z něj vykládá pytle s obilím a nosí je do mlýnice.
 
 **Možné akce a interakce:**
 
-*   **Vyjednávání s Máničkou:** Je marnivá. Pokud postavy uspějí v hodu na Charisma (CC 10), mohou ji přesvědčit, aby perly vrátila (např. hrozbou vězení).
-*   **Vloupání:** V noci je třeba se proplížit kolem psa Rafana (Obratnost CC 7). Perly jsou v truhličce v prvním patře.
-*   **Lest:** Předstírat, že perly jsou prokleté a přinesou na mlýn neštěstí (Obratnost/Charisma CC 7).
+*   **Vyjednávání:** Mánička je marnivá. Pokud postavy uspějí (*zkouška na CHAR (+ Smlouvání) 8*), mohou ji přesvědčit, aby perly vrátila (např. hrozbou vězení).
+*   **Vloupání:** V noci je třeba se proplížit kolem psa Rafana (*zkouška OBR (+ Plížení) 7*). Perly jsou v truhličce v prvním patře.
+*   **Obchod:** Mánička si pravou hodnotu perel příliš neuvědomuje a tak bude ochotná vyměnit je za šátek nebo pěknou sukni z trhu v ceně třeba 5 stříbrňáků (*zkouška na CHAR (+ Smlouvání) 5*).
 
 Bojová střetnutí
 ================
