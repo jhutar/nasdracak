@@ -11,8 +11,8 @@ Zápletka pro vypravěče
 
 Vodník **Bublan** plánuje s rychtářkou **Vítkou** stavbu rybníka. Našel tři vzácné perly na zaplacení dělníků, ale ty mu v pátek večer někdo ukradl. Zlodějem je uhlíř **Jura**, který se do doupěte potopil. Jura perly dal **Máničce**, mlynářově dceři, aby na ni udělal dojem. Ta si je nechala, ale citům Jury se vysmála.
 
-1. Setkání u Svitavy
-====================
+Setkání u Svitavy
+=================
 
 Dobrodružství začíná u slepého ramene řeky Svitavy u Blanska kde žije vodník Bublan.
 
@@ -28,8 +28,8 @@ Vodník je nešťastný, ale ne útočný. Pokud ho hrdinové osloví, svěří 
 *   **Cizí pach:** Když se vrátil do doupěte, cítil ve vodě kouř a oheň.
 *   **Svědek:** Starý pstruh viděl "velkou černou postavu", jak se potápěla k doupěti. Byl to uhlíř Jára, špinavý jako každý uhlíř.
 
-2. Vyšetřování v Blansku
-========================
+Vyšetřování v Blansku
+=====================
 
 Hrdinové pravděpodobně zamíří do vesnice hledat někoho, kdo smrdí kouřem.
 
@@ -55,8 +55,8 @@ Obcházení vesnice
 
 Obchází vesnici a čuchají kouř TODO
 
-3. Uhlířské milíře v lese
-=========================
+Uhlířské milíře v lese
+======================
 
 Cesta do lesa je zarostlá a vzduch houstne štiplavým dýmem.
 
@@ -73,22 +73,22 @@ Rodina Vorlových
 *   **Pomoc s prací:** Pokud postavy pomohou (*zkouška na SÍL 4*), Vorel si odplivne a řekne: "Jestli hledáte někoho kdo má na tyhle věci čas, běžte za naším Jurou. Má milíř o kus dál u potoka. Je to budižkničemu, pořád jenom vzdychá a čučí směrem k mlýnu." a významně mrkne na manželku která na svém černém obličeji krátce blískne zuby v chápavém úsměvu.
 *   **Dar jídla:** Ulíře ale třeba taky rozmluví pokud je pozvete na svačinu. S jejich 4 dětmi si ale připravte aspoň jednu celou denní dávku jídla. Hráči jistě přijdou i na další možnosti.
 
-4. Jurovo doupě
-===============
+Jurovo doupě
+============
 
 Jura má svůj milíř kousek od cesty k mlýnu.
 
 .. admonition:: Popis pro hráče: Jurovo místo
 
-   Mladý uhlíř Jura sedí na pařezu, v ruce drží povadlou kopretinu a nepřítomně hledí do dálky. Jeho milíř ale rozhodně nevypadá jako pečlivě opečovávané milíře které jste viděli dříve. Je malý, křivý a dým se z něj valí na mnoha místech. Z jedné díry dokonce vidíte vyskakovat plamínky ohně. Jura vypadá, že zapomněl na celý svět a vás si ani nevšimnul.
+   Mladý uhlíř Jura sedí na pařezu, v ruce drží povadlou kopretinu a nepřítomně hledí do dálky. Jeho milíř ale rozhodně nevypadá jako pečlivě opečovávané milíře které jste viděli dříve. Je malý, křivý a dým se z něj valí na mnoha místech až vás štípe v očích. V jedné díře dokonce vidíte tančit plamínky ohně. Jura vypadá, že zapomněl na celý svět a vás si ani nevšimnul.
 
 **Interakce:**
 
-*   Jura je "černá postava". Pokud hrdinové zmíní perly nebo vodníka, Jura se rozpláče.
-*   **Přiznání:** "Já nechtěl nikomu ublížit! Jenže Mánička z mlýna… ona chce jen bohaté nápadníky. Myslel jsem, že když jí dám perly, bude mě mít ráda. Ale ona se mi vysmála, perly si vzala a práskla dveřmi!"
+*   Jura je ona "černá postava", zapírat ale nebude. Pokud hrdinové zmíní perly nebo vodníka, Jura se rozpláče.
+*   **Přiznání:** Plačtivě: "Já nechtěl nikomu uškodit! Jenže Mánička z mlýna… ona chce jen bohaté nápadníky. Myslel jsem, že když jí dám ty perly o kterých mluvila rychtářka, bude mě mít ráda. Ale ona se mi vysmála, perly si vzala a práskla dveřmi!"
 
-5. Mlýn u náhonu
-================
+Mlýn u náhonu
+=============
 
 Konečná zastávka. Mlýn je hlídaný a Mánička se perel jen tak nevzdá.
 
