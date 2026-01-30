@@ -300,17 +300,18 @@ def list_dir_files(data_dir: pathlib.Path) -> list[pathlib.Path]:
 
 
 class World:
-    def __init__(self, data_dir: pathlib.Path = pathlib.Path("data")) -> None:
+    def __init__(self, data_dirs: typing.List[pathlib.Path] = [pathlib.Path("data")]) -> None:
         self._all_models: dict[str, BaseModelWithId] = {}
 
-        for file_path in list_dir_files(data_dir):
-            try:
-                model_instance = load_file(file_path)
-                if model_instance.id in self._all_models:
-                    raise ModelError(f"Duplicate ID {model_instance.id} found")
-                self._all_models[model_instance.id] = model_instance
-            except Exception as e:
-                logger.warning(f"Loading '{file_path}' failed, skipping. Error: {e}")
+        for data_dir in data_dirs:
+            for file_path in list_dir_files(data_dir):
+                try:
+                    model_instance = load_file(file_path)
+                    if model_instance.id in self._all_models:
+                        raise ModelError(f"Duplicate ID {model_instance.id} found")
+                    self._all_models[model_instance.id] = model_instance
+                except Exception as e:
+                    logger.warning(f"Loading '{file_path}' failed, skipping. Error: {e}")
 
     def get(
         self, model_type: typing.Type[BaseModelWithId], name: str

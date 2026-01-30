@@ -28,58 +28,59 @@ def setup_logging(args):
     logging.basicConfig(level=level, format="%(asctime)s - %(levelname)s - %(message)s")
 
 
-def lint_directory(data_dir: str) -> dict:
+def lint_directory(data_dirs: typing.List[str]) -> dict:
     """Lints all JSON and YAML files in a directory. Returns True if successful, False otherwise."""
-    logging.info(f"Starting linting in directory: {data_dir}")
+    logging.info(f"Starting linting in directories: {data_dirs}")
     items: typing.List[models.BaseModelWithId] = []
     issues: collections.defaultdict[str, typing.List[str]] = collections.defaultdict(
         list
     )
     seen_ids: typing.Set[str] = set()
-    data_path = pathlib.Path(data_dir)
 
-    if not data_path.is_dir():
-        raise Exception(f"Data directory not found: {data_dir}")
+    for data_dir in data_dirs:
+        data_path = pathlib.Path(data_dir)
+        if not data_path.is_dir():
+            raise Exception(f"Data directory not found: {data_dir}")
 
-    for file_path in models.list_dir_files(data_path):
-        logging.info(f"Checking file: {file_path}")
+        for file_path in models.list_dir_files(data_path):
+            logging.info(f"Checking file: {file_path}")
 
-        # Load data
-        try:
-            item = models.load_file(file_path)
+            # Load data
+            try:
+                item = models.load_file(file_path)
 
-            # Check ID of all data files is unique
-            if item.id in seen_ids:
-                issue = f"Duplicate ID '{item.id}' found."
+                # Check ID of all data files is unique
+                if item.id in seen_ids:
+                    issue = f"Duplicate ID '{item.id}' found."
+                    logging.warning(f"  -> ERROR: {issue}")
+                    issues[str(file_path)].append(issue)
+                    continue
+                else:
+                    seen_ids.add(item.id)
+
+                items.append(item)
+
+            except FileNotFoundError:
+                issue = "File not found during processing."
                 logging.warning(f"  -> ERROR: {issue}")
                 issues[str(file_path)].append(issue)
                 continue
-            else:
-                seen_ids.add(item.id)
-
-            items.append(item)
-
-        except FileNotFoundError:
-            issue = "File not found during processing."
-            logging.warning(f"  -> ERROR: {issue}")
-            issues[str(file_path)].append(issue)
-            continue
-        except (json.JSONDecodeError, yaml.YAMLError) as e:
-            issue = f"Could not parse file: {e}"
-            logging.warning(f"  -> ERROR: {issue}")
-            issues[str(file_path)].append(issue)
-            continue
-        except models.ModelError as e:
-            logging.warning(f"  -> ERROR: {e}")
-            issues[str(file_path)].append(str(e))
-        except pydantic.ValidationError as e:
-            issue = f"Validation failed: {e}"
-            logging.warning(f"  -> ERROR: {issue}")
-            issues[str(file_path)].append(issue)
-        except Exception as e:
-            issue = f"An unexpected error occurred: {e}"
-            logging.warning(f"  -> ERROR: {issue}")
-            issues[str(file_path)].append(issue)
+            except (json.JSONDecodeError, yaml.YAMLError) as e:
+                issue = f"Could not parse file: {e}"
+                logging.warning(f"  -> ERROR: {issue}")
+                issues[str(file_path)].append(issue)
+                continue
+            except models.ModelError as e:
+                logging.warning(f"  -> ERROR: {e}")
+                issues[str(file_path)].append(str(e))
+            except pydantic.ValidationError as e:
+                issue = f"Validation failed: {e}"
+                logging.warning(f"  -> ERROR: {issue}")
+                issues[str(file_path)].append(issue)
+            except Exception as e:
+                issue = f"An unexpected error occurred: {e}"
+                logging.warning(f"  -> ERROR: {issue}")
+                issues[str(file_path)].append(issue)
 
     for item in items:
         # Check inventory (e.g. in Character model)
@@ -214,9 +215,8 @@ def format_price(price: float):
     return " ".join(out)
 
 
-def format_entity(args: argparse.Namespace):
+def format_entity(args: argparse.Namespace, world: models.World):
     """Formats and renders game entities based on a Jinja2 template."""
-    world = models.World(pathlib.Path(args.data))
     if args.entity:
         entities = [world.get_by_id(args.entity)]
     elif args.model:
@@ -261,7 +261,7 @@ def format_entity(args: argparse.Namespace):
 
 
 def pick_one(
-    provided: str, model: models.BaseModelWithId
+    provided: str, model: models.BaseModelWithId, world: models.World
 ) -> models.BaseModelWithId:
     """Picks one entity of a given model, optionally updating probabilities."""
     if provided:
@@ -274,16 +274,15 @@ def pick_one(
     return out
 
 
-def generate_character(args: argparse.Namespace):
+def generate_character(args: argparse.Namespace, world: models.World):
     """Generates a new game character based on various parameters."""
-    world = models.World(pathlib.Path(args.data))
 
     # Level
     _level = args.level
     print(f"Level: {_level}")
 
     # Race
-    _race = pick_one(args.race, models.Race)
+    _race = pick_one(args.race, models.Race, world)
 
     # Name
     if args.name:
@@ -301,10 +300,10 @@ def generate_character(args: argparse.Namespace):
     print(f"Background: {_background}")
 
     # Location
-    _location = pick_one(args.location, models.Location)   # noqa: F841
+    _location = pick_one(args.location, models.Location, world)   # noqa: F841
 
     # Occupation
-    _occupation = pick_one(args.occupation, models.Occupation)   # noqa: F841
+    _occupation = pick_one(args.occupation, models.Occupation, world)   # noqa: F841
 
     # Inventory
     _inventory = []
@@ -352,9 +351,8 @@ def expand_code_blocks(args: argparse.Namespace):
             fd.write(text_new)
 
 
-def generate_household(args: argparse.Namespace):
+def generate_household(args: argparse.Namespace, world: models.World):
     """Generate memebers for a random household."""
-    world = models.World(pathlib.Path(args.data))
 
     clovek_muz = world.get(models.Race, "clovek-muz")
     clovek_zena = world.get(models.Race, "clovek-zena")
@@ -403,7 +401,7 @@ def main():
     parser = argparse.ArgumentParser(description="A multi-purpose tool.")
     parser.add_argument("--debug", action="store_true", help="Enable debug logging.")
     parser.add_argument("--verbose", action="store_true", help="Enable info logging.")
-    parser.add_argument("--data", default="data/", help="Path to the data directory.")
+    parser.add_argument("--data", default=["data/"], action="append", help="Path to the data directory (can be specified multiple times).")
 
     subparsers = parser.add_subparsers(dest="command", required=True)
 
@@ -463,24 +461,28 @@ def main():
     )
 
     args = parser.parse_args()
+    args.data = list(set(args.data))
     setup_logging(args)
 
-    logging.debug(f"Using data directory: {args.data}")
+    logging.debug(f"Using data directories: {args.data}")
 
     if args.command == "lint":
         if lint_directory(args.data):
             sys.exit(1)
     elif args.command == "format":
-        if format_entity(args):
+        world = models.World([pathlib.Path(d) for d in args.data])
+        if format_entity(args, world):
             sys.exit(1)
     elif args.command == "character":
-        if generate_character(args):
+        world = models.World([pathlib.Path(d) for d in args.data])
+        if generate_character(args, world):
             sys.exit(1)
     elif args.command == "expand":
         if expand_code_blocks(args):
             sys.exit(1)
     elif args.command == "household":
-        if generate_household(args):
+        world = models.World([pathlib.Path(d) for d in args.data])
+        if generate_household(args, world):
             sys.exit(1)
 
 
