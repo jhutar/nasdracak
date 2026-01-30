@@ -105,22 +105,19 @@ Konečná zastávka. Mlýn je hlídaný a Mánička se perel jen tak nevzdá.
 Bojová střetnutí
 ================
 
-Obří krysy v lese
------------------
+Obří pavouci v lese
+-------------------
 
-Pokud hrdinové v lese při hledání uhlířů neuspějí v hodu na Postřeh (CC 5), překvapí je obří krysy.
+Pokud hrdinové v lese při hledání uhlířů zabloudí (*zkouška INT TODO*), překvapí je dva obří pavouci.
 
-*   **Srdce:** 1
-*   **Útok:** Kousnutí (1 zranění)
+```tools/doit.py --data data/ format --entity Beast:pokoutnik_lesni --template tools/templates/beast.rst```
 
 Hlídací pes Rafan
 -----------------
 
-Pokud hrdinové neuspějí při plížení v mlýně.
+Pokud Rafan útočí, začne štěkat. Pokud ho postavy neumlčí do 2 kol, probudí se mlynář.
 
-*   **Srdce:** 2
-*   **Útok:** Rafnutí (1 zranění)
-*   **Zvláštní schopnost:** Pokud Rafan útočí, začne štěkat. Pokud ho postavy neumlčí do 2 kol, probudí se mlynář Klapot s lopatou (Srdce 3, Útok 2).
+```tools/doit.py --data data/ format --entity Beast:pes --template tools/templates/beast.rst```
 
 Závěr
 =====

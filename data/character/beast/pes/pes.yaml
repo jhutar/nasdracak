@@ -1,0 +1,17 @@
+id: Beast:pes
+category: pes
+level: 1
+name: Pes
+appearance: Větší pes, vesnický hlídač neurčité rasy, dlouhosrstý a zbarvený hnědě s černým hřbetem a hlavou.
+mechanics: Je to dobrý hlídač. Proklouznout kolem něj není lehké (*zkouška OBR (+ Plížení) 7*). Má ale i svou slabost. Možná to je sladký koláček, nebo pár škvarků? Pokud to trefíte, pustí vás a ještě se bude těšit na příště.
+strength: 0
+dexterity: 0
+inteligence: 0
+charisma: 0
+health_max: 3
+magenergy_max: 1
+attack:
+  Kousnutí: 1
+defense: {}
+inventory: []
+location: Location:vesnice

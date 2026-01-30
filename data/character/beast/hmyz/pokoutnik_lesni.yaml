@@ -1,0 +1,17 @@
+id: Beast:pokoutnik_lesni
+category: hmyz
+level: 1
+name: Pokoutník lesní
+appearance: Hnědý pavouk s tmavšími skvrnkami, tenké a dlouhé nohy mají rozpětí asi metr. Normálně se schovává pod spadenými stromy a rychlými výpady loví zajíce nebo ptáky ve větvích stromů. Má malá kusadla která na malou kořist bez problémů stačí.
+mechanics: Poplašený nebo zraněný může svými kusadli zaútočit i na člověka. Není ale nijak zvláště nebezpečný. Jednou za den se může pokusit hrůzou znehybnit oběť (*zkouška INT 4*) na 1 kolo.
+strength: 0
+dexterity: 0
+inteligence: -2
+charisma: -2
+health_max: 5
+magenergy_max: 3
+attack:
+  Kusadla: 1
+defense: {}
+inventory: []
+location: Location:les
