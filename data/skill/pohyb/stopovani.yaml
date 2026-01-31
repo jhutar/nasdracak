@@ -1,0 +1,6 @@
+id: Skill:stopovani
+name: Stopování
+description: Stopuješ lidi, zvířata nebo jině tvory v libovolném terénu, od džungle po město.
+rule: "Při stopování v libovolném terénu si k hodu na zkoušku připočítej svůj bonus na pohyb. Další výhodu k hodu získáš za magy: +1 za 1 mag, +2 za další 2, +3 za další 3 (tedy +3 celkem za 6 magů) atd."
+bonus: Bonus:pohyb
+requires: []

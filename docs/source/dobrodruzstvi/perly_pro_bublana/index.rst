@@ -31,24 +31,25 @@ Vodník je nešťastný, ale ne útočný. Pokud ho hrdinové osloví, svěří 
 Vyšetřování v Blansku
 =====================
 
-Hrdinové pravděpodobně zamíří do vesnice hledat někoho, kdo smrdí kouřem.
-
 Vyptávání ve vesnici
 --------------------
 
-TODO
+Pokec s rychtářkou TODO.
 
 Kovárna mistra Janka
 --------------------
 
+Hrdinové pravděpodobně zamíří do vesnice hledat někoho, kdo smrdí kouřem. V celé vesnici nejvíc s ohněm pracuje kovář Janek.
+
 .. admonition:: Popis pro hráče: Kovárna
 
-   Z otevřených dveří kovárny sálá žár a ozývají se pravidelné rány kladiva o kovadlinu. Mistr Janek, mohutný chlap s tváří umazanou od sazí, právě vytahuje z výhně rozžhavenou podkovu.
+   Kovárna leží mírně stranou od vesnice až kousek za mlýnem. Cestou míjíte skupinku dětí hrajících hru s tleskáním, vyhazováním a chytáním kamínků. O kus dál po cestě, tam kde je slyšet pravidelné tleskání mlýnského kola o vodu, zase na posečené louce vidíte jakousi dívku jak něco motá v rukou, snad věneček. Těsně před kovárnou vás zase na kus řeči zastaví stará babička která z lesa nese otýpku klacků. Ve vesnici se prostě stále něco děje.
+   Konečně dojdete ke kovárně. Z otevřených dveří sálá žár a ozývají se pravidelné rány kladiva o kovadlinu. Mistr Janek, mohutný spocený chlap s tváří umazanou od sazí, právě vytahuje z výhně rozžhavenou podkovu.
 
 **Interakce:**
 
 *   Pokud ho hrdinové obviní, Janek se jen zasměje: "Já a krást perly? Já mám svoji práci! Navíc v pátek jsem byl v hospodě."
-*   **Stopa:** Pokud bude mít Janek dobrou náladu, poradí že v lese pálí uhlí rodina Vorlových: "Ti jsou černí od rána do večera a kouř z nich táhne na míli daleko."
+*   **Stopa:** Pokud bude mít Janek dobrou náladu, poradí že v lese pálí uhlí rodina uhlířů: "Ti jsou černí od rána do večera a kouř z nich táhne na míli daleko."
 
 Obcházení vesnice
 -----------------
@@ -59,6 +60,8 @@ Uhlířské milíře v lese
 ======================
 
 Cesta do lesa je zarostlá a vzduch houstne štiplavým dýmem.
+
+Pokud hrdinové v lese při hledání uhlířů zabloudí (*zkouška INT (+ Stopování)*), překvapí je dva obří pavouci. Vlastnosti pavouků viz kapitola Seznam monster.
 
 Rodina Vorlových
 ----------------
@@ -102,13 +105,13 @@ Konečná zastávka. Mlýn je hlídaný a Mánička se perel jen tak nevzdá.
 *   **Vloupání:** V noci je třeba se proplížit kolem psa Rafana (*zkouška OBR (+ Plížení) 7*). Perly jsou v truhličce v prvním patře.
 *   **Obchod:** Mánička si pravou hodnotu perel příliš neuvědomuje a tak bude ochotná vyměnit je za šátek nebo pěknou sukni z trhu v ceně třeba 5 stříbrňáků (*zkouška na CHAR (+ Smlouvání) 5*).
 
-Bojová střetnutí
-================
+Seznam monster
+==============
 
 Obří pavouci v lese
 -------------------
 
-Pokud hrdinové v lese při hledání uhlířů zabloudí (*zkouška INT TODO*), překvapí je dva obří pavouci.
+Pokud hrdinové v lese při hledání uhlířů zabloudili, vyskočili na ně dva poplašení obří pavouci.
 
 ```tools/doit.py --data data/ format --entity Beast:pokoutnik_lesni --template tools/templates/beast.rst```
 
@@ -125,14 +128,12 @@ Závěr
 *   **Úspěch:** Bublan hrdinům poděkuje a daruje jim **Vodní kámen** (umožní zadržet dech pod vodou na jednu scénu). Rychtářka je pozve na hostinu.
 *   **Neúspěch:** Rybník se nepostaví, Bublan odejde ze Svitavy někam jinam a Mánička si za perly koupí drahé šaty, ve kterých bude vypadat ještě pyšněji.
 
-Postavy (Statistiky)
-====================
+Seznam postav
+=============
 
-================= ===== ========= ================================
-Jméno             Srdce Vlastnost Poznámka
-================= ===== ========= ================================
-**Vodník Bublan** 3     Vodomil   Bonus k akci ve vodě.
-**Uhlíř Jura**    2     Snílek    Postih k obraně (nedává pozor).
-**Mánička**       2     Marnivost Snadno se nechá uplatit šperkem.
-**Mlynář Klapot** 3     Silák     Bojuje těžkou lopatou.
-================= ===== ========= ================================
+* Vodník Bublan - zadává úkol, poskytuje počáteční indicie a případně odměňuje.
+* Kovář Janek - možný první podezřelý, ale o případu nic neví.
+* Rychtářka Vítka - může družince vysvětlid dohodu s Bublanem, ale o případu nic neví.
+* Uhlíři Ješek, Slavomíra a jejich děti - můžou družinku nasměrovat na Juru.
+* Uhlíř Jura - zamilovaný zloděj perel.
+* Mlynářovic dcera Mánička - dostala perly od Jury, ale jeho lásku neopětuje.
