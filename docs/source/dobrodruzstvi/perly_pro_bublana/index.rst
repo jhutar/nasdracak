@@ -34,7 +34,14 @@ Vyšetřování v Blansku
 Vyptávání ve vesnici
 --------------------
 
-Pokec s rychtářkou TODO.
+Družinu možná napadne zajít na představitelkou místního práva, za rychtářkou Vítkou, a poptat se jí jestli o krádeži něco neví.
+
+.. admonition:: Popis pro hráče: Rozhovor s rychtářkou
+
+   "Cože? Bublan přišel o perly?" zhrozila se rychtářka. "Jo, jasně že o nich vím!" odpoví na vaše překvapené obličeje.
+   Když se jí zeptáte na podrobnosti, vysvětlí vám to:
+   "Už pár let tu mluvíme o stavbě obecního rybníka, ale nikdy nebylo dost peněz na zaplacení kopáčů. Pro vesnici by to byla výhra a pro vodníka taky. Vždycky mi říkal že vodník bez jezera, nebo aspoň rybníka, je jako ryba na suchu. Nedávno se mi od pána podařilo sehnat povolení a s Bublanem jsme byli domluvení že zaplatí půlku stavby, ale takhle to všechno padá. Sákryš!"
+   Víc už si z ní netroufnete dolovat. Po té nepříjemné novině vypadá řádně nazlobená a odchází svižným krokem.
 
 Kovárna mistra Janka
 --------------------
@@ -54,7 +61,11 @@ Hrdinové pravděpodobně zamíří do vesnice hledat někoho, kdo smrdí kouře
 Obcházení vesnice
 -----------------
 
-Obchází vesnici a čuchají kouř TODO
+Družinu může napadnou bloumat se vesnicí nebo ji obcházet a koukat a čichat kde to kouří víc než jinde. Nech si je hodit (*zkouška na INT (+ Postřeh nebo Hledání) 5*). Pokud uspějí pošli je do lesa odkud se line proužek dýmu a pokud neuspějí naveď je ke kováři z jehož komína ve vesnici stoupá nejvíc kouře.
+
+.. admonition:: Popis pro hráče: Proužek dýmu z lesa
+
+   Obhlídli jste snad všechny komíny ve vesnici ale všechno to jsou jen malé ohně. Nic co by vám přišlo podezřelé. V jednu chvíli ale vaše oči padnou na les na kraji údolí. Že vás to nenapadlo dřív. V kraji jsou přeci uhlíři! Často bývají špinaví od hlavy až k patě a koužem smrdí na sto honů. To by mohlo být ono!
 
 Uhlířské milíře v lese
 ======================
@@ -75,6 +86,12 @@ Rodina Vorlových
 *   Uhlíři jsou nevrlí a nechtějí s družinkou ztrácet čas. Jak je přimět aby se dali do řeči?
 *   **Pomoc s prací:** Pokud postavy pomohou (*zkouška na SÍL 4*), Vorel si odplivne a řekne: "Jestli hledáte někoho kdo má na tyhle věci čas, běžte za naším Jurou. Má milíř o kus dál u potoka. Je to budižkničemu, pořád jenom vzdychá a čučí směrem k mlýnu." a významně mrkne na manželku která na svém černém obličeji krátce blískne zuby v chápavém úsměvu.
 *   **Dar jídla:** Ulíře ale třeba taky rozmluví pokud je pozvete na svačinu. S jejich 4 dětmi si ale připravte aspoň jednu celou denní dávku jídla. Hráči jistě přijdou i na další možnosti.
+
+.. epigraph::
+
+   **Milíř** je velkou hranicí dřeva, která je zvenku utěsněna hlínou. V hliněném obalu je na počátku několik otvorů, aby do milíře mohl vnikat vzduch při jeho rozhořívání. Poté jsou otvory utěsněny a přísun vzduchu je regulován na velmi nízké úrovni. Milíř poté několik desítek hodin doutná za minimálního přístupu vzduchu a uvnitř probíhá za vysoké teploty karbonizace dřeva. Pak se nechá milíř vychladnout a po jeho zbourání se může vzniklé *dřevěné uhlí* vyjmout.
+
+   -- `Wikipedia: Milíř <https://cs.wikipedia.org/wiki/Mil%C3%AD%C5%99>`_
 
 Jurovo doupě
 ============
@@ -102,8 +119,10 @@ Konečná zastávka. Mlýn je hlídaný a Mánička se perel jen tak nevzdá.
 **Možné akce a interakce:**
 
 *   **Vyjednávání:** Mánička je marnivá. Pokud postavy uspějí (*zkouška na CHAR (+ Smlouvání) 8*), mohou ji přesvědčit, aby perly vrátila (např. hrozbou vězení).
+*   **Obchod:** Mánička si pravou hodnotu perel příliš neuvědomuje a tak bude ochotná (*zkouška na CHAR (+ Smlouvání) 5*) vyměnit je za šátek nebo pěknou sukni z trhu v ceně třeba 5 stříbrňáků.
 *   **Vloupání:** V noci je třeba se proplížit kolem psa Rafana (*zkouška OBR (+ Plížení) 7*). Perly jsou v truhličce v prvním patře.
-*   **Obchod:** Mánička si pravou hodnotu perel příliš neuvědomuje a tak bude ochotná vyměnit je za šátek nebo pěknou sukni z trhu v ceně třeba 5 stříbrňáků (*zkouška na CHAR (+ Smlouvání) 5*).
+
+TODO mapka mlýna.
 
 Seznam monster
 ==============
@@ -125,8 +144,8 @@ Pokud Rafan útočí, začne štěkat. Pokud ho postavy neumlčí do 2 kol, prob
 Závěr
 =====
 
-*   **Úspěch:** Bublan hrdinům poděkuje a daruje jim **Vodní kámen** (umožní zadržet dech pod vodou na jednu scénu). Rychtářka je pozve na hostinu.
-*   **Neúspěch:** Rybník se nepostaví, Bublan odejde ze Svitavy někam jinam a Mánička si za perly koupí drahé šaty, ve kterých bude vypadat ještě pyšněji.
+*   **Úspěch:** Bublan hrdinům poděkuje a daruje jim **Vodní kámen** (umožní zadržet dech pod vodou na 10 minut). Rychtářka je pozve na hostinu.
+*   **Neúspěch:** Rybník se nepostaví, Bublan zklamaně odejde ze Svitavy někam jinam a Mánička si za perly ve městě koupí drahé šaty, ve kterých bude vypadat ještě pyšněji.
 
 Seznam postav
 =============
