@@ -110,6 +110,10 @@ Jura má svůj milíř kousek od cesty k mlýnu.
 Mlýn u náhonu
 =============
 
+.. image:: img/mlyn-strechy.svg
+   :alt: Slepá mapa mlýna (pro hráče)
+   :align: center
+
 Konečná zastávka. Mlýn je hlídaný a Mánička se perel jen tak nevzdá.
 
 .. admonition:: Popis pro hráče: Mlýn
@@ -122,7 +126,25 @@ Konečná zastávka. Mlýn je hlídaný a Mánička se perel jen tak nevzdá.
 *   **Obchod:** Mánička si pravou hodnotu perel příliš neuvědomuje a tak bude ochotná (*zkouška na CHAR (+ Smlouvání) 5*) vyměnit je za šátek nebo pěknou sukni z trhu v ceně třeba 5 stříbrňáků.
 *   **Vloupání:** V noci je třeba se proplížit kolem psa Rafana (*zkouška OBR (+ Plížení) 7*). Perly jsou v truhličce v prvním patře.
 
-TODO mapka mlýna.
+Tady je jak to ve mlýně vypadá. Podkroví kde má svou komůrku Mánička a střechy k zakrytí interiérů (dokud tam hráči nevkročí) jsou v sekci "Dodatečné obrázky".
+
+.. image:: img/mlyn-strechy.svg
+   :alt: Interiéry mlýna bez podkroví (pro hráče)
+   :align: center
+
+Tady je potom nápověda pro vypravěče:
+
+.. image:: img/mlyn-cislovane.svg
+   :alt: Interiéry mlýna (neukazovat hráčům)
+   :align: center
+
+Popisky TODO.
+
+Závěr
+=====
+
+*   **Úspěch:** Bublan hrdinům poděkuje a daruje jim **Vodní kámen** (umožní zadržet dech pod vodou na 10 minut). Rychtářka je pozve na hostinu.
+*   **Neúspěch:** Rybník se nepostaví, Bublan zklamaně odejde ze Svitavy někam jinam a Mánička si za perly ve městě koupí drahé šaty, ve kterých bude vypadat ještě pyšněji.
 
 Seznam monster
 ==============
@@ -141,12 +163,6 @@ Pokud Rafan útočí, začne štěkat. Pokud ho postavy neumlčí do 2 kol, prob
 
 ```tools/doit.py --data data/ format --entity Beast:pes --template tools/templates/beast.rst```
 
-Závěr
-=====
-
-*   **Úspěch:** Bublan hrdinům poděkuje a daruje jim **Vodní kámen** (umožní zadržet dech pod vodou na 10 minut). Rychtářka je pozve na hostinu.
-*   **Neúspěch:** Rybník se nepostaví, Bublan zklamaně odejde ze Svitavy někam jinam a Mánička si za perly ve městě koupí drahé šaty, ve kterých bude vypadat ještě pyšněji.
-
 Seznam postav
 =============
 
@@ -156,3 +172,11 @@ Seznam postav
 * Uhlíři Ješek, Slavomíra a jejich děti - můžou družinku nasměrovat na Juru.
 * Uhlíř Jura - zamilovaný zloděj perel.
 * Mlynářovic dcera Mánička - dostala perly od Jury, ale jeho lásku neopětuje.
+
+Dodatečné obrázky
+=================
+
+.. image:: img/mlyn-vystrihovanka.svg
+   :alt: Mlýn (pro hráče)
+   :align: center
+
