@@ -124,7 +124,7 @@ Konečná zastávka. Mlýn je hlídaný a Mánička se perel jen tak nevzdá.
 
 *   **Vyjednávání:** Mánička je marnivá. Pokud postavy uspějí (*zkouška na CHAR (+ Smlouvání) 8*), mohou ji přesvědčit, aby perly vrátila (např. hrozbou vězení).
 *   **Obchod:** Mánička si pravou hodnotu perel příliš neuvědomuje a tak bude ochotná (*zkouška na CHAR (+ Smlouvání) 5*) vyměnit je za šátek nebo pěknou sukni z trhu v ceně třeba 5 stříbrňáků.
-*   **Vloupání:** V noci je třeba se proplížit kolem psa Rafana (*zkouška OBR (+ Plížení) 7*). Perly jsou v truhličce v prvním patře.
+*   **Vloupání:** V noci je třeba se proplížit kolem psa Rafana (*zkouška OBR (+ Plížení) 7*). Perly jsou v truhličce v prvním patře. Materiály k této vloupačce jsou níže:
 
 Tady je jak to ve mlýně vypadá. Podkroví kde má svou komůrku Mánička a střechy k zakrytí interiérů (dokud tam hráči nevkročí) jsou v sekci "Dodatečné obrázky".
 
@@ -132,13 +132,38 @@ Tady je jak to ve mlýně vypadá. Podkroví kde má svou komůrku Mánička a s
    :alt: Interiéry mlýna bez podkroví (pro hráče)
    :align: center
 
-Tady je potom nápověda pro vypravěče:
+Tady je potom nápověda pro vypravěče pokud si družinka zvolí cestu nočního dobrodružství:
 
 .. image:: img/mlyn-cislovane.svg
    :alt: Interiéry mlýna (neukazovat hráčům)
    :align: center
 
-Popisky TODO.
+* 1: Dvůr u mlýna
+
+  * 1.1: Popis TODO
+  * 1.2: Rafanova bouda TODO
+
+* 2: Mlýn
+
+  * 2.1: Sklad TODO
+  * 2.2: Mlýnice TODO
+  * 2.3: Mlýnské kolo TODO
+
+* 3: Stodola
+
+  * 3.1: Stodola TODO
+
+* 4: Dům, přízemí
+
+  * 4.1: Vstupní chodba TODO
+  * 4.2: Spíž TODO
+  * 4.3: Schody nahoru TODO
+  * 4.4: Klavní světnice TODO
+
+* 5: Dům, podkroví
+
+  * 5.1: Chodba TODO
+  * 5.2: Mániččin pokoj TODO
 
 Závěr
 =====
