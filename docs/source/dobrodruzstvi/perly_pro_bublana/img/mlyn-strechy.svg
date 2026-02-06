@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
-   sodipodi:docname="mlyn-strochy.svg"
+   sodipodi:docname="mlyn-strechy.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      inkscape:zoom="0.70710678"
      inkscape:cx="478.71129"
-     inkscape:cy="169.70563"
+     inkscape:cy="171.11984"
      inkscape:window-width="1920"
      inkscape:window-height="1151"
      inkscape:window-x="0"
@@ -853,7 +853,8 @@
      inkscape:label="zeme"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0.47513804,0.17420273)">
+     transform="translate(0.47513804,0.17420273)"
+     style="display:inline">
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:4.3;stroke-opacity:1"
        d="m 4.2638,127.42811 c 14.42852,0 28.85704,0 43.28555,0"
@@ -1053,7 +1054,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="pudorys"
-     style="display:inline"
+     style="display:none"
      transform="translate(0.47513804,0.17420273)">
     <path
        style="fill:#ffffc3;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4.3;stroke-dasharray:none;stroke-opacity:1"
