@@ -128,7 +128,7 @@ Konečná zastávka. Mlýn je hlídaný a Mánička se perel jen tak nevzdá.
 
 Tady je jak to ve mlýně vypadá. Podkroví kde má svou komůrku Mánička a střechy k zakrytí interiérů (dokud tam hráči nevkročí) jsou v sekci "Dodatečné obrázky".
 
-.. image:: img/mlyn-strechy.svg
+.. image:: img/mlyn-interiery.svg
    :alt: Interiéry mlýna bez podkroví (pro hráče)
    :align: center
 
@@ -177,6 +177,6 @@ Dodatečné obrázky
 =================
 
 .. image:: img/mlyn-vystrihovanka.svg
-   :alt: Mlýn (pro hráče)
+   :alt: Podkroví chalupy a střechy k vystřižení (pro hráče)
    :align: center
 
