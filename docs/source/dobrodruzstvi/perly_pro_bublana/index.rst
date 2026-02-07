@@ -138,7 +138,11 @@ Tady je potom nápověda pro vypravěče pokud si družinka zvolí cestu noční
    :alt: Interiéry mlýna (neukazovat hráčům)
    :align: center
 
-* 1: Dvůr u mlýna
+* 1: Dvůr u mlýna se vchody do mlýna, stodoly a domu. Pro hráče bude teď ale důležité že tu hlídá pes Rafan.
+
+  .. admonition:: Popis pro hráče: Jurovo místo
+
+     Dvůr u mlýna osvětluje slabé světlo polovičního měsíce. Uprostřed stojí velká stará jabloň.
 
   * 1.1: Popis TODO
   * 1.2: Rafanova bouda TODO
