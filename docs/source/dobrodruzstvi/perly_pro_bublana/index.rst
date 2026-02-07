@@ -124,7 +124,8 @@ Konečná zastávka. Mlýn je hlídaný a Mánička se perel jen tak nevzdá.
 
 *   **Vyjednávání:** Mánička je marnivá. Pokud postavy uspějí (*zkouška na CHAR (+ Smlouvání) 8*), mohou ji přesvědčit, aby perly vrátila (např. hrozbou vězení).
 *   **Obchod:** Mánička si pravou hodnotu perel příliš neuvědomuje a tak bude ochotná (*zkouška na CHAR (+ Smlouvání) 5*) vyměnit je za šátek nebo pěknou sukni z trhu v ceně třeba 5 stříbrňáků.
-*   **Vloupání:** V noci je třeba se proplížit kolem psa Rafana (*zkouška OBR (+ Plížení) 7*). Perly jsou v truhličce v prvním patře. Materiály k této vloupačce jsou níže:
+*   **Nahlášení:** Co na tom že ta krádež byla klukovina? Je to zločin a basta. Juru čeká přísný trest a Máničce perly vezmou. Stačí aby postavy rychtářce nahlásili co zjistily. Pravděpodobně tím ale u místních získají nějakou nepěknou nálepku.
+*   **Vloupání:** V noci je třeba se proplížit kolem psa Rafana. To bude obtížné, ale pokud se bude družinka připravovat, třeba příjde na to že Rafan miluje škvarky a ty by jim tak mohly dát velkou výhodu. Perly jsou v truhličce v prvním patře. Materiály k této vloupačce jsou níže:
 
 Tady je jak to ve mlýně vypadá. Podkroví kde má svou komůrku Mánička a střechy k zakrytí interiérů (dokud tam hráči nevkročí) jsou v sekci "Dodatečné obrázky".
 
@@ -138,36 +139,38 @@ Tady je potom nápověda pro vypravěče pokud si družinka zvolí cestu noční
    :alt: Interiéry mlýna (neukazovat hráčům)
    :align: center
 
-* 1: Dvůr u mlýna se vchody do mlýna, stodoly a domu. Pro hráče bude teď ale důležité že tu hlídá pes Rafan.
+* 1: Dvůr mlýna obklopují tři stavby (mlýn, dům a stodola). Pro hráče bude teď ale důležité že tu hlídá pes Rafan.
 
-  .. admonition:: Popis pro hráče: Jurovo místo
+  .. admonition:: Popis pro hráče: Dvůr mlýna
 
-     Dvůr u mlýna osvětluje slabé světlo polovičního měsíce. Uprostřed stojí velká stará jabloň.
+     Dvůr u mlýna osvětluje slabé světlo polovičního měsíce. Uprostřed stojí velká stará jabloň. Kradate se ze stínu do stínu a snažíte se nevydat ani hlásku abyste neprobudili mlynáře. Zatím je všude ticho, ale máte pocit že vás pozoruje pár číhajících očí.
 
-  * 1.1: Popis TODO
-  * 1.2: Rafanova bouda TODO
+  * 1.1: Rafanova bouda stojí hned vedle domu. Rafan v ní polehává a dává pozor. Povede se ho družince obejít (zkouška OBR (+ Plížení) 7)? Nebo zjistili jeho slabinu a přinesli mu pár škvarků?
+
+    .. admonition:: Popis pro hráče: Probuzený Rafan
+
+       Hluk který jste způsobili zapříčinil neodvratné. Pes který hlídá na dvoře se probudil a hlasitým štěkáním splnil svou povinnost. V mžiku slyšíte šramot z domu a vidíte stateného mlynáře vybíhat s vidlema v ruce. Nezbylo vám nic jiného než vzít nohy na ramena a pro dnešek to zabalit.
 
 * 2: Mlýn
 
-  * 2.1: Sklad TODO
-  * 2.2: Mlýnice TODO
-  * 2.3: Mlýnské kolo TODO
+  * 2.1: Sklad se spoustou pytlu. Jak se plizi tmou, mozna slapnou na mys ktera zapisti, ale to nikoho neprobudi. TODO
+  * 2.2: Mlýnice. Tady se sila kola prevadi do pohybu mlecich kamenu. Vsude spousta moucneho prachu. Ve dvou truhlach ale jen slozene pytle a nejake tesarske nacini. TODO
 
 * 3: Stodola
 
-  * 3.1: Stodola TODO
+  * 3.1: Stodola. Kupka sena, v jednom rohu tise stoji kun a v druhem pochrupavaji dva vykrmeni pasici. TODO
 
 * 4: Dům, přízemí
 
-  * 4.1: Vstupní chodba TODO
-  * 4.2: Spíž TODO
-  * 4.3: Schody nahoru TODO
-  * 4.4: Klavní světnice TODO
+  * 4.1: Vstupní chodba. Dvoje dvere a chody nahoru. Kam se vydaji? TODO
+  * 4.2: Spíž. Par pytlu a kosu se zasobami, a velky kus speku poveseny na provaze ze stropu. TODO
+  * 4.3: Schody nahoru. Paty schod vrze. Podari se jim projit aniz by zavrzal a vzbudil Mlynare (*zkouska OBR (+ Plížení) 2*)? TODO
+  * 4.4: Hlavní světnice. Pec, stul a zidle a postel na ktere spi mlynar a mlynarka. Probudi se pokud vejdou dovnitr (*zkouska OBR (+ Plížení) 4*)? Pokud zacnou otevirat truhly (ve kterych je stejne jen nadobi a nejake obleceni), velmi pravdepodobne spici probudi (*zkouska OBR (+ Plížení) 6*). TODO
 
 * 5: Dům, podkroví
 
-  * 5.1: Chodba TODO
-  * 5.2: Mániččin pokoj TODO
+  * 5.1: Chodba, nic zajimaveho TODO
+  * 5.2: Mániččin pokoj. Postel kde spi Manicka, stolek s licidli a dve truhly. Probudi se manicka kdyz vejdou do pokoje (*zkouska OBR (+ Plížení) 4*)? V truhlicce u dveri je obleceni, v truhlicce u postele jsou jeji poklady - i ty perly v malem pytliku. TODO
 
 Závěr
 =====
