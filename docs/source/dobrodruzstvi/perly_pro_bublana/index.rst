@@ -153,24 +153,65 @@ Tady je potom nápověda pro vypravěče pokud si družinka zvolí cestu noční
 
 * 2: Mlýn
 
-  * 2.1: Sklad se spoustou pytlu. Jak se plizi tmou, mozna slapnou na mys ktera zapisti, ale to nikoho neprobudi. TODO
-  * 2.2: Mlýnice. Tady se sila kola prevadi do pohybu mlecich kamenu. Vsude spousta moucneho prachu. Ve dvou truhlach ale jen slozene pytle a nejake tesarske nacini. TODO
+  * 2.1: Sklad. Je tu spousta pytlů s moukou a obilím, které voní sladce a lákavě. V temných koutech se možná proplíží myška, a pokud na ni šlápnete, zapíská, ale to nikoho neprobudí.
+
+    .. admonition:: Popis pro hráče: Sklad
+
+       Vzduch je tu těžký a hustý, plný vůně mouky a obilí. Vaše kroky se ztrácejí v měkkém prachu, který pokrývá podlahu. Mezi vysokými hromadami pytlů se mihnou stíny a ozývá se tiché šustění. Občas zaslechnete i pískání myší, které se vesele prohání po pytlích, aniž by tušily, že je právě někdo vyrušil.
+
+  * 2.2: Mlýnice. Zde se obrovská síla vodního kola přenáší do mlýnských kamenů, které drtí obilí na jemnou mouku. Všude je spousta jemného moučného prachu, který se vznáší ve vzduchu jako kouzelný závoj. Ve dvou truhlách, které zde stojí, najdete jen složené pytle a staré tesařské náčiní, nic cenného.
+
+    .. admonition:: Popis pro hráče: Mlýnice
+
+       Vzduch je tu těžký a chladný, naplněný jemným pachem mouky a vlhkosti. Obrovské mlýnské kameny spí, ale zdá se, že kdykoli se mohou znovu probudit k životu. Jejich síla je cítit v každém koutě. Všude kolem se vznáší lehký moučný prach, který se třpytí ve slabém svitu měsíce, jako byste se ocitli v kouzelném snu. Kromě několika prázdných pytlů a tesařského náčiní zde není nic, co by upoutalo vaši pozornost.
 
 * 3: Stodola
 
-  * 3.1: Stodola. Kupka sena, v jednom rohu tise stoji kun a v druhem pochrupavaji dva vykrmeni pasici. TODO
+  * 3.1: Stodola. Uprostřed stodoly se tyčí obrovská kupka sena, která voní létem a sluncem. V jednom rohu tiše postává ušlechtilý kůň, jehož srst se leskne v šeru, a ve druhém spokojeně pochrupávají dva vykrmení pašíci, kteří sní o plných korytech.
+
+    .. admonition:: Popis pro hráče: Stodola
+
+       Vzduch ve stodole je teplý a prosycený vůní sena a hospodářských zvířat. Měkké balíky sena tvoří obrovské hromady, které lákají k odpočinku. V temném koutě klidně stojí kůň, jehož pravidelný dech je jediným zvukem, který slyšíte, kromě spokojeného pochrupávání dvou velkých pašíků, kteří se vrtí ve slámě. Zdá se, že zde vládne klid a mír, přerušený jen tichými zvuky spících zvířat.
 
 * 4: Dům, přízemí
 
-  * 4.1: Vstupní chodba. Dvoje dvere a chody nahoru. Kam se vydaji? TODO
-  * 4.2: Spíž. Par pytlu a kosu se zasobami, a velky kus speku poveseny na provaze ze stropu. TODO
-  * 4.3: Schody nahoru. Paty schod vrze. Podari se jim projit aniz by zavrzal a vzbudil Mlynare (*zkouska OBR (+ Plížení) 2*)? TODO
-  * 4.4: Hlavní světnice. Pec, stul a zidle a postel na ktere spi mlynar a mlynarka. Probudi se pokud vejdou dovnitr (*zkouska OBR (+ Plížení) 4*)? Pokud zacnou otevirat truhly (ve kterych je stejne jen nadobi a nejake obleceni), velmi pravdepodobne spici probudi (*zkouska OBR (+ Plížení) 6*). TODO
+  * 4.1: Vstupní chodba. Malá, úzká chodba, ze které vedou dvoje dveře – jedny doprava a druhé doleva. Přímo před vámi se pak vine dřevěné schodiště do patra. Kam se vydají?
+
+    .. admonition:: Popis pro hráče: Vstupní chodba
+
+       Ocitáte se v úzké, temné chodbě. Před vámi se tyčí dřevěné schody, které mizí kdesi v temnotě nahoře. Na každé straně chodby vidíte jedny zavřené dveře. Jejich dřevo je staré a nese stopy mnoha let používání. Z kterých dveří se ozývá tiché oddechování spících obyvatel, a co se skrývá za těmi druhými? A co nahoře? Je tam Mánička, nebo snad něco jiného?
+
+  * 4.2: Spíž. Malá, chladná místnost plná zásob. Na zemi leží pár pytlů s bramborami a jablky, z košů vykukují kořenová zelenina a bylinky. Ze stropu, na silném provaze, visí velký kus uzeného špeku, jehož vůně dráždí smysly.
+
+    .. admonition:: Popis pro hráče: Spíž
+
+       Dveře se s tichým zavrzáním otevřely do chladné spíže, kde se mísí vůně sušených bylinek, kořenové zeleniny a uzeného masa. Na policích jsou úhledně srovnány zavařeniny a sušené ovoce. Ze stropu visí velký, lesklý kus špeku, který láká k zakousnutí. Vše je tu pečlivě uskladněno, připraveno na dlouhou zimu. Nic, co by se zdálo být neobvyklé.
+
+  * 4.3: Schody nahoru. Dřevěné schodiště vede do horního patra. Pátý schod, jak už to tak bývá u starých mlýnů, vrzne při sebemenším dotyku. Podaří se jim projít nahoru, aniž by tento zrádný schod zavrzal a vzbudil mlynáře? (*zkouška OBR (+ Plížení) 2*)
+
+    .. admonition:: Popis pro hráče: Schody
+
+       Staré dřevěné schody se vinou vzhůru do tmy. Každý krok musí být pečlivě zvážen, neboť dřevo tu a tam tiše zasténá pod vaší vahou. Někde uprostřed schodiště cítíte, že se jeden ze schodů chvěje a hrozí, že zradí vaši tajnou misi. Budete dostatečně obratní a tiší, abyste se vyhnuli vrzání, které by mohlo probudit spící dům?
+
+  * 4.4: Hlavní světnice. Srdce domu, kde dominuje velká pec, která sálá zbytkovým teplem. Uprostřed stojí bytelný stůl obklopený dřevěnými židlemi, a v rohu se krčí velká manželská postel, na níž tiše spí mlynář s mlynářkou, objímající se ve sladkém spánku. Probudí se, pokud do světnice vstoupí? (*zkouška OBR (+ Plížení) 4*) Pokud začnou otevírat truhly (ve kterých je stejně jen nádobí a nějaké oblečení), velmi pravděpodobně spící probudí (*zkouška OBR (+ Plížení) 6*).
+
+    .. admonition:: Popis pro hráče: Hlavní světnice
+
+       Tichý pokoj, jehož dominantou je velká, hřejivá pec, která ještě vydává slabé teplo. Uprostřed stojí těžký dřevěný stůl, na němž jsou patrné stopy nedávné večeře. V rohu místnosti, pod měkkou peřinou, spí mlynář s mlynářkou, jejich dech je klidný a hluboký. Vypadá to, že jsou ponořeni do sladkých snů. Pohybuje se tu velmi opatrně, abyste nenarušili jejich klid a neprobudili hrozivého mlynáře. I to nejmenší zavrzání podlahy by mohlo zmařit celou vaši misi.
 
 * 5: Dům, podkroví
 
-  * 5.1: Chodba, nic zajimaveho TODO
-  * 5.2: Mániččin pokoj. Postel kde spi Manicka, stolek s licidli a dve truhly. Probudi se manicka kdyz vejdou do pokoje (*zkouska OBR (+ Plížení) 4*)? V truhlicce u dveri je obleceni, v truhlicce u postele jsou jeji poklady - i ty perly v malem pytliku. TODO
+  * 5.1: Chodba. Krátká, úzká chodba, která vede k Mániččinu pokoji. Nic zajímavého se zde nenachází, jen tma a staré dřevěné obložení.
+
+    .. admonition:: Popis pro hráče: Chodba v podkroví
+
+       Nahoře vás přivítá tichá, tmavá chodba. Stěny jsou obložené starým dřevem a vzduch je zatuchlý. Nikde nic, co by vás zaujalo nebo co by stálo za pozornost. Jen tma a ticho před hlavním cílem vaší cesty.
+
+  * 5.2: Mániččin pokoj. Sladce vonící pokojíček, jehož dominantou je postel s nebesy, kde pod měkkou peřinou spí Mánička a sní své marnivé sny. Vedle postele stojí toaletní stolek plný líčidel a voňavek. V pokoji jsou dvě truhly. Probudi se Mánička, když vejdou do pokoje? (*zkouška OBR (+ Plížení) 4*) V truhličce u dveří najdete jen pečlivě složené šaty a spodničky, ale v truhličce u postele, pečlivě ukryté pod hromadou voňavých stužek a krajek, leží její poklady – a mezi nimi i ty lesklé perly, schované v malém sametovém pytlíku.
+
+    .. admonition:: Popis pro hráče: Mániččin pokoj
+
+       Před vámi se otevírá pokojíček, který voní po květinách a něžných parfémech. Uprostřed místnosti stojí elegantní postel s nebesy, ve které spí Mánička, její dech je klidný a tichý. Vedle postele je malý stolek, na němž se lesknou flakónky s voňavkami, líčidla a spousta zrcátek. V rohu stojí dvě dřevěné truhly, jedna menší a jedna větší. Která z nich skrývá Mániččino tajemství, po kterém toužíte? A dokážete se k ní dostat, aniž byste probudili spící krásku?
 
 Závěr
 =====
