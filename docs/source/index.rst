@@ -16,6 +16,9 @@ Pokud si chcete stáhnout PDF variantu tohoto dokumentu nebo jeho podčásti, ta
  * Dobrodružství Duha ve městě: :download:`nasdracak-dobrodruzstvi-duha_ve_meste.pdf <_static/nasdracak-dobrodruzstvi-duha_ve_meste.pdf>`
  * Dobrodružství Divoký jezdec: :download:`nasdracak-dobrodruzstvi-divoky_jezdec.pdf <_static/nasdracak-dobrodruzstvi-divoky_jezdec.pdf>`
  * Dobrodružství Perly pro Bublana: :download:`nasdracak-dobrodruzstvi-perly_pro_bublana.pdf <_static/nasdracak-dobrodruzstvi-perly_pro_bublana.pdf>`
+ * Dobrodružství Zlatý rypáček: :download:`nasdracak-dobrodruzstvi-zlaty_rypacek.pdf <_static/nasdracak-dobrodruzstvi-zlaty_rypacek.pdf>`
+ * Dobrodružství Válka o křivou mez: :download:`nasdracak-dobrodruzstvi-valka_o_krivou_mez.pdf <_static/nasdracak-dobrodruzstvi-valka_o_krivou_mez.pdf>`
+ * Dobrodružství Dědictví zlomeného kola: :download:`nasdracak-dobrodruzstvi-dedictvi_zlomeneho_kola.pdf <_static/nasdracak-dobrodruzstvi-dedictvi_zlomeneho_kola.pdf>`
 
 Karty v PDF:
 

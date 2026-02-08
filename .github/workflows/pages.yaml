@@ -85,6 +85,9 @@ jobs:
           sphinx-build -M latexpdf docs/source/dobrodruzstvi/duha_ve_meste/ docs/build/
           sphinx-build -M latexpdf docs/source/dobrodruzstvi/divoky_jezdec/ docs/build/
           sphinx-build -M latexpdf docs/source/dobrodruzstvi/perly_pro_bublana/ docs/build/
+          sphinx-build -M latexpdf docs/source/dobrodruzstvi/zlaty_rypacek/ docs/build/
+          sphinx-build -M latexpdf docs/source/dobrodruzstvi/valka_o_krivou_mez/ docs/build/
+          sphinx-build -M latexpdf docs/source/dobrodruzstvi/dedictvi_zlomeneho_kola/ docs/build/
 
       - name: Collect prebuilt pdfs
         run: |
