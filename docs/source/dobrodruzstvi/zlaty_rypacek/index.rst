@@ -1,6 +1,6 @@
-=============================
+=========================
 Tajemství zlatého rypáčku
-=============================
+=========================
 
 **Krátké civilní dobrodružství pro postavy na 1.–3. úrovni**
 
@@ -8,20 +8,14 @@ Tajemství zlatého rypáčku
 *   **Téma:** Pátrání, zvířata, honička
 *   **Prostředí:** Vesnice a přilehlý les
 
-..
-    Section: 1. Úvod pro Pána jeskyně
-=======
-1. Úvod pro Pána jeskyně
-=======
+Úvod pro Pána jeskyně
+=====================
 
 Babička Agáta není jen obyčejná stařenka. Je to nejlepší (a tajná) dodavatelka vzácných černých lanýžů pro stůl místního hraběte. Její tajemství tkví v jejím praseti – **Rypáčkovi**. Rypáček má fenomenální čich. Dnes ráno se ale ztratil. Agáta se bojí nejen o svého miláčka, ale i o svůj tajný příjem.
 Rypáček v lese našel **Pseudodraka**, který upadl do magického spánku po požití otrávených bobulí. Prase ho instinktivně brání před lesními krysami a snaží se vyhrabat léčivý kořen, který draka probudí.
 
-..
-    Section: 2. Zápletka: Slzy na zápraží
-=======
-2. Zápletka: Slzy na zápraží
-=======
+Zápletka: Slzy na zápraží
+=========================
 
 Postavy procházejí vesnicí, když uslyší nářek. Před úhlednou chaloupkou sedí babička Agáta a lomí rukama.
 
@@ -32,26 +26,21 @@ Postavy procházejí vesnicí, když uslyší nářek. Před úhlednou chaloupko
 
 *   **Co Agáta tají:** Pokud se hráči zeptají, proč je prase tak důležité (Vhled/Insight DC 13), Agáta znervózní a řekne, že je to „památka na manžela“. Nechce prozradit byznys s lanýži.
 
-..
-    Section: 3. Pátrání ve vesnici
-=======
-3. Pátrání ve vesnici
-=======
+Pátrání ve vesnici
+==================
 
 Hráči musí zjistit, kam Rypáček zmizel. K úspěchu potřebují získat alespoň **dvě indicie**.
 
------------
 Možnost A: Stopy v blátě (Přežití / Survival)
------------
+------------------------
 
 Na cestě za chalupou je bláto.
 
 *   **DC 12:** Postavy najdou otisky prasečích paspárků, které vedou směrem k *Vlčímu žlebu*.
 *   **DC 15:** Všimnou si, že prase neběželo splašeně, ale cílevědomě – něco zavětřilo.
 
------------
 Možnost B: Dětská hra (Sociální výzva)
------------
+---------------------
 
 U kraje lesa hraje skupinka dětí kuličky. Jsou tak zabrané do hry, že postavy ignorují. Dva chlapci, Pépíček a Frantík, se hádají, čí hliněná kulička je blíž důlku.
 
@@ -62,28 +51,23 @@ U kraje lesa hraje skupinka dětí kuličky. Jsou tak zabrané do hry, že posta
     *   *Úplatek:* Cukroví nebo drobný peníz.
 *   **Informace:** Jakmile je spor vyřešen, děti řeknou: „Jo, Rypáček! Běžel támhle k tomu velkýmu dubu. A nesl v puse vaši čepici, pane!“ (Lež, nic nenesl, dělají si legraci, ale směr k dubu je pravdivý).
 
------------
 Možnost C: Naslouchání (Vnímání / Perception)
------------
+----------------------
 
 Les je tichý, ale ne úplně.
 
 *   **DC 13:** Postavy, které se ztiší, uslyší v dálce specifické, nespokojené kvičení a syčení. Zvuk přichází od starého vyvráceného stromu.
 
------------
 Možnost D: Drbna Kelišová (Charisma)
------------
+-------------------------
 
 Sousedka Kelišová vše sleduje z okna.
 
 *   **Interakce:** Neřekne nic zadarmo. Postava jí musí pomoci navléct nit do jehly (nebo vyslechnout 5 minut stížností na bolavá záda).
 *   **Informace:** „Viděla jsem ho! Ten vepř pelášil, jako by ucítil laný... ehm, jako by ucítil pečené brambory. Běžel k té jeskyni pod kořeny, kde straší.“
 
-..
-    Section: 4. Setkání: Ochránce v nesnázích
-=======
-4. Setkání: Ochránce v nesnázích
-=======
+Setkání: Ochránce v nesnázích
+=============================
 
 Stopy a informace dovedou postavy k mohutnému vyvrácenému dubu, jehož kořeny tvoří malou jeskyni.
 
@@ -91,16 +75,14 @@ Stopy a informace dovedou postavy k mohutnému vyvrácenému dubu, jehož kořen
 
    Před temným otvorem pod kořeny dubu se odehrává dramatičtí scéna. Rypáček, obvykle líné a růžové stvoření, tu stojí rozkročený jako válečník. Kvičí a cení zuby na trojici velkých, zježených krys, které na něj dorážejí. Za Rypáčkem, schoulené v listí, leží podivné stvoření – vypadá to jako kočka s křídly a dračím ocasem. Nehýbe se.
 
------------
 Boj: Krysí útok
------------
+---------------
 
 *   **Nepřátelé:** 3x **Obří krysa** (Giant Rat).
 *   **Taktika:** Krysy chtějí sežrat spícího pseudodraka. Rypáček bojuje po boku postav (použij statistiky *Kance*, ale s menšími HP). Pokud postavy zasáhnou, krysy se zaměří na ně.
 
------------
 Záhada spícího draka
------------
+--------------------
 
 Po boji Rypáček okamžitě běží k pseudodrakovi a rypákem do něj šťouchá. Drak dýchá, ale velmi mělce. Rypáček poté začne zběsile hrabat v zemi vedle draka a vytáhne pokroucený, žlutý kořen. Podává ho postavám.
 
@@ -110,11 +92,8 @@ Po boji Rypáček okamžitě běží k pseudodrakovi a rypákem do něj šťouch
 
 Jakmile drak polkne šťávu, kýchne malý obláček jisker, otevře oči a telepaticky pošle všem v okolí pocit *vděčnosti a chuti na pečené kuře*.
 
-..
-    Section: 5. Minihra: Útěk před pytlákem
-=======
-5. Minihra: Útěk před pytlákem
-=======
+Minihra: Útěk před pytlákem
+===========================
 
 Cestou zpět, s Rypáčkem (a možná i drakem na rameni), postavám stoupne do cesty **Pytlák Jíra**. Je to hromotluk s kuší a hladovým výrazem.
 
@@ -123,9 +102,8 @@ Cestou zpět, s Rypáčkem (a možná i drakem na rameni), postavám stoupne do 
    „Ale ale,“ zavrčí zarostlý muž, který vystoupil z křoví. „To je ale pěknej kousek vepřovýho. Bába Agáta už je stará, ta ho neužije. Dejte sem to prase a nikomu se nic nestane!“
    Pokud mu prase nedají (což asi neudělají), Jíra vystřelí do vzduchu a rozběhne se k nim. Začíná honička!
 
------------
 Pravidla honičky
------------
+----------------
 
 *   **Cíl:** Doběhnout k Agátině chalupě (bezpečí).
 *   **Vzdálenost:** 20 polí.
@@ -151,11 +129,8 @@ Pravidla honičky
 *   Pokud hráči dosáhnou pole 20: Jíra to vzdá, protože vidí vesnici.
 *   Pokud Jíra dohoní hráče (stoupne na stejné pole): Začíná klasický souboj. Jíra bojuje špinavě, ale jakmile mu klesnou HP pod polovinu, uteče.
 
-..
-    Section: 6. Závěr a Odměna
-=======
-6. Závěr a Odměna
-=======
+Závěr a Odměna
+==============
 
 Agáta je štěstím bez sebe, když vidí Rypáčka. Pokud s sebou mají i pseudodraka, stařenka jen mrkne a řekne: „Toho schovejte ve stodole, mladej, lidi by řečnili.“
 **Odměna:**

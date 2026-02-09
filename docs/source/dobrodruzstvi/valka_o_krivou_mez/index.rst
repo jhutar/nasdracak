@@ -1,7 +1,6 @@
-
-===================
+==================
 Válka o Křivou mez
-===================
+==================
 
 Civilní dobrodružství pro postavy na 1.–3. úrovni
 

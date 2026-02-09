@@ -1,5 +1,6 @@
-\n=============================\nDědictví Zlomeného kola
-=============================
+=======================
+Dědictví Zlomeného kola
+=======================
 
 Civilní detektivní dobrodružství pro postavy na 1.–3. úrovni
 
@@ -57,7 +58,7 @@ Hráči musí umístit tři kolíky do správných pozic v soukolí:
 **Co se stane:** Jakmile jsou kolíky správně, soukolí s hlasitým *KLAP* zapadne. Kolo venku se s trhnutím roztočí a v podlaze se odklopí tajné víko.
 
 Komplikace: Nečekaný nájemník
-==============================
+=============================
 
 V podzemní prostoře se neusídlil duch, ale **Obří jezevec** (nebo rodinka krys), který se tam prokousal. Hráči musí zvíře vyhnat (nebo porazit), aby se dostali k truhle.
 **V truhle je:**
@@ -88,14 +89,14 @@ Klisna Hvězda (Jezdecký kůň)
 *   **Schopnost:** *Mateřský instinkt* – Pokud je postava v bezvědomí poblíž Hvězdy, klisna ji bude bránit (odkopne nepřítele, který se přiblíží).
 
 Odměna pro postavy:
---------------------
+-------------------
 
 1.  **Hvězda:** Věrný kůň (klisna).
 2.  **Hříbě:** Bude připraveno k výcviku za 2 roky (investice do budoucna).
 3.  **Doživotní přátelství:** Eliška bude v pile vždy zpracovávat dřevo pro družinu zdarma a nabídne jim bezpečný úkryt.
 
 Proč je toto dobrodružství poutavé:
--------------------------------------
+-----------------------------------
 
 1.  **Jasný padouch:** Řezník Mastný je typ postavy, kterou hráči budou nenávidět od první minuty.
 2.  **Časový tlak:** Zítřejší ráno a probíhající porod vytvářejí napětí.
