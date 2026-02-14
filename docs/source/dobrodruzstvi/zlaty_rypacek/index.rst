@@ -2,42 +2,41 @@
 Tajemství zlatého rypáčku
 =========================
 
-**Krátké civilní dobrodružství pro postavy na 1.–3. úrovni**
+Krátké veselé civilní dobrodružství pro postavy na 1.–3. úrovni.
 
-*   **Délka:** 2–3 hodiny
 *   **Téma:** Pátrání, zvířata, honička
 *   **Prostředí:** Vesnice a přilehlý les
 
 Úvod pro Pána jeskyně
 =====================
 
-Babička Agáta není jen obyčejná stařenka. Je to nejlepší (a tajná) dodavatelka vzácných černých lanýžů pro stůl místního hraběte. Její tajemství tkví v jejím praseti – **Rypáčkovi**. Rypáček má fenomenální čich. Dnes ráno se ale ztratil. Agáta se bojí nejen o svého miláčka, ale i o svůj tajný příjem.
-Rypáček v lese našel **Pseudodraka**, který upadl do magického spánku po požití otrávených bobulí. Prase ho instinktivně brání před lesními krysami a snaží se vyhrabat léčivý kořen, který draka probudí.
+Babička Chrasta není jen obyčejná stařenka. Je to nejlepší (a tajná) dodavatelka vzácných černých lanýžů pro stoly nejbohatších Brněnských měšťanů a rytířů v okolí. O jejím obchodu ale nikdo neví, všichni si myslí že žije z úspor po manželu obchodníkovi. Její tajemství tkví v jejím mazlíčkovi - praseti **Rypáčkovi**. Toho přivezl nebožtík manžel z cizinym, až z Francouzského království jako malé selátko a má fenomenální čich. Dnes ráno se ale Rypáček ztratil. Chrasta se bojí nejen o svého miláčka, ale i o svůj tajný příjem.
+Rypáček v lese našel **lesního dráčka**, který upadl do magického spánku po požití otrávených bobulí. Prasátko ho instinktivně brání před krysami a našlo pro něj léčivý kořen, který by draka probudil.
 
 Zápletka: Slzy na zápraží
 =========================
 
-Postavy procházejí vesnicí, když uslyší nářek. Před úhlednou chaloupkou sedí babička Agáta a lomí rukama.
+Postavy procházejí vesnicí, když uslyší nářek. Před úhlednou chaloupkou sedí babička Chrasta a lomí rukama.
 
 .. admonition:: Popis pro hráče: Slzy na zápraží
 
-   Na lavičce před chalupou, která voní sušenými křížalami, sedí babička s šátkem na hlavě. Pláče tak usedavě, že jí slzy máčí zástěru. „Můj Rypáček! Můj malý, sladký Rypáček! Co si bez něj počnu? Bez něj jsem... tedy, bez něj bude moje srdce prázdné! Určitě se ztratil v lese, chudáčik malý, a sežerou ho vlci!“
-   Agáta prosí postavy o pomoc. Slíbí jim za to „své nejlepší zavařeniny“ a „lahvičky oleje po dědečkovi“.
+   Na lavičce před chalupou, která zemitě voní sušenými houbami, sedí babička s šátkem na hlavě. Pláče tak usedavě, že jí slzy máčí zástěru. "Můj Rypáček! Můj malý, sladký Rypáček! Co si bez něj počnu? Bez něj jsem... tedy, bez něj bude můj život prázdný! Určitě se ztratil v lese, chudáčik malý, a sežerou ho vlci!"
+   Když zahlédne skupinku prosí ji pomoc: "Prosím, prosím, je vás dost a vypadáte že se nebojíte. Najděte mi mého čuníka! Když se vám to podaří, dostanete ty nejlepší zavařeniny jaké jste kdy jedli a mám tu speciální olej který by se dobrodruhům jako vy mohl hodit."
 
-*   **Co Agáta tají:** Pokud se hráči zeptají, proč je prase tak důležité (Vhled/Insight DC 13), Agáta znervózní a řekne, že je to „památka na manžela“. Nechce prozradit byznys s lanýži.
+Pokud se hráči zeptají, proč je to prase tak důležité Chrasta znervózní a řekne, že je to „památka na manžela“. Nechce prozradit byznys s lanýži. Pokus rozpoznat lež (*zkouška CHAR (+ Smlouvání / Postřeh) 6*) umožní poznat že jim babička lže, ale ne co je pravda.
 
 Pátrání ve vesnici
 ==================
 
-Hráči musí zjistit, kam Rypáček zmizel. K úspěchu potřebují získat alespoň **dvě indicie**.
+Hráči musí zjistit, kam Rypáček zmizel a můžou k tomu přistoupit různě.
 
-Možnost A: Stopy v blátě (Přežití / Survival)
-------------------------
+Stopy v blátě
+-------------
 
 Na cestě za chalupou je bláto.
 
-*   **DC 12:** Postavy najdou otisky prasečích paspárků, které vedou směrem k *Vlčímu žlebu*.
-*   **DC 15:** Všimnou si, že prase neběželo splašeně, ale cílevědomě – něco zavětřilo.
+*   *zkouška INT (+ Stopování) 5* Postavy najdou otisky prasečích paspárků, které vedou směrem k *Vlčímu žlebu*.
+*   *zkouška INT (+ Stopování) 7* Všimnou si, že prase neběželo splašeně, ale cílevědomě – něco zavětřilo.
 
 Možnost B: Dětská hra (Sociální výzva)
 ---------------------
@@ -99,13 +98,13 @@ Cestou zpět, s Rypáčkem (a možná i drakem na rameni), postavám stoupne do 
 
 .. admonition:: Popis pro hráče: Útěk před pytlákem
 
-   „Ale ale,“ zavrčí zarostlý muž, který vystoupil z křoví. „To je ale pěknej kousek vepřovýho. Bába Agáta už je stará, ta ho neužije. Dejte sem to prase a nikomu se nic nestane!“
+   „Ale ale,“ zavrčí zarostlý muž, který vystoupil z křoví. „To je ale pěknej kousek vepřovýho. Bába Chrasta už je stará, ta ho neužije. Dejte sem to prase a nikomu se nic nestane!“
    Pokud mu prase nedají (což asi neudělají), Jíra vystřelí do vzduchu a rozběhne se k nim. Začíná honička!
 
 Pravidla honičky
 ----------------
 
-*   **Cíl:** Doběhnout k Agátině chalupě (bezpečí).
+*   **Cíl:** Doběhnout k Chrastině chalupě (bezpečí).
 *   **Vzdálenost:** 20 polí.
 *   **Náskok:** Hráči začínají na poli č. 5, Pytlák Jíra na poli č. 0.
 
@@ -132,14 +131,14 @@ Pravidla honičky
 Závěr a Odměna
 ==============
 
-Agáta je štěstím bez sebe, když vidí Rypáčka. Pokud s sebou mají i pseudodraka, stařenka jen mrkne a řekne: „Toho schovejte ve stodole, mladej, lidi by řečnili.“
+Chrasta je štěstím bez sebe, když vidí Rypáčka. Pokud s sebou mají i pseudodraka, stařenka jen mrkne a řekne: „Toho schovejte ve stodole, mladej, lidi by řečnili.“
 **Odměna:**
 
-*   **Agátiny zavařeniny:** Fungují jako jídlo na cesty na 5 dní.
+*   **Chrastiny zavařeniny:** Fungují jako jídlo na cesty na 5 dní.
 *   **Lahvičky „Tajemného oleje“ (2 ks):**
     *   *Vzhled:* Hustá, zlatavá tekutina, která zvláštně zemitě voní (lanýže).
     *   *Efekt:* Po vypití (nebo namazání na klouby) získá postava na 1 hodinu **+1 k Obratnosti** a výhodu na hody na vyproštění z pout (olej je kluzký).
     *   *Vedlejší efekt:* Postava neodolatelně voní všem prasatům a divočákům v okolí.
 
 **Epilog (Hook):**
-Pokud se některá postava (např. zloděj) rozhodne Agátu v budoucnu sledovat, uvidí ji, jak za měsíční noci bere Rypáčka do lesa. Prase čmuchá, hrabe a Agáta sbírá černé hroudy, které pak předává v temné uličce poslovi z hraběcího sídla výměnou za těžký měšec. Postavy odhalily "Lanýžovou mafii".
+Pokud se některá postava (např. zloděj) rozhodne Chrastu v budoucnu sledovat, uvidí ji, jak za měsíční noci bere Rypáčka do lesa. Prase čmuchá, hrabe a Chrasta sbírá černé hroudy, které pak předává v temné uličce poslovi z hraběcího sídla výměnou za těžký měšec. Postavy odhalily "Lanýžovou mafii".
