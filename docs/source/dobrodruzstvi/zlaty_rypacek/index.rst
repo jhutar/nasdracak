@@ -35,35 +35,36 @@ Stopy v blátě
 
 Na cestě za chalupou je bláto.
 
-*   *zkouška INT (+ Stopování) 5* Postavy najdou otisky prasečích paspárků, které vedou směrem k *Vlčímu žlebu*.
-*   *zkouška INT (+ Stopování) 7* Všimnou si, že prase neběželo splašeně, ale cílevědomě – něco zavětřilo.
+*   *zkouška INT (+ Stopování) 5*: Postavy najdou otisky prasečích paspárků, které vedou směrem k *Vlčímu žlebu*.
+*   *zkouška INT (+ Stopování) 7*: Všimnou si, že prase neběželo splašeně, ale cílevědomě – něco zavětřilo.
 
-Možnost B: Dětská hra (Sociální výzva)
----------------------
+Dětští svědci
+-------------
 
-U kraje lesa hraje skupinka dětí kuličky. Jsou tak zabrané do hry, že postavy ignorují. Dva chlapci, Pépíček a Frantík, se hádají, čí hliněná kulička je blíž důlku.
+U kraje lesa hraje skupinka dětí kuličky. Zrovna řeší nějaký zásadní spor. Bohuněk a Svojslava se hádají, čí hliněná kulička je blíž důlku. Dokud se hádka nevyřeší, děti nic neřeknou.
 
-*   **Problém:** Dokud se hádka nevyřeší, děti nic neřeknou.
-*   **Řešení:**
-    *   *Rozsouzení (Vnímání/Perception DC 10):* Postava změří vzdálenost a spravedlivě rozhodne.
-    *   *Zručnost (Obratnost/Dexterity DC 12):* Postava vezme kuličku a cvrnkne ji přímo do důlku, čímž si získá respekt dětí.
-    *   *Úplatek:* Cukroví nebo drobný peníz.
-*   **Informace:** Jakmile je spor vyřešen, děti řeknou: „Jo, Rypáček! Běžel támhle k tomu velkýmu dubu. A nesl v puse vaši čepici, pane!“ (Lež, nic nenesl, dělají si legraci, ale směr k dubu je pravdivý).
+Družinka k řešení může přistoupit různě, například:
 
-Možnost C: Naslouchání (Vnímání / Perception)
-----------------------
+*   *zkouška INT (+Hledání) 5*: Postava změří vzdálenost a spravedlivě rozhodne.
+*   *zkouška OBR (+Akrobacie) 5*: Postava vezme kuličku a cvrnkne ji přímo do důlku, čímž si získá respekt dětí.
+*   *zkouška CHAR (+Smlouvání) 5*: Dětem spor rozmluví a přesvědčí je, aby odpověděly na to co postavy zajímá.
+*   *Úplatek:* Cukroví nebo drobný peníz.
 
-Les je tichý, ale ne úplně.
+Jakmile je spor vyřešen, děti prokládají pravdu drobnými nepravdami: "Jo, Rypáček! Běžel támhle k tomu velkýmu dubu. A nesl v tlamě vaši čepici aby ji zahrabal, pane! Honili sme ho, ale ani si nás nevšiml i když jsme mu slibovali žaludy a po těch se on může utlouct."
 
-*   **DC 13:** Postavy, které se ztiší, uslyší v dálce specifické, nespokojené kvičení a syčení. Zvuk přichází od starého vyvráceného stromu.
+Naslouchání
+-----------
 
-Možnost D: Drbna Kelišová (Charisma)
--------------------------
+Pokud dojdou do kam zhruba běžel Rypáček, možná se pokusí najít ho po sluchu.
 
-Sousedka Kelišová vše sleduje z okna.
+* *zkouška INT (+ Postřeh) 6*: Postavy se ztiší a uslyší v dálce specifické, nespokojené kvičení. Zvuk je přivede ke starému vyvrácenému stromu, viz "Obránce v nesnázích".
 
-*   **Interakce:** Neřekne nic zadarmo. Postava jí musí pomoci navléct nit do jehly (nebo vyslechnout 5 minut stížností na bolavá záda).
-*   **Informace:** „Viděla jsem ho! Ten vepř pelášil, jako by ucítil laný... ehm, jako by ucítil pečené brambory. Běžel k té jeskyni pod kořeny, kde straší.“
+Drbna Sybila
+------------
+
+Chrastina sousedka Sibila vše sleduje z okna a neunikne ji žádný procházející. Neřekne ale nic zadarmo. Postava jí musí pomoci navléct nit do jehly nebo vyslechnout 5 minut stížností na bolavá záda a pak už to bude jednoduché.
+
+* *zkouška CHAR (+ Smlouvání) 3*: "Jo, viděla sem ho! Ten vepř pelášil, jako by ho honil řezník se sekerou. Ani se neohlíd. Běžel támhletudy do lesa. Bylo mě to divný, Chrasta ho vždycky vodí na vodítku a opatruje ho jako oko v hlavě. Nenechává ho pobejhat takhle na volno, ale já se o cizí věci nestarám, mám svejch problémů dost."
 
 Setkání: Ochránce v nesnázích
 =============================
