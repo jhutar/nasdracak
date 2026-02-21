@@ -11,10 +11,11 @@ Krátké veselé civilní dobrodružství pro postavy na 1.–3. úrovni.
 =====================
 
 Babička Chrasta není jen obyčejná stařenka. Je to nejlepší (a tajná) dodavatelka vzácných černých lanýžů pro stoly nejbohatších Brněnských měšťanů a rytířů v okolí. O jejím obchodu ale nikdo neví, všichni si myslí že žije z úspor po manželu obchodníkovi. Její tajemství tkví v jejím mazlíčkovi - praseti **Rypáčkovi**. Toho přivezl nebožtík manžel z cizinym, až z Francouzského království jako malé selátko a má fenomenální čich. Dnes ráno se ale Rypáček ztratil. Chrasta se bojí nejen o svého miláčka, ale i o svůj tajný příjem.
-Rypáček v lese našel **lesního dráčka**, který upadl do magického spánku po požití otrávených bobulí. Prasátko ho instinktivně brání před krysami a našlo pro něj léčivý kořen, který by draka probudil.
 
-Zápletka: Slzy na zápraží
-=========================
+Rypáček v lese našel **lesního dráčka**, který upadl do magického spánku po vdechnutí spor spavé plísně. Tito dráčci mají slabé telepatické schopnosti a když se tomuto jedinci přitížilo, náhodou se mu podařilo spojit se s Rypáčkem a vyslat žádost o záchranu. Prasátko to bere vážně a díky svému skvělému čichu dokonce našlo lék, ale na dráčka dotírají dravci a je potřeba ho bránit a Rypáček nemá čas na léčení.
+
+Slzy na zápraží
+===============
 
 Postavy procházejí vesnicí, když uslyší nářek. Před úhlednou chaloupkou sedí babička Chrasta a lomí rukama.
 
@@ -29,6 +30,13 @@ Pátrání ve vesnici
 ==================
 
 Hráči musí zjistit, kam Rypáček zmizel a můžou k tomu přistoupit různě.
+
+Drbna Sybila
+------------
+
+Chrastina sousedka Sibila vše sleduje z okna a neunikne ji žádný procházející. Neřekne ale nic zadarmo. Postava jí musí pomoci navléct nit do jehly nebo vyslechnout 5 minut stížností na bolavá záda a pak už to bude jednoduché.
+
+* *zkouška CHAR (+ Smlouvání) 3*: "Jo, viděla sem ho! Ten vepř pelášil, jako by ho honil řezník se sekerou. Ani se neohlíd. Běžel támhletudy do lesa. Bylo mě to divný, Chrasta ho vždycky vodí na vodítku a opatruje ho jako oko v hlavě. Nenechává ho pobejhat takhle na volno, ale já se o cizí věci nestarám, mám svejch problémů dost."
 
 Stopy v blátě
 -------------
@@ -59,87 +67,103 @@ Pokud dojdou do kam zhruba běžel Rypáček, možná se pokusí najít ho po sl
 
 * *zkouška INT (+ Postřeh) 6*: Postavy se ztiší a uslyší v dálce specifické, nespokojené kvičení. Zvuk je přivede ke starému vyvrácenému stromu, viz "Obránce v nesnázích".
 
-Drbna Sybila
-------------
-
-Chrastina sousedka Sibila vše sleduje z okna a neunikne ji žádný procházející. Neřekne ale nic zadarmo. Postava jí musí pomoci navléct nit do jehly nebo vyslechnout 5 minut stížností na bolavá záda a pak už to bude jednoduché.
-
-* *zkouška CHAR (+ Smlouvání) 3*: "Jo, viděla sem ho! Ten vepř pelášil, jako by ho honil řezník se sekerou. Ani se neohlíd. Běžel támhletudy do lesa. Bylo mě to divný, Chrasta ho vždycky vodí na vodítku a opatruje ho jako oko v hlavě. Nenechává ho pobejhat takhle na volno, ale já se o cizí věci nestarám, mám svejch problémů dost."
-
-Setkání: Ochránce v nesnázích
-=============================
+Ochránce v nesnázích
+====================
 
 Stopy a informace dovedou postavy k mohutnému vyvrácenému dubu, jehož kořeny tvoří malou jeskyni.
 
 .. admonition:: Popis pro hráče: Ochránce v nesnázích
 
-   Před temným otvorem pod kořeny dubu se odehrává dramatičtí scéna. Rypáček, obvykle líné a růžové stvoření, tu stojí rozkročený jako válečník. Kvičí a cení zuby na trojici velkých, zježených krys, které na něj dorážejí. Za Rypáčkem, schoulené v listí, leží podivné stvoření – vypadá to jako kočka s křídly a dračím ocasem. Nehýbe se.
+   Před temným otvorem pod kořeny dubu se odehrává dramatická scéna. Rypáček, obvykle líné růžové stvoření, tu stojí rozkročený jako válečník. Kvičí a cení zuby na trojici velkých, zježených krys, které na něj dorážejí. Za Rypáčkem, schoulené mezi kořeny, leží podivné stvoření – velké je to jako kočka, ale je to bez chlupů, má to blanitá křídla a špičatý ocas. Nehýbe se, oči zavřené.
 
-Boj: Krysí útok
----------------
+Postavy které na to mají předpoklady, například dovednost *Znalost zvířat* ve zvířeti mezi kořeny rozpoznají lesního dráčka (popis viz kapitola "Seznam monster").
 
-*   **Nepřátelé:** 3x **Obří krysa** (Giant Rat).
-*   **Taktika:** Krysy chtějí sežrat spícího pseudodraka. Rypáček bojuje po boku postav (použij statistiky *Kance*, ale s menšími HP). Pokud postavy zasáhnou, krysy se zaměří na ně.
+Krysí útok
+----------
+
+Pokud budou postavy chtít Rypáčkovi pomoci, budou se muset zapojit do boje proti 3 obřím krysám.
+
+Krysy chtějí sežrat spícího dráčka.
+
+Rypáček bude bojovat po boku postav (viz popis v kapitole "Seznam monster").
 
 Záhada spícího draka
 --------------------
 
-Po boji Rypáček okamžitě běží k pseudodrakovi a rypákem do něj šťouchá. Drak dýchá, ale velmi mělce. Rypáček poté začne zběsile hrabat v zemi vedle draka a vytáhne pokroucený, žlutý kořen. Podává ho postavám.
+Po boji Rypáček okamžitě běží k dráčkovi a přistrkuje k němu jakýsi tlustý kořen (je hladký, místy se žlutě leskne) a šťouchá do něj rypákem. Dráček dýchá, ale jen velmi mělce a neprobouzí se.
 
-*   **Zkouška Bylinkářství (Příroda/Nature nebo Survival s pomůckami DC 12):**
-    *   *Úspěch:* Hráč pozná **Kořen Bdělosti**. Je to silný stimulant a protijed na "Spavou plíseň".
-    *   *Aplikace:* Drak nedokáže kousat. Postavy musí kořen nastrouhat, rozžvýkat nebo rozdrtit kamenem a šťávu mu kápnout do krku.
+*   *zkouška INT (+ Bylinkářství) 5*: Postava pozná **Zlatý kořen**. Je to silný stimulant a protijed na "Spavou plíseň". Protože dráček nedokáže kousat, postavy musí kořen nastrouhat, rozžvýkat nebo rozdrtit a šťávu mu kápnout do krku.
+*   Postavy můžou vzít dráčka za místní kořenářkou která ho za pár stříbrňáků postaví zpátky na pařátky. Může pomoct taky řádné polití studenou vodou nebo kouzlo nebo lektvar léčení.
 
-Jakmile drak polkne šťávu, kýchne malý obláček jisker, otevře oči a telepaticky pošle všem v okolí pocit *vděčnosti a chuti na pečené kuře*.
+Jakmile drak polkne šťávu, kýchne malý obláček jisker, otevře oči a telepaticky pošle všem v okolí pocit *vděčnosti a chuti na kus pěkně lepkavé smůly*. Zůstane sice spát, ale jedná už se o zdravý posilující spánek.
 
-Minihra: Útěk před pytlákem
-===========================
+Útěk před pytlákem
+==================
 
-Cestou zpět, s Rypáčkem (a možná i drakem na rameni), postavám stoupne do cesty **Pytlák Jíra**. Je to hromotluk s kuší a hladovým výrazem.
+Cestou zpět, s Rypáčkem (a možná i drakem), postavám zastoupí cestu **pytlák Pivec**. Je to hromotluk s kuší a hladovým výrazem.
 
 .. admonition:: Popis pro hráče: Útěk před pytlákem
 
-   „Ale ale,“ zavrčí zarostlý muž, který vystoupil z křoví. „To je ale pěknej kousek vepřovýho. Bába Chrasta už je stará, ta ho neužije. Dejte sem to prase a nikomu se nic nestane!“
-   Pokud mu prase nedají (což asi neudělají), Jíra vystřelí do vzduchu a rozběhne se k nim. Začíná honička!
+   Spokojeně si lesem vykračujete k domu babičky Chrasty a těšíte se jak bude ráda že zase vidí své prasátko. V tom na vás ale zavolá chlapisko s kuší na zádech které se neslyšně vynořilo z lesa za vámi. "Ale ale," zavrčí zarostlý muž. "To je ale pěknej kousek vepřovýho. Bába Chrasta už je stará, ta ho neužije. Dejte sem to prase a nikomu se nic nestane!" Na nic nečekáte a vyrážíte do bezpečí do Chrastina domku.
+
+Pokud mu prase nedají (což asi neudělají), Pivec jim pohrozí kuší (která ale není nabitá, takže se z ní nedá hned vystřelit) a rozběhne se k nim aby si prase vzal sám. Začíná honička!
 
 Pravidla honičky
 ----------------
 
-*   **Cíl:** Doběhnout k Chrastině chalupě (bezpečí).
+*   **Cíl:** Doběhnout k Chrastině chalupě do bezpečí.
 *   **Vzdálenost:** 20 polí.
-*   **Náskok:** Hráči začínají na poli č. 5, Pytlák Jíra na poli č. 0.
+*   **Náskok:** Hráči začínají na poli č. 5, pytlák Pivec na poli č. 0.
 
 **Průběh kola:**
 
-1.  **Hráči:** Každý hráč hodí k20 + bonus za Atletiku.
-    *   Vypočítej **průměr** hodů všech hráčů (zaokrouhleno nahoru).
-    *   Pokud je průměr **větší než 10**, posunou se o **1 pole**.
-    *   Pokud je průměr **větší než 18**, posunou se o **2 pole**.
-    *   *Rypáček:* Pokud ho nesou, mají postih -2 k průměru. Pokud běží sám, musí ho někdo popohánět (Ověřování se zvířaty / Animal Handling), jinak se neposunou, protože Rypáček chce žrát žaludy.
-2.  **Pytlák Jíra:** DM hodí k20 + 5 (Atletika).
-    *   Pokud hodí **více než 12**, posune se o **1 pole**.
-    *   Pokud hodí **více než 18**, posune se o **2 pole**. (Zná zkratky).
-3.  **Akce místo běhu (Boj):**
-    *   Hráči se mohou rozhodnout v kole neběžet a místo toho po Jírovi něco hodit, nastražit past nebo vystřelit kouzlo.
-    *   *Úspěšný útok:* Jíra se v tomto kole **nepohne** (nebo se posune o 1 pole zpět, pokud dostal velkou ránu).
+1.  **Hráči:** Hráči se střídají, každé kolo za družinku hází někdo jiný. Hází se na *OBR (+ Akrobacie)*.
+
+    *   Pokud se rozhodnou Rypáčka nést, mají postih -2 k hodu. Pokud běží sám, musí ho někdo popohánět (*zkouška CHAR (+ Znalost zvířat) 3*), jinak se v daném kole neposunou, protože Rypáček chce žrát žaludy nebo zaútočit na Pivce (jak je ještě rozjařený z vítězství nad krysami).
+
+2.  **Pytlák Pivec:** DM hází stejně jako zástupce družiny *OBR (+ Akrobacie)*.
+
+    *   Pokud hráči hodí víc než pytlák, postupují o tolik polí kolik je rozdíl hodu.
+    *   Pokud hodí více pytlák, posouvá se on.
+
+3.  **Akce místo běhu:** Hráči se mohou rozhodnout v kole neběžet a místo toho po Pivcovi něco hodit, nastražit past nebo vystřelit kouzlo.
+
     *   Hráči se v tomto kole také neposunou (stojí, aby mohli útočit).
+    *   *Úspěšný útok:* Pivec se v tomto kole nepohne (vyhýbá se) nebo se posune o 1 pole zpět (pokud byl útok úspěšný, například když dostal velkou ránu).
 
 **Konec:**
 
-*   Pokud hráči dosáhnou pole 20: Jíra to vzdá, protože vidí vesnici.
-*   Pokud Jíra dohoní hráče (stoupne na stejné pole): Začíná klasický souboj. Jíra bojuje špinavě, ale jakmile mu klesnou HP pod polovinu, uteče.
+*   Pokud hráči dosáhnou pole 20: Pivec to vzdá, protože se dostali na dohled k vesnici a ztratí se mezi stromy.
+*   Pokud Pivec dohoní hráče (stoupne na stejné pole), začíná klasický souboj. Jakmile mu zdraví klesne pod polovinu, uteče.
 
 Závěr a Odměna
 ==============
 
-Chrasta je štěstím bez sebe, když vidí Rypáčka. Pokud s sebou mají i pseudodraka, stařenka jen mrkne a řekne: „Toho schovejte ve stodole, mladej, lidi by řečnili.“
+Chrasta je štěstím bez sebe, když vidí Rypáčka.
+
 **Odměna:**
 
 *   **Chrastiny zavařeniny:** Fungují jako jídlo na cesty na 5 dní.
-*   **Lahvičky „Tajemného oleje“ (2 ks):**
-    *   *Vzhled:* Hustá, zlatavá tekutina, která zvláštně zemitě voní (lanýže).
-    *   *Efekt:* Po vypití (nebo namazání na klouby) získá postava na 1 hodinu **+1 k Obratnosti** a výhodu na hody na vyproštění z pout (olej je kluzký).
+*   **Lahvičky "Tajemného oleje" (2 ks):**
+
+    *   *Vzhled:* Hustá, zlatavá tekutina, která zvláštně zemitě voní.
+    *   *Efekt:* Po namazání na klouby získá postava na 1 hodinu **+1 k Obratnosti**.
     *   *Vedlejší efekt:* Postava neodolatelně voní všem prasatům a divočákům v okolí.
 
-**Epilog (Hook):**
-Pokud se některá postava (např. zloděj) rozhodne Chrastu v budoucnu sledovat, uvidí ji, jak za měsíční noci bere Rypáčka do lesa. Prase čmuchá, hrabe a Chrasta sbírá černé hroudy, které pak předává v temné uličce poslovi z hraběcího sídla výměnou za těžký měšec. Postavy odhalily "Lanýžovou mafii".
+**Epilog:**
+Pokud se některá postava rozhodne Chrastu v budoucnu sledovat, uvidí ji, jak za měsíční noci bere Rypáčka do lesa. Prase čmuchá, hrabe a Chrasta sbírá černé hroudy. Postavy odhalily Chrastin "lanýžový business".
+
+Seznam monster
+==============
+
+Rypáček
+-------
+
+Bžinný dráček
+-------------
+
+Obří krysa
+----------
+
+Pytlák Pivec
+------------
