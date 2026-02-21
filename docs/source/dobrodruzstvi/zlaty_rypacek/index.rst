@@ -10,7 +10,7 @@ Krátké veselé civilní dobrodružství pro postavy na 1.–3. úrovni.
 Úvod pro Pána jeskyně
 =====================
 
-Babička Chrasta není jen obyčejná stařenka. Je to nejlepší (a tajná) dodavatelka vzácných černých lanýžů pro stoly nejbohatších Brněnských měšťanů a rytířů v okolí. O jejím obchodu ale nikdo neví, všichni si myslí že žije z úspor po manželu obchodníkovi. Její tajemství tkví v jejím mazlíčkovi - praseti **Rypáčkovi**. Toho přivezl nebožtík manžel z cizinym, až z Francouzského království jako malé selátko a má fenomenální čich. Dnes ráno se ale Rypáček ztratil. Chrasta se bojí nejen o svého miláčka, ale i o svůj tajný příjem.
+Babička Chrasta není jen obyčejná stařenka. Je to nejlepší (a tajná) dodavatelka vzácných černých lanýžů pro stoly nejbohatších Brněnských měšťanů a rytířů v okolí. O jejím obchodu ale nikdo neví, všichni si myslí že žije z úspor po manželu obchodníkovi. Její tajemství tkví v jejím mazlíčkovi - praseti **Rypáčkovi**. Toho přivezl nebožtík manžel z ciziny, až z Francouzského království jako malé selátko a má fenomenální čich. Dnes ráno se ale Rypáček ztratil. Chrasta se bojí nejen o svého miláčka, ale i o svůj tajný příjem.
 
 Rypáček v lese našel **lesního dráčka**, který upadl do magického spánku po vdechnutí spor spavé plísně. Tito dráčci mají slabé telepatické schopnosti a když se tomuto jedinci přitížilo, náhodou se mu podařilo spojit se s Rypáčkem a vyslat žádost o záchranu. Prasátko to bere vážně a díky svému skvělému čichu dokonce našlo lék, ale na dráčka dotírají dravci a je potřeba ho bránit a Rypáček nemá čas na léčení.
 
@@ -21,8 +21,8 @@ Postavy procházejí vesnicí, když uslyší nářek. Před úhlednou chaloupko
 
 .. admonition:: Popis pro hráče: Slzy na zápraží
 
-   Na lavičce před chalupou, která zemitě voní sušenými houbami, sedí babička s šátkem na hlavě. Pláče tak usedavě, že jí slzy máčí zástěru. "Můj Rypáček! Můj malý, sladký Rypáček! Co si bez něj počnu? Bez něj jsem... tedy, bez něj bude můj život prázdný! Určitě se ztratil v lese, chudáčik malý, a sežerou ho vlci!"
-   Když zahlédne skupinku prosí ji pomoc: "Prosím, prosím, je vás dost a vypadáte že se nebojíte. Najděte mi mého čuníka! Když se vám to podaří, dostanete ty nejlepší zavařeniny jaké jste kdy jedli a mám tu speciální olej který by se dobrodruhům jako vy mohl hodit."
+   Na lavičce před chalupou, která zemitě voní sušenými houbami, sedí babička s šátkem na hlavě. Pláče tak usedavě, že jí slzy máčí zástěru. "Můj Rypáček! Můj malý, sladký Rypáček! Co si bez něj počnu? Bez něj jsem... tedy, bez něj bude můj život prázdný! Určitě se ztratil v lese, chudáček malý, a sežerou ho vlci!"
+   Když zahlédne vaši skupinku poprosí ji o pomoc: "Prosím, prosím, je vás dost a vypadáte že se nebojíte. Najděte mi mého čuníka! Když se vám to podaří, dostanete ty nejlepší zavařeniny jaké jste kdy jedli a mám tu i speciální olej který by se dobrodruhům jako vy mohl hodit."
 
 Pokud se hráči zeptají, proč je to prase tak důležité Chrasta znervózní a řekne, že je to „památka na manžela“. Nechce prozradit byznys s lanýži. Pokus rozpoznat lež (*zkouška CHAR (+ Smlouvání / Postřeh) 6*) umožní poznat že jim babička lže, ale ne co je pravda.
 
@@ -31,10 +31,10 @@ Pátrání ve vesnici
 
 Hráči musí zjistit, kam Rypáček zmizel a můžou k tomu přistoupit různě.
 
-Drbna Sybila
+Drbna Sibyla
 ------------
 
-Chrastina sousedka Sibila vše sleduje z okna a neunikne ji žádný procházející. Neřekne ale nic zadarmo. Postava jí musí pomoci navléct nit do jehly nebo vyslechnout 5 minut stížností na bolavá záda a pak už to bude jednoduché.
+Chrastina sousedka Sibyla vše sleduje z okna a neunikne ji žádný procházející. Neřekne ale nic zadarmo. Postava jí musí pomoci navléct nit do jehly nebo vyslechnout 5 minut stížností na bolavá záda a pak už to bude jednoduché.
 
 * *zkouška CHAR (+ Smlouvání) 3*: "Jo, viděla sem ho! Ten vepř pelášil, jako by ho honil řezník se sekerou. Ani se neohlíd. Běžel támhletudy do lesa. Bylo mě to divný, Chrasta ho vždycky vodí na vodítku a opatruje ho jako oko v hlavě. Nenechává ho pobejhat takhle na volno, ale já se o cizí věci nestarám, mám svejch problémů dost."
 
@@ -63,9 +63,9 @@ Jakmile je spor vyřešen, děti prokládají pravdu drobnými nepravdami: "Jo, 
 Naslouchání
 -----------
 
-Pokud dojdou do kam zhruba běžel Rypáček, možná se pokusí najít ho po sluchu.
+Pokud dojdou do lesa kam zhruba běžel Rypáček, možná se pokusí najít ho po sluchu.
 
-* *zkouška INT (+ Postřeh) 6*: Postavy se ztiší a uslyší v dálce specifické, nespokojené kvičení. Zvuk je přivede ke starému vyvrácenému stromu, viz "Obránce v nesnázích".
+* *zkouška INT (+ Postřeh) 6*: Postavy se ztiší a uslyší v dálce specifické, nespokojené kvičení. Zvuk je přivede ke starému vyvrácenému stromu, viz "Ochránce v nesnázích".
 
 Ochránce v nesnázích
 ====================
@@ -159,8 +159,8 @@ Seznam monster
 Rypáček
 -------
 
-Bžinný dráček
--------------
+Lesní dráček
+------------
 
 Obří krysa
 ----------
