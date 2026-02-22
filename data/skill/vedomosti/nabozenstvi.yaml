@@ -1,0 +1,5 @@
+id: Skill:nabozenstvi
+name: Náboženství
+description: Máš znalosti o bozích, náboženských rituálech a svatých symbolech.
+bonus: Bonus:vedomosti
+requires: []

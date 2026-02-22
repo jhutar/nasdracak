@@ -1,0 +1,5 @@
+id: Skill:historie
+name: Historie
+description: Máš znalosti o minulých událostech, kulturách a civilizacích.
+bonus: Bonus:vedomosti
+requires: []

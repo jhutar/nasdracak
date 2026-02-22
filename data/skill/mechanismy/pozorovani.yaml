@@ -1,0 +1,5 @@
+id: Skill:pozorovani
+name: Pozorování
+description: Jsi si obecně vědom svého okolí a všímáš si drobných detailů.
+bonus: Bonus:prohnanost
+requires: []

@@ -1,0 +1,5 @@
+id: Skill:zkoumani
+name: Zkoumání
+description: Jsi dobrý v interpretaci stop, hledání skrytých předmětů a deduktivním uvažování.
+bonus: Bonus:prohnanost
+requires: []

@@ -1,0 +1,5 @@
+id: Skill:atletika
+name: Atletika
+description: Jsi fyzicky zdatný a dokážeš lépe běhat, skákat, šplhat a plavat.
+bonus: Bonus:boj
+requires: []

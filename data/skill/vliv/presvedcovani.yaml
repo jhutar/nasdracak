@@ -1,0 +1,5 @@
+id: Skill:presvedcovani
+name: Přesvědčování
+description: Jsi schopen ovlivňovat ostatní pomocí logiky, šarmu nebo vyjednávání.
+bonus: Bonus:vliv
+requires: []

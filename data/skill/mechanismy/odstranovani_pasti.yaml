@@ -2,5 +2,5 @@ id: Skill:odstranovani-pasti
 name: Odstraňování pastí
 description: Dokážeš rozpoznat, zneškodnit nebo obejít různé druhy pastí a nástrah.
 rule: "Při zkouškách vztahujících se k této dovednosti si k hodu připočti bonus na hledání."
-bonus: Bonus:mechanismy
+bonus: Bonus:prohnanost
 requires: []

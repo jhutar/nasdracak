@@ -1,0 +1,5 @@
+id: Skill:priroda
+name: Příroda
+description: Máš znalosti o flóře, fauně, terénu a přírodních jevech.
+bonus: Bonus:vedomosti
+requires: []

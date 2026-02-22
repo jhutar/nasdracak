@@ -1,0 +1,5 @@
+id: Skill:obratnost-rukou
+name: Obratnost rukou
+description: Jsi obratný v jemných pohybech rukou, jako je kapesní krádež nebo podstrčení předmětů.
+bonus: Bonus:prohnanost
+requires: []

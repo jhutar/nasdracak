@@ -1,0 +1,5 @@
+id: Skill:vystupovani
+name: Vystupování
+description: Jsi zručný v zábavě publika (hudba, herectví, tanec).
+bonus: Bonus:vliv
+requires: []
