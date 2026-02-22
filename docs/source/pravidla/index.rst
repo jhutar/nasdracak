@@ -1,8 +1,9 @@
+========
 Pravidla
 ========
 
 Hraní
------
+=====
 
 Postava není hráč. Hraj za postavu tak, aby byla uvěřitelná a chovala se v souladu se svým přesvědčením a motivací. Je to složité, ale pomůže to zážitku ze hry všech.
 
@@ -11,7 +12,7 @@ Vypravěč / pán jeskyně TODO.
 Deník postavy TODO.
 
 Vytváření postavy
------------------
+=================
 
 Teď si vytvoříš hráčskou postavu. Cílem je stanovit rasu (to ti určí základní hodnoty vlastností), vlastnosti (tady dokončíš určování vlastností), dovednosti (vybereš si speciální schopnosti, které tvá postava ovládá) a vybavení (čili tvé hmotné statky). Na konec si určíme počet životů a magenergii tvé postavy.
 
@@ -67,38 +68,17 @@ Buď můžeš (pro vyváženější postavu) ke *dvěma tebou vybraným vlastnos
 
    Příklad barbara jménem *Pěst plání* (vytvořeného jako extrémní postava): začínáme s SÍL +1, OBR 0, INT -2 a CHAR -1. Hráč se rozhodl, že jeho postava bude prostě jen hora svalů, a tak přidá trojku k SÍL a jedničku k OBR a CHAR. Výsledná postava tedy má SÍL +4, OBR +1, INT -2 a CHAR 0.
 
-3. Ze seznamu si vyber 3 dovednosti, které tvá postava ovládá. Dovednosti jsou schopnosti, které ses za svůj dosavadní život naučil a s přibívajícími zkušenostmi budeš získávat další.
+3. Ze seznamu si vyber 3 dovednosti, které tvá postava ovládá. Dovednosti jsou schopnosti, které ses za svůj dosavadní život naučil a s přibívajícími levely budeš získávat další.
 
-Dovednosti patří do různých skupin a v rámci těchto skupin ti dávájí bonusy k hodům na zkoušky týkající se dané dovednosti. Některé dovednosti mají ještě další dodatečné možnosti. Přesně si to popíšeme v kapitole "Zkoušky".
-
-Některé dovednosti jsou obecné (například "Akrobacie" - po kládě nad propastí se můžeš pokusit přelézt i pokud tuto dovednost nemáš, jen si nepřipočítávaš bonus), některé vyhrazené pro ty kdo se je naučili (alchymistické suroviny prostě bez dovednosti "Získávání surovin" nejsi schopen vytěžit). 
-
-.. Vložíme seznam dovedností
-```tools/doit.py --data data/ format --template tools/templates/skill-list.rst --model Skill --all-in-one```
+Dovednosti jsou různé, ale nejčastěji ti zvětšují různé bonusy. Bonusy se používají u hodů na zkoušky týkající se dané oblasti dovedností. Některé dovednosti mají účinky. Přesně si to popíšeme v kapitole "Zkoušky".
 
 .. admonition:: Příklad:
 
-   Například hobit *Tvářička* si vybere dovednost "Postřeh", "Smlouvání" a "Získávání surovin". *Tvářička* asi hodlá hledat a obchodovat s alchymistickými surovinami. Proč ne. Biznys je to sice nebezpečný, ale výnosný.
+   Například hobit *Tvářička* si vybere dovednost "Postřeh", "Přesvědčování" a "Získávání surovin". *Tvářička* asi hodlá hledat a obchodovat s alchymistickými surovinami. Proč ne. Biznys je to sice nebezpečný, ale výnosný.
 
 4. Nyní si z tabulky vyber nějaké to vybavení do začátku.
 
-Předpokládej, že každý má batoh, měch na vodu a další běžné nezbytnosti, ale třeba šaty nebo nůž už je potřeba vybrat.
-
-.. Vložíme seznam vybavení
-```tools/doit.py --data data/ format --template tools/templates/common_item-table.rst --model CommonItem --all-in-one```
-
-A nějaká zbraň by se asi taky hodila.
-
-.. Vložíme seznam zbraní na blízko
-```tools/doit.py --data data/ format --template tools/templates/weapon-table.rst --model MeleeWeapon --all-in-one```
-
-.. Vložíme seznam střelných zbraní
-```tools/doit.py --data data/ format --template tools/templates/weapon-table.rst --model RangeWeapon --all-in-one```
-
-A možná zbylo i na brnění:
-
-.. Vložíme seznam brnění
-```tools/doit.py --data data/ format --template tools/templates/armor-table.rst --model Armor --all-in-one```
+Předpokládej, že každý má batoh, měch na vodu a další běžné nezbytnosti, ale třeba šaty nebo nůž už je potřeba vybrat. Z čeho vybírat najdeš v kapitole "Vybavení".
 
 5. Urči počet životů a množství magenergie, kterou tvá postava vládne.
 
@@ -119,7 +99,7 @@ Množství magické energie (tzv. magů) je zase **5**. K tomu si přičti souč
 
 
 Postup na vyšší úroveň
-----------------------
+======================
 
 Tvá postava začíná, jako jakýkoli jiný obyvatel světa, ve kterém budeš hrát, na úrovni 1. Ti, kteří celý život nevytáhnou paty z rodné vesnice, pravděpodobně na úrovni 1 i zemřou po dlouhém a poklidném životě.
 
@@ -147,19 +127,48 @@ Množství zkušeností  Úroveň  Co to znamená
 ===================  ======  ==============================
 
 
+Vybavení
+========
+
+Běžné předměty:
+
+.. Vložíme seznam vybavení
+```tools/doit.py --data data/ format --template tools/templates/common_item-table.rst --model CommonItem --all-in-one```
+
+A nějaká zbraň by se asi taky hodila:
+
+.. Vložíme seznam zbraní na blízko
+```tools/doit.py --data data/ format --template tools/templates/weapon-table.rst --model MeleeWeapon --all-in-one```
+
+.. Vložíme seznam střelných zbraní
+```tools/doit.py --data data/ format --template tools/templates/weapon-table.rst --model RangeWeapon --all-in-one```
+
+A možná zbylo i na brnění:
+
+.. Vložíme seznam brnění
+```tools/doit.py --data data/ format --template tools/templates/armor-table.rst --model Armor --all-in-one```
+
+
+Dovednosti
+==========
+
+.. Vložíme seznam dovedností
+```tools/doit.py --data data/ format --template tools/templates/skill-list.rst --model Skill --all-in-one```
+
 
 Zkoušky
--------
+=======
 
 Občas se tvá postava pokusí o něco, u čeho není jisté, jestli se to podaří. Chceš přeskočit širokou propast? Vylézt na vysokou zeď? Přemluvit strážného, aby tě pustil do města? V takových chvílích přichází na řadu *zkouška*.
 
-Pán jeskyně ti řekne, o jakou zkoušku se jedná (třeba zkouška na Sílu nebo na Obratnost) a potají si určí *Obtížnost zkoušky* – tedy jak těžké je uspět.
+Pán jeskyně ti řekne, o jakou zkoušku se jedná (třeba zkouška na Sílu nebo na Obratnost a jestli můžeš použít nějaký svůj bonus) a potají si určí *Obtížnost zkoušky* – tedy jak těžké je uspět.
 
 *   **Velmi lehký úkol** může mít obtížnost 2.
-*   **Středně těžký** třeba 4.
-*   **Velmi těžký** klidně 6 nebo i víc.
+*   **Středně těžký** kolem 4.
+*   **Velmi těžký** kolem 6.
+*   **Téměř nemožný** kolem 9.
 
-Abys uspěl, musí tvůj hod dopadnout stejně nebo lépe, než je toto číslo Obtížnosti zkoušky.
+Abys uspěl, musí tvůj hod (+ modifikátory) dopadnout stejně nebo lépe, než je toto číslo Obtížnosti zkoušky.
 
 Základní pravidlo pro zkoušky je:
 
@@ -169,16 +178,16 @@ Pojďme si to rozebrat:
 
 1.  **Hod kostkou:** Jednoduše hodíš šestistěnnou kostkou.
 2.  **Bonus za vlastnost:** K hodu si přičteš (nebo od něj odečteš) číslo, které má tvá postava u dané vlastnosti (SÍL, OBR, INT, nebo CHAR). Je to tvůj přirozený talent.
-3.  **Bonus za dovednosti:** Pokud umíš dovednost, která se k úkolu hodí, přičteš si za ni bonus. Bonusy z dovedností ve stejné skupině se sčítají! Je to odměna za tvůj trénink.
+3.  **Bonus za dovednosti:** Pokud máš bonus pro oblast dovedností která se k úkolu hodí, přičteš si za ni bonus. To je odměna za tvůj trénink v této oblasti.
 
-Zkouška bez dovednosti
-^^^^^^^^^^^^^^^^^^^^^^
+Zkouška bez bonusu
+------------------
 
 Když se o něco pokoušíš jen tak, bez speciálního tréninku, hod je jednoduchý:
 
 .. admonition:: Příklad: Tvářička a těžký balvan
 
-   Hobit *Tvářička* našel kouzelný pramen, ale v cestě mu stojí těžký balvan. Pokusí se ho odvalit. Pán jeskyně určí, že je to zkouška na **Sílu** s obtížností **3**. *Tvářička* má ale **SÍL -1**.
+   Hobit *Tvářička* konečně našel kouzelný pramen, ale ten je zavalený těžkým balvanem. Pokusí se ho odvalit. Pán jeskyně určí, že je to zkouška na **Sílu** s obtížností **3**. *Tvářička* má ale **SÍL -1**.
    
    Hráč hodí kostkou a padne mu **5**.
    
@@ -186,37 +195,33 @@ Když se o něco pokoušíš jen tak, bez speciálního tréninku, hod je jednod
    
    Protože 4 je větší nebo rovno 3, *Tvářička* sice chvíli heká a funí, ale nakonec balvan odstrčí z cesty. Úspěch!
 
-Zkouška s dovedností
-^^^^^^^^^^^^^^^^^^^^
+Zkouška s bonusem
+-----------------
 
 Když využiješ něco, co ses naučil a připočítáváš si bonus dovednosti:
 
 .. admonition:: Příklad: Tvářička a jedovaté zuby
 
-   Po souboji s kouzelným hadem chce *Tvářička* sebrat jeho cenné jedové zuby. To chce šikovné ruce! Pán jeskyně stanoví zkoušku na **Obratnost** s obtížností **4**. *Tvářička* má **OBR +1** a dovednost **Získávání surovin** (bonus +1).
+   Po souboji s kouzelným hadem chce *Tvářička* sebrat jeho cenné jedové zuby. To chce šikovné ruce! Pán jeskyně stanoví zkoušku na **Obratnost** s bonusem **Alchymie** s obtížností **4**. *Tvářička* má **OBR +1** a protože má dovednost "Získávání surovin", má **bonus +1** na "Alchymie".
    
    Hráč hodí kostkou a padne mu **3**.
    
-   Výsledek je: 3 (hod) + 1 (OBR) + 1 (za dovednost) = **5**.
+   Výsledek je: 3 (hod) + 1 (OBR) + 1 (Vliv) = **5**.
    
    Protože 5 je větší nebo rovno 4, *Tvářička* opatrně vylomí jedové zuby, aniž by se poškodily. Úspěch!
-
-Zkouška s více dovednostmi
-^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Někdy ti pomůže víc naučených dovedností najednou:
 
 .. admonition:: Příklad: Tvářička prodává suroviny
 
-   Ve vesnici chce *Tvářička* prodat zuby babce kořenářce za co nejlepší cenu. Pán jeskyně určí zkoušku na **Charisma** s obtížností **6**. *Tvářička* má **CHAR +3** a umí **Smlouvání** (+1) i **Postřeh** (+1). Obě dovednosti patří do skupiny "Vliv", takže se jejich bonusy sčítají!
+   Ve vesnici chce *Tvářička* prodat zuby babce kořenářce za co nejlepší cenu. Pán jeskyně určí zkoušku na **Charisma** s bonusem **Vliv** s obtížností **6**. *Tvářička* má **CHAR +3** a umí "Přesvědčování" (+1) i "Postřeh" (+1). Obě dovednosti zvětšují bonus "Vliv", takže se výhoda při zkoušce zvětšuje!
    
    Hráč hodí kostkou a padne mu **2**.
    
-   Výsledek je: 2 (hod) + 3 (CHAR) + 1 (Smlouvání) + 1 (Postřeh) = **7**.
+   Výsledek je: 2 (hod) + 3 (CHAR) + 2 (Vliv) = **7**.
    
    Protože 7 je větší nebo rovno 6, babka je Tvářičkovým šarmem a výřečností tak okouzlena, že mu dá celých 12 zlatých. Úspěch!
 
 
-
 Boj
----
+===
