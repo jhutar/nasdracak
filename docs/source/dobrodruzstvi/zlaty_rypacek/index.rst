@@ -2,10 +2,14 @@
 Tajemství zlatého rypáčku
 =========================
 
-Krátké veselé civilní dobrodružství pro postavy na 1.–3. úrovni.
+Krátké veselé civilní dobrodružství pro začínající hráče.
 
-*   **Téma:** Pátrání, zvířata, honička
+Hrdinové budou hledat zmizelého domácího mazlíčka aby našli i to co nehledali a dostanou se i do smrtelného nebezpečí.
+
+*   **Téma:** Pátrání, zvířata, honička, boj, minihra
 *   **Prostředí:** Vesnice a přilehlý les
+
+Odstavce uvozené textem "Popis pro hráče:" lze hráčům bezpečně přečíst. Zbytek slouží jen potřebám vypravěče. Doporučujeme, aby si vypravěč text předem prošel, aby plně pochopil souvislosti a motivace postav (a zvířat).
 
 Úvod pro Pána jeskyně
 =====================
@@ -24,7 +28,7 @@ Postavy procházejí vesnicí, když uslyší nářek. Před úhlednou chaloupko
    Na lavičce před chalupou, která zemitě voní sušenými houbami, sedí babička s šátkem na hlavě. Pláče tak usedavě, že jí slzy máčí zástěru. "Můj Rypáček! Můj malý, sladký Rypáček! Co si bez něj počnu? Bez něj jsem... tedy, bez něj bude můj život prázdný! Určitě se ztratil v lese, chudáček malý, a sežerou ho vlci!"
    Když zahlédne vaši skupinku poprosí ji o pomoc: "Prosím, prosím, je vás dost a vypadáte že se nebojíte. Najděte mi mého čuníka! Když se vám to podaří, dostanete ty nejlepší zavařeniny jaké jste kdy jedli a mám tu i speciální olej který by se dobrodruhům jako vy mohl hodit."
 
-Pokud se hráči zeptají, proč je to prase tak důležité Chrasta znervózní a řekne, že je to „památka na manžela“. Nechce prozradit byznys s lanýži. Pokus rozpoznat lež (*zkouška CHAR (+ Smlouvání / Postřeh) 6*) umožní poznat že jim babička lže, ale ne co je pravda.
+Pokud se hráči zeptají, proč je to prase tak důležité Chrasta znervózní a řekne, že je to „památka na manžela“. Nechce prozradit byznys s lanýži. Pokus rozpoznat lež (*zkouška CHAR (+ Prohnanost) 6*) umožní poznat že jim babička lže, ale ne co je pravda.
 
 Pátrání ve vesnici
 ==================
@@ -36,15 +40,15 @@ Drbna Sibyla
 
 Chrastina sousedka Sibyla vše sleduje z okna a neunikne ji žádný procházející. Neřekne ale nic zadarmo. Postava jí musí pomoci navléct nit do jehly nebo vyslechnout 5 minut stížností na bolavá záda a pak už to bude jednoduché.
 
-* *zkouška CHAR (+ Smlouvání) 3*: "Jo, viděla sem ho! Ten vepř pelášil, jako by ho honil řezník se sekerou. Ani se neohlíd. Běžel támhletudy do lesa. Bylo mě to divný, Chrasta ho vždycky vodí na vodítku a opatruje ho jako oko v hlavě. Nenechává ho pobejhat takhle na volno, ale já se o cizí věci nestarám, mám svejch problémů dost."
+* *zkouška CHAR (+ Vliv) 3*: "Jo, viděla sem ho! Ten vepř pelášil, jako by ho honil řezník se sekerou. Ani se neohlíd. Běžel támhletudy do lesa. Bylo mě to divný, Chrasta ho vždycky vodí na vodítku a opatruje ho jako oko v hlavě. Nenechává ho pobejhat takhle na volno, ale já se o cizí věci nestarám, mám svejch problémů dost."
 
 Stopy v blátě
 -------------
 
 Na cestě za chalupou je bláto.
 
-*   *zkouška INT (+ Stopování) 5*: Postavy najdou otisky prasečích paspárků, které vedou směrem k *Vlčímu žlebu*.
-*   *zkouška INT (+ Stopování) 7*: Všimnou si, že prase neběželo splašeně, ale cílevědomě – něco zavětřilo.
+*   *zkouška INT (+ Pohyb) 5*: Postavy najdou otisky prasečích paspárků, které vedou směrem k *Vlčímu žlebu*.
+*   *zkouška INT (+ Pohyb) 7*: Všimnou si, že prase neběželo splašeně, ale cílevědomě – něco zavětřilo.
 
 Dětští svědci
 -------------
@@ -53,9 +57,9 @@ U kraje lesa hraje skupinka dětí kuličky. Zrovna řeší nějaký zásadní s
 
 Družinka k řešení může přistoupit různě, například:
 
-*   *zkouška INT (+Hledání) 5*: Postava změří vzdálenost a spravedlivě rozhodne.
-*   *zkouška OBR (+Akrobacie) 5*: Postava vezme kuličku a cvrnkne ji přímo do důlku, čímž si získá respekt dětí.
-*   *zkouška CHAR (+Smlouvání) 5*: Dětem spor rozmluví a přesvědčí je, aby odpověděly na to co postavy zajímá.
+*   *zkouška INT (+ Prohnanost) 5*: Postava změří vzdálenost a spravedlivě rozhodne.
+*   *zkouška OBR (+ Pohyb) 5*: Postava vezme kuličku a cvrnkne ji přímo do důlku, čímž si získá respekt dětí.
+*   *zkouška CHAR (+ Vliv) 5*: Dětem spor rozmluví a přesvědčí je, aby odpověděly na to co postavy zajímá.
 *   *Úplatek:* Cukroví nebo drobný peníz.
 
 Jakmile je spor vyřešen, děti prokládají pravdu drobnými nepravdami: "Jo, Rypáček! Běžel támhle k tomu velkýmu dubu. A nesl v tlamě vaši čepici aby ji zahrabal, pane! Honili sme ho, ale ani si nás nevšiml i když jsme mu slibovali žaludy a po těch se on může utlouct."
@@ -65,7 +69,7 @@ Naslouchání
 
 Pokud dojdou do lesa kam zhruba běžel Rypáček, možná se pokusí najít ho po sluchu.
 
-* *zkouška INT (+ Postřeh) 6*: Postavy se ztiší a uslyší v dálce specifické, nespokojené kvičení. Zvuk je přivede ke starému vyvrácenému stromu, viz "Ochránce v nesnázích".
+* *zkouška INT (+ Prohnanost) 6*: Postavy se ztiší a uslyší v dálce specifické, nespokojené kvičení. Zvuk je přivede ke starému vyvrácenému stromu, viz "Ochránce v nesnázích".
 
 Ochránce v nesnázích
 ====================
@@ -92,7 +96,7 @@ Záhada spícího draka
 
 Po boji Rypáček okamžitě běží k dráčkovi a přistrkuje k němu jakýsi tlustý kořen (je hladký, místy se žlutě leskne) a šťouchá do něj rypákem. Dráček dýchá, ale jen velmi mělce a neprobouzí se.
 
-*   *zkouška INT (+ Bylinkářství) 5*: Postava pozná **Zlatý kořen**. Je to silný stimulant a protijed na "Spavou plíseň". Protože dráček nedokáže kousat, postavy musí kořen nastrouhat, rozžvýkat nebo rozdrtit a šťávu mu kápnout do krku.
+*   *zkouška INT (+ Vědomosti) 5*: Postava pozná **Zlatý kořen**. Je to silný stimulant a protijed na "Spavou plíseň". Protože dráček nedokáže kousat, postavy musí kořen nastrouhat, rozžvýkat nebo rozdrtit a šťávu mu kápnout do krku.
 *   Postavy můžou vzít dráčka za místní kořenářkou která ho za pár stříbrňáků postaví zpátky na pařátky. Může pomoct taky řádné polití studenou vodou nebo kouzlo nebo lektvar léčení.
 
 Jakmile drak polkne šťávu, kýchne malý obláček jisker, otevře oči a telepaticky pošle všem v okolí pocit *vděčnosti a chuti na kus pěkně lepkavé smůly*. Zůstane sice spát, ale jedná už se o zdravý posilující spánek.
@@ -119,7 +123,7 @@ Pravidla honičky
 
 1.  **Hráči:** Hráči se střídají, každé kolo za družinku hází někdo jiný. Hází se na *OBR (+ Akrobacie)*.
 
-    *   Pokud se rozhodnou Rypáčka nést, mají postih -2 k hodu. Pokud běží sám, musí ho někdo popohánět (*zkouška CHAR (+ Znalost zvířat) 3*), jinak se v daném kole neposunou, protože Rypáček chce žrát žaludy nebo zaútočit na Pivce (jak je ještě rozjařený z vítězství nad krysami).
+    *   Pokud se rozhodnou Rypáčka nést, mají postih -2 k hodu. Pokud běží sám, musí ho někdo popohánět (*zkouška CHAR (+ Zvířata) 3*), jinak se v daném kole neposunou, protože Rypáček chce žrát žaludy nebo zaútočit na Pivce (jak je ještě rozjařený z vítězství nad krysami).
 
 2.  **Pytlák Pivec:** DM hází stejně jako zástupce družiny *OBR (+ Akrobacie)*.
 

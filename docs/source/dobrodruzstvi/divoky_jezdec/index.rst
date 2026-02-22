@@ -1,13 +1,15 @@
-
-===================
+=============
 Divoký jezdec
-===================
+=============
 
-Toto krátké dobrodružství je zamýšleno pro skupinku 2-4 dobrodruhů na nižších úrovních. Je postaveno na atmosféře, vyšetřování a morální volbě, s možností boje. Pravidla jsou záměrně volná, aby se dala snadno převést na jakýkoliv herní systém.
+Krátké strašidelné dobrodružství pro skupinku 2-4 začínajících hráčů.
 
-Odstavce uvozené textem "Popis pro hráče:" lze hráčům bezpečně přečíst. Zbytek slouží jen potřebám vypravěče.
+Dobrodružství je postaveno na atmosféře, vyšetřování a morální volbě, s možností boje. Pravidla jsou záměrně volná, aby se dala snadno převést na jakýkoliv herní systém.
 
-Doporučujeme, aby si vypravěč text předem prošel, aby plně pochopil souvislosti a motivace postav. Dobrodružství se ideálně odehrává během jednoho večera a noci.
+*   **Téma:** Strašidelná atmosféra, pátrání, boj, puzzle
+*   **Prostředí:** Les u vesnice
+
+Odstavce uvozené textem "Popis pro hráče:" lze hráčům bezpečně přečíst. Zbytek slouží jen potřebám vypravěče. Doporučujeme, aby si vypravěč text předem prošel, aby plně pochopil souvislosti a motivace postav. Dobrodružství se ideálně odehrává během jednoho večera a noci.
 
 Shrnutí
 =======
@@ -139,11 +141,11 @@ Tato cesta vyžaduje spíše důvtip a empatii.
 
 1.  **Výchozí bod:** Hospodyně Marta jim řekla, že Joryn hnal poutníky od myslivny směrem k **Černému lesu**.
 
-2.  **První stopa:** Po cestě k lesu si pozorná postava (*zkouška na INT (+ Postřeh nebo Stopování) 5*) všimne v blátě zapadlé malé vyřezávané píšťalky ve tvaru ptáčka. Je to hračka malého Tomáše.
+2.  **První stopa:** Po cestě k lesu si pozorná postava (*zkouška na INT (+ Prohnanost) 5*) všimne v blátě zapadlé malé vyřezávané píšťalky ve tvaru ptáčka. Je to hračka malého Tomáše.
 
 3.  **Svědectví:** V lese narazí na chatrč starého uhlíře. Když se vyptávají, vzpomene si. *"Ano, viděl jsem je. Vyděšení k smrti a ani si mě nevšimli." Stařec mávl rukou směrem ke starému brodu. Asi chtěli jít do Těchova."*
 
-4.  **Cesta do Těchova:** Cestou si možná všimnou stop v blátě či vstupu do jeskyně ukrytého v křoví (*zkouška na INT (+ Postřeh nebo Stopování) 6*).
+4.  **Cesta do Těchova:** Cestou si možná všimnou stop v blátě či vstupu do jeskyně ukrytého v křoví (*zkouška na INT (+ Pohyb) 6*).
 
     Pokud ji minou a dorazí až do Těchova, mohou tam zjistit, že poutníci se tam neobjevili, a snad se vydají zpět hledat lépe. Zkouška teď má obtížnost už jenom 5 a při každém dalším pokusu se její obtížnost snižuje. Každá cesta od uhlířova domu do Těchova nebo zpět je ale stojí alespoň půl hodiny.
 
@@ -161,9 +163,9 @@ Tato cesta vyžaduje spíše důvtip a empatii.
 
        * *Třetí chodba (vpravo):* Tato chodba se zdá být prašná a chladná. Do vzduchu se při každém kroku zvedá obláček prachu.
 
-    Stopování v kamenité jeskyni je obtížné, ale ne nemožné (*zkouška na INT (+ Stopování) 8*). Pokud někdo uspěje, zjistí neurčité stopy vedoucí do třetí chodby.
+    Stopování v kamenité jeskyni je obtížné, ale ne nemožné (*zkouška na INT (+ Pohyb) 8*). Pokud někdo uspěje, zjistí neurčité stopy vedoucí do třetí chodby.
 
-    Pokud se družina vydá první chodbou, nezapomeň zjistit v jakém jdou pořadí. Prvnímu hrozí uklouznutí a pád do podzemní řeky (*zkouška na OBR (+ Akrobacie) 3 pokud mají světlo, jinak 5*). Při neúspěchu se pořádně vykoupe v ledové vodě a přichází o 1 život.
+    Pokud se družina vydá první chodbou, nezapomeň zjistit v jakém jdou pořadí. Prvnímu hrozí uklouznutí a pád do podzemní řeky (*zkouška na OBR (+ Pohyb) 3 pokud mají světlo, jinak 5*). Při neúspěchu se pořádně vykoupe v ledové vodě a přichází o 1 život.
 
     .. admonition:: Popis pro hráče: Vydali se první chodbou
 

@@ -6,6 +6,11 @@ Krátké detektivní dobrodružství pro začínající hráče s pohádkovým v
 
 Hrdinové se zapletou s jedním velmi nešťastným vodníkem, chudým uhlířem a marnivou mlynářovou dcerou. Dokáží najít ukradené perly dřív, než se zastaví stavba nového obecního rybníka?
 
+*   **Téma:** Pátrání, plížení, málo boje
+*   **Prostředí:** Vesnice a přilehlý les
+
+Odstavce uvozené textem "Popis pro hráče:" lze hráčům bezpečně přečíst. Zbytek slouží jen potřebám vypravěče. Doporučujeme, aby si vypravěč text předem prošel, aby plně pochopil souvislosti a motivace postav.
+
 Zápletka pro vypravěče
 ======================
 
@@ -61,7 +66,7 @@ Hrdinové pravděpodobně zamíří do vesnice hledat někoho, kdo smrdí kouře
 Obcházení vesnice
 -----------------
 
-Družinu může napadnou bloumat se vesnicí nebo ji obcházet a koukat a čichat kde to kouří víc než jinde. Nech si je hodit (*zkouška na INT (+ Postřeh nebo Hledání) 5*). Pokud uspějí pošli je do lesa odkud se line proužek dýmu a pokud neuspějí naveď je ke kováři z jehož komína ve vesnici stoupá nejvíc kouře.
+Družinu může napadnou bloumat se vesnicí nebo ji obcházet a koukat a čichat kde to kouří víc než jinde. Nech si je hodit (*zkouška na INT (+ Prohnanost) 5*). Pokud uspějí pošli je do lesa odkud se line proužek dýmu a pokud neuspějí naveď je ke kováři z jehož komína ve vesnici stoupá nejvíc kouře.
 
 .. admonition:: Popis pro hráče: Proužek dýmu z lesa
 
@@ -72,7 +77,7 @@ Uhlířské milíře v lese
 
 Cesta do lesa je zarostlá a vzduch houstne štiplavým dýmem.
 
-Pokud hrdinové v lese při hledání uhlířů zabloudí (*zkouška INT (+ Stopování)*), překvapí je dva obří pavouci. Vlastnosti pavouků viz kapitola Seznam monster.
+Pokud hrdinové v lese při hledání uhlířů zabloudí (*zkouška INT (+ Pohyb)*), překvapí je dva obří pavouci. Vlastnosti pavouků viz kapitola Seznam monster.
 
 Rodina Vorlových
 ----------------
@@ -122,8 +127,8 @@ Konečná zastávka. Mlýn je hlídaný a Mánička se perel jen tak nevzdá.
 
 **Možné akce a interakce:**
 
-*   **Vyjednávání:** Mánička je marnivá. Pokud postavy uspějí (*zkouška na CHAR (+ Smlouvání) 8*), mohou ji přesvědčit, aby perly vrátila (např. hrozbou vězení).
-*   **Obchod:** Mánička si pravou hodnotu perel příliš neuvědomuje a tak bude ochotná (*zkouška na CHAR (+ Smlouvání) 5*) vyměnit je za šátek nebo pěknou sukni z trhu v ceně třeba 5 stříbrňáků.
+*   **Vyjednávání:** Mánička je marnivá. Pokud postavy uspějí (*zkouška na CHAR (+ Vliv) 8*), mohou ji přesvědčit, aby perly vrátila (např. hrozbou vězení).
+*   **Obchod:** Mánička si pravou hodnotu perel příliš neuvědomuje a tak bude ochotná (*zkouška na CHAR (+ Vliv) 5*) vyměnit je za šátek nebo pěknou sukni z trhu v ceně třeba 5 stříbrňáků.
 *   **Nahlášení:** Co na tom že ta krádež byla klukovina? Je to zločin a basta. Juru čeká přísný trest a Máničce perly vezmou. Stačí aby postavy rychtářce nahlásili co zjistily. Pravděpodobně tím ale u místních získají nějakou nepěknou nálepku.
 *   **Vloupání:** V noci je třeba se proplížit kolem psa Rafana. To bude obtížné, ale pokud se bude družinka připravovat, třeba příjde na to že Rafan miluje škvarky a ty by jim tak mohly dát velkou výhodu. Perly jsou v truhličce v prvním patře. Materiály k této vloupačce jsou níže:
 
@@ -145,7 +150,7 @@ Tady je potom nápověda pro vypravěče pokud si družinka zvolí cestu noční
 
      Dvůr u mlýna osvětluje slabé světlo polovičního měsíce. Uprostřed stojí velká stará jabloň. Kradate se ze stínu do stínu a snažíte se nezpůsobit ani nejmenší hluk abyste neprobudili mlynáře. Zatím je všude ticho, ale máte pocit že vás pozoruje pár číhajících očí.
 
-  * 1.1: Rafanova bouda stojí hned vedle domu. Rafan v ní polehává a dává pozor. Povede se ho družince obejít (*zkouška OBR (+ Plížení) 7*)? Nebo zjistili jeho slabinu a přinesli mu pár škvarků?
+  * 1.1: Rafanova bouda stojí hned vedle domu. Rafan v ní polehává a dává pozor. Povede se ho družince obejít (*zkouška OBR (+ Pohyb) 7*)? Nebo zjistili jeho slabinu a přinesli mu pár škvarků?
 
     .. admonition:: Popis pro hráče: Probuzený Rafan
 
@@ -187,13 +192,13 @@ Tady je potom nápověda pro vypravěče pokud si družinka zvolí cestu noční
 
        Dveře se s tichým zavrzáním otevřely do chladné spíže, kde se mísí vůně sušených bylinek a uzeného masa. Na policích jsou úhledně srovnány zavařeniny a sušené ovoce. Ze stropu visí velký, lesklý kus špeku, který láká k zakousnutí. Vše je tu pečlivě uskladněno, připraveno na dlouhou zimu. Nic, co by se zdálo být neobvyklé.
 
-  * 4.3: Schody nahoru. Dřevěné schodiště vede do horního patra. Pátý schod vrzá když se na něj stoupne na špatném místě. Podaří se jim projít nahoru, aniž by tento zrádný schod zavrzal tak že vzbudí mlynáře (*zkouška OBR (+ Plížení) 2*)?
+  * 4.3: Schody nahoru. Dřevěné schodiště vede do horního patra. Pátý schod vrzá když se na něj stoupne na špatném místě. Podaří se jim projít nahoru, aniž by tento zrádný schod zavrzal tak že vzbudí mlynáře (*zkouška OBR (+ Pohyb) 2*)?
 
     .. admonition:: Popis pro hráče: Schody
 
        Staré dřevěné schody se vinou vzhůru do tmy. Každý krok musí být pečlivě zvážen, neboť dřevo tu a tam tiše zasténá pod vaší vahou. Někde uprostřed schodiště cítíte, že se jeden ze schodů prohýbá a hrozí, že zradí vaši tajnou misi.
 
-  * 4.4: Hlavní světnice kde spí mlynář s mlynářkou. Probudí se, pokud do světnice vstoupí (*zkouška OBR (+ Plížení) 4*)? Pokud začnou otevírat skžípějící truhly (ve kterých je stejně jen nádobí a nějaké oblečení), spící se probudí velmi pravděpodobně (*zkouška OBR (+ Plížení) 6*).
+  * 4.4: Hlavní světnice kde spí mlynář s mlynářkou. Probudí se, pokud do světnice vstoupí (*zkouška OBR (+ Pohyb) 4*)? Pokud začnou otevírat skžípějící truhly (ve kterých je stejně jen nádobí a nějaké oblečení), spící se probudí velmi pravděpodobně (*zkouška OBR (+ Pohyb) 6*).
 
     .. admonition:: Popis pro hráče: Hlavní světnice
 
@@ -207,7 +212,7 @@ Tady je potom nápověda pro vypravěče pokud si družinka zvolí cestu noční
 
        Nahoře vás přivítá tichá, tmavá chodba. Nikde nic co by stálo za pozornost. Jen tma a ticho před dveřmi do další místnosti.
 
-  * 5.2: Mániččin pokoj. Probudi se Mánička, když vejdou do pokoje (*zkouška OBR (+ Plížení) 4*)? Pokud ano, začne křičet a zburcuje mlynáře. V truhličce u dveří najdou jen pečlivě složené šaty a spodničky, ale v truhličce u postele leží její poklady. Různé pentle, šátky a náhrdelníky se sklíčky – a mezi nimi i tři perly v plátěném pytlíku.
+  * 5.2: Mániččin pokoj. Probudi se Mánička, když vejdou do pokoje (*zkouška OBR (+ Pohyb) 4*)? Pokud ano, začne křičet a zburcuje mlynáře. V truhličce u dveří najdou jen pečlivě složené šaty a spodničky, ale v truhličce u postele leží její poklady. Různé pentle, šátky a náhrdelníky se sklíčky – a mezi nimi i tři perly v plátěném pytlíku.
 
     .. admonition:: Popis pro hráče: Mániččin pokoj
 
