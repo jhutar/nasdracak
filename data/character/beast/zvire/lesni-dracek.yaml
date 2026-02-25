@@ -1,0 +1,17 @@
+id: Beast:lesni_dracek
+category: dracek
+level: 1
+name: Lesní dráček
+appearance: Stvoření velikosti kočky, bez chlupů, s blanitými křídly a špičatým ocasem. Má lesní maskovací barvu.
+mechanics: Lesní dráček je plaché stvoření se slabými telepatickými schopnostmi, které přenáší pocity. Jednou denně dokáže vydechnout oblak jisker, který je nebezpečný (viz útok). Má zálibu v požírání smůly ze stromů. Po vyléčení ze spící plísně kýchne obláček jisker a usne posilujícím spánkem.
+strength: -1
+dexterity: +1
+inteligence: +1
+charisma: +1
+health_max: 5
+magenergy_max: 5
+attack:
+  Jiskřivý dech: 1
+defense: {}
+inventory: []
+location: Location:les

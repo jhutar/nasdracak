@@ -162,12 +162,15 @@ Seznam monster
 
 Rypáček
 -------
+Obvykle líné růžové stvoření s fenomenálním čichem. Při boji se ale dokáže rozkročit jako válečník, kvičí a cení zuby. Rypáček má fenomenální čich a je schopen vyčenichat vzácné lanýže i magické substance. V boji bojuje po boku postav a je schopen se bránit. Během honičky se ale musí popohánět, jinak chce žrát žaludy nebo zaútočit na nepřátele.
 
 Lesní dráček
 ------------
+Stvoření velikosti kočky, bez chlupů, s blanitými křídly a špičatým ocasem. Má lesní maskovací barvu. Lesní dráček je plaché stvoření se slabými telepatickými schopnostmi, které přenáší pocity. Jednou denně dokáže vydechnout oblak jisker, který je nebezpečný (viz útok). Má zálibu v požírání smůly ze stromů. Po vyléčení ze spící plísně kýchne obláček jisker a usne posilujícím spánkem.
 
 Obří krysa
 ----------
+Velká, zježená krysa s hladovým výrazem. Obří krysy jsou agresivní a snaží se sežrat spící kořist. Útočí ve skupinách.
 
 Pytlák Pivec
 ------------
