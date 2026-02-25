@@ -1,17 +1,17 @@
 id: Beast:rypacek
-category: prase
+category: zvire
 level: 1
 name: Rypáček
 appearance: Obvykle líné růžové stvoření s fenomenálním čichem. Při boji se ale dokáže rozkročit jako válečník, kvičí a cení zuby.
-mechanics: Rypáček má fenomenální čich a je schopen vyčenichat vzácné lanýže i magické substance. V boji bojuje po boku postav a je schopen se bránit. Během honičky se ale musí popohánět, jinak chce žrát žaludy nebo zaútočit na nepřátele.
+mechanics: Rypáček má fenomenální čich a je schopen vyčenichat vzácné magické substance (jako by měl dovednost Bylinkaření). Má speciální druh útoku kdy se jednou za 2 kola boje (první kolo nic nedělá, jen hledá vhodnou pozici) pokusí s rozběhem porazit nepřítele (nepřítem musí přehodit zkoušku na OBR (+ Pohyb) 4). Nepříteli pak trvá kolo vstát a než to udělá útoky na něj mají výhodu.
 strength: +1
 dexterity: 0
 inteligence: 0
-charisma: 0
+charisma: +1
 health_max: 5
 magenergy_max: 0
 attack:
-  Kousnutí rypákem: 1
+  Kousnutí: 1
 defense: {}
 inventory: []
 location: Location:vesnice

@@ -1,0 +1,18 @@
+id: Beast:lesni_dracek
+category: magicke
+level: 1
+name: Lesní dráček
+appearance: Stvoření velikosti kočky, bez chlupů, s blanitými křídly a špičatým ocasem. Má lesní maskovací barvu.
+mechanics: Lesní dráček je plaché stvoření se slabými telepatickými schopnostmi, které přenáší pocity. Za 3 magy dokáže vydechnout oblak jisker, viz útok. Má zálibu v požírání smůly ze stromů.
+strength: -1
+dexterity: +1
+inteligence: +1
+charisma: +1
+health_max: 5
+magenergy_max: 5
+attack:
+  Kousnutí: -1
+  Jiskřivý dech: 1
+defense: {}
+inventory: []
+location: Location:les
