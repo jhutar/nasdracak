@@ -174,4 +174,4 @@ Obří krysa
 
 Pytlák Pivec
 ------------
-TODO
+```tools/doit.py --data data/ --data docs/source/dobrodruzstvi/zlaty_rypacek/data/ format --entity Character:pytlak_pivec --template tools/templates/character.rst```

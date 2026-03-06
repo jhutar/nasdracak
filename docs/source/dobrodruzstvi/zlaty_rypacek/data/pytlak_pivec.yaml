@@ -1,0 +1,19 @@
+id: Character:pytlak_pivec
+race: Race:clovek-muz
+name: Pytlák Pivec
+appearance: Zarostlý vysoký chlap s kruhy pod malýma pichlavýma očkama. Když jeho hustý neupravený fous prořízne pootevřená pusa, vycení na vás zkažené zuby. Oblečen je jako běžný setlák v plátěných kalhotech a košili.
+background: Oficiálně jen další malý sedlák v Blansku, ale pro svou zálibu v alkoholu si musel najít i druhé povolání. Hospodskému, který se moc nevyptává, občas přihraje čerstvou zvěřinu. Šenkýř mu za to rád naleje i na dluh. Je to s podivem, ale i přes to pití má Pivec s kuší stále dobrou mušku a v lese se dokáže pohybovat neviděn. Celkově je to ale velkohubý zbabělec a pokud mu zdraví klesne an polovinu, uteče.
+strength: -1
+dexterity: +1
+inteligence: +1
+charisma: -1
+level: 2
+health: 10
+health_max: 10
+magenergy: 7
+magenergy_max: 7
+inventory:
+  - MeleeWeapon:dyka
+  - RangeWeapon:kuse-lehka
+occupation: Occupation:sedlak
+location: Location:vesnice
