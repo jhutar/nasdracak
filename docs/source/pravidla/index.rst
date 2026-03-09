@@ -28,37 +28,36 @@ Na rozdíl od některých jiných systémů nebudeme řešit povolání. Povolá
 
 Konkrétně mají rasy tyto vrozené vlastnosti:
 
-=========  ==========  ===============  =================  ===============
-Rasa       Síla (SÍL)  Obratnost (OBR)  Inteligence (INT)  Charisma (CHAR)
-=========  ==========  ===============  =================  ===============
-Hobiti     -2          0                -1                 +1
-Trpaslíci  +1          -2               0                  -1
-Lidé       -1          0                -1                 0
-Elfové     -2          -1               +1                 0
-Barbaři    +1          0                -2                 -1
-=========  ==========  ===============  =================  ===============
+========= ==== ==== ====
+Rasa      Tělo Mysl Duše
+========= ==== ==== ====
+Hobiti    -1   0   +1
+Trpaslíci +1   -1   0
+Lidé      0    0    0
+Elfové    -1   +1   0
+Barbaři   +1   0    -1
+========= ==== ==== ====
 
 2. Urči si konečné hodnoty vlastností. Protože každý se v životě vyvýjí jinak, teď si k vrozeným vlastnostem přidělíš speciální bonus pro dobrodruha.
 
-Nejdřív rychlé vysvětlení. Jak jsi už zjistil, rozlišujeme 4 vlastnosti:
+Nejdřív rychlé vysvětlení. Jak jsi už zjistil, rozlišujeme 3 vlastnosti:
 
-* **Síla (SÍL)** - Určuje, jak je tvá postava fyzicky silná. Použiješ ji při boji zblízka, páčení dveří nebo když se snažíš pohnout s něčím těžkým.
-* **Obratnost (OBR)** - Představuje mrštnost a rychlost tvé postavy. Uplatní se při obraně, střelbě z luku nebo třeba slézání skal.
-* **Inteligence (INT)** - Zahrnuje bystrost, paměť a schopnost řešit problémy. Budeš ji potřebovat třeba při používání magie.
-* **Charisma (CHAR)** - Odráží tvé společenské schopnosti, vzhled a sílu osobnosti, ale také tvou intuici. Pomůže ti při smlouvání ale i zastrašování.
+* **Tělo** - Určuje, jak je tvá postava fyzicky zdatná (jak je silná a mrštná). Použiješ ji při boji, vyrážení dveří, vyhýbání se útokům, střelbě z luku nebo když se snažíš pohnout s něčím těžkým.
+* **Mysl** - Zahrnuje bystrost, paměť, schopnost řešit problémy, logické uvažování a soustředění. Budeš ji potřebovat třeba při používání magie nebo poznávání nových věcí.
+* **Duše** - Odráží tvou intuici, empatii a sílu osobnosti. Pomůže ti při smlouvání, zastrašování, lhaní ale i pro prokouknutí lží.
 
-Nehráčské postavy mají vlastnosti také. Obyčejný člověk má průměrně 0 na každou vlastnost. Co čísla u jednotlivých vlastností znamenají?
+Nehráčské postavy mají vlastnosti také. Obyčejný člověk má průměrně 0 na všechny vlastnosti jak je vidět v tabulce vrozených vlastností. Co čísla u jednotlivých vlastností znamenají?
 
-* **-1:** V dané vlastnosti podprůměrný. Třeba hostinský s OBR -1 bude mírný nešika a při servírování občas upustí talíř nebo polije hosta.
+* **-1:** V dané vlastnosti podprůměrný. Třeba hostinský s TĚL -1 bude mírný nešika a při servírování občas upustí talíř nebo polije hosta.
 * **+0:** Průměrný člověk.
-* **+1:** Lehce nadprůměrný. Kovář bude mít nejspíš alespoň SÍL +1.
-* **+2:** V dané vlastnosti silně nadprůměrný. Kapitán stráží by mohl mít CHAR +2, aby dokázal velet svým mužům.
-* **+3:** Výjimečný. Městský mudrc, který přečetl stovky knih, se může pyšnit INT +3.
-* **+4:** V dané vlastnosti jeden z nejlepších v zemi. V našem světě bys někoho se silou +4 hledal na Olympiádě.
+* **+1:** Lehce nadprůměrný. Kovář bude mít nejspíš alespoň TĚL +1.
+* **+2:** V dané vlastnosti silně nadprůměrný. Kapitán stráží by mohl mít DUŠE +2, aby dokázal velet svým mužům.
+* **+3:** Výjimečný. Městský mudrc, který přečetl stovky knih, se může pyšnit MYSL +3.
+* **+4:** V dané vlastnosti jeden z nejlepších v zemi. V našem světě bys někoho s TĚL +4 hledal na Olympiádě.
 
 Takže teď je čas doladit vlastnosti tvé postavy. Vezmi vrozené hodnoty, které jsi získal v předchozím kroku a zvětš je následůjícím postupem:
 
-Buď můžeš (pro vyváženější postavu) ke *dvěma tebou vybraným vlastnostem přičíst dvojku* a ke *zbylým dvěma jedničku,* **nebo** (pro spíše extrémní postavu) k *jedné vlastnosti přidat trojku* a ke *dvěma jedničku*.
+Buď můžeš (pro vyváženější postavu) ke *dvěma tebou vybraným vlastnostem přičíst dvojku* a ke *zbylé jedné jedničku,* **nebo** (pro spíše extrémní postavu) k *jedné vlastnosti přidat trojku* a ke *zbylým dvěma jedničku*.
 
 .. admonition:: Příklad:
 
@@ -84,17 +83,17 @@ Předpokládej, že každý má batoh, měch na vodu a další běžné nezbytno
 
 Pokud životy tvé postavy klesnou na nulu nebo pod ni, tvá postava zemřela. Pokud na nulu klesne tvá magenergie, po kvalitním odpočinku se ti zase "dobije".
 
-Životů máš **5**. K tomu si přičti součet SÍL + OBR, ale pouze pokud je kladný.
+Životů máš **5**. K tomu si přičti hodnotu TĚL, ale pouze pokud je kladná.
 
 .. admonition:: Příklad:
 
-   Například hobit *Tvářička* z příkladu výše bude mít 5 životů (protože SÍL -1 + OBR +1 = 0), ale barbar 10 (5 + (SÍL +4 + OBR +1)) .
+   Například hobit *Tvářička* z příkladu výše bude mít 5 životů (protože TĚL 0), ale barbar 9 (5 + TĚL +4) .
 
-Množství magické energie (tzv. magů) je zase **5**. K tomu si přičti součet INT + CHAR, ale opět pouze pokud je kladný.
+Množství magické energie (tzv. magů) je zase **5**. K tomu si přičti součet MYSL + DUŠE, ale opět pouze pokud je kladný.
 
 .. admonition:: Příklad:
 
-   Postava hobita výše tedy začíná s 9 magy (5 + (INT +1 + CHAR +3)) a barbar s 5 magy (protože INT -2 + CHAR 0 = -2).
+   Postava hobita výše tedy začíná s 9 magy (5 + (MYSL +1 + DUŠE +3)) a barbar s 5 magy (protože MYSL -1 + DUŠE 0 = -1, a protože součet neni kladný tak se nic nepřičítá).
 
 
 
@@ -107,8 +106,8 @@ Na tvou postavu ale volá dobrodružství a za vykonané činy získává body z
 
 Při přestupu na další úroveň si:
 
-* **Zvýšení počtu životů:** k maximálnímu počtu životů si přičti 3. K tomu si přičti součet SÍL + OBR, ale pouze pokud je kladný.
-* **Zvýšení množství magické energie:** k maximálnímu množství magenergie si přičti 3. K tomu si přičti součet INT + CHAR, ale opět pouze pokud je kladný.
+* **Zvýšení počtu životů:** k maximálnímu počtu životů si přičti 3. K tomu si přičti hodnotu TĚL, ale pouze pokud je kladná.
+* **Zvýšení množství magické energie:** k maximálnímu množství magenergie si přičti 3. K tomu si přičti součet MYSL + DUŠE, ale opět pouze pokud je kladný.
 * **Nová dovednost:** vyber si jednu novou dovednost.
 
 ===================  ======  ==============================
@@ -177,7 +176,7 @@ Základní pravidlo pro zkoušky je:
 Pojďme si to rozebrat:
 
 1.  **Hod kostkou:** Jednoduše hodíš šestistěnnou kostkou.
-2.  **Bonus za vlastnost:** K hodu si přičteš (nebo od něj odečteš) číslo, které má tvá postava u dané vlastnosti (SÍL, OBR, INT, nebo CHAR). Je to tvůj přirozený talent.
+2.  **Bonus za vlastnost:** K hodu si přičteš (nebo od něj odečteš) číslo, které má tvá postava u dané vlastnosti (TĚL, MYSL, nebo DUŠE). Je to tvůj přirozený talent.
 3.  **Bonus za dovednosti:** Pokud máš bonus pro oblast dovedností která se k úkolu hodí, přičteš si za ni bonus. To je odměna za tvůj trénink v této oblasti.
 
 Zkouška bez bonusu
@@ -187,12 +186,12 @@ Když se o něco pokoušíš jen tak, bez speciálního tréninku, hod je jednod
 
 .. admonition:: Příklad: Tvářička a těžký balvan
 
-   Hobit *Tvářička* konečně našel kouzelný pramen, ale ten je zavalený těžkým balvanem. Pokusí se ho odvalit. Pán jeskyně určí, že je to zkouška na **Sílu** s obtížností **3**. *Tvářička* má ale **SÍL -1**.
-   
+   Hobit *Tvářička* konečně našel kouzelný pramen, ale ten je zavalený těžkým balvanem. Pokusí se ho odvalit. Pán jeskyně určí, že je to zkouška na **Tělo** s obtížností **3**. *Tvářička* má ale **TĚL -1**.
+
    Hráč hodí kostkou a padne mu **5**.
-   
-   Výsledek je: 5 (hod) - 1 (SÍL) = **4**.
-   
+
+   Výsledek je: 5 (hod) - 1 (TĚL) = **4**.
+
    Protože 4 je větší nebo rovno 3, *Tvářička* sice chvíli heká a funí, ale nakonec balvan odstrčí z cesty. Úspěch!
 
 Zkouška s bonusem
@@ -202,24 +201,24 @@ Když využiješ něco, co ses naučil a připočítáváš si bonus dovednosti:
 
 .. admonition:: Příklad: Tvářička a jedovaté zuby
 
-   Po souboji s kouzelným hadem chce *Tvářička* sebrat jeho cenné jedové zuby. To chce šikovné ruce! Pán jeskyně stanoví zkoušku na **Obratnost** s bonusem **Alchymie** s obtížností **4**. *Tvářička* má **OBR +1** a protože má dovednost "Získávání surovin", má **bonus +1** na "Alchymie".
-   
+   Po souboji s kouzelným hadem chce *Tvářička* sebrat jeho cenné jedové zuby. To chce šikovné ruce! Pán jeskyně stanoví zkoušku na **Tělo** s bonusem **Alchymie** s obtížností **4**. *Tvářička* má **TĚL 0** a protože má dovednost "Získávání surovin", má **bonus +1** na "Alchymie".
+
    Hráč hodí kostkou a padne mu **3**.
-   
-   Výsledek je: 3 (hod) + 1 (OBR) + 1 (Vliv) = **5**.
-   
+
+   Výsledek je: 3 (hod) + 0 (TĚL) + 1 (Alchymie) = **4**.
+
    Protože 5 je větší nebo rovno 4, *Tvářička* opatrně vylomí jedové zuby, aniž by se poškodily. Úspěch!
 
 Někdy ti pomůže víc naučených dovedností najednou:
 
 .. admonition:: Příklad: Tvářička prodává suroviny
 
-   Ve vesnici chce *Tvářička* prodat zuby babce kořenářce za co nejlepší cenu. Pán jeskyně určí zkoušku na **Charisma** s bonusem **Vliv** s obtížností **6**. *Tvářička* má **CHAR +3** a umí "Přesvědčování" (+1) i "Postřeh" (+1). Obě dovednosti zvětšují bonus "Vliv", takže se výhoda při zkoušce zvětšuje!
-   
+   Ve vesnici chce *Tvářička* prodat zuby babce kořenářce za co nejlepší cenu. Pán jeskyně určí zkoušku na **Duši** s bonusem **Vliv** s obtížností **6**. *Tvářička* má **DUŠE +3** a umí "Přesvědčování" (+1) i "Postřeh" (+1). Obě dovednosti zvětšují bonus "Vliv", takže se výhoda při zkoušce zvětšuje!
+
    Hráč hodí kostkou a padne mu **2**.
-   
-   Výsledek je: 2 (hod) + 3 (CHAR) + 2 (Vliv) = **7**.
-   
+
+   Výsledek je: 2 (hod) + 3 (DUŠE) + 2 (Vliv) = **7**.
+
    Protože 7 je větší nebo rovno 6, babka je Tvářičkovým šarmem a výřečností tak okouzlena, že mu dá celých 12 zlatých. Úspěch!
 
 
