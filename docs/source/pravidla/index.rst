@@ -35,7 +35,7 @@ Hobiti    -1   0   +1
 Trpaslíci +1   -1   0
 Lidé      0    0    0
 Elfové    -1   +1   0
-Barbaři   +1   0    -1
+Barbaři   +1   -1   0
 ========= ==== ==== ====
 
 2. Urči si konečné hodnoty vlastností. Protože každý se v životě vyvýjí jinak, teď si k vrozeným vlastnostem přidělíš speciální bonus pro dobrodruha.
@@ -55,17 +55,15 @@ Nehráčské postavy mají vlastnosti také. Obyčejný člověk má průměrně
 * **+3:** Výjimečný. Městský mudrc, který přečetl stovky knih, se může pyšnit MYSL +3.
 * **+4:** V dané vlastnosti jeden z nejlepších v zemi. V našem světě bys někoho s TĚL +4 hledal na Olympiádě.
 
-Takže teď je čas doladit vlastnosti tvé postavy. Vezmi vrozené hodnoty, které jsi získal v předchozím kroku a zvětš je následůjícím postupem:
-
-Buď můžeš (pro vyváženější postavu) ke *dvěma tebou vybraným vlastnostem přičíst dvojku* a ke *zbylé jedné jedničku,* **nebo** (pro spíše extrémní postavu) k *jedné vlastnosti přidat trojku* a ke *zbylým dvěma jedničku*.
+Teď dáme tvé postavě předpoklady pro konání velkých skutků. Vezmi vrozené hodnoty, které jsi získal v předchozím kroku a zvětš je pomocí 3 bonusových bodů.
 
 .. admonition:: Příklad:
 
-   Příklad pro hobita jménem *Tvářička* (vytvořeného jako vyvážená postava): hobiti začínají s vrozenými vlastnostmi SÍL -2, OBR 0, INT -1 a CHAR +1. Hráč se rozhodl, že chce hobita roztomilého a inteligentního, přidá dvojku k CHAR a INT a jedničku k SÍL a OBR. Ve výsledku tedy budou vlastnosti SÍL -1, OBR +1, INT +1 a CHAR +3.
+   Příklad pro hobita jménem *Tvářička*: hobiti začínají s vrozenými vlastnostmi TĚLO -1, MYSL 0 a DUŠE +1. Hráč se rozhodl, že chce hobita roztomilého a inteligentního, přidá dvojku k DUŠE a jedničku k MYSL. Ve výsledku tedy budou vlastnosti TĚLO -1, MYSL +1 a DUŠE +3.
 
 .. admonition:: Příklad:
 
-   Příklad barbara jménem *Pěst plání* (vytvořeného jako extrémní postava): začínáme s SÍL +1, OBR 0, INT -2 a CHAR -1. Hráč se rozhodl, že jeho postava bude prostě jen hora svalů, a tak přidá trojku k SÍL a jedničku k OBR a CHAR. Výsledná postava tedy má SÍL +4, OBR +1, INT -2 a CHAR 0.
+   Příklad barbara jménem *Pěst plání*: začínáme s TĚLO +1, MYSL 0 a DUŠE -1. Hráč se rozhodl, že jeho postava bude prostě jen hora svalů, a tak prostě přidá trojku na TĚLO. Výsledná postava tedy má TĚLO +4, MYSL 0 a DUŠE -1.
 
 3. Ze seznamu si vyber 3 dovednosti, které tvá postava ovládá. Dovednosti jsou schopnosti, které ses za svůj dosavadní život naučil a s přibívajícími levely budeš získávat další.
 
@@ -83,17 +81,17 @@ Předpokládej, že každý má batoh, měch na vodu a další běžné nezbytno
 
 Pokud životy tvé postavy klesnou na nulu nebo pod ni, tvá postava zemřela. Pokud na nulu klesne tvá magenergie, po kvalitním odpočinku se ti zase "dobije".
 
-Životů máš **5**. K tomu si přičti hodnotu TĚL, ale pouze pokud je kladná.
+Životů máš **5**. K tomu si přičti hodnotu TĚLO, ale pouze pokud je kladná.
 
 .. admonition:: Příklad:
 
-   Například hobit *Tvářička* z příkladu výše bude mít 5 životů (protože TĚL 0), ale barbar 9 (5 + TĚL +4) .
+   Například hobit *Tvářička* z příkladu výše bude mít 5 životů (5 + 0, protože TĚLO má -1), ale barbar 9 (5 + TĚLO +4) .
 
-Množství magické energie (tzv. magů) je zase **5**. K tomu si přičti součet MYSL + DUŠE, ale opět pouze pokud je kladný.
+Množství magické energie (tzv. magů) je zase **5**. K tomu si přičti to větší z MYSL nebo DUŠE, ale pouze pokud je kladný.
 
 .. admonition:: Příklad:
 
-   Postava hobita výše tedy začíná s 9 magy (5 + (MYSL +1 + DUŠE +3)) a barbar s 5 magy (protože MYSL -1 + DUŠE 0 = -1, a protože součet neni kladný tak se nic nepřičítá).
+   Postava hobita výše tedy začíná s 8 magy (5 + DUŠE +3) a barbar s 5 magy (5 + DUŠE 0).
 
 
 
@@ -106,14 +104,14 @@ Na tvou postavu ale volá dobrodružství a za vykonané činy získává body z
 
 Při přestupu na další úroveň si:
 
-* **Zvýšení počtu životů:** k maximálnímu počtu životů si přičti 3. K tomu si přičti hodnotu TĚL, ale pouze pokud je kladná.
-* **Zvýšení množství magické energie:** k maximálnímu množství magenergie si přičti 3. K tomu si přičti součet MYSL + DUŠE, ale opět pouze pokud je kladný.
+* **Zvýšení počtu životů:** k maximálnímu počtu životů si přičti 3. K tomu si přičti hodnotu TĚLO, ale pouze pokud je kladná.
+* **Zvýšení množství magické energie:** k maximálnímu množství magenergie si přičti 3. K tomu si přičti větší z MYSL nebo DUŠE, ale opět pouze pokud je kladný.
 * **Nová dovednost:** vyber si jednu novou dovednost.
 
-===================  ======  ==============================
+===================  ======  =======================================
 Množství zkušeností  Úroveň  Co to znamená
-===================  ======  ==============================
-0                    1       Běžný člověk
+===================  ======  =======================================
+0                    1       Běžný člověk který nevytáhl paty z domu
 100                  2
 300                  3
 900                  4       Vesnický/městský hrdina
@@ -123,7 +121,7 @@ Množství zkušeností  Úroveň  Co to znamená
 72900                8
 218700               9
 656100               10      Hrdina celého království
-===================  ======  ==============================
+===================  ======  =======================================
 
 
 Vybavení
@@ -186,40 +184,40 @@ Když se o něco pokoušíš jen tak, bez speciálního tréninku, hod je jednod
 
 .. admonition:: Příklad: Tvářička a těžký balvan
 
-   Hobit *Tvářička* konečně našel kouzelný pramen, ale ten je zavalený těžkým balvanem. Pokusí se ho odvalit. Pán jeskyně určí, že je to zkouška na **Tělo** s obtížností **3**. *Tvářička* má ale **TĚL -1**.
+   Hobit *Tvářička* konečně našel kouzelný pramen, ale ten je zavalený těžkým balvanem. Pokusí se ho odvalit. Pán jeskyně určí, že je to zkouška na **Tělo** s obtížností **3**. *Tvářička* má ale **TĚLO -1**.
 
    Hráč hodí kostkou a padne mu **5**.
 
-   Výsledek je: 5 (hod) - 1 (TĚL) = **4**.
+   Výsledek je: 5 (hod) - 1 (TĚLO) = **4**.
 
-   Protože 4 je větší nebo rovno 3, *Tvářička* sice chvíli heká a funí, ale nakonec balvan odstrčí z cesty. Úspěch!
+   Protože 4 je větší nebo rovno (čili >=) 3, *Tvářička* sice chvíli heká a funí, ale nakonec balvan odstrčí z cesty. Úspěch!
 
 Zkouška s bonusem
 -----------------
 
-Když využiješ něco, co ses naučil a připočítáváš si bonus dovednosti:
+Když využiješ něco, co ses naučil, připočítáváš si bonus dovednosti:
 
 .. admonition:: Příklad: Tvářička a jedovaté zuby
 
-   Po souboji s kouzelným hadem chce *Tvářička* sebrat jeho cenné jedové zuby. To chce šikovné ruce! Pán jeskyně stanoví zkoušku na **Tělo** s bonusem **Alchymie** s obtížností **4**. *Tvářička* má **TĚL 0** a protože má dovednost "Získávání surovin", má **bonus +1** na "Alchymie".
+   Po souboji s kouzelným hadem chce *Tvářička* sebrat jeho cenné jedové zuby. To chce šikovné ruce! Pán jeskyně stanoví zkoušku na **Tělo** s bonusem **Alchymie** s obtížností **4**. *Tvářička* má **TĚLO -1** a protože má dovednost "Získávání surovin", má **bonus +1** na "Alchymie".
 
-   Hráč hodí kostkou a padne mu **3**.
+   Hráč hodí kostkou a padne mu **4**.
 
-   Výsledek je: 3 (hod) + 0 (TĚL) + 1 (Alchymie) = **4**.
+   Výsledek je: 4 (hod) + -1 (TĚLO) + +1 (Alchymie) = **4**.
 
-   Protože 5 je větší nebo rovno 4, *Tvářička* opatrně vylomí jedové zuby, aniž by se poškodily. Úspěch!
+   Protože 4 je větší nebo rovno (>=) 4, *Tvářička* opatrně vylomí jedové zuby, aniž by se poškodily. Úspěch!
 
-Někdy ti pomůže víc naučených dovedností najednou:
+Někdy ti pomůže víc naučených dovedností najednou pokud přidávají ke stejnému bonusu:
 
 .. admonition:: Příklad: Tvářička prodává suroviny
 
-   Ve vesnici chce *Tvářička* prodat zuby babce kořenářce za co nejlepší cenu. Pán jeskyně určí zkoušku na **Duši** s bonusem **Vliv** s obtížností **6**. *Tvářička* má **DUŠE +3** a umí "Přesvědčování" (+1) i "Postřeh" (+1). Obě dovednosti zvětšují bonus "Vliv", takže se výhoda při zkoušce zvětšuje!
+   Ve vesnici chce *Tvářička* prodat zuby babce kořenářce za větší než běžnou cenu. Pán jeskyně určí zkoušku na **Duši** s bonusem **Vliv** s obtížností **6**. *Tvářička* má **DUŠE +3** a dovednosti "Přesvědčování" (+1 k Vliv) a "Postřeh" (zase +1 k Vliv). Obě dovednosti zvětšují bonus "Vliv", takže se výhoda při zkoušce zvětšuje!
 
    Hráč hodí kostkou a padne mu **2**.
 
-   Výsledek je: 2 (hod) + 3 (DUŠE) + 2 (Vliv) = **7**.
+   Výsledek je: 2 (hod) + +3 (DUŠE) + +2 (Vliv) = **7**.
 
-   Protože 7 je větší nebo rovno 6, babka je Tvářičkovým šarmem a výřečností tak okouzlena, že mu dá celých 12 zlatých. Úspěch!
+   Protože 7 >= 6, babka je Tvářičkovým šarmem a výřečností tak okouzlena, že mu dá celých 12 zlatých. Úspěch!
 
 
 Boj
