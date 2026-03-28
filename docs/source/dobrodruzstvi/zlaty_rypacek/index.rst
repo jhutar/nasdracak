@@ -28,7 +28,7 @@ Postavy procházejí vesnicí, když uslyší nářek. Před úhlednou chaloupko
    Na lavičce před chalupou, která zemitě voní sušenými houbami, sedí babička s šátkem na hlavě. Pláče tak usedavě, že jí slzy máčí zástěru. "Můj Rypáček! Můj malý, sladký Rypáček! Co si bez něj počnu? Bez něj jsem... tedy, bez něj bude můj život prázdný! Určitě se ztratil v lese, chudáček malý, a sežerou ho vlci!"
    Když zahlédne vaši skupinku poprosí ji o pomoc: "Prosím, prosím, je vás dost a vypadáte že se nebojíte. Najděte mi mého čuníka! Když se vám to podaří, dostanete ty nejlepší zavařeniny jaké jste kdy jedli a mám tu i speciální olej který by se dobrodruhům jako vy mohl hodit."
 
-Pokud se hráči zeptají, proč je to prase tak důležité Chrasta znervózní a řekne, že je to „památka na manžela“. Nechce prozradit byznys s lanýži. Pokus rozpoznat lež (*zkouška CHAR (+ Prohnanost) 6*) umožní poznat že jim babička lže, ale ne co je pravda.
+Pokud se hráči zeptají, proč je to prase tak důležité Chrasta znervózní a řekne, že je to „památka na manžela“. Nechce prozradit byznys s lanýži. Pokus rozpoznat lež (*zkouška Duše (+ Intuice) 6*) umožní poznat že jim babička lže, ale ne co je pravda.
 
 Pátrání ve vesnici
 ==================

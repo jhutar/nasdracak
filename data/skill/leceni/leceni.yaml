@@ -3,5 +3,5 @@ name: Léčení
 description: Dokážeš připravovar drijáky na léčbu vážných zranění, zastavovat krvácení a urychlovat zotavení.
 rule: Znáš recepty "Léčivý lektvar" a "Zázračný obvaz".
 who: kdo má dovednost
-bonus: Bonus:leceni
+bonus: Bonus:ranhojicstvi
 requires: []

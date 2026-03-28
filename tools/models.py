@@ -187,6 +187,7 @@ class Bonus(BaseModelWithId):
 
     name: str
     description: str
+    trait: str
 
 
 class Skill(BaseModelWithId):
