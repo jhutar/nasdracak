@@ -5,15 +5,14 @@
 
 ## Summary
 
-This plan outlines the structure and required research to draft the fantasy adventure story "Rosný lán". The story will be written in Markdown/reST, following a 5-Act structure, from the first-person perspective of the 14-year-old protagonist, Pája. It weaves three distinct narrative arcs (rescuing Rypáček, saving Bělka, and defeating Vratislav's Běs) into a cohesive narrative demonstrating that understanding nature is more powerful than brute force. The central conflict involves Vratislav, who, rather than fighting for the pasture itself, uses his control over the Běs to extort the villagers to build his own criminal gang.
+This plan outlines the structure and required research to draft the fantasy adventure story "Ohrožená vesnice". The story will be written in Markdown, following a 5-Act structure, from the first-person perspective of the 14-year-old protagonist, Pája. It weaves three distinct narrative arcs (rescuing Rypáček, saving Bělka, and defeating Vratislav's Běs) into a cohesive narrative demonstrating that understanding nature is more powerful than brute force. The central conflict involves Vratislav, who was hired just to win one pasture for one vilage, bude decides to take control of two villages completely. He uses his control over the Běs to extort the villagers to get money to build his own criminal gang.
 
 ## Technical Context
 
-**Language/Version**: Čeština (Czech), Markdown with reStructuredText (`reST`) admonitions.
-**Primary Dependencies**: Sphinx (for final documentation/book generation).
-**Storage**: Text files in the `docs/` and `gamebook/` directories.
+**Language/Version**: Čeština (Czech).
+**Storage**: Text files in the `kniha/` directory.
 **Testing**: Manual review against Constitution v2.0.0 and `spec.md` Success Criteria.
-**Target Platform**: PDF/HTML book formats via Sphinx.
+**Target Platform**: Markdown document.
 **Project Type**: Book Chapter/Story Draft.
 **Performance Goals**: Target word count: 45,000 - 50,000 characters.
 **Constraints**: MUST NOT contain explicit RPG mechanics or terminology (Constitution v2.0.0). MUST use "tykání" in any instructional/interactive text if applicable, though the main story is first-person limited.
@@ -25,7 +24,7 @@ This plan outlines the structure and required research to draft the fantasy adve
 - [x] **Historická věrnost**: Je děj zasazen do konce 14. století na Moravě a využívá slovanskou mytologii? (Yes, Blansko, Těchov, Polevik, Běs).
 - [x] **RPG Mechaniky**: Jsou herní prvky zjednodušeny a *nejsou* explicitně zmiňovány v textu? (Yes, validated in spec.md).
 - [x] **Jazyk a Styl**: Je použit fantasy sloh srozumitelný dětem? (Yes).
-- [x] **Technické Standardy**: Dodržuje dokumentace reST? (Yes, markdown with reST hints).
+- [x] **Technické Standardy**: Dodržuje dokumentace Markdown? (Yes).
 - [x] **Git Workflow**: Bude commit obsahovat trailer Generated-by:Gemini a sumář promptu? (Yes).
 
 ## Project Structure
@@ -41,16 +40,15 @@ specs/001-dobrodruzna-povidka/
 └── subplots.md          # Narrative arcs
 ```
 
-### Source Code (repository root)
+### Output data
+
+We are working in `kniha/` directory of a bigger git repository, but no need to go away from this directory.
 
 ```text
-docs/source/
-└── dobrodruzstvi/
-    └── zlaty_rypacek/
-        └── povidka.md   # Or .rst, the main output file
+└── povidka.md
 ```
 
-**Structure Decision**: The story will be drafted as a text document within the existing `docs/source/` structure, likely as `povidka.md` or `povidka.rst` depending on the exact build pipeline requirements.
+**Structure Decision**: The story will be drafted as a text document within the existing `kniha/` structure as `povidka.md`.
 
 ## Complexity Tracking
 
