@@ -69,13 +69,21 @@ Jako čtenář chci zažít vrcholné napětí při boji s monstrem a Vratislave
 
 ### Key Entities
 
-- **Pája**: Hlavní hrdinka, bylinkářka, znalkyně zvířat, 12 let. Má ráda dobré smlouvání. Dobrosrdečná, starostlivá.
-- **Radmila**: Mentorka, bylinkářka, bývalá dobrodružka ale nikdo to o ní neví.
-- **Jarmil**: Polevik, duch Rosného lánu.
-- **Rypáček**: Prasátko s lanýžovým čichem.
-- **Vratislav**: Antagonista, ovládající monstrum kostěnou píšťalkou.
-- **Ochočený vlk**: Pájin spojenec.
-- **Rosný lán**: Klíčová lokalita, zázračná pastvina.
+- **Pája**: Hlavní hrdinka, bylinkářka, znalkyně zvířat, 14 let. Má ráda dobré smlouvání. Dobrosrdečná, starostlivá, ale má i negativní vlastnost (např. občasná zbrklost nebo přílišná sebedůvěra).
+- **Radmila**: Mentorka, bylinkářka, bývalá dobrodružka (lukostřelkyně), ale nikdo ve vesnici to o ní neví.
+- **Jarmil**: Polevik, duch Rosného lánu. Mrzutý, ale ne zlý. Miluje hádanky, obchodování (věci s příběhem) a stará se o trávu.
+- **Rypáček**: Babiččino prasátko s fenomenálním čichem na lanýže (což je tajemství). Statečný obránce.
+- **Babička Chrasta**: Zděnkovitá babička, tajná sběratelka lanýžů pro bohaté měšťany.
+- **Lesní dráček**: Malé okřídlené stvoření s telepatickými schopnostmi, které Pája zachrání a ochočí si ho. Vylučuje uspávací jed.
+- **Koza Bělka**: Neuvěřitelně šťastná, ale problematická koza, která přitahuje maléry. Má ráda meduňku.
+- **Vratislav**: Hlavní antagonista. Bývalý psovod a hajný, vyhozený za pytláctví a krutost. Nenávidí vesničany. Ovládá Běsa pomocí kostěné píšťalky.
+- **Hrom a Křivák**: Vratislavovi poskoci. Hrom je obrovský, hloupý rváč. Křivák je malý, záludný zloděj.
+- **Pytlák Pivec**: Zarostlý hromotluk s kuší, který se pokusí ukrást Rypáčka.
+- **Běs (Monstrum)**: Lesní démon vázaný do zvířecí podoby (velikost telete, drátovité štětiny, žhnoucí oči). Ovládán Vratislavem.
+- **Ochočený vlk**: Pájův zvířecí spojenec, kterého si postupně získá.
+- **Rychtářka Vítka**: Rychtářka z Blanska, zodpovědná, bývalá dobrodružka (zná se s Radmilou).
+- **Rosný lán**: Klíčová lokalita, zázračná pastvina provoněná bylinkami, ležící mezi Blanskem a Těchovem.
+- **Vlčí žleb**: Zalesněné údolí, kde Rypáček najde dráčka.
 
 ## Success Criteria *(mandatory)*
 
