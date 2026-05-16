@@ -31,7 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Historická věrnost**: Je děj zasazen do konce 14. století na Moravě a využívá slovanskou mytologii?
+- [ ] **RPG Mechaniky**: Jsou herní prvky zjednodušeny pro děti (6+)?
+- [ ] **Jazyk a Styl**: Je použit "tykání" a fantasy sloh srozumitelný dětem?
+- [ ] **Terminologie**: Jsou použity pojmy SÍL, magenergie, životy?
+- [ ] **Technické Standardy**: Dodržuje kód black/flake8 a dokumentace reST (včetně admonition pro příklady)?
+- [ ] **Git Workflow**: Bude commit obsahovat trailer Generated-by:Gemini a sumář promptu?
 
 ## Project Structure
 

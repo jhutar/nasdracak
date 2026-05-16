@@ -1,50 +1,80 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: [CONSTITUTION_VERSION] (placeholder) → 1.0.0
+- List of modified principles:
+  - [PRINCIPLE_1_NAME] → I. Historická věrnost a mýty
+  - [PRINCIPLE_2_NAME] → II. RPG Mechaniky a Magie
+  - [PRINCIPLE_3_NAME] → III. Jazyk a Styl
+  - [PRINCIPLE_4_NAME] → IV. Konzistentní Terminologie
+  - [PRINCIPLE_5_NAME] → V. Technická Integrita
+- Added sections:
+  - Technické a Formátovací Standardy
+  - Proces Vývoje a Validace
+- Templates requiring updates:
+  - ✅ updated: .specify/templates/plan-template.md
+  - ✅ updated: .specify/templates/spec-template.md
+  - ✅ updated: .specify/templates/tasks-template.md
+- Follow-up TODOs: none
+-->
+
+# Nasdracak RPG & Povídka Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Historická věrnost a mýty
+Děj a pravidla jsou pevně zasazeny do konce 14. století na středověké Moravě. Historické reálie jsou organicky propojeny s prvky slovanské mytologie (běsové, vodníci, víly). Racionální středověký svět je obohacen o magické prvky, které však nesmí narušit atmosféru doby.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. RPG Mechaniky a Magie
+Projekt integruje magii a herní systémy inspirované D&D a Dračím doupětem. Tyto systémy MUST být zjednodušeny tak, aby byly přístupné dětem od 6 let. Magie je vzácná a nebezpečná, herní mechanismy musí být vysvětlitelné během několika minut.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Jazyk a Styl
+Veškeré texty (pravidla i povídky) jsou psány v češtině. Ke čtenáři/hráči se MUST přistupovat s úctou pomocí "tykání" (např. "Vytvoř si postavu"). Jazyk musí být bohatý, ve fantasy stylu, ale srozumitelný dětskému publiku bez zbytečných archaismů, které by bránily pochopení.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Konzistentní Terminologie
+Ve všech částech projektu se MUST dodržovat jednotná terminologie:
+- Síla postavy = SÍL
+- Magická energie = magenergie
+- Zdraví/Body výdrže = životy
+Nedodržení této terminologie je považováno za chybu v integritě systému.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Technická Integrita
+Pravidla jsou spravována ve formátu reStructuredText pro zajištění kvalitního exportu (Sphinx). Pomocné skripty v adresáři `tools/` MUST dodržovat standardy `black` (formátování), `flake8` (linting) a MUST být pokryty testy `pytest`.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Technické a Formátovací Standardy
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### Dokumentace (Sphinx/reST)
+- Pravidla jsou psána srozumitelně a přímo k věci.
+- Příklady v pravidlech MUST být formátovány pomocí `.. admonition:: Příklad:` s odsazeným textem.
+- Hlavní vstupní bod pravidel je `docs/source/pravidla/index.rst`.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### Git a Gemini Workflow
+- Používáme "Conventional commits" (v češtině, bez diakritiky).
+- Změny generované AI MUST obsahovat trailer `Generated-by:Gemini`.
+- Commit message MUST obsahovat zesumarizovaný prompt poskytnutý operátorem.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Proces Vývoje a Validace
+
+### Kvalita Kódu
+Všechny skripty v `tools/` jsou spouštěny ve virtuálním prostředí `venv/`. Před commitem je doporučeno spustit:
+- `venv/bin/black tools/`
+- `venv/bin/flake8 tools/`
+- `venv/bin/pytest tools/tests/`
+
+### Validace Dat
+Jakákoliv data (např. bestiář, gamebook uzly) MUST být validována pomocí:
+- `venv/bin/python tools/doit.py --data data/ lint`
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+Tato ústava je nejvyšším dokumentem projektu. Veškeré změny v kódu, textech nebo procesech musí být v souladu s jejími principy.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+### Změny a Revize
+- Jakákoliv změna v ústavě vyžaduje zvýšení verze (Semantic Versioning).
+- Změna principu = MAJOR bump.
+- Přidání standardu = MINOR bump.
+- Oprava překlepů = PATCH bump.
+
+### Soulad (Compliance)
+Všechny Pull Requesty a automatické generování textu musí být kontrolovány proti sekci "Constitution Check" v plánech implementace.
+
+**Version**: 1.0.0 | **Ratified**: 2026-05-16 | **Last Amended**: 2026-05-16

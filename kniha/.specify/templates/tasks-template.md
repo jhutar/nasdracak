@@ -150,9 +150,10 @@ Examples of foundational tasks (adjust based on your project):
 
 **Purpose**: Improvements that affect multiple user stories
 
-- [ ] TXXX [P] Documentation updates in docs/
-- [ ] TXXX Code cleanup and refactoring
-- [ ] TXXX Performance optimization across all stories
+- [ ] TXXX [P] Review terminology (SÍL, magenergie, životy) across all files
+- [ ] TXXX [P] Validate tone and "tykání" for consistency with children audience
+- [ ] TXXX [P] Documentation updates in docs/ (ensure reST admonitions for examples)
+- [ ] TXXX Code cleanup and refactoring (run black/flake8)
 - [ ] TXXX [P] Additional unit tests (if requested) in tests/unit/
 - [ ] TXXX Security hardening
 - [ ] TXXX Run quickstart.md validation

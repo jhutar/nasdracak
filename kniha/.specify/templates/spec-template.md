@@ -75,6 +75,13 @@
 - What happens when [boundary condition]?
 - How does system handle [error scenario]?
 
+## Language & Tone *(mandatory)*
+
+- **Jazyk**: Čeština
+- **Oslovení**: Tykání (v souladu s principem III)
+- **Styl**: Fantasy, srozumitelný pro děti (6+)
+- **Terminologie**: MUST používat SÍL, magenergie, životy
+
 ## Requirements *(mandatory)*
 
 <!--
