@@ -14,7 +14,7 @@ Pro literární dílo (povídku) tento dokument primárně mapuje klíčové pos
 
 2. **Vratislav (Antagonista)**
    - Role: Zlý žoldák a bývalý psovod.
-   - Motivace: Touha po moci a penězích, nenávist k obyčejným vesničanům.
+   - Motivace: Touha po moci a penězích, nenávist k obyčejným vesničanům. Chce vydírat okolí pomocí svého monstra a postavit si zločineckou bandu.
    - Vztahy:
      - Velí Hromovi a Křivákovi.
      - Zotročil a ovládá Běsa (pomocí Kostěné píšťalky).

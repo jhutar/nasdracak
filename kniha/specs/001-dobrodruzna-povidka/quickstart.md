@@ -3,7 +3,7 @@
 Tento dokument slouzi jako rychly prehled pro orientaci v nove vznikajici povidce.
 
 ## Kontext
-Povidka vypravi pribeh ctrnactilete Paji, ktera zije ve stredovekem Blansku. Ačkoliv se chce stat slavnou chovatelkou koni, udalosti ji donuti celit krutemu zoldakovi Vratislavovi a jeho magickemu monstru (Besovi), aby zachranila svou vesnici i magickou louku Rosny lan.
+Povidka vypravi pribeh ctrnactilete Paji, ktera zije ve stredovekem Blansku. Ačkoliv se chce stat slavnou chovatelkou koni, udalosti ji donuti celit krutemu zoldakovi Vratislavovi a jeho magickemu monstru (Besovi). Vratislav vyuziva sva monstra k vydirani vesnic, aby ziskal penize na vytvoreni vlastniho gangu. Paja musi zachranit svou vesnici i magickou louku Rosny lan.
 
 ## Klicove Dokumenty
 - **Specifikace (spec.md)**: Definuje postavy, pozadavky a celkove vyzneni.

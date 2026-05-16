@@ -5,7 +5,7 @@
 
 ## Summary
 
-This plan outlines the structure and required research to draft the fantasy adventure story "Rosný lán". The story will be written in Markdown/reST, following a 5-Act structure, from the first-person perspective of the 14-year-old protagonist, Pája. It weaves three distinct narrative arcs (rescuing Rypáček, saving Bělka, and defeating Vratislav's Běs) into a cohesive narrative demonstrating that understanding nature is more powerful than brute force.
+This plan outlines the structure and required research to draft the fantasy adventure story "Rosný lán". The story will be written in Markdown/reST, following a 5-Act structure, from the first-person perspective of the 14-year-old protagonist, Pája. It weaves three distinct narrative arcs (rescuing Rypáček, saving Bělka, and defeating Vratislav's Běs) into a cohesive narrative demonstrating that understanding nature is more powerful than brute force. The central conflict involves Vratislav, who, rather than fighting for the pasture itself, uses his control over the Běs to extort the villagers to build his own criminal gang.
 
 ## Technical Context
 

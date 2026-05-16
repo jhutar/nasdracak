@@ -46,7 +46,7 @@ Jako čtenář chci sledovat, jak Pája využívá své znalosti bylinek a magii
 
 Jako čtenář chci zažít vrcholné napětí při boji s monstrem a Vratislavem, aby příběh skončil uspokojivým vítězstvím a hrdinským uznáním Páji.
 
-**Why this priority**: Uzavírá všechny dějové linky a přináší emocionální odměnu.
+**Why this priority**: Uzavírá všechny dějové linky a přináší emocionální odměnu. Vratislavova snaha vydírat vesnice a vybudovat si gang je zastavena.
 
 **Independent Test**: Čtenář dočte až k epilogu, kde Pája dostává zbroj a meč a stává se váženou osobou.
 
@@ -81,7 +81,7 @@ Jako čtenář chci zažít vrcholné napětí při boji s monstrem a Vratislave
 - **Babička Chrasta**: Zděnkovitá babička, tajná sběratelka lanýžů pro bohaté měšťany.
 - **Lesní dráček**: Malé okřídlené stvoření s telepatickými schopnostmi, které Pája zachrání a ochočí si ho. Vylučuje uspávací jed.
 - **Koza Bělka**: Neuvěřitelně šťastná, ale problematická koza, která přitahuje maléry. Má ráda meduňku.
-- **Vratislav**: Hlavní antagonista. Bývalý psovod a hajný, vyhozený za pytláctví a krutost. Nenávidí vesničany. Ovládá Běsa pomocí kostěné píšťalky.
+- **Vratislav**: Hlavní antagonista. Bývalý psovod a hajný, vyhozený za pytláctví a krutost. Nenávidí vesničany. Původně najat k zastrašení Blanska, nyní chce pomocí vydírání (s využitím Běsa) získat peníze na vlastní gang. Ovládá Běsa pomocí kostěné píšťalky.
 - **Hrom a Křivák**: Vratislavovi poskoci. Hrom je obrovský, hloupý rváč. Křivák je malý, záludný zloděj.
 - **Pytlák Pivec**: Zarostlý hromotluk s kuší, který se pokusí ukrást Rypáčka.
 - **Běs (Monstrum)**: Lesní démon vázaný do zvířecí podoby (velikost telete, drátovité štětiny, žhnoucí oči). Ovládán Vratislavem.
