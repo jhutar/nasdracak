@@ -1,38 +1,38 @@
 # Feature Specification: Dobrodružná povídka "Rosný lán"
 
-**Feature Branch**: `001-dobrodruzna-povidka`  
-**Created**: 2026-05-16  
-**Status**: Draft  
+**Feature Branch**: `001-dobrodruzna-povidka`
+**Created**: 2026-05-16
+**Status**: Draft
 **Input**: User description: "Dobrodružná fantasy povídka v češtině zasazená na středověkou Moravu ke konci 14-tého století, křížená s magií RPG hry D&D a slovanskou mytologií. Budeme tvořit povídku nastíněnou v @text.md"
 
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - Čtení úvodní expozice (Priority: P1)
 
-Jako čtenář (dítě 6+) si chci přečíst úvod příběhu, abych se seznámil s Pájou, prostředím Rosného lánu a první malou zápletkou s prasátkem Rypáčkem.
+Jako čtenář (dítě 6+) si chci přečíst úvod příběhu, abych se seznámil s Pájou, s prostředím Blanska a několika lidmi v něm a prožil první malou zápletkou s prasátkem Rypáčkem.
 
-**Why this priority**: Základní stavební kámen příběhu, představuje hrdinku a svět. Bez expozice nelze budovat napětí.
+**Why this priority**: Úvodní dobrodružství příběhu, představuje hrdinku a svět. Bez expozice nelze věrně popsat proč se Pája o svůj svět (Blansko a lidé v něm) bojí.
 
-**Independent Test**: Čtenář dokáže popsat, kdo je Pája, čím se zabývá a co se stalo babičce Chrastě.
+**Independent Test**: Čtenář dokáže popsat, kdo je Pája, čím se zabývá a co se stalo babičce Chrastě a jak Pája přišla k dráčkovi.
 
 **Acceptance Scenarios**:
 
-1. **Given** text povídky, **When** čtenář dočte scénu s babičkou Chrastou, **Then** musí rozumět motivaci Páji (stát se chovatelkou koní) a znát tajemství Rypáčka (hledání lanýžů).
+1. **Given** text povídky, **When** čtenář dočte scénu s babičkou Chrastou, **Then** musí rozumět motivaci Páji (stát se chovatelkou koní) a tušit tajemství Rypáčka (hledání lanýžů).
 2. **Given** popis Rosného lánu, **When** čtenář čte o pastvině, **Then** musí cítit atmosféru středověké Moravy (vůně bylinek, děti pasoucí dobytek).
 
 ---
 
 ### User Story 2 - Magický střet a pouto s přírodou (Priority: P2)
 
-Jako čtenář chci sledovat, jak Pája využívá své znalosti bylinek a magii (drášek, lektvary) k řešení konfliktů a jak si vytváří pouto s vlkem a duchem pole Jarmilem.
+Jako čtenář chci sledovat, jak Pája využívá své znalosti bylinek a magii (dráček, lektvary) k řešení konfliktů a jak si vytváří pouto s vlkem a duchem pole Jarmilem.
 
-**Why this priority**: Rozvíjí magické prvky a slovanskou mytologii, které jsou klíčové pro unikátnost příběhu, aniž by je explicitně pojmenovávaly herní terminologií.
+**Why this priority**: Rozvíjí magické prvky a slovanskou mytologii, které jsou klíčové pro unikátnost příběhu, aniž by je explicitně pojmenovávaly herní terminologií. Poprvé zaznívají problémy způsobené Vratislavem a jeho kumpány, na Blansko padá první náznak stínu.
 
 **Independent Test**: Příběh obsahuje napínavé scény léčení dráčka, setkání s polevikem Jarmilem a postupné ochočení vlka, vše popsáno plynulým vyprávěním.
 
 **Acceptance Scenarios**:
 
-1. **Given** scénu u Vlčího žlebu, **When** Pája zachraňuje dráčka, **Then** musí být jasně popsáno použití lektvaru nebo bylinky jako přirozená součást děje, nikoliv jako herní mechanika.
+1. **Given** scénu u Vlčího zubu, **When** Pája zachraňuje dráčka, **Then** musí být jasně popsáno použití lektvaru nebo bylinky jako přirozená součást děje, nikoliv jako herní mechanika.
 2. **Given** setkání s Jarmilem, **When** Pája slíbí zalévat meduňku, **Then** interakce musí působit jako setkání s nadpřirozenou, ale reálnou přírodní bytostí.
 
 ---
@@ -61,26 +61,27 @@ Jako čtenář chci zažít vrcholné napětí při boji s monstrem a Vratislave
 ### Functional Requirements
 
 - **FR-001**: Text povídky musí dodržet dějovou strukturu nastíněnou v `text.md` (Úvod -> Kolize -> Krize -> Klimax -> Peripetie).
-- **FR-002**: Hlavní hrdinka Pája (12 let) musí být vykreslena jako bylinkářka s ambicí chovat koně.
-- **FR-003**: Prostředí musí odpovídat reáliím okolí Blanska na konci 14. století.
-- **FR-004**: Nadpřirozené bytosti musí vycházet ze slovanské mytologie (polevik Jarmil, běsové v pozadí).
-- **FR-005**: Magie a z ní plynoucí konflikty (monstrum, dráček) jsou organickou součástí děje, NESMÍ používat tabulky, explicitní body zdraví nebo jinou přímo herní terminologii.
+- **FR-002**: Příběh je rozdělen do 3 pod-příběhů: 1. dobrodružství prasátka Rypáčka, 2. dobrodružství kozy Bělky a 3. dobrodružství s Vratislavem.
+- **FR-003**: Hlavní hrdinka Pája (14 let) musí být vykreslena jako bylinkářka s ambicí chovat koně, starající se o své okolí, ale musí mít nějakou negativní vlastnost.
+- **FR-004**: Prostředí musí odpovídat reáliím okolí Blanska na konci 14. století.
+- **FR-005**: Nadpřirozené bytosti musí vycházet ze slovanské mytologie (polevik Jarmil, běsové v pozadí).
+- **FR-006**: Magie a z ní plynoucí konflikty (monstrum, dráček) jsou organickou součástí děje, NESMÍ používat tabulky, explicitní body zdraví nebo jinou přímo herní terminologii.
 
 ### Key Entities
 
-- **Pája**: Hlavní hrdinka, bylinkářka, 12 let.
-- **Radmila**: Mentorka, bylinkářka.
+- **Pája**: Hlavní hrdinka, bylinkářka, znalkyně zvířat, 12 let. Má ráda dobré smlouvání. Dobrosrdečná, starostlivá.
+- **Radmila**: Mentorka, bylinkářka, bývalá dobrodružka ale nikdo to o ní neví.
 - **Jarmil**: Polevik, duch Rosného lánu.
 - **Rypáček**: Prasátko s lanýžovým čichem.
 - **Vratislav**: Antagonista, ovládající monstrum kostěnou píšťalkou.
-- **Ochočený vlk**: Pájův spojenec.
+- **Ochočený vlk**: Pájin spojenec.
 - **Rosný lán**: Klíčová lokalita, zázračná pastvina.
 
 ## Success Criteria *(mandatory)*
 
 ### Measurable Outcomes
 
-- **SC-001**: Celkový rozsah povídky se pohybuje kolem 45 000 - 50 000 znaků (dle odhadů v `text.md`).
+- **SC-001**: Celkový rozsah povídky se pohybuje kolem 45 000 - 50 000 znaků.
 - **SC-002**: Text neobsahuje ani jednu explicitní zmínku o "bodech", "životě", "magenergii" jakožto herní statistice.
 - **SC-003**: Všechny historické názvy lokalit (Blansko, Těchov, Soběšice) jsou použity správně v geografickém kontextu.
 
