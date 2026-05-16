@@ -5,6 +5,11 @@
 **Status**: Draft
 **Input**: User description: "Dobrodružná fantasy povídka v češtině zasazená na středověkou Moravu ke konci 14-tého století, křížená s magií RPG hry D&D a slovanskou mytologií. Budeme tvořit povídku nastíněnou v @text.md"
 
+## Clarifications
+
+### Session 2026-05-16
+- Q: Which specific negative trait should be used to provide consistent character depth throughout the story? → A: Tvrdohlavost (Stubbornness)
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - Čtení úvodní expozice (Priority: P1)
@@ -62,14 +67,14 @@ Jako čtenář chci zažít vrcholné napětí při boji s monstrem a Vratislave
 
 - **FR-001**: Text povídky musí dodržet dějovou strukturu nastíněnou v `text.md` (Úvod -> Kolize -> Krize -> Klimax -> Peripetie).
 - **FR-002**: Příběh je rozdělen do 3 pod-příběhů: 1. dobrodružství prasátka Rypáčka, 2. dobrodružství kozy Bělky a 3. dobrodružství s Vratislavem.
-- **FR-003**: Hlavní hrdinka Pája (14 let) musí být vykreslena jako bylinkářka s ambicí chovat koně, starající se o své okolí, ale musí mít nějakou negativní vlastnost.
+- **FR-003**: Hlavní hrdinka Pája (14 let) musí být vykreslena jako bylinkářka s ambicí chovat koně, starající se o své okolí, ale musí být tvrdohlavá.
 - **FR-004**: Prostředí musí odpovídat reáliím okolí Blanska na konci 14. století.
 - **FR-005**: Nadpřirozené bytosti musí vycházet ze slovanské mytologie (polevik Jarmil, běsové v pozadí).
 - **FR-006**: Magie a z ní plynoucí konflikty (monstrum, dráček) jsou organickou součástí děje, NESMÍ používat tabulky, explicitní body zdraví nebo jinou přímo herní terminologii.
 
 ### Key Entities
 
-- **Pája**: Hlavní hrdinka, bylinkářka, znalkyně zvířat, 14 let. Má ráda dobré smlouvání. Dobrosrdečná, starostlivá, ale má i negativní vlastnost (např. občasná zbrklost nebo přílišná sebedůvěra).
+- **Pája**: Hlavní hrdinka, bylinkářka, znalkyně zvířat, 14 let. Má ráda dobré smlouvání. Dobrosrdečná, starostlivá, ale tvrdohlavá.
 - **Radmila**: Mentorka, bylinkářka, bývalá dobrodružka (lukostřelkyně), ale nikdo ve vesnici to o ní neví.
 - **Jarmil**: Polevik, duch Rosného lánu. Mrzutý, ale ne zlý. Miluje hádanky, obchodování (věci s příběhem) a stará se o trávu.
 - **Rypáček**: Babiččino prasátko s fenomenálním čichem na lanýže (což je tajemství). Statečný obránce.
