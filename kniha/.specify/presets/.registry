@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "presets": {
+    "fiction-book-writing": {
+      "version": "1.7.0",
+      "source": "local",
+      "manifest_hash": "sha256:a34d0e8dbcdd5aa7b38b26c17db1b4c00335946859815e5dc87d483681bea8fd",
+      "enabled": true,
+      "priority": 10,
+      "registered_commands": {
+        "gemini": [
+          "speckit.brainstorm",
+          "speckit.specify",
+          "speckit.status",
+          "speckit.clarify",
+          "speckit.plan",
+          "speckit.tasks",
+          "speckit.implement",
+          "speckit.analyze",
+          "speckit.continuity",
+          "speckit.revise",
+          "speckit.checklist",
+          "speckit.polish",
+          "speckit.constitution",
+          "speckit.export",
+          "speckit.subplot",
+          "speckit.synopsis",
+          "speckit.query",
+          "speckit.feedback",
+          "speckit.pov",
+          "speckit.pacing",
+          "speckit.statistics",
+          "speckit.sensitivity",
+          "speckit.outline",
+          "speckit.roleplay",
+          "speckit.glossary",
+          "speckit.help",
+          "speckit.interview",
+          "speckit.research",
+          "speckit.series",
+          "speckit.versions",
+          "speckit.audiobook",
+          "speckit.cover",
+          "speckit.bio"
+        ]
+      },
+      "registered_skills": [],
+      "installed_at": "2026-05-16T07:39:58.279947+00:00"
+    }
+  }
+}
