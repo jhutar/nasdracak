@@ -32,7 +32,7 @@ Jako čtenář chci sledovat, jak Pája využívá své znalosti bylinek a magii
 
 **Acceptance Scenarios**:
 
-1. **Given** scénu u Vlčího zubu, **When** Pája zachraňuje dráčka, **Then** musí být jasně popsáno použití lektvaru nebo bylinky jako přirozená součást děje, nikoliv jako herní mechanika.
+1. **Given** scénu u Vlčího žleb, **When** Pája zachraňuje dráčka, **Then** musí být jasně popsáno použití lektvaru nebo bylinky jako přirozená součást děje, nikoliv jako herní mechanika.
 2. **Given** setkání s Jarmilem, **When** Pája slíbí zalévat meduňku, **Then** interakce musí působit jako setkání s nadpřirozenou, ale reálnou přírodní bytostí.
 
 ---
