@@ -17,7 +17,7 @@ Sync Impact Report:
 - Follow-up TODOs: none
 -->
 
-# Nasdracak RPG & Povídka Constitution
+# Povídka Constitution
 
 ## Core Principles
 
@@ -25,44 +25,10 @@ Sync Impact Report:
 Děj a pravidla jsou pevně zasazeny do konce 14. století na středověké Moravě. Historické reálie jsou organicky propojeny s prvky slovanské mytologie (běsové, vodníci, víly). Racionální středověký svět je obohacen o magické prvky, které však nesmí narušit atmosféru doby.
 
 ### II. RPG Mechaniky a Magie
-Projekt integruje magii a herní systémy inspirované D&D a Dračím doupětem. Tyto systémy MUST být zjednodušeny tak, aby byly přístupné dětem od 6 let. Magie je vzácná a nebezpečná, herní mechanismy musí být vysvětlitelné během několika minut.
+Projekt integruje magii a herní systémy inspirované D&D a Dračím doupětem. Toto je ale kniha s příběhem a proto tyto systémy MUST NOT být v knize přímo zméněné. Popisujeme jen děj.
 
 ### III. Jazyk a Styl
-Veškeré texty (pravidla i povídky) jsou psány v češtině. Ke čtenáři/hráči se MUST přistupovat s úctou pomocí "tykání" (např. "Vytvoř si postavu"). Jazyk musí být bohatý, ve fantasy stylu, ale srozumitelný dětskému publiku bez zbytečných archaismů, které by bránily pochopení.
-
-### IV. Konzistentní Terminologie
-Ve všech částech projektu se MUST dodržovat jednotná terminologie:
-- Síla postavy = SÍL
-- Magická energie = magenergie
-- Zdraví/Body výdrže = životy
-Nedodržení této terminologie je považováno za chybu v integritě systému.
-
-### V. Technická Integrita
-Pravidla jsou spravována ve formátu reStructuredText pro zajištění kvalitního exportu (Sphinx). Pomocné skripty v adresáři `tools/` MUST dodržovat standardy `black` (formátování), `flake8` (linting) a MUST být pokryty testy `pytest`.
-
-## Technické a Formátovací Standardy
-
-### Dokumentace (Sphinx/reST)
-- Pravidla jsou psána srozumitelně a přímo k věci.
-- Příklady v pravidlech MUST být formátovány pomocí `.. admonition:: Příklad:` s odsazeným textem.
-- Hlavní vstupní bod pravidel je `docs/source/pravidla/index.rst`.
-
-### Git a Gemini Workflow
-- Používáme "Conventional commits" (v češtině, bez diakritiky).
-- Změny generované AI MUST obsahovat trailer `Generated-by:Gemini`.
-- Commit message MUST obsahovat zesumarizovaný prompt poskytnutý operátorem.
-
-## Proces Vývoje a Validace
-
-### Kvalita Kódu
-Všechny skripty v `tools/` jsou spouštěny ve virtuálním prostředí `venv/`. Před commitem je doporučeno spustit:
-- `venv/bin/black tools/`
-- `venv/bin/flake8 tools/`
-- `venv/bin/pytest tools/tests/`
-
-### Validace Dat
-Jakákoliv data (např. bestiář, gamebook uzly) MUST být validována pomocí:
-- `venv/bin/python tools/doit.py --data data/ lint`
+Veškeré texty jsou psány v češtině. Jazyk musí být bohatý, ve fantasy stylu, ale srozumitelný dětskému publiku bez zbytečných archaismů, které by bránily pochopení.
 
 ## Governance
 
@@ -77,4 +43,4 @@ Tato ústava je nejvyšším dokumentem projektu. Veškeré změny v kódu, text
 ### Soulad (Compliance)
 Všechny Pull Requesty a automatické generování textu musí být kontrolovány proti sekci "Constitution Check" v plánech implementace.
 
-**Version**: 1.0.0 | **Ratified**: 2026-05-16 | **Last Amended**: 2026-05-16
+**Version**: 2.0.0 | **Ratified**: 2026-05-16 | **Last Amended**: 2026-05-16
