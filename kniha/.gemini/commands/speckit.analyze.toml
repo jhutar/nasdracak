@@ -1,8 +1,7 @@
-description = "Pre-draft structural alignment check — spec↔plan coverage, act proportions, task completeness. Run after speckit.tasks, before speckit.implement. For post-draft prose analysis use speckit.continuity."
-
-# Source: fiction-book-writing
+description = "Perform a non-destructive cross-artifact consistency and quality analysis across spec.md, plan.md, and tasks.md after task generation."
 
 prompt = """
+
 ## User Input
 
 ```text
@@ -16,98 +15,235 @@ You **MUST** consider the user input before proceeding (if not empty).
 **Check for extension hooks (before analysis)**:
 - Check if `.specify/extensions.yml` exists in the project root.
 - If it exists, read it and look for entries under the `hooks.before_analyze` key
-- Process as standard hook block (Optional/Mandatory). Skip silently if absent.
+- If the YAML cannot be parsed or is invalid, skip hook checking silently and continue normally
+- Filter out hooks where `enabled` is explicitly `false`. Treat hooks without an `enabled` field as enabled by default.
+- For each remaining hook, do **not** attempt to interpret or evaluate hook `condition` expressions:
+  - If the hook has no `condition` field, or it is null/empty, treat the hook as executable
+  - If the hook defines a non-empty `condition`, skip the hook and leave condition evaluation to the HookExecutor implementation
+- For each executable hook, output the following based on its `optional` flag:
+  - **Optional hook** (`optional: true`):
+    ```
+    ## Extension Hooks
+
+    **Optional Pre-Hook**: {extension}
+    Command: `/{command}`
+    Description: {description}
+
+    Prompt: {prompt}
+    To execute: `/{command}`
+    ```
+  - **Mandatory hook** (`optional: false`):
+    ```
+    ## Extension Hooks
+
+    **Automatic Pre-Hook**: {extension}
+    Executing: `/{command}`
+    EXECUTE_COMMAND: {command}
+
+    Wait for the result of the hook command before proceeding to the Goal.
+    ```
+- If no hooks are registered or `.specify/extensions.yml` does not exist, skip silently
 
 ## Goal
 
-Verify that `spec.md`, `plan.md`, and `tasks.md` are internally consistent and structurally complete **before any drafting begins**. Catch alignment gaps, missing coverage, and proportion errors now — not after 80,000 words have been written.
-
-Run after `speckit.tasks` has produced a complete `tasks.md`. Does not require any drafted scene files to exist. For post-draft prose analysis (story bible compliance in chapters, character arc continuity, timeline coherence across drafts), use `speckit.continuity` instead.
+Identify inconsistencies, duplications, ambiguities, and underspecified items across the three core artifacts (`spec.md`, `plan.md`, `tasks.md`) before implementation. This command MUST run only after `/speckit.tasks` has successfully produced a complete `tasks.md`.
 
 ## Operating Constraints
 
-**STRICTLY READ-ONLY**: Do not modify any files. Output a structured analysis report. Offer an optional remediation plan only if the user explicitly asks for one.
+**STRICTLY READ-ONLY**: Do **not** modify any files. Output a structured analysis report. Offer an optional remediation plan (user must explicitly approve before any follow-up editing commands would be invoked manually).
 
-**Story Bible Authority**: The project constitution (`.specify/memory/constitution.md`) is non-negotiable. If a structural principle needs to change, that requires a separate `speckit.constitution` update — not reinterpretation or silent ignoring.
+**Constitution Authority**: The project constitution (`.specify/memory/constitution.md`) is **non-negotiable** within this analysis scope. Constitution conflicts are automatically CRITICAL and require adjustment of the spec, plan, or tasks—not dilution, reinterpretation, or silent ignoring of the principle. If a principle itself needs to change, that must occur in a separate, explicit constitution update outside `/speckit.analyze`.
 
 ## Execution Steps
 
-1. **Setup**: Run `{SCRIPT}` and parse `FEATURE_DIR`. Load all available documents.
+### 1. Initialize Analysis Context
 
-2. **Load documents**:
-   - Required: `spec.md`, `plan.md`, `tasks.md`, `.specify/memory/constitution.md`
-   - Also load: `characters.md` (index) and `characters/` profiles, `timeline.md`, `world-building.md`, `subplots.md` (if present), `relationships.md` (if present)
-   - **Large project optimization** (if `.specify/index/` exists): if the combined character profile files would exceed context capacity, query the index for the key arc and constraint data rather than loading every profile in full:
-     ```
-     python scripts/python/index.py query "character arc wound false belief dramatic question" --type character --top 8
-     python scripts/python/index.py query "world rules constraints forbidden" --type world --top 5
-     python scripts/python/index.py query "subplot beats resolution" --type subplot --top 5
-     ```
-   - Abort with a clear error if any required document is missing
-   - Do **not** scan `draft/` — this command is pre-draft only. If draft files are present, note their count in the report but do not analyze them.
+Run `.specify/scripts/bash/check-prerequisites.sh --json --require-tasks --include-tasks` once from repo root and parse JSON for FEATURE_DIR and AVAILABLE_DOCS. Derive absolute paths:
 
-3. **Run analysis across these dimensions**:
+- SPEC = FEATURE_DIR/spec.md
+- PLAN = FEATURE_DIR/plan.md
+- TASKS = FEATURE_DIR/tasks.md
 
-   **A. Spec ↔ Plan Alignment** (severity: CRITICAL if blocking)
-   - Does every character arc in `spec.md` appear in the `plan.md` structure map?
-   - Does every Key Scene (Given/When/Then) in `spec.md` have a corresponding task in `tasks.md`?
-   - Does every Plot Requirement (`PR-NNN`) map to at least one scene task?
-   - Does every Reader Experience Goal (`RG-NNN`) map to at least one scene?
-   - Do character arc labels in `tasks.md` (`CA-1`, `CA-2`, etc.) correctly match the arcs declared in `spec.md`?
+Abort with an error message if any required file is missing (instruct the user to run missing prerequisite command).
+For single quotes in args like "I'm Groot", use escape syntax: e.g 'I'\\''m Groot' (or double-quote if possible: "I'm Groot").
 
-   **B. Chekhov Item Coverage**
-   - Does every Chekhov item in `spec.md` Key Entities have an assigned pay-off scene in `tasks.md`?
-   - Does any open thread lack a planned resolution before the final act?
+### 2. Load Artifacts (Progressive Disclosure)
 
-   **C. Act Proportions & Task Coverage**
-   - Are act word-count targets approximately balanced per the chosen plot structure from `constitution.md`?
-   - Is there a CRITICAL checkpoint task between Phase 1 and Phase 2 in `tasks.md`?
-   - Are polish tasks present for: continuity, voice homogeneity, Anti-AI filter, opening/closing image resonance?
-   - Does `timeline.md` have internal contradictions or gaps (structural/fabula-level — not cross-referencing draft prose)?
+Load only the minimal necessary context from each artifact:
 
-   **D. Subplot Integrity** *(skip if `subplots.md` is absent or `spec.md` has no P2/P3 arcs)*
-   - For each `SP-NNN` block in `subplots.md`: does the subplot have all five required beats (inciting incident, first obstacle, midpoint reversal, darkest moment, resolution) mapped to chapter IDs in `plan.md`? Missing beat → CRITICAL.
-   - Does any subplot's Arc Absence Log show two or more consecutive acts with no scene → WARNING.
-   - Does the Subplot Resolution Checklist have any `Resolved: No` rows → CRITICAL.
-   - Does the Convergence Map have any chapter flagged `high` load (3+ arcs) without a scene outline entry that explicitly addresses both arcs → WARNING.
-   - Does every `SP-NNN` subplot reference a thematic link from `themes.md` (if `themes.md` exists)? Missing link → WARNING.
+**From spec.md:**
 
-   **E. Relationship Arc Integrity** *(skip if `relationships.md` is absent)*
-   - For each `REL-NNN` block in `relationships.md`: does the relationship have all five required arc beats (establishing, first rupture, midpoint reversal, crisis, resolution) mapped to chapter IDs in `plan.md`? Missing beat → CRITICAL.
-   - Does any relationship's Phase Tracker show two or more consecutive acts with no scene evidence → WARNING.
-   - Does the resolution type for each `REL-NNN` match the closing state declared in the relationship's Phase Tracker? Contradiction → WARNING.
-   - Does every `REL-NNN` relationship reference a thematic link from `themes.md` (if `themes.md` exists)? Missing link → WARNING.
+- Overview/Context
+- Functional Requirements
+- Success Criteria (measurable outcomes — e.g., performance, security, availability, user success, business impact)
+- User Stories
+- Edge Cases (if present)
 
-   **F. Series Constraints** *(skip entirely if `spec.md` Series Position is `standalone`)*
-   - Does `series/series-bible.md` exist? If not: CRITICAL — series bible is required before planning a non-standalone book.
-   - Does the `spec.md` Series Position field match the book's row in the series bible `## Books in Series` table?
-   - For each character, does their opening state in this book's `characters/[name].md` `## Series Arc State` table match the **closing state** from the preceding book's row in that same table (or the series bible Character State Registry)? Flag any mismatch as CRITICAL.
-   - Does any plan-level decision (POV strategy, tense, world rule) contradict an entry in `series/series-bible.md ## Series Canon`? Flag as CRITICAL.
-   - Are there any `OPEN` entries in `series/series-bible.md ## Known Contradictions` that involve this book? Flag as CRITICAL.
+**From plan.md:**
 
-4. **Output structured report**:
+- Architecture/stack choices
+- Data Model references
+- Phases
+- Technical constraints
 
-   Summary line update: add `Relationships checked: N` alongside `Subplots checked: N`.
+**From tasks.md:**
 
-   ```
-   ## Pre-Draft Analysis Report
+- Task IDs
+- Descriptions
+- Phase grouping
+- Parallel markers [P]
+- Referenced file paths
 
-   ### CRITICAL Issues (blocking — do not begin drafting)
-   - [issue] — [location] — [remediation suggestion]
+**From constitution:**
 
-   ### WARNINGS (quality risks, addressable during or after drafting)
-   - [issue] — [location] — [suggestion]
+- Load `.specify/memory/constitution.md` for principle validation
 
-   ### PASS (dimensions with no issues)
-   - [dimension]: OK
+### 3. Build Semantic Models
 
-   ### Summary
-   CRITICAL: N | WARNINGS: N | PASS: N | Existing drafts (not analyzed): N | Subplots checked: N | Series checks: [skipped (standalone) / N issues]
-   Recommended action: [clear to draft / address criticals first / run speckit.constitution to resolve structural issues / update series-bible.md]
-   ```
+Create internal representations (do not include raw artifacts in output):
 
-5. **Check for extension hooks (after analysis)**:
-   - Look for `hooks.after_analyze` in `.specify/extensions.yml`. Process as standard hook block. Skip silently if absent.
+- **Requirements inventory**: For each Functional Requirement (FR-###) and Success Criterion (SC-###), record a stable key. Use the explicit FR-/SC- identifier as the primary key when present, and optionally also derive an imperative-phrase slug for readability (e.g., "User can upload file" → `user-can-upload-file`). Include only Success Criteria items that require buildable work (e.g., load-testing infrastructure, security audit tooling), and exclude post-launch outcome metrics and business KPIs (e.g., "Reduce support tickets by 50%").
+- **User story/action inventory**: Discrete user actions with acceptance criteria
+- **Task coverage mapping**: Map each task to one or more requirements or stories (inference by keyword / explicit reference patterns like IDs or key phrases)
+- **Constitution rule set**: Extract principle names and MUST/SHOULD normative statements
 
-6. **Optional remediation plan**: Only if the user explicitly requests it, list the specific file edits needed to resolve CRITICAL issues. User must approve before any editing commands are invoked.
-"""
+### 4. Detection Passes (Token-Efficient Analysis)
+
+Focus on high-signal findings. Limit to 50 findings total; aggregate remainder in overflow summary.
+
+#### A. Duplication Detection
+
+- Identify near-duplicate requirements
+- Mark lower-quality phrasing for consolidation
+
+#### B. Ambiguity Detection
+
+- Flag vague adjectives (fast, scalable, secure, intuitive, robust) lacking measurable criteria
+- Flag unresolved placeholders (TODO, TKTK, ???, `<placeholder>`, etc.)
+
+#### C. Underspecification
+
+- Requirements with verbs but missing object or measurable outcome
+- User stories missing acceptance criteria alignment
+- Tasks referencing files or components not defined in spec/plan
+
+#### D. Constitution Alignment
+
+- Any requirement or plan element conflicting with a MUST principle
+- Missing mandated sections or quality gates from constitution
+
+#### E. Coverage Gaps
+
+- Requirements with zero associated tasks
+- Tasks with no mapped requirement/story
+- Success Criteria requiring buildable work (performance, security, availability) not reflected in tasks
+
+#### F. Inconsistency
+
+- Terminology drift (same concept named differently across files)
+- Data entities referenced in plan but absent in spec (or vice versa)
+- Task ordering contradictions (e.g., integration tasks before foundational setup tasks without dependency note)
+- Conflicting requirements (e.g., one requires Next.js while other specifies Vue)
+
+### 5. Severity Assignment
+
+Use this heuristic to prioritize findings:
+
+- **CRITICAL**: Violates constitution MUST, missing core spec artifact, or requirement with zero coverage that blocks baseline functionality
+- **HIGH**: Duplicate or conflicting requirement, ambiguous security/performance attribute, untestable acceptance criterion
+- **MEDIUM**: Terminology drift, missing non-functional task coverage, underspecified edge case
+- **LOW**: Style/wording improvements, minor redundancy not affecting execution order
+
+### 6. Produce Compact Analysis Report
+
+Output a Markdown report (no file writes) with the following structure:
+
+## Specification Analysis Report
+
+| ID | Category | Severity | Location(s) | Summary | Recommendation |
+|----|----------|----------|-------------|---------|----------------|
+| A1 | Duplication | HIGH | spec.md:L120-134 | Two similar requirements ... | Merge phrasing; keep clearer version |
+
+(Add one row per finding; generate stable IDs prefixed by category initial.)
+
+**Coverage Summary Table:**
+
+| Requirement Key | Has Task? | Task IDs | Notes |
+|-----------------|-----------|----------|-------|
+
+**Constitution Alignment Issues:** (if any)
+
+**Unmapped Tasks:** (if any)
+
+**Metrics:**
+
+- Total Requirements
+- Total Tasks
+- Coverage % (requirements with >=1 task)
+- Ambiguity Count
+- Duplication Count
+- Critical Issues Count
+
+### 7. Provide Next Actions
+
+At end of report, output a concise Next Actions block:
+
+- If CRITICAL issues exist: Recommend resolving before `/speckit.implement`
+- If only LOW/MEDIUM: User may proceed, but provide improvement suggestions
+- Provide explicit command suggestions: e.g., "Run /speckit.specify with refinement", "Run /speckit.plan to adjust architecture", "Manually edit tasks.md to add coverage for 'performance-metrics'"
+
+### 8. Offer Remediation
+
+Ask the user: "Would you like me to suggest concrete remediation edits for the top N issues?" (Do NOT apply them automatically.)
+
+### 9. Check for extension hooks
+
+After reporting, check if `.specify/extensions.yml` exists in the project root.
+- If it exists, read it and look for entries under the `hooks.after_analyze` key
+- If the YAML cannot be parsed or is invalid, skip hook checking silently and continue normally
+- Filter out hooks where `enabled` is explicitly `false`. Treat hooks without an `enabled` field as enabled by default.
+- For each remaining hook, do **not** attempt to interpret or evaluate hook `condition` expressions:
+  - If the hook has no `condition` field, or it is null/empty, treat the hook as executable
+  - If the hook defines a non-empty `condition`, skip the hook and leave condition evaluation to the HookExecutor implementation
+- For each executable hook, output the following based on its `optional` flag:
+  - **Optional hook** (`optional: true`):
+    ```
+    ## Extension Hooks
+
+    **Optional Hook**: {extension}
+    Command: `/{command}`
+    Description: {description}
+
+    Prompt: {prompt}
+    To execute: `/{command}`
+    ```
+  - **Mandatory hook** (`optional: false`):
+    ```
+    ## Extension Hooks
+
+    **Automatic Hook**: {extension}
+    Executing: `/{command}`
+    EXECUTE_COMMAND: {command}
+    ```
+- If no hooks are registered or `.specify/extensions.yml` does not exist, skip silently
+
+## Operating Principles
+
+### Context Efficiency
+
+- **Minimal high-signal tokens**: Focus on actionable findings, not exhaustive documentation
+- **Progressive disclosure**: Load artifacts incrementally; don't dump all content into analysis
+- **Token-efficient output**: Limit findings table to 50 rows; summarize overflow
+- **Deterministic results**: Rerunning without changes should produce consistent IDs and counts
+
+### Analysis Guidelines
+
+- **NEVER modify files** (this is read-only analysis)
+- **NEVER hallucinate missing sections** (if absent, report them accurately)
+- **Prioritize constitution violations** (these are always CRITICAL)
+- **Use examples over exhaustive rules** (cite specific instances, not generic patterns)
+- **Report zero issues gracefully** (emit success report with coverage statistics)
+
+## Context
+
+{{args}}"""
