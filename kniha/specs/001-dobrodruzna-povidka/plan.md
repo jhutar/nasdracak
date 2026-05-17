@@ -37,6 +37,7 @@ specs/001-dobrodruzna-povidka/
 ├── plan.md              # Tento soubor
 ├── research.md          # Výzkum struktury a postav
 ├── themes.md            # Tematické zaměření
+├── data-model.md        # Postavy a vztahy
 └── subplots.md          # Dějové linky
 ```
 
