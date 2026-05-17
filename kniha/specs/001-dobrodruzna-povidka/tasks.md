@@ -45,6 +45,7 @@
 ### Implementation for User Story 3
 - [ ] T011 [US3] Napsat scénu vyšetřování zkaženého mléka a odhalení Křiváka do povidka.md.
 - [ ] T012 [US3] Napsat Křivákovo přiznání o Vratislavově plánu do povidka.md.
+- [ ] T012b [US3] Napsat scénu, kde rychtářka Vítka a biřic vyráží do Těchova a Pája je tajně sleduje do povidka.md.
 - [ ] T013 [US3] Napsat útok zotročeného Běsa, kterého zadrží Jarmil do povidka.md.
 - [ ] T014 [US3] Napsat finální boj: Pája roztříští rezavou dýkou Kostěnou píšťalku do povidka.md.
 - [ ] T015 [US3] Napsat rozuzlení: Vratislav utíká, Jarmil odvede Běsa do povidka.md.
