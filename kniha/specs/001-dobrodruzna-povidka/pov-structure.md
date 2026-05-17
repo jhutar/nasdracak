@@ -7,10 +7,10 @@
 ## POV Character Profile
 
 ### Paja
-- **Wound / Flaw:** Feels she doesn't belong (new in Blansko); overcompensates with stubborn independence and a belief that she must fix everything herself. Views nature initially as a resource to master (training warhorses).
+- **Wound / Flaw:** Feels she doesn't belong (new in Blansko); impatient and overcompensates with stubborn independence and a belief that she must fix everything herself. Views nature initially as a resource to master (training warhorses).
 - **Transformation:** Learns to respect nature (apologizing to Jarmil), build trust patiently (the wolf), and rely on others (Radmila, Jarmil) rather than trying to control everything.
 - **Voice Fingerprint:**
-  - *Sentence Rhythm:* Energetic, occasionally boastful but punctuated with moments of insecurity (Nikoho to samozrejme nezajima, ale ja vim...).
+  - *Sentence Rhythm:* Energetic, occasionally boastful but punctuated with moments of insecurity (Nikoho to samozrejme nezajima, ale ja vim...). Often talks to herself in he mind.
   - *Vocabulary:* Practical, nature-based metaphors. Uses herbalist terminology naturally.
   - *Emotional Register:* Quick to act, stubborn, but deeply empathetic towards animals.
 
@@ -21,9 +21,9 @@ Even in a Single POV story, managing what the narrator knows vs. what the reader
 |---|---|---|---|
 | Rypacek searches for truffles | Babicka Chrasta | Act I (implied/hinted) / Epilogue | Reader infers it from Chrasta's secretiveness and the pig's behavior. |
 | Radmila is a former adventurer | Radmila, Vitka | Act IV/V (when Radmila shoots the bow) | Reader doesn't know until Paja sees it, though hints (her authority) are planted. |
-| The monster is a Bes | Vratislav, Jarmil | Act III (when Vratislav reveals it) | Reader discovers it alongside Paja. |
+| The monster is a Bes | Vratislav, Jarmil | Act III (when Vratislav reveals it) | Reader discovers it alongside Paja although it is strange 3 man (Vratislav and his 2 helpers) can controll whole willage and hold them hostages. |
 | Vratislav's true goal (extortion) | Vratislav, Krivak | Act III (Krivak's confession) | Reader discovers it alongside Paja. |
-| The power of the bone whistle | Vratislav | Act IV (Paja observes him using it) | Reader sees it dropped in Act I, but its full power is revealed in Act IV. |
+| The power of the bone whistle | Vratislav | Act IV (Paja observes him using it) | Reader sees it dropped in Act I, but its full power is revealed in Act IV. We want some hint Vratislav probably have some strange power so he can thretten wholi village. |
 
 ## POV Schedule
 *(All chapters are Single POV: Paja)*

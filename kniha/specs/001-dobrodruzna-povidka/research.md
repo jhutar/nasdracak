@@ -15,7 +15,7 @@
 
 ## R3: Charakteristické hlasy
 **Rozhodnutí:**
-- **Pája:** Mladistvá, všímavá, lehce chvástavá, ale nejistá („Nikoho to samozřejmě nezajímá, ale já vím...“). S pocitem že všechno musí zachránit ona. Používá praktické metafory založené na přírodě.
+- **Pája:** Mladistvá, všímavá, lehce chvástavá, nedočkavá a chce vše hned, ale nejistá („Nikoho to samozřejmě nezajímá, ale já vím...“). S pocitem že všechno musí zachránit ona. Používá praktické metafory založené na přírodě.
 - **Vratislav:** Krutý, posměšný, používá úsečné, staccatové věty. V hloubi duše ale nejistý a zbabělý.
 - **Jarmil (Polevik):** Nerudný, ale prastarý, mluví s autoritou o přírodě, vyžaduje úctu k malým věcem. Nesnáší kovy. Neumí dobře mluvit, plete pojmy nebo gramatiku.
 **Zdůvodnění:** Odlišné hlasy jsou nezbytné, protože příběh je zcela filtrován skrze Pájinu perspektivu první osoby.
