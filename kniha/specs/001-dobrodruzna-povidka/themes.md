@@ -1,18 +1,18 @@
-# Thematic Bible: Ohrožená vesnice
+# Tematická bible: Ohrožená vesnice
 
-## Central Thematic Question
-Can understanding and empathy overcome brute force and domination?
+## Ústřední tematická otázka
+Může porozumění a empatie přemoci hrubou sílu a dominanci?
 
-## Primary Theme
-Harmony with nature is stronger than the desire to control it.
+## Hlavní téma
+Harmonie s přírodou je silnější než touha ji ovládat.
 
-## Motifs
-- **Smells/Scents:** The sweet smell of herbs vs. the sulfur/wet dog smell of the Běs and Křivák's fishy smell. Represents natural order vs. corruption.
-- **Fist vs. magic:** Normal human fist freeing the whistle, contrasting with the powerful magic of the whistle.
-- **Animal Bonds:** Rypáček's loyalty, the wolf's gradual trust, vs. the Běs's enslaved obedience.
+## Motivy
+- **Vůně/Pachy:** Sladká vůně bylinek vs. sírový zápach/zápach mokrého psa Běsa a rybí zápach Křiváka. Představuje přirozený řád vs. zkaženost.
+- **Pěst vs. magie:** Obyčejná lidská pěst osvobozující píšťalku, kontrastující s mocnou magií píšťalky.
+- **Pouta se zvířaty:** Rypáčkova věrnost, postupná důvěra vlka vs. zotročená poslušnost Běsa.
 
-## Thematic Arc
-- **Act I:** Pája views nature as a resource (gathering herbs, wanting to train warhorses for profit).
-- **Act II:** Pája learns respect (apologizing to Jarmil for the herb, building trust with the wolf slowly).
-- **Act III:** Pája witnesses the perversion of nature (the enslaved Běs, the spoiled milk).
-- **Act IV/V:** Pája uses her understanding (and Jarmil's help) to defeat control (destroying the whistle) and restore harmony.
+## Tematický oblouk
+- **I. akt:** Pája vnímá přírodu jako zdroj (sběr bylinek, touha cvičit válečné koně pro zisk).
+- **II. akt:** Pája se učí respektu (omluva Jarmilovi za bylinku, pomalé budování důvěry s vlkem).
+- **III. akt:** Pája je svědkem zvrácenosti přírody (zotročený Běs, zkyslé mléko).
+- **IV./V. akt:** Pája využívá své porozumění (a Jarmilovu pomoc) k porážce kontroly (zničení píšťalky) a obnovení harmonie.

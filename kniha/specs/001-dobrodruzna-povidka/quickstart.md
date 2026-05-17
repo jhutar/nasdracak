@@ -1,14 +1,14 @@
-# Quickstart: Dobrodruzna povidka Ohrozena vesnice
+# Quickstart: Dobrodružná povídka Ohrožená vesnice
 
-Tento dokument slouzi jako rychly prehled pro orientaci v nove vznikajici povidce.
+Tento dokument slouží jako rychlý přehled pro orientaci v nově vznikající povídce.
 
 ## Kontext
-Povidka vypravi pribeh ctrnactilete Paji, ktera poklidne zije ve stredovekem Blansku. Udalosti ji donuti celit krutemu zoldakovi Vratislavovi a jeho magickemu monstru (Besovi). Vratislav vyuziva sva monstra k vydirani vesnic, aby ziskal penize na vytvoreni vlastniho gangu. Paja musi zachranit svou vesnici a lidi a zvirata na kterych ji zalezi.
+Povídka vypráví příběh čtrnáctileté Páji, která poklidně žije ve středověkém Blansku. Události ji donutí čelit krutému žoldákovi Vratislavovi a jeho magickému monstru (Běsovi). Vratislav využívá svá monstra k vydírání vesnic, aby získal peníze na vytvoření vlastního gangu. Pája musí zachránit svou vesnici a lidi a zvířata, na kterých jí záleží.
 
-## Klicove Dokumenty
-- **Specifikace (spec.md)**: Definuje postavy, pozadavky a celkove vyzneni.
+## Klíčové dokumenty
+- **Specifikace (spec.md)**: Definuje postavy, požadavky a celkové vyznění.
 - **Vztahy (data-model.md)**: Definuje vztahy mezi postavami a podrobnosti o postavách.
-- **Plan (plan.md)**: Obsahuje petiactovou strukturu a podrobny rozpis scen.
-- **Vyzkum (research.md)**: Definuje vnitrni vyvoj hrdinky a hlasy jednotlivych postav.
-- **Temata (themes.md)**: Zameruje se na hlavni motiv – harmonie s prirodou vs. hruba sila.
-- **Vedlejsi linky (subplots.md)**: Popisuje vyvoj tri mensich dobrodruzstvi, ktere se skladaji do hlavniho pribehu.
+- **Plán (plan.md)**: Obsahuje pětiactovou strukturu a podrobný rozpis scén.
+- **Výzkum (research.md)**: Definuje vnitřní vývoj hrdinky a hlasy jednotlivých postav.
+- **Témata (themes.md)**: Zaměřuje se na hlavní motiv – harmonie s přírodou vs. hrubá síla.
+- **Vedlejší linky (subplots.md)**: Popisuje vývoj tří menších dobrodružství, které se skládají do hlavního příběhu.

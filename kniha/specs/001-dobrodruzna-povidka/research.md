@@ -1,25 +1,25 @@
-# Research Notes: Dobrodružná povídka "Ohrožená vesnice"
+# Poznámky z výzkumu: Dobrodružná povídka „Ohrožená vesnice“
 
-## R1: Protagonist's Internal Arc
-**Decision:** Pája's wound is her feeling of not belonging (being new to Blansko) and her overcompensation through stubborn independence. Her transformation involves learning to rely on others (Radmila, Jarmil) and accepting that true strength isn't just taming beasts, but working in harmony with nature and community.
-**Rationale:** This arc supports the thematic question of how to handle the "beast" (Vratislav's brute force vs. Pája's empathy/understanding).
+## R1: Vnitřní vývoj hrdinky
+**Rozhodnutí:** Pájino „zranění“ spočívá v jejím pocitu, že nikam nepatří (v Blansku je nová), a v její nadměrné kompenzaci skrze tvrdohlavou nezávislost. Její proměna zahrnuje učení se spoléhat na ostatní (Radmila, Jarmil) a přijetí faktu, že skutečná síla nespočívá jen v krocení šelem, ale v práci v souladu s přírodou a komunitou.
+**Zdůvodnění:** Tato linka podporuje tematickou otázku, jak zacházet s „běsem“ (Vratislavova hrubá síla vs. Pájina empatie/porozumění).
 
-## R2: Act Boundaries & Pacing (Five-Act Structure)
-**Decision:** 
-- Act I: Introduction (Rypáček adventure)
-- Act II: Rising Action (Bělka adventure, initial hints of Vratislav's threat)
-- Act III: Climax (The spoiled milk, the revelation of the beast's true nature)
-- Act IV: Falling Action (The confrontation with Vratislav, destruction of the whistle)
-- Act V: Resolution (Jarmil leading the beast away, Pája's reward)
-**Rationale:** This structure naturally fits the three sub-stories provided in the campaign notes, allowing tension to build from a lighthearted chase to a life-or-death confrontation.
+## R2: Hranice aktů a tempo (Pětiactová struktura)
+**Rozhodnutí:**
+- I. akt: Úvod (dobrodružství s Rypáčkem)
+- II. akt: Kolize (dobrodružství s Bělkou, první náznaky Vratislavovy hrozby)
+- III. akt: Krize (zkyslé mléko, odhalení skutečné povahy běsa)
+- IV. akt: Klimax (konfrontace s Vratislavem, zničení píšťalky)
+- V. akt: Peripetie/Rozuzlení (Jarmil odvádí běsa, Pájina odměna)
+**Zdůvodnění:** Tato struktura přirozeně odpovídá třem pod-příběhům uvedeným v poznámkách ke kampani a umožňuje budovat napětí od lehkovážné honičky až po konfrontaci na život a na smrt.
 
-## R3: Voice Signatures
-**Decision:**
-- **Pája:** Youthful, observant, slightly boastful but insecure ("Nikoho to samozřejmě nezajímá, ale já vím..."). Uses practical, nature-based metaphors.
-- **Vratislav:** Cruel, mocking, uses harsh, staccato sentences.
-- **Jarmil (Polevik):** Grumpy but ancient, speaks with authority about nature, demands respect for small things.
-**Rationale:** Distinct voices are necessary since the story is entirely filtered through Pája's first-person perspective.
+## R3: Charakteristické hlasy
+**Rozhodnutí:**
+- **Pája:** Mladistvá, všímavá, lehce chvástavá, ale nejistá („Nikoho to samozřejmě nezajímá, ale já vím...“). Používá praktické metafory založené na přírodě.
+- **Vratislav:** Krutý, posměšný, používá úsečné, staccatové věty.
+- **Jarmil (Polevik):** Nerudný, ale prastarý, mluví s autoritou o přírodě, vyžaduje úctu k malým věcem.
+**Zdůvodnění:** Odlišné hlasy jsou nezbytné, protože příběh je zcela filtrován skrze Pájinu perspektivu první osoby.
 
-## R4: Chekhov's Gun (Bone Whistle)
-**Decision:** The whistle must be introduced early (during the argument on the meadow), its soundlessness noted, and its true power revealed only during the climax. Pája destroys it not with magic, but simply with her fist.
-**Rationale:** Connects the mundane conflicts to the magical threat and provides a satisfying, non-magical resolution for the protagonist.
+## R4: Čechovova puška (Kostěná píšťalka)
+**Rozhodnutí:** Píšťalka musí být představena brzy (během hádky na louce), její bezhlučnost musí být zaznamenána a její skutečná síla odhalena až během vyvrcholení. Pája ji nezničí magií, ale prostě pěstí.
+**Zdůvodnění:** Propojuje všední konflikty s magickou hrozbou a poskytuje hrdince uspokojivé, nemagické řešení.
