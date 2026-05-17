@@ -26,6 +26,7 @@
 - [ ] T004 [US1] Napsat scénu, kde babička Chrasta naříká nad ztrátou Rypáčka do povidka.md.
 - [ ] T005 [US1] Napsat scénu u Vlčího žlebu: záchrana dráčka před krysami do povidka.md.
 - [ ] T006 [US1] Napsat útěk před pytlákem a návrat k babičce do povidka.md.
+- [ ] T006b [US1] Napsat scénu hádky starostů na Rosném lánu, představení žoldáků a zpozorování kostěné píšťalky do povidka.md.
 
 ## Phase 4: User Story 2 - Magický střet a pouto s přírodou (Priority: P2)
 **Goal**: Vyřešit problém s kozou Bělkou, rozzlobit a usmířit si Polevika Jarmila a začít si ochočovat vlka. (Act II)
