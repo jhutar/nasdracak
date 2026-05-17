@@ -1,4 +1,4 @@
-# Data Model: Rosný lán
+# Data Model: Ohrožená vesnice
 
 Pro literární dílo (povídku) tento dokument primárně mapuje klíčové postavy a jejich vztahy, spíše než databázové schéma.
 
@@ -28,3 +28,14 @@ Pro literární dílo (povídku) tento dokument primárně mapuje klíčové pos
 4. **Běs (Monstrum)**
    - Role: Živá zbraň Vratislava.
    - Charakteristika: Velikost telete, drátovité štětiny. Není zlý z podstaty, ale je zotročený a naštvaný ze zajetí.
+
+5. **Dráček (společník, komická postava)**
+   - Role: Komická postava
+   - Charakteristika: S Pájou nedokáže přímo mluvit, ale dokáže jí telepaticky posílat jednoduché pocity. Pořád reptá (svým způsobem: řečí těla a telepaticky sdílenými pocity). Miluje smůlu sbíranou ze stromů.
+   - Vztahy:
+     - V hloubi duše má rád Páju a vděčí jí za záchranu života, ale odmítá to dát najevo.
+
+6. **Vlk (váhavý splečník)**
+   - Role: Protipól dráčka: vážný, hrdý, nezkrotný a silný.
+   - Vztahy:
+     - Pája se s ním chce zkamarádit, chce ho hladit jako psa, ale je příliš hrdý aby k tomu svolil.

@@ -1,4 +1,4 @@
-# Research Notes: Dobrodružná povídka "Rosný lán"
+# Research Notes: Dobrodružná povídka "Ohrožená vesnice"
 
 ## R1: Protagonist's Internal Arc
 **Decision:** Pája's wound is her feeling of not belonging (being new to Blansko) and her overcompensation through stubborn independence. Her transformation involves learning to rely on others (Radmila, Jarmil) and accepting that true strength isn't just taming beasts, but working in harmony with nature and community.
@@ -21,5 +21,5 @@
 **Rationale:** Distinct voices are necessary since the story is entirely filtered through Pája's first-person perspective.
 
 ## R4: Chekhov's Gun (Bone Whistle)
-**Decision:** The whistle must be introduced early (during the argument on the meadow), its soundlessness noted, and its true power revealed only during the climax. Pája destroys it not with magic, but with her rusty dagger (a mundane tool found earlier).
+**Decision:** The whistle must be introduced early (during the argument on the meadow), its soundlessness noted, and its true power revealed only during the climax. Pája destroys it not with magic, but simply with her fist.
 **Rationale:** Connects the mundane conflicts to the magical threat and provides a satisfying, non-magical resolution for the protagonist.

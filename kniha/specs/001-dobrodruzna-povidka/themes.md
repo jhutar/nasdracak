@@ -1,4 +1,4 @@
-# Thematic Bible: Rosný lán
+# Thematic Bible: Ohrožená vesnice
 
 ## Central Thematic Question
 Can understanding and empathy overcome brute force and domination?
@@ -8,7 +8,7 @@ Harmony with nature is stronger than the desire to control it.
 
 ## Motifs
 - **Smells/Scents:** The sweet smell of herbs vs. the sulfur/wet dog smell of the Běs and Křivák's fishy smell. Represents natural order vs. corruption.
-- **The Rusty Dagger:** An old tool repurposed for good (freeing the whistle), contrasting with the shiny swords of the mercenaries.
+- **Fist vs. magic:** Normal human fist freeing the whistle, contrasting with the powerful magic of the whistle.
 - **Animal Bonds:** Rypáček's loyalty, the wolf's gradual trust, vs. the Běs's enslaved obedience.
 
 ## Thematic Arc

@@ -1,4 +1,4 @@
-# Specification Quality Checklist: Dobrodružná povídka "Rosný lán"
+# Specification Quality Checklist: Dobrodružná povídka "Ohrožená vesnice"
 
 **Purpose**: Validate specification completeness and quality before proceeding to planning
 **Created**: 2026-05-16

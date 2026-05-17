@@ -1,4 +1,4 @@
-# Feature Specification: Dobrodružná povídka "Rosný lán"
+# Feature Specification: Dobrodružná povídka "Ohrožená vesnice"
 
 **Feature Branch**: `001-dobrodruzna-povidka`
 **Created**: 2026-05-16

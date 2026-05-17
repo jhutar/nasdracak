@@ -1,4 +1,4 @@
-# Quickstart: Dobrodruzna povidka Rosny lan
+# Quickstart: Dobrodruzna povidka Ohrozena vesnice
 
 Tento dokument slouzi jako rychly prehled pro orientaci v nove vznikajici povidce.
 
@@ -7,6 +7,7 @@ Povidka vypravi pribeh ctrnactilete Paji, ktera poklidne zije ve stredovekem Bla
 
 ## Klicove Dokumenty
 - **Specifikace (spec.md)**: Definuje postavy, pozadavky a celkove vyzneni.
+- **Vztahy (data-model.md)**: Definuje vztahy mezi postavami a podrobnosti o postavách.
 - **Plan (plan.md)**: Obsahuje petiactovou strukturu a podrobny rozpis scen.
 - **Vyzkum (research.md)**: Definuje vnitrni vyvoj hrdinky a hlasy jednotlivych postav.
 - **Temata (themes.md)**: Zameruje se na hlavni motiv – harmonie s prirodou vs. hruba sila.
