@@ -8,18 +8,19 @@ plot_structure_stage: Climax (Start)
 timeline_position: TBD
 setting: Hranice Blanska a lesa, u bylinkarky
 estimated_words: 600-900
-status: DRAFT
+status: APPROVED
 ---
 
 # T013: Utok Besa
 
 ## Opening Hook
-Z lesa se vypotácí krvácející rychtářka Vítka, blouznící o hrůzostrašné příšeře.
+Z vesnice se vypotácí krvácející rychtářka Vítka, blouznící o hrůzostrašné příšeře. Biřic tam zůstal.
 
 ## Beat Sequence
-- Pája pomůže Vítce do bezpečí k Radmile a rozhodne se čelit monstru venku sama.
+- Pája pomůže Vítce dojít od Těchova do Blanska do bezpečí k Radmile a rozhodne se čelit monstru venku sama. Stmívá se.
+- Radmila ji nechce pustit ven
 - Ze tmy se vynoří Běs; Pájin uspávací lektvar v mase nepůsobí.
-- Než netvor zaútočí, objeví se Polevik Jarmil, který se snaží zuřící zvíře uklidnit a zadržet, zatímco prosí Páju, aby "udělala něco" s tím, kdo zvíře ovládá.
+- Než netvor zaútočí, objeví se Polevik Jarmil, který se snaží zuřící zvíře uklidnit a zadržet, zatímco prosí Páju, aby "něco udělala", protože se mu povedlo bestii uklidnit, ale ztrácí příliš energie a dlouho to nevydrží a "pak nás roztrhá všechny".
 
 ## Character Beats
 - **Pája:** Musí překonat strach. Chápe, že monstrum není strůjcem zla, ale zbraní.

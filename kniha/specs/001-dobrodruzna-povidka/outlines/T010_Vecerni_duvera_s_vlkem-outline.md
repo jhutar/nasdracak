@@ -8,7 +8,7 @@ plot_structure_stage: Rising Action (Conclusion)
 timeline_position: TBD
 setting: Vecerni les za Blanskem
 estimated_words: 500-800
-status: DRAFT
+status: APPROVED
 ---
 
 # T010: Vecerni duvera s vlkem
@@ -25,7 +25,7 @@ Se soumrakem se Pája krade k lesu, v ruce drží několik slepičích vajíček
 - **Pája:** Učí se trpělivosti, potlačuje svou zbrklost. Neovládá zvíře, ale spřátelí se s ním.
 
 ## Sensory Anchors
-- Šelest suchého listí v temném lese.
+- Šelest suchého listí v temném lese, zapadající slunce a dlouhé stíny.
 - Hrubá a hřejivá vlčí srst pod Pájinou rukou.
 
 ## Thematic Work

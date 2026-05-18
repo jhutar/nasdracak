@@ -8,7 +8,7 @@ plot_structure_stage: Inciting Incident (Setup)
 timeline_position: TBD
 setting: Pred chalupou babicky Chrasty v Blansku
 estimated_words: 500-800
-status: DRAFT
+status: APPROVED
 ---
 
 # T004: Babicka Chrasta a ztraceny Rypacek
@@ -17,13 +17,13 @@ status: DRAFT
 Pája přichází k chaloupce a vidí babičku Chrastu usedavě plakat na zápraží.
 
 ## Beat Sequence
-- Pája zjišťuje od plačící babičky, že se ztratil její milovaný Rypáček.
-- Pája využije svou všímavost, vyptá se drbny Sibyly a rozřeší spor dětí hrajících kuličky, aby získala směr, kterým Rypáček utekl.
-- Pája nachází stopy prasečích paspárků vedoucí cílevědomě k Vlčímu žlebu.
+- Pája zjišťuje od plačící babičky, že se ztratil její milovaný Rypáček (zjišťuje že to je prasátko, její mazlíček (u toho se Crasta zadrhne, málem se podřekne)).
+- Pája využije svou výřečnost a všímavost: vyptá se drbny Sibyly a rozřeší spor dětí hrajících kuličky, aby získala směr, kterým Rypáček utekl.
+- Pája nachází stopy prasečích paspárků vedoucí cílevědomě k lesu, k Vlčímu žlebu.
 
 ## Character Beats
 - **Pája:** Chce ukázat svou schopnost řešit problémy. Získává informace a prokazuje bystrost.
-- **Babička Chrasta:** Předstírá pouhý smutek nad mazlíčkem, aby skryla pravdu o lanýžích.
+- **Babička Chrasta:** Předstírá pouhý smutek nad mazlíčkem, aby skryla pravdu o lanýžích, ale Rypáčka má ráda, takže se opravdu bojí.
 
 ## Sensory Anchors
 - Zemitá vůně sušených hub u chaloupky.

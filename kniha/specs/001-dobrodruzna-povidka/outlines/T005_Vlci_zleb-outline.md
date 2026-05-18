@@ -8,7 +8,7 @@ plot_structure_stage: Inciting Incident (Action)
 timeline_position: TBD
 setting: Vlci zleb, temny les
 estimated_words: 600-900
-status: DRAFT
+status: APPROVED
 ---
 
 # T005: Vlci zleb a Dracek
@@ -19,7 +19,7 @@ Z pod kořenů vyvráceného dubu se ozývá zuřivé kvičení rozkročeného p
 ## Beat Sequence
 - Pája nachází Rypáčka statečně bránícího zvláštní spící stvoření s blanitými křídly před obřími krysami.
 - Pája pomůže Rypáčkovi zahnat krysy.
-- Pája rozpozná spavou plíseň a za pomoci Rypáčka rozdrtí Zlatý kořen, kterým probere dráčka z nebezpečného spánku.
+- Pája rozpozná spavou plíseň a za pomoci Rypáčka rozdrtí Zlatý kořen, jeho šťávou probere dráčka z nebezpečného spánku.
 
 ## Character Beats
 - **Pája:** Úspěšně využívá své bylinkářské znalosti (Zlatý kořen).
@@ -27,8 +27,8 @@ Z pod kořenů vyvráceného dubu se ozývá zuřivé kvičení rozkročeného p
 - **Dráček:** Projevuje vděčnost (a chuť na smůlu) drobným kýcháním jisker.
 
 ## Sensory Anchors
-- Nespokojené kvičení a cení krysích zubů.
-- Tvrdý, hladký povrch Zlatého kořene a záblesky jisker.
+- Nespokojené kvičení a cenění krysích zubů.
+- Tvrdý, hladký povrch Zlatého kořene (popsat jako zázvor).
 
 ## Thematic Work
 - Harmonická spolupráce se zvířaty přináší úspěch.

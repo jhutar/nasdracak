@@ -8,19 +8,19 @@ plot_structure_stage: Crisis (Escalation)
 timeline_position: TBD
 setting: Cesta z Blanska do Techova, podvecer
 estimated_words: 600-900
-status: DRAFT
+status: APPROVED
 ---
 
 # T012b: Cesta do Techova
 
 ## Opening Hook
-Rychtářka Vítka, rozzuřená útokem na sýrárnu a Křivákovým přiznáním, popadne zbraň a velí ponocnému (biřicovi), aby s ní šel okamžitě do Těchova.
+Rychtářka Vítka, rozzuřená útokem na sýrárnu a Křivákovým přiznáním, zavelé ponocnému (biřicovi), aby s ní šel okamžitě do Těchova všechno prošetřit.
 
 ## Beat Sequence
 - Vítka rázně odmítne, aby s nimi šla Pája, a přikáže jí zůstat v bezpečí u Radmily.
 - Pája, hnána tvrdohlavostí a obavami o Vítku (a o to, co Křivák naznačoval o "monstru"), se tajně plíží lesem za nimi.
 - Z povzdálí Pája vidí, jak Vítka s ponocným vstupují do podezřele tichého Těchova a míří přímo ke statku tamního rychtáře.
-- Pája z úkrytu uslyší první zvuky boje a strašlivý, nelidský řev, který se rozlehne vesnicí.
+- Pája z úkrytu v lesíku kde vidí Těchov jako na dlani uslyší první zvuky boje a strašlivý, nelidský řev, který se rozlehne vesnicí.
 
 ## Character Beats
 - **Pája:** Její tvrdohlavost ji žene do nebezpečí, odmítá zůstat pasivní, když se děje něco důležitého.

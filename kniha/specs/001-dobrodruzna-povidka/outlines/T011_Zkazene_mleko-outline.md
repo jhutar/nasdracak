@@ -8,7 +8,7 @@ plot_structure_stage: Crisis (Climax Setup)
 timeline_position: TBD
 setting: Sklep syrare a hospoda v Blansku
 estimated_words: 600-900
-status: DRAFT
+status: APPROVED
 ---
 
 # T011: Zkazene mleko a Krivak
@@ -26,11 +26,11 @@ Z domu největšího sýraře v Blansku se ozývá zoufalý pláč a nadávky.
 - **Křivák:** Zbabělec, který rychle povolí, když si myslí, že mu jde o život.
 
 ## Sensory Anchors
-- Zápach zkaženého mléka, ryb a výkalů ve studeném sklepě.
+- Zápach zkaženého mléka, rozšlapané sýry, zápach ryb a výkalů ve studeném sklepě.
 - Kyselý pach levného piva v hospodě.
 
 ## Thematic Work
-- Hrubost a podlost kazí poctivou práci (Běs a Křivák).
+- Hrubost a podlost kazí poctivou práci (Křivák).
 
 ## Story Bible Compliance Notes
 - Dodržet Pájinu perspektivu (nevidí, jak Křivák sýr kazil, jen následky).
