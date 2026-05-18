@@ -1,13 +1,21 @@
 ---
 title: Ohrožená vesnice
 author: Pája
+polished: 2026-05-17
 ---
+
+<!-- POLISH NOTES v1
+     Polished: 2026-05-17
+     Issues fixed: 1 (PR: 0 | WR: 1 | VR: 0 | DI: 0)
+     Issues skipped: PR-001 instances (user opted to skip)
+     Net word delta: -1 word
+-->
 
 # Ohrožená vesnice
 
 ## I. akt: Rypáček a dráček
 
-Ležím v trávě, koukám na oblohu a v puse žmoulám stéblo trávy. Nikoho to samozřejmě nezajímá, ale já vím, že ta tráva je psárka. Jak ji převaluju v puse, její hebké květenství se míhá proti čistě modré obloze. Už bych se měla vrátit, ale Radmila se určitě nebude zlobit, když se zdržím. Ostatně měla jsem dobrý lov. Mám pěknou hromádku heřmánkových kvítků, tady na louce nad vesnicí se sbírá úplně sám. Ruce mi budou vonět ještě zítra.
+Ležím v trávě, koukám na oblohu a v puse žmoulám stvol. Nikoho to samozřejmě nezajímá, ale já vím, že ta tráva je psárka. Jak ji převaluju v puse, její hebké květenství se míhá proti čistě modré obloze. Už bych se měla vrátit, ale Radmila se určitě nebude zlobit, když se zdržím. Ostatně měla jsem dobrý lov. Mám pěknou hromádku heřmánkových kvítků, tady na louce nad vesnicí se sbírá úplně sám. Ruce mi budou vonět ještě zítra.
 
 Já sem chodím sbírat bylinky. A nejen sem, ale i na Spodní louku, na Doubravku i pod Hůru. To jsou všechno místa tady kolem Blanska. Máta roste tam, kozlík jinde. Ono vlastně všude něco roste, ale Radmila tu zná všechny dobrý místa. A to vám říkám, někam by se dalo jít i s kosou.
 
