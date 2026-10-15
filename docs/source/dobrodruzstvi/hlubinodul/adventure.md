@@ -25,7 +25,7 @@ will share this much for 5 gp:
 **A Riddle on the Chapel Door**
 *No key turns in my lock of bone,*
 *yet what is buried chimes its song.*
-*Count the tolling, three-fold known —*
+*Count the tolling, threefold known —*
 *thirteen wake the dead and wrong.*
 :::
 
