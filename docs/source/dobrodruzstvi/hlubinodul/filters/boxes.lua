@@ -75,9 +75,18 @@ local function div(div)
   local cls = div.classes[1]
   if not cls or #div.content == 0 then return nil end
 
+  -- Box syntax is line-based (README): make single newlines (SoftBreak) in
+  -- the first block real line breaks, so titles/keys/poem lines survive.
+  local first = div.content[1]
+  if first and (first.t == 'Para' or first.t == 'Plain') then
+    for i = 1, #first.c do
+      if first.c[i].t == 'SoftBreak' then first.c[i] = pandoc.LineBreak() end
+    end
+  end
+
   -- ::: readaloud -> DndReadAloud
   if cls == 'readaloud' then
-    return wrap(div, '\\begin{DndReadAloud}', '\\end{DndReadAloud}')
+    return wrap(div, '\\begin{DndReadAloud}', '\\end{DndReadAloud}', div.content)
   end
 
   -- ::: squarebox -> squarebox (first fully-bold line becomes the title)
@@ -223,7 +232,7 @@ local function div(div)
       if keys[pair[1]] then details[#details + 1] = pair[2] .. '={' .. esc(keys[pair[1]]) .. '}' end
     end
 
-    local begin_raw = '\\begin{DndMonster}[float*=b,width=\\textwidth+8pt]{'
+    local begin_raw = '\\begin{DndMonster}[float=b]{'
         .. esc(keys.name) .. '}'
     local mid = pandoc.List{}
     if keys.type then mid[#mid + 1] = pandoc.RawBlock('latex', '\\DndMonsterType{' .. esc(keys.type) .. '}') end

@@ -1,7 +1,7 @@
 % Pandoc LaTeX template for D&D 5e adventures.
 % Wraps rpgtex/DND-5e-LaTeX-Template (loaded unmodified via TEXMFHOME).
 % -*- tex -*-
-\documentclass[10pt,twoside]{article}
+\documentclass[10pt,twoside,twocolumn]{article}
 $if(lang)$
 \usepackage[main=$lang$,english,czech]{babel}
 $endif$
@@ -34,9 +34,6 @@ $endif$
 
 \usepackage{dndboxes}  % squarebox, dnditem (this repo, template/dndboxes.sty)
 \usepackage{dndczech}  % Czech DND strings (this repo, template/dndczech.sty)
-$if(tables)$
-\usepackage{longtable,booktabs,array}
-$endif$
 
 $if(graphics)$
 \usepackage{graphicx,grffile}
@@ -66,6 +63,8 @@ $if(author)$
 \author{$author$}
 $endif$
 \date{$if(date)$$date$$else$\today$endif$}
+% Title + TOC on a single-column page; body starts two-column after it
+\onecolumn
 \maketitle
 
 $if(toc)$
@@ -74,6 +73,7 @@ $if(toc)$
 \tableofcontents
 }
 $endif$
+\twocolumn
 
 $body$
 

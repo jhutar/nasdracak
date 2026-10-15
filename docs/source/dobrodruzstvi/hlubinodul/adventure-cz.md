@@ -26,7 +26,7 @@ o tolik:
 *Mým zámkem je kost, mým klíčem vzpomínka,*
 *co pohřbeno je, zpívá svou píseň.*
 *Počítej údery, zná je jenom trojnásobek —*
-*třináct budí mrtvé a bloudí.
+*třináct budí mrtvé a bloudí.*
 :::
 
 ## Zavřená kaple

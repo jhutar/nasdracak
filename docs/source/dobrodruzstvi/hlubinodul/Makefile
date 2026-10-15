@@ -3,7 +3,8 @@
 
 TEXMF := $(CURDIR)/texmf
 PANDOC := pandoc
-PANDOCFLAGS = --template template/dnd.latex --lua-filter filters/boxes.lua --toc
+PANDOCFLAGS = --template template/dnd.latex --lua-filter filters/boxes.lua \
+            --lua-filter filters/tables.lua --toc
 # TEXINPUTS: pdflatex finds our template/*.sty (trailing ':' keeps system paths)
 export TEXINPUTS = $(CURDIR)/template:
 
