@@ -240,7 +240,7 @@ local function div(div)
       if keys[pair[1]] then details[#details + 1] = pair[2] .. '={' .. esc(keys[pair[1]]) .. '}' end
     end
 
-    local begin_raw = '\\begin{DndMonster}[float=b]{'
+    local begin_raw = '\\begin{DndMonster}[float=htbp]{'
         .. esc(keys.name) .. '}'
     local mid = pandoc.List{}
     if keys.type then mid[#mid + 1] = pandoc.RawBlock('latex', '\\DndMonsterType{' .. esc(keys.type) .. '}') end
