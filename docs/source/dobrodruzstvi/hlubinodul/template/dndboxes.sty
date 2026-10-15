@@ -1,0 +1,35 @@
+% dndboxes.sty - custom boxes for the D&D adventure pandoc pipeline.
+% Depends on the dnd package being loaded first (provides tcolorbox + colors).
+% Local to this repo; not part of the upstream DND-5e-LaTeX-Template.
+\ProvidesPackage{dndboxes}
+
+% squarebox: titled callout, visually distinct (parchment tint, titlered rules)
+% The title is passed by the filter as a tcolorbox key: [title={...}]
+\newtcolorbox{squarebox}{%
+  enhanced,
+  breakable,
+  boxsep=6pt,
+  top=4pt, bottom=4pt, left=8pt, right=8pt,
+  before skip=10pt, after skip=10pt,
+  colback=bgtan,
+  colframe=titlered,
+  borderline north={1.2pt}{0pt}{titlered},
+  borderline south={1.2pt}{0pt}{titlered},
+  borderline west={0.4pt}{0pt}{titlegold},
+  borderline east={0.4pt}{0pt}{titlegold},
+  fonttitle=\large\bfseries,
+  coltitle=titlered}
+
+% dnditem: name (bold) + type/rarity (italic) header, then description text.
+% Usage: \begin{dnditem}{Name}{Type, rarity} ... \end{dnditem}
+\newenvironment{dnditem}[2]{%
+  \par\medskip\noindent
+  \begin{minipage}{\linewidth}%
+    \begin{minipage}[t]{0.55\linewidth}\textbf{#1}\end{minipage}%
+    \begin{minipage}[t]{0.45\linewidth}\raggedleft\emph{#2}\end{minipage}%
+    \par\smallskip
+  }{%
+  \end{minipage}\par\medskip
+}
+
+\endinput

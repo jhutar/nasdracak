@@ -1,0 +1,88 @@
+% dndczech.sty - Czech strings for the DND-5e-LaTeX-Template stat blocks.
+%
+% The upstream package (rpgtex/DND-5e-LaTeX-Template) switches language
+% strings via babel: each language file does \addto\captions<lang>{...}.
+% Czech is not shipped upstream, so this file registers it here instead,
+% keeping the package itself unmodified (mergeable for future PRs).
+%
+% Structure mirrors upstream lib/languages/_template.sty. `|1|` is the
+% parameter placeholder, `~` a non-breaking space.
+%
+% Requires: babel loaded with the `czech` language (our pandoc template
+% always loads \usepackage[main=$lang$,english,czech]{babel}).
+\ProvidesPackage{dndczech}
+
+\addto\captionsczech
+  {
+    % Monster basics
+    \renewcommand\armorclassname{Třída~brnění}
+    \renewcommand\hitpointsname{Bodky~života}
+    \renewcommand\speedname{Rychlost}
+    % Monster ability scores
+    \renewcommand\strstatname{SÍLA}
+    \renewcommand\dexstatname{ZRUK}
+    \renewcommand\constatname{KON}
+    \renewcommand\intstatname{INT}
+    \renewcommand\wisstatname{MUD}
+    \renewcommand\chastatname{KAR}
+    % Monster details
+    \renewcommand\skillsname{Dovednosti}
+    \renewcommand\dimmname{Imunity~vůči~poškození}
+    \renewcommand\dvulname{Zranitelnost~vůči~poškození}
+    \renewcommand\dresname{Odolnosti~vůči~poškození}
+    \renewcommand\cimmname{Imunity~vůči~stavům}
+    \renewcommand\savesname{Hody~odvahy}
+    \renewcommand\sensesname{Smysly}
+    \renewcommand\defaultsensesname{pasivní~Percepcce~10}
+    \renewcommand\languagesname{Jazyky}
+    \renewcommand\challengename{Vyznání}
+    \renewcommand\xpname{ZP}
+    % Monster attack
+    \renewcommand\unitsname{stop}
+    \renewcommand\weaponname{zbraň}
+    \renewcommand\spellname{kouzlo}
+    \renewcommand\meleeattackname{Útok~zblízka~|1|}
+    \renewcommand\rangedattackname{Útok~na~dálku~|1|}
+    \renewcommand\meleeorrangedattackname{Útok~zblízka~nebo~na~dálku~|1|}
+    \renewcommand\orname{nebo}
+    \renewcommand\tohitname{|1|~ke~zásahu}
+    \renewcommand\defaulttargetsname{jeden~cíl}
+    \renewcommand\reachname{dosah}
+    \renewcommand\rangename{dolet}
+    \renewcommand\hitname{Zásah}
+    \renewcommand\damagename{poškození}
+    \renewcommand\plusname{plus}
+    % Proficiency bonus
+    \renewcommand\pbonname{Bonus~profikvnosti}
+    % Spell levels
+    \renewcommand\spellcantripsname{Kanytry}
+    \renewcommand\spellfirstlevelname{1.~úrovně}
+    \renewcommand\spellsecondlevelname{2.~úrovně}
+    \renewcommand\spellthirdlevelname{3.~úrovně}
+    \renewcommand\spellfourthlevelname{4.~úrovně}
+    \renewcommand\spellsixthlevelname{6.~úrovně}
+    \renewcommand\spellseventhlevelname{7.~úrovně}
+    \renewcommand\spelleighthlevelname{8.~úrovně}
+    \renewcommand\spellninthlevelname{9.~úrovně}
+    % Spell slots
+    \renewcommand\spellatwillname{kdykoli}
+    \renewcommand\spelloneslotname{1~slot}
+    \renewcommand\spelltwoslotsname{2~sloty}
+    \renewcommand\spellthreeslotsname{3~sloty}
+    \renewcommand\spellfourslotsname{4~sloty}
+    % Innate spellcasting
+    \renewcommand\innateatwillname{Kdykoli}
+    \renewcommand\numberperdayname{|1|/den}
+    \renewcommand\numberperdayeachname{|1|/den~každé}
+    % Spell header
+    \renewcommand\spellcastingtimename{Čas~vržení}
+    \renewcommand\spellrangename{Dosah}
+    \renewcommand\spellcomponentsname{Komponenty}
+    \renewcommand\spelldurationname{Trvání}
+    % Miscellaneous
+    \renewcommand\tocchapterabbreviationname{Kap.}
+    \renewcommand\pageabbreviationname{s.}
+    \renewcommand\dname{b}
+  }
+
+\endinput

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#f7f2e5"/>
+  <!-- chapel wall -->
+  <rect x="60" y="40" width="280" height="230" fill="#d8d0bd" stroke="#58180d" stroke-width="4"/>
+  <!-- roof -->
+  <polygon points="40,40 200,-20 360,40" fill="#9c2b1b" stroke="#58180d" stroke-width="4"/>
+  <!-- cross -->
+  <line x1="200" y1="8" x2="200" y2="32" stroke="#58180d" stroke-width="5"/>
+  <line x1="190" y1="16" x2="210" y2="16" stroke="#58180d" stroke-width="5"/>
+  <!-- arched door -->
+  <path d="M 155 270 L 155 130 Q 200 90 245 130 L 245 270 Z" fill="#7a5230" stroke="#58180d" stroke-width="4"/>
+  <!-- door planks -->
+  <line x1="178" y1="270" x2="178" y2="115" stroke="#58180d" stroke-width="2"/>
+  <line x1="200" y1="270" x2="200" y2="102" stroke="#58180d" stroke-width="2"/>
+  <line x1="222" y1="270" x2="222" y2="115" stroke="#58180d" stroke-width="2"/>
+  <!-- iron bands -->
+  <path d="M 155 160 L 245 160" stroke="#3a3a3a" stroke-width="6"/>
+  <path d="M 155 220 L 245 220" stroke="#3a3a3a" stroke-width="6"/>
+  <!-- round window -->
+  <circle cx="200" cy="70" r="14" fill="#f7f2e5" stroke="#58180d" stroke-width="3"/>
+  <!-- ground -->
+  <line x1="20" y1="270" x2="380" y2="270" stroke="#58180d" stroke-width="4"/>
+</svg>

@@ -1,0 +1,13 @@
+# build outputs
+output/
+images/*.pdf
+*.aux
+*.log
+*.toc
+*.out
+
+# kpathsea index (regenerate with `make index`)
+texmf/ls-R
+
+# external package clones (not part of this repo; texmf/tex/latex/dnd is a symlink)
+tools/
