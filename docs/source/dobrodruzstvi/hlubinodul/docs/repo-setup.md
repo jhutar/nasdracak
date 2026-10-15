@@ -65,7 +65,9 @@ Our original code: `template/dnd.latex` (rewritten), `dndboxes.sty`,
   `condition_immunities`, `senses`, `languages`, `challenge`.
   Emits `DndMonster` env with `\DndMonsterType`, `\DndMonsterBasics`,
   `\DndMonsterAbilityScores`, `\DndMonsterDetails`. Everything after the key
-  block (actions, senses notes, …) passes through as normal markdown.
+  block (actions, senses notes, …) passes through as normal markdown; a
+  paragraph that is fully bold (e.g. `**Actions**`) becomes a
+  `\DndMonsterSection` header (red small caps + rule).
 
 ## i18n
 

@@ -65,7 +65,7 @@ languages: understands Common, but cannot speak
 challenge: 1/4
 
 ---                        <- optional separator (blank lines around it)
-**Actions**                <- anything after the keys is normal markdown
+**Actions**                <- fully bold line = statblock section header
 
 **Rusty Scythe.** *Melee Weapon Attack.* +3 to hit.
 :::

@@ -202,6 +202,16 @@ local function div(div)
     end
     for j = start, #div.content do body[#body + 1] = div.content[j] end
 
+    -- a paragraph that is fully bold (e.g. "**Actions**") is a statblock
+    -- section header -> \DndMonsterSection (red small caps + rule), not a
+    -- bold body paragraph
+    for j, blk in ipairs(body) do
+      if blk.t == 'Para' and #blk.c == 1 and blk.c[1].t == 'Strong' then
+        body[j] = pandoc.RawBlock('latex',
+          '\\DndMonsterSection{' .. esc(textof(blk.c, 1, 1)) .. '}')
+      end
+    end
+
     local known = {
       name = 1, type = 1, armor_class = 1, hit_points = 1, speed = 1,
       str = 1, dex = 1, con = 1, int = 1, wis = 1, cha = 1,
