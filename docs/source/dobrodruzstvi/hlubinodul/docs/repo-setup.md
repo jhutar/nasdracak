@@ -46,6 +46,10 @@ Our original code: `template/dnd.latex` (rewritten), `dndboxes.sty`,
   strings can be registered
 - `\usepackage{dndboxes}` (our boxes), `\usepackage{dndczech}` (Czech strings)
 - hyperref + image auto-scaling (dnd-tools pattern)
+- `\DndSetFonts` override: Gillius Sans (package default for stat-block /
+  read-aloud / table / comment / sidebar bodies) has no Czech glyphs
+  (pdflatex silently drops ř/ě/ů). Swapped to `\sffamily` (KP-Fonts sans,
+  full Czech) unconditionally so en + cz builds look the same
 - title page from metadata, TOC when `--toc`
 
 ## Div boxes (single Lua filter, `filters/boxes.lua`)

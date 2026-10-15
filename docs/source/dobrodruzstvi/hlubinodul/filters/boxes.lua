@@ -240,7 +240,9 @@ local function div(div)
       if keys[pair[1]] then details[#details + 1] = pair[2] .. '={' .. esc(keys[pair[1]]) .. '}' end
     end
 
-    local begin_raw = '\\begin{DndMonster}[float=htbp]{'
+    -- padding: upstream DndMonsterBg uses left/right=2pt (too tight, text
+    -- hugs the box border); override via tcolorbox options here
+    local begin_raw = '\\begin{DndMonster}[float=htbp,left=6pt,right=6pt]{'
         .. esc(keys.name) .. '}'
     local mid = pandoc.List{}
     if keys.type then mid[#mid + 1] = pandoc.RawBlock('latex', '\\DndMonsterType{' .. esc(keys.type) .. '}') end

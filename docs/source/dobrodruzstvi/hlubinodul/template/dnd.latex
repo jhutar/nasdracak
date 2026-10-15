@@ -6,6 +6,17 @@ $if(lang)$
 \usepackage[main=$lang$,english,czech]{babel}
 $endif$
 \usepackage[bg=full,justified]{dnd}
+% Gillius Sans (package default for stat-block / read-aloud / table /
+% comment / sidebar bodies) has no Czech glyphs: pdflatex silently drops
+% them. Swap to KP-Fonts sans (\sffamily here) - full Czech support, already
+% loaded by the dnd package. Applied unconditionally so en + cz builds match.
+\DndSetFonts[
+  stat-block-body-family = \sffamily,
+  readaloud-family       = \sffamily,
+  table-body-family      = \sffamily,
+  comment-body-family    = \sffamily,
+  sidebar-body-family    = \sffamily
+]
 \usepackage{amsmath,amssymb}
 \usepackage{fixltx2e} % provides \textsubscript
 \usepackage[T1]{fontenc}
