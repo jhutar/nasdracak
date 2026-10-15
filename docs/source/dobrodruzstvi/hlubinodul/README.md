@@ -4,23 +4,15 @@ Write adventures in Markdown, build D&D 5e-styled PDFs with Pandoc + the
 [rpgtex/DND-5e-LaTeX-Template](https://github.com/rpgtex/DND-5e-LaTeX-Template)
 package. English and Czech supported (`lang:` frontmatter).
 
-## Install (RHEL/Fedora, dnf)
+## Install dependencies (Fedora)
 
 ```sh
-sudo dnf install inkscape \
+sudo dnf install inkscape pandoc-cli \
   texlive-collection-latexrecommended \
   texlive-collection-latexextra \
   texlive-collection-fontsrecommended \
   texlive-collection-fontsextra \
-  texlive-langczech
-```
-
-Pandoc (static binary, GitHub releases):
-
-```sh
-curl -LO https://github.com/jgm/pandoc/releases/latest/download/pandoc-x86_64-unknown-linux-musl.tar.gz
-tar xzf pandoc-*.tar.gz
-sudo install pandoc-*/bin/pandoc /usr/local/bin/
+  texlive-collection-langczechslovak
 ```
 
 ## Build
@@ -97,26 +89,12 @@ live in `template/dndczech.sty` (standard Czech 5e terminology: Třída brnění
 Bodky života, Vyznání, ZP, hody odvahy…). Review the file if you translate
 adventures — strings not listed there fall back to English.
 
-## Caveats
-
-- Not build-verified in this repo yet; first `make` may reveal a missing
-  texlive package — install whatever `pdflatex` names.
-- The upstream package loads its `japanese` language file whenever babel is
-  present. Harmless under pdflatex as long as no Japanese strings are used.
-- Decorative fonts (Royal etc.) may lack glyphs for some Czech diacritics in
-  large display text; body text is fine (T1).
-
 ## Attribution
 
 Not all of this is original:
 
 | Source | What is used | License |
 |---|---|---|
-| [rpgtex/DND-5e-LaTeX-Template](https://github.com/rpgtex/DND-5e-LaTeX-Template) | the entire visual theme (`dnd` package: fonts, colors, `DndMonster`, `DndReadAloud`, tables). Used **as-is**, unmodified, via symlink — no code copied into this repo | MIT |
+| [rpgtex/DND-5e-LaTeX-Template](https://github.com/rpgtex/DND-5e-LaTeX-Template) | the entire visual theme (`dnd` package: fonts, colors, `DndMonster`, `DndReadAloud`, tables). | MIT |
 | [dnd-tools](https://github.com/samuelbasweiler/dnd-tools) (fork lineage of the same template) | pandoc template structure (hyperref, image auto-scaling, `dnditem` idea) — rewritten, not copied | MIT |
 | [daggerheart-template](https://github.com/jonathanlambertx/daggerheart-template) | `::: div` → box workflow, `squarebox` concept — re-themed for 5e | repo's license |
-
-Original to this repo: `template/dnd.latex`, `template/dndboxes.sty`,
-`template/dndczech.sty`, `filters/boxes.lua`, `Makefile`, sample adventures.
-
-See `docs/repo-setup.md` for the full design notes.
