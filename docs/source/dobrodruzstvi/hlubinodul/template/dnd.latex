@@ -34,6 +34,9 @@ $endif$
 
 \usepackage{dndboxes}  % squarebox, dnditem (this repo, template/dndboxes.sty)
 \usepackage{dndczech}  % Czech DND strings (this repo, template/dndczech.sty)
+$if(tables)$
+\usepackage{longtable,booktabs,array}
+$endif$
 
 $if(graphics)$
 \usepackage{graphicx,grffile}
@@ -47,6 +50,8 @@ $endif$
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+% pandoc >= 3.6 wraps images in this; our Gin scaling handles sizing
+\providecommand{\pandocbounded}[1]{#1}
 
 \begin{document}
 
@@ -55,7 +60,7 @@ $include-before$
 $endfor$
 
 $if(title)$
-\title{$title$$if(subtitle)\subtitle{$subtitle$}$endif$}
+\title{$title$$if(subtitle)$\subtitle{$subtitle$}$endif$}
 $endif$
 $if(author)$
 \author{$author$}

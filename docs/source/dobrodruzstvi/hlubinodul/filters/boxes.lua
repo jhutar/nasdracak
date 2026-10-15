@@ -24,7 +24,7 @@ local function esc(s)
   s = s:gsub('%%', '\\%')
   s = s:gsub('~~', '\\textasciitilde{}')
   s = s:gsub('_', '\\textunderscore')
-  s = s:gsub('\^', '\\textasciicircum')
+  s = s:gsub('%^', '\\textasciicircum')
   s = s:gsub('|', '\\textbar{}')
   return s
 end
@@ -38,7 +38,7 @@ local function textof(inls, a, b)
       buf[#buf + 1] = x.text
     elseif x.t == 'Space' then
       buf[#buf + 1] = ' '
-    elseif x.t == 'LineBreak' then
+    elseif x.t == 'LineBreak' or x.t == 'SoftBreak' then
       buf[#buf + 1] = '\n'
     elseif x.t == 'Emph' or x.t == 'Strong' or x.t == 'Strikeout' then
       for _, y in ipairs(x.c) do add(y) end
@@ -64,9 +64,10 @@ end
 local function wrap(div, begin_raw, end_raw, content)
   div.classes = {}
   div.attributes = {}
-  div.content = { pandoc.RawBlock('latex', begin_raw) }
-      .. (content or {})
-      .. { pandoc.RawBlock('latex', end_raw) }
+  local out = pandoc.List{ pandoc.RawBlock('latex', begin_raw) }
+  out:extend(content or {})
+  out:insert(pandoc.RawBlock('latex', end_raw))
+  div.content = out
   return div
 end
 
@@ -86,7 +87,8 @@ local function div(div)
     local first = content[1]
     if first and first.t == 'Para'
         and first.c[1] and first.c[1].t == 'Strong'
-        and #first.c >= 2 and first.c[2].t == 'LineBreak' then
+        and #first.c >= 2
+        and (first.c[2].t == 'LineBreak' or first.c[2].t == 'SoftBreak') then
       begin_raw = '\\begin{squarebox}[title={' .. esc(textof(first.c, 1, 1)) .. '}]'
       content = {}
       local rest = {}
@@ -106,7 +108,7 @@ local function div(div)
       local inls = first.c
       local lbs = {}
       for idx, x in ipairs(inls) do
-        if x.t == 'LineBreak' then lbs[#lbs + 1] = idx end
+        if x.t == 'LineBreak' or x.t == 'SoftBreak' then lbs[#lbs + 1] = idx end
       end
       if #lbs >= 2 then
         name = textof(inls, 1, lbs[1] - 1)
@@ -127,7 +129,7 @@ local function div(div)
       typ = (#div.content >= 2) and blocktext(div.content[2]) or ''
     end
     if not name or name == '' or typ == '' then
-      pandoc.message.warn('dnditem: needs line 1 = name, line 2 = type/rarity')
+      pandoc.log.warn('dnditem: needs line 1 = name, line 2 = type/rarity')
       return nil
     end
     for i = 2, #div.content do body[#body + 1] = div.content[i] end
@@ -140,7 +142,7 @@ local function div(div)
   if cls == 'dndmonster' then
     local first = div.content[1]
     if not (first and (first.t == 'Para' or first.t == 'Plain')) then
-      pandoc.message.warn('dndmonster: first block must be plain key: value lines')
+      pandoc.log.warn('dndmonster: first block must be plain key: value lines')
       return nil
     end
     local text = blocktext(first)
@@ -161,7 +163,7 @@ local function div(div)
     if lines[i] and lines[i]:match('^%s*---%s*$') then i = i + 1 end
 
     if not keys.name then
-      pandoc.message.warn('dndmonster: missing required key "name"')
+      pandoc.log.warn('dndmonster: missing required key "name"')
       return nil
     end
 
@@ -172,7 +174,7 @@ local function div(div)
       if lines[j]:match('%S') then leftover[#leftover + 1] = lines[j] end
     end
     if #leftover > 0 then
-      pandoc.message.warn('dndmonster: non-key lines in the key block — put the body after a blank line')
+      pandoc.log.warn('dndmonster: non-key lines in the key block — put the body after a blank line')
     end
 
     local body = {}
@@ -192,7 +194,7 @@ local function div(div)
     }
     for k in pairs(keys) do
       if not known[k] then
-        pandoc.message.warn('dndmonster: unknown key "' .. k .. '" (ignored)')
+        pandoc.log.warn('dndmonster: unknown key "' .. k .. '" (ignored)')
       end
     end
 
@@ -223,13 +225,14 @@ local function div(div)
 
     local begin_raw = '\\begin{DndMonster}[float*=b,width=\\textwidth+8pt]{'
         .. esc(keys.name) .. '}'
-    local mid = {}
+    local mid = pandoc.List{}
     if keys.type then mid[#mid + 1] = pandoc.RawBlock('latex', '\\DndMonsterType{' .. esc(keys.type) .. '}') end
     if #b > 0 then mid[#mid + 1] = pandoc.RawBlock('latex', '\\DndMonsterBasics[' .. table.concat(b, ',') .. ']') end
     if #abilities > 0 then mid[#mid + 1] = pandoc.RawBlock('latex', '\\DndMonsterAbilityScores[' .. table.concat(abilities, ',') .. ']') end
     if #details > 0 then mid[#mid + 1] = pandoc.RawBlock('latex', '\\DndMonsterDetails[' .. table.concat(details, ',') .. ']') end
 
-    return wrap(div, begin_raw, '\\end{DndMonster}', mid .. body)
+    mid:extend(body)
+    return wrap(div, begin_raw, '\\end{DndMonster}', mid)
   end
 
   return nil
