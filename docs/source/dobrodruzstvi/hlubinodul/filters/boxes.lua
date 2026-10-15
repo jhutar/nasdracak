@@ -75,15 +75,6 @@ local function div(div)
   local cls = div.classes[1]
   if not cls or #div.content == 0 then return nil end
 
-  -- Box syntax is line-based (README): make single newlines (SoftBreak) in
-  -- the first block real line breaks, so titles/keys/poem lines survive.
-  local first = div.content[1]
-  if first and (first.t == 'Para' or first.t == 'Plain') then
-    for i = 1, #first.c do
-      if first.c[i].t == 'SoftBreak' then first.c[i] = pandoc.LineBreak() end
-    end
-  end
-
   -- ::: readaloud -> DndReadAloud
   if cls == 'readaloud' then
     return wrap(div, '\\begin{DndReadAloud}', '\\end{DndReadAloud}', div.content)
@@ -91,6 +82,13 @@ local function div(div)
 
   -- ::: squarebox -> squarebox (first fully-bold line becomes the title)
   if cls == 'squarebox' then
+    -- line-based content (title + poem lines): make newlines real breaks
+    if div.content[1] and div.content[1].c then
+      local fc = div.content[1].c
+      for i = 1, #fc do
+        if fc[i].t == 'SoftBreak' then fc[i] = pandoc.LineBreak() end
+      end
+    end
     local content = div.content
     local begin_raw = '\\begin{squarebox}'
     local first = content[1]
@@ -115,6 +113,16 @@ local function div(div)
     local body = {}
     if first and (first.t == 'Para' or first.t == 'Plain') then
       local inls = first.c
+      -- name and type lines are line-based: make their newlines real
+      -- breaks (first two only); the description stays soft-wrapped prose
+      local nb = 0
+      for i = 1, #inls do
+        if inls[i].t == 'SoftBreak' or inls[i].t == 'LineBreak' then
+          nb = nb + 1
+          if inls[i].t == 'SoftBreak' then inls[i] = pandoc.LineBreak() end
+          if nb >= 2 then break end
+        end
+      end
       local lbs = {}
       for idx, x in ipairs(inls) do
         if x.t == 'LineBreak' or x.t == 'SoftBreak' then lbs[#lbs + 1] = idx end

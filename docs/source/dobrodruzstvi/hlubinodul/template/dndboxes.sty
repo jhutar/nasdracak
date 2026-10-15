@@ -22,16 +22,24 @@
   coltitle=titlered,
   #1}
 
-% dnditem: name (bold) + type/rarity (italic) header, then description text.
-% Usage: \begin{dnditem}{Name}{Type, rarity} ... \end{dnditem}
-\newenvironment{dnditem}[2]{%
-  \par\medskip\noindent
-  \begin{minipage}{\linewidth}%
-    \begin{minipage}[t]{0.55\linewidth}\textbf{#1}\end{minipage}%
-    \begin{minipage}[t]{0.45\linewidth}\raggedleft\emph{#2}\end{minipage}%
-    \par\smallskip
-  }{%
-  \end{minipage}\par\medskip
-}
+% dnditem: item stat block — name as box title, type/rarity italic below it,
+% then description text. Usage: \begin{dnditem}{Name}{Type, rarity} ... \end{dnditem}
+% Styled like a small DndMonster: statblock tan bg, gold ribbon top/bottom.
+\newtcolorbox{dnditem}[2]{%
+  enhanced,
+  breakable,
+  boxsep=6pt,
+  top=4pt, bottom=4pt, left=8pt, right=8pt,
+  before skip=10pt, after skip=10pt,
+  boxrule=0pt,
+  colback=statblockbg,
+  colframe=statblockribbon,
+  borderline north={2pt}{0pt}{statblockribbon},
+  borderline south={2pt}{0pt}{statblockribbon},
+  colbacktitle=statblockbg,
+  coltitle=titlered,
+  fonttitle=\large\bfseries,
+  title={#1},
+  before upper={\textit{#2}\par\smallskip}}
 
 \endinput
