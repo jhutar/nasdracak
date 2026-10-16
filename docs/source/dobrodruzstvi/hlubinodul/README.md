@@ -24,6 +24,12 @@ make cz     # czech only
 make index  # rebuild kpathsea index for the local texmf (once, speeds builds)
 ```
 
+Single location files (run from this directory):
+
+```sh
+TEXINPUTS="$PWD/template:" TEXMFHOME="$PWD/texmf" pandoc 1-3-svatyne.md --template template/dnd.latex --lua-filter filters/boxes.lua --lua-filter filters/tables.lua --toc -o output/1-3-svatyne.pdf
+```
+
 Requires the `dnd` package clone at `tools/DND-5e-LaTeX-Template`
 (`texmf/tex/latex/dnd` is a symlink to it — update the clone with `git
 pull`, the build picks it up).
