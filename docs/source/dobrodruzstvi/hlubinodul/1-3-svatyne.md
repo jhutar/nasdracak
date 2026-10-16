@@ -20,11 +20,13 @@ Hlavní cesta se rozšiřuje v prostranné, tiché náměstí. Vzduch je tu chla
 ## 2. Socha ve svatyni
 
 ::: readaloud
-Přímo na ochozu naproti hlavnímu vchodu, přes zející černou puklinu propasti, je do samotné stěny hory vytesána obří, asi čtyřmetrová socha vousatého trpaslíka v hluboké klesající kápji. Jeho kamenné ruce drží masivní kovadlinu, která tvoří podstavec pro prázdný oltář. Ačkoliv je socha pokrytá vrstvou prachu, její tvář vyzařuje stoický klid a nezměrnou sílu. U paty sochy leží napůl zasypaný kamenný sloupek s vytesanou otevřenou knihou z kamene.
+Přímo na ochozu naproti hlavnímu vchodu, přes zející černou puklinu propasti, je do samotné stěny hory vytesána obří, asi čtyřmetrová socha trpasličího božstva. Postava představuje trpaslíka s drsnými rysy, zapleteným fousem a očima vykládanými rudým granátem. Třímá masivní bojovou sekeru s hlavou vytvarovanou do podoby plamene. Ze skály kolem něj vystupují motivy výhně, ozubených kol a roztavené rudy. Před sochou se tyčí kamenný oltář s vyrytým posvátným symbolem – ohnivou sekerou.
 :::
 
-* **Lore sochy:** Socha představuje **Tharmekhûla**, TODO <https://forgottenrealms.fandom.com/wiki/Tharmekh%C3%BBl>.
-* **Nalezená kniha u sochy:** Postavy mohou u paty sochy prozkoumat knihu. Kniha nese název ***Píseň o probuzeném kameni*** a popisuje historii vzniku kolonie a posvátný význam hlubokého komína. Díky studiu této knihy (zabere 15 minut) získá postava trvalou nápovědu k tomu, jak funguje hlubinná architektura trpaslíků, což poskytuje **výhodu/advantage** na budoucí ověření na *Historii/History* nebo *Přírodu/Nature* spojenou se sopkou TODO.
+* **Lore sochy:** Socha představuje **Tharmekhûla** (Strážce výhně a Pomocníka Moradina), nižšího trpasličího boha (demigoda) ohně, podzemních pecí, roztavené rudy a obléhacích zbraní. V kolonii Khad-Ghar byl uctíván kováři a inženýry jako patron tektonického tepla a síly, která poháněla jejich obří hutě.
+* **Kniha u oltáře:** U paty oltáře leží kamenný stojan, v němž je vsazena kniha s mosaznými kovanými deskami. Kniha se jmenuje ***Kniha ohnivé výhně: Liturgie Tharmekhûlova plamene***.
+  * *Obsah:* Popisuje Tharmekhûlovu roli jako toho, kdo usměrňuje divoký oheň ze srdce země pro užitek kovářů. Obsahuje historický zápis o tom, jak trpaslíci před 100 lety napojili energii sopečného komína na své výhně.
+  * *Herní užitek:* Pokud postava věnuje čtení knihy 15 minut a uspěje v ověření na *Náboženství/Religion* nebo *Přírodu/Nature* proti **DC 12**, pochopí principy geotermálního vytápění kolonie a získá **výhodu/advantage** na ověřování vlastností spojené s ovládáním nebo opravou trpasličích mechanizmů v 3. (industriálním) patře.
 
 ## 3. Žehnací artefakt
 
