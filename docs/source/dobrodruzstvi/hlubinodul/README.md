@@ -50,6 +50,10 @@ Text the game master reads aloud.
 Item Name              <- block 1 = name
 Wondrous item, rare    <- block 2 = type/rarity
 Description text.
+
+::: readaloud            <- nested readaloud = compact in-box callout
+Text the players hear when the item activates.
+:::
 :::
 
 ::: dndmonster         <- stat block from key: value lines
@@ -74,8 +78,18 @@ challenge: 1/4
 **Actions**                <- fully bold line = statblock section header
 
 **Rusty Scythe.** *Melee Weapon Attack.* +3 to hit.
+
+::: readaloud            <- also works inside dndmonster
+The skeleton raises its scythe and chimes.
+:::
 :::
 ```
+
+A `::: readaloud` nested inside `dnditem` or `dndmonster` renders as a
+compact `DndItemReadAloud` box (parchment bg, thin gold rule) instead of the
+full tan `DndReadAloud` box, so the DM can spot player-readable text inside a
+stat block without re-reading the whole description. Several segments per
+box are allowed.
 
 `dndmonster` keys: `name` (required), `type`, `armor_class`, `hit_points`,
 `speed`, `str`, `dex`, `con`, `int`, `wis`, `cha`, `saving_throws`, `skills`,

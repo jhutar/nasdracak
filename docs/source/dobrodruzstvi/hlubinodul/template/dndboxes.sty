@@ -43,4 +43,21 @@
   title={#1},
   before upper={\textit{#2}\par\smallskip}}
 
+% DndItemReadAloud: compact read-aloud box for use INSIDE dnditem/dndmonster
+% boxes (a plain DndReadAloud would be tan-on-tan there). Parchment bg with a
+% thin gold rule so the DM can spot player-readable text quickly.
+\newtcolorbox{DndItemReadAloud}{%
+  enhanced,
+  breakable,
+  boxsep=4pt,
+  top=4pt, bottom=4pt, left=6pt, right=6pt,
+  before skip=6pt, after skip=6pt,
+  boxrule=0pt,
+  colback=bgtan,
+  borderline north={0.6pt}{0pt}{titlegold},
+  borderline south={0.6pt}{0pt}{titlegold},
+  borderline west={0.6pt}{0pt}{titlegold},
+  borderline east={0.6pt}{0pt}{titlegold},
+  fontupper=\DndFontStatBlockBody}
+
 \endinput

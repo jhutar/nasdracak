@@ -5,6 +5,7 @@
 --   ::: readaloud    -> DndReadAloud env (upstream package)
 --   ::: dnditem      line 1 = name, line 2 = type/rarity, rest = description
 --   ::: dndmonster   leading `key: value` lines -> DndMonster stat block
+--   ::: readaloud    inside dnditem/dndmonster -> DndItemReadAloud (compact, in-box)
 --
 -- Lines within a div are one pandoc block with LineBreak inlines, so all
 -- handlers work at the line/inline level, not the block level.
@@ -71,13 +72,31 @@ local function wrap(div, begin_raw, end_raw, content)
   return div
 end
 
+-- Count how many ancestors of `el` are Divs whose first class is in `classes`
+-- (pandoc 3 `parent` field). Used to render nested ::: readaloud compactly
+-- when it sits inside a dnditem/dndmonster box.
+local function countAncestors(el, classes)
+  local n, cur = 0, el.parent
+  while cur do
+    if cur.t == 'Div' and cur.classes[1] and classes[cur.classes[1]] then
+      n = n + 1
+    end
+    cur = cur.parent
+  end
+  return n
+end
+
 local function div(div)
   local cls = div.classes[1]
   if not cls or #div.content == 0 then return nil end
 
-  -- ::: readaloud -> DndReadAloud
+  -- ::: readaloud -> DndReadAloud (or DndItemReadAloud inside item/monster)
   if cls == 'readaloud' then
-    return wrap(div, '\\begin{DndReadAloud}', '\\end{DndReadAloud}', div.content)
+    local env = 'DndReadAloud'
+    if countAncestors(div, { dnditem = 1, dndmonster = 1 }) > 0 then
+      env = 'DndItemReadAloud'
+    end
+    return wrap(div, '\\begin{' .. env .. '}', '\\end{' .. env .. '}', div.content)
   end
 
   -- ::: squarebox -> squarebox (first fully-bold line becomes the title)
