@@ -23,12 +23,12 @@ Hlavní cesta se rozšiřuje v prostranné, tiché náměstí. Vzduch je tu chla
 Přímo na ochozu naproti hlavnímu vchodu, přes zející černou puklinu propasti, je do samotné stěny hory vytesána obří, asi čtyřmetrová socha trpasličího božstva. Postava představuje trpaslíka s drsnými rysy, zapleteným fousem a očima vykládanými rudým granátem. Třímá masivní bojovou sekeru s hlavou vytvarovanou do podoby plamene. Ze skály kolem něj vystupují motivy výhně, ozubených kol a roztavené rudy. Před sochou se tyčí kamenný oltář s vyrytým posvátným symbolem – ohnivou sekerou.
 :::
 
-* **Lore sochy:** Socha představuje **Tharmekhûla** (Strážce výhně a Pomocníka Moradina), nižšího trpasličího boha (demigoda) ohně, podzemních pecí, roztavené rudy a obléhacích zbraní. V kolonii Khad-Ghar byl uctíván kováři a inženýry jako patron tektonického tepla a síly, která poháněla jejich obří hutě.
-* **Kniha u oltáře:** U paty oltáře leží kamenný stojan, v němž je vsazena kniha s mosaznými kovanými deskami. Kniha se jmenuje ***Kniha ohnivé výhně: Liturgie Tharmekhûlova plamene***.
-  * *Obsah:* Popisuje Tharmekhûlovu roli jako toho, kdo usměrňuje divoký oheň ze srdce země pro užitek kovářů. Obsahuje historický zápis o tom, jak trpaslíci před 100 lety napojili energii sopečného komína na své výhně.
-  * *Herní užitek:* Pokud postava věnuje čtení knihy 15 minut a uspěje v ověření na *Náboženství/Religion* nebo *Přírodu/Nature* proti **DC 12**, pochopí principy geotermálního vytápění kolonie a získá **výhodu/advantage** na ověřování vlastností spojené s ovládáním nebo opravou trpasličích mechanizmů v 3. (industriálním) patře.
+* **Lore sochy:** Socha představuje **Tharmekhûla** (Strážce výhně a Pomocníka Moradina), nižšího trpasličího boha (demiboha) ohně, podzemních pecí, roztavené rudy a obléhacích zbraní. V kolonii Khad-Ghar byl uctíván kováři a inženýry jako patron tektonického tepla a síly, která poháněla jejich obří hutě.
+* **Kniha u oltáře:** U paty oltáře leží kamenný stojan s knihou ***Kniha ohnivé výhně: Liturgie Tharmekhûlova plamene***.
+  * *Obsah:* Popisuje Tharmekhûlovu roli jako toho, kdo usměrňuje divoký oheň ze srdce země pro užitek kovářů. Obsahuje modlitby pro ochranu před věčným plamenem z hloubek, ale i praktické návody pro využití geotermální energie.
+  * *Herní užitek:* V knize se dají dohledat principy geotermálního vytápění kolonie a získat tak **výhodu/advantage** na hody spojené s ovládáním nebo opravou trpasličích mechanizmů v 3. (industriálním) patře.
 
-## 3. Žehnací artefakt
+## 3. Žehnací artefakty
 
 V postranních výklencích najdete tyto kouzelné předměty - v každém jednu:
 
@@ -47,7 +47,7 @@ Miska věčného dýmu
 Magický předmět, vzácný
 Široká miska naplněná kadidlem, která po lehkém pohlazení prstem (ale také jakémkoli jiném letmém doteku) začne vydávat vonný, hřejivý dým.
 
-Ten kdo dým vdechne a v budoucnosti si tu vůni vybaví, získává na sebe *odolnost/resistance vůči ohnivému poškození/fire demage*.
+Ten kdo dým vdechne a v budoucnosti si tu vůni vybaví, získává na sebe *odolnost/resistance vůči ohnivému poškození/fire damage*.
 
 Miska dokáže tuto výhodu poskytnout celkově třikrát. Potom se vyčerpá a stává se z ní běžný, ale umělecky kvalitní předmět v hodnotě 45 zm (gp).
 :::
@@ -58,11 +58,10 @@ Miska dokáže tuto výhodu poskytnout celkově třikrát. Potom se vyčerpá a 
 V bočním skalním výklenku svatyně, stranou od hrozivé propasti, stojí masivní železná skříň zasazená přímo do kamenné zdi. Její dvířka jsou opatřena složitým mechanickým zámkem s ozubenými kolečky. Skříň je pokryta patinou, ale zdá se neporušená.
 :::
 
-* **Odemčení zámku:** Skříň lze otevřít úspěšným ověřením na *Zlodějské nářadí/Thieves' Tools* proti **DC 13**, případně silovým vypáčením pomocí ověření na *Atletiku/Athletics* proti **DC 15** (při neúspěchu o 5 a více se zablokuje mechanismus nebo praskne páčidlo).
+* **Odemčení zámku:** Skříň lze otevřít úspěšným ověřením na *Zlodějské nářadí/Thieves' Tools* proti **DC 13**, případně silovým vypáčením pomocí ověření na *Atletiku/Athletics* proti **DC 15** (při neúspěchu o 5 a více se zablokuje mechanismus nebo praskne předmět použitý k páčení).
 * **Tři knihy uvnitř skříně:**
-  1. ***Základy runového kovářství (Svazek III.)*** | *Jazyk:* Trpasličtina | *Obsah:* Pokročilá pojednání o tom, jak vyřezávat magické runy do zbraní a zbrojí. Postava, která knihu prostuduje (1 hodina), získá přehled o tom, jak fungují ochranné runy v nižších patrech dungeonu.
-  2. ***Písně hlubokých síní*** | *Jazyk:* Trpasličtina | *Obsah:* Sbírka epických básní a písní klanu Železného ohně. Pokud postava knihu přečte a použije správnou trpasličí melodii v 3. patře (u průmyslových pecí), může tím upoutat pozornost zdejších automatických mechanismů nebo případných neutrálních konstruktů.
-  3. ***Geologický deník mistra Throra*** | *Jazyk:* Obecná řeč / Trpasličtina | *Obsah:* Osobní zápisky hlavního geologa kolonie. Kniha obsahuje varování před nestabilitou tektonických desek a mapuje skryté vedlejší štoly vedoucí přímo do 4. (těžebního) patra, čímž dává hráčům cennou zkratku pro další postup kampaní.
+  1. ***Základy runového kovářství (Svazek III.)*** | *Jazyk:* Trpasličtina | *Obsah:* Pokročilá pojednání o tom, jak vyřezávat magické runy do zbraní a zbrojí.
+  2. ***Písně hlubokých síní*** | *Jazyk:* Trpasličtina | *Obsah:* Sbírka epických básní a písní klanu Železného ohně. Pokud postava knihu přečte a použije správnou trpasličí melodii v 3. patře (u průmyslových pecí), může tím upoutat pozornost zdejších automatických mechanismů nebo případných neutrálních konstruktů. TODO domyslet mechaniku
 
 ## 5. Škola a školka na druhé straně náměstíčka
 
