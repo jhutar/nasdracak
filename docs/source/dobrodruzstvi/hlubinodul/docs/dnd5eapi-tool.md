@@ -5,7 +5,7 @@ resource from the [D&D 5e SRD API](https://www.dnd5eapi.co) (2024 edition) and
 emits Markdown matching `filters/boxes.lua`, ready to paste into an adventure.
 Written so a monster/item can be **translated by hand** via an override file.
 
-**Status:** plan only. Not yet implemented (`tools/dnd5eapi.py`).
+**Status:** implemented in `tools/dnd5eapi.py`.
 
 ## Goals
 
@@ -93,7 +93,7 @@ Key mapping from the 2024 JSON:
 | `damage_immunities` / `damage_vulnerabilities` / `damage_resistances` / `condition_immunities` | list joined `", "` (lowercase) |
 | `senses` | order darkvision/blindsight/tremorsense/truesight/passive_perception; `passive_perception` → `passive Perception N`; others `f"{k} {v}"`; joined `", "`. e.g. `darkvision 60 ft., passive Perception 13` |
 | `languages` | `languages` verbatim, but exact string `None` → `—` (em dash) |
-| `challenge` | fraction: `0.25→1/4`, `0.5→1/2`, `0.75→3/4`, integer → `n` (`14`, `1`, `0`); other decimals → fall back to trimmed decimal |
+| `challenge` | from `challenge_rating`; fraction: `0.25→1/4`, `0.5→1/2`, `0.75→3/4`, integer → `n` (`14`, `1`, `0`); other decimals → fall back to trimmed decimal |
 
 Ability abbreviations for `saving_throws`: `str dex con int wis cha` →
 `STR DEX CON INT WIS CHA`.
