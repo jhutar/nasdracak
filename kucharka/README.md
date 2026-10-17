@@ -9,10 +9,10 @@ pandoc \
     kucharka-z-monster.md \
     -V documentclass=scrartcl \
     -V geometry:a5paper \
-    -V geometry:margin=14mm \
+    -V geometry:margin=15mm \
     -V mainfont="SendFlowers-Regular.ttf" \
     -V mainfontoptions="Path=$( pwd )/fonts/, AutoFakeBold=2.5" \
-    -V fontsize=20pt \
+    -V fontsize=19pt \
     -V header-includes="
         \usepackage{eso-pic,graphicx,tikz}
         \usepackage{sectsty}
