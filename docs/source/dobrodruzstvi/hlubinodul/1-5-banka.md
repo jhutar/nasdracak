@@ -15,19 +15,15 @@ Za nimi se otevírá komorní, bílým mramorem dlážděné náměstíčko. Ze 
 Uprostřed náměstíčka stojí kamenná kašna s vytesaným trpasličím kovářem. Z trubky ukryté v kovadlině do kašny stále teče čůrek vody. Vzduch je zde nehybný, chladný a překvapivě i svěží.
 :::
 
-::: squarebox
-**Informace pro DM**
-
 * **Brána a vrata:** Vrata nenesou známky násilného proražení. Trpaslíci je nechali otevřená při rychlé evakuaci.
 * **Kašna kováře:** Sloužila jako symbol toho jak poctivé řemeslo přináší bohatství. Pokud postava prozkoumává kašnu **Vyšetřování/Investigation DC 10** na jejím denně objeví 1d12 stříbrňáků (SP).
-:::
 
 ## 2. Popelaví pavouci na náměstí
 
 Náměstíčko se stalo lovištěm pro dvojici dravců z podzemních hlubin, kteří si v rozích bankovní budovy vytvořili hnízdo. Využívají toho že kašna je jedním z mála míst kde se dá na tomto patře nabrat voda a tak se sem stahují podzemní obyvatelé.
 
 ::: readaloud
-Když projdete branou k soše, od stropu se bezhlučně spustí dvě obří osminohá stvoření velká jako kůň. Jejich členitá těla pokrývá matná, šedo-černá chitinová kostra, která dokonale splývá s barvou skály. Oči, jejich osm černých korálků je zcela matných a neodráží žádné světlo. Z kusadel jim kape hustá, kouřící tekutina.
+Když projdete branou k soše, od stropu se bezhlučně spustí dvě obří osminohá stvoření velká jako kůň. Jejich členitá těla pokrývá matná, šedo-černá chitinová kostra, která dokonale splývá s barvou skály. Oči, osm černých korálků, je zcela matných a neodráží žádné světlo. Z kusadel jim kape hustá, kouřící tekutina.
 :::
 
 **Popelaví pavouci / Giant Ash Spiders** napadnou postavy ze zálohy vrhnutím sítí z výšky a následným skokem do středu náměstíčka.
@@ -61,9 +57,9 @@ challenge: 1 (XP 200; PB +2)
 
 ## 3. Banka a byt královského bankéře
 
-Budova banky má dvě hlavní části: **Veřejnou administrativní s trezorem** na jedné straně a **Byt královského bankéře** na druhé.
+Budova banky má dvě hlavní části: vchází se do centrální **veřejné administrativní** části s boční místností s trezorem a bočním **bytem královského bankéře**.
 
-### Veřejná dvorana
+### Veřejná část
 
 ::: readaloud
 Těžké dvoukřídlé dveře vedou do prostorné síně s dvěma menšími a jedním velkým psacím stolem. Na kamenné podlaze leží vrstva prachu a rozházených papírů. Pozornost na sebe stahují pootevřené kované dveře za které ale přímo nevidíte. Na protější straně si všímáte dalších, subtilnějších dveřích. Na stěně visí velká bronzová deska s vyrytým řádem banky.
@@ -75,30 +71,23 @@ Těžké dvoukřídlé dveře vedou do prostorné síně s dvěma menšími a je
 V místnosti je jen stolek s jednou židlí a na zemi v prachu se válejí nějaké oblázky či co. Vzduch je tu neobvykle chladný a je cítit po ozónu. Přímo proti vstupním dveřím se vyjímají kruhové železné dveře do trezoru, jejichž složitý mechanický zámek s mosaznými ozubenými koly je pootevřený na šířku dlaně.
 :::
 
-::: squarebox
-**Informace pro DM**
-
 * **Trezor:** Po evakuaci zůstal otevřený a královský majetek byl odstěhován. Uvnitř leží hromada rozbitých dřevěných beden jejichž obsah byl odvezen, ale při úspěchu na **Vyšetřování/Investgation DC 12** pod hromadou třísek oněch beden nachází 3 zapomenuté uzamčené kovové **schránky.** Otevření schránek je zkouška na **Zlodějské nářadí/Thieves' Tools DC 13** a při neúspěchu mechanismus vydá poplašný zvuk který zraňuje za 1d4 - 1.
-* **Zamčená schránka 1:** Při jejím otevření postavy najdou rodinný recept na lektvar dračího dechu hospodské Od žhavého krýglu. Píše se tam také že klíčová přísada – svítivá modrá houba a ohnivý lišejník – se pěstovala výhradně rodinou Silnorukovou TODO v 2. patře. To dává hráčům jasný cíl, jakou část 2. patra prohledat pro získání ingrediencí na další lektvary.
-* **Zamčená schránka 3:** Osobní schránka trpaslíka TODO který si sem zaznamenal jak se dostat do své tajné štoly kterou bez povolení razí na 4. patře. Taky tam má pár neopracovaných drahokamů které tam už našel a zatím neprodal.
-* **Zamčená schránka 2:** TODO úplně obyčejné věci.
+    * **Schránka 1:** Při jejím otevření postavy najdou rodinný recept na lektvar dračího dechu hospodské *Od žhavého krýglu*. Píše se tam také že klíčová přísada – svítivá modrá houba a ohnivý lišejník – se pěstovali výhradně rodinou Silnorukovou TODO v 2. patře. To umožňuje hráčům zaměřit se na tuto oblast při průzkumu 2. patra a získat větší množství ingrediencí na lektvary.
+    * **Schránka 2:** Vlastnické listiny na několik štol v čtvrtém patře TODO.
+    * **Schránka 3:** Osobní schránka trpaslíka TODO který si sem zaznamenal jak se dostat do své tajné štoly kterou bez povolení razí na 4. patře. Taky tam má pár neopracovaných drahokamů které tam už našel a zatím neprodal.
 :::
 
 ### Byt královského bankéře Torvina
 
-Jelikož se bankéř Torvin odmítl evakuovat a uzamkl se ve svém příbytku, jeho byt zůstal nedotčený a plně zařízený tak, jak jej před sto lety opustil.
+Jelikož se bankéř Torvin odmítl evakuovat a uzamkl se ve svém příbytku, jeho byt zůstal nedotčený a plně zařízený tak, jak byl před sto lety.
 
 ::: readaloud
 Druhé dveře z dvorany vedou do obytných místností, snad bytu bývalého bankéře. Po překročení prahu vstupujete do světa zamrzlého v čase - sice je tu vše zaprášené a vybledlé, ale na rozdíl od ostatních prostor na které jste tady narazili toto místo rozhodně není vystěhované. Místnost je zařízená těžkým nábytkem z černého dubu a temně rudými sametovými závěsy. Na velkém psacím stole leží rozepsané pergameny, kalamář se zaschlým inkoustem a mosazné počítadlo. Vedle stolu stojí knihovna zaplněná vázanými svazky. Na vedlejším stolku leží broušená skleněná karafa a dva poháry. Na posteli s baldachýnem je pečlivě ustlaná přikrývka.
 :::
 
-::: squarebox
-**Zajímavosti a detaily k průzkumu**
-
 1. **Karafa na stolku:** Díky zádce stále obsahuje starou trpasličí pálenku z jeskynních bobulí. Je stále pitelná a velice silná. Postava, která se napije, získá výhodu/advantage na záchranné hody proti stavu *vystrašený/frightened* na 1 hodinu, ale utrží nevýhodu/disadvantage na ověření na Akrobacii/Acrobatics po dobu 10 minut.
 2. **Tajná zásuvka v psacím stole:** Ověření na **Vyšetřování/Investigation DC 12** odhalí skryté dno zásuvky. Uvnitř leží **Torvinův osobní deník** a klíč k trezoru.
 3. **Krb v rohu:** V krbu leží zuhelnatělé zbytky pergamenů, které Torvin spálil před svou smrtí. Mezi popelem lze při ověření na **Vnímání/Perception DC 13** najít roztavenou stříbrnou sponu do vousů v hodnotě 15 zm.
-:::
 
 ## 4. Knihovna a nalezené spisy
 
@@ -176,14 +165,14 @@ Vzduch v místnosti náhle zmrazí váš dech do bílých obláčků. Z šera u 
 
 Duch bankéře je poltergeist pohlcený svou majetkovou obsesí. Je slepý k faktu, že od evakuace uplynulo sto let.
 
-#### A. Mírové vyřešení (Diplomacie a důkazy)
+#### A. Mírové řešení
 
 Pokud postavy nezaútočí a pokusí se s duchem komunikovat, mohou ho uklidnit předložením správných dokumentů:
 
 1. **Předložení Královského výnosu:** Pokud postavy ukážou duchovi *Královský výnos o zrušení dluhů* (nalezený v kurýrní brašně na hlavní třídě) a uspějí v **ověření na Přesvědčování/Persuasion proti DC 12**, Torvin se zastaví. Přečte královo razítko, jeho ektoplazmatická silueta přestane planout modrým ohněm a se slovním povzdechem: *„Královský výnos... Vše vyrovnáno na vrub koruny... Můj úkol skončil,“* se potichu rozplyne.
 2. **Úprava Účetní knihy (Hauptbuch):** Pokud postavy vezmou *Hauptbuch* a dopíší do kolonky pohledávek nulu nebo vyrovnání (ověření na **Klamání/Deception** nebo **Slepotisk/Forgery Kit DC 11**), Torvin zkontroluje své účty, uklidní se a zanikne.
 
-#### B. Zahájení boje
+#### B. Boj
 
 Pokud postavy ducha napadnou, Torvin přejde do agresivního stavu. Využije svou neviditelnost a telekinetické schopnosti k vrhání těžkého nábytku, knih a karaf po postavách.
 
@@ -221,12 +210,12 @@ challenge: 2 (450 XP; PB +2)
 **Telekinetický vrh / Telekinetic Thrust.** Útok kouzlem na dálku: +4 k zásahu, dostřel 30 stop, jeden cíl. *Zásah:* 9 (2d6 + 2) silového poškození/force damage nebo drtivého poškození (od vržených židlí, knih a karaf). Cíl musí uspět v záchranném hodu na Sílu/Strength saving throw proti DC 12, jinak je odhozen o 10 stop vzad a sražen k zemi (získává stav ležící/prone).
 :::
 
-## 6. Poklady a odměny v lokaci
-
 Po porážce nebo osvobození ducha Torvina mohou postavy získat následující odměny:
 
 1. **Torvinův pečetní prsten:** Šlechtický prsten rodu Zlatobradých (hodnota 40 zm, slouží jako klíčový artefakt k tajné schránce v nižších patrech). TODO popsat ať mají šanci ho potom poznat
 2. **Obsah bankovního trezoru:** 60 zm, 350 sm, rubín (50 zm).
 3. **Knihy s herním užitkem:**
    * *Podzemní flóra 100 + 1* (+1 bonus na Nature pro podzemní rostliny po 1 hodině čtení).
-4. **Vybavení bytu:** Broušený skleněný karafa s trpasličí pálenkou (3 dávky), kvalitní zlodějské nářadí ukryté v psacím stole.
+4. **Vybavení bytu:**
+   * Broušená skleněná karafa s trpasličí pálenkou (2 dávky). TODO
+   * Kvalitní zlodějské nářadí ukryté v psacím stole. TODO
