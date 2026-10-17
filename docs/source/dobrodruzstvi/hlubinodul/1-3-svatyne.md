@@ -10,9 +10,10 @@ Rozšířená část hlavní třídy zde tvoří menší náměstí, na jehož j
 ## 1. Svatyně a centrální propast
 
 ::: readaloud
-Hlavní cesta se rozšiřuje v prostranné, tiché náměstí. Vzduch je tu chladnější a nese s sebou slabou, kovovou ozvěnu kapek padajících kamsi do nekonečna. Celé pravé křídlo náměstí zabírá masivní svatyně vytesaná z tmavého čediče. Když vstoupíte dovnitř, zjistíte, že podlaha nepokračuje – celým středem svatyně totiž probíhá zhruba pět metrů široká, zlověstná vertikální prasklina v hoře. Míří strmě nahoru ke skrytým stropům a zároveň padá hluboko dolů do naprosté tmy, kde se ztrácí. Samotná svatyně je tvořena širokým kamenným ochozem obklopujícím tuto obří dutinu. Ze stropů i stěn pukliny visí tisíce třpytivých krápníků, které v šeru slabě odrážejí světlo vašich pochodní.
+Hlavní cesta se rozšiřuje v prostranné, tiché náměstí, kterým se v nepravidelných intervalech roznese tichý, zvonivý akord. Vzduch je tu chladnější a nese s sebou slabou, kovovou ozvěnu kapek padajících kamsi do nekonečna. Celé pravé křídlo náměstí zabírá masivní svatyně vytesaná z tmavého čediče. Když vstoupíte dovnitř, zjistíte, že podlaha nepokračuje – celým středem svatyně totiž probíhá zhruba pět metrů široká, zlověstná vertikální prasklina v hoře. Míří strmě nahoru ke skrytým stropům a zároveň padá hluboko dolů do naprosté tmy, kde se ztrácí. Samotná svatyně je tvořena širokým kamenným ochozem obklopujícím tuto obří dutinu. Ze stropů i stěn pukliny visí tisíce třpytivých krápníků, které v šeru slabě odrážejí světlo vašich pochodní.
 :::
 
+* **Zvonkohra u vchodu do svatyně:** Nad vchodem do svatyně visí řada tenkých kovových trubiček. Když jimi pohne průvan z propasti, vydávají tichý, zvonivý akord, který se nese celým náměstíčkem.
 * **Struktura svatyně:** Svatyně slouží jako obchůzná galerie (ochoz široký asi 3 metry) kolem obřího geologického zlomu. Propast mí 5 metrů v průměru.
 * **Hejno netopýrů:** Když se postavy poprvé přiblíží k okraji propasti nebo začnou prohledávat ochoz, vzduch v prasklině se pohne. Z temnoty s hlasitým pisklavým křikem vyletí malé hejno jeskynních netopýrů.
   * Každý na ochozu musí uspět v *záchranném hodu/saving throw na Obratnost/Dexterity proti DC 11*, jinak se mu v mysli rozhostí neklid který zapříčiní že příští d20 hod má nevýhodu.
@@ -45,8 +46,10 @@ Kovadlinka dokáže tuto výhodu poskytnout celkově třikrát. Potom se vyčerp
 ::: dnditem
 Miska věčného dýmu
 Magický předmět, vzácný
-Široká miska naplněná kadidlem, která po lehkém pohlazení prstem (ale také jakémkoli jiném letmém doteku) začne vydávat vonný, hřejivý dým.
 
+::: readaloud
+Široká miska naplněná kadidlem, která po lehkém pohlazení prstem (ale také jakémkoli jiném letmém doteku) začne vydávat vonný, hřejivý dým.
+:::
 Ten kdo dým vdechne a v budoucnosti si tu vůni vybaví, získává na sebe *odolnost/resistance vůči ohnivému poškození/fire damage*.
 
 Miska dokáže tuto výhodu poskytnout celkově třikrát. Potom se vyčerpá a stává se z ní běžný, ale umělecky kvalitní předmět v hodnotě 45 zm (gp).
@@ -69,18 +72,11 @@ V bočním skalním výklenku svatyně, stranou od hrozivé propasti, stojí mas
 Naproti svatyni, přes tiché náměstíčko s kašnou, se nachází komplex budov, které dříve sloužily těm nejmenším obyvatelům kolonie. Dřevěné dveře jsou dokořán. Nad vchodem visí vyřezávaný nápis: „Budoucnost Hory“. V oknech chybí skla, ale uvnitř vládne nečekaný pořádek – nízké lavice, maličké židličky a stěny popsané vybledlou křídou dětských abeced a nákresů podzemních zvířátek.
 :::
 
-* **Atmosféra a prázdnota:** Škola a školka neobsahují žádné nebezpečné nestvůry (koboldi se tomuto místu z pověrčivosti vyhýbají, protože prý „v noci slyší plačící děti“ – jde jen o skřípění větru v komínech). Místo toho slouží jako klidná zóna pro prozkoumání a odpočinek.
+Při průzkumu narazí na malou drobnost:
+
+::: readaloud
+V koutě leží bedna plná dřevěných figurek, modelů důlních vozíků a drobných kolejí.
+:::
+
 * **Kniha trpasličích pohádek:** V jedné z malých tříd na dětském stolku leží dokonale zachovalá kniha v kožené vazbě s obrázky medvědů a podzemních jezevců.
-  * *Název:* ***Pohádky pod kamenným nebem*** | *Jazyk:* Obecná řeč | *Obsah:* Soubor 10 krátkých ponaučných pohádek o malých trpaslících, kteří se nebáli tmy. Každá postava, která si před odpočinkem přečte jednu pohádku, získá při svém dalším *krátkém odpočinku/short rest* dodatečný bonus 1d4 k obnovení životů (dočasná psychická vzpruha a pocit bezpečí).
-
-## 6. Tři zajímavosti k průzkumu (Fluff)
-
-1. **Kamenná tabule s abecedou:** Na stěně ve školce je velká břidlicová tabule, kde je dětskou rukou nakresleno schéma sopky s veselým obličejem a nápisem: *„Sopka je náš hřejivý domov!“* (zajímavý kontrast k reálné hrozbě).
-2. **Malé trpasličí hračky:** V koutě školky leží rozházené dřevěné figurky důlních vozíků a malých draků, které vyřezali starší žáci pro mladší sourozence.
-3. **Zvonkohra u vchodu do svatyně:** Nad vchodem do svatyně visí řada tenkých kovových trubiček. Když jimi zavaněný průvan z propasti projde, vydávají tichý, zvonivý akord, který se nese celým náměstíčkem jako tichá připomínka minulosti.
-
-## 7. Tři možnosti využití propasti pro příběhové propojení s nižšími patry
-
-1. **Vertikální zkratka (Zaplavené potrubí / Šachta):** Propast ve svatyni je součástí obřího ventilačního a drenážního systému. Zdatní dobrodruzi mohou pomocí lana a vybavení slanit hluboko pod 1. patro, čímž mohou minout část nástrah ve 2. patře (Zemědělské patro) a dostat se rovnou na okraj 3. patra (Industriální patro), riskují však setkání s poletujícími mefity nebo horkou párou.
-2. **Akustické vedení a špehování:** Hluboká prasklina funguje jako dokonalý rezonátor. Pokud postavy přiloží ucho k okraji propasti (nebo použijí kouzlo *Detect Magic* / *Augury*), mohou zaslechnout rytmické dunění obřích strojů z 3. patra nebo hrozivé syčení magmatu z nejnižšího patra, což je varuje před tím, co je čeká dole.
-3. **Útočiště nebezpečné bytosti (Dimenzionální trhlina):** Kvůli oslabení čarodějova kouzla v nejhlubších patrech se prasklina ve svatyni stala slabým místem v předělu sfér. Občas z ní v noci stoupá podivná fialová ektoplazma nebo tudy občas proklouznou drobní ohniví mefiti a elementární stvoření, která pak terorizují horní patra, což dává hráčům podnět k pátrání po kořeni problému na samém dně hory.
+  * *Název:* ***Pohádky pod kamenným nebem*** | *Jazyk:* Obecná řeč | *Obsah:* Soubor 10 krátkých poučných pohádek o malých trpaslících, kteří se nebáli tmy a spolu se svým klanem překonali každé nebezpečí. Každá postava která si v knize čte před spaním, získává na příští den psychickou vzpruhu ve formě *bardské inspirace/bardic inspiration 1d4* (k libovolnému d20 hodu si může jednou přidat 1d4). Na každou postavu to funguje jen jednou.
