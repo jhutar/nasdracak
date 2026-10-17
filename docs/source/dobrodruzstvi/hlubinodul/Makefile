@@ -36,9 +36,9 @@ output/books/%.pdf: book-%.svg
 	@mkdir -p output/books
 	inkscape --batch-process --export-area-page --export-dpi=600 \
 	  --export-pdf-version=1.5 --export-overwrite --export-type=pdf \
-	  --export-filename=$@.tmp $<
-	pdftk $@.tmp cat 1right output $@
-	rm -f $@.tmp
+	  --export-filename=output/books/.unrot-$*.pdf $<
+	pdftk output/books/.unrot-$*.pdf cat 1right output $@
+	rm -f output/books/.unrot-$*.pdf
 
 books: output/books.pdf
 
@@ -48,6 +48,6 @@ index:
 	TEXMFHOME=$(TEXMF) mktexlsr $(TEXMF)
 
 clean:
-	rm -f output/*.pdf output/books/*.pdf images/*.pdf
+	rm -f output/*.pdf output/books/*.pdf output/books/.unrot-*.pdf images/*.pdf
 
 .PHONY: all en cz books index clean
