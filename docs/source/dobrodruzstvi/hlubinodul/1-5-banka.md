@@ -95,62 +95,35 @@ V knihovně v bankéřově bytě mohou postavy najít kolekci učených i zábav
 
 ### Přehled knih v knihovně
 
-1. **Hauptbuch**
-
-   * **Název:** *Kniha dluhů a pohledávek rodu Zlatobradých* | **Jazyk:** Trpasličtina | **Rok vydání:** 1378 DR
-
-   * **Obsah:** Detailní přehled všech půjček, hypoték a úroků obyvatel čtvrti Khad-Ghar. Stránky jsou vybledlé, ale pečlivě vedené inkoustem. Ukazuje, že obyvatelé dlužili bance značné sumy těsně před evakuací. Tato kniha je klíčovým předmětem pro mírové vyřešení ducha bankéře.
-
-2. **Podzemní flóra 100 + 1**
-
+0. **Podzemní flóra 100 + 1** - TODO toto je jinde
    * **Název:** *Podzemní flóra 100 + 1: Od svítivých mechů po vražedné houby* | **Jazyk:** Obecná řeč | **Rok vydání:** 1340 DR
-
    * **Obsah:** Ilustrovaná encyklopedie podzemních rostlin, lišejníků a hub.
-
    * **Mechanika:** Postava, která knize věnuje **1 hodinu studia**, získá **trvalý bonus +1** na ověření na **Přírodu/Nature** týkající se podzemních rostlin a hub.
 
-3. **O duších, poltergeistech a jiných nehmotných běsech** *(Opravený název)*
 
-   * **Název:** *O duších, poltergeistech a jiných nehmotných běsech* | **Jazyk:** Obecná řeč | **Rok vydání:** 1365 DR
 
-   * **Obsah:** Odborné pojednání o nehmotných entitách. Popisuje vznik poltergeista ze silné obsesivní vazby na pozemské statky.
-
-   * **Mechanika & Tipy pro boj:** Kniha výslovně uvádí, že poltergeist má **imunitu vůči jedovému a kyselinovému poškození** a **odolnost vůči všem neag magickým zbraním a necílenému fyzickému poškození**, ale je **zranitelný vůči zářivému/radiant poškození**. Dále kniha zdůrazňuje, že přímý boj je extrémně těžký kvůly jeho neviditelnosti a telekinetickým schopnostem, ale předložení důkazu o zániku jeho obsesivní vazby způsobí okamžité rozplynutí entity.
-
-4. **Záznamy o těžbě**
-
+1. **Záznamy o těžbě**
    * **Název:** *Záznamy o těžbě a výnosu rud v 1. a 2. kvartálu* | **Jazyk:** Trpasličtina | **Rok vydání:** 1391 DR
+   * **Obsah:** Dlouhé sloupce čísel a statistik vytěženého železa, stříbra a dalších. Na okrajích stránek je připsána drobná varovná poznámka: *„V 5. patře naměřeny neobvyklé otřesy a nárůst teploty o 12 stupňů. Těžební mistr doporučuje zpomalit ražbu.“*
 
-   * **Obsah:** Dlouhé sloupce čísel a statistik vytěženého železa, stříbra a korditu. Na okrajích stránek je připsána drobná varovná poznámka: *„V 5. patře naměřeny neobvyklé otřesy a nárůst teploty o 12 stupňů. Těžební mistr doporučuje zpomalit ražbu.“*
-
-5. **Deník bankéře Torvina**
-
+2. **Deník bankéře Torvina**
    * **Název:** *Osobní paměti Torvina Zlatobrada, svazek VIII.* | **Jazyk:** Trpasličtina | **Rok vydání:** 1392 DR
-
    * **Obsah:** Torvin zde popisuje narůstající paniku ve městě a svůj vztek na sousedy, kteří utíkají bez vyrovnání svých účtů. Poslední zápis zní: *„Ať si všichni utečou, já tu zůstanu! Žádný trpaslík neodejde, aniž by zaplatil své úroky. Můj úřad je má pevnost!“*
 
-6. **Trpasličí klasická literatura (Parodie I)**
-
+3. **Trpasličí klasická literatura**
    * **Název:** *O Kladivu a Trestu* | **Jazyk:** Obecná řeč | **Rok vydání:** 1310 DR
-
    * **Obsah:** Filosofický román o mladém kováři, který v opilosti rozbil cizí kovadlinu. Následuje 600 stránek zdlouhavého vnitřního monologu o morálním úpadku, výčitkách svědomí a spravedlivém trestu v dolech.
 
-7. **Trpasličí drama (Parodie II)**
-
+4. **Trpasličí drama**
    * **Název:** *Kladivem, či nekladivem?* | **Jazyk:** Obecná řeč | **Rok vydání:** 1355 DR
-
    * **Obsah:** Tragická divadelní hra o mladém princi, kterému strýc ukradl kovářské kladivo. Princ po pěti dějstvích váhání a dlouhých samomluvách neúmyslně způsobí pád všech aktérů do pece s roztavenou rudou.
 
-8. **Trpasličí epika (Parodie III)**
-
+5. **Trpasličí epika**
    * **Název:** *Pán prstenů... a jejich správné kalení* | **Jazyk:** Trpasličtina | **Rok vydání:** 1290 DR
-
    * **Obsah:** Příběh o legendárním kováři devíti magických prstenů, který po dvou kapitolách děje plynule přechází v pětisetstránkový detailní návod na udržování přesné teploty ve výhni a výběr správného kalicího oleje.
 
-9. **Česká klasika v trpasličím podání (Parodie IV)**
-
+6. **Česká klasika v trpasličím podání**
    * **Název:** *Prababička z Žulové rokliny* | **Jazyk:** Obecná řeč | **Rok vydání:** 1325 DR
-
    * **Obsah:** Idylické vyprávění o staré trpaslici, která žije v horské sluji, plete drátěné košile pro svá vnoučata, peče kamenné placky a uděluje moudré rady místním horníkům. Slavná věta na konci knížky zní: *„Šťastná to žena, jež ani v nejhlubší šachtě neztratila své kovářské kladivo.“*
 
 ## 5. Setkání s duchem

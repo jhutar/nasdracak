@@ -77,9 +77,9 @@ V skalním výklenku svatyně, stranou od hrozivé propasti, stojí železná sk
 
 * **Odemčení zámku:** Skříň lze otevřít úspěšným ověřením na *Zlodějské nářadí/Thieves' Tools* proti **DC 13**, případně silovým vypáčením pomocí ověření na *Atletiku/Athletics* proti **DC 15** (při neúspěchu o 5 a více se zablokuje mechanismus nebo praskne předmět použitý k páčení).
 * **Tři knihy uvnitř skříně** jsou dostupné v příoze jako handouty:
-  1. ***Základy runového kovářství (Svazek III.)*** | *Jazyk:* Trpasličtina | *Obsah:* Pokročilá pojednání o tom, jak vyřezávat magické runy do zbraní a zbrojí.
-  2. ***Písně hlubokých síní*** | *Jazyk:* Trpasličtina | *Obsah:* Sbírka epických básní a písní klanu Železného ohně. Pokud postava knihu přečte a použije správnou trpasličí melodii v 3. patře (u průmyslových pecí), může tím upoutat pozornost zdejších automatických mechanismů nebo případných neutrálních konstruktů. TODO domyslet mechaniku
-  3. TODO ještě jedna
+  1. **Základy runového kovářství (Svazek III.)** | *Jazyk:* Trpasličtina | *Obsah:* Pokročilá pojednání o tom, jak vyřezávat magické runy do zbraní a zbrojí.
+  2. **Písně hlubokých síní** | *Jazyk:* Trpasličtina | *Obsah:* Sbírka epických básní a písní klanu Železného ohně. Pokud postava z knihy přečítá v 3. patře (u průmyslových pecí), může tím upoutat pozornost zdejších automatických mechanismů a konstruktů. Použití bude popsáno v textu ke 3. patru.
+  3. **O nehmotných běsech** | *Jazyk:* Obecná řeč | *Obsah:* Popis různých nehmotných nemrtvých a toho jak se s nimi vypořádat. Hráčum by se mohla hodit kapitola o poltergeistech.
 
 ## 3. Škola a školka
 
@@ -91,5 +91,6 @@ Naproti svatyni, přes tiché náměstíčko, se nachází dvě budovy, které d
 V koutě leží bedna plná dřevěných figurek, modelů důlních vozíků a drobných kolejí.
 :::
 
-* **Kniha trpasličích pohádek:** V jedné z malých tříd na dětském stolku leží dokonale zachovaná kniha v kožené vazbě s obrázky medvědů a podzemních jezevců (jako handout v příloze).
-  * *Název:* ***Pohádky pod kamenným nebem*** | *Jazyk:* Obecná řeč | *Obsah:* Soubor 10 krátkých poučných pohádek o malých trpaslících, kteří se nebáli tmy a spolu se svým klanem překonali každé nebezpečí. Každá postava která si v knize čte před spaním, získává na příští den psychickou vzpruhu ve formě *bardské inspirace/bardic inspiration 1d4* (k libovolnému d20 hodu si může jednou přidat 1d4). Na každou postavu to funguje jen jednou.
+* **2 knihy trpasličích pohádek:** V jedné z malých tříd na dětském stolku leží dvě dokonale zachované knihy v kožené vazbě s poutavými obrázky (jako handout v příloze, bez poutavých obrázků).
+  * *Název:* **Pohádky pod kamenným nebem** | *Jazyk:* Obecná řeč | *Obsah:* Soubor 10 krátkých poučných pohádek o malých trpaslících, kteří se nebáli tmy a spolu se svým klanem překonali každé nebezpečí. Každá postava která si v knize čte před spaním, získává na příští den psychickou vzpruhu ve formě *bardské inspirace/bardic inspiration 1d4* (k libovolnému d20 hodu si může jednou přidat 1d4). Na každou postavu to funguje jen jednou.
+  * *Název:* **Měděná helmička** | *Jazyk:* Obecná řeč | *Obsah:* Pohádka o trpasličí holčičce, která se vydá za nemocnou babičkou aby jí rozveselila a nakonec musí napravit problém, který sama způspbila tím, že se vybavovala s někým s kým neměla.
