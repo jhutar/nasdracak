@@ -1,9 +1,9 @@
 ---
-title: "1.5 Banka a královský bankéř Torvin Zlatobrad"
+title: "1.4 Banka a královský bankéř Torvin Zlatobrad"
 lang: czech
 ---
 
-# 1.5 Banka a královský bankéř Torvin Zlatobrad
+# 1.4 Banka a královský bankéř Torvin Zlatobrad
 
 ## 1. Náměstíčko před bankou a dominanta
 
