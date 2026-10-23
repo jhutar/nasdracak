@@ -10,12 +10,22 @@ export TEXINPUTS = $(CURDIR)/template:
 
 DEPS = template/dnd.latex template/dndboxes.sty template/dndczech.sty filters/boxes.lua
 
-all: output/adventure.pdf output/adventure-cz.pdf
+# All top-level *.md -> output/*.pdf
+MDPDFS = $(patsubst %.md,output/%.pdf,$(wildcard *.md))
+
+all: $(MDPDFS)
 
 output/adventure.pdf: adventure.md images/chapel-door.pdf $(DEPS)
+	@echo "building $@ from $<"
 	TEXMFHOME=$(TEXMF) $(PANDOC) $< $(PANDOCFLAGS) -o $@
 
 output/adventure-cz.pdf: adventure-cz.md images/chapel-door.pdf $(DEPS)
+	@echo "building $@ from $<"
+	TEXMFHOME=$(TEXMF) $(PANDOC) $< $(PANDOCFLAGS) -o $@
+
+# Generic rule for the remaining *.md files
+output/%.pdf: %.md $(DEPS)
+	@echo "building $@ from $<"
 	TEXMFHOME=$(TEXMF) $(PANDOC) $< $(PANDOCFLAGS) -o $@
 
 # SVG -> vector PDF (pdflatex cannot read SVG directly)
