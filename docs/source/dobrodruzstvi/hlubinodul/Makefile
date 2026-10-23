@@ -10,8 +10,9 @@ export TEXINPUTS = $(CURDIR)/template:
 
 DEPS = template/dnd.latex template/dndboxes.sty template/dndczech.sty filters/boxes.lua
 
-# All top-level *.md -> output/*.pdf
-MDPDFS = $(patsubst %.md,output/%.pdf,$(wildcard *.md))
+# All top-level *.md -> output/*.pdf (exclude non-book files)
+ALLMD = $(filter-out README.md openends.md,$(wildcard *.md))
+MDPDFS = $(patsubst %.md,output/%.pdf,$(ALLMD))
 
 all: $(MDPDFS)
 
