@@ -1,4 +1,5 @@
 ---
+title: "2. Zemědělské patro Hlubinodolu"
 lang: czech
 ---
 

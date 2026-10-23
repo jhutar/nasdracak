@@ -10,8 +10,8 @@ Please convert @docs/source/dobrodruzstvi/hlubinodul/{SOUBOR} to use the
 syntax described in @docs/source/dobrodruzstvi/hlubinodul/README.md.
 Improve the Markdown syntax and clean the file up:
 
-1. **Frontmatter**: ensure the file starts with `lang: czech` frontmatter
-   (or `english`), since the Pandoc build requires it.
+1. **Frontmatter**: ensure the file starts with `lang: czech` (or `english`)
+   and `title: "<file_title>"` frontmatter, since the Pandoc build requires it.
 
 2. **Headings**:
    - remove bold from headings (`## **Titulek**` → `## Titulek`)
