@@ -1,11 +1,9 @@
 ---
-title: "Úvodní scéna: Zával v Trpasličí Kolonii"
+title: "Zával u vstupu"
 lang: czech
 ---
 
-# Úvodní scéna: Zával v Trpasličí Kolonii
-
-## 1. Úvodní text pro hráče
+# Zával u vstupu
 
 ::: readaloud
 Tma. Hustá, neprostupná tma plná štiplavého prachu, v němž se mísí vůně drceného kamene, pachu vlhké hlíny a železitého zápachu čerstvé krve. V uších vám stále ještě zvoní ozvěna toho strašlivého hřmotu.
@@ -23,9 +21,7 @@ Troll v zuřivosti švihl svou masivní paží a přerazil jeden z krásných so
 Nyní ticho přerušuje jen váš vlastní zrychlený dech a tiché praskání několika posledních uhlíků na dohořívající louči. Východ je zcela zasypán obrovskou masou závalu. Vaši páni jsou po smrti. Jste uvězněni v temnotě podzemí a máte jen to, co jste měli u sebe… a to, co dokážete vyhrabat zpod sutin.
 :::
 
-Jak to v místnosti vypadá:
-
-Místnost měla 8 sloupů. Tři sloupy troll porazil, pět jich zbylo. Každý z nich je vytesán ve tvaru nějaké postavy. Pod každou postavou je symbol a nápis v trpasličtině.
+Vstupní hala kolonie měla 8 sloupů. Tři sloupy troll porazil, pět jich zbylo. Každý z nich je vytesán ve tvaru nějaké postavy. Pod každou postavou je symbol a nápis v trpasličtině.
 
 Najdeš tam těchto 5 trpasličích bohů z trpasličího panteonu:
 
@@ -37,17 +33,17 @@ Najdeš tam těchto 5 trpasličích bohů z trpasličího panteonu:
   * Znak: Drahokam uvnitř siluety hory.
 * **Dugmaren Brightmantle** (Pán vědění a vynálezů)
   * Zpodobnění: Přemýšlivý trpasličí učenec a mág s rozevřeným svitkem a magickou runou v dlaních. Na sloupu působí, jako by dohlížel na pokrok, vědu a prostorovou magii, kterou v kolonii zkoumali.
-  * Znak: Otevřená kniha obklopená hvězdami či plamenem.
+  * Znak: Otevřená kniha obklopená hvězdami.
 * **Berronar Truesilver** (Matka domova a ochrany)
   * Zpodobnění: Důstojná trpasličí královna a matka rodu, která v rukou drží ochranný štít a stříbrné kruhy jako symbol společenství, bezpečnosti a jednoty kolonie.
-  * Znak: Dva propojené stříbrné prsteny.
+  * Znak: Dva propojené prsteny.
 * **Moradin** (Otec všech, Kovář duší)
   * Zpodobnění: Masivní trpasličí patriarcha s vlajícími vousy, držící kovářské kladivo nad kovadlinou, ze které symbolicky vystupuje síla stvoření a sídla trpaslíků.
   * Znak: Kladivo a kovadlina.
 
-## 2. Dokumenty a historické prameny
+## Dokumenty
 
-*Tyto dokumenty mají postavy u sebe v koženém pouzdře, které opatroval jeden ze sluhů.*
+Tyto dokumenty nachází postavy v koženém pouzdře které upadlo jednomu z rytířům
 
 ### A. Smlouva o průzkumu
 
@@ -55,7 +51,7 @@ Najdeš tam těchto 5 trpasličích bohů z trpasličího panteonu:
 
 ### C. Výpisek z „Historie trpasličího národa“ (r. 1401 DR)
 
-## 3. Pravidla pro vyhrabávání ze závalu
+## Pravidla pro vyhrabávání ze závalu
 
 Východ je zcela zatarasen. Hráči se mohou pokusit kopat zpět na svobodu nebo prohledávat zával a těla rytířů/trolla.
 
@@ -67,9 +63,9 @@ Východ je zcela zatarasen. Hráči se mohou pokusit kopat zpět na svobodu nebo
 
 * **Neúspěch:** Sutiny se mírně sesunou. Postava utrpí poškození **1d4 drtivého zranění** (odřeniny, skřípnuté prsty, padající kamení) a **nenajde nic**.
 
-*(Poznámka pro DM: Vlastní vybavení postavám zůstalo nepoškozené).*
+(Poznámka pro DM: Vlastní vybavení postavám zůstalo nepoškozené).
 
-Pokud postavy uspějí v ověření na Sílu, hoďte 1d20 na tuto tabulku:
+Pokud postavy uspějí v ověření na Sílu/Strength, hoďte 1d20 na tuto tabulku:
 
 | d20 | Nalezený předmět | Popis / Využití |
 | :---- | :---- | :---- |
@@ -91,8 +87,8 @@ Pokud postavy uspějí v ověření na Sílu, hoďte 1d20 na tuto tabulku:
 | **16** | Stříbrný svatý symbol | Symbol Torma nebo Helma (ochranného božstva) v hodnotě 10 gp. |
 | **17** | Měděná lucerna a olej | Nepoškozená lucerna + 1 lahvička oleje (6 hodin světla). |
 | **18** | Kožená brašna na mince | Obsahuje 1d10 stříbrňáků a starý klíč od neznámého zámku. |
-| **19** | Lehčí kuše a 10 šipek | Zbraň jednoho ze padlých strážných. |
-| **20** | Drahokam (Rubín) | Uvíznutý v prstenu na sevřené ruce jednoho z rytířů (hodnota 50 gp). |
+| **19** | Lehčí kuše a 10 šipek | Zbraň jednoho ze padlých rytířů. |
+| **20** | Drahokam (Rubín) | Zasazený v prstenu na sevřené ruce jednoho z rytířů (hodnota 50 gp). |
 
 ## 5. Pravidla pro Vyčerpání (Exhaustion)
 
@@ -115,26 +111,20 @@ Postava potřebuje 1 příděl jídla a vody denně. Pokud se jídla nedostává
 
 *Odstranění vyčerpání:* Dokončení Dlouhého odpočinku (*Long Rest*) s dostatkem jídla a vody odstraní **1 úroveň vyčerpání**.
 
-## 6. Encounter: Přilákané stvůry
+## Encounter: Přilákané stvůry
 
 Otřesy způsobené závalem a hluk při kopání přilákaly podzemní mrchožrouty, kteří ucítili pach čerstvé krve padlého trolla a rytířů.
 
-### Kdy se stane
-
 K souboji dojde v momentě, kdy:
 
-1. Postavy dokončí **3. pokus o vyhrabávání** (bez ohledu na úspěch), **NEBO**
+1. Postavy dokončí *3. pokus o vyhrabávání* (bez ohledu na úspěch), **NEBO**
 2. Při jakémkoliv pokusu o vyhrabávání padne na kostce nálezu 1 (kritický neúspěch).
-
-### Atmosférický popis pro hráče
 
 ::: readaloud
 Z temných škvír mezi nahromaděnými balvany se ozve odporné, slizké mlaskání. Kamenný prach se ještě ani nestačil usadit a z puklin ve stropě se začínají soukat dlouhá, červovitá těla.
 
 Jejich šedavá, gumovitá kůže dokonale splývá se skalním masivem. Místo hlavy se každému ze tvorů rozvíjí čtveřice svalnatých, neustále se vlnících chapadel pokrytých ostrými háčky. Mezi nimi cvaká masivní rohovinový zobák, z něhož odkapává sliz. Mrchožrouti ucítili pach čerstvé krve a hladově se vrhají přímo na vás!
 :::
-
-### Monstrum: Červivec (Grick)
 
 ::: dndmonster
 name: Červivec (Grick)
@@ -154,7 +144,5 @@ senses: Vidění ve tmě 60 stop, Pasivní Vnímání 12
 
 **Zobák (Beak).** Útok na blízko: +4 k zásahu, dosah 5 stop, jeden cíl. *Zásah:* 1d6 + 2 bodné poškození.
 :::
-
-### Taktika pro PJ
 
 Červivci neútočí hlava nehlava. Plíží se po stropě nebo mezi sutinami. Zaútočí na nejméně chráněnou postavu (nebo na tu, která zrovna kope a je vyčerpaná). Pokud je jeden z Červivců zabit nebo klesne pod 5 HP, druhý se pokusí stáhnout zpět do temnot podzemí.
