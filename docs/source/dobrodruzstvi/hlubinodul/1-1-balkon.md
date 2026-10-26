@@ -53,7 +53,7 @@ Pokud posvy na balkoně začnou bojovat, musí se potýkat se silnými poryvy v�
 Vítr na balkoně není pouze přírodním úkazem. Staletí magické aktivity v kráteru sem přilákalo drobné elementály.
 
 ::: readaloud
-Z oblaků zvířeného prachu a popela, které vítr honí po balkoně, se náhle zformují tři malé, asi metr vysoké okřídlené siluety. Z dálky vypadají jako hubení, šedočerní skřeti s netopýřími křídly ztvrdlými jako sopečná struska. Pitvořivě se smějí chraplavými hlásky, poletují ve větru s naprostou lehkostí a v rukou začínají shromažďovat koule horké, dusivé mlhy.
+Z oblaků zvířeného prachu a popela, které vítr honí po balkoně, se náhle zformují tři malé, asi metr vysoké okřídlené siluety. Z dálky vypadají jako hubení, šedočerní skřeti s netopýřími křídly ztvrdlými jako sopečná struska. Pitvořivě se smějí chraplavými hlásky a poletují ve větru s naprostou lehkostí.
 :::
 
 Tyto stvoření jsou **Prašní mefiti / Dust Mephits**. Zde je jejich stat blok pro D&D 5.5e:
@@ -75,9 +75,9 @@ senses: Vidění ve tmě/Darkvision 60 stop, Pasivní Vnímání 10
 
 **Drápy / Claws.** *Útok na blízko:* +4 k zásahu, dosah 5 stop, jeden cíl. *Zásah:* 4 (1d4 + 2) sečné poškození/slashing damage.
 
-**Oslepující dech / Blinding Breath (Nabíjení/Recharge 6).** Mefit vydechne oblak oslepujícího prachu do 15 stop dlouhého kužele. Každý tvor v této oblasti musí uspět v **záchranném hodu na Odolnost/Constitution saving throw proti DC 10**, jinak je oslepený/blinded na 1 minutu. Zasažený tvor může hod opakovat na konci každého svého tahu, čímž efekt při úspěchu ukončí.
+**Oslepující dech / Blinding Breath (Nabíjení/Recharge 6).** Mefit vydechne oblak oslepujícího prachu do 15 stop dlouhého kužele. Každý tvor v této oblasti musí uspět v *záchranném hodu/saving throw na Odolnost/Constitution proti DC 10*, jinak je oslepený/blinded na 1 minutu. Zasažený tvor může hod opakovat na konci každého svého tahu, čímž efekt při úspěchu ukončí.
 
 **Vlastnosti**
 
-**Smrtící exploze / Death Burst.** Když je mefit zabit, exploduje v oblaku prachu. Každý tvor v okruhu 5 stop musí provést **záchranný hod na Odolnost/Constitution saving throw proti DC 10**, jinak je oslepený/blinded na 1 minutu. Tvor může hod opakovat na konci každého svého tahu.
+**Smrtící exploze / Death Burst.** Když je mefit zabit, exploduje v oblaku prachu. Každý tvor v okruhu 5 stop musí provést *záchranný hod/saving throw na Odolnost/Constitution proti DC 10*, jinak je oslepený/blinded na 1 minutu. Tvor může hod opakovat na konci každého svého tahu.
 :::
