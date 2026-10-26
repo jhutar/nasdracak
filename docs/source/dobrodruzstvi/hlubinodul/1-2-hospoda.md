@@ -12,35 +12,37 @@ Tato lokace navazuje na hlavní třídu obytné čtvrti a představuje hlavní z
 Z hlavní třídy odbočuje cesta vedoucí k malému náměstíčku. Podél cesty stojí na obou stranách prázdné obchody a na jejím konci se tyčí větší budova bývalé hospody, která má v patře venkovní ochoz.
 
 ::: readaloud
-Široká hlavní třída se láme do užší uličky. Po obou stranách zeje do tmy několik vybydlených krámků. Panuje zde napjaté, tíživé ticho, které narušuje jen občasné vrznutí starého dřeva. Stíny se zde zdají být delší a tmavší. Na konci uličky se rozkládá malé náměstíčko, jemuž dominuje masivní kamenná budova někdejší hospody s dřevěným ochozem v patře. Máte pocit, že vás z temných výklenků někdo sleduje.
+Široká hlavní třída se větví do užší uličky. Po obou stranách zeje do tmy několik prázdných krámků. Panuje zde napjaté, tíživé ticho. Na konci uličky se rozkládá malé náměstíčko, jemuž dominuje masivní kamenná budova někdejší hospody s dřevěným ochozem v patře. Máte pocit, že vás odtatud někdo sleduje.
 :::
 
 **Bodcové kyvadlo**
 
-Sopeční koboldi přehradili cestu nastraženou pastí.
+Sopeční koboldi přehradili cestu na náměstí nastraženou pastí.
 
 * **Odhalení:** Tenké lanko natažené těsně nad zemí lze odhalit pomocí **Pasivního Vnímání/Passive Perception DC 13**, nebo aktivním hodem na **Vnímání/Perception DC 13**.
-* **Spuštění:** Pokud postava lanko přetrhne, ze stínu u stropu se s hlasitým zasvištěním zhoupne těžké dřevěné kyvadlo poseté zrezivělými hřeby. Postava musí uspět v **záchranném hodu na Obratnost/Dexterity saving throw DC 12**, jinak utrží 1d4 bodného poškození/piercing damage.
+* **Spuštění:** Pokud postava lanko přetrhne, ze stínu u stropu se s hlasitým zasvištěním zhoupne těžké dřevěné kyvadlo poseté zrezivělými hřeby. Postava musí uspět v *záchranném hodu/saving throw na Obratnost/Dexterity DC 12*, jinak utrží 1d4 bodného poškození/piercing damage.
 * **Následek:** Ať už past sklapne, nebo ji hrdinové opatrně překročí, hlídka koboldů ukrytá na ochozu hospody si jich všimne a zburcuje ostatní.
 
 ## Boj o hospodu a možnost diplomacie
 
-Hospoda nese jméno "U Žhavého krýglu". Aktivace pasti nebo odhalení hrdinů zahajuje střetnutí. Zevnitř začnou vybíhat koboldí mrchožrouti v otrhaných krunýřích z ohořelého plechu. Hrnout se budou převážně na ochoz horního patra, odkud na postavy útočí praky z výšky.
+Hospoda nese jméno "U Žhavého krýglu". Aktivace pasti nebo odhalení hrdinů zahajuje střetnutí. Zevnitř začnou vybíhat koboldí mrchožrouti v otrhaných krunýřích z ohořelého plechu. Hrnout se budou převážně na ochoz horního patra, odkud mohou na postavy útočit praky z výšky. Nezačnou ale bojovat dokud k tomu nedá svolení jejich šaman.
 
 ::: readaloud
 Sborové syčení a klapot drápků prořízne ticho. Z dveří hospody na horní ochoz vybíhají malé ještěrčí postavičky umazané od sazí. Některé z nich na vás okamžitě začnou roztáčet své praky, ale jeden z nich, ověšený ohořelými lžícemi, zakřičí lámanou obecnou řečí: „Vetřelci! Běžte pryč! Nebo dejte jídlo pro děti Dračího dechu a my vás nesežrat!“
 :::
 
-* **Informace pro DM:** Toto je jasný náznak pro hráče, že se boji dá vyhnout. Koboldi jsou bázliví, ale brání své území. Pokud postavy nabídnou jídlo, mohou provést **ověření Přesvědčování/Persuasion DC 12** a boj okamžitě ukončit. Pokud se bojuje, přidává se 1d4 dalších koboldů ve 2. kole. Jakmile padne polovina koboldů, zbytek zpanikaří a stahuje se zpět do bezpečí hospody.
+Toto je jasný náznak pro hráče, že se boji dá vyhnout. Koboldi jsou bázliví, ale brání své území. Pokud postavy nabídnou jídlo, mohou provést *ověření Přesvědčování/Persuasion DC 12* a boj okamžitě ukončit.
+
+Pokud se bojuje, počítej šamana a 5 koboldů na začátku, v druhém kole se přidává 1d4 dalších koboldů. Jakmile padne polovina koboldů, zbytek zpanikaří a stahuje se zpět do bezpečí hospody.
 
 ## Interiér hospody "U Žhavého krýglu"
 
 ::: readaloud
-Když vstoupíte dovnitř, dýchne na vás těžký vzduch zatuchliny a staré vlhkosti. Interiér hospody se tyčí do výšky přes dvě poschodí. Ze stropu visí na silných řetězech masivní lustr osazený několika stále hořícími olejovými lampami. Druhé poschodí chybí – místo něj tvoří obvod místnosti široký vnitřní ochoz se stoly a židlemi pro hosty a dvěma dveřma, jedny vedou na venkovní ochoz. Dole se nachází hlavní lokál s převrácenými stoly a výčepní pult a dvoje dveře, jedny vedou ven. Na podlaze křupe bílý prášek, ve který za ta léta zvětralo vyteklé pivo.
+Když vstoupíte dovnitř, dýchne na vás těžký vzduch zatuchliny a staré vlhkosti. Interiér hospody se tyčí do výšky přes dvě poschodí. Ze stropu visí na silných řetězech masivní lustr osazený několika hořícími olejovými lampami. Druhé poschodí chybí – místo něj tvoří obvod místnosti široký vnitřní ochoz se stoly a židlemi pro hosty a dvěma dveřma, jedny jak už víte vedou na venkovní ochoz. Dole se nachází hlavní lokál s převrácenými stoly a výčepní pult a dvoje dveře, jedny vedou ven. Na podlaze křupe bílý prášek, ve který za ta léta zvětralo vyteklé pivo.
 :::
 
 * **Stoly jako překážky:** Převrácené stoly poskytují poloviční kryt/half cover (+2 k AC).
-* **Zajímavost v pokojích (Průzkum):** V jednom z pokojů pro hosty v patře najdou postavy pod postelí trpasličí mechanickou hračku – malého kamenného kováře bušícího do kovadliny. Stále funguje, a když se natáhne, hlasitě a rytmicky cinká, což lze využít k odlákání pozornosti nepřátel v jiných částech dungeonu.
+* **Zajímavost v pokojích:** V jednom z pokojů pro hosty v patře můžou postavy najít pod postelí trpasličí mechanickou hračku – malého kamenného kováře bušícího do kovadliny. Stále funguje, a když se natáhne, hlasitě a rytmicky cinká, což lze využít k odlákání pozornosti nepřátel v jiných částech dungeonu.
 * **Zápisník na baru:** Na baru můžou postavy najít zápisník kterému koboldi nevěnovali pozornost. Zápisník patří hospodské která měla půjčku od Torvina a stěžuje si tam jak je Torvin urputný ve vymáhání pohledávky:
 
   Zápisník trpaslice **Thory Měděnky**, majitelky hospody:
@@ -65,7 +67,7 @@ Co se dá v kuchyni najít:
 
 Pod hospodou se nachází temný sklep se vstupem z kuchyně.
 
-* **Informace pro DM:** Ve sklepě leží sud, ve kterém se nachází trpasličí ležák zvaný "Sopečný plamen". Mechanicky funguje jako Lektvar ohnivého dechu (*Potion of Fire Breath*).
+* Ve sklepě leží sud, ve kterém se nachází trpasličí ležák zvaný "Sopečný plamen". Mechanicky funguje jako Lektvar ohnivého dechu (*Potion of Fire Breath*).
 
 ### Lektvar ohnivého dechu (Potion of Fire Breath)
 
@@ -110,9 +112,9 @@ Malý, šlachovitý plazí humanoid s kůží pokrytou černými sazemi. Na sob�
 
 **Vlastnosti**
 
-**Taktika smečky/Pack Tactics.** Kobold má výhodu/advantage na hod na útok, pokud je alespoň jeden jeho neschopný spojenec do 5 stop od cíle.
+**Taktika smečky/Pack Tactics.** Kobold má výhodu/advantage na hod na útok, pokud je alespoň jeden jeho spojenec do 5 stop od cíle.
 
-**Citlivost na slunce/Sunlight Sensitivity.** (V hlubinodole se neaplikuje, pokud nestojí přímo v oslnivém paprsku z kráteru).
+**Citlivost na slunce/Sunlight Sensitivity.** (V Hlubinodole se neaplikuje, pokud nestojí přímo v oslnivém paprsku z okna do kráteru).
 
 **Akce**
 
