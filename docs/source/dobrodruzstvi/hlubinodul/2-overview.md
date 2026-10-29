@@ -7,9 +7,9 @@ lang: czech
 
 ## Přehled příběhu a zápletky pro DM
 
-Druhým patrem je nekontrolovaně přebujelá, geotermálně vytápěná podzemní džungle obřích hub a terasovitých polí. Podlaží plně ovládla **Pavoučí Královna (Phase Spider Matriarch)**, která využitím psychické magie (*Charm*) a halucinogenních spor zotročila místní tvory a zablokovala přístup do/z 3. patra.
+Druhým patrem je nekontrolovaně přebujelá, geotermálně vytápěná podzemní džungle terasovitých polí s obřími hubami a zpracovatelských prostor. Podlaží plně ovládla **Pavoučí Královna (Phase Spider Matriarch)**, která využitím psychické magie (kouzlo *Charm*) ovládá komunitu pavouků a téměř všech obyvatel tohoto patra a zablokovala přístup do/z 3. patra.
 
-TODO:
+Fáze dobrodružství:
 
 1. **Expozice (Začátek):** Postavy sestupují do teplé, vlhké a šerosvitné džungle plné světélkujících hub a zbytnělé flóry.
 2. **Výzva (Předěl):** Objevení neprostupných sítí u výtahu a zjištění, že patro kontrolovaně ovládá inteligence sesílající magické očarování.
